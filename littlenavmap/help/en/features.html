@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="language" content="EN" />
+    <meta name="author" content="Alexander Barthel" />
+    <meta name="date" content="2016-08-16T22:12:00+01:00" />
+    <meta content="Little Navmap Features and Limitations" name="description" />
+    <title>
+      Little Navmap Features and Limitations
+    </title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  <body class="c3">
+    <h1>
+      Little Navmap Features and Limitations
+    </h1>
+
+    <p>
+      <img class="textimg" style="width: 100px; height:auto" alt="Little Navmap" title="Little Navmap" src=
+      "images/navroute.svg" />
+    </p>
+
+    <p>
+      <span class="bold">Version 0.9.8.develop</span>
+    </p>
+
+    <p>
+      <span class="bold"><a href="index.html">Little Navmap Manual</a></span>
+    </p>
+    <!-- ===================================================================== -->
+
+    <h2>
+      Features
+    </h2>
+
+    <h3>
+      General
+    </h3>
+
+    <ul>
+      <li>Supported platforms: Windows XP/7/8/10, Linux, Mac OS X.
+      </li>
+
+      <li>Conservative user interface without experiments: Using a main menu, context menus, toolbars, dock windows,
+      undo, recent file lists and more.
+      </li>
+
+      <li>Written using C++ and Qt - It is fast.
+      </li>
+
+      <li>
+        <span class="bold">The program saves almost all settings, like flight plan, windows positions, searches and
+        more and restores everything on start up.</span>
+      </li>
+
+      <li>Most question or information dialogs can be disabled.
+      </li>
+
+      <li>Support for Flight Simulator X, Flight Simulator - Steam Edition, Prepar3D v2 and Prepar3D v3 (partially
+      untested).
+      </li>
+
+      <li>
+        <span class="bold">Data is collected from flight simulator stock and add-on files. No need to buy or download
+        external data like AIRAC cycles.</span>
+      </li>
+
+      <li>
+        <span class="bold">Weather display from ActiveSkyNext, NOAA or Vatsim in tooltips and information
+        panels.</span>
+      </li>
+
+      <li>Scenery library databases for flight simulators are stored separately and can be changed on the fly.
+      </li>
+
+      <li>
+        <em>Little Navmap</em> can be run on computers that do not contain any simulator installation at all. Just copy
+        the scenery library database from your flight simulator computer.
+      </li>
+
+      <li>Airport and navaid icons are used throughout the whole program for easier recognition.
+      </li>
+
+      <li>Information panels show all about airports or navaids.
+      </li>
+
+      <li>
+        <span class="bold">Exhaustive search function for airports and navaids that allows filtering by an unimaginable
+        amount of criteria.</span>
+      </li>
+
+      <li>
+        <span class="bold">Distance based search for airports or navaids around a center point. Can be combined with
+        all other search options.</span>
+      </li>
+
+      <li>Mac OS X and Linux versions in preparation.
+      </li>
+    </ul>
+
+    <h3>
+      Flight Plan and Routing
+    </h3>
+
+    <ul>
+      <li>Can read and write FSX PLN format (XML).
+      </li>
+
+      <li>
+        <span class="bold">Drag and drop flight plan editing on the map.</span>
+      </li>
+
+      <li>Easy flight plan editing in the table view, like moving and deleting waypoints.
+      </li>
+
+      <li>Can merge flight plans or flight plan fragments.
+      </li>
+
+      <li>
+        <span class="bold">Automatic routing (does not require online services) for high/low altitude airways, VOR/NDB
+        and preset cruise altitude.</span>
+      </li>
+
+      <li>Routing is based entirely on flight simulator data. No third party data needed and not online services used.
+      </li>
+
+      <li>
+        <span class="bold">Elevation profile display for flight plan. Shows minimum altitude for flight plan.</span>
+      </li>
+
+      <li>Undo/redo for all flight plan edits.
+      </li>
+
+      <li>Robust against malformed flight plans. Does not put unknown waypoints far off the route.
+      </li>
+    </ul>
+
+    <h3>
+      Map
+    </h3>
+
+    <ul>
+      <li>Uses two free online maps (<em>OpenStreetMap</em> and <em>OpenTopoMap</em>) as well as two simple offline
+      maps. The offline maps are included.
+      </li>
+
+      <li>No need to download and install any additional elevation or map data.
+      </li>
+
+      <li>
+        <span class="bold">Multiple map themes including hill shading and two map projections.</span>
+      </li>
+
+      <li>
+        <span class="bold">Airport display iconography based on real world VFR maps thus combining plenty of
+        information in a small symbol and a few lines of text.</span>
+      </li>
+
+      <li>
+        <span class="bold">Detailed airport diagrams displayed in the map (not a separate window) including parking,
+        taxiways, displaced thresholds, overrun areas and much more.</span>
+      </li>
+
+      <li>Add-on airport names are shown in italic text for easier recognition.
+      </li>
+
+      <li>Distance measurement lines and configurable range rings.
+      </li>
+
+      <li>Can load and display Google Earth KML files.
+      </li>
+
+      <li>History of map position and zoom distance like a web browser.
+      </li>
+
+      <li>Map display configuration including detail level on the toolbar.
+      </li>
+
+      <li>Symbol and text sizes configurable in options dialog.
+      </li>
+
+      <li>Detailed tooltips on map display
+      </li>
+    </ul>
+
+    <h3>
+      Simulator aircraft
+    </h3>
+
+    <ul>
+      <li>
+        <span class="bold">Shows simulator user aircraft on the map including flight plan progress, ambient parameters
+        like wind, temperature, pressure and more (similar to a flight management computer). Needs <em>Little
+        Navconnect</em> which is free too.</span>
+      </li>
+
+      <li>Shows track of simulator user aircraft.
+      </li>
+
+      <li>Using <em>Little Navconnect</em> as an agent between the simulator and <em>Little Navmap</em> saves the pain
+      of remote SimConnect setup.
+      </li>
+    </ul>
+
+    <h2>
+      Limitations
+    </h2>
+
+    <p>
+      Current limitations which will most likely be solved in future updates.
+    </p>
+
+    <ul>
+      <li>No display and flight plan integration for approach procedures and transitions.
+      </li>
+
+      <li>No support for AIRAC map data.
+      </li>
+
+      <li>
+        <em>Little Navmap</em> does not run on flight simulator screen full screen mode.
+      </li>
+
+      <li>No zooming and scrolling in flight plan elevation profile view.
+      </li>
+
+      <li>No aircraft performance profiles (climb speed, cruise speed, fuel flow, etc.).
+      </li>
+
+      <li>User defined waypoints not supported.
+      </li>
+
+      <li>Support for other weather programs than Active Sky Next is missing.
+      </li>
+
+      <li>Weather stations should be displayed of on the map.
+      </li>
+
+      <li>North Atlantic and Pacific tracks are not used.
+      </li>
+    </ul>
+  </body>
+</html>
