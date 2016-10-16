@@ -50,12 +50,12 @@
         -o-background-size: cover;
         background-size: cover;
       }
-      table { background-image: url("images/tablewhite90.png");}
+      .maintable { background-image: url("images/tablewhite90.png");}
       p { width:90%; }
     </style>
   </head>
   <body>
-    <table align="center" border="0" cellpadding="10" cellspacing="0" width="60%">
+    <table class="maintable" align="center" border="0" cellpadding="10" cellspacing="0" width="60%">
       <tbody>
         <tr>
           <td>
@@ -76,64 +76,69 @@
               All these project will remain free and open source.
             </p>
 
-            <p style="font-size: 1.1em;width: 70%">
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <p>
+             <a href="http://www.anja-fahrner.de/produktions-und-lieferstatus-des-science-fiction-romans-alkatar-verfolgen/"
+             target="_blank"><img alt="Alkatar" class="textimg"
+              title="Alkatar" src="images/anja_fahrner_alkatar_63x100.jpg" align="left"/></a>
+                    </p>
+                  </td>
+                  <td style="vertical-align: top;">
+                    <p style="font-size: 1.1em;width: 70%">
               I am not asking for donations and will not accept any but if you're into German Science Fiction
-              have a look at my wife's novel<br/>
+              have a look at my wife's novel:<br/>
               <a style="font-size: 1.2em;"
               href="http://www.anja-fahrner.de/produktions-und-lieferstatus-des-science-fiction-romans-alkatar-verfolgen/"
-              target="_blank">Alkatar (German)</a>.
-            </p>
+              target="_blank">Alkatar (German)</a>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
             <h2>
               News
             </h2>
 
             <p>
-              <span class="bold" style="font-size: 1.2em">2016-10-06</span>
+              <span class="bold" style="font-size: 1.4em">2016-10-16</span>
             </p>
 
             <ul>
             <li>
-              <span class="bold"><a href="https://github.com/albar965/littlenavmap/releases/tag/v1.0.4.beta"
-              target="_blank">Little Navmap beta version 1.0.4.beta
-              released</a></span><br/>
-               Fixed scenery reading errors.
-               Reading scenery library now continues if errors occur.
-               Problem loading PFPX plans solved.
-               Fixed errors loading scenery.cfg when using Scenery Config Editor.
-               Solved problems recognizing flight simulator paths.
-               Fixed map drawing errors. Added binary for Apple macOS.<br/><a href=
-              "https://github.com/albar965/littlenavmap/releases/download/v1.0.4.beta/LittleNavmap-1.0.4.beta.zip">Download
-              LittleNavmap-1.0.4.beta.zip for Windows</a><br/>
+              <a href="https://github.com/albar965/littlenavmap/releases/tag/v1.0.5"
+              target="_blank"><span class="bold"  style="font-size: 1.2em">Little Navmap stable version 1.0.5
+              released</span></a><br/>
+              <span class="bold">Fixed:</span> Scenery reading errors for airports without city name. Errors reading scenery.cfg file. Exclude
+              options did not work for some scenery paths.
+              Wrong order of flight plan when adding waypoints.
+              Overview overlay loosing background image. Valid start position in flight plan not recognized.
+              Display of narrow and closed taxiways.<br/>
+              <span class="bold">Improved:</span> Disabling aircraft tracking on double click and other actions.
+              Simulator selection in loading dialog now synchronized with map. Smoothed user aircraft movement a bit.
+              Added help button to various dialogs. Many additions and clarifications in the manual.
+              <br/><a href=
+              "https://github.com/albar965/littlenavmap/releases/download/v1.0.5/LittleNavmap-win-1.0.5.zip">Download
+              LittleNavmap-win-1.0.5.zip for Windows</a><br/>
               <a href=
-              "https://github.com/albar965/littlenavmap/releases/download/v1.0.4.beta/LittleNavmap-1.0.4.beta.dmg">Download
-              LittleNavmap-1.0.4.beta.dmg for Apple macOS</a>
+              "https://github.com/albar965/littlenavmap/releases/download/v1.0.5/LittleNavmap-macOS-1.0.5.dmg">Download
+              LittleNavmap-macOS-1.0.5.dmg for Apple macOS</a>
+            </li>
+            <li>
+              <a href="https://github.com/albar965/littlenavconnect/releases/tag/v1.0.1"
+              target="_blank"><span class="bold" style="font-size: 1.2em">Little Navconnect stable version 1.0.1
+              released</span></a><br/>
+              <a href= "https://github.com/albar965/littlenavconnect/releases/download/v1.0.1/LittleNavconnect-win-1.0.1.zip">Download
+              LittleNavconnect-win-1.0.1.zip</a>
             </li>
             </ul>
 
             <p>
               <span class="bold" style="font-size: 1.2em">...</span>
             </p>
-
-            <p>
-              <span class="bold" style="font-size: 1.2em">2016-09-25</span>
-            </p>
-            <ul>
-            <li>
-              <span class="bold"><a href="https://github.com/albar965/littlenavmap/releases/tag/v1.0.0.beta"
-              target="_blank">Little Navmap beta version 1.0.0.beta
-              released</a></span><br/><a href=
-              "https://github.com/albar965/littlenavmap/releases/download/v1.0.0.beta/LittleNavmap-1.0.0.beta.zip">Download
-              LittleNavmap-1.0.0.beta.zip</a>
-            </li>
-            <li>
-              <span class="bold"><a href="https://github.com/albar965/littlenavconnect/releases/tag/v1.0.0.beta"
-              target="_blank">Little Navconnect public beta version 1.0.0.beta
-              released</a></span><br/>
-              <a href= "https://github.com/albar965/littlenavconnect/releases/download/v1.0.0.beta/LittleNavconnect-1.0.0.beta.zip">Download
-              LittleNavconnect-1.0.0.beta.zip</a>
-            </li>
-            </ul>
 
             <h2>
               Little Navmap
@@ -246,7 +251,7 @@
               <br />
               <br />
               <br />
-              Last update 2016-10-06
+              Last update 2016-10-16
             </p>
           </td>
         </tr>
