@@ -7,9 +7,9 @@
 color: #6d6d6d; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); background: #e7e7e7 url(../images/background.jpg) 0 0 repeat; }
 */
 
-#container { min-height: 75%; background: transparent; }
+#container { min-height: 60%; background: transparent; }
 
-.inner { width: 75%; margin: 20px auto 20px auto;  padding: 10px 10px; background: url("../images/tablewhite90.png")}
+.inner { width: 60%; margin: 20px auto 20px auto;  padding: 10px 10px; background: url("../images/tablewhite90.png")}
 
 #container .inner img { max-width: 100%; }
 
@@ -21,7 +21,9 @@ color: #101010;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        color: #000000;
       }
 
 a:link {color:#000066;}
@@ -74,7 +76,6 @@ ul, nl, li {
 
 
 p, p.small {
-font-size: 1.1em;
   margin-left: 30px;
   margin-right: 30px;
     margin-top: 0.4em;
@@ -101,7 +102,7 @@ hr {
     height: 2px;
     line-height: 2px;
     display: block;
-    border-width: 1px;
+    border-width: 0px;
 
     padding-bottom: 0em;
 }

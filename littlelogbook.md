@@ -1,19 +1,20 @@
 ---
 layout: subpage
 title:  "Little Logbook"
-date:   2017-05-10 15:28:00 CEST
+date:   2017-05-10 20:31:00 +0200
 ---
-# Little Logbook
+[Main](index.html) ◄ Little Logbook
+# [![Little Logbook](assets/images/logbook.png)](littlelogbook.html) Little Logbook
 
 ## Links
 
-[**Releases and Downloads**](https://github.com/albar965/littlelogbook/releases)
+[**► Releases and Downloads**](https://github.com/albar965/littlelogbook/releases)
 
-[Help English (Version 1.5.0)](https://albar965.github.io/littlelogbook/help/en/index.html)
+[► Help English (Version 1.5.0)](https://albar965.github.io/littlelogbook/help/en/index.html)
 
-[Hilfe Deutsch (Version 1.5.0)](https://albar965.github.io/littlelogbook/help/de/index.html)
+[► Hilfe Deutsch (Version 1.5.0)](https://albar965.github.io/littlelogbook/help/de/index.html)
 
-[Github Little Logbook Project](and Sources https://github.com/albar965/littlelogbook)
+[► Github Little Logbook Project](and Sources https://github.com/albar965/littlelogbook)
 
 
 ## Screenshots

@@ -1,4 +1,5 @@
 theme: jekyll-theme-tactile
+repository: albar965/albar965.github.io
 
 gems:
   - jekyll-sitemap
