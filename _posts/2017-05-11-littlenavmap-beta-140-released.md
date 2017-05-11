@@ -5,11 +5,11 @@ date:   2017-05-11 13:04:00 +0200
 categories: release
 ---
 
-[Release Page on Github](https://github.com/albar965/littlenavmap/releases/tag/v1.4.0)
+[Release Page on Github](https://github.com/albar965/littlenavmap/releases/tag/v1.4.0.beta)
 
-[Direct download link Windows](https://github.com/albar965/littlenavmap/releases/download/v1.4.0/LittleNavmap-win-1.4.0.zip)
+[Direct download link Windows](https://github.com/albar965/littlenavmap/releases/download/v1.4.0.beta/LittleNavmap-win-1.4.0.beta.zip)
 
-[Direct download link macOS](https://github.com/albar965/littlenavmap/releases/download/v1.4.0/LittleNavmap-macOS-1.4.0.dmg)
+[Direct download link macOS](https://github.com/albar965/littlenavmap/releases/download/v1.4.0.beta/LittleNavmap-macOS-1.4.0.beta.dmg)
 
 [Online Manual](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en/) \(this links directly to the manual of 1.4 while the front page still shows 1.2 until the final release is out\)
 
