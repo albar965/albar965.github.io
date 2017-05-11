@@ -1,32 +1,35 @@
 ---
 layout: default
 title:  "Alex' Projects"
-date:   2017-05-10 20:31:00 +0200
+date:   2017-05-11 13:04:00 +0200
 ---
 
 # Alex' Projects
-
-[**► GitHub Profile**](https://github.com/albar965)
-
-**All my projects, releases, source code, issue lists and more.**
-
-[**► GitBook Online Manuals**](https://www.gitbook.com/@albar965)
-
-**Online manuals for all programs with version equal or above 1.2.**
-
-[**► Support Forum at Avsim**](http://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum)
-
-**Help for users, preview of new releases, development progress, screenshots and beta releases.**
-
 
 ## News
 <p>
   {% for post in site.posts %}
     <p>
-      <span class="bold">{{ post.date | date_to_long_string }} - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
+      <span class="bold">{{ post.date | date: "%Y-%m-%d, %H:%M" }} - <a href="{{ site.baseurl }}{{ post.url }}"><span class="bold">{{ post.title }}</span></a></span>
     </p>
   {% endfor %}
-</p>
+  
+  <br>
+  <br>
+	</p>
+
+## Links
+[**► GitHub Profile**](https://github.com/albar965)
+
+All my projects, releases, source code, issue lists and more.
+
+[**► GitBook Online Manuals**](https://www.gitbook.com/@albar965)
+
+Online manuals for all programs with version equal or above 1.2.
+
+[**► Support Forum at Avsim**](http://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum)
+
+Help for users, preview of new releases, development progress, screenshots and beta releases.
 
 ## A small Promotion
 
@@ -40,13 +43,18 @@ Ich möchte keine Spenden, würde mich aber darüber freuen, wenn ihr euch das P
 
 Vielleicht ist etwas zum Verschenken oder für Euch selbst dabei.
 
-![Alkatar und Die Erben der Verbannten](assets/images/alkatar_und_erben.jpg) Das Buch [**Alkatar**](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar) oder die Kurzgeschichte [**Die Erben der Verbannten**](http://www.anja-fahrner.de/die-erben-der-verbannten).
+Das Buch [**Alkatar**](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar) oder 
+die Kurzgeschichte [**Die Erben der Verbannten**](http://www.anja-fahrner.de/die-erben-der-verbannten).
+
+[![Alkatar](assets/images/alkatar_buch.jpg)](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar)
+[![Die Erben der Verbannten](assets/images/die_erben_buch.jpg)](http://www.anja-fahrner.de/die-erben-der-verbannten)
 
 ## Little Navmap
 
 [![Little Navmap](assets/images/navroute.png)](littlenavmap.html) [**► Little Navmap**](littlenavmap.html) is a free open source flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X and Prepar3D.
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2 and Prepar3D v3.
+
 **Supported platforms:** Windows 7/8/10, Linux (Ubuntu and derived) and macOS.
 
 **Windows XP is not supported.**
@@ -58,6 +66,7 @@ small free open source application that acts as an agent connecting Little Navma
 on Linux or Mac and saves the the pain of setting up remote SimConnect links.
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2 and Prepar3D v3.
+
 **Supported platforms:** Windows 7/8/10. SimConnect installation needed.
 
 **Windows XP is not supported.**
