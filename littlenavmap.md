@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2017-05-12 12:54:00 +0200
+date:   2017-05-12 18:39:00 +0200
 ---
 [Main](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
@@ -25,6 +25,8 @@ date:   2017-05-12 12:54:00 +0200
 * Little Navmap can be run stand-alone or in **networked configuration** and can connect directly to the flight simulator.
 * An **automatic reconnection** option makes the start order of programs irrelevant. Running a networked setup needs the free *Little Navconnect* program which eases setup across two or more computers.
 * The program does not consume a lot of resources and can be run on **low end computers**.
+* **Help** available online \(can be downloaded as PDF, ePub or Mobi\) and also included as PDF with the program.
+* Help buttons in dialogs link to corresponding online help chapter.
 
 ## Links
 
