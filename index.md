@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Alex' Projects"
-date:   2017-05-11 13:04:00 +0200
+date:   2017-05-12 12:54:00 +0200
 ---
 
 # Alex' Projects
@@ -16,7 +16,7 @@ date:   2017-05-11 13:04:00 +0200
   
   <br>
   <br>
-	</p>
+</p>
 
 ## Links
 [**► GitHub Profile**](https://github.com/albar965)
@@ -53,11 +53,19 @@ die Kurzgeschichte [**Die Erben der Verbannten**](http://www.anja-fahrner.de/die
 
 [![Little Navmap](assets/images/navroute.png)](littlenavmap.html) [**► Little Navmap**](littlenavmap.html) is a free open source flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X and Prepar3D.
 
-**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2 and Prepar3D v3.
+A widely configurable map display using the OpenStreetMap as a background map is only one option of many online or included offline maps.
+
+It supports approach and departure procedures, offers several automatic flight plan calculation options and multiple export formats like GFP, GPX, RTE, FLP and FMS as well as drag and drop flight plan editing on the map.
+
+An elevation profile is shown for the flight plan allowing to find a safe cruise altitude.
+
+Search functionality allows to look for airports, navaids or procedures by a large amount of criteria also including a spatial search.
+
+The program can generate an ATS route string from flight plans and vice versa.
+
+**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2 and Prepar3D v3. Can also run on computers without simulator installation.
 
 **Supported platforms:** Windows 7/8/10, Linux (Ubuntu and derived) and macOS.
-
-**Windows XP is not supported.**
 
 ## Little Navconnect
 
@@ -67,9 +75,7 @@ on Linux or Mac and saves the the pain of setting up remote SimConnect links.
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2 and Prepar3D v3.
 
-**Supported platforms:** Windows 7/8/10. SimConnect installation needed.
-
-**Windows XP is not supported.**
+**Supported platforms:** Windows 7/8/10.
 
 ## Little Logbook
 
