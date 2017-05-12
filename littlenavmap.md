@@ -36,9 +36,9 @@ date:   2017-05-12 18:39:00 +0200
 
 [► Online User Manual for version 1.2.4 \(English\)](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.2/en)
 
-[► Features](https://albar965.github.io/littlenavmap/help/en/features.html)
+[► Features](https://albar965.github.io/littlenavmap/help/v/release/1.2/en/features.html)
 
-[► Map Legend](https://albar965.github.io/littlenavmap/help/en/legend.html)
+[► Map Legend](https://albar965.github.io/littlenavmap/help/v/release/1.2/en/legend.html)
 
 
 [► Github Little Navmap Project and Sources](https://github.com/albar965/littlenavmap)
