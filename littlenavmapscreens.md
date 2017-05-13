@@ -3,10 +3,25 @@ layout: subpage
 title:  "Little Navmap Screenshots"
 date:   2017-05-11 13:04:00 +0200
 ---
-[Main](index.html) ►  [Little Navmap](littlenavmap.html) ► Screenshots
+[Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Screenshots
 # Screenshots
 
 Click on image for full size.
+
+----
+**Little Navmap 1.4.0.beta showing all new features like procedures and airspaces:**
+
+[![Little Navmap 1.4 Overview](assets/images/littlenavmapall140.jpg)](assets/images/littlenavmapall140.jpg)
+
+----
+**Little Navmap 1.4.0.beta airpsaces:**
+
+[![Little Navmap Airspaces](assets/images/littlenavmapairspace140.jpg)](assets/images/littlenavmapairspace140.jpg)
+
+----
+**Little Navmap 1.4.0.beta approach procedure:**
+
+[![Little Navmap Approach Procedure](assets/images/littlenavmapapproach.jpg)](assets/images/littlenavmapapproach.jpg)
 
 ----
 **Little Navmap 1.2.4 with map and sourrounding docked windows showing airport Hamburg runway overview and ILS feathers:**

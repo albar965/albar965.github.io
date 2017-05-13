@@ -3,7 +3,7 @@ layout: subpage
 title:  "Little Navmap"
 date:   2017-05-12 18:39:00 +0200
 ---
-[Main](index.html) ► Little Navmap
+[Alex’ Projects](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
 
 *Little Navmap* is a free open source flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X and Prepar3D.
@@ -34,10 +34,10 @@ date:   2017-05-12 18:39:00 +0200
 
 [**► Screenshots**](littlenavmapscreens.html)
 
-[► Online User Manual for version 1.2.4 \(English\)](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.2/en)
+[► Online User Manual for version \(English\)](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en) \(Version 1.4.0.beta\)
 
-[► Features](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.2/en/FEATURES.html)
+[► Features](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en/FEATURES.html) \(Version 1.4.0.beta\)
 
-[► Map Legend](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.2/en/LEGEND.html)
+[► Map Legend](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en/LEGEND.html) \(Version 1.4.0.beta\)
 
 [► Github Little Navmap Project and Sources](https://github.com/albar965/littlenavmap)
