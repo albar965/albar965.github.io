@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2017-05-12 18:39:00 +0200
+date:   2017-05-15 13:00:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
@@ -15,6 +15,7 @@ date:   2017-05-12 18:39:00 +0200
 * Additionally flight plans can be exported to the **GFP format used by the Flight1 GTN 650/750**. More export formats are **GPX (GPS Exchange Format, including flown track), PMDG RTE, Aerosoft Airbus FLP and X-Plane FMS**.
 * **Drag and drop** flight plan editing functionality on the map allows to easily create and edit plans.
 * Several fast **automatic flight plan calculation** modes are available to create plans following airways or simply from radio navaid to radio navaid within a split second. No online service is needed for flight plan calculation.
+* Option to **calculate flight plan fragments** between any two waypoints of a present flight plan.
 * Flight plan route descriptions can be read which allows to convert flight plans from and to **ATS routes** as can be retrieved from the various online services like [RouteFinder](http://rfinder.asalink.net). This includes SIDs, STARs and information for cruise speed and altitude.
 * A **profile** window shows the **ground elevation** along the flight plan including the minimum safe altitude for the whole plan or each segment.
 * The map and flight plans including all related information at departure and destination can be **printed**.
