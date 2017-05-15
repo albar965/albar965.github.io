@@ -1,12 +1,12 @@
 ---
 layout: default
 title:  "Alex' Projects"
-date:   2017-05-12 12:54:00 +0200
+date:   2017-05-16 00:10:00 +0200
 ---
 
 # Alex' Projects
 
-## News
+## [![RSS Feed](assets/images/feed.png)](/feed.xml) News
 <p>
   {% for post in site.posts %}
     <p>
