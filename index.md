@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title:  "Alex' Projects"
 date:   2017-05-16 00:10:00 +0200
 ---
