@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Little Navmap 1.4.1.beta released"
-date:   2017-05-17 12:20:00 +0200
+date:   2017-05-16 13:34:00 +0200
 categories: release
 ---
 
