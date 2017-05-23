@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-05-16 00:10:00 +0200
+date:   2017-05-23 22:03:00 +0200
 ---
 
 # Alex' Projects
@@ -53,7 +53,7 @@ die Kurzgeschichte [**Die Erben der Verbannten**](http://www.anja-fahrner.de/die
 
 [![Little Navmap](assets/images/navroute.png)](littlenavmap.html) [**► Little Navmap**](littlenavmap.html) is a free open source flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X and Prepar3D.
 
-A widely configurable map display using the OpenStreetMap as a background map is only one option of many online or included offline maps.
+A widely configurable map display using the OpenStreetMap as a background map which is only one option of many online or included offline maps. The map shows airports, navaids, airways, airspaces, AI or multiplayer aircraft and ships. A seamlessly integrated airport diagram displays taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
 
 It supports approach and departure procedures, offers several automatic flight plan calculation options and multiple export formats like GFP, GPX, RTE, FLP and FMS as well as drag and drop flight plan editing on the map.
 

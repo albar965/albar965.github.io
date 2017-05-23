@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2017-05-15 13:00:00 +0200
+date:   2017-05-23 22:00:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
@@ -27,6 +27,8 @@ date:   2017-05-15 13:00:00 +0200
 * An **automatic reconnect** option makes the start order of programs irrelevant. Running a networked setup needs the free [Little Navconnect](littlenavconnect.html) program which eases setup across two or more computers.
 * The program does not consume a lot of resources and can be run on **low end computers**.
 * **Help** is available online \(can be downloaded as PDF, ePub or Mobi\). A PDF file with the complete manual is included with the program. Help buttons in dialogs link to corresponding online help chapter.
+
+**Note that VORTAC, TACAN, SID and STAR need a navdata update by [_fsAerodata_](https://www.fsaerodata.com).**
 
 ## Links
 
