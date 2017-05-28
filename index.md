@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-05-23 22:03:00 +0200
+date:   2017-05-28 21:45:00 +0200
 ---
 
 # Alex' Projects
@@ -63,9 +63,9 @@ Search functionality allows to look for airports, navaids or procedures by a lar
 
 The program can generate an ATS route string from flight plans and vice versa.
 
-**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2 and Prepar3D v3. Can also run on computers without simulator installation.
+**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3 and v4. Can also run on computers without simulator installation.
 
-**Supported platforms:** Windows 7/8/10, Linux (Ubuntu and derived) and macOS.
+**Supported platforms:** Windows 7/8/10, Apple macOS and Linux (tested on Ubuntu).
 
 ## Little Navconnect
 
@@ -73,7 +73,7 @@ The program can generate an ATS route string from flight plans and vice versa.
 small free open source application that acts as an agent connecting Little Navmap with a flight simulator. This allows to use Little Navmap
 on Linux or Mac and saves the the pain of setting up remote SimConnect links.
 
-**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2 and Prepar3D v3.
+**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3 and v4.
 
 **Supported platforms:** Windows 7/8/10.
 
