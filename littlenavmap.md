@@ -1,10 +1,12 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2017-05-28 21:49:00 +0200
+date:   2017-05-31 21:49:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
+
+Version 1.4.3.
 
 *Little Navmap* is a free open source flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X and Prepar3D.
 
@@ -24,7 +26,7 @@ date:   2017-05-28 21:49:00 +0200
 * The map display and the measurement units (nautical, metric, imperial) can be customized by the user.
 * All settings, search parameters, current flight plan, map positions and much more are saved between sessions.
 * *Little Navmap* can connect directly to the flight simulator and can also be run stand-alone or in **networked configuration**.
-* An **automatic reconnect** option makes the start order of programs irrelevant. Running a networked setup needs the free [Little Navconnect](littlenavconnect.html) program which eases setup across two or more computers.
+* An **automatic reconnect** option makes the start order of programs irrelevant. Running a networked setup needs the included [Little Navconnect](littlenavconnect.html) program which eases setup across two or more computers.
 * The program does not consume a lot of resources and can be run on **low end computers**.
 * **Help** is available online \(can be downloaded as PDF, ePub or Mobi\). A PDF file with the complete manual is included with the program. Help buttons in dialogs link to corresponding online help chapter.
 
@@ -36,10 +38,10 @@ date:   2017-05-28 21:49:00 +0200
 
 [**► Screenshots**](littlenavmapscreens.html)
 
-[► Online User Manual for version \(English\)](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en) \(Version 1.4.1.beta\)
+[► Online User Manual for version \(English\)](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en)
 
-[► Features](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en/FEATURES.html) \(Version 1.4.1.beta\)
+[► Features](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en/FEATURES.html)
 
-[► Map Legend](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en/LEGEND.html) \(Version 1.4.1.beta\)
+[► Map Legend](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en/LEGEND.html)
 
-[► Github Little Navmap Project and Sources](https://github.com/albar965/littlenavmap)
+[► GitHub Little Navmap Project and Sources](https://github.com/albar965/littlenavmap)

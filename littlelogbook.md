@@ -14,7 +14,7 @@ date:   2017-05-11 13:04:00 +0200
 
 [► Hilfe Deutsch (Version 1.5.0)](https://albar965.github.io/littlelogbook/help/de/index.html)
 
-[► Github Little Logbook Project](and Sources https://github.com/albar965/littlelogbook)
+[► GitHub Little Logbook Project](and Sources https://github.com/albar965/littlelogbook)
 
 
 ## Screenshots

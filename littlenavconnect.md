@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navconnect"
-date:   2017-05-11 13:04:00 +0200
+date:   2017-05-30 14:04:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navconnect
 # ![Little Navconnect](assets/images/navconnect.png) Little Navconnect
@@ -10,13 +10,13 @@ date:   2017-05-11 13:04:00 +0200
 
 ## Links
 
-**Little Navconnect is included in the download archive of [Little Navmap](littlenavmap.html).** Normally the is no need to download it separately.
+**Little Navconnect is included in the download archive of [Little Navmap](littlenavmap.html).** Downloading it separately is normally not needed.
 
 [► **Releases and Downloads**](https://github.com/albar965/littlenavconnect/releases)
 
-[► Online User Manual \(English\)](https://albar965.gitbooks.io/little-navconnect-user-manual/content/v/release/1.4/en) \(Version 1.4.0.beta\)
+[► Online User Manual \(English\)](https://albar965.gitbooks.io/little-navconnect-user-manual/content/v/release/1.4/en)
 
-[► Github Little Navmap Project and Sources](https://github.com/albar965/littlenavconnect)
+[► GitHub Little Navmap Project and Sources](https://github.com/albar965/littlenavconnect)
 
 
 ## Screenshots

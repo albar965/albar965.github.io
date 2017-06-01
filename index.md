@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-05-28 21:45:00 +0200
+date:   2017-06-01 11:01:00 +0200
 ---
 
 # Alex' Projects
@@ -10,12 +10,16 @@ date:   2017-05-28 21:45:00 +0200
 <p>
   {% for post in site.posts %}
     <p>
-      <span class="bold">{{ post.date | date: "%Y-%m-%d, %H:%M" }} - <a href="{{ site.baseurl }}{{ post.url }}"><span class="bold">{{ post.title }}</span></a></span>
+  {% if forloop.first == true %}
+      <span class="bold">{{ post.date | date: "%Y-%m-%d, %H:%M" }} <a href="{{ site.baseurl }}{{ post.url }}"><span class="bold">► {{ post.title }}</span></a></span>
+    {% else %}
+      <p>{{ post.date | date: "%Y-%m-%d, %H:%M" }} - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+    {% endif %}
+    
     </p>
   {% endfor %}
-  
-  <br>
-  <br>
+
+   <br>
 </p>
 
 ## Links
@@ -25,7 +29,7 @@ All my projects, releases, source code, issue lists and more.
 
 [**► GitBook Online Manuals**](https://www.gitbook.com/@albar965)
 
-Online manuals for all programs with version equal or above 1.2.
+Online manuals for _Little Navmap_ and _Little Navconnect_.
 
 [**► Support Forum at Avsim**](http://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum)
 
