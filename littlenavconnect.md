@@ -14,7 +14,7 @@ date:   2017-05-30 14:04:00 +0200
 
 [► **Releases and Downloads**](https://github.com/albar965/littlenavconnect/releases)
 
-[► Online User Manual \(English\)](https://albar965.gitbooks.io/little-navconnect-user-manual/content/v/release/1.4/en)
+[► Online User Manual](https://albar965.gitbooks.io/little-navconnect-user-manual/content/v/release/1.4/en)
 
 [► GitHub Little Navmap Project and Sources](https://github.com/albar965/littlenavconnect)
 

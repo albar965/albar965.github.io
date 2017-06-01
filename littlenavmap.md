@@ -38,7 +38,7 @@ Version 1.4.3.
 
 [**► Screenshots**](littlenavmapscreens.html)
 
-[► Online User Manual for version \(English\)](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en)
+[► Online User Manual for version](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en)
 
 [► Features](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en/FEATURES.html)
 
