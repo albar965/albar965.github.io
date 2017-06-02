@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-06-01 11:01:00 +0200
+date:   2017-06-02 13:25:00 +0200
 ---
 
 # Alex' Projects
@@ -70,6 +70,9 @@ The program can generate an ATS route string from flight plans and vice versa.
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3 and v4. Can also run on computers without simulator installation.
 
 **Supported platforms:** Windows 7/8/10, Apple macOS and Linux (tested on Ubuntu).
+
+[![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
+
 
 ## Little Navconnect
 

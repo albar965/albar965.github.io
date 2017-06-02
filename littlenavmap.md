@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2017-05-31 21:49:00 +0200
+date:   2017-06-02 13:25:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
@@ -45,3 +45,5 @@ Version 1.4.3.
 [► Map Legend](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.4/en/LEGEND.html)
 
 [► GitHub Little Navmap Project and Sources](https://github.com/albar965/littlenavmap)
+
+[![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
