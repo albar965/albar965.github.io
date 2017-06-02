@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-06-02 13:25:00 +0200
+date:   2017-06-02 20:50:00 +0200
 ---
 
 # Alex' Projects
@@ -22,7 +22,7 @@ date:   2017-06-02 13:25:00 +0200
    <br>
 </p>
 
-## Links
+## Links {#links}
 [**► GitHub Profile**](https://github.com/albar965)
 
 All my projects, releases, source code, issue lists and more.
@@ -35,7 +35,7 @@ Online manuals for _Little Navmap_ and _Little Navconnect_.
 
 Help for users, preview of new releases, development progress, screenshots and beta releases.
 
-## A small Promotion
+## A small Promotion {#promotion}
 
 **All my projects will remain free and open source.**
 
@@ -53,7 +53,7 @@ die Kurzgeschichte [**Die Erben der Verbannten**](http://www.anja-fahrner.de/die
 [![Alkatar](assets/images/alkatar_buch.jpg)](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar)
 [![Die Erben der Verbannten](assets/images/die_erben_buch.jpg)](http://www.anja-fahrner.de/die-erben-der-verbannten)
 
-## Little Navmap
+## Little Navmap {#littlenavmap}
 
 [![Little Navmap](assets/images/navroute.png)](littlenavmap.html) [**► Little Navmap**](littlenavmap.html) is a free open source flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X and Prepar3D.
 
@@ -74,7 +74,7 @@ The program can generate an ATS route string from flight plans and vice versa.
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
 
-## Little Navconnect
+## Little Navconnect {#littlenavconnect}
 
 [![Little Navconnect](assets/images/navconnect.png)](littlenavconnect.html) [**► Little Navconnect**](littlenavconnect.html) is a
 small free open source application that acts as an agent connecting Little Navmap with a flight simulator. This allows to use Little Navmap
@@ -84,7 +84,7 @@ on Linux or Mac and saves the the pain of setting up remote SimConnect links.
 
 **Supported platforms:** Windows 7/8/10.
 
-## Little Logbook
+## Little Logbook {#littlelogbook}
 
 [![Little Logbook](assets/images/logbook.png)](littlelogbook.html) [**► Little Logbook**](littlelogbook.html) is a view and extraction program
 for the FSX logbook. It allows fast and intuitive search and grouping of logbook entries based on several parameters, as well as export to HTML,

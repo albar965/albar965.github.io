@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2017-06-02 13:25:00 +0200
+date:   2017-06-02 20:50:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
@@ -32,7 +32,7 @@ Version 1.4.3.
 
 **Note that VORTAC, TACAN, SID and STAR need a navdata update by [_fsAerodata_](https://www.fsaerodata.com).**
 
-## Links
+## Links {#links}
 
 [**► Releases and Downloads**](https://github.com/albar965/littlenavmap/releases)
 

@@ -1,14 +1,14 @@
 ---
 layout: subpage
 title:  "Little Navconnect"
-date:   2017-05-30 14:04:00 +0200
+date:   2017-06-02 20:50:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navconnect
 # ![Little Navconnect](assets/images/navconnect.png) Little Navconnect
 
 *Little Navconnect* is a free open source application that acts as an agent connecting *Little Navmap* with a flight simulator. This allows to use *Little Navmap* on remote, Linux or Mac computers and saves the the pain of setting up SimConnect links across a network.
 
-## Links
+## Links {#links}
 
 **Little Navconnect is included in the download archive of [Little Navmap](littlenavmap.html).** Downloading it separately is normally not needed.
 
@@ -19,7 +19,7 @@ date:   2017-05-30 14:04:00 +0200
 [► GitHub Little Navmap Project and Sources](https://github.com/albar965/littlenavconnect)
 
 
-## Screenshots
+## Screenshots {#screenshots}
 
 ----
 **Little Navconnect running and waiting for a simulator:**
