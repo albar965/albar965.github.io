@@ -15,7 +15,7 @@ date:   2017-06-02 20:50:00 +0200
     {% else %}
       <p>{{ post.date | date: "%Y-%m-%d, %H:%M" }} - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
     {% endif %}
-    
+
     </p>
   {% endfor %}
 
@@ -34,24 +34,6 @@ Online manuals for _Little Navmap_ and _Little Navconnect_.
 [**► Support Forum at Avsim**](http://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum)
 
 Help for users, preview of new releases, development progress, screenshots and beta releases.
-
-## A small Promotion {#promotion}
-
-**All my projects will remain free and open source.**
-
-I am not asking for donations, but if you're into German Science Fiction have a look at my wife's novel [**Alkatar**](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar) or short story [**Die Erben der Verbannten**](http://www.anja-fahrner.de/die-erben-der-verbannten).
-
----
-
-Ich möchte keine Spenden, würde mich aber darüber freuen, wenn ihr euch das Projekt meiner Frau anschaut. Sie schreibt gesellschaftskritische Science-Fiction.
-
-Vielleicht ist etwas zum Verschenken oder für Euch selbst dabei.
-
-Das Buch [**Alkatar**](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar) oder 
-die Kurzgeschichte [**Die Erben der Verbannten**](http://www.anja-fahrner.de/die-erben-der-verbannten).
-
-[![Alkatar](assets/images/alkatar_buch.jpg)](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar)
-[![Die Erben der Verbannten](assets/images/die_erben_buch.jpg)](http://www.anja-fahrner.de/die-erben-der-verbannten)
 
 ## Little Navmap {#littlenavmap}
 
