@@ -1,0 +1,22 @@
+[stable]
+version=1.4.4
+url=https://albar965.github.io/release/2017/07/04/littlenavmap-stable-144-released.html
+changelog=<ul> <li>Added light (Positron) and dark (Dark Matter) maps from CARTO.</li> <li>SimConnect is now detected and loaded dynamically. The file littlenavmap-nosimconnect.exe was removed since it is not needed anymore. littlenavmap.exe can now also be used on bare computers without SimConnect or flight simulator installation.</li> <li>Added notification message if SimConnect was not found in connect dialog.</li> <li>The file link in the information window is now removed if the file cannot be found. This happens on remote computers with copied databases.</li> <li>Added start positions to runway information. These are also available if the airport has no runways.</li> <li>Improved aircraft progress display and fixed multiple omissions.</li> <li>Fixed potential crashes when a style is unavailable.</li> <li>Half transparent aircraft icon fixed.</li> <li>Fixed problem with links in scenery database error dialog opening inline.</li> <li>Changed to Qt library 5.9. Note that the GTK style is not available anymore in Linux.</li> <li>P3D v4 runways, aprons and taxiways are now read correctly. This affects all BGL files that are created using the v4 SDK compiler.</li> <li>Fixed crash with P3D v4 BGL files and crashes that appear after applying the P3D v4 hotfix 1.</li> <li>Added support for P3D v4 add-on.xml packages. These are now read from subdirectories of C:\Users\YOURUSERNAME\Documents\Prepar3D v4 Files\add-ons and C:\Users\YOURUSERNAME\Documents\Prepar3D v4 Add-ons.</li> </ul>
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.4.4/LittleNavmap-win-1.4.4.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.4.4/LittleNavmap-macOS-1.4.4.dmg
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.4.4/LittleNavmap-linux-1.4.4.tar.gz
+
+#[beta]
+#version=1.6.0.beta
+#url=https://albar965.github.io/release/2017/07/04/littlenavmap-stable-144-released.html
+#changelog=<ul><li>First beta</li><li>Second beta</li></ul><p>Notes: Do not delete</p>
+
+[develop]
+version=1.5.3.develop
+downloadwin=https://www.dropbox.com/s/v98jflpxphns4x0/LittleNavmap-20170730-1853.zip
+changelog=<ul> <li>Fixed missing encoding in PLN XML files since changing to Qt 5.9.</li> <li>Now generating scenery names if missing from add-on.xml files.</li> <li>Fixed excessive logging of warnings in invalid airport records and waypoints.</li> <li>Now skipping airports where the first record is already invalid.</li> <li>Fixed problem with unnamed scenery areas from add-on.xml files.</li> </ul>
+
+
+
+
+
