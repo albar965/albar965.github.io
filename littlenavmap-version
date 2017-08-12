@@ -13,8 +13,8 @@ downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.4.4/
 
 [develop]
 version=1.5.3.develop
-downloadwin=https://www.dropbox.com/s/v98jflpxphns4x0/LittleNavmap-20170730-1853.zip
-changelog=<ul> <li>Fixed missing encoding in PLN XML files since changing to Qt 5.9.</li> <li>Now generating scenery names if missing from add-on.xml files.</li> <li>Fixed excessive logging of warnings in invalid airport records and waypoints.</li> <li>Now skipping airports where the first record is already invalid.</li> <li>Fixed problem with unnamed scenery areas from add-on.xml files.</li> </ul>
+changelog=<ul> <li>Can now read the X-Plane scenery database and weather file</li> <li>Loading of FMS, FLP and FS9 PLN</li> <li>Automatic update checking</li> <li>Magnetic declination issues fixed</li> <li>Speed limits in procedures</li> <li>Many other fixes and improvements - see CHANGELOG.txt for details</li> </ul>
+
 
 
 
