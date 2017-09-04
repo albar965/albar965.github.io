@@ -1,22 +1,99 @@
+# ---------------------------------------------------------------
 [stable]
 version=1.4.4
 url=https://albar965.github.io/release/2017/07/04/littlenavmap-stable-144-released.html
-changelog=<ul> <li>Added light (Positron) and dark (Dark Matter) maps from CARTO.</li> <li>SimConnect is now detected and loaded dynamically. The file littlenavmap-nosimconnect.exe was removed since it is not needed anymore. littlenavmap.exe can now also be used on bare computers without SimConnect or flight simulator installation.</li> <li>Added notification message if SimConnect was not found in connect dialog.</li> <li>The file link in the information window is now removed if the file cannot be found. This happens on remote computers with copied databases.</li> <li>Added start positions to runway information. These are also available if the airport has no runways.</li> <li>Improved aircraft progress display and fixed multiple omissions.</li> <li>Fixed potential crashes when a style is unavailable.</li> <li>Half transparent aircraft icon fixed.</li> <li>Fixed problem with links in scenery database error dialog opening inline.</li> <li>Changed to Qt library 5.9. Note that the GTK style is not available anymore in Linux.</li> <li>P3D v4 runways, aprons and taxiways are now read correctly. This affects all BGL files that are created using the v4 SDK compiler.</li> <li>Fixed crash with P3D v4 BGL files and crashes that appear after applying the P3D v4 hotfix 1.</li> <li>Added support for P3D v4 add-on.xml packages. These are now read from subdirectories of C:\Users\YOURUSERNAME\Documents\Prepar3D v4 Files\add-ons and C:\Users\YOURUSERNAME\Documents\Prepar3D v4 Add-ons.</li> </ul>
+changelog=<ul>
+   <li>Added light (Positron) and dark (Dark Matter) maps from CARTO.</li>
+   <li>SimConnect is now detected and loaded dynamically.</li>
+   <li>Added notification message if SimConnect was not found in connect dialog.</li>
+   <li>The file link in the information window is now removed if the file cannot be found.</li>
+   <li>Added start positions to runway information. These are also available if the airport has no runways.</li>
+   <li>Improved aircraft progress display and fixed multiple omissions.</li>
+   <li>Fixed problem with links in scenery database error dialog opening inline.</li>
+   <li>Changed to Qt library 5.9. Note that the GTK style is not available anymore in Linux.</li>
+   <li>P3D v4 runways, aprons and taxiways are now read correctly.</li>
+   <li>Fixed crash with P3D v4 BGL files and crashes that appear after applying the P3D v4 hotfix 1.</li>
+   <li>Added support for P3D v4 add-on.xml packages.</li>
+ </ul>
 downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.4.4/LittleNavmap-win-1.4.4.zip
 downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.4.4/LittleNavmap-macOS-1.4.4.dmg
 downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.4.4/LittleNavmap-linux-1.4.4.tar.gz
 
-#[beta]
-#version=1.6.0.beta
-#url=https://albar965.github.io/release/2017/07/04/littlenavmap-stable-144-released.html
-#changelog=<ul><li>First beta</li><li>Second beta</li></ul><p>Notes: Do not delete</p>
+# ---------------------------------------------------------------
+[beta]
+version=1.6.0.beta
+downloadwin=https://www.magentacloud.de/lnk/GwlRUcZk
+downloadmac=https://www.magentacloud.de/lnk/6hlR0T8r
+downloadlinux=https://www.magentacloud.de/lnk/fHlxUX55
+changelog=
+ <p><b>Changes from 1.5.4.develop to 1.6.0.beta</b></p>
+ <ul>
+    <li>Added display of nearest weather station for X-Plane metar file when showing information of an airport.</li>
+    <li>ASP4 weather now supported.</li>
+    <li>Changed handling of helipads and fixed display. Now using name as an identifier.</li>
+    <li>Aircraft size is now displayed correctly for X-Plane on map and information window.</li>
+    <li>Fixed problems with special characters in search (special characters are still treated case sensistive).</li>
+    <li>Fixed problem where departure parking was dropped on certain cases like flight plan calculation.</li>
+    <li>Fixed crash after copying airspaces.</li>
+    <li>Added custom update dialog window that can display a longer message.</li>
+    <li>Enabled database file exclusions and add-on override options to X-Plane loader. See options dialog on tab Scenery Library Database.</li>
+    <li>Fixed crash when reading X-Plane add-on airports (KLAS).</li>
+    <li>X-Plane file codec is now set to UTF-8 to avoid problems with special characters on Windows.</li>
+    <li>Added detection of closed airports by name for X-Plane.</li>
+    <li>Improved detection of military airports in general and name capitalization for X-Plane.</li>
+ </ul>
+ <p><b>Changes from 1.4.4 to 1.5.4.develop</b></p>
+ <ul>
+   <li>
+     Full support for X-Plane 11:
+     <ul>
+       <li>scenery database: Airports, aprons, taxiways, navaids, airways, procedures, </li>
+       <li>AI traffic, </li>
+       <li>weather, </li>
+       <li>copy airspaces from FSX/P3D to X-Plane database,</li>
+       <li>FMS file loading/saving and</li>
+       <li>moving map (needs included Little XpConnect plugin).</li>
+     </ul>
+   </li>
+   <li>Automatic update check with settings in options dialog on tab startup.</li>
+   <li>Speed limit for procedure segments.</li>
+   <li>Fixed multiple problems with magnetic declination by using magdec.bgl file.</li>
+   <li>Can now load FMS, FLP and FS9 ini-style PLN flight plan formats.</li>
+   <li>Several problems fixed when loading FSX/P3D scenery databases and P3D v4 add-on.xml.</li>
+   <li>Fixed missing encoding in saved PLN files.</li>
+   <li>Shows startup positions now in the information window.</li>
+   <li>Added clickspots in top labels to clear selections in procedure search and flight plan.</li>
+   <li>Added donation link to help menu and about dialog (not active yet).</li>
+ </ul>
 
+# ---------------------------------------------------------------
 [develop]
-version=1.5.3.develop
-changelog=<ul> <li>Can now read the X-Plane scenery database and weather file</li> <li>Loading of FMS, FLP and FS9 PLN</li> <li>Automatic update checking</li> <li>Magnetic declination issues fixed</li> <li>Speed limits in procedures</li> <li>Many other fixes and improvements - see CHANGELOG.txt for details</li> </ul>
+version=1.5.4.develop
 
+downloadwin=https://www.magentacloud.de/lnk/h4FxUgf1
+downloadmac=https://www.magentacloud.de/lnk/dYFRU7Nk
+downloadlinux=https://www.magentacloud.de/lnk/q6lRUNb7
 
-
-
-
-
+changelog=
+ <ul>
+   <li>
+     Full support for X-Plane 11:
+     <ul>
+       <li>scenery database: Airports, aprons, taxiways, navaids, airways, procedures, </li>
+       <li>AI traffic, </li>
+       <li>weather, </li>
+       <li>copy airspaces from FSX/P3D to X-Plane database,</li>
+       <li>FMS file loading/saving and</li>
+       <li>moving map (needs included Little XpConnect plugin).</li>
+     </ul>
+   </li>
+   <li>Automatic update check with settings in options dialog on tab startup.</li>
+   <li>Speed limit for procedure segments.</li>
+   <li>Fixed multiple problems with magnetic declination by using magdec.bgl file.</li>
+   <li>Can now load FMS, FLP and FS9 ini-style PLN flight plan formats.</li>
+   <li>Several problems fixed when loading FSX/P3D scenery databases and P3D v4 add-on.xml.</li>
+   <li>Fixed missing encoding in saved PLN files.</li>
+   <li>Shows startup positions now in the information window.</li>
+   <li>Added clickspots in top labels to clear selections in procedure search and flight plan.</li>
+   <li>Added donation link to help menu and about dialog (not active yet).</li>
+ </ul>

@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-06-02 20:50:00 +0200
+date:   2017-09-03 22:00:00 +0200
 ---
 
 # Alex' Projects
@@ -23,6 +23,12 @@ date:   2017-06-02 20:50:00 +0200
 </p>
 
 ## Links {#links}
+
+<a href="albar 965 AT mail box DOT org"
+   rel="nofollow"
+   onclick="this.href='mailto:' + 'albar' + '965' + '@' + 'mailbox' + '.' + 'org'"
+   onmouseleave="this.href='albar 965 AT mail box DOT org'"><span class="bold">► Contact me by email</span></a>
+
 [**► GitHub Profile**](https://github.com/albar965)
 
 All my projects, releases, source code, issue lists and more.
@@ -34,6 +40,14 @@ Online manuals for _Little Navmap_ and _Little Navconnect_.
 [**► Support Forum at Avsim**](http://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum)
 
 Help for users, preview of new releases, development progress, screenshots and beta releases.
+
+[**► Donations / Spenden**](donate.html)
+
+[![Donate](assets/images/donate.png)](donate.html)
+
+**Donate to show your appreciation if you like my programs.**
+
+**Spenden Sie, um Ihre Wertschätzung zu zeigen, wenn Ihnen meine Programme gefallen.**
 
 ## Little Navmap {#littlenavmap}
 
