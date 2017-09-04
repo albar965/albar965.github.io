@@ -43,4 +43,4 @@ Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten, können Sie hier
 </form>
 </p>
 
-Spenden sind vollkommen freiwillig, jedoch sehr willkommen.
+Spenden sind vollkommen freiwillig.
