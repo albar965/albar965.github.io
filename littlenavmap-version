@@ -21,50 +21,67 @@ downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.4.4/
 
 # ---------------------------------------------------------------
 [beta]
-version=1.6.0.beta
-downloadwin=https://www.magentacloud.de/lnk/GwlRUcZk
-downloadmac=https://www.magentacloud.de/lnk/6hlR0T8r
-downloadlinux=https://www.magentacloud.de/lnk/fHlxUX55
+version=1.6.1.beta
+downloadwin=https://www.magentacloud.de/lnk/6xFRU8hr
+downloadmac=https://www.magentacloud.de/lnk/JElx0kia
+downloadlinux=https://www.magentacloud.de/lnk/0nFRU6eG
 changelog=
- <p><b>Changes from 1.5.4.develop to 1.6.0.beta</b></p>
+ <p><b>Changes from 1.6.0.beta to 1.6.1.beta</b></p>
+ <p><i>The scenery database format has changed and the program will ask to erase its own databases if started.</i></p>
  <ul>
-    <li>Added display of nearest weather station for X-Plane metar file when showing information of an airport.</li>
-    <li>ASP4 weather now supported.</li>
-    <li>Changed handling of helipads and fixed display. Now using name as an identifier.</li>
-    <li>Aircraft size is now displayed correctly for X-Plane on map and information window.</li>
-    <li>Fixed problems with special characters in search (special characters are still treated case sensistive).</li>
-    <li>Fixed problem where departure parking was dropped on certain cases like flight plan calculation.</li>
-    <li>Fixed crash after copying airspaces.</li>
-    <li>Added custom update dialog window that can display a longer message.</li>
-    <li>Enabled database file exclusions and add-on override options to X-Plane loader. See options dialog on tab Scenery Library Database.</li>
-    <li>Fixed crash when reading X-Plane add-on airports (KLAS).</li>
-    <li>X-Plane file codec is now set to UTF-8 to avoid problems with special characters on Windows.</li>
-    <li>Added detection of closed airports by name for X-Plane.</li>
-    <li>Improved detection of military airports in general and name capitalization for X-Plane.</li>
+   <li>Adapted flight plan calculation, map display and information windows to
+       one-way airways and maximum altitude restriction (X-Plane).</li>
+   <li>Rhumb line measurement now shows both magnetic and true course where declination is based on origin.</li>
+   <li>Improved weather display for nearest station: Added name, distance and map link to reporting station.</li>
+   <li>Route string generation is now more robust for malformed and incomplete flight plans.</li>
+   <li>Removed &quot;select nothing&quot; click areas in flight plan and procedure search top level labels.
+       Added push buttons instead.</li>
+   <li>Now erasing wrong airway entries at departure and destination when loading flight plan to avoid problems
+       with malformed flight plans from PFPX.</li>
+   <li>Fixed error where Documents path was not selected as default if missing simulator.</li>
+   <li>Database loading dialog now pops up after erasing incompatible databases.</li>
  </ul>
- <p><b>Changes from 1.4.4 to 1.5.4.develop</b></p>
- <ul>
-   <li>
-     Full support for X-Plane 11:
-     <ul>
-       <li>scenery database: Airports, aprons, taxiways, navaids, airways, procedures, </li>
-       <li>AI traffic, </li>
-       <li>weather, </li>
-       <li>copy airspaces from FSX/P3D to X-Plane database,</li>
-       <li>FMS file loading/saving and</li>
-       <li>moving map (needs included Little XpConnect plugin).</li>
-     </ul>
-   </li>
-   <li>Automatic update check with settings in options dialog on tab startup.</li>
-   <li>Speed limit for procedure segments.</li>
-   <li>Fixed multiple problems with magnetic declination by using magdec.bgl file.</li>
-   <li>Can now load FMS, FLP and FS9 ini-style PLN flight plan formats.</li>
-   <li>Several problems fixed when loading FSX/P3D scenery databases and P3D v4 add-on.xml.</li>
-   <li>Fixed missing encoding in saved PLN files.</li>
-   <li>Shows startup positions now in the information window.</li>
-   <li>Added clickspots in top labels to clear selections in procedure search and flight plan.</li>
-   <li>Added donation link to help menu and about dialog (not active yet).</li>
- </ul>
+ <small>
+   <p><b>Changes from 1.5.4.develop to 1.6.0.beta</b></p>
+   <ul>
+     <li>Added display of nearest weather station for X-Plane metar file when showing information of an airport.</li>
+     <li>ASP4 weather now supported.</li>
+     <li>Changed handling of helipads and fixed display. Now using name as an identifier.</li>
+     <li>Aircraft size is now displayed correctly for X-Plane on map and information window.</li>
+     <li>Fixed problems with special characters in search (special characters are still treated case sensistive).</li>
+     <li>Fixed problem where departure parking was dropped on certain cases like flight plan calculation.</li>
+     <li>Fixed crash after copying airspaces.</li>
+     <li>Added custom update dialog window that can display a longer message.</li>
+     <li>Enabled database file exclusions and add-on override options to X-Plane loader. See options dialog on tab Scenery Library Database.</li>
+     <li>Fixed crash when reading X-Plane add-on airports (KLAS).</li>
+     <li>X-Plane file codec is now set to UTF-8 to avoid problems with special characters on Windows.</li>
+     <li>Added detection of closed airports by name for X-Plane.</li>
+     <li>Improved detection of military airports in general and name capitalization for X-Plane.</li>
+   </ul>
+   <p><b>Changes from 1.4.4 to 1.5.4.develop</b></p>
+   <ul>
+     <li>
+       Full support for X-Plane 11:
+       <ul>
+         <li>scenery database: Airports, aprons, taxiways, navaids, airways, procedures, </li>
+         <li>AI traffic, </li>
+         <li>weather, </li>
+         <li>copy airspaces from FSX/P3D to X-Plane database,</li>
+         <li>FMS file loading/saving and</li>
+         <li>moving map (needs included Little XpConnect plugin).</li>
+       </ul>
+     </li>
+     <li>Automatic update check with settings in options dialog on tab startup.</li>
+     <li>Speed limit for procedure segments.</li>
+     <li>Fixed multiple problems with magnetic declination by using magdec.bgl file.</li>
+     <li>Can now load FMS, FLP and FS9 ini-style PLN flight plan formats.</li>
+     <li>Several problems fixed when loading FSX/P3D scenery databases and P3D v4 add-on.xml.</li>
+     <li>Fixed missing encoding in saved PLN files.</li>
+     <li>Shows startup positions now in the information window.</li>
+     <li>Added clickspots in top labels to clear selections in procedure search and flight plan.</li>
+     <li>Added donation link to help menu and about dialog (not active yet).</li>
+   </ul>
+ </small>
 
 # ---------------------------------------------------------------
 [develop]
