@@ -1,23 +1,32 @@
 # ---------------------------------------------------------------
 [stable]
-version=1.4.4
-url=https://albar965.github.io/release/2017/07/04/littlenavmap-stable-144-released.html
-changelog=<ul>
-   <li>Added light (Positron) and dark (Dark Matter) maps from CARTO.</li>
-   <li>SimConnect is now detected and loaded dynamically.</li>
-   <li>Added notification message if SimConnect was not found in connect dialog.</li>
-   <li>The file link in the information window is now removed if the file cannot be found.</li>
-   <li>Added start positions to runway information. These are also available if the airport has no runways.</li>
-   <li>Improved aircraft progress display and fixed multiple omissions.</li>
-   <li>Fixed problem with links in scenery database error dialog opening inline.</li>
-   <li>Changed to Qt library 5.9. Note that the GTK style is not available anymore in Linux.</li>
-   <li>P3D v4 runways, aprons and taxiways are now read correctly.</li>
-   <li>Fixed crash with P3D v4 BGL files and crashes that appear after applying the P3D v4 hotfix 1.</li>
-   <li>Added support for P3D v4 add-on.xml packages.</li>
- </ul>
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.4.4/LittleNavmap-win-1.4.4.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.4.4/LittleNavmap-macOS-1.4.4.dmg
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.4.4/LittleNavmap-linux-1.4.4.tar.gz
+version=1.6.2
+#url=https://albar965.github.io/release/2017/09/15/2017-09-15-littlenavmap-stable-162-released.md
+changelog=
+  <p><i><b>This is a release candidate.</b></i></p>
+  <p><b>Changes from 1.6.1.beta to 1.6.2</b></p>
+  <ul>
+    <li>Updated PDF manual and legend.</li>
+    <li>Removed links in information when printing.</li>
+    <li>Fixed blinking magenta line in flight plan table when using FSX/P3D weather.</li>
+    <li>Fixed parsing of SID and STAR with names longer than five characters in route string dialog.</li>
+    <li>Fixed problem where departure position was not loaded from flight plans when using X-Plane database.</li>
+    <li>Changed button text for warning dialogs when saving FLP or FMS for more clarity.</li>
+    <li>Added help buttons to save flight plan warning dialogs and flight plan window.</li>
+    <li>Better error handling in X-Plane compiler. Now checking for required files.</li>
+    <li>Corrected mapping for runway markings in X-Plane compilation.</li>
+    <li>Added compatibility for Mac OS X 10.8 (untested).</li>
+  </ul>
+
+# Release candidate downloads
+downloadwin=https://www.magentacloud.de/lnk/wulR0Ksd
+downloadmac=https://www.magentacloud.de/lnk/XnFx0RV3
+downloadlinux=https://www.magentacloud.de/lnk/K2lRUwS3
+
+# Release downloads active yet
+#downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.6.2/LittleNavmap-win-1.6.2.zip
+#downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.6.2/LittleNavmap-macOS-1.6.2.zip
+#downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.6.2/LittleNavmap-linux-1.6.2.tar.gz
 
 # ---------------------------------------------------------------
 [beta]
