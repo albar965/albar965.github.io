@@ -1,33 +1,55 @@
 # ---------------------------------------------------------------
+# ---------------------------------------------------------------
 [stable]
-version=1.6.2
-#url=https://albar965.github.io/release/2017/09/15/2017-09-15-littlenavmap-stable-162-released.md
+version=1.6.3
+url=https://albar965.github.io/release/2017/09/18/littlenavmap-stable-163-released.html
 changelog=
-  <p><i><b>This is a release candidate.</b></i></p>
-  <p><b>Changes from 1.6.1.beta to 1.6.2</b></p>
+    <p>Most changes are regarding X-Plane support but installation of this update is also recommended for FSX or Prepar3D users due to several bug fixes and small improvements.</p>
+  <p>The scenery database format has changed since 1.4.4 and the program will ask to erase its own databases if started. The <code>Load Scenery Library</code> dialog will open after removing the old databases.</p>
+  <p><em>Little Navconnect</em> is now included in the <em>Little Navmap</em> download archive in a sub-directory.</p>
+  <p>The <em>Little Xpconnect</em> X-Plane plugin included in the <em>Little Navmap</em> download archive.</p>
+  <p><b>Changes from Release 1.4.4 to 1.6.3</b></p>
+  <p><b>Full support for X-Plane 11</b></p>
   <ul>
-    <li>Updated PDF manual and legend.</li>
-    <li>Removed links in information when printing.</li>
-    <li>Fixed blinking magenta line in flight plan table when using FSX/P3D weather.</li>
-    <li>Fixed parsing of SID and STAR with names longer than five characters in route string dialog.</li>
-    <li>Fixed problem where departure position was not loaded from flight plans when using X-Plane database.</li>
-    <li>Changed button text for warning dialogs when saving FLP or FMS for more clarity.</li>
-    <li>Added help buttons to save flight plan warning dialogs and flight plan window.</li>
-    <li>Better error handling in X-Plane compiler. Now checking for required files.</li>
-    <li>Corrected mapping for runway markings in X-Plane compilation.</li>
-    <li>Added compatibility for Mac OS X 10.8 (untested).</li>
+    <li>Scenery database: Airports, aprons, taxiways, navaids, airways, procedures (SIDs, STARs, ...) and all.</li>
+    <li>Read and decode the downloaded X-Plane weather files.</li>
+    <li>Copy airspaces from FSX/P3D to X-Plane database.</li>
+    <li>Can load and save FMS files.</li>
+    <li>Moving map (needs included <em>Little XpConnect</em> plugin) also allowing remote setups.</li>
+    <li>Displays AI traffic.</li>
+    <li>Flight plan calculation considers additional maximum altitude and one-way restrictions.</li>
+    <li>Enabled database file exclusions and add-on override options to X-Plane loader.</li>
+    <li>Speed limit for procedure segments.</li>
+    <li>All for Windows, macOS and Linux.</li>
+  </ul>
+  <p><b>General Improvements</b></p>
+  <ul>
+    <li>Automatic update check with notification and settings in dialog <code>Options</code> on tab <code>Startup</code>.</li>
+    <li><em>Active Sky for Prepar3D v4</em> weather now supported.</li>
+    <li>Rhumb line measurement now shows both magnetic and true course where declination is based on origin.</li>
+    <li>Improved weather display for nearest station: Added name, distance and map link to reporting station if the station is an airport.</li>
+    <li>Route string generation is now more robust for malformed and incomplete flight plans.</li>
+    <li>Added buttons to clear selection and reset search in search dock window and flight plan window.</li>
+    <li>Now erasing wrong airway entries at departure and destination when loading flight plan to avoid problems with malformed files from other tools.</li>
+    <li>Can now load FMS, FLP and FS9 ini-style PLN flight plan formats.</li>
+    <li>Shows startup positions in the information window now.</li>
+    <li>Database loading dialog now pops up after erasing incompatible databases.</li>
+    <li>Added donation link to help menu and about dialog.</li>
+  </ul>
+  <p><b>Bug Fixes</b></p>
+  <ul>
+    <li>Fixed multiple problems with magnetic declination by using <code>magdec.bgl</code> file.</li>
+    <li>Several problems fixed when loading FSX/P3D scenery databases and P3D v4 <code>add-on.xml</code>.</li>
+    <li>Corrected handling and display of helipads. Now using name as an identifier.</li>
+    <li>Fixed missing encoding in saved PLN files which caused problems with other tools.</li>
+    <li>Better detection of military airports name capitalization.</li>
   </ul>
 
-# Release candidate downloads
-downloadwin=https://www.magentacloud.de/lnk/wulR0Ksd
-downloadmac=https://www.magentacloud.de/lnk/XnFx0RV3
-downloadlinux=https://www.magentacloud.de/lnk/K2lRUwS3
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-win-1.6.3.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-macOS-1.6.3.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-linux-1.6.3.tar.gz
 
-# Release downloads active yet
-#downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.6.2/LittleNavmap-win-1.6.2.zip
-#downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.6.2/LittleNavmap-macOS-1.6.2.zip
-#downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.6.2/LittleNavmap-linux-1.6.2.tar.gz
-
+# ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
 version=1.6.1.beta
@@ -92,6 +114,7 @@ changelog=
    </ul>
  </small>
 
+# ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [develop]
 version=1.5.4.develop

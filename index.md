@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-09-03 22:00:00 +0200
+date:   2017-09-18 11:59:00 +0200
 ---
 
 # Alex' Projects
@@ -51,21 +51,21 @@ Help for users, preview of new releases, development progress, screenshots and b
 
 ## Little Navmap {#littlenavmap}
 
-[![Little Navmap](assets/images/navroute.png)](littlenavmap.html) [**► Little Navmap**](littlenavmap.html) is a free open source flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X and Prepar3D.
+[![Little Navmap](assets/images/navroute.png)](littlenavmap.html) [**► Little Navmap**](littlenavmap.html) is a free open source flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X, Prepar3D and X-Plane.
 
-A widely configurable map display using the OpenStreetMap as a background map which is only one option of many online or included offline maps. The map shows airports, navaids, airways, airspaces, AI or multiplayer aircraft and ships. A seamlessly integrated airport diagram displays taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
+A widely configurable map display using the OpenStreetMap as a background map which is only one option of many online and included offline maps. The map shows airports, navaids, airways, airspaces, AI or multiplayer aircraft and ships. A seamlessly integrated airport diagram displays taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
 
-It supports approach and departure procedures, offers several automatic flight plan calculation options and multiple export formats like GFP, GPX, RTE, FLP and FMS as well as drag and drop flight plan editing on the map.
+It supports approach and departure procedures like SIDs and STARs, offers several automatic flight plan calculation options and multiple export formats like GFP, GPX, RTE, FLP and FMS as well as drag and drop flight plan editing on the map. The program can read the PLN, FMS and FLP flight plan formats.
 
 An elevation profile is shown for the flight plan allowing to find a safe cruise altitude.
 
 Search functionality allows to look for airports, navaids or procedures by a large amount of criteria also including a spatial search.
 
-The program can generate an ATS route string from flight plans and vice versa.
+The program can generate an ATS route string from flight plans and vice versa where the output is widely configurable.
 
-**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3 and v4. Can also run on computers without simulator installation.
+**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4 and X-Plane 11.
 
-**Supported platforms:** Windows 7/8/10, Apple macOS and Linux (tested on Ubuntu).
+**Supported platforms:** Windows 7/8/10, macOS and Linux.
 
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
@@ -73,12 +73,28 @@ The program can generate an ATS route string from flight plans and vice versa.
 ## Little Navconnect {#littlenavconnect}
 
 [![Little Navconnect](assets/images/navconnect.png)](littlenavconnect.html) [**► Little Navconnect**](littlenavconnect.html) is a
-small free open source application that acts as an agent connecting Little Navmap with a flight simulator. This allows to use Little Navmap
-on Linux or Mac and saves the the pain of setting up remote SimConnect links.
+small free open source application that acts as an agent connecting *Little Navmap* with a flight simulator. This allows to use *Little Navmap*
+on Linux or macOS and saves the the pain of setting up remote SimConnect links for FSX or Prepar3D.
 
-**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3 and v4.
+**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4 and X-Plane 11.
 
-**Supported platforms:** Windows 7/8/10.
+**Supported platforms:** Windows 7/8/10, Apple macOS and Linux.
+
+## Little Xpconnect {#littlexpconnect}
+
+![Little Xpconnect](assets/images/xpnavconnect.png) **Little Xpconnect** is a X-Plane plugin that allows *Little Navmap* and *Little Navconnect* to connect to X-Plane.
+
+It is light weight, free and open source.
+
+*Little Xpconnect* is included in the download archive of [Little Navmap](littlenavmap.html).
+
+**Supported Flight Simulators:** X-Plane 11.
+
+**Supported platforms:** Windows 7/8/10, Apple macOS and Linux.
+
+[**► Readme and Installation**](https://github.com/albar965/littlexpconnect/blob/release/1.0/README.txt)
+
+[**► Downloads and Releases**](https://github.com/albar965/littlexpconnect/releases)
 
 ## Little Logbook {#littlelogbook}
 

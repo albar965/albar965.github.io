@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Donations / Spenden"
-date:   2017-09-05 20:00:00 +0200
+date:   2017-09-18 11:58:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Donations / Spenden
@@ -41,7 +41,7 @@ Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten, können Sie hier
 
 Spenden sind vollkommen freiwillig.
 
-# Science Fiction
+# Science Fiction (German/Deutsch)
 
 Alternativ würde mich auch darüber freuen, wenn Sie das Projekt meiner Frau Anja Fahrner \([**Autorenseite**](https://www.anja-fahrner.de)\) anschauen.
 

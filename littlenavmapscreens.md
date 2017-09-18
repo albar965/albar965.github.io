@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap Screenshots"
-date:   2017-05-13 13:04:00 +0200
+date:   2017-09-18 12:00:00 +0200
 ---
 [Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Screenshots
 # Screenshots
@@ -9,12 +9,17 @@ date:   2017-05-13 13:04:00 +0200
 Click on image for full size.
 
 ----
+**Little Navmap 1.6.3 overview:**
+
+[![Little Navmap 1.6.3 Overview](assets/images/overview.jpg)](assets/images/overview.jpg)
+
+----
 **Little Navmap 1.4.0.beta showing all new features like procedures and airspaces:**
 
 [![Little Navmap 1.4 Overview](assets/images/littlenavmapall140.jpg)](assets/images/littlenavmapall140.jpg)
 
 ----
-**Little Navmap 1.4.0.beta airpsaces:**
+**Little Navmap 1.4.0.beta airspaces:**
 
 [![Little Navmap Airspaces](assets/images/littlenavmapairspace140.jpg)](assets/images/littlenavmapairspace140.jpg)
 
