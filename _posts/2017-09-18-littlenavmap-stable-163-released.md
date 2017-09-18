@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Little Navmap 1.6.3 released"
+title:  "Little Navmap 1.6.3 released - now supports X-Plane"
 date:   2017-09-18 12:00:00 +0200
 categories: release
 ---
