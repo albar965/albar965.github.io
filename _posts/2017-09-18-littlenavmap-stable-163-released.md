@@ -10,6 +10,8 @@ categories: release
 [macOS](https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-macOS-1.6.3.zip) -
 [Linux](https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-linux-1.6.3.tar.gz)**
 
+[**► Screenshots**](/littlenavmapscreens.html)
+
 [**► Online Manual**](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.6/en/)
 
 [**► Features**](/littlenavmap.html)
