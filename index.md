@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-09-18 11:59:00 +0200
+date:   2017-09-21 15:40:00 +0200
 ---
 
 # Alex' Projects
@@ -65,7 +65,7 @@ The program can generate an ATS route string from flight plans and vice versa wh
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4 and X-Plane 11.
 
-**Supported platforms:** Windows 7/8/10, macOS and Linux.
+**Supported platforms:** Windows 7/8/10, macOS and Linux \(64 bit\).
 
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
@@ -78,7 +78,7 @@ on Linux or macOS and saves the the pain of setting up remote SimConnect links f
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4 and X-Plane 11.
 
-**Supported platforms:** Windows 7/8/10, Apple macOS and Linux.
+**Supported platforms:** Windows 7/8/10, Apple macOS and Linux \(64 bit\).
 
 ## Little Xpconnect {#littlexpconnect}
 
@@ -88,7 +88,7 @@ It is light weight, free and open source.
 
 *Little Xpconnect* is included in the download archive of [Little Navmap](littlenavmap.html).
 
-**Supported Flight Simulators:** X-Plane 11.
+**Supported Flight Simulators:** X-Plane 11 \(64 bit\).
 
 **Supported platforms:** Windows 7/8/10, Apple macOS and Linux.
 

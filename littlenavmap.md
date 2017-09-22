@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2017-09-18 12:00:00 +0200
+date:   2017-09-21 15:45:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
@@ -22,11 +22,11 @@ date:   2017-09-18 12:00:00 +0200
 
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
-## Version 1.6.3 Features
+## Version 1.6.4 Features
 
 * *Little Navmap* is a free open source flight planner, navigation tool, moving map, airport search and airport information system.
-* Supported platforms: **Windows 7, 8, 10, Linux and macOS**.
-* Support for **Flight Simulator X, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4 and X-Plane 11**.
+* Supported platforms: **Windows 7, 8, 10, macOS and Linux \(64 bit\)**.
+* Support for **Flight Simulator X, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4 and X-Plane 11 \(64 bit\)**.
 * All is based purely on flight simulator stock or add-on data, no third party data needed. All stock and add-on airports are loaded in a few minutes. Navigation database updates by [fsAerodata](https://www.fsaerodata.com) and [FSX/P3D Navaids update](https://www.aero.sors.fr/navaids3.html) are supported. Support for X-Plane navdata updates.
 * FSX or Prepar3D airspaces can be copied into the X-Plane database.
 * Uses X-Plane stock and updated navdata for approach, SID and STAR procedures including transitions.

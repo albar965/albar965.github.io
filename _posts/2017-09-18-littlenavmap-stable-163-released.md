@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Little Navmap 1.6.3 released - now supports X-Plane"
-date:   2017-09-18 12:00:00 +0200
+date:   2017-09-21 15:00:00 +0200
 categories: release
 ---
 
 **Direct download:
 [Windows](https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-win-1.6.3.zip) -
 [macOS](https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-macOS-1.6.3.zip) -
-[Linux](https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-linux-1.6.3.tar.gz)**
+[Linux \(64 bit\)](https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-linux-1.6.3.tar.gz)**
 
 [**► Screenshots**](/littlenavmapscreens.html)
 
