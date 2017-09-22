@@ -1,14 +1,34 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=1.6.3
-url=https://albar965.github.io/release/2017/09/18/littlenavmap-stable-163-released.html
+version=1.6.4
+url=https://albar965.github.io/release/2017/09/22/littlenavmap-stable-164-released.html
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.6.4/LittleNavmap-win-1.6.4.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.6.4/LittleNavmap-macOS-1.6.4.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.6.4/LittleNavmap-linux-1.6.4.tar.gz
 changelog=
+  <p><b>This update fixes several crashes when loading X-Plane scenery.</b></p>
+  <p><b>Changes from Release 1.6.3 to 1.6.4</b></p>
+  <ul>
+    <li>Fixed crashes when reading X-Plane CIFP files with unknown approach type.</li>
+    <li>Fixed crash with older X-Plane `apt.dat` files where runway name for VASI is missing.</li>
+    <li>Fixed error where altitude restrictions were not recognized when given as flight levels.</li>
+    <li>Enabled support for older `apt.dat` files with version down to 850.</li>
+    <li>Added support for all altitude restriction types in procedures.</li>
+    <li>Improved error reporting reading X-Plane dat files to avoid crash to desktop.</li>
+    <li>Added error collection for X-Plane compiler. Now only stops reading the current file on error.</li>
+    <li>Added workaround for P3D v4 add-on.xml files with inconsistent encoding.</li>
+    <li>Fixed inconsistencies around context menus and procedure restriction display.</li>
+    <li>Moved hidden URL to top in update notification dialog.</li>
+    <li>Updated included PDF manual.
+  </ul>
+  <hr/>
+  <small>
+  <p><b>Previous Changes from Release 1.4.4 to 1.6.3</b></p>
     <p>Most changes are regarding X-Plane support but installation of this update is also recommended for FSX or Prepar3D users due to several bug fixes and small improvements.</p>
   <p>The scenery database format has changed since 1.4.4 and the program will ask to erase its own databases if started. The <code>Load Scenery Library</code> dialog will open after removing the old databases.</p>
   <p><em>Little Navconnect</em> is now included in the <em>Little Navmap</em> download archive in a sub-directory.</p>
   <p>The <em>Little Xpconnect</em> X-Plane plugin included in the <em>Little Navmap</em> download archive.</p>
-  <p><b>Changes from Release 1.4.4 to 1.6.3</b></p>
   <p><b>Full support for X-Plane 11</b></p>
   <ul>
     <li>Scenery database: Airports, aprons, taxiways, navaids, airways, procedures (SIDs, STARs, ...) and all.</li>
@@ -44,11 +64,8 @@ changelog=
     <li>Fixed missing encoding in saved PLN files which caused problems with other tools.</li>
     <li>Better detection of military airports name capitalization.</li>
   </ul>
-
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-win-1.6.3.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-macOS-1.6.3.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.6.3/LittleNavmap-linux-1.6.3.tar.gz
-
+  </small>
+  
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
