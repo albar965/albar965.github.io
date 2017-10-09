@@ -14,6 +14,11 @@ Click on image for full size.
 [![Little Navmap 1.6.3 Overview](assets/images/overview.jpg)](assets/images/overview.jpg)
 
 ----
+**Little Navmap 1.6.3 all context menus:**
+
+[![Little Navmap 1.6.3 Overview](assets/images/contextmenus.jpg)](assets/images/contextmenus.jpg)
+
+----
 **Little Navmap 1.4.0.beta showing all new features like procedures and airspaces:**
 
 [![Little Navmap 1.4 Overview](assets/images/littlenavmapall140.jpg)](assets/images/littlenavmapall140.jpg)

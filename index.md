@@ -1,14 +1,14 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-09-21 15:40:00 +0200
+date:   2017-10-08 12:00:00 +0200
 ---
 
 # Alex' Projects
 
 ## [![RSS Feed](assets/images/feed.png)](/feed.xml) News
 <p>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3 %}
     <p>
   {% if forloop.first == true %}
       <span class="bold">{{ post.date | date: "%Y-%m-%d, %H:%M" }} <a href="{{ site.baseurl }}{{ post.url }}"><span class="bold">► {{ post.title }}</span></a></span>
@@ -18,9 +18,9 @@ date:   2017-09-21 15:40:00 +0200
 
     </p>
   {% endfor %}
-
-   <br>
 </p>
+
+[**► News Archive**](archive.html)
 
 ## Links {#links}
 
