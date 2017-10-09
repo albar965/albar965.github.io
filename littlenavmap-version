@@ -1,75 +1,63 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=1.6.4
-url=https://albar965.github.io/release/2017/09/22/littlenavmap-stable-164-released.html
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.6.4/LittleNavmap-win-1.6.4.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.6.4/LittleNavmap-macOS-1.6.4.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.6.4/LittleNavmap-linux-1.6.4.tar.gz
+version=1.6.6
+url=https://albar965.github.io/release/2017/10/09/littlenavmap-stable-166-released.html
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.6.6/LittleNavmap-win-1.6.6.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.6.6/LittleNavmap-macOS-1.6.6.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.6.6/LittleNavmap-linux-1.6.6.tar.gz
 changelog=
-  <p><b>This update fixes several crashes when loading X-Plane scenery.</b></p>
-  <p><b>Changes from Release 1.6.3 to 1.6.4</b></p>
+    <p>This update includes several bugfixes, small GUI improvements, a revised manual and
+    support for the OpenAir airspace format for X-Plane.
+   </p>
+  <h3>Changes from Release 1.6.4 to 1.6.6</h3>
+    <p>Version 1.6.5 was an internal beta release.</p>
+  <h4>Improvements</h4>
   <ul>
-    <li>Fixed crashes when reading X-Plane CIFP files with unknown approach type.</li>
-    <li>Fixed crash with older X-Plane `apt.dat` files where runway name for VASI is missing.</li>
-    <li>Fixed error where altitude restrictions were not recognized when given as flight levels.</li>
-    <li>Enabled support for older `apt.dat` files with version down to 850.</li>
-    <li>Added support for all altitude restriction types in procedures.</li>
-    <li>Improved error reporting reading X-Plane dat files to avoid crash to desktop.</li>
-    <li>Added error collection for X-Plane compiler. Now only stops reading the current file on error.</li>
-    <li>Added workaround for P3D v4 add-on.xml files with inconsistent encoding.</li>
-    <li>Fixed inconsistencies around context menus and procedure restriction display.</li>
-    <li>Moved hidden URL to top in update notification dialog.</li>
-    <li>Updated included PDF manual.
+    <li>Added OpenAir airspace format compilation for X-PLane. Also reading airspace files from
+      from <code>YOUR_DOCUMENTS_DIR/Little Navmap/X-Plane Airspaces</code>. You have to create the 
+       <code>Little Navmap/X-Plane Airspaces</code> directory manually.</li>
+    <li>Added new airspace types <code>Wave Window</code> and <code>Glider Prohibited</code>.</li>
+    <li>Removed restrictions on user defined waypoint names. 
+      Names are now adjusted according to flight plan format when saving.</li>
+    <li>Enabled user defined waypoint names for X-Plane FMS format.</li>
+    <li>Changed rating checkbox to drop down list in airport search.</li>
+    <li>X-Plane 3D airport state is now considered when calculating rating.</li>
+    <li>Added display of simulator type to connection status in statusbar.</li>
+    <li>Airspace buttons are now disabled if no airspaces are loaded.</li>
+    <li>Now clipping long airport and user waypoint names on map.</li>
+    <li>Removed <code>no SimConnect</code> header label in connect dialog.</li>
+    <li>Added display of AIRAC cycle to database dialog (X-Plane only).</li>
+    <li>Added scenery file display for airspaces in information window.</li>
+    <li>Added download button to update notification dialog.</li>
+    <li>Better error handling and reporting of too old files with version &lt; 850 when loading X-Plane scenery. 
+      Now checking X-Plane CIFP filenames before loading.</li>
+    <li>Now showing dialog on certain crash types to avoid silent crash to desktop.</li>
+    <li>Made loading of <code>add-on.xml</code> more robust for files with wrong encoding.</li>
+    <li>Added coordinates to CSV export to clipboard from flight plan and search result tables.</li>
   </ul>
-  <hr/>
-  <small>
-  <p><b>Previous Changes from Release 1.4.4 to 1.6.3</b></p>
-    <p>Most changes are regarding X-Plane support but installation of this update is also recommended for
-       FSX or Prepar3D users due to several bug fixes and small improvements.</p>
-  <p>The scenery database format has changed since 1.4.4 and the program will ask to erase its own
-     databases if started. The <code>Load Scenery Library</code> dialog will open after removing the old databases.</p>
-  <p><em>Little Navconnect</em> is now included in the <em>Little Navmap</em> download archive in a sub-directory.</p>
-  <p>The <em>Little Xpconnect</em> X-Plane plugin included in the <em>Little Navmap</em> download archive.</p>
-  <p><b>Full support for X-Plane 11</b></p>
+  <h4>Bug Fixes</h4>
   <ul>
-    <li>Scenery database: Airports, aprons, taxiways, navaids, airways, procedures (SIDs, STARs, ...) and all.</li>
-    <li>Read and decode the downloaded X-Plane weather files.</li>
-    <li>Copy airspaces from FSX/P3D to X-Plane database.</li>
-    <li>Can load and save FMS files.</li>
-    <li>Moving map (needs included <em>Little XpConnect</em> plugin) also allowing remote setups.</li>
-    <li>Displays AI traffic.</li>
-    <li>Flight plan calculation considers additional maximum altitude and one-way restrictions.</li>
-    <li>Enabled database file exclusions and add-on override options to X-Plane loader.</li>
-    <li>Speed limit for procedure segments.</li>
-    <li>All for Windows, macOS and Linux.</li>
+    <li>Offline map themes <code>Atlas</code> and <code>Simple</code>: Fixed missing lakes in map.</li>
+    <li>Fixed problem loading FS9 flight plans.</li>
+    <li>Attempt to fix zoom distance creep while using moving map.</li>
+    <li>Fixed error in airspace copy process from older database schemes where bounding rectangle was messed up. 
+      This resulted in an <code>Too many objects</code> message in the statusbar.</li>
+    <li>Solved problem with gaps between SIDs, STARs and the respective transitions resulting in wrong
+      display and distance calculation.</li>
+    <li>Fixed problem where STAR was not reloaded after database switch.</li>
+    <li>Fixed issue where airspace display was not updated when changing cruise altitude with empty flight plan.</li>
+    <li>Fixed user waypoint format for FLP so that it can be reloaded.</li>
+    <li>Fixed confusing <code>0 errors</code> dialog appearing after loading X-Plane database successfully.</li>
+    <li>Fixed <code>Connect on startup</code> checkbox state not saved in some cases.</li>
+    <li>Fixed status bar connection indication remaining in disconnected state sometimes.</li>
+    <li>Fixed potential crash on failing network connection.</li>
+    <li><code>Calculate based on given altitude</code> is working again. Previously failed with 
+      <code>Cannot find a route</code>.</li>
+    <li>Now correctly considering minimum and maximum altitude ranges when calculating to avoid
+      non-overlapping airway altitude ranges in one flight plan.</li>
+    <li>Fixed error in flight plan saving logic where cancel did not stop saving.</li>
   </ul>
-  <p><b>General Improvements</b></p>
-  <ul>
-    <li>Automatic update check with notification and settings in dialog <code>Options</code> on tab
-        <code>Startup</code>.</li>
-    <li><em>Active Sky for Prepar3D v4</em> weather now supported.</li>
-    <li>Rhumb line measurement now shows both magnetic and true course where declination is based on origin.</li>
-    <li>Improved weather display for nearest station: Added name, distance and map link to
-        reporting station if the station is an airport.</li>
-    <li>Route string generation is now more robust for malformed and incomplete flight plans.</li>
-    <li>Added buttons to clear selection and reset search in search dock window and flight plan window.</li>
-    <li>Now erasing wrong airway entries at departure and destination when loading flight plan to avoid problems
-        with malformed files from other tools.</li>
-    <li>Can now load FMS, FLP and FS9 ini-style PLN flight plan formats.</li>
-    <li>Shows startup positions in the information window now.</li>
-    <li>Database loading dialog now pops up after erasing incompatible databases.</li>
-    <li>Added donation link to help menu and about dialog.</li>
-  </ul>
-  <p><b>Bug Fixes</b></p>
-  <ul>
-    <li>Fixed multiple problems with magnetic declination by using <code>magdec.bgl</code> file.</li>
-    <li>Several problems fixed when loading FSX/P3D scenery databases and P3D v4 <code>add-on.xml</code>.</li>
-    <li>Corrected handling and display of helipads. Now using name as an identifier.</li>
-    <li>Fixed missing encoding in saved PLN files which caused problems with other tools.</li>
-    <li>Better detection of military airports name capitalization.</li>
-  </ul>
-  </small>
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
@@ -135,7 +123,7 @@ changelog=
        <li>weather, </li>
        <li>copy airspaces from FSX/P3D to X-Plane database,</li>
        <li>FMS file loading/saving and</li>
-       <li>moving map (needs included Little XpConnect plugin).</li>
+       <li>moving map (needs included Little Xpconnect plugin).</li>
      </ul>
    </li>
    <li>Automatic update check with settings in options dialog on tab startup.</li>
