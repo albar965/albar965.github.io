@@ -24,7 +24,7 @@ This update includes several bugfixes, small GUI improvements, a revised manual 
 
 Version 1.6.5 was an internal beta release.
 
-Little XpConnect did not change.
+Little Xpconnect did not change.
 
 Little Navconnect was updated to 1.6.2.
 
