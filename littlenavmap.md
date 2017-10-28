@@ -12,7 +12,7 @@ date:   2017-09-21 15:45:00 +0200
 
 [**► Screenshots**](littlenavmapscreens.html)
 
-[► Online User Manual for version](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.6/en)
+[► Online User Manual](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.6/en)
 
 [► Features](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.6/en/FEATURES.html)
 
