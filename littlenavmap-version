@@ -1,62 +1,35 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=1.6.6
-url=https://albar965.github.io/release/2017/10/09/littlenavmap-stable-166-released.html
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.6.6/LittleNavmap-win-1.6.6.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.6.6/LittleNavmap-macOS-1.6.6.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.6.6/LittleNavmap-linux-1.6.6.tar.gz
+version=1.6.7
+url=https://albar965.github.io/release/2017/10/28/littlenavmap-stable-167-released.html
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.6.7/LittleNavmap-win-1.6.7.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.6.7/LittleNavmap-macOS-1.6.7.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.6.7/LittleNavmap-linux-1.6.7.tar.gz
 changelog=
-    <p>This update includes several bugfixes, small GUI improvements, a revised manual and
-    support for the OpenAir airspace format for X-Plane.
-   </p>
-  <h3>Changes from Release 1.6.4 to 1.6.6</h3>
-    <p>Version 1.6.5 was an internal beta release.</p>
+  <h3>Changes from Release 1.6.6 to 1.6.7</h3>
+  <p>This small update covers bugfixes, a new export format and a complete French translation of the program.
+</p>
   <h4>Improvements</h4>
   <ul>
-    <li>Added OpenAir airspace format compilation for X-PLane. Also reading airspace files from
-      from <code>YOUR_DOCUMENTS_DIR/Little Navmap/X-Plane Airspaces</code>. You have to create the 
-       <code>Little Navmap/X-Plane Airspaces</code> directory manually.</li>
-    <li>Added new airspace types <code>Wave Window</code> and <code>Glider Prohibited</code>.</li>
-    <li>Removed restrictions on user defined waypoint names. 
-      Names are now adjusted according to flight plan format when saving.</li>
-    <li>Enabled user defined waypoint names for X-Plane FMS format.</li>
-    <li>Changed rating checkbox to drop down list in airport search.</li>
-    <li>X-Plane 3D airport state is now considered when calculating rating.</li>
-    <li>Added display of simulator type to connection status in statusbar.</li>
-    <li>Airspace buttons are now disabled if no airspaces are loaded.</li>
-    <li>Now clipping long airport and user waypoint names on map.</li>
-    <li>Removed <code>no SimConnect</code> header label in connect dialog.</li>
-    <li>Added display of AIRAC cycle to database dialog (X-Plane only).</li>
-    <li>Added scenery file display for airspaces in information window.</li>
-    <li>Added download button to update notification dialog.</li>
-    <li>Better error handling and reporting of too old files with version &lt; 850 when loading X-Plane scenery. 
-      Now checking X-Plane CIFP filenames before loading.</li>
-    <li>Now showing dialog on certain crash types to avoid silent crash to desktop.</li>
-    <li>Made loading of <code>add-on.xml</code> more robust for files with wrong encoding.</li>
-    <li>Added coordinates to CSV export to clipboard from flight plan and search result tables.</li>
+    <li><b>French translation by Patrick JUNG alias Patbest.</b></li>
+    <li>Added TXT flight plan format usable by JARDesign or Rotate Simulations aircraft.</li>
+    <li>Added adjustable limitation for maximum points of aircraft track.</li>
+    <li>Flight plan GPX export saves procedure points and altitude for route points now.</li>
   </ul>
   <h4>Bug Fixes</h4>
   <ul>
-    <li>Offline map themes <code>Atlas</code> and <code>Simple</code>: Fixed missing lakes in map.</li>
-    <li>Fixed problem loading FS9 flight plans.</li>
-    <li>Attempt to fix zoom distance creep while using moving map.</li>
-    <li>Fixed error in airspace copy process from older database schemes where bounding rectangle was messed up. 
-      This resulted in an <code>Too many objects</code> message in the statusbar.</li>
-    <li>Solved problem with gaps between SIDs, STARs and the respective transitions resulting in wrong
-      display and distance calculation.</li>
-    <li>Fixed problem where STAR was not reloaded after database switch.</li>
-    <li>Fixed issue where airspace display was not updated when changing cruise altitude with empty flight plan.</li>
-    <li>Fixed user waypoint format for FLP so that it can be reloaded.</li>
-    <li>Fixed confusing <code>0 errors</code> dialog appearing after loading X-Plane database successfully.</li>
-    <li>Fixed <code>Connect on startup</code> checkbox state not saved in some cases.</li>
-    <li>Fixed status bar connection indication remaining in disconnected state sometimes.</li>
-    <li>Fixed potential crash on failing network connection.</li>
-    <li><code>Calculate based on given altitude</code> is working again. Previously failed with 
-      <code>Cannot find a route</code>.</li>
-    <li>Now correctly considering minimum and maximum altitude ranges when calculating to avoid
-      non-overlapping airway altitude ranges in one flight plan.</li>
-    <li>Fixed error in flight plan saving logic where cancel did not stop saving.</li>
+    <li>Fixed problem where procedures were assigned to the wrong runway in search window.</li>
+    <li>Filter <code>No runway</code> is now back in procedure search.</li>
+    <li>Fixed errors in ATS route string generation where a DCT was inserted after
+         SID or before STAR statement creating invalid routes.</li>
+    <li>Fixed problem where X-Plane basepath was not found as <code>Save as</code> or <code>Export</code> default path.</li>
+    <li>Fixed exception when compiling new TACAN approach in P3D version 4.1.</li>
+    <li>Fixes for translation support.</li>
+    <li>Fixed crash after startup when airport procedures changed.</li>
+    <li>Fixed problem with gap on map display and wrong distance calculation for SIDs starting with an initial fix.</li>
+    <li>Fixed error where loading FMS flight plans can result in a missing
+  flight plan line in elevation profile.</li>
   </ul>
 
 # ---------------------------------------------------------------
