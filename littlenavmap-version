@@ -72,7 +72,7 @@ changelog=
     <li>Added options to disable restoring the last search parameters, information window content and
       aircraft trail on startup in options dialog on tab <code style="background-color: #e8e8e8;">Startup</code>.</li>
     <li>Added flight plan export for Majestic Dash. Currently limited to waypoints.</li>
-    <li>Added export for IEXG 737 flight plan format.</li>
+    <li>Added export for IXEG 737 flight plan format.</li>
     <li>Flight plan export to Flight Factor Airbus added.</li>
     <li>Enabled saving of the new X-Plane 11 FMS file format and added warning before saving since the
       format is not usable by X-Plane 11.05.<br/>
