@@ -35,47 +35,73 @@ changelog=
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
-version=1.6.5.beta
-downloadwin=https://www.magentacloud.de/lnk/1wlR0mQy
-downloadmac=https://www.magentacloud.de/lnk/2WlR01RH
-downloadlinux=https://www.magentacloud.de/lnk/Sylx0Sl4
+version=1.8.0.beta
+downloadwin=https://www.magentacloud.de/lnk/b8Fx01SF
+downloadmac=https://www.magentacloud.de/lnk/9olxUSZZ
+downloadlinux=https://www.magentacloud.de/lnk/xFFRU6BI
 changelog=
- <p><b>Changes from 1.6.4 to 1.6.5.beta</b></p>
- <p><i>Airspace view will be reset to default.</i></p>
- <ul>
-   <li>Added OpenAir airspace format compilation for X-PLane. Reading &quot;*.txt&quot; files from
-     &quot;YOURXPLANE/Custom Data/Airspaces&quot;,
-     &quot;YOURXPLANE/Resources/default data/airspaces&quot; and
-     from &quot;YOURHOME/Documents/Little Navmap/X-Plane Airspaces&quot; where &quot;Documents&quot; is the documents directory in you local language.</li>
-   <li>Added scenery file display for airspaces in information window.</li>
-   <li>Changed rating checkbox to combo in airport search.</li>
-   <li>X-Plane 3D airport state now considered when calculating rating.</li>
-   <li>Added display of simulator type to connection status in statusbar.</li>
-   <li>Added display of AIRAC cycle to database dialog (only X-Plane).</li>
-   <li>Enabled user defined waypoint names for X-Plane FMS format.</li>
-   <li>Removed restrictions on user defined waypoint names. Names are now adjusted according to save flight plan format.</li>
-   <li>Added coordinates to CSV export by clipboard.</li>
-   <li>Added download button to update notification dialog.</li>
-   <li>Fixed user waypoint format for FLP so that it can be reloaded.</li>
-   <li>Fixed status bar connection indication remaining in disconnected state sometimes.</li>
-   <li>Fixed &quot;Connect on startup&quot; checkbox state not saved in some cases.</li>
-   <li>Solved problem with gaps between SIDs, STARs and the respective transitions resulting in wrong display and distance calculation.</li>
-   <li>Fixed problem where STAR was not reloaded after database switch in some cases.</li>
-   <li>Cleanup of airspace management code to allow addition of more airspace types (&quot;Wave Window&quot; and &quot;Glider Prohibited&quot;).</li>
-   <li>Now clipping long airport and waypoint names on map.</li>
-   <li>Fixed issue where airspaces were not updated when changing cruise altitude with empty flight plan.</li>
-   <li>Fixed potential crash on failing network connection.</li>
-   <li>Fixed problem loading certain FS9 flight plans.</li>
-   <li>Fixed confusing 0 error dialog appearing after loading X-Plane database successfully.</li>
-   <li>Now checking X-Plane CIFP filenames before loading. Wrong names are reported.</li>
-   <li>Better error handling and reporting of too old files with version < 850 when loading X-Plane scenery.</li>
-   <li>Added handler for assertions/crashes showing dialog to avoid crash to desktop.</li>
-   <li>Made loading of add-on.xml more robust for files with wrong encoding.</li>
-   <li>Increased database minor version to 3.</li>
-   <li>Removed &quot;no SimConnect&quot; header label in connect dialog.</li>
-   <li>Fixed several small text errors in GUI.</li>
- </ul>
- </small>
+  <p><b>Changes from 1.6.7 to 1.8.0.beta</b></p>
+  <p>Reloading the scenery databases is recommended.</p>
+  <p>Improvements</p>
+  <ul>
+    <li>Added Navigraph database cycle 1707 to program download archive. Database is prepared and
+      used automatically on startup.</li>
+    <li>Added sub-menu for third party navdata in menu
+      <code style="background-color: #e8e8e8;">Scenery Library</code> with three display options.</li>
+    <li>Changed main window title bar to indicate usage of navdata (i.e. Navigraph):<br/>
+      <code style="background-color: #e8e8e8;">FSX/N</code>: simulator and navdata,
+      <code style="background-color: #e8e8e8;">(FSX)/N</code>: navdata only and
+      <code style="background-color: #e8e8e8;">FSX</code>: simulator only.</li>
+    <li>Program can now display mixed data (i.e. <code style="background-color: #e8e8e8;">FSX/N</code>)
+      on map and in information window:<br/>
+      Complete airports and ILS from simulator data. Navaids, airways, airspaces and procedures
+      from third party navdata like Navigraph.</li>
+    <li>Additonal third party database is now opened from application directory
+      first and can be overloaded in settings database directory by a newer one. Programm checks
+      database internal compilation time before copying and creates database indexes on demand.
+      Database is copied and prepared on first startup.</li>
+    <li>Added French legend and updates to translation by Patrick.</li>
+    <li>Updated Linux startup script so that it can be used also by the desktop launcher (thanks to Valerio for the tip).</li>
+    <li>Now adding all readme and changelog files to macOS deployment.</li>
+    <li>Added command line option <code style="background-color: #e8e8e8;">-s</code> or
+      <code style="background-color: #e8e8e8;">--settings-directory</code> that allows to change the
+      <code style="background-color: #e8e8e8;">ABarthel</code> part of the
+      settings directory for testing purposes like running more than one version of Little Navmap.</li>
+    <li>Added settings in option dialog on tab <code style="background-color: #e8e8e8;">User Interface</code>
+      to force language and locale (number format, date format and more) in program to English.</li>
+    <li>Added options to disable restoring the last search parameters, information window content and
+      aircraft trail on startup in options dialog on tab <code style="background-color: #e8e8e8;">Startup</code>.</li>
+    <li>Added flight plan export for Majestic Dash. Currently limited to waypoints.</li>
+    <li>Added export for IEXG 737 flight plan format.</li>
+    <li>Flight plan export to Flight Factor Airbus added.</li>
+    <li>Enabled saving of the new X-Plane 11 FMS file format and added warning before saving since the
+      format is not usable by X-Plane 11.05.<br/>
+      FMS 11 is now the default format when saving FMS although it needs at least a 11.10 beta version.<br/>
+      FMS 3 can still be saved using the export option.</li>
+    <li>Adapted airspace and COM display to new types. Added caution airspace.</li>
+    <li>Removed SIDs and STARs in information dock window on procedure tab since this information was not useful.</li>
+  </ul>
+  <p>Fixed Errors</p>
+  <ul>
+    <li>Fixed error where ARINC name of procedures was not loaded causing problems when exporting and loading flight plans.</li>
+    <li>Information dock window on tab <code style="background-color: #e8e8e8;">Runways/Helipads</code>
+      can now display more than one ILS for a runway end (EDDF 25R/07L).</li>
+    <li>Fixed problem in ATS route string parser where an airway as an invalid first entry did not generate a warning message.</li>
+    <li>Fixed error in route string parser which did not recognize STARs correctly.</li>
+    <li>Fixed error where first enroute waypoint contained an airway reference after calculating with SID in some cases.
+      This caused problems when exporting some flight plan formats and in the route string parser.</li>
+    <li>Fixed several display issues with large airspaces and airways crossing the anti meridian. These showed up
+      mirrored with their tooltips in other parts of the world. Small problems remain (e.g. Melbourne FIR).</li>
+    <li>FSX/P3D: Added workaround for scenery sort order with add-on.xml files missing layer id.
+      Now forcing navaid updates to end of all scenery entries.</li>
+    <li>Fixed error where an automatic connect was attempted even when hostname is empty.</li>
+    <li>Fixed problem with almost invisible checkbox in night mode.</li>
+    <li>Fixed error with wrong ILS pitch in X-Plane compiler.</li>
+    <li>Better handling of X-Plane OpenAirspace comments.</li>
+    <li>Disabling maximum airway segment length now for data sources that contain a valid airspace geometry
+      (X-Plane and DFD - FSX/P3D contain invalid segments).</li>
+  </ul>
+
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
