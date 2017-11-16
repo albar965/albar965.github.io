@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Donations / Spenden"
-date:   2017-09-18 11:58:00 +0200
+date:   2017-11-16 20:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Donations / Spenden
@@ -38,6 +38,8 @@ Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten, können Sie hier
 <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
 <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
 </form>
+
+Falls jemand kein PayPal benutzen möchte: Mir einfach eine E-Mail schicken und ich sende meine Kontoverbindung zurück.
 
 Spenden sind vollkommen freiwillig.
 
