@@ -35,14 +35,27 @@ changelog=
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
-version=1.8.1.beta
-downloadwin=https://www.magentacloud.de/lnk/axlxUKMw
-downloadmac=https://www.magentacloud.de/lnk/moFxUjIA
-downloadlinux=https://www.magentacloud.de/lnk/gLFRUkec
+version=1.8.2.beta
+downloadwin=https://www.magentacloud.de/lnk/0WlR0lD9
+downloadmac=https://www.magentacloud.de/lnk/ZFlRUKap
+downloadlinux=https://www.magentacloud.de/lnk/wLlR0JAr
 changelog=
-  <p><a href="https://www.magentacloud.de/share/9psdyu-eip#$/1.8.1.beta">All Downloads</a></p>
+  <p><a href="https://www.magentacloud.de/share/9psdyu-eip#$/1.8.2.beta">All Downloads</a></p>
+  <p><b>Changes from 1.8.1.beta to 1.8.2.beta</b></p>
+    <p>Reloading the scenery databases is recommended.<br/>The program will ask to overwrite the Navigraph database since I updated it.</p>
+  <ul>
+    <li>Fixed crashes and freezes with invalid or incomplete procedures. 
+      Drawing code is now more robust for invalid procedure legs.</li>
+    <li>Updated English manual and French program translation.</li>
+    <li>Fixed problem where invalid procedure legs were not recognized (course/heading to DME distance or VOR radial).</li>
+    <li>Holding time in procedure legs in Navigraph database corrected. 
+      Now determining unit (time or distance) instead of using time for all.</li>
+    <li>Fixed problem in Navigraph database where compiler did not set fix or 
+      recommended fix in legs resulting in invalid procedures.</li>
+  </ul>
+  <p><b>Old Changes</b></p>
+  <small>
   <p><b>Changes from 1.8.0.beta to 1.8.1.beta</b></p>
-  <p>Manual now covers the new scenery library menu functionality and the new export formats.</p>
   <ul>
     <li>Added cycle information to X-Plane menu item in scenery library menu.</li>
     <li>Scenery library menu item is now disabled instead of being hidden if only one simulator is installed.</li>
@@ -57,10 +70,7 @@ changelog=
     <li>Updated included English PDF manual.</li>
     <li>Updated French translations and added translated offline manual PDF by Patrick.</li>
   </ul>
-  <p><b>Old Changes</b></p>
-  <small>
     <p>Changes from 1.6.7 to 1.8.0.beta</p>
-    <p>Reloading the scenery databases is recommended.</p>
     <p>Improvements</p>
     <ul>
       <li>Added Navigraph database cycle 1707 to program download archive. Database is prepared and
