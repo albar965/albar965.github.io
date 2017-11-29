@@ -45,17 +45,21 @@ Spenden sind vollkommen freiwillig.
 
 # Science Fiction (German/Deutsch)
 
-Alternativ würde mich auch darüber freuen, wenn Sie das Projekt meiner Frau Anja Fahrner \([**Autorenseite**](https://www.anja-fahrner.de)\) anschauen.
+Alternativ würde ich mich auch darüber freuen, wenn Sie das Projekt meiner Frau Anja Fahrner \([**Autorenseite**](https://www.anja-fahrner.de)\) anschauen.
 
-Sie schreibt gesellschaftskritische Science-Fiction Romane und Kurzgeschichten.
+Sie schreibt gesellschaftskritische Science-Fiction- bzw. Fantasy-Romane und Kurzgeschichten.
 
 Vielleicht ist etwas zum Verschenken oder für Sie selbst dabei.
 
-Das Buch [**Alkatar**](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar) \(Taschenbuch 15 €, eBook 4,95 € und Kindle Unlimited\) oder\\
-die Kurzgeschichte [**Die Erben der Verbannten**](http://www.anja-fahrner.de/die-erben-der-verbannten) \(eBook 0,99 € und Kindle Unlimited\).
+[**Alkatar**](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar) \(Taschenbuch 15 €, eBook 4,95 € und Kindle Unlimited\)
+
+**Neu:** [**Alkatar - Der Erbe**](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar-der-erbe) \(Taschenbuch 16 €, eBook 4,95 € und Kindle Unlimited\)
+
+[**Die Erben der Verbannten**](http://www.anja-fahrner.de/meine-buecher-und-geschichten/die-erben-der-verbannten) \(Kurzgeschichte, eBook 0,99 € und Kindle Unlimited\).
 
 [![Alkatar](assets/images/alkatar_buch.jpg)](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar)
-[![Die Erben der Verbannten](assets/images/die_erben_buch.jpg)](http://www.anja-fahrner.de/die-erben-der-verbannten)
+[![Alkatar - Der Erbe](assets/images/alkatar_der_erbe_buch.jpg)](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar-der-erbe)
+[![Die Erben der Verbannten](assets/images/die_erben_buch.jpg)](http://www.anja-fahrner.de/meine-buecher-und-geschichten/die-erben-der-verbannten)
 
 ## Rezensionen zu Alkatar
 
