@@ -2,7 +2,7 @@
 # ---------------------------------------------------------------
 [stable]
 version=1.8.3
-url=https://albar965.github.io/release/2017/11/30/littlenavmap-stable-183-released.html
+url=https://albar965.github.io/release/2017/11/29/littlenavmap-stable-183-released.html
 downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.8.3/LittleNavmap-win-1.8.3.zip
 downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.8.3/LittleNavmap-macOS-1.8.3.zip
 downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.8.3/LittleNavmap-linux-1.8.3.tar.gz
