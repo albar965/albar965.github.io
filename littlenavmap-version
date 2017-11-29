@@ -1,36 +1,92 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=1.6.7
-url=https://albar965.github.io/release/2017/10/28/littlenavmap-stable-167-released.html
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.6.7/LittleNavmap-win-1.6.7.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.6.7/LittleNavmap-macOS-1.6.7.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.6.7/LittleNavmap-linux-1.6.7.tar.gz
+version=1.8.3
+url=https://albar965.github.io/release/2017/11/30/littlenavmap-stable-183-released.html
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v1.8.3/LittleNavmap-win-1.8.3.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v1.8.3/LittleNavmap-macOS-1.8.3.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v1.8.3/LittleNavmap-linux-1.8.3.tar.gz
 changelog=
-  <h3>Changes from Release 1.6.6 to 1.6.7</h3>
-  <p>This small update covers bugfixes, a new export format and a complete French translation of the program.
-</p>
-  <h4>Improvements</h4>
+  <p>This release adds <strong>support for Navigraph updates</strong> and includes a full AIRAC cycle including procedures, airspaces, navaids and more.<br/> Furthermore, new flight plan export formats like the Majestic Dash and the new X-Plane 11 FMS format were added.</p>
+  <p><strong>Note that Navigraph updates will only be available as of December 7th with the next cycle 1713.</strong></p>
+  <p><strong>The program will automatically prepare the included Navigraph database on first start.</strong><br/>
+    <strong>Reloading the scenery databases is recommended.</strong>
+  </p>
+  <b>Navigraph Navigation Data</b>
   <ul>
-    <li><b>French translation by Patrick JUNG alias Patbest.</b></li>
-    <li>Added TXT flight plan format usable by JARDesign or Rotate Simulations aircraft.</li>
-    <li>Added adjustable limitation for maximum points of aircraft track.</li>
-    <li>Flight plan GPX export saves procedure points and altitude for route points now.</li>
+    <li>Added Navigraph database cycle 1707 to program download archive. Database is prepared and used automatically on startup. See the
+      <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.8/en/NAVDATA.html">Navigation Databases</a> chapter in the manual for more information.
+    </li>
+    <li>Added sub-menu for Navigraph database in menu <code class="highlighter-rouge">Scenery Library</code> with three display options.</li>
+    <li>
+      Program can now display mixed data (e.g. <code class="highlighter-rouge">FSX/N</code> in titlebar) on map and in information window:
+      <ul>
+        <li>Complete airports and ILS from simulator data.</li>
+        <li>Navaids, airways, airspaces and procedures from third party navdata like Navigraph.</li>
+      </ul>
+    </li>
+    <li>Changed main window title bar to indicate usage of navdata (e.g. Navigraph):
+      <code class="highlighter-rouge">FSX/N</code>: simulator and navdata, <code class="highlighter-rouge">(FSX)/N</code>: navdata only and <code class="highlighter-rouge">FSX</code>: simulator only. See <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.8/en/INTRO.html#window-title">Window Title</a> in the online manual.
+    </li>
+    <li>Additonal third party database is now opened from application directory first and can be overloaded in settings database directory by a newer one. Programm checks database internal compilation time before copying and creates database indexes on demand. Database is copied and prepared on first startup.</li>
   </ul>
-  <h4>Bug Fixes</h4>
+  <b>Flight Plan Export</b>
   <ul>
-    <li>Fixed problem where procedures were assigned to the wrong runway in search window.</li>
-    <li>Filter <code>No runway</code> is now back in procedure search.</li>
-    <li>Fixed errors in ATS route string generation where a DCT was inserted after
-         SID or before STAR statement creating invalid routes.</li>
-    <li>Fixed problem where X-Plane basepath was not found as <code>Save as</code> or <code>Export</code> default path.</li>
-    <li>Fixed exception when compiling new TACAN approach in P3D version 4.1.</li>
-    <li>Fixes for translation support.</li>
-    <li>Fixed crash after startup when airport procedures changed.</li>
-    <li>Fixed problem with gap on map display and wrong distance calculation for SIDs starting with an initial fix.</li>
-    <li>Fixed error where loading FMS flight plans can result in a missing
-  flight plan line in elevation profile.</li>
+    <li>Enabled saving of the new X-Plane 11 FMS file format and added warning before saving since the format is not usable by X-Plane 11.05. FMS 11 is now the default format when saving FMS although it needs at least a 11.10 beta version. FMS 3 can still be saved using the export option. See in the manual:
+      <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.8/en/FLIGHTPLANFMT.html#flight-plan-formats-fms11">FMS 11</a> and
+      <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.8/en/FLIGHTPLANFMT.html#flight-plan-formats-fms3">FMS 3</a>.
+    </li>
+    <li>Added flight plan export for Majestic Dash. Currently limited to waypoints. See in the manual:
+      <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.8/en/FLIGHTPLANFMT.html#flight-plan-formats-fpr">FPR</a>.
+    </li>
+    <li>Added export for IXEG 737 flight plan format. See in the manual:
+      <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.8/en/FLIGHTPLANFMT.html#flight-plan-formats-fpl">FPL</a>.
+    </li>
+    <li>Flight plan export to Flight Factor Airbus added. See in the manual:
+      <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.8/en/FLIGHTPLANFMT.html#flight-plan-formats-cortein">corte.in</a>.
+    </li>
   </ul>
+  <b>Translation</b>
+  <ul>
+    <li>Updated English manual and French program translation.</li>
+    <li>Added translated offline manual PDF by Patrick. Not yet available online.</li>
+    <li>Added French legend and updates to translation.</li>
+  </ul>
+  <b>Options</b>
+  <ul>
+    <li>Added settings in option dialog on tab <code class="highlighter-rouge">User Interface</code> to force user interface language and locale (number format, date format and more) in program to English.</li>
+    <li>Added options to disable restoring the last search parameters, information window content and aircraft trail on startup in options dialog on tab <code class="highlighter-rouge">Startup</code>.</li>
+  </ul>
+  <b>Other</b>
+  <ul>
+    <li>Updated Linux startup script so that it can be used also by the desktop launcher (thanks to Valerio for the tip).</li>
+    <li>Now adding all readme and changelog files to macOS deployment.</li>
+    <li>Added command line option <code class="highlighter-rouge">-s</code> or <code class="highlighter-rouge">--settings-directory</code> that allows to change the <code class="highlighter-rouge">ABarthel</code> part of the settings directory for testing purposes like running more than one version of Little Navmap.</li>
+    <li>Fixed display of navaids in information dock window on procedure tab and removed SIDs and STARs since this information was not useful.</li>
+    <li>Added cycle information to X-Plane menu item in scenery library menu showing AIRAC cycle of loaded X-Plane database.</li>
+    <li>Scenery library menu item is now disabled instead of being hidden if only one simulator is installed.</li>
+    <li>Adapted airspace and COM display to new types. Added caution airspace.</li>
+    <li>Information dock window on tab <code class="highlighter-rouge">Runways/Helipads</code> can now display more than one ILS for a runway end (EDDF 25R/07L in X-Plane).</li>
+  </ul>
+  <b>Fixed Errors</b>
+  <ul>
+    <li>Fixed error where ARINC name of procedures was not loaded causing problems when exporting and loading flight plans.</li>
+    <li>Fixed problem in ATS route string parser where an airway as an invalid first entry did not generate a warning message.</li>
+    <li>Fixed error in route string parser which did not recognize STARs correctly.</li>
+    <li>Fixed error where first enroute waypoint contained an airway reference after calculating with SID in some cases. This caused problems when exporting some flight plan formats and in the route string parser.</li>
+    <li>Fixed several display issues with large airspaces and airways crossing the anti meridian. These showed up mirrored with their tooltips in other parts of the world. Small problems remain (e.g. Melbourne FIR).</li>
+    <li>FSX/P3D: Added workaround for scenery sort order with <code class="highlighter-rouge">add-on.xml</code> files missing layer id. Now forcing navaid updates of fsAerodata to highest priority.</li>
+    <li>Fixed error where an automatic connect was attempted even when hostname is empty.</li>
+    <li>Fixed problem with almost invisible checkbox, radiobutton and toolbar-button state in night mode.</li>
+    <li>Fixed error with wrong ILS pitch in X-Plane compiler. Value was rounded to integer value.</li>
+    <li>Better handling of X-Plane OpenAirspace comments.</li>
+    <li>Fixed crashes and freezes with invalid or incomplete procedures. Drawing code is now more robust for invalid procedure legs as they appear in some add-on scenery.</li>
+    <li>Fixed problem where invalid procedure legs were not recognized (course/heading to DME distance or VOR radial).</li>
+    <li>Fixed problem where no scenery database was selected on first startup causing crashes when loading a flight plan.</li>
+    <li>Fixed handling of missing or inaccessible legend file. Now silently ignores error and redirects to web page if unavailable.</li>
+    <li>Fixed error in scenery library menu where a menu item could be deselected resulting in no selection at all.</li>
+  </ul>
+
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
@@ -44,13 +100,13 @@ changelog=
   <p><b>Changes from 1.8.1.beta to 1.8.2.beta</b></p>
     <p>Reloading the scenery databases is recommended.<br/>The program will ask to overwrite the Navigraph database since I updated it.</p>
   <ul>
-    <li>Fixed crashes and freezes with invalid or incomplete procedures. 
+    <li>Fixed crashes and freezes with invalid or incomplete procedures.
       Drawing code is now more robust for invalid procedure legs.</li>
     <li>Updated English manual and French program translation.</li>
     <li>Fixed problem where invalid procedure legs were not recognized (course/heading to DME distance or VOR radial).</li>
-    <li>Holding time in procedure legs in Navigraph database corrected. 
+    <li>Holding time in procedure legs in Navigraph database corrected.
       Now determining unit (time or distance) instead of using time for all.</li>
-    <li>Fixed problem in Navigraph database where compiler did not set fix or 
+    <li>Fixed problem in Navigraph database where compiler did not set fix or
       recommended fix in legs resulting in invalid procedures.</li>
   </ul>
   <p><b>Old Changes</b></p>

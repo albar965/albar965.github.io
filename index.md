@@ -63,6 +63,8 @@ Search functionality allows to look for airports, navaids or procedures by a lar
 
 The program can generate an ATS route string from flight plans and vice versa where the output is widely configurable.
 
+The nav database can be updated by the Navigraph FMS Data Manager. A recent cycle is included.
+
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4 and X-Plane 11.
 
 **Supported platforms:** Windows 7/8/10, macOS and Linux \(64 bit\).

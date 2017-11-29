@@ -26,7 +26,6 @@ Click on image for full size.
 
 [![Little Logbook Table View and Tooltip](assets/images/littlelogbook-main.jpg)](assets/images/littlelogbook-main.jpg)
 
-
 ----
 **Google Earth KML Export (Version 1.5.0):**
 
