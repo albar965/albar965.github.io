@@ -37,7 +37,9 @@ All my projects, releases, source code, issue lists and more.
 
 Online manuals for _Little Navmap_ and _Little Navconnect_.
 
-[**► Support Forum at Avsim**](http://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum)
+[**► Support Forum at
+Avsim**](http://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum
+)
 
 Help for users, preview of new releases, development progress, screenshots and beta releases.
 
@@ -51,40 +53,58 @@ Help for users, preview of new releases, development progress, screenshots and b
 
 ## Little Navmap {#littlenavmap}
 
-[![Little Navmap](assets/images/navroute.png)](littlenavmap.html) [**► Little Navmap**](littlenavmap.html) is a free open source flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X, Prepar3D and X-Plane.
+[![Little Navmap](assets/images/navroute.png)](littlenavmap.html) [**► Little
+Navmap**](littlenavmap.html) is a free open source flight planner, navigation tool, moving map,
+airport search and airport information system for Flight Simulator X, Prepar3D and X-Plane.
 
-A widely configurable map display using the OpenStreetMap as a background map which is only one option of many online and included offline maps. The map shows airports, navaids, airways, airspaces, AI or multiplayer aircraft and ships. A seamlessly integrated airport diagram displays taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
+A widely configurable map display using the OpenStreetMap as a background map which is only one
+option of many online and included offline maps. The map shows airports, navaids, airways,
+airspaces, AI or multiplayer aircraft and ships. A seamlessly integrated airport diagram displays
+taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
 
-It supports approach and departure procedures like SIDs and STARs, offers several automatic flight plan calculation options and multiple export formats like GFP, GPX, RTE, FLP and FMS as well as drag and drop flight plan editing on the map. The program can read the PLN, FMS and FLP flight plan formats.
+It supports approach and departure procedures like SIDs and STARs, offers several automatic flight
+plan calculation options and multiple export formats like GFP \(Reality XP GTN and Flight1 GTN\),
+GPX, RTE, FLP and X-Plane FMS 3/11 as well as
+drag and drop flight plan editing on the map. The program can read the PLN, FMS and FLP flight plan
+formats.
 
 An elevation profile is shown for the flight plan allowing to find a safe cruise altitude.
 
-Search functionality allows to look for airports, navaids or procedures by a large amount of criteria also including a spatial search.
+Search functionality allows to look for airports, navaids or procedures by a large amount of
+criteria also including a spatial search.
 
-The program can generate an ATS route string from flight plans and vice versa where the output is widely configurable.
+The program can generate an ATS route string from flight plans and vice versa where the output is
+widely configurable.
 
 The nav database can be updated by the Navigraph FMS Data Manager. A recent cycle is included.
 
-**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4 and X-Plane 11.
+**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
+Prepar3D v2, v3, v4 and X-Plane 11.
 
 **Supported platforms:** Windows 7/8/10, macOS and Linux \(64 bit\).
 
-[![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
+[![Little
+Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/13
+49379408450042)
 
 
 ## Little Navconnect {#littlenavconnect}
 
-[![Little Navconnect](assets/images/navconnect.png)](littlenavconnect.html) [**► Little Navconnect**](littlenavconnect.html) is a
-small free open source application that acts as an agent connecting *Little Navmap* with a flight simulator. This allows to use *Little Navmap*
+[![Little Navconnect](assets/images/navconnect.png)](littlenavconnect.html) [**► Little
+Navconnect**](littlenavconnect.html) is a
+small free open source application that acts as an agent connecting *Little Navmap* with a flight
+simulator. This allows to use *Little Navmap*
 on Linux or macOS and saves the the pain of setting up remote SimConnect links for FSX or Prepar3D.
 
-**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4 and X-Plane 11.
+**Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
+Prepar3D v2, v3, v4 and X-Plane 11.
 
 **Supported platforms:** Windows 7/8/10, Apple macOS and Linux \(64 bit\).
 
 ## Little Xpconnect {#littlexpconnect}
 
-![Little Xpconnect](assets/images/xpnavconnect.png) **Little Xpconnect** is a X-Plane plugin that allows *Little Navmap* and *Little Navconnect* to connect to X-Plane.
+![Little Xpconnect](assets/images/xpnavconnect.png) **Little Xpconnect** is a X-Plane plugin that
+allows *Little Navmap* and *Little Navconnect* to connect to X-Plane.
 
 It is light weight, free and open source.
 
@@ -94,15 +114,19 @@ It is light weight, free and open source.
 
 **Supported platforms:** Windows 7/8/10, Apple macOS and Linux.
 
-[**► Readme and Installation**](https://github.com/albar965/littlexpconnect/blob/release/1.0/README.txt)
+[**► Readme and
+Installation**](https://github.com/albar965/littlexpconnect/blob/release/1.0/README.txt)
 
 [**► Downloads and Releases**](https://github.com/albar965/littlexpconnect/releases)
 
 ## Little Logbook {#littlelogbook}
 
-[![Little Logbook](assets/images/logbook.png)](littlelogbook.html) [**► Little Logbook**](littlelogbook.html) is a view and extraction program
-for the FSX logbook. It allows fast and intuitive search and grouping of logbook entries based on several parameters, as well as export to HTML,
-CSV and Google Earth KML documents. Additional information about airports can be shown together with the MakeRunways Utility by Peter Dowson.
+[![Little Logbook](assets/images/logbook.png)](littlelogbook.html) [**► Little
+Logbook**](littlelogbook.html) is a view and extraction program
+for the FSX logbook. It allows fast and intuitive search and grouping of logbook entries based on
+several parameters, as well as export to HTML,
+CSV and Google Earth KML documents. Additional information about airports can be shown together
+with the MakeRunways Utility by Peter Dowson.
 
 **Supported platforms:** Windows XP/7/8/10.
 
