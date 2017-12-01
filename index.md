@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-10-08 12:00:00 +0200
+date:   2017-11-30 12:00:00 +0200
 ---
 
 # Alex' Projects
