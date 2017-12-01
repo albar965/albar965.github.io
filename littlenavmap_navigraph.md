@@ -15,7 +15,7 @@ date:   2017-12-01 12:00:00 +0100
 ![Select User Defined Folder](assets/images/navigraph2.jpg)
 
 ## Select the correct Folder 
-**Do _not_ select **`little_navmap_db`**.**
+**Do _not_ select** `little_navmap_db` **.**
 
 ![Select Folder](assets/images/navigraph3.jpg)
 
