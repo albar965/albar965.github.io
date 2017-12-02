@@ -1,14 +1,15 @@
 ---
 layout: subpage
 title:  "Little Navmap - Install Navigraph Updates"
-date:   2017-12-02 11:00:00 +0100
+date:   2017-12-02 12:00:00 +0100
 ---
 [Alex’ Projects](index.html) ► Little Navmap - Install Navigraph Updates
 # ![Little Navmap](assets/images/navroute.png) Little Navmap - Install Navigraph Updates
 
-**I recommend to use the automatic scan in the _FMS Data Manager_ which usually finds the correct path.**
-
-**Use the method below only if the automatic scan does not work for you.**
+## Please Note
+* **I recommend to use the automatic scan in the _FMS Data Manager_ which usually finds the correct path.**
+* **Use the method below only if the automatic scan does not work for you.**
+* **Close _Little Navmap_ when updating its database. _Little Navmap_ might crash otherwise.**
 
 ## Select Little Navmap in Addon Mappings:
 
