@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-11-30 12:00:00 +0200
+date:   2017-12-04 12:00:00 +0200
 ---
 
 # Alex' Projects
@@ -81,7 +81,7 @@ The nav database can be updated by the Navigraph FMS Data Manager. A recent cycl
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
 Prepar3D v2, v3, v4 and X-Plane 11.
 
-**Supported platforms:** Windows 7/8/10, macOS and Linux \(64 bit\).
+**Supported platforms:** Windows 7/8/10, macOS \(10.10 or newer only\) and Linux \(64 bit only\).
 
 [![Little
 Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/13
