@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-12-04 12:00:00 +0200
+date:   2017-12-18 12:00:00 +0200
 ---
 
 # Alex' Projects
@@ -27,7 +27,7 @@ date:   2017-12-04 12:00:00 +0200
 <a href="albar 965 AT mail box DOT org"
    rel="nofollow"
    onclick="this.href='mailto:' + 'albar' + '965' + '@' + 'mailbox' + '.' + 'org'"
-   onmouseleave="this.href='albar 965 AT mail box DOT org'"><span class="bold">► Contact me by email</span></a>
+   onmouseleave="this.href='albar 965 AT mail box DOT org'"><span class="bold">► Contact me by email (English / Deutsch)</span></a>
 
 [**► GitHub Profile**](https://github.com/albar965)
 
@@ -64,7 +64,7 @@ taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
 
 It supports approach and departure procedures like SIDs and STARs, offers several automatic flight
 plan calculation options and multiple export formats like GFP \(Reality XP GTN and Flight1 GTN\),
-GPX, RTE, FLP and X-Plane FMS 3/11 as well as
+FPL \(Reality XP GNS\), GPX, RTE, FLP and X-Plane FMS 3/11 as well as
 drag and drop flight plan editing on the map. The program can read the PLN, FMS and FLP flight plan
 formats.
 
@@ -73,10 +73,9 @@ An elevation profile is shown for the flight plan allowing to find a safe cruise
 Search functionality allows to look for airports, navaids or procedures by a large amount of
 criteria also including a spatial search.
 
-The program can generate an ATS route string from flight plans and vice versa where the output is
-widely configurable.
+The program can generate an ATS route description from flight plans and vice versa where the output is widely configurable.
 
-The nav database can be updated by the Navigraph FMS Data Manager. A recent cycle is included.
+The nav database can be updated by the _Navigraph FMS Data Manager_. A cycle 1307 database is included.
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
 Prepar3D v2, v3, v4 and X-Plane 11.

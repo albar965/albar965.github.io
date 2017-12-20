@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2017-12-04 12:00:00 +0100
+date:   2017-12-18 12:00:00 +0100
 ---
 [Alex’ Projects](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
@@ -49,7 +49,8 @@ date:   2017-12-04 12:00:00 +0100
   available in tooltips or information windows for each map object.
 * **Flight plans** and flight plan fragments can be loaded, saved and merged all using the common
   Flight Simulator PLN files as well as **X-Plane FMS format version 3 and 11** and FLP files.
-* Flight plans can be exported to the **GFP format used by the Reality XP GTN and the Flight1 GTN 650/750**.
+* Flight plans can be exported to the **_Reality XP GNS 530W/430W V2_, the _Reality XP GTN 750/650 Touch_ and
+  the _Flight1 GTN 650/750_**.
 * More export formats are **GPX (GPS Exchange Format, including flown track), PMDG RTE, FLP, X-Plane
   FMS 3 and 11, Majestic Dash FPR and many more**. FS9 PLN can be imported.
 * **Drag and drop** flight plan editing functionality on the map allows to easily create and edit
