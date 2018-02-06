@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2017-12-18 12:00:00 +0100
+date:   2018-02-06 15:00:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
@@ -9,6 +9,8 @@ date:   2017-12-18 12:00:00 +0100
 ## Links {#links}
 
 [**► Releases and Downloads**](https://github.com/albar965/littlenavmap/releases)
+
+[**► Translation Packages**](littlenavmaptranslations.html)
 
 [**► Screenshots**](littlenavmapscreens.html)
 
@@ -20,7 +22,7 @@ date:   2017-12-18 12:00:00 +0100
 
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
-## Version 1.8.3 Features
+## Version 1.8.5 Features
 
 * *Little Navmap* is a **free** open source flight planner, navigation tool, moving map, airport
   search and airport information system.
