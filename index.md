@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2017-12-18 12:00:00 +0200
+date:   2018-02-22 21:00:00 +0100
 ---
 
 # Alex' Projects
@@ -127,5 +127,9 @@ several parameters, as well as export to HTML,
 CSV and Google Earth KML documents. Additional information about airports can be shown together
 with the MakeRunways Utility by Peter Dowson.
 
+**Supported Flight Simulators:** All FSX versions from SP2 up and Flight Simulator - Steam Edition.
+
 **Supported platforms:** Windows XP/7/8/10.
+
+**Little Logbook is not compatible with Lockheed Martin Prepar3D v4 and later.**
 

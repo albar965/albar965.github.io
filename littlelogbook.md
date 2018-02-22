@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Logbook"
-date:   2017-05-11 13:04:00 +0200
+date:   2018-02-22 20:04:00 +0100
 ---
 [Alex’ Projects](index.html) ► Little Logbook
 # [![Little Logbook](assets/images/logbook.png)](littlelogbook.html) Little Logbook
@@ -16,6 +16,11 @@ date:   2017-05-11 13:04:00 +0200
 
 [► GitHub Little Logbook Project](and Sources https://github.com/albar965/littlelogbook)
 
+**Supported Flight Simulators:** All FSX versions from SP2 up and Flight Simulator - Steam Edition.
+
+**Supported platforms:** Windows XP/7/8/10.
+
+**Little Logbook is not compatible with Lockheed Martin Prepar3D v4 and later.**
 
 ## Screenshots
 
