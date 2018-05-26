@@ -77,14 +77,111 @@ changelog=
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
-version=2.0.1.beta
-downloadwin=https://www.magentacloud.de/lnk/gYlx06pE
-downloadmac=https://www.magentacloud.de/lnk/FBFRUbLx
-downloadlinux=https://www.magentacloud.de/lnk/ijFxUnry
+version=2.0.2.rc1
+downloadwin=https://www.magentacloud.de/lnk/KdlR0Gnt
+downloadmac=https://www.magentacloud.de/lnk/73lx0lSK
+downloadlinux=https://www.magentacloud.de/lnk/FlFxUIVO
 changelog=
   <!-- ====================================== -->
-  <h3>Version 2.0.1.beta</h3>
-  <h4>Online Networks</h4>
+  <h3>Version 2.0.2.rc1 (Release Candidate)</h3>
+  <p><strong>►► X-Plane users: Reinstall the included Xpconnect 1.0.9.rc1 for bug fixes regarding inverted magnetic variation. ◄◄</strong></p>
+  <!-- ====================================== -->
+  <h4>Help</h4>
+  <ul>
+    <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/">Online manual available here on Gitbook</a>.</li>
+    <li>All help buttons and menu items are working now and point to the updated online manual.</li>
+    <li>Updated legend for compass rose and online aircraft.</li>
+    <li>New online manual chapters and/or changes
+    <ul>
+      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/USERPOINT.html">Userpoints</a></li>
+      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/MENUS.html#userdata-menu">Userdata menu</a></li>
+      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/MAPDISPLAY.html#add-userpoint">Userpoint map context menu items</a></li>
+      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/ONLINENETWORKS.html">Online Networks</a></li>
+      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/COMPASSROSE.html">Compass Rose</a></li>
+      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/EDITFPPOSITION.html">Edit flight plan positions</a></li>
+      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/COORDINATES.html">Coordinate formats</a></li>
+      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/CUSTOMIZE.html#customize-online-center">Customize display radius for online centers</a></li>
+      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/CUSTOMIZE.html#customize-userpoint-icons">Customize userpoint icons</a></li>
+    </ul>
+  </li>
+  </ul>
+  <!-- ====================================== -->
+  <h4>Navdata</h4>
+  <ul>
+    <li>The included Navigraph AIRAC database was updated to cycle 1801. This fixes two problems:<br/>
+        Wrong magnetic declination for VOR stations.<br/>
+        Procedures of three letter airports were not recognized.</li>
+  </ul>
+  <!-- ====================================== -->
+  <h4>Translations</h4>
+  <ul>
+    <li>Added updated English and French (WIP) PDF offline manuals.</li>
+    <li>Updated translations: Dutch, Brazilian Portuguese, French, Spanish and German. All complete. Thanks to all who contributed!</li>
+  </ul>
+  <!-- ====================================== -->
+  <h4>GUI</h4>
+  <ul>
+    <li>Save button is now always enabled to allow saving PLN file again after P3D changes file.</li>
+    <li>Fixed misleading warning in route string parser if airport name as intermediate destination is equal to an airway.</li>
+    <li>Fixed tooltip and information display showing facility &quot;Procedures&quot; for all airports.</li>
+    <li>Improved handing of information dialog to raise the correct tab when selecting from context menu.</li>
+  </ul>
+  <!-- ====================================== -->
+  <h4>Userdata</h4>
+  <ul>
+    <li>Fixed small issues on userpoint CSV export where fields used floating point numbers wrongly.</li>
+    <li>Now exporting userdata columns last_edit_timestamp and visible_from to CSV. Columns are optional for import.</li>
+    <li>Issue with wrong default type fixed in add dialog if type is empty.</li>
+    <li>Corrected wrong display for userpoints all indicated as temporary in edit dialog.</li>
+    <li>Fixed non localized date in user point information.</li>
+    <li>Now exporting all userdata columns to CSV: Added &quot;last_edit_timestamp&quot; and &quot;visible_from&quot;. Columns are optional for import. See manual.</li>
+    <li>Fixed region field not adjusted in X-Plane userdata export.</li>
+  </ul>
+  <!-- ====================================== -->
+  <h4>Online</h4>
+  <ul>
+    <li>Now merging simulator aircraft and online network aircraft with same callsign/registration. These shadow aircraft are now displayed as online network aircraft (orange) and have online network tooltips and information. #45</li>
+    <li>Fixed display of shown features in status bar which indicated online airspaces when online networks were off.</li>
+    <li>Changed fill color for centers for better visibility.</li>
+    <li>Now waiting three minutes for next download to give user a chance to correct.</li>
+    <li>Fixed issue where program went into endless error dialog loop when entering a wrong online network address.</li>
+    <li>Now using minimum and maximum circle radii for online ATC geometry.</li>
+  </ul>
+  <!-- ====================================== -->
+  <h4>Customization</h4>
+  <ul>
+    <li>Added reset/migration for mapstyle INI file and adding version now to file.</li>
+    <li>Added customize folder and icons.zip for icon templates to allow users creating their own icons based on default ones.</li>
+    <li>Program will create a backup of &quot;little_navmap_mapstyle.ini&quot; and replace file with new colors (blue airways). All customization files are now versioned. Section &quot;[Options]&quot;.</li>
+  </ul>
+  <!-- ====================================== -->
+  <h4>Small changes</h4>
+  <ul>
+    <li>Userpoints now have the same priority in menus as in map display.</li>
+    <li>Fix in userpoint edit dialog tooltip.</li>
+    <li>Fixes to wrong status bar and tooltips and misleading context menu items in search.</li>
+    <li>Small fix for runway display using wrong width when 0.</li>
+    <li>Corrected text for wind pointer which was scaled together with AI aircraft text.</li>
+    <li>Fixed issue where user agent got translated request type included (e.g. &quot;Custom&quot;). #45</li>
+    <li>Fixed issue where airspace tooltips were shown in high zoom distances with no airspaces displayed.</li>
+    <li>Corrected tab order in main window and options dialog.</li>
+    <li>Added help button to user waypoint dialog.</li>
+    <li>Removed menu items from macOS application menu since automatic adaption from Qt does not work.</li>
+    <li>Fixes for missing about dialog on macOS.</li>
+    <li>Help system now more flexible and can load legend and help files if present for language.
+      Also uses a fuzzy way to find files by ignoring language region like &quot;pt&quot; vs. &quot;pt_BR&quot;.</li>
+    <li>Fixed issue where flight plan was saved in the wrong format after undo/redo and &quot;Save as&quot; (e.g. PLN content to FMS file).</li>
+    <li>FSX/P3D is not hidden in the scenery library menu if the simulator folder from the registry does not exist.</li>
+  </ul>
+  <!-- ====================================== -->
+  <!-- ====================================== -->
+  <!-- ====================================== -->
+  <hr/>
+  <h3>Previous Versions</h3>
+  <small>
+  <!-- ====================================== -->
+  <b>Version 2.0.1.beta</b>
+  <b>Online Networks</b>
   <ul>
   <li>Now removing duplicate user aircraft and multiplayer aircraft from simulator and online network.
     Keeping simulator aircraft for duplicates.<br/>
@@ -100,13 +197,13 @@ changelog=
   <li>Online network database schema is now always created from scratch to cover schema changes.</li>
   </ul>
   <!-- ====================================== -->
-  <h4>Flight plan export</h4>
+  <b>Flight plan export</b>
   <ul>
   <li>Fixed issues in corte.in export for flight factor aircraft. Last DCT now omitted on export and using full names
     for approach ident in (I16L before, now ILS16L).</li>
   </ul>
   <!-- ====================================== -->
-  <h4>Translations</h4>
+  <b>Translations</b>
   <ul>
   <li>Added translation for Brazilian Portuguese by Ricardo.</li>
   <li>Updated German translation from Stephan L.</li>
@@ -114,7 +211,7 @@ changelog=
   </ul>
   <!-- ====================================== -->
   <ul>
-  <h4>Map Themes</h4>
+  <b>Map Themes</b>
   <li>Changed OSM, OpenMapSurfer and Hillshading map downloads to use SSL encrypted connections (HTTPS).<br/>
     For fallback in case of problems replace the files<br/>
     &quot;Little Navmap/data/maps/earth/openstreetmap/openstreetmap.dgml&quot;,<br/>
@@ -123,7 +220,7 @@ changelog=
   <li>Fixed SSL loading problems on Linux (first noticed on Ubuntu 18.04).</li>
   </ul>
   <!-- ====================================== -->
-  <h4>Other</h4>
+  <b>Other</b>
   <ul>
   <li>Now showing navaid ranges for navaids which are parts of procedures
     E.g. &quot;Show navaid range&quot; for a NDB which is part of a procedure.</li>
@@ -134,7 +231,6 @@ changelog=
   <!-- ====================================== -->
   <!-- ====================================== -->
   <hr/>
-  <small>
   <b>Version 2.0.0.beta</b>
   <!-- ====================================== -->
   <b>Flight Plan and Export:</b>
