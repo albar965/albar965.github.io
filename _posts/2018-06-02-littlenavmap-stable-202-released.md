@@ -21,6 +21,8 @@ categories: release
 * **X-Plane users: Reinstall the included _Little Xpconnect_ 1.0.9 for bug fixes regarding magnetic variation.**
 * **Translations for the graphical user interface are included with the download.<br/>Translation packages are not required.**
 
+**IVAO is currently not activated due to server capacity problems, which is completely understandable. Since I don't have time to set up and run a mirror, I'm looking for volunteers.**
+
 ## Changes from Release 1.8.5 to 2.0.2
 
 ### Quick Overview

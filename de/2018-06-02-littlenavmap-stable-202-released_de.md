@@ -22,6 +22,8 @@ categories: release
 * **X-Plane-Benutzer: Installieren Sie das beigelegte _Little Xpconnect_ 1.0.9 erneut für Fehlerbehebungen bezüglich falscher magnetischer Deklination.**
 * **Die Übersetzungen der graphischen Oberfläche sind im Download-Archiv mit enthalten.<br/>Die Übersetzungspakete sind nicht mehr erforderlich.**
 
+**IVAO ist aufgrund von Problemen mit der Serverkapazität ​nicht aktiviert, was auch vollkommen verständlich ist. Da ich keine Zeit habe, einen Spiegelserver zu aufzusetzen und zu betreiben, suche ich noch Freiwillige.**
+
 ## Änderungen 1.8.5 to 2.0.2
 
 ### Übersicht
