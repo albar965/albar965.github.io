@@ -1,4 +1,5 @@
-name:         Alex' Projects
+name:         "Alex Projects"
+title:        "Alex Projects"
 description:  Open Source Flight Simulator Tools and more
 url:          https://albar965.github.io/
 theme:        jekyll-theme-tactile
