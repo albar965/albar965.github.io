@@ -50,7 +50,7 @@ Alle Verweise zeigen auf das Englische Handbuch.
 * [Anzeigebereich für Online-Center anpassen](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/de/CUSTOMIZE.html#customize-online-center)
 * [Benutzerpiktogramm-Symbole anpassen](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/CUSTOMIZE.html#customize-userpoint-icons)
 
-Thanks to Marc from Germany for revising the manual!
+Vielen Dank an Marc für die Überarbeitung der Anleitung!
 
 ### Neue Einstellungen
 
