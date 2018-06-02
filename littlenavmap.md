@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2018-02-06 15:00:00 +0200
+date:   2018-06-02 09:30:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
@@ -14,24 +14,25 @@ date:   2018-02-06 15:00:00 +0200
 
 [**► Screenshots**](littlenavmapscreens.html)
 
-[► Online User Manual](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.8/en)
+[► Online User Manual](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en)
 
-[► Map Legend](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/1.8/en/LEGEND.html)
+[► Map Legend](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/LEGEND.html)
 
 [► GitHub Little Navmap Project and Sources](https://github.com/albar965/littlenavmap)
 
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
-## Version 1.8.5 Features
+## Version 2.0.2 Features
 
 * *Little Navmap* is a **free** open source flight planner, navigation tool, moving map, airport
   search and airport information system.
 * Supported platforms: **Windows 7/8/10, macOS \(10.10 or newer only\) and Linux \(64 bit only\)**.
 * Support for **Flight Simulator X, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4 and
   X-Plane 11 \(64 bit\)**.
+* Comes with the following user interface languages: **Dutch, Brazilian Portuguese, French, Spanish and German**.
 * All is based on flight simulator stock or add-on data, no third party data needed. All stock and
   add-on airports are loaded in a few minutes.
-* **Navigation data can be updated from [Navigraph](http://www.navigraph.com/). A cycle 1707 database
+* **Navigation data can be updated from [Navigraph](http://www.navigraph.com/). A cycle 1801 database
   courtesy of navigraph is included in the download and includes navaids, airways, airspaces and procedures**.
 * Navigation database updates by [fsAerodata](https://www.fsaerodata.com) and [FSX/P3D Navaids
   update](https://www.aero.sors.fr/navaids3.html) are supported. Support for X-Plane navdata updates
@@ -50,7 +51,7 @@ date:   2018-02-06 15:00:00 +0200
   waypoints, airways, airspaces, approach and departure procedures and more. Plenty of information is
   available in tooltips or information windows for each map object.
 * **Flight plans** and flight plan fragments can be loaded, saved and merged all using the common
-  Flight Simulator PLN files as well as **X-Plane FMS format version 3 and 11** and FLP files.
+  Flight Simulator PLN files as well as **X-Plane FMS format version 3 and 11**, FSC and FLP files.
 * Flight plans can be exported to the **_Reality XP GNS 530W/430W V2_, the _Reality XP GTN 750/650 Touch_ and
   the _Flight1 GTN 650/750_**.
 * More export formats are **GPX (GPS Exchange Format, including flown track), PMDG RTE, FLP, X-Plane
@@ -74,13 +75,20 @@ date:   2018-02-06 15:00:00 +0200
 * **Information windows** display numerous details about airports, runways, COM frequencies,
   approach and departure procedures, navaids, the user aircraft, AI or multiplayer aircraft as well
   as ships, **decoded weather** from multiple sources like X-Plane, AS16, Active Sky Next, Active Sky
-  for Prepare3D v4, NOAA and Vatsim.
+  for Prepare3D v4, NOAA, VATSIM and IVAO.
 * The map display and the measurement units (nautical, metric, imperial) can be customized by the
   user.
+* User interface and map display can be further customized by changing configuration files and SVG icons.
 * All settings, search parameters, current flight plan, map positions and much more are saved
   between sessions.
 * *Little Navmap* can connect directly to the flight simulator, the *Little Xpconnect* X-Plane
   plugin and can also be run stand-alone or in **networked configuration**.
+* Complete functionality for **user defined waypoints**. Add, edit (also bulk-edit), delete, search, move and display.
+  Allows to create custom categories and icons. Import and export of CSV, X-Plane and Garmin files.
+* Optionally creates logbook entries in userdata for each takeoff and landing.
+* **Can display IVAO, VATSIM and custom online networks centers and clients on map, tooltips and information windows.<br/>_IVAO is currently disabled due to missing clearance.
+  Need volunteers to run a mirror._**
+* **Compass rose** for map or user aircraft showing heading, track and distances.
 * An **automatic reconnect** option makes the start order of programs irrelevant. Running a
   networked setup needs the included [Little Navconnect](littlenavconnect.html) program which eases
   setup across two or more computers.

@@ -1,9 +1,15 @@
 ---
 layout: subpage
 title:  "Little Navmap Translation Packages"
-date:   2018-02-06 15:00:00 +0200
+date:   2018-06-02 10:00:00 +0200
 ---
 [Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Translation Packages
+
+# User Interface
+
+_Little Navmap_ 2.0.2 includes the following user interface languages: Dutch, Brazilian Portuguese, French, Spanish and German.
+
+Thanks to Daniel "Wolf", Eddy Crequie, merspieler, Patrick JUNG , Ricardo Vitor and Stephan Leukert for the translations.
 
 # Translation Packages
 

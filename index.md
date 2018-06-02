@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2018-02-22 21:00:00 +0100
+date:   2018-06-02 09:30:00 +0200
 ---
 
 # Alex' Projects
@@ -37,9 +37,7 @@ All my projects, releases, source code, issue lists and more.
 
 Online manuals for _Little Navmap_ and _Little Navconnect_.
 
-[**► Support Forum at
-Avsim**](http://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum
-)
+[**► Support Forum at Avsim**](http://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum)
 
 Help for users, preview of new releases, development progress, screenshots and beta releases.
 
@@ -76,6 +74,11 @@ criteria also including a spatial search.
 The program can generate an ATS route description from flight plans and vice versa where the output is widely configurable.
 
 The nav database can be updated by the _Navigraph FMS Data Manager_. A cycle 1307 database is included.
+
+Complete edit, display, import and export functionality for user defined waypoints.
+Import and export of CSV, X-Plane and Garmin files.
+
+Display of clients and centers of VATSIM and custom online networks.
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
 Prepar3D v2, v3, v4 and X-Plane 11.
