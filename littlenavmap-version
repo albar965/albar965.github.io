@@ -295,474 +295,63 @@ changelog=
     based on default ones.</li>
   </ul>
 
-
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
-version=2.0.2.rc1
-downloadwin=https://www.magentacloud.de/lnk/KdlR0Gnt
-downloadmac=https://www.magentacloud.de/lnk/73lx0lSK
-downloadlinux=https://www.magentacloud.de/lnk/FlFxUIVO
+version=2.0.3.rc1
+downloadwin=https://www.magentacloud.de/lnk/WhFR0GNH
+downloadmac=https://www.magentacloud.de/lnk/YIFR0gXE
+downloadlinux=https://www.magentacloud.de/lnk/YJlRUWMy
 changelog=
   <!-- ====================================== -->
-  <h3>Version 2.0.2.rc1 (Release Candidate)</h3>
-  <p><strong>►► X-Plane users: Reinstall the included Xpconnect 1.0.9.rc1 for bug fixes regarding inverted magnetic variation. ◄◄</strong></p>
+  <h3>Version 2.0.3.rc1 (Release Candidate)</h3>
+  <p>This is a bug fix release.</p>
   <!-- ====================================== -->
-  <h4>Help</h4>
+  <h4>Online Networks</h4>
   <ul>
-    <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/">Online manual available here on Gitbook</a>.</li>
-    <li>All help buttons and menu items are working now and point to the updated online manual.</li>
-    <li>Updated legend for compass rose and online aircraft.</li>
-    <li>New online manual chapters and/or changes
-    <ul>
-      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/USERPOINT.html">Userpoints</a></li>
-      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/MENUS.html#userdata-menu">Userdata menu</a></li>
-      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/MAPDISPLAY.html#add-userpoint">Userpoint map context menu items</a></li>
-      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/ONLINENETWORKS.html">Online Networks</a></li>
-      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/COMPASSROSE.html">Compass Rose</a></li>
-      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/EDITFPPOSITION.html">Edit flight plan positions</a></li>
-      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/COORDINATES.html">Coordinate formats</a></li>
-      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/CUSTOMIZE.html#customize-online-center">Customize display radius for online centers</a></li>
-      <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/CUSTOMIZE.html#customize-userpoint-icons">Customize userpoint icons</a></li>
-    </ul>
-  </li>
+    <li>Fixed issue where simulator, AI or multiplayer aircraft did not move or were not updated on the map with certain settings.</li>
+    <li>Now showing both online client and simulator aircraft tabs if user clicks on own aircraft when using online network.</li>
+    <li>Fixed issue where online ATC was not removed from the map when the related center shut down.</li>
+    <li>Online network ACC and FIR regions now have a default radius of 100.</li>
+    <li>Removed error dialog for online network downloads. Now showing online network errors/status in statusbar on the connection status label and tooltip.</li>
+    <li>Fixed issue when parsing whazzup with small timeintervals. (atools)</li>
+    <li>Now assuming that aircraft is on ground for VATSIM and GS smaller than 30 kts (VATSIM has no on ground indication). (atools)</li>
   </ul>
   <!-- ====================================== -->
-  <h4>Navdata</h4>
+  <h4>User Interface</h4>
   <ul>
-    <li>The included Navigraph AIRAC database was updated to cycle 1801. This fixes two problems:<br/>
-        Wrong magnetic declination for VOR stations.<br/>
-        Procedures of three letter airports were not recognized.</li>
+    <li>Rearranged controls in search window to allow smaller dock windows.</li>
+    <li>Now showing warning message box if SSL/HTTPS was not initialized due to missing MSVC redist installation or other issues.</li>
+    <li>Increased size of status bar field for time to avoid creeping/flickering field in macOS.</li>
   </ul>
   <!-- ====================================== -->
-  <h4>Translations</h4>
+  <h4>Flight Plan</h4>
   <ul>
-    <li>Added updated English and French (WIP) PDF offline manuals.</li>
-    <li>Updated translations: Dutch, Brazilian Portuguese, French, Spanish and German. All complete. Thanks to all who contributed!</li>
+    <li>Fixed several issues with copy CSV to clipboard from flight plan and search result tables.</li>
+    <li>Fixed issue where route type (High/Low Alt) was assigned wrongly after flight plan calculation or loading flight plan.</li>
+    <li>Fixes for flight factor flight plan export to corte.in. RNAV approaches should be recognized now.</li>
+    <li>Flight plan names for flight factor flight plan export to corte.in are now made unique when saving.</li>
+    <li>Fixed issues with export for flight plans for iFly 737 that could crash the simulator. (atools)</li>
   </ul>
   <!-- ====================================== -->
-  <h4>GUI</h4>
+  <h4>Map</h4>
   <ul>
-    <li>Save button is now always enabled to allow saving PLN file again after P3D changes file.</li>
-    <li>Fixed misleading warning in route string parser if airport name as intermediate destination is equal to an airway.</li>
-    <li>Fixed tooltip and information display showing facility &quot;Procedures&quot; for all airports.</li>
-    <li>Improved handing of information dialog to raise the correct tab when selecting from context menu.</li>
+    <li>Added departure and destination to map label for online network and AI aircraft.</li>
+    <li>Disabled SSL for OpenMapSurfer theme due to problems on macOS.</li>
+    <li>Now hiding all airspaces at small zoom distance when airport diagram is shown.</li>
+    <li>Fixed issue where airspace was not displayed when selecting &quot;show information&quot;.</li>
+    <li>Now ignoring null frequencies on airspaces.</li>
   </ul>
   <!-- ====================================== -->
-  <h4>Userdata</h4>
+  <h4>Misc</h4>
   <ul>
-    <li>Fixed small issues on userpoint CSV export where fields used floating point numbers wrongly.</li>
-    <li>Now exporting userdata columns last_edit_timestamp and visible_from to CSV. Columns are optional for import.</li>
-    <li>Issue with wrong default type fixed in add dialog if type is empty.</li>
-    <li>Corrected wrong display for userpoints all indicated as temporary in edit dialog.</li>
-    <li>Fixed non localized date in user point information.</li>
-    <li>Now exporting all userdata columns to CSV: Added &quot;last_edit_timestamp&quot; and &quot;visible_from&quot;. Columns are optional for import. See manual.</li>
-    <li>Fixed region field not adjusted in X-Plane userdata export.</li>
+    <li>Fixed issue where program cannot be opened by Linux file managers.</li>
+    <li>Fixed translation issues in navserver resulting in confusing messages in Little Navconnect log window. (atools)</li>
+    <li>Increased Garmin userdata export ident length. (atools)</li>
+    <li>Updated manual to fix freezes with Adobe Reader on Windows.</li>
   </ul>
-  <!-- ====================================== -->
-  <h4>Online</h4>
-  <ul>
-    <li>Now merging simulator aircraft and online network aircraft with same callsign/registration. These shadow aircraft are now displayed as online network aircraft (orange) and have online network tooltips and information. #45</li>
-    <li>Fixed display of shown features in status bar which indicated online airspaces when online networks were off.</li>
-    <li>Changed fill color for centers for better visibility.</li>
-    <li>Now waiting three minutes for next download to give user a chance to correct.</li>
-    <li>Fixed issue where program went into endless error dialog loop when entering a wrong online network address.</li>
-    <li>Now using minimum and maximum circle radii for online ATC geometry.</li>
-  </ul>
-  <!-- ====================================== -->
-  <h4>Customization</h4>
-  <ul>
-    <li>Added reset/migration for mapstyle INI file and adding version now to file.</li>
-    <li>Added customize folder and icons.zip for icon templates to allow users creating their own icons based on default ones.</li>
-    <li>Program will create a backup of &quot;little_navmap_mapstyle.ini&quot; and replace file with new colors (blue airways). All customization files are now versioned. Section &quot;[Options]&quot;.</li>
-  </ul>
-  <!-- ====================================== -->
-  <h4>Small changes</h4>
-  <ul>
-    <li>Userpoints now have the same priority in menus as in map display.</li>
-    <li>Fix in userpoint edit dialog tooltip.</li>
-    <li>Fixes to wrong status bar and tooltips and misleading context menu items in search.</li>
-    <li>Small fix for runway display using wrong width when 0.</li>
-    <li>Corrected text for wind pointer which was scaled together with AI aircraft text.</li>
-    <li>Fixed issue where user agent got translated request type included (e.g. &quot;Custom&quot;). #45</li>
-    <li>Fixed issue where airspace tooltips were shown in high zoom distances with no airspaces displayed.</li>
-    <li>Corrected tab order in main window and options dialog.</li>
-    <li>Added help button to user waypoint dialog.</li>
-    <li>Removed menu items from macOS application menu since automatic adaption from Qt does not work.</li>
-    <li>Fixes for missing about dialog on macOS.</li>
-    <li>Help system now more flexible and can load legend and help files if present for language.
-      Also uses a fuzzy way to find files by ignoring language region like &quot;pt&quot; vs. &quot;pt_BR&quot;.</li>
-    <li>Fixed issue where flight plan was saved in the wrong format after undo/redo and &quot;Save as&quot; (e.g. PLN content to FMS file).</li>
-    <li>FSX/P3D is not hidden in the scenery library menu if the simulator folder from the registry does not exist.</li>
-  </ul>
-  <!-- ====================================== -->
-  <!-- ====================================== -->
-  <!-- ====================================== -->
-  <hr/>
-  <h3>Previous Versions</h3>
-  <small>
-  <!-- ====================================== -->
-  <b>Version 2.0.1.beta</b>
-  <b>Online Networks</b>
-  <ul>
-  <li>Now removing duplicate user aircraft and multiplayer aircraft from simulator and online network.
-    Keeping simulator aircraft for duplicates.<br/>
-    A valid Registration in the simulator information is needed and matched to the online client callsign to
-    find duplicates within 30 NM distance. <a href="https://github.com/albar965/littlenavmap/issues/45">#45</a></li>
-  <li>Change online center/airspaces to ignore visual range which is often wrong.<br/>
-    Ground is now shows as a 5 NM circle, approach 20 NM and tower 10 NM. Can be changed in configuration file.</li>
-  <li>Added facility to override visual range for online airspace circles in configuration file.<br/>
-    See section &quot;[Online]&quot; in file &quot;little_navmap.ini&quot;.</li>
-  <li>Visual range for online clients now uses correct units in search result.</li>
-  <li>Online servers remained in search result table after switching networks.</li>
-  <li>Visual range now only shown for online client if >0.</li>
-  <li>Online network database schema is now always created from scratch to cover schema changes.</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Flight plan export</b>
-  <ul>
-  <li>Fixed issues in corte.in export for flight factor aircraft. Last DCT now omitted on export and using full names
-    for approach ident in (I16L before, now ILS16L).</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Translations</b>
-  <ul>
-  <li>Added translation for Brazilian Portuguese by Ricardo.</li>
-  <li>Updated German translation from Stephan L.</li>
-  <li>Updated French translation and manual from Patrick.</li>
-  </ul>
-  <!-- ====================================== -->
-  <ul>
-  <b>Map Themes</b>
-  <li>Changed OSM, OpenMapSurfer and Hillshading map downloads to use SSL encrypted connections (HTTPS).<br/>
-    For fallback in case of problems replace the files<br/>
-    &quot;Little Navmap/data/maps/earth/openstreetmap/openstreetmap.dgml&quot;,<br/>
-    &quot;Little Navmap/data/maps/earth/openstreetmaproads/openstreetmaproads.dgml&quot; and<br/>
-    &quot;Little Navmap/data/maps/earth/srtm2/srtm2.dgml&quot; with files from the previous version.</li>
-  <li>Fixed SSL loading problems on Linux (first noticed on Ubuntu 18.04).</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Other</b>
-  <ul>
-  <li>Now showing navaid ranges for navaids which are parts of procedures
-    E.g. &quot;Show navaid range&quot; for a NDB which is part of a procedure.</li>
-  <li>Weather texts are now shown translated.</li>
-  <li>Added separate online control center radius instead of using visible range in online centers. <a href="https://github.com/albar965/littlenavmap/issues/45">#45</a></li>
-  </ul>
-  <!-- ====================================== -->
-  <!-- ====================================== -->
-  <!-- ====================================== -->
-  <hr/>
-  <b>Version 2.0.0.beta</b>
-  <!-- ====================================== -->
-  <b>Flight Plan and Export:</b>
-  <ul>
-    <li>Flight plan export for Blackbox Simulations Airbus. <a href=""><a href="https://github.com/albar965/littlenavmap/issues/200">#200</a></li>
-    <li>Export for iFly flight plan file <a href="https://github.com/albar965/littlenavmap/issues/231">#231</a></li>
-    <li>Added ProSim flight plan export. <a href="https://github.com/albar965/littlenavmap/issues/204">#204</a></li>
-    <li>Added UFMC export format. <a href="https://github.com/albar965/littlenavmap/issues/207">#207</a></li>
-    <li>Added export for X-FMC. <a href="https://github.com/albar965/littlenavmap/issues/208">#208</a></li>
-    <li>Added &quot;Show in SkyVector&quot; to export menu.</li>
-    <li>Program can now load FSC flight plan files. Does not load procedures.</li>
-    <li>Export clean PLN flight plan file now remembers its own directory to allow saving to
-        separate folder. This is needed since later P3D versions show the misbehaviour of overwriting the
-        PLN file on <b><i>loading</i></b> in P3D.</li>
-    <li>Fixed issues where circle-to-land procedures were not loaded properly and were incorrectly
-        assigned to a runway.</li>
-    <li>Fixed issue where STAR procedures with runway assignment were not loaded correctly.</li>
-    <li>Improved loading of malformed flight plans where airports and user defined waypoints are
-        saved as intersections.</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Online Networks</b>
-  <ul>
-    <li>Added IVAO, VATSIM and custom online networks (<a href="https://github.com/albar965/littlenavmap/issues/45">#45</a>).</li>
-      IVAO and VATSIM are currently disabled.</li>
-    <li><b>Online network tabs and menu items are hidden in Little Navmap until online is activated in
-        dialog &quot;Options&quot; on tab &quot;Online Flying&quot;.</b></li>
-    <li>Update rate and URL configuration in dialog &quot;Options&quot; on tab &quot;Online
-        Flying&quot;.</li>
-    <li>Display of clients, servers and online centers on map, in information windows, search tabs
-        and context menus.</li>
-    <li>Search highlights and tooltips for centers and client aircraft similar to airports and navaids.</li>
-    <li>CSV export via clipboard for all online information in search window.</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Weather</b>
-  <ul>
-    <li>Added display for NOAA nearest weather stations. Now downloading index page from NOAA to
-        avoid empty requests.</li>
-    <li>Added IVAO weather reports including options, URL configuration, URL test and display of
-        nearest station. <a href="https://github.com/albar965/littlenavmap/issues/132">#132</a></li>
-    <li>Fixed variable wind reported for &quot;///KT&quot; METAR. <a href="https://github.com/albar965/littlenavmap/issues/224">#224</a></li>
-    <li>Fixed X-Plane weather file not reloaded in some cases.</li>
-    <li>Removed METAR date for simulator weather since it was wrongly parsed and corresponds to
-        simulator date.</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Userpoints</b>
-  <ul>
-    <li>Added extra icon for unknown user point types.</li>
-    <li>Added metadata display for last edit time and import file to userpoint edit dialog.</li>
-    <li>Added option for volatile/temporary userpoints.</li>
-    <li>Changed draw order of userpoints. These are now displayed before navaids in tooltip and
-        info as on map.</li>
-    <li>Fixed inconsistencies when creating new userpoints. Filename is now erased for new
-        points.</li>
-    <li>Made naming in GUI more consistent. &quot;Userpoints&quot; are bookmarks, VRPs, etc.,
-        &quot;Positions&quot; are user defined positions in a flight plan.</li>
-    <li>Added coordinate validation in userpoint import functions.</li>
-    <li>Fixed issues with elevation and units in userpoints.</li>
-    <li>Added tooltip for userpoint description in search result table.</li>
-    <li>New userpoint from map is now filled with actual elevation at clicked position (only for
-        GLOBE data).</li>
-    <li>Disabled CSV backup of userpoints and creating backups of file
-        &quot;little_navmap_userdata.sqlite&quot; on startup now.</li>
-    <li>Changed database settings to avoid data loss on crash.</li>
-    <li>Error reporting on locked user database on startup.</li>
-    <li>Prepared translation for userpoint types (can be translated but is not active yet).</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Flight Plan Description</b>
-  <ul>
-    <li>Improved flight plan description parsing to check for either nearest navaid to previous or a navaid with matching
-        airway. This should improve parsing in a lot of cases.</li>
-    <li>Fixed several issues when parsing route strings. Now takes nearest navaid only if no
-        waypoint/airway combination was found.</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>GUI and Map Display</b>
-  <ul>
-    <li>Added ILS frequency in flight plan table if an ILS or LOC approach procedure is used.</li>
-    <li>Added &quot;zoom to departure&quot; option in parking question dialog which shows up before
-        saving.</li>
-    <li>Added approach procedure suffix (i.e. &quot;VOR-<b>A</b>&quot;) to flight plan window label. Made display of suffix
-        consistent across the program and fixed small display issues..</li>
-    <li>Fixed various issues with procedure display where information was missing or inconsistent.</li>
-    <li>Added tooltips for all tab headers in main window and shortened some tab labels to save
-        space.</li>
-    <li>Fixed issues where estimated gross weight at destination disappeared in progress tab for
-        window &quot;Simulator Aircraft&quot;.</li>
-    <li>Now showing real aircraft icons as on the map in tooltips and information tabs instead of
-        the generic icon.</li>
-    <li>Now falling back to magnetic heading for aircraft rotation on map if true heading is not
-        available. This should solve wrong aircraft heading on some online clients.</li>
-    <li>Follow mode does not trigger now if an element is unselected.</li>
-    <li>Updated from Qt 5.9.3 to 5.9.5</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>from atools version 3.0.0.beta</b>
-  <ul>
-    <li>Fixed issues with X-Plane user_fix.dat export. Now using correct metadata so that X-Plane
-        can read the file.</li>
-    <li>Issues with Garmin userpoint import and export fixed.</li>
-    <li>Added script by Gérard to clean out fake runways for AI in FSX/P3D.</li>
-    <li>Added logging for airport altitude to log file when reading delete records from FSX/P3D. Example:
-        &quot;Add-on airport altitude for VQ10 changed from 7703 ft (BGL Scenery/0902/APX72220.bgl) to 8363
-        ft&quot;</li>
-    <li>Improved BGL file and scenery reading to include hidden and system files.</li>
-    <li>Fixed issue where approach name and/or suffix were not read correctly in X-Plane and DFD
-        compiler.</li>
-    <li>Fixed error with duplicate VOR/NDB waypoints in DFD compiler.</li>
-    <li>Now ignoring artificial circle-to-land approaches in DFD compiler.</li>
-    <li>Now removing empty journal files from database when closing program.</li>
-  </ul>
-  <!-- ====================================== -->
-  <!-- ====================================== -->
-  <!-- ====================================== -->
-  <hr/>
-  <b>Version 1.9.1.develop</b>
-  <b>Userpoints <a href="https://github.com/albar965/littlenavmap/issues/3">#3</a></b>
-  <ul>
-    <li>Added Userpoints (aka. user defined waypoint, bookmark, POI or whatever)
-        management.</li>
-    <li>New main menu &quot;Userdata&quot; which provides various import and export options and
-        more.</li>
-    <li>A new search tab &quot;Userpoints&quot; in the &quot;Search Window&quot; for editing and
-        searching with the same functionality as the other search tabs.</li>
-    <li>New menu entries in map context menu to add, edit, delete or move userpoints.</li>
-    <li>Information window and map tooltips can display userpoint information.</li>
-    <li>New add/edit dialog for userpoints also allowing bulk edits on more than one selected
-        point.</li>
-    <li>Add userpoint dialog remembers input to ease adding more than one similar point. Content
-        can be cleared using the reset button.</li>
-    <li>Add dialog is context sensitive and prefills airport data if you add a bookmark on an
-        airport for example.</li>
-    <li>Coordinates can be edited manually in edit/add dialog. More than 10 coordinate formats are
-        recognized. See tooltip on &quot;Latitude and Longitude&quot; field.</li>
-    <li>Userpoints can be added to a flight plan and are converted to flight plan user defined
-        waypoints (green square).</li>
-    <li>A timestamp of last change is kept for each userpoint which allows to find latest
-        changes.</li>
-    <li>Flight plan drag and drop editing allows to add userpoints.</li>
-    <li>Import and export for CSV (format from other well known programs), Garmin
-        &quot;user.wpt&quot; and X-Plane &quot;user_fix.dat&quot;.</li>
-    <li>Export to a XML file suitable for the FSX/P3D BGL compiler.</li>
-    <li>Userpoint database is backed up to CSV on startup.</li>
-    <li>Icons and types can be extended by placing SVG files with names like
-        &quot;userdata_MYTYPE.svg&quot; in the settings directory. Icons for stock types can be changed by
-        placing an icon with the same name like &quot;userdata_Airstrip.svg&quot; in the settings
-        directory.</li>
-    <li>Option for automatic creation of userpoint entry of type &quot;Logbook&quot; for each
-        takeoff and landing.</li>
-    <li>Logbook entry for landing contains trip information like average speed, fuel consumption
-        and more.</li>
-    <li>Skipping logbook creation when simulator is paused or in replay mode.</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Flying</b>
-  <ul>
-    <li>Added option to keep active leg on top of flight plan table. &quot;Options&quot; on tab
-        &quot;Simulator Aircraft&quot;.</li>
-    <li>Added new flight plan and aircraft centering mode which keeps active leg and aircraft
-        visible on the map when flying. Falls back to center aircraft on ground. &quot;Options&quot; on tab
-        &quot;Simulator Aircraft&quot;. <a href="https://github.com/albar965/littlenavmap/issues/133">#133</a></li>
-    <li>Added &quot;jump back to aircraft&quot; after given time when flying. &quot;Options&quot;
-        on tab &quot;Simulator Aircraft&quot;. Allows zooming and scrolling during flight without disabling
-        &quot;Center Aircraft&quot;. <a href="https://github.com/albar965/littlenavmap/issues/133">#133</a></li>
-    <li>Added option to dim passed legs of flight plan on the map and display them in a different
-        color. Labels for passed legs are omitted to unclutter the map. Added color selection for passed
-        flight plan legs. &quot;Options&quot; on tab &quot;Map Display&quot;. All <a href="https://github.com/albar965/littlenavmap/issues/218">#218</a></li>
-    <li>Adjusted label display for nearest five AI to show within 20 nm if vertical difference is
-        not more than 5000 ft.</li>
-    <li>On-ground indication was unreliable for first packets from X-Plane causing first leg
-        already centered on ground. <a href="https://github.com/albar965/littlenavmap/issues/133">#133</a></li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Weather</b>
-  <ul>
-    <li>Weather reports older than six hours are now shown in red in information window on tab
-        &quot;Weather&quot;.</li>
-    <li>Fixed error on METAR stations improperly reporting CAVOK 9999.</li>
-    <li>Weather report now corrects old dates back to last valid date instead of creating future
-        dates.</li>
-    <li>Variable winds are now reported correctly when speed is missing. <a href="https://github.com/albar965/littlenavmap/issues/212">#212</a></li>
-    <li>Now reporting variable winds together with wind/direction if given. <a href="https://github.com/albar965/littlenavmap/issues/212">#212</a></li>
-    <li>Fixed report on clouds when altitude was not given. <a href="https://github.com/albar965/littlenavmap/issues/212">#212</a></li>
-    <li>Mitigated problem with X-Plane METAR.rwx containing duplicate records. <a href="https://github.com/albar965/littlenavmap/issues/212">#212</a></li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Flight Plan</b>
-  <ul>
-    <li>Added menu options to save waypoints instead of SID/STAR or approaches. This affects all
-        flight plan formats. Note that procedure information is omitted in the flight plans if enabled and cannot be reloaded. <a href="https://github.com/albar965/littlenavmap/issues/195">#195</a></li>
-    <li>Coordinates of flight plan user defined waypoints can now be changed in edit dialog. See
-        tooltip on coordinate field for recognized coordinate formats.</li>
-    <li>Added option to save FSX/P3D flight plans using short names. &quot;Options&quot; on tab
-        &quot;Flight Plan&quot;.</li>
-    <li>Now highlighting flight plan segments traveling against one-way airways in red to indicate
-        error.</li>
-    <li>Fixed issue when loading Fsbuild created flight plans which are missing the altitude
-        field.</li>
-    <li>Fixed problem where SID and STAR transitions could not be loaded from flight plans due to
-        uncertain type in P3D scenery databases.</li>
-    <li>Fixed errors in flight plan description parser. Now nearest airport or navaid is used for non
-        unique names instead of giving preference to (possibly far away) waypoints. <a href="https://github.com/albar965/littlenavmap/issues/213">#213</a></li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Map</b>
-  <ul>
-    <li>Split Map menu into Map and View since it got too big.</li>
-    <li>Added option to disable all airport diagram features except runways for all who like to use
-        the OpenStreetMap background. See dialog &quot;Options&quot; on tab &quot;Map Display&quot;.</li>
-    <li>Added options to disable label background color for airport, flight plan and navaids.
-        &quot;Options&quot; on tab &quot;Map Display&quot;.</li>
-    <li>White airport background can be disabled now. &quot;Options&quot; on tab &quot;Map
-        Display&quot;.</li>
-    <li>Added compass rose showing magnetic direction plus option for line thickness
-        (&quot;Options&quot; on tab &quot;Map Display&quot;). Compass rose is always visible when enabled.
-        Heading and track lines are displayed as well if an aircraft is shown. Rose adjusts to screen size
-        with a maximum of 500 nm radius. Enable in menu &quot;View&quot; -> &quot;Show compass rose&quot;.
-        <a href="https://github.com/albar965/littlenavmap/issues/141">#141</a></li>
-    <li>Added options to disable map clicks for airports, navaids and airspaces similar to
-        tooltips. Dialog &quot;Options&quot; on tab &quot;Map&quot;.</li>
-    <li>Added X-Plane 3D airport flag as additional criteria for treating empty airports. This can
-        be used to hide or dim all X-Plane airports which are not 3D. &quot;Options&quot; on tab
-        &quot;Map&quot;.</li>
-    <li>Tooltips now show exact procedure type.</li>
-    <li>Improved text display between overlapping procedure legs to avoid text labels hiding each
-        other.</li>
-    <li>Fixed issues with procedure display where restriction texts were not drawn in case of
-        intercept legs.</li>
-    <li>Fixed overlays reappearing randomly when switching map theme.</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Information and Search</b>
-  <ul>
-    <li>Added zero fuel weight and total payload to window &quot;Simulator Aircraft&quot; on tab
-        &quot;Aircraft&quot;.</li>
-    <li>Added estimated fuel at destination and TOD was well as estimated gross weight at
-        destination to window &quot;Simulator Aircraft&quot; on tab &quot;Progress&quot;.</li>
-    <li>Added zulu time and day of month to status bar on the right (real time and date - not simulator time and date).</li>
-    <li>Added display of magnetic declination below cursor to status bar.</li>
-    <li>Added override mode for airport ICAO search. All other search options will be ignored if a
-        user enters more than two characters in the &quot;ICAO Code&quot; field. Override is indicated in
-        the bottom label below the search result table. This helps to quickly find an airport without
-        resetting search options.</li>
-    <li>Changed context menu &quot;Show Procedures&quot; to show different texts when airport is
-        destination or departure of current flight plan. Show procedures now sets filter to departure or
-        arrival procedures depending on selected airport of flight plan.</li>
-    <li>Added follow selection mode to context menus of the flight plan and all search windows.
-        Will center selected navaid, airport or procedures on the map using the current zoomlevel when
-        enabled. <a href="https://github.com/albar965/littlenavmap/issues/129">#129</a></li>
-    <li>Changes for SID and STAR that use multiple or parallel runway assignments indicated by e.g.
-        &quot;All&quot; or &quot;23L/23R&quot;. Added sub menu in procedure search for SID/STAR selection
-        if more than one runway can be selected. Procedures are now correctly resolved if loading or
-        assigning such cases. This solves problems when saving procedures in X-Plane FMC 11 format or other
-        various formats. <a href="https://github.com/albar965/littlenavmap/issues/179">#179</a></li>
-    <li>Now showing a red warning message on top of the flight plan window if STAR and approach
-        runways do not match. <a href="https://github.com/albar965/littlenavmap/issues/179">#179</a></li>
-    <li>Increased maximum search radius for airports to 8000.</li>
-    <li>Fixed problem where fixes for long (> 200 NM) SID or STAR procedures could not be resolved
-        and showed red waypoint errors in the procedure search tree.</li>
-    <li>Fixed issue where airway information was not reloaded in information display after
-        startup.</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>General</b>
-  <ul>
-    <li>Fixes to translatable texts. About dialog &quot;Contact:&quot; and other texts are now
-        translated.</li>
-    <li>Translated windows titles in menu &quot;Window&quot; are now correct and not lower
-        case.</li>
-    <li>Now all export menu items are disabled if not flight plan is loaded.</li>
-    <li>Extended version comparison for update checking release candidates where 1.1.1.rc2 is
-        smaller than stable 1.1.1 for example.</li>
-  </ul>
-  <!-- ====================================== -->
-  <b>Scenery Database</b>
-  <ul>
-    <li>Updated magnetic declination file to 2018.</li>
-    <li>FSX/P3D only: Now reading FSX/P3D scenery entries pointing to &quot;scenery&quot; instead
-        of the base directory which is allowed in P3D. These were silently omitted previously.</li>
-    <li>FSX/P3D only: Reading &quot;.../Roaming/.../add-on.cfg&quot; and
-        &quot;.../ProgramData/.../add-on.cfg&quot; now. <a href="https://github.com/albar965/littlenavmap/issues/211">#211</a></li>
-    <li>X-Plane only: Fixed problem where CIFP files with lower case names were not recognized
-        correctly.</li>
-    <li>X-Plane only: Fixed approach lighting system indication for airports in X-Plane
-        compiler.</li>
-    <li>X-Plane only: Fixed issue with X-Plane airports that have wrong reference position. Now
-        falling back to center of bounding rectangle or center of a single runway.</li>
-    <li>X-Plane only: Fixed issues with file or directory exclusion for X-Plane scenery loader
-        which did not work properly in some cases.</li>
-    <li>X-Plane only: &quot;Custom Scenery/Global Airports/Earth nav data/earth_nav.dat&quot; is
-        now read to get fixed ILS. This fixes wrong ILS heading in many places like LOWI.</li>
-    <li>Navigraph only: Added transition altitude to airport.</li>
-    <li>Navigraph only: Now updating magnetic declination for VOR, DME or TACAN with calculated
-        value where missing.</li>
-    <li>Navigraph only: Corrected wrong runway heading for Navigraph compilation. <a href="https://github.com/albar965/littlenavmap/issues/214">#214</a></li>
-    <li>X-Plane and Navigraph only: SID and STAR common routes are now merged correctly into
-        procedures for Navigraph and X-Plane compiler. This results in correct SID/STAR and also removes
-        the &quot;ghost&quot; entries. <a href="https://github.com/albar965/littlenavmap/issues/193">#193</a></li>
-    <li>X-Plane and Navigraph only: Now removing all unneeded dummy NDB and VOR waypoints that were
-        created for airway generation. <a href="https://github.com/albar965/littlenavmap/issues/201">#201</a></li>
-    <li>Fixes for missing airway segments in DFD compiler. Fixed duplicate removal of
-        waypoints. <a href="https://github.com/albar965/littlenavmap/issues/201">#201</a></li>
-  </ul>
-  </small>
-
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
