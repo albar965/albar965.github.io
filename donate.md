@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Donations / Spenden"
-date:   2017-11-16 20:00:00 +0100
+date:   2018-06-27 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Donations / Spenden
@@ -51,15 +51,15 @@ Sie schreibt gesellschaftskritische Science-Fiction- bzw. Fantasy-Romane und Kur
 
 Vielleicht ist etwas zum Verschenken oder für Sie selbst dabei.
 
-[**Alkatar**](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar) \(Taschenbuch 15 €, eBook 4,95 € und Kindle Unlimited\)
+[**Alkatar**](https://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar) \(Taschenbuch 15 €, eBook 4,95 € und Kindle Unlimited\)
 
-**Neu:** [**Alkatar - Der Erbe**](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar-der-erbe) \(Taschenbuch 16 €, eBook 4,95 € und Kindle Unlimited\)
+**Neu:** [**Alkatar - Der Erbe**](https://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar-der-erbe) \(Taschenbuch 16 €, eBook 4,95 € und Kindle Unlimited\)
 
-[**Die Erben der Verbannten**](http://www.anja-fahrner.de/meine-buecher-und-geschichten/die-erben-der-verbannten) \(Kurzgeschichte, eBook 0,99 € und Kindle Unlimited\).
+[**Die Erben der Verbannten**](https://www.anja-fahrner.de/meine-buecher-und-geschichten/die-erben-der-verbannten) \(Kurzgeschichte, eBook 0,99 € und Kindle Unlimited\).
 
-[![Alkatar](assets/images/alkatar_buch.jpg)](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar)
-[![Alkatar - Der Erbe](assets/images/alkatar_der_erbe_buch.jpg)](http://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar-der-erbe)
-[![Die Erben der Verbannten](assets/images/die_erben_buch.jpg)](http://www.anja-fahrner.de/meine-buecher-und-geschichten/die-erben-der-verbannten)
+[![Alkatar](assets/images/alkatar_buch.jpg)](https://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar)
+[![Alkatar - Der Erbe](assets/images/alkatar_der_erbe_buch.jpg)](https://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar-der-erbe)
+[![Die Erben der Verbannten](assets/images/die_erben_buch.jpg)](https://www.anja-fahrner.de/meine-buecher-und-geschichten/die-erben-der-verbannten)
 
 ## Rezensionen zu Alkatar
 

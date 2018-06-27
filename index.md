@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2018-06-02 09:30:00 +0200
+date:   2018-06-27 10:00:00 +0200
 ---
 
 # Alex' Projects
@@ -37,7 +37,7 @@ All my projects, releases, source code, issue lists and more.
 
 Online manuals for _Little Navmap_ and _Little Navconnect_.
 
-[**► Support Forum at Avsim**](http://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum)
+[**► Support Forum at Avsim**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum)
 
 Help for users, preview of new releases, development progress, screenshots and beta releases.
 
