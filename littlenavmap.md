@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2018-06-02 09:30:00 +0200
+date:   2018-07-05 20:00:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navmap
 # ![Little Navmap](assets/images/navroute.png) Little Navmap
@@ -14,9 +14,9 @@ date:   2018-06-02 09:30:00 +0200
 
 [**► Screenshots**](littlenavmapscreens.html)
 
-[► Online User Manual](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en)
+[► Online User Manual](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/)
 
-[► Map Legend](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/en/LEGEND.html)
+[► Map Legend](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/LEGEND.html)
 
 [► GitHub Little Navmap Project and Sources](https://github.com/albar965/littlenavmap)
 

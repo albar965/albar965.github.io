@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2018-06-27 10:00:00 +0200
+date:   2018-07-05 20:00:00 +0200
 ---
 
 # Alex' Projects
@@ -33,7 +33,7 @@ date:   2018-06-27 10:00:00 +0200
 
 All my projects, releases, source code, issue lists and more.
 
-[**► GitBook Online Manuals**](https://www.gitbook.com/@albar965)
+[**► GitBook Online Manuals**](https://legacy.gitbook.com/@albar965)
 
 Online manuals for _Little Navmap_ and _Little Navconnect_.
 
