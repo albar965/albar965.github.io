@@ -300,16 +300,41 @@ changelog=
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
-version=2.0.3.rc1
-downloadwin=https://www.magentacloud.de/lnk/WhFR0GNH
-downloadmac=https://www.magentacloud.de/lnk/YIFR0gXE
-downloadlinux=https://www.magentacloud.de/lnk/YJlRUWMy
+version=2.0.3.rc2
+downloadwin=https://www.magentacloud.de/lnk/LzlR0f1d
+downloadmac=https://www.magentacloud.de/lnk/0llR0mdV
+downloadlinux=https://www.magentacloud.de/lnk/1mFxUSCa
 changelog=
   <!-- ====================================== -->
-  <h3>Version 2.0.3.rc1 (Release Candidate)</h3>
+  <h3>Version 2.0.3.rc2 (Release Candidate)</h3>
   <p>This is a bug fix release.</p>
   <!-- ====================================== -->
-  <h4>Online Networks</h4>
+  <ul>
+    <li>Fixed issue where translated parking names were used in PLN files which resulted in wrong flight plan departure
+       in saved file.
+    <a href="https://github.com/albar965/littlenavmap/issues/243">#243</a></li>
+    <li>Fixed issues with map context menu where &quot;Show ...&quot; and &quot;Show ... in search&quot; used the wrong map objects,
+    i.e. &quot;Show Network Client&quot; showed airport in information window.</li>
+    <li>Now using consistent priority where online and simulator aircraft are now prioritized above airports when
+    clicking in the map for all show functions.</li>
+    <li>Now disabling less used search options on first startup after initial installation to get a less cluttered user interface.</li>
+    <li>Both online and simulator information is now shown when clicking on shadow AI/multiuser/simulator aircraft.</li>
+    <li>Fixed wrong tooltip for online shadow aircraft which appear both in simulator and online network.
+    Now showing tooltip for simulator aircraft.</li>
+    <li>Added option to disable less used type filters in nav search.</li>
+    <li>Fixed broken links in manual.</li>
+    <li>Fixed missing first update of X-Plane weather when starting X-Plane after Little Navmap.</li>
+    <li>Updated French translation from Patrick.</li>
+  </ul>
+  <!-- ====================================== -->
+  <!-- ====================================== -->
+  <h3>Old Releases</h3>
+  <small>
+  <!-- ====================================== -->
+  <b>Version 2.0.3.rc1 (Release Candidate)</b>
+  <p>This is a bug fix release.</p>
+  <!-- ====================================== -->
+  <b>Online Networks</b>
   <ul>
     <li>Fixed issue where simulator, AI or multiplayer aircraft did not move or were not updated on the map with certain settings.</li>
     <li>Now showing both online client and simulator aircraft tabs if user clicks on own aircraft when using online network.</li>
@@ -320,14 +345,14 @@ changelog=
     <li>Now assuming that aircraft is on ground for VATSIM and GS smaller than 30 kts (VATSIM has no on ground indication). (atools)</li>
   </ul>
   <!-- ====================================== -->
-  <h4>User Interface</h4>
+  <b>User Interface</b>
   <ul>
     <li>Rearranged controls in search window to allow smaller dock windows.</li>
     <li>Now showing warning message box if SSL/HTTPS was not initialized due to missing MSVC redist installation or other issues.</li>
     <li>Increased size of status bar field for time to avoid creeping/flickering field in macOS.</li>
   </ul>
   <!-- ====================================== -->
-  <h4>Flight Plan</h4>
+  <b>Flight Plan</b>
   <ul>
     <li>Fixed several issues with copy CSV to clipboard from flight plan and search result tables.</li>
     <li>Fixed issue where route type (High/Low Alt) was assigned wrongly after flight plan calculation or loading flight plan.</li>
@@ -336,7 +361,7 @@ changelog=
     <li>Fixed issues with export for flight plans for iFly 737 that could crash the simulator. (atools)</li>
   </ul>
   <!-- ====================================== -->
-  <h4>Map</h4>
+  <b>Map</b>
   <ul>
     <li>Added departure and destination to map label for online network and AI aircraft.</li>
     <li>Disabled SSL for OpenMapSurfer theme due to problems on macOS.</li>
@@ -345,13 +370,14 @@ changelog=
     <li>Now ignoring null frequencies on airspaces.</li>
   </ul>
   <!-- ====================================== -->
-  <h4>Misc</h4>
+  <b>Misc</b>
   <ul>
     <li>Fixed issue where program cannot be opened by Linux file managers.</li>
     <li>Fixed translation issues in navserver resulting in confusing messages in Little Navconnect log window. (atools)</li>
     <li>Increased Garmin userdata export ident length. (atools)</li>
     <li>Updated manual to fix freezes with Adobe Reader on Windows.</li>
   </ul>
+  </small>
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
