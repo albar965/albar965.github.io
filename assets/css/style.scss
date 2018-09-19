@@ -83,8 +83,8 @@ margin-bottom: 0.1em;
 p, p.small, form {
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 p.small {
@@ -110,6 +110,14 @@ hr {
     border-width: 0px;
 
     padding-bottom: 0em;
+}
+
+blockquote {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  font-size: 1.0em;
+  font-style: italic;
+  border-left: 5px solid #a0a0a0;
 }
 
 /*hr {
