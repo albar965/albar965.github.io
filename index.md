@@ -73,7 +73,7 @@ criteria also including a spatial search.
 
 The program can generate an ATS route description from flight plans and vice versa where the output is widely configurable.
 
-The nav database can be updated by the _Navigraph FMS Data Manager_. A cycle 1307 database is included.
+The nav database can be updated by the _Navigraph FMS Data Manager_. A cycle 1801 database is included.
 
 Complete edit, display, import and export functionality for user defined waypoints.
 Import and export of CSV, X-Plane and Garmin files.
