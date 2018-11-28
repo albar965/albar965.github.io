@@ -79,23 +79,44 @@ changelog=
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
-version=2.2.2.rc1
-downloadwin=https://www.magentacloud.de/lnk/s1lR0H1k
-downloadmac=https://www.magentacloud.de/lnk/okFxUO16
-downloadlinux=https://www.magentacloud.de/lnk/RlFR0r5B
+version=2.2.2.rc2
+downloadwin=https://www.magentacloud.de/lnk/aQlxUTFP
+downloadmac=https://www.magentacloud.de/lnk/HZFxUQ1M
+downloadlinux=https://www.magentacloud.de/lnk/3FlR0NuM
 changelog=
-    <h1 id="version-2.2.2.rc1">Version 2.2.2.rc1</h1>
+    <h1 id="version-2.2.2.rc2">Version 2.2.2.rc2</h1>
     <p><b><a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa">&gt;&gt; Alternative download location at Dropbox &lt;&lt;</a></b></p>
     <p><b><a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w">&gt;&gt; Alternative download location at Mega.nz &lt;&lt;</a></b></p>
-    <p><b>Use <code>Ctrl+Mousewheel</code> to increase font size.</b></p>
-    <p><b>Use the context menu to copy this as formatted text to an editor.</b></p>
-    <h2 id="help">Help</h2>
+    <ul>
+    <li>Added option to disable map window undocking in options dialog on tab <code>Map</code>.<br/>
+        Allowing to undock the map window (option checked - default) can cause issues when resizing dock windows or the main window.<br/>
+        Uncheck this option if you see strange or annoying resizing behavior when changing dock window or main window sizes.<br/>
+        In some cases the dock window might also freeze, i.e. docks cannot be resized. Uncheck this option if you see one of these issues.</li>
+    <li>Better URL test for weather and online URLs now also considering files.</li>
+    <li>Improved check for valid whazzup file. Now looking for sections <code>!GENERAL</code> and <code>!CLIENTS</code>.</li>
+    <li>Fixed issue with missing runway in X-Plane FMS files having circle-to-land approaches. X-Plane can now load these type of approaches without error message.</li>
+    <li>Fixed wrong heading display for online aircraft in information display in some cases.</li>
+    <li>Now centering destination and aircraft also for single airport plans (if flying a pattern).</li>
+    <li>Fixed crash and/or freeze when saving flight plans with one leg or if TOC/TOD could not be calculated.</li>
+    <li>Sped up zoom for maps <code>Plain</code> and <code>Simple</code>. More accurate display for zoom distance at lower levels.</li>
+    <li>Fixed issue with ActiveSky showing old weather from stale <code>activeflightplanwx.txt</code> flight plan files. Now always using the latest from either <code>activeflightplanwx.txt</code> or <code>current_wx_snapshot.txt</code>.</li>
+    <li>Fixed issue with wrong course display in traffic pattern in some cases.</li>
+    <li>Com frequencies are now forced into 25 kHz raster on display.</li>
+    <li>More minor GUI adjustments and fixes.</li>
+    </ul>
+    <!-- ====================================== -->
+    <!-- ====================================== -->
+    <!-- ====================================== -->
+    <hr/>
+    <h2>Previous Release Notes</h2>
+    <b id="version-2.2.2.rc1">Version 2.2.2.rc1</b>
+    <b id="help">Help</b>
     <ul>
     <li>Updated manual is online. Updated PDF is included in the download.</li>
     <li>All help buttons and menus are now working.</li>
     <li>Updated included legend with weather, MORA and modifier mouse click description.</li>
     </ul>
-    <h3 id="new-and-updated-in-the-manual">New and updated in the manual</h3>
+    <b id="new-and-updated-in-the-manual">New and updated in the manual</b>
     <ul>
     <li>Major update and enhancements in elevation profile: <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/PROFILE.html">Profile</a> and <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/LEGEND.html#elevation-profile-legend">Legend</a>.</li>
     <li>Aircraft performance: <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/AIRCRAFTPERF.html">General</a>, <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/AIRCRAFTPERFEDIT.html">Editing</a> and <a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/FLIGHTPLAN.html#flight-plan-table-columns">New Flight Plan Table Columns</a>.</li>
@@ -117,7 +138,7 @@ changelog=
     <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/INFO.html#progress">Show more less data in aircraft progress</a>.</li>
     <li><a href="https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/INFO.html#airspaces">Better highlighting for airspaces from information window</a>.</li>
     </ul>
-    <h2 id="elevation-profile">Elevation Profile</h2>
+    <b id="elevation-profile">Elevation Profile</b>
     <ul>
     <li>Fixed several issues with aircraft movement and trail in elevation profile. Profile trail now depends on active leg and is now saved seperate from aircraft trail on map.</li>
     <li>Aircraft direction now turned if reversal relative to active leg detected.</li>
@@ -126,12 +147,12 @@ changelog=
     <li>VASI glideslope in elevation profile now also shown for destinations where airport and procedure runway do not match because of renamed runways.</li>
     <li>Fixed issue where ILS and localizers were not recognized for renamed runways and inconsistent data.</li>
     </ul>
-    <h2 id="information">Information</h2>
+    <b id="information">Information</b>
     <ul>
     <li>Fixed issues with file links for <code>BGL</code> and <code>apt.dat</code> files which did not work on Windows if base path had a trailing backslash.</li>
     <li>Fixed issue where airways were not displayed when selecting <code>Show information</code> on the map.</li>
     </ul>
-    <h2 id="flight-plan">Flight Plan</h2>
+    <b id="flight-plan">Flight Plan</b>
     <ul>
     <li>ILS frequency in flight plan table now also shown for destinations where airport and procedure runway do not match.</li>
     <li>Traveling time in flight plan table header now updated correctly on altitude change. Time is now omitted if invalid.</li>
@@ -139,12 +160,12 @@ changelog=
     <li>Flight plan table now displays localizer frequencies.</li>
     <li>Fixed issue in route description generator which omitted SID and STAR in some cases.</li>
     </ul>
-    <h2 id="online-networks">Online Networks</h2>
+    <b id="online-networks">Online Networks</b>
     <ul>
     <li>Fixed online network aircraft heading on map display for VATSIM and IVAO.</li>
     <li>Removed display of true heading in information window and tooltips. Now always calculating magnetic.</li>
     </ul>
-    <h2 id="map">Map</h2>
+    <b id="map">Map</b>
     <ul>
     <li>Changed map context menu to show only the mentioned item in <code>Show information</code> and nothing else.</li>
     <li>Removed <code>and more</code> indication in context menu since it is not used any more.</li>
@@ -161,7 +182,7 @@ changelog=
     <li>Now drawing flight text for procedures in the right order to avoid overlaying text.</li>
     <li>Military parking is now draw in the right colors.</li>
     </ul>
-    <h2 id="user-interface">User Interface</h2>
+    <b id="user-interface">User Interface</b>
     <ul>
     <li>Added <code>Copy Map Image to Clipboard</code> function in file menu.</li>
     <li>Now appending date and time suffix to map screenshot name to avoid overwriting for <code>Save Map as Image</code>.</li>
@@ -177,8 +198,6 @@ changelog=
     <!-- ====================================== -->
     <!-- ====================================== -->
     <!-- ====================================== -->
-    <hr/>
-    <h2>Previous Release Notes</h2>
     <b id="version-2.2.1.beta">
       Version 2.2.1.beta
     </b>
