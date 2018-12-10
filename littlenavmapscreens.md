@@ -1,13 +1,51 @@
 ---
 layout: subpage
 title:  "Little Navmap Screenshots"
-date:   2018-06-02 09:30:00 +0200
+date:   2018-12-10 09:30:00 +0200
 ---
 [Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Screenshots
 
 # Screenshots
 
 Click on image for full size.
+
+<hr/>
+
+<br/>
+
+**Little Navmap 2.2.2 spherical map projection and elevation profile with flight plan:**
+
+[![Little Navmap 2.2.2 spherical map projection and elevation profile with flight plan](assets/images/spherical.jpg)](assets/images/spherical.jpg)
+
+<br/><br/>
+
+**Little Navmap 2.2.2 airport weather and legend:**
+
+[![Little Navmap 2.2.2 airport weather and legend](assets/images/airportweather.jpg)](assets/images/airportweather.jpg)
+
+<br/><br/>
+
+**Little Navmap 2.2.2 sun shadow on globe:**
+
+[![Little Navmap 2.2.2 sun shadow on globe](assets/images/sunshadow.jpg)](assets/images/sunshadow.jpg)
+
+<br/><br/>
+
+**Little Navmap 2.2.2 aircraft performance edit dialog:**
+
+[![Little Navmap 2.2.2 aircraft performance edit dialog](assets/images/aircraft_perf.jpg)](assets/images/aircraft_perf.jpg)
+
+<br/><br/>
+
+**Little Navmap 2.2.2 airport traffic pattern and elevation profile with ILS and VASI:**
+
+[![Little Navmap 2.2.2 airport traffic pattern and elevation profile with ILS and VASI](assets/images/pattern_and_profile.jpg)](assets/images/pattern_and_profile.jpg)
+
+<br/><br/>
+
+**Little Navmap 2.2.2 all context menus:**
+
+[![Little Navmap 2.2.2 Overview](assets/images/contextmenus.jpg)](assets/images/contextmenus.jpg)
 
 <br/><br/>
 
@@ -32,12 +70,6 @@ Click on image for full size.
 **Little Navmap 1.8.5 overview:**
 
 [![Little Navmap 1.8.5 Overview](assets/images/overview.jpg)](assets/images/overview.jpg)
-
-<br/><br/>
-
-**Little Navmap 1.6.3 all context menus:**
-
-[![Little Navmap 1.6.3 Overview](assets/images/contextmenus.jpg)](assets/images/contextmenus.jpg)
 
 <br/><br/>
 
@@ -128,11 +160,5 @@ Click on image for full size.
 **Drag and drop route editing: Replacing VOR TRA in the flight plan with another one by simply clicking and moving the waypoint TRA onto KLO. Selection menu pops up for disambiguation (version 1.2.4):**
 
 [![Little Navmap Route Editing](assets/images/littlenavmap_routeedit.jpg)](assets/images/littlenavmap_routeedit.jpg)
-
-<br/><br/>
-
-**Spherical map projection with Simple map theme selected (version 1.2.4):**
-
-[![Little Navmap Simple Map Theme](assets/images/littlenavmap_simpletheme.jpg)](assets/images/littlenavmap_simpletheme.jpg)
 
 

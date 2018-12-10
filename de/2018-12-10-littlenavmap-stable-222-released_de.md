@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Little Navmap 2.2.2 veröffentlicht
-date:   2018-12-10 09:30:00 +0200
+date:   2018-12-10 09:30:00 +0100
 categories: release
 ---
 

@@ -1,14 +1,14 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2018-07-05 20:00:00 +0200
+date:   2018-12-10 09:00:00 +0100
 ---
 
 # Alex' Projects
 
 ## [![RSS Feed](assets/images/feed.png)](/feed.xml) News
 <p>
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts limit:5 %}
     <p>
   {% if forloop.first == true %}
       <span class="bold">{{ post.date | date: "%Y-%m-%d, %H:%M" }} <a href="{{ site.baseurl }}{{ post.url }}"><span class="bold">► {{ post.title }}</span></a></span>
@@ -41,6 +41,10 @@ Online manuals for _Little Navmap_ and _Little Navconnect_.
 
 Help for users, preview of new releases, development progress, screenshots and beta releases.
 
+[**► Frequently asked Questions**](littlenavmap-faq.html)
+
+Additional reading like presentations and other in English and German.
+
 [**► Donations / Spenden**](donate.html)
 
 [![Donate](assets/images/donate.png)](donate.html)
@@ -51,13 +55,16 @@ Help for users, preview of new releases, development progress, screenshots and b
 
 ## Little Navmap {#littlenavmap}
 
+| ---- | ---- |
+| [![Little Navmap 2.2.2 spherical map projection and elevation profile with flight plan](assets/images/spherical_small.jpg)](assets/images/spherical.jpg) | [![Little Navmap 2.2.2 sun shadow on globe](assets/images/sunshadow_small.jpg)](assets/images/sunshadow.jpg) |
+
 [![Little Navmap](assets/images/navroute.png)](littlenavmap.html) [**► Little
 Navmap**](littlenavmap.html) is a free open source flight planner, navigation tool, moving map,
 airport search and airport information system for Flight Simulator X, Prepar3D and X-Plane.
 
 A widely configurable map display using the OpenStreetMap as a background map which is only one
 option of many online and included offline maps. The map shows airports, navaids, airways,
-airspaces, AI or multiplayer aircraft and ships. A seamlessly integrated airport diagram displays
+airspaces, AI or multiplayer aircraft and ships as well as airport weather. A seamlessly integrated airport diagram displays
 taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
 
 It supports approach and departure procedures like SIDs and STARs, offers several automatic flight
@@ -66,7 +73,10 @@ FPL \(Reality XP GNS\), GPX, RTE, FLP and X-Plane FMS 3/11 as well as
 drag and drop flight plan editing on the map. The program can read the PLN, FMS and FLP flight plan
 formats.
 
-An elevation profile is shown for the flight plan allowing to find a safe cruise altitude.
+An elevation profile is shown for the flight plan allowing to find a safe cruise altitude also displaying top climb,
+top of descent and procedure altitude restrictions.
+
+Aircraft performance and fuel planning is included which is also used to calculate top of climb and top of descent.
 
 Search functionality allows to look for airports, navaids or procedures by a large amount of
 criteria also including a spatial search.
@@ -85,9 +95,7 @@ Prepar3D v2, v3, v4 and X-Plane 11.
 
 **Supported platforms:** Windows 7/8/10, macOS \(10.10 or newer only\) and Linux \(64 bit only\).
 
-[![Little
-Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/13
-49379408450042)
+[![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
 
 ## Little Navconnect {#littlenavconnect}
@@ -116,23 +124,7 @@ It is light weight, free and open source.
 
 **Supported platforms:** Windows 7/8/10, Apple macOS and Linux.
 
-[**► Readme and
-Installation**](https://github.com/albar965/littlexpconnect/blob/release/1.0/README.txt)
+[**► Readme and Installation**](https://github.com/albar965/littlexpconnect/blob/release/1.0/README.txt)
 
 [**► Downloads and Releases**](https://github.com/albar965/littlexpconnect/releases)
-
-## Little Logbook {#littlelogbook}
-
-[![Little Logbook](assets/images/logbook.png)](littlelogbook.html) [**► Little
-Logbook**](littlelogbook.html) is a view and extraction program
-for the FSX logbook. It allows fast and intuitive search and grouping of logbook entries based on
-several parameters, as well as export to HTML,
-CSV and Google Earth KML documents. Additional information about airports can be shown together
-with the MakeRunways Utility by Peter Dowson.
-
-**Supported Flight Simulators:** All FSX versions from SP2 up and Flight Simulator - Steam Edition.
-
-**Supported platforms:** Windows XP/7/8/10.
-
-**Little Logbook is not compatible with Lockheed Martin Prepar3D v4 and later.**
 
