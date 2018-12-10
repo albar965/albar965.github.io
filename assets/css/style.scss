@@ -15,16 +15,17 @@ color: #6d6d6d; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); background: #e7e7
 
 
 body {
-color: #101010;
-        background: url(../images/background.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        font-family: Verdana, Arial, Helvetica, sans-serif;
-/*        font-size: 1em;*/
-        color: #000000;
-      }
+  font-size: 0.8em;
+  color: #101010;
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  /*        font-size: 1em;*/
+  color: #000000;
+}
 
 a:link {color:#000088;}
 a:visited {color:#000088;}
@@ -39,13 +40,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2 {
-margin-top: 0.5em;
-margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 h3, h4, h5, h6 {
-margin-top: 0.3em;
-margin-bottom: 0.2em;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
 }
 
 h1 {
@@ -74,9 +75,20 @@ ul, nl, li {
   margin-left: 30px;
 }
 
+table {
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  border: 0px solid transparent;
+}
+
+td {
+  border: 0px solid transparent;
+}
+
 li {
-margin-top: 0.2em;
-margin-bottom: 0.1em;
+margin-top: 0.1em;
+margin-bottom: 0.05em;
 }
 
 
@@ -88,9 +100,8 @@ p, p.small, form {
 }
 
 p.small {
-font-size: 0.9em;
+  font-size: 1.0em;
 }
-
 
 hr {
     border-top-style: solid;
@@ -115,7 +126,7 @@ hr {
 blockquote {
   margin-top: 0.8em;
   margin-bottom: 0.8em;
-  font-size: 1.0em;
+  font-size: 0.8em;
   font-style: italic;
   border-left: 5px solid #a0a0a0;
 }
