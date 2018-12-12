@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2018-12-10 09:00:00 +0100
+date:   2018-12-12 10:00:00 +0100
 ---
 
 # Alex' Projects
@@ -29,21 +29,15 @@ date:   2018-12-10 09:00:00 +0100
    onclick="this.href='mailto:' + 'albar' + '965' + '@' + 'mailbox' + '.' + 'org'"
    onmouseleave="this.href='albar 965 AT mail box DOT org'"><span class="bold">► Contact me by email (English / Deutsch)</span></a>
 
-[**► GitHub Profile**](https://github.com/albar965)
+[**► GitHub Profile**](https://github.com/albar965) All my projects, releases, source code, issue lists and more.
 
-All my projects, releases, source code, issue lists and more.
+[**► GitBook Online Manuals**](https://legacy.gitbook.com/@albar965) Online manuals for _Little Navmap_ and _Little Navconnect_.
 
-[**► GitBook Online Manuals**](https://legacy.gitbook.com/@albar965)
+[**► Support Forum at Avsim**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Help for users, preview of new releases, development progress, screenshots and beta releases.
 
-Online manuals for _Little Navmap_ and _Little Navconnect_.
+[**► Frequently asked Questions / Oft gestellte Fragen**](littlenavmap-faq.html)
 
-[**► Support Forum at Avsim**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum)
-
-Help for users, preview of new releases, development progress, screenshots and beta releases.
-
-[**► Frequently asked Questions**](littlenavmap-faq.html)
-
-Additional reading like presentations and other in English and German.
+[**► Little Navmap - Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
 [**► Donations / Spenden**](donate.html)
 
