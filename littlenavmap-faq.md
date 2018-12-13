@@ -44,6 +44,8 @@ date:   2018-12-12 13:00:00 +0100
 1. [I see waiting for data forever in the statusbar](#waiting-for-data)
 1. [Map background is black](#map-black)
 1. [I cannot see any airports or navaids](#load-scenery)
+1. [I get an error message about missing directories when loading X-Plane scenery](#missing-xplane-scenery)
+1. [Airports missing in X-Plane scenery after reloading](#airports-missing-xplane-scenery)
 1. [I found an issue or have a proposal](#issue-proposal)
 
 ### How to update the program {#update}
@@ -190,6 +192,14 @@ If the problem persists send me a bug report in the
 [Avsim Support Forum](https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or by email.
 See [How to report a Bug](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/APPENDIX.html#how-to-report-a-bug).
 
+Direct links to all redistributable packages so far:
+[2005](https://www.microsoft.com/en-us/download/details.aspx?id=18471),
+[2008](https://www.microsoft.com/en-us/download/details.aspx?id=2092),
+[2010](https://www.microsoft.com/en-us/download/details.aspx?id=13523),
+[2012](https://www.microsoft.com/en-us/download/details.aspx?id=30679),
+[2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) and
+[2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
+
 [**▲**](#contents)
 
 ### Lines disappearing {#lines-disappearing}
@@ -302,6 +312,24 @@ Something went wrong when installing _Little Navmap_. Most likely the directory 
 
 Load the scenery library from the simulator. See [Load Scenery Library Dialog](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/SCENERY.html)
 in the manual.
+
+[**▲**](#contents)
+
+### I get an error message about missing directories when loading X-Plane scenery {#missing-xplane-scenery}
+
+You have `Read inactive Scenery Entries:` disabled in the scenery loading dialog and X-Plane's `scenery_packs.ini` contains
+stale entries. Fix this by restarting X-Plane which will remove the old entries.
+
+You might as well enable `Read inactive Scenery Entries:` which will cause _Little Navmap_ to ignore `scenery_packs.ini`
+and read all. See [Load Scenery Library Dialog](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/SCENERY.html).
+
+[**▲**](#contents)
+
+### Airports missing in X-Plane scenery after reloading {#airports-missing-xplane-scenery}
+
+If you have `Read inactive Scenery Entries:` enabled: Restart X-Plane so that it can update the `scenery_packs.ini`.
+
+See [Load Scenery Library Dialog](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/SCENERY.html).
 
 [**▲**](#contents)
 
