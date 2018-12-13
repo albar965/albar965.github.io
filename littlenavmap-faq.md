@@ -39,7 +39,7 @@ date:   2018-12-12 13:00:00 +0100
 1. [Map is fuzzy and not updating](#map-no-update)
 1. [The map has a grayish backgroud](#map-gray)
 1. [Search result empty](#search-empty)
-1. [Weather in X-PLane does not match what _Little Navmap_ displays](#xplane-weather)
+1. [Weather in X-Plane does not match what _Little Navmap_ displays](#xplane-weather)
 1. [I get a message complaining about an unidentified developer on macOS](#macos-unidentified-developer)
 1. [I see waiting for data forever in the statusbar](#waiting-for-data)
 1. [Map background is black](#map-black)
@@ -273,7 +273,7 @@ Note that using an ICAO code for searching will temporarily override all other o
 
 [**▲**](#contents)
 
-### Weather in X-PLane does not match what _Little Navmap_ displays {#xplane-weather}
+### Weather in X-Plane does not match what _Little Navmap_ displays {#xplane-weather}
 
 The X-Plane weather interface is very limited.
 
