@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2018-12-12 13:00:00 +0100
+date:   2018-12-13 22:00:00 +0100
 ---
 
 # Alex' Projects
@@ -38,6 +38,8 @@ date:   2018-12-12 13:00:00 +0100
 [**► Frequently asked Questions**](littlenavmap-faq.html) <!--[**► Oft gestellte Fragen**](littlenavmap-faq_de.html)-->
 
 [**► Little Navmap - Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
+
+[**► About Translation Packages**](littlenavmaptranslations.html) General information about translation packages.
 
 [**► Donations / Spenden**](donate.html)
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Little Navmap - Spanish Translation Packages for the Manual released
+title:  Little Navmap - Spanish Translation Package for the Manual released
 date:   2018-10-05 10:00:00 +0200
 categories: release
 ---

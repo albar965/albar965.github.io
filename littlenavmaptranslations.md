@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap Translation Packages"
-date:   2018-06-02 10:00:00 +0200
+date:   2018-12-13 22:00:00 +0100
 ---
 [Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Translation Packages
 
@@ -30,13 +30,3 @@ Different types of translation packages exist
 * **Program Translations:** These modify only the program's graphical user interface. The included PDF manual and online manual are still English.
 * **Manual Translations:** Translations of the online and/or the included PDF user manual. Install this to connect all help buttons in _Little Navmap_ to your language and get the PDF.
 * **Full Translations:** Both of the above. Manual and graphical user interface appear in your language.
-
-## Downloads
-
-All compatible packages can also be downloaded from the latest release pages [here at Github](https://github.com/albar965/littlenavmap/releases).
-
-[**► German Program Translation for 1.8 versions**](https://github.com/albar965/littlenavmap/releases/download/v1.8.5/LittleNavmap-language-package-de-1.8.zip) by merspieler, Stephan Leukert und Alexander Barthel.
-
-[**► Dutch Program Translation for 1.8 versions**](https://github.com/albar965/littlenavmap/releases/download/v1.8.5/LittleNavmap-language-package-nl-1.8.zip) by Eddy Crequie
-
-**► French translation and PDF manual are already included as of 1.8.**
