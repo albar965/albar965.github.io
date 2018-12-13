@@ -70,7 +70,7 @@ h5 { font-size: 1em; color: #000000; }
 
 h6 { font-size: .8em; color: #000000; }
 
-ul, nl, li {
+ul, ol, li {
   margin-right: 30px;
   margin-left: 30px;
 }
@@ -86,12 +86,6 @@ td {
   border: 0px solid transparent;
 }
 
-li {
-margin-top: 0.1em;
-margin-bottom: 0.05em;
-}
-
-
 p, p.small, form {
   margin-left: 30px;
   margin-right: 30px;
@@ -100,7 +94,7 @@ p, p.small, form {
 }
 
 p.small {
-  font-size: 1.0em;
+  font-size: 0.7em;
 }
 
 hr {
