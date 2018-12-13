@@ -11,11 +11,13 @@ date:   2018-12-12 13:00:00 +0100
 **Die deutsche Übersetzung ist noch in Arbeit. German translation is work in progress.**
 <!-- [**► Diese Seite auf Deutsch**](/littlenavmap-faq_de.html) -->
 
-**You might also have a look at the [appendix in the manual](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/APPENDIX.html)**
+**You might also have a look at the [appendix in the manual](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/APPENDIX.html).**
 
 **Use your browser search function (usually `Ctrl+F`) to find topics or keywords.**
 
 <!-- egrep '{#.+}' littlenavmap-faq.md |sed -e 's/### \(.\+\) {#\(.\+\)}/1. [\1](#\2)/g' -->
+
+## Contents {#contents}
 
 1. [How to update the program](#update)
 1. [How can I create a flight plan](#flightplan)
@@ -53,7 +55,7 @@ You might either:
 
 In either case do not merge the two old and new directories. Remains of previous versions might cause trouble.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### How can I create a flight plan {#flightplan}
 
@@ -65,7 +67,7 @@ That's it. You just built a simple flight plan.
 Have a look at the [Tutorials](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/TUTORIALS.html) which are
 also linked in the help menu. These help to get around in the program.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### How to backup userdata {#userdata-backup}
 
@@ -82,7 +84,7 @@ You have to close _Little Navmap_ before creating a backup or replacing the data
 Little Navmap also creates three rolling backups (`little_navmap_userdata.sqlite.1`, etc.) on startup which you can use
 if you deleted something accidentally.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### I cannot resize a dock window {#dock-frozen}
 
@@ -96,7 +98,7 @@ Another reason can be the search window taking up too much space:
 1. Switch around in the search tabs or undock and dock one back by double clicking into the title bar.
 1. Undock the search window and let it float. This dock window is very expansive and squeezes other docks into the corners even when search options are disabled.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### Navaids or airways are red in the flight plan table {#red-navaids}
 
@@ -108,27 +110,27 @@ These are shown in red and are treated like user defined flight plan waypoints i
 Airways are displayed in red if they do not exist or the minimum or maximum airway altitude restrictions are
 violated by the selected cruise altitude when loading the flight plan.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### I added an airport and it does not show up in _Little Navmap_ {#no-airport}
 
 You have to reload the scenery library. See [Load Scenery Library Dialog](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/SCENERY.html).
 in the manual.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### X-Plane: I installed _Little Xpconnect_ but cannot find it in the X-Plane menus {#xpconnect-menus}
 
 _Little Xpconnect_ does not create any menus items in X-Plane.
 Installation was successful if you can find _Little Xpconnect_ in the plugin information of the X-Plane plugin manager.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### How can I update the navdata to the latest cycle {#update-navdata}
 
 You have to get a [Navigraph](https://www.navigraph.com/) subscription. This allows you to update the _Little Navmap_ navdata to the latest.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### I updated the navdata but it does not show up {#update-navdata-noshow}
 
@@ -137,7 +139,7 @@ You should use the automatic scan in the _FMS Data Manager_ which usually finds 
 See [Little Navmap - Install Navigraph Updates](https://albar965.github.io/littlenavmap_navigraph.html) to see
 how to set the path correctly if the automatic scan did not find the path.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### I cannot see aprons and taxiways on the map {#no-aprons-taxi}
 
@@ -147,7 +149,7 @@ is the recommended mode which will show detailed stock or add-on airports mixed 
 
 See [Navigation Databases](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/NAVDATA.html) in the manual.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### Why can I see only the X-Plane connect option {#xplane-connection-only}
 
@@ -160,7 +162,7 @@ in the manual.
 
 Note that the installation is skipped if this SimConnect version is already installed. Also, you cannot uninstall SimConnect which is no issue since it does not take much space and does not harm otherwise.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### Cannot connect to FSX or P3D {#simconnect-issues}
 
@@ -171,7 +173,7 @@ in the manual.
 If that does not help: Check if there is a file `C:\users\YOURUSERNAME\Documents\SimConnect.cfg`. This is sometimes used
 to create remote connections with SimConnect. Rename this file. This might fix the connection problems.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### The program crashes {#crash}
 
@@ -188,14 +190,14 @@ If the problem persists send me a bug report in the
 [Avsim Support Forum](https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or by email.
 See [How to report a Bug](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/APPENDIX.html#how-to-report-a-bug).
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### Lines disappearing {#lines-disappearing}
 
 Parts of the flight plan disappear.
 This is a known error and can happen at certain zoom distances with long flight plan legs.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### Can I run the program on another client computer across the network {#networking}
 
@@ -205,7 +207,7 @@ The client computer does not need a SimConnect or simulator installation at all.
 See [How to run a network Setup](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/INTRO.html#network-setup)
 in the manual.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### Can I see the program when running FSX, P3D or X-Plane fullscreen  {#sim-fullscreen}
 
@@ -217,7 +219,7 @@ You can not. But you can:
    [How to run a network Setup](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/INTRO.html#network-setup)
 3. Run the simulator in seamless window mode. Then you can `Alt+Tab` between applications.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### Cannot remove the traffic pattern or measurement lines {#remove-pattern}
 
@@ -230,7 +232,7 @@ The cursor shape changes to a hand if you hover the mouse over such a spot.
 Then you can use one of the [Mouse Clicks](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/LEGEND.html#mouse-clicks)
 or the context menu to do something with the feature.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### Map is fuzzy and not updating {#map-no-update}
 
@@ -243,13 +245,13 @@ This can have several reasons:
 4. _Little Navmap_ cannot establish an encrypted connection to the map server. See [Installation - Windows](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/INSTALLATION.html#windows)
 in the manual for more information how to fix this.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### The map has a grayish backgroud {#map-gray}
 
 You use an online map and have  hillshading enabled where it has no coverage. Disable hillshading ([Show Hillshading](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/MENUS.html#show-hillshading)) or use another theme.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### Search result empty {#search-empty}
 
@@ -259,7 +261,7 @@ the result table or press `Ctrl+R` to clear all search criteria.
 
 Note that using an ICAO code for searching will temporarily override all other options. This helps to do a quick search for an airport.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### Weather in X-PLane does not match what _Little Navmap_ displays {#xplane-weather}
 
@@ -271,14 +273,14 @@ There is no information available how and if X-Plane interpolates weather betwee
 Additionally, X-Plane seems to have problems reading certain METARs, completely bails out for the corresponding station
 and falls back to ISA standard conditions.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### I get a message complaining about an unidentified developer on macOS {#macos-unidentified-developer}
 
 Right click or `Ctrl+Click` on the application and select `Open`.
 You probably have to enter an administrator name and password once. The program can be started normally after this procedure.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### I see waiting for data forever in the statusbar {#waiting-for-data}
 
@@ -288,20 +290,20 @@ Three reasons:
 2. The online map server is not available ([Map is fuzzy and not updating](#map-no-update)).
 3. You have hillshading enabled where it is not available ([The map has a grayish backgroud](#map-gray)).
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### Map background is black {#map-black}
 
 Something went wrong when installing _Little Navmap_. Most likely the directory `data` is missing.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### I cannot see any airports or navaids {#load-scenery}
 
 Load the scenery library from the simulator. See [Load Scenery Library Dialog](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/SCENERY.html)
 in the manual.
 
-[**▲**](#top)
+[**▲**](#contents)
 
 ### I found an issue or have a proposal {#issue-proposal}
 
@@ -316,5 +318,6 @@ For errors send me a bug report in the
 [Avsim Support Forum](https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or by email.
 See [How to report a Bug](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/APPENDIX.html#how-to-report-a-bug).
 
-[**▲**](#top)
+[**▲**](#contents)
+
 

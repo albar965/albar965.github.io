@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2018-12-12 10:00:00 +0100
+date:   2018-12-12 13:00:00 +0100
 ---
 
 # Alex' Projects
@@ -35,7 +35,7 @@ date:   2018-12-12 10:00:00 +0100
 
 [**► Support Forum at Avsim**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Help for users, preview of new releases, development progress, screenshots and beta releases.
 
-[**► Frequently asked Questions / Oft gestellte Fragen**](littlenavmap-faq.html)
+[**► Frequently asked Questions**](littlenavmap-faq.html) <!--[**► Oft gestellte Fragen**](littlenavmap-faq_de.html)-->
 
 [**► Little Navmap - Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
