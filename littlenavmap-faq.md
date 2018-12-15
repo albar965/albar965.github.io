@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2018-12-12 13:00:00 +0100
+date:   2018-12-15 13:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -47,6 +47,8 @@ date:   2018-12-12 13:00:00 +0100
 1. [I get an error message about missing directories when loading X-Plane scenery](#missing-xplane-scenery)
 1. [Airports missing in X-Plane scenery after reloading](#airports-missing-xplane-scenery)
 1. [I found an issue or have a proposal](#issue-proposal)
+1. [I get fuel flow indications that don't match _Little Navmap_'s values](#wrong-fuel-indication)
+1. [Fuel planning and collection gives wrong fuel values](#wrong-fuel-planning)
 
 ### How to update the program {#update}
 
@@ -348,4 +350,29 @@ See [How to report a Bug](https://albar965.gitbooks.io/little-navmap-user-manual
 
 [**▲**](#contents)
 
+### I get fuel flow indications that don't match _Little Navmap_'s values {#wrong-fuel-indication}
+
+Fuel flow in the tab `Performance` of _Little Navmap_ does not match to what the aircraft is showing.
+
+An aircraft add-on probably uses doctored values to workaround simulator limitations. This happens often
+with complex study level add-ons and might affect fuel calculation, planning and especially collection.
+
+See [next issue below](#wrong-fuel-planning).
+
+[**▲**](#contents)
+
+### Fuel planning and collection gives wrong fuel values {#wrong-fuel-planning}
+
+This is related to wrong fuel indications of an add-on aircraft. See [above](#wrong-fuel-indication).
+
+You can still create an aircraft performance profile manually and ignore the indications.
+
+Set TAS and fuel flow for typical cruise level.
+
+For fuel flow, TAS and vertical speed in the descent and climb phases simply get the values at low altitude, near cruise altitude and then enter the average in _Little Navmap_.
+Tune the profile manually as needed.
+
+It might also be beneficial to create different profiles for different cruise altitude ranges, especially for large complex aircraft.
+
+[**▲**](#contents)
 
