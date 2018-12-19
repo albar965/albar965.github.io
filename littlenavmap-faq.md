@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2018-12-15 13:00:00 +0100
+date:   2018-12-19 13:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -38,6 +38,7 @@ date:   2018-12-15 13:00:00 +0100
 1. [Cannot remove the traffic pattern or measurement lines](#remove-pattern)
 1. [Map is fuzzy and not updating](#map-no-update)
 1. [The map has a grayish backgroud](#map-gray)
+1. [Why isn't the terrain mesh shown far North and South?](#terrain-mesh-limitations)
 1. [Search result empty](#search-empty)
 1. [Weather in X-Plane does not match what _Little Navmap_ displays](#xplane-weather)
 1. [I get a message complaining about an unidentified developer on macOS](#macos-unidentified-developer)
@@ -49,6 +50,9 @@ date:   2018-12-15 13:00:00 +0100
 1. [I found an issue or have a proposal](#issue-proposal)
 1. [I get fuel flow indications that don't match _Little Navmap_'s values](#wrong-fuel-indication)
 1. [Fuel planning and collection gives wrong fuel values](#wrong-fuel-planning)
+1. [My anti-virus or anti-malware complains about _Little Navmap_](#anti-virus)
+1. [How to add procedures to airports?](#add-procedures)
+1. [Airport runway numbers don't match the runway numbers for procedures](#runway-mismatch)
 
 ### How to update the program {#update}
 
@@ -261,7 +265,19 @@ in the manual for more information how to fix this.
 
 ### The map has a grayish backgroud {#map-gray}
 
-You use an online map and have  hillshading enabled where it has no coverage. Disable hillshading ([Show Hillshading](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/MENUS.html#show-hillshading)) or use another theme.
+You use an online map and have  hillshading enabled where it has no coverage. Disable hillshading
+([Show  Hillshading](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/MENUS.html#show-hillshading))
+or use another theme.
+
+[**▲**](#contents)
+
+### Why isn't the terrain mesh shown far North and South? {#terrain-mesh-limitations}
+
+I installed the Global mesh for LNM, but still nothing far North and South?
+
+The GLOBAL elevation data is only for the elevation profile and altitude display in the status bar. Hillshading comes
+from an open server and that has known limitations and bugs. Coverage is limited. You can use
+another map theme which includes worldwide hillshading like the `StamenTerrain` or `OpenTopoMap`.
 
 [**▲**](#contents)
 
@@ -376,3 +392,51 @@ It might also be beneficial to create different profiles for different cruise al
 
 [**▲**](#contents)
 
+
+### My anti-virus or anti-malware complains about _Little Navmap_ {#anti-virus}
+
+This is usually a false positive.
+
+I usually upload all Zip files to [VirusTotal](https://www.virustotal.com) before making them public. This ensures
+that the files are checked by 50 or more anti-virus programs.
+
+You can send your downloaded files to VirusTotal and you will get the report from my uploads immediately.
+
+The results of `LittleNavmap-win-2.2.2.zip` [can be seen here](https://www.virustotal.com/#/file/724b1fba67da125cd45b3e01f370b340b485ebaf4e24c377f1e4cc4b902aa22a/detection).
+
+One false positive might occur and is no reason for concern.
+
+[**▲**](#contents)
+
+### How to add procedures to airports? {#add-procedures}
+
+For **FSX or Perpar3D** you can use the [Airport Design Editor](http://www.scruffyduck.org/airport-design-editor/4584106799),
+add procedures to the airport and then switch off Navigraph in the scenery library menu. LNM will
+read the procedures from your add-on airport and you can use them like the others.
+
+**X-Plane**: You can try to create a CIFP file but this is very complex and not recommended as stated on the page [here](https://developer.x-plane.com/?article=navdata-in-x-plane-11#How_do_I_make_my_own_approach_No_hand_editing_please).
+
+See [Navdata in X-Plane 11](https://developer.x-plane.com/?article=navdata-in-x-plane-11) and [XP-CIFP1101-Spec.pdf](http://developer.x-plane.com/wp-content/uploads/2016/10/XP-CIFP1101-Spec.pdf).
+
+[**▲**](#contents)
+
+
+### Airport runway numbers don't match the runway numbers for procedures {#runway-mismatch}
+
+This depends on the scenery mode as set in the menu `Scenery Library` -&gt; `Navigraph`. The default is to use the flight
+simulator scenery for runways and ILS and the Navigraph database for all airspaces, airways and all other navaids.
+
+Runways are named by the magnetic direction which changes over the years. This results in airports renaming their runways from time to time.
+Therefore, mismatches between old airports, be it stock or add-on, can happen.
+
+It's neither a _Little Navmap_ nor Navigraph issue. I's an unavoidable
+real world issue where simulator scenery or airports are not updated as
+fast as the real world airports.
+
+See the [Navdata](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/NAVDATA.html) chapter in the manual for more information.
+
+For **FSX or Perpar3D** you can use the [Airport Design Editor](http://www.scruffyduck.org/airport-design-editor/4584106799) to change the runway numbers.
+
+Use [WED](https://developer.x-plane.com/tools/worldeditor/) to change an airport for X-Plane.
+
+[**▲**](#contents)
