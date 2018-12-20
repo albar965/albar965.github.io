@@ -3,16 +3,57 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=2.2.2
-url=https://albar965.github.io/release/2018/12/10/littlenavmap-stable-222-released.html
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.2.2/LittleNavmap-win-2.2.2.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.2.2/LittleNavmap-macOS-2.2.2.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.2.2/LittleNavmap-linux-2.2.2.tar.gz
+version=2.2.3
+url=https://albar965.github.io/release/2018/12/20/littlenavmap-stable-223-released.html
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.2.3/LittleNavmap-win-2.2.3.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.2.3/LittleNavmap-macOS-2.2.3.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.2.3/LittleNavmap-linux-2.2.3.tar.gz
 changelog=
   <!-- ====================================== -->
-    <h2 id="notes">
-      Notes
+    <h2>Notes</h2>
+    <p>
+    <strong>This release contains bugfixes and updated translations of the manual.</strong>
+    </p>
+    <h2 id="changes-from-release-2.2.2-to-2.2.3">
+      Changes from Release 2.2.2 to 2.2.3
     </h2>
+    <ul>
+    <li>Fixed crash when reading unexpected value in <code>activeflightplanwx.txt</code> of Active Sky.</li>
+    <li>Fixed crash when doing <code>Show all</code> after <code>Select all</code> in search result table while using a spatial query.</li>
+    <li>Problem solved where altitude restrictions in procedures caused an invalid <code>cannot comply to altitude restrictions</code> error.</li>
+    <li>Fixed issue where flight plan airports or navaids were not detected in map context menu when display of airports or navaid was disabled.</li>
+    <li>X-Plane <code>scenery_packs.ini</code> now read case insensitive to avoid errors.</li>
+    <li>Fixed several display issues in elevation profile.</li>
+    <li>Fixed drawing issues with altitude restrictions in procedures.</li>
+    <li>Elevation profile showed wrong values for altitude on rightmost position in some cases.</li>
+    <li>Little Xpconnect: <code>acf</code> file of user aircraft is now read for more attributes like identifying helicopters.</li>
+    <li>Disabled display of flight plan position for airports and navaids in information window since it needs too many updates to function correctly.</li>
+    <li>Full French and Spanish translated PDF user manual included. Online help is now complete for both languages.</li>
+    <li>Updated French legend.</li>
+    </ul>
+    <p>Thanks to Alfredo alias fred, Josemi alias aquileo and Emilio alias zxplane for the Spanish manual translation and
+    thanks to Patrick JUNG alias PATBEST for the overall French translation!</p>
+    <p>
+      <strong>See the included <code>CHANGELOG.txt</code> or <a href=
+      "https://github.com/albar965/littlenavmap/blob/release/2.2/CHANGELOG.txt">here</a> online for a complete list
+      across all versions.</strong>
+    </p>
+    <p>
+      <strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong>
+    </p>
+    <p><span style="font-size: xx-large; font-style: italic; color: red; font-weight: bold; font-family: Times New Roman,Times,serif;">Merry Christmas and Happy Holidays!</span></p>
+    <p><span style="font-size: xx-large; font-style: italic; color: red; font-weight: bold; font-family: Times New Roman,Times,serif;">Frohe Weihnachten und ein gutes neues Jahr!</span></p>
+    <!-- ====================================== -->
+    <!-- ====================================== -->
+    <!-- ====================================== -->
+    <br/><br/><hr/><br/><br/>
+    <h3>Previous Release Notes</h3>
+    <b id="changes-from-release-2.0.3-to-2.2.2">
+      Changes from Release 2.0.3 to 2.2.2
+    </b>
+    <b>
+      Notes
+    </b>
     <b><a href="https://albar965.github.io/de/2018-12-10-littlenavmap-stable-222-released_de.html">Dieses Dokument auf Deutsch (online).</a></b>
     <ul>
       <li>
@@ -35,9 +76,6 @@ changelog=
       <li>List of closed issues for milestone 2.2 is <a href="https://github.com/albar965/littlenavmap/milestone/6?closed=1">here at GitHub</a>.
       </li>
     </ul>
-    <h2 id="changes-from-release-2.0.3-to-2.2.2">
-      Changes from Release 2.0.3 to 2.2.2
-    </h2>
     <p>
       <strong>For more details on fixed issues look at the included <code>CHANGELOG.txt</code> or <a href=
       "https://github.com/albar965/littlenavmap/blob/release/2.2/CHANGELOG.txt">here online</a> for a complete list
@@ -46,9 +84,9 @@ changelog=
     <p>
       Click on images for large view.
     </p>
-    <h3 id="quick-overview">
+    <b>
       Quick Overview
-    </h3>
+    </b>
     <ul>
       <li>Aircraft performance, fuel planning and more.
       </li>
@@ -82,9 +120,9 @@ changelog=
       <li>Prepared for Active Sky XP.
       </li>
     </ul>
-    <h3 id="new-online-manual-chapters-andor-changes">
+    <b>
       New online manual chapters and/or changes
-    </h3>
+    </b>
     <ul>
       <li>Major update and enhancements in elevation profile: <a href=
       "https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/PROFILE.html">Profile</a> and
@@ -190,9 +228,9 @@ changelog=
         highlighting for airspaces from information window</a>.
       </li>
     </ul>
-    <h3 id="new-options">
+    <b>
       New Options
-    </h3>
+    </b>
     <p>
       Tooltips in dialog <code>Options</code> give more help.
     </p>
@@ -264,9 +302,9 @@ changelog=
       active leg and is now saved separately from aircraft trail on map.
       </li>
     </ul>
-    <h3 id="aircraft-performance-255">
+    <b>
       Aircraft Performance
-    </h3>
+    </b>
     <p>
       <a href="https://github.com/albar965/littlenavmap/issues/255">#255</a>
     </p>
@@ -313,9 +351,9 @@ changelog=
       dialog.
       </li>
     </ul>
-    <h3 id="printing">
+    <b>
       Printing
-    </h3>
+    </b>
     <p>
       See main menu -&gt; <code>File</code> -&gt; <code>Print Map</code> and <code>Print Flight Plan</code>.
     </p>
@@ -334,9 +372,9 @@ changelog=
       <li>Hiding all overlays except scale bar when printing map now.
       </li>
     </ul>
-    <h3 id="online-networks">
+    <b>
       Online Networks
-    </h3>
+    </b>
     <ul>
       <li>Added settings for online center sizes in options dialog. Previous settings from INI file are now ignored.
       See dialog <code>Options</code> on tab <code>Map Display Online</code>. <a href=
@@ -354,9 +392,9 @@ changelog=
       <code>!CLIENTS</code>.
       </li>
     </ul>
-    <h3 id="compass-rose">
+    <b>
       Compass Rose
-    </h3>
+    </b>
     <ul>
       <li>Now showing crab angle and added display indicator for next waypoint in compass rose. <a href=
       "https://github.com/albar965/littlenavmap/issues/284">#284</a>
@@ -372,9 +410,9 @@ changelog=
       <li>Fixed error in compass rose where decimal digits were truncated in some cases.
       </li>
     </ul>
-    <h3 id="flight-plan">
+    <b>
       Flight Plan
-    </h3>
+    </b>
     <ul>
       <li>Added drag and drop of flight plans from file manager into main window for loading. Accepts a single flight
       plan file and all allowed formats for loading (<code>fms</code>, <code>flp</code>, <code>pln</code>) as well as
@@ -438,9 +476,9 @@ changelog=
       <li>Moved FMS 3 format to export sub-menu since it became less important.
       </li>
     </ul>
-    <h3 id="procedures">
+    <b>
       Procedures
-    </h3>
+    </b>
     <ul>
       <li>Now loading procedures partially from a flight plan if some could not be found.
       </li>
@@ -453,9 +491,9 @@ changelog=
       the procedure search (red procedure leg).
       </li>
     </ul>
-    <h3 id="map">
+    <b>
       Map
-    </h3>
+    </b>
     <ul>
       <li>Added mouse click and modifier options for quick access. Doing a second click on the hot spot of a shown
       feature like range rings or measurement lines removes it. <a href=
@@ -556,9 +594,9 @@ changelog=
       others.
       </li>
     </ul>
-    <h3 id="airport-weather">
+    <b>
       Airport Weather
-    </h3>
+    </b>
     <p>
       See main menu -&gt; <code>View</code> -&gt; <code>Show Airport Weather</code> and <code>Airport Weather
       Source</code>. <a href="https://github.com/albar965/littlenavmap/issues/6">#6</a>
@@ -577,9 +615,9 @@ changelog=
       weather in map in the information display by adding suffix <code>- Map</code> to <code>Flight Rules</code> text.
       </li>
     </ul>
-    <h3 id="weather">
+    <b>
       Weather
-    </h3>
+    </b>
     <ul>
       <li>Prepared for Active Sky XP.
       </li>
@@ -595,9 +633,9 @@ changelog=
       <li>More improvements on error tolerance and fixes when reading METARs.
       </li>
     </ul>
-    <h3 id="information-and-progress">
+    <b>
       Information and Progress
-    </h3>
+    </b>
     <ul>
       <li>Added sunrise and sunset display (civil twilight) in UTC for airport information display. Time is based on
       simulator date or real date depending on connection status. See in dock window <code>Information</code> on tab
@@ -635,9 +673,9 @@ changelog=
       <li>More fixes and improvements to information display and tooltips.
       </li>
     </ul>
-    <h3 id="airport-traffic-pattern">
+    <b>
       Airport Traffic Pattern
-    </h3>
+    </b>
     <p>
       <a href="https://github.com/albar965/littlenavmap/issues/197">#197</a>
     </p>
@@ -651,9 +689,9 @@ changelog=
       other options.
       </li>
     </ul>
-    <h3 id="options">
+    <b>
       Options
-    </h3>
+    </b>
     <ul>
       <li>Moved options <code>Use a short name ICAO_ICAO.pln when saving FSX or P3D flight plans instead of the long
       name</code>, <code>Avoid overwriting Flight Plan with not matching departure and destination</code> and
@@ -663,9 +701,9 @@ changelog=
       change log.
       </li>
     </ul>
-    <h3 id="search">
+    <b>
       Search
-    </h3>
+    </b>
     <ul>
       <li>Added <code>Show Information for Airport</code>, <code>Show Airport on Map</code> and <code>Show Airport in
       Search</code> items to the context menu in the procedure search tab.
@@ -673,9 +711,9 @@ changelog=
       <li>Various other improvements and fixes to procedure search.
       </li>
     </ul>
-    <h3 id="userpoints">
+    <b>
       Userpoints
-    </h3>
+    </b>
     <ul>
       <li>URLs are now recognized in userpoint information display and can be opened there. Local file and directory
       links (e.g. <code>file:///C:/Projekte/atools</code> or <code>file:///home/alex/</code>) links as well as web URLs
@@ -684,9 +722,9 @@ changelog=
       <li>Fixed issue where takeoff or landing airports and runways were not recognized correctly for logbook entries.
       </li>
     </ul>
-    <h3 id="user-interface-and-general">
+    <b>
       User Interface and General
-    </h3>
+    </b>
     <ul>
       <li>GUI style including <code>Night</code> can now be changed on the fly from the menu <code>Window</code> -&gt;
       <code>Style</code>. Removed style from options dialog and moved map darkness for night style to dialog
@@ -748,9 +786,9 @@ changelog=
       <li>Various other improvements regarding error messages and changes in menu structure.
       </li>
     </ul>
-    <h3 id="scenery-library">
+    <b>
       Scenery Library
-    </h3>
+    </b>
     <ul>
       <li>Files can now be excluded from loading for all simulators in options dialog. <a href=
       "https://github.com/albar965/littlenavmap/issues/29">#29</a>
@@ -773,9 +811,9 @@ changelog=
       <li>Database minor version updated to 13.
       </li>
     </ul>
-    <h3 id="x-plane-little-xpconnect">
+    <b>
       X-Plane / Little Xpconnect
-    </h3>
+    </b>
     <ul>
       <li>Now reading X-Plane <code>acf</code> files once to get aircraft name and engine type for a better
       classification. Allows to show helicopter and jet AI symbols in Little Navmap. <a href=
@@ -784,14 +822,6 @@ changelog=
       <li>Added airplane model and registration. Now using description for title.
       </li>
     </ul>
-    <p>
-      <strong>See the included <code>CHANGELOG.txt</code> or <a href=
-      "https://github.com/albar965/littlenavmap/blob/release/2.2/CHANGELOG.txt">here</a> online for a complete list
-      across all versions.</strong>
-    </p>
-    <p>
-      <strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong>
-    </p>
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
@@ -969,13 +999,10 @@ changelog=
       zoomed too far out.
       </li>
       <li>Changed jump-back-to-aircraft logic to avoid weird behavior (zooming far out and others).
-
         <strong>When aircraft is on ground or <code>Center map on aircraft and next flight plan waypoint</code> is not
         selected:
-
         Start looking around on the map by moving first (mouse drag or cursor keys) and not by zooming (mouse wheel or
         plus and minus keys) to suppress aircraft centering for a while.
-
         Zooming without movement (drag or cursor keys) keeps the zoom distance.</strong>
       </li>
       <li>Added saving of altitudes for X-Plane FMS formats which will show up for each waypoint in the stock FMS now.
