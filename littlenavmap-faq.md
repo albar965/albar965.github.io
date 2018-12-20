@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2018-12-19 13:00:00 +0100
+date:   2018-12-20 12:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -20,6 +20,7 @@ date:   2018-12-19 13:00:00 +0100
 ## Contents {#contents}
 
 1. [How to update the program](#update)
+1. [Where are the log and configuration files?](#log-and-config-files)
 1. [How can I create a flight plan](#flightplan)
 1. [How to backup userdata](#userdata-backup)
 1. [I cannot resize a dock window](#dock-frozen)
@@ -53,6 +54,7 @@ date:   2018-12-19 13:00:00 +0100
 1. [My anti-virus or anti-malware complains about _Little Navmap_](#anti-virus)
 1. [How to add procedures to airports?](#add-procedures)
 1. [Airport runway numbers don't match the runway numbers for procedures](#runway-mismatch)
+1. [I'd like to completely remove the program and all of its traces](#remove)
 
 ### How to update the program {#update}
 
@@ -62,6 +64,18 @@ You might either:
 * Install the new version in a new folder, e.g. by using the version as a directory name suffix.
 
 In either case do not merge the two old and new directories. Remains of previous versions might cause trouble.
+
+[**▲**](#contents)
+
+### Where are the log and configuration files? {#log-and-config-files}
+
+The files are linked in the about dialog of _Little Navmap_ (`Help` -&gt `About Little Navmap`). For Windows these are:
+
+Log file: `C:\Users\YOURUSERNAME\AppData\Local\Temp\abarthel-little_navmap.log`
+
+Configuration file: `C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel\little_navmap.ini`
+
+Details can be found in the [Files](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/FILES.html) chapter in the manual.
 
 [**▲**](#contents)
 
@@ -438,5 +452,14 @@ See the [Navdata](https://albar965.gitbooks.io/little-navmap-user-manual/content
 For **FSX or Perpar3D** you can use the [Airport Design Editor](http://www.scruffyduck.org/airport-design-editor/4584106799) to change the runway numbers.
 
 Use [WED](https://developer.x-plane.com/tools/worldeditor/) to change an airport for X-Plane.
+
+[**▲**](#contents)
+
+### I'd like to completely remove the program and all of its traces {#remove}
+
+All files and folders created by _Little Navmap_ are described in the
+chapter [Files](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/FILES.html) in the manual.
+
+_Little Navmap_ does not create any registry entries on Windows.
 
 [**▲**](#contents)
