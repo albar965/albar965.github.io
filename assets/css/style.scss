@@ -86,11 +86,25 @@ td {
   border: 0px solid transparent;
 }
 
-p, p.small, form {
+p, p.small, form, pre {
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 0.3em;
   margin-bottom: 0.3em;
+}
+
+pre code {
+    padding: 0;
+    color: #000000;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+pre {
+    overflow: auto;
+    color: #000000;
+    text-shadow: none;
+    background: #f0f0f0;
 }
 
 p.small {
