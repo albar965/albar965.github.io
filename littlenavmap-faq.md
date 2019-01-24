@@ -54,6 +54,7 @@ date:   2019-01-24 12:00:00 +0100
 1. [My anti-virus or anti-malware complains about _Little Navmap_](#anti-virus)
 1. [How to add procedures to airports?](#add-procedures)
 1. [Airport runway numbers don't match the runway numbers for procedures](#runway-mismatch)
+1. [Search for airport by country, state or city is unreliable in X-Plane](#airport-admin-search)
 1. [I'd like to completely remove the program and all of its traces](#remove)
 
 ### How to update the program {#update}
