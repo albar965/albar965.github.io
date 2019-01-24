@@ -461,12 +461,12 @@ Data sources limit this functionality and it depends on the selected navdata sou
 
 * Navigraph only: This has only limited administrative airport information. Only airport name (`Frankfurt am Main`),
   ICAO code (`EDDF`), ICAO region (`ED`) and area code (`EUR`) are available.
-* All other modes: The completeness of adminstrative information depends on the airport. Administrative data (State, City, etc.)
+* All other modes: The completeness of administrative information depends on the airport. Administrative data (State, City, etc.)
   is often missing for X-Plane airports.
 
 You can use [WED](https://developer.x-plane.com/tools/worldeditor/) to change the administrative information of an airport.
 
-For add-on airports you can also use a text editor to change this. Below an example with the city misspelled:
+For add-on airports you can also use a text editor to change this. Below an example with misspelled city name:
 
 ```
 I
