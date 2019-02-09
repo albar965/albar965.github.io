@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2018-12-13 22:00:00 +0100
+date:   2019-02-06 10:00:00 +0100
 ---
 
 # Alex' Projects
@@ -24,20 +24,20 @@ date:   2018-12-13 22:00:00 +0100
 
 ## Links {#links}
 
-<a href="albar 965 AT mail box DOT org"
+<a href="alex AT littlenavmap DOT org"
    rel="nofollow"
-   onclick="this.href='mailto:' + 'albar' + '965' + '@' + 'mailbox' + '.' + 'org'"
-   onmouseleave="this.href='albar 965 AT mail box DOT org'"><span class="bold">► Contact me by email (English / Deutsch)</span></a>
+   onclick="this.href='mailto:' + 'alex' + '@' + 'little' + 'nav' + 'map' + '.' + 'org'"
+   onmouseleave="this.href='alex AT littlenavmap DOT org'"><span class="bold">► Contact me by email (English / Deutsch)</span></a>
 
-[**► GitHub Profile**](https://github.com/albar965) All my projects, releases, source code, issue lists and more.
+[**► User manuals for _Little Navmap_ and _Little Navconnect_ in all formats and languages.**](/manuals.html)
 
-[**► GitBook Online Manuals**](https://legacy.gitbook.com/@albar965) Online manuals for _Little Navmap_ and _Little Navconnect_.
-
-[**► Support Forum at Avsim**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Help for users, preview of new releases, development progress, screenshots and beta releases.
+[**► Support Forum at Avsim**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) **Support and help for users.**
 
 [**► Frequently asked Questions**](littlenavmap-faq.html) <!--[**► Oft gestellte Fragen**](littlenavmap-faq_de.html)-->
 
 [**► Little Navmap - Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
+
+[**► GitHub Profile**](https://github.com/albar965) All my projects, releases, source code, issue lists and more.
 
 [**► About Translation Packages**](littlenavmaptranslations.html) General information about translation packages.
 
