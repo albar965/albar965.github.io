@@ -3,20 +3,130 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=2.2.3
-url=https://albar965.github.io/release/2018/12/20/littlenavmap-stable-223-released.html
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.2.3/LittleNavmap-win-2.2.3.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.2.3/LittleNavmap-macOS-2.2.3.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.2.3/LittleNavmap-linux-2.2.3.tar.gz
+version=2.2.4
+url=https://albar965.github.io/release/2019/02/09/littlenavmap-stable-224-released.html
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.2.4/LittleNavmap-win-2.2.4.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.2.4/LittleNavmap-macOS-2.2.4.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.2.4/LittleNavmap-linux-2.2.4.tar.gz
 changelog=
+  <head><style type="text/css">code { background: #33808080; }</style></head>
+  <body>
+  <h2>Notes</h2>
+  <p><strong>This release contains small bugfixes, new keyboard shortcuts, enabled IVAO online network, AviTab export and more flight plan export formats.</strong></p>
+  <p><b><a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa">&gt;&gt; Alternative download location at Dropbox &lt;&lt;</a></b></p>
+  <p><b><a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w">&gt;&gt; Alternative download location at Mega.nz &lt;&lt;</a></b></p>
+  <h2 id="version-2.2.4">Changes from 2.2.3 to 2.2.4</h2>
   <!-- ====================================== -->
-    <h2>Notes</h2>
+  <h3 id="flight-plan-export">Flight Plan Export</h3>
+  <ul>
+  <li>Added <strong>saving and loading of <a href="http://home.flightgear.org/">FlightGear</a> XML flight plans</strong> (<code>.fgfp</code>) also covering SID and STAR. <a href="https://github.com/albar965/littlenavmap/issues/361">#361</a></li>
+  <li>MDX flight plan export for Leonardo Maddog X added. <a href="https://github.com/albar965/littlenavmap/issues/232">#232</a></li>
+  <li>Added RTE flight plan export for QualityWings aircraft. <a href="https://github.com/albar965/littlenavmap/issues/335">#335</a></li>
+  <li>Export for AivlaSoft EFB (<code>.efbr</code> version 1 - currently no SID and STAR). <a href="https://github.com/albar965/littlenavmap/issues/226">#226</a></li>
+  <li>Added <strong>saving of PNG or JPG map images for <a href="https://github.com/fpw/avitab">AviTab</a></strong> to file menu. Includes JSON calibration file. <a href="https://github.com/albar965/littlenavmap/issues/310">#310</a></li>
+  <li>Added <strong>flight plan export for online networks</strong> including dialog for additional data. <a href="https://github.com/albar965/littlenavmap/issues/317">#317</a> (vPilot, <code>VFP</code>) and <a href="https://github.com/albar965/littlenavmap/issues/176">#176</a> (IVAP and X-IVAP, <code>FPL</code>)</li>
+  <li>Added FPL flight plan export for FeelThere aircraft. <a href="https://github.com/albar965/littlenavmap/issues/206">#206</a></li>
+  <li>New flight plan export for Level-D (<code>.rte</code>). <a href="https://github.com/albar965/littlenavmap/issues/206">#206</a></li>
+  <li>Adapted flight plan file type detection to new formats and improved it for drag and drop loading. Files are now accepted for dropping/loading independent of file extension.</li>
+  <li>Now automatically suggesting a numbered filename if file already exists when exporting or using <code>Save as</code>. Same for aircraft performance files.</li>
+  <li>Reorganized export flight plan menu items into categories (Aircraft, Online, etc.) for better overview.</li>
+  <li>Changed default export folder for aircraft flight plan formats to use simulator base folder instead of <code>Documents</code>.</li>
+  </ul>
+  <h3 id="online-networks">Online Networks</h3>
+  <ul>
+  <li><strong>Enabled IVAO online network support</strong> based on mirror on <a href="https://www.littlenavmap.org">www.littlenavmap.org</a>. <a href="https://github.com/albar965/littlenavmap/issues/244">#244</a></li>
+  <li>Now displaying flight simulator type in information window for online network clients.</li>
+  </ul>
+  <h3 id="help">Help</h3>
+  <ul>
+  <li>Changed default email, manual and help link URLs from Gitbook to <a href="https://www.littlenavmap.org">www.littlenavmap.org</a>. <a href="https://github.com/albar965/littlenavmap/issues/238">#238</a><br />
+  <strong>Manuals in all formats and languages can be found here: <a href="https://albar965.github.io/manuals.html">Little Navmap and Little Navconnect Manuals</a>.</strong></li>
+  <li>Moved help URLs into configuration file <code>urls.cfg</code> which can be overloaded in settings directory. <a href="https://github.com/albar965/littlenavmap/issues/238">#238</a></li>
+  </ul>
+  <h3 id="map">Map</h3>
+  <ul>
+  <li>Fixed issue where MORA data was displayed only with Navigraph data enabled. Now always shown independent of selection. <a href="https://github.com/albar965/littlenavmap/issues/331">#331</a></li>
+  <li>Changed taxiway color for better visibility with light backgrounds.</li>
+  <li>Added taxiway colors and pens to <code>little_navmap_mapstyle.ini</code> to allow configuration.</li>
+  <li>Logbook userpoint icon now displayed using an offset from airport icon to avoid covering the airport symbol. Hotspot of logbook userpoint is now top left of the symbol. <a href="https://github.com/albar965/littlenavmap/issues/366">#366</a></li>
+  <li>Changed AI/multiplayer aircraft on ground to appear earlier when zooming in.</li>
+  <li>Now disabling text in MORA display if it gets too small to avoid garbled up display.</li>
+  <li>Now hiding the scalebar when saving map images. Scale bar is now only included when printing.</li>
+  <li>Fixed several display issues with procedure legs.</li>
+  </ul>
+  <h3 id="flight-plan-and-performance">Flight Plan and Performance</h3>
+  <ul>
+  <li>Fixed issue where selecting a parking position as departure resulted in zero cruising altitude in flight plan (FSX/P3D <code>.pln</code>).</li>
+  <li>Now disabling aircraft performance collection when sim is paused or replaying (replay only detected on X-Plane).</li>
+  <li>Relaxed maximum distance requirements for waypoints in route string parser.<br/>
+      Airports are now always used independent of distance to previous waypoint. This allows to build plans like <code>EDDF KORD EDDM</code>.
+     <a href="https://github.com/albar965/littlenavmap/issues/376">#376</a></li>
+  <li>Fixed display and conversion issues in aircraft performance when using metric units.</li>
+  <li>Vertical descent speed, descent speed and descent rule of thumb now displayed correctly.</li>
+  <li>Fixed route description parser to ignore runway designations attached to airport like <code>USSS/08R ... ZMUB1200/33</code>.</li>
+  <li>Route description parser can now read long SID and STAR names like <code>ENVA UTUNA1A</code> vs. <code>ENVA UTUN1A</code>.</li>
+  </ul>
+  <h3 id="scenery-library">Scenery Library</h3>
+  <ul>
+  <li>Airports with open helipads and closed runways are now considered open.</li>
+  <li>Now considering helipads for rating calculation for airports.</li>
+  <li>Fixed issue with error messages when loading OpenAIR files with missing airspace class. Now omitting only the invalid airspaces instead of the whole file.</li>
+  <li>Now looking for registry keys in a case insensitive manner to avoid problems where FSX or P3D could not be found.</li>
+  </ul>
+  <h3 id="user-interface">User Interface</h3>
+  <ul>
+  <li>Added <strong>function key shortcuts</strong> in menu <code>Window</code> -&gt; <code>Shortcuts</code> <strong>to have quick access to search, flight plan, map and more</strong>. <a href="https://github.com/albar965/littlenavmap/issues/364">#364</a></li>
+  <li>Added shortcuts to switch between styles <code>Fusion</code> (<code>Shift+F2</code>) and <code>Night</code> (<code>Shift+F3</code>).</li>
+  <li>Added <strong>links to well known airport folder</strong> <code>Documents/Little Navmap Files/ICAO</code> for airport information. Links to all files in the related folder are shown if the path exists for an airport with the given ICAO ident. The path is locale sensitive, e.g. in German <code>Dokumente/Little Navmap Dateien/ICAO</code>. This depends on completeness of the translation. Try both variants (<code>Files</code> vs. your system language) if in doubt. Clicking on a link opens the file in the default editor or viewer of the system.</li>
+  <li>Fixed wrong test in options dialog for online <code>status.txt</code> file. Now looking for the correct values to verify the file or download.</li>
+  <li>Default folder is now the simulator base path when selecting exclusions in the options dialog on tab <code>Scenery Library Database</code>.</li>
+  <li>Fixed issue where date display used 12 hour time without AM/PM indicator. Now always using 24 hour time for UTC time display.</li>
+  <li>Moved all context menus a few pixels off the cursor to avoid accidental selection of first entry on touchpads or some mice.</li>
+  <li>Changed lengthy prefix for custom map themes to <code>*</code> in the drop down box on the toolbar.</li>
+  <li>Limited text length for files and paths in scenery loading dialog to avoid growing the progress dialog too large.</li>
+  </ul>
+  <h3 id="weather">Weather</h3>
+  <ul>
+  <li><strong>Fixed default NOAA and VATSIM weather URLs to use HTTPS/SSL.</strong></li>
+  <li>Added migration code to convert NOAA weather URL to use SSL/HTTPS if user left URL unchanged.</li>
+  <li>Made METAR parser more tolerant for invalid temperature values not separated by a <code>/</code>.</li>
+  <li>Fixed issues with missing weather updates when switching airport weather.</li>
+  </ul>
+  <h3 id="configuration">Configuration</h3>
+  <ul>
+  <li>Now reading environment variable <code>LNM_RENDERER</code> for potential fixes on crashes or graphic problems.<br />
+  To use desktop OpenGL renderer set it to <code>desktop</code>.<br />
+  Use Angle to DirectX adapter for rendering: <code>angle</code>.<br />
+  To use the software renderer set it to <code>software</code>.</li>
+  <li>Added <code>[Options]</code> / <code>PixmapCache</code> allowing to change pixmap cache size as a potential fix for disappearing icons.</li>
+  <li>Added preliminary options for manual application of user interface font configuration in settings. <a href="https://github.com/albar965/littlenavmap/issues/373">#373</a>. Example:<br />
+  <code>[Options]</code><br />
+  <code>GuiFontFamily=FONTNAME</code><br />
+  <code>GuiFontFile=FILE.ttf</code>  (Optional)<br />
+  <code>GuiFontPixelSize=12</code> (Optional)</li>
+  <li><code>Options</code> / <code>Language</code> override in settings file now fixed for online help and legend loading.</li>
+  </ul>
+  <h3 id="related-from-little-xpconnect-version-1.0.14">related from Little Xpconnect version 1.0.14</h3>
+  <ul>
+  <li>Fixed issue with AI detection where aircraft remained on map moving along with the user aircraft after deleting AI in simulator.</li>
+  <li>Now linking Xpconnect statically to Qt to avoid plugin conflicts with libaries in Linux.</li>
+  </ul>
     <p>
-    <strong>This release contains bugfixes and updated translations of the manual.</strong>
+      <strong>See the included <code>CHANGELOG.txt</code> or <a href=
+      "https://github.com/albar965/littlenavmap/blob/release/2.2/CHANGELOG.txt">here</a> online for a complete list
+      across all versions.</strong>
     </p>
-    <h2 id="changes-from-release-2.2.2-to-2.2.3">
+    <p>
+      <strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong>
+    </p>
+    <!-- ====================================== -->
+    <!-- ====================================== -->
+    <!-- ====================================== -->
+    <br/><br/><hr/><br/><br/>
+    <h3>Previous Release Notes</h3>
+    <b>
       Changes from Release 2.2.2 to 2.2.3
-    </h2>
+    </b>
     <ul>
     <li>Fixed crash when reading unexpected value in <code>activeflightplanwx.txt</code> of Active Sky.</li>
     <li>Fixed crash when doing <code>Show all</code> after <code>Select all</code> in search result table while using a spatial query.</li>
@@ -33,19 +143,6 @@ changelog=
     </ul>
     <p>Thanks to Alfredo alias fred, Josemi alias aquileo and Emilio alias zxplane for the Spanish manual translation and
     thanks to Patrick JUNG alias PATBEST for the overall French translation!</p>
-    <p>
-      <strong>See the included <code>CHANGELOG.txt</code> or <a href=
-      "https://github.com/albar965/littlenavmap/blob/release/2.2/CHANGELOG.txt">here</a> online for a complete list
-      across all versions.</strong>
-    </p>
-    <p>
-      <strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong>
-    </p>
-    <!-- ====================================== -->
-    <!-- ====================================== -->
-    <!-- ====================================== -->
-    <br/><br/><hr/><br/><br/>
-    <h3>Previous Release Notes</h3>
     <b id="changes-from-release-2.0.3-to-2.2.2">
       Changes from Release 2.0.3 to 2.2.2
     </b>
@@ -820,6 +917,7 @@ changelog=
       <li>Added airplane model and registration. Now using description for title.
       </li>
     </ul>
+  </body>
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
