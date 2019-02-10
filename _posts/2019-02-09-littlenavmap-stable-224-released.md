@@ -83,7 +83,7 @@ categories: release
 
 * Added **function key shortcuts** in menu `Window` -> `Shortcuts` **to have quick access to search, flight plan, map and more**. [#364](https://github.com/albar965/littlenavmap/issues/364)
 * Added shortcuts to switch between styles `Fusion` (`Shift+F2`) and `Night` (`Shift+F3`).
-* Added **links to well known airport folder** `Documents/Little Navmap Files/ICAO` for airport information. Links to all files in the related folder are shown if the path exists for an airport with the given ICAO ident. The path is locale sensitive, e.g. in German `Dokumente/Little Navmap Dateien/ICAO`. This depends on completeness of the translation. Try both variants (`Files` vs. your system language) if in doubt. Clicking on a link opens the file in the default editor or viewer of the system.
+* Added **links to airport folder** `Documents/Little Navmap Files/ICAO` for airport information. Links to all files in the related folder are shown if the path exists for an airport with the given ICAO ident. The path is locale sensitive, e.g. in German `Dokumente/Little Navmap Dateien/ICAO`. This depends on completeness of the translation. Try both variants (`Files` vs. your system language) if in doubt. Clicking on a link opens the file in the default editor or viewer of the system.
 * Fixed wrong test in options dialog for online `status.txt` file. Now looking for the correct values to verify the file or download.
 * Default folder is now the simulator base path when selecting exclusions in the options dialog on tab `Scenery Library Database`.
 * Fixed issue where date display used 12 hour time without AM/PM indicator. Now always using 24 hour time for UTC time display.

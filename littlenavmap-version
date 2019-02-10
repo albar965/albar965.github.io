@@ -972,7 +972,7 @@ changelog=
   <h3 id="user-interface">User Interface</h3>
   <ul>
   <li>Added function key shortcuts in menu <code>Window</code> -&gt; <code>Shortcuts</code> to have quick access to search, flight plan, map and more. <a href="https://github.com/albar965/littlenavmap/issues/364">#364</a></li>
-  <li>Added links to well known directory <code>Documents/Little Navmap Files/ICAO</code> for airport information. Links to all included files are shown if the path exists for an airport with the given ICAO ident. The path is locale sensitive, e.g. in German <code>Dokumente/Little Navmap Dateien/ICAO</code>. This depends on completeness of the translation. Try both variants (<code>Files</code> vs. your system language) if in doubt. Clicking on a link opens the file in the default editor or viewer of the system.</li>
+  <li>Added links to airport folder <code>Documents/Little Navmap Files/ICAO</code> for airport information. Links to all included files are shown if the path exists for an airport with the given ICAO ident. The path is locale sensitive, e.g. in German <code>Dokumente/Little Navmap Dateien/ICAO</code>. This depends on completeness of the translation. Try both variants (<code>Files</code> vs. your system language) if in doubt. Clicking on a link opens the file in the default editor or viewer of the system.</li>
   <li>Fixed wrong test in options dialog for online <code>status.txt</code> file. Now looking for the correct values to verify the file.</li>
   <li>Default folder is now the simulator base path when selecting exclusions in the options dialog.</li>
   <li>Fixed issue where date display used 12 hour time without AM/PM indicator. Now always using 24 hour time for UTC time display.</li>
