@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2019-02-06 10:00:00 +0100
+date:   2019-02-11 15:00:00 +0100
 ---
 
 # Alex' Projects
@@ -33,9 +33,11 @@ date:   2019-02-06 10:00:00 +0100
 
 [**► Support Forum at Avsim**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) **Support and help for users.**
 
-[**► Frequently asked Questions**](littlenavmap-faq.html) <!--[**► Oft gestellte Fragen**](littlenavmap-faq_de.html)-->
+[**► Little Navmap - Frequently asked Questions**](littlenavmap-faq.html) <!--[**► Oft gestellte Fragen**](littlenavmap-faq_de.html)-->
 
 [**► Little Navmap - Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
+
+[**► Little Navmap Downloads - Aircraft Performance**](https://www.littlenavmap.org/downloads/Aircraft%20Performance)
 
 [**► GitHub Profile**](https://github.com/albar965) All my projects, releases, source code, issue lists and more.
 
