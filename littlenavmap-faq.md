@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2019-01-24 12:00:00 +0100
+date:   2019-02-16 10:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -15,7 +15,7 @@ date:   2019-01-24 12:00:00 +0100
 
 **Use your browser search function (usually `Ctrl+F`) to find topics or keywords.**
 
-<!-- egrep '{#.+}' littlenavmap-faq.md |sed -e 's/### \(.\+\) {#\(.\+\)}/1. [\1](#\2)/g' -->
+<!-- egrep '{###}' littlenavmap-faq.md |sed -e 's/### \(.\+\) {#\(.\+\)}/1. [\1](#\2)/g' -->
 
 ## Contents {#contents}
 
@@ -24,6 +24,7 @@ date:   2019-01-24 12:00:00 +0100
 1. [How can I create a flight plan](#flightplan)
 1. [How to backup userdata](#userdata-backup)
 1. [I cannot resize a dock window](#dock-frozen)
+1. [How can I make the map window larger](#resize-map)
 1. [Navaids or airways are red in the flight plan table](#red-navaids)
 1. [I added an airport and it does not show up in _Little Navmap_](#no-airport)
 1. [X-Plane: I installed _Little Xpconnect_ but cannot find it in the X-Plane menus](#xpconnect-menus)
@@ -120,6 +121,18 @@ Another reason can be the search window taking up too much space:
 
 1. Switch around in the search tabs or undock and dock one back by double clicking into the title bar.
 1. Undock the search window and let it float. This dock window is very expansive and squeezes other docks into the corners even when search options are disabled.
+
+[**▲**](#contents)
+
+### How can I make the map window larger {#resize-map}
+
+The issue is similar to the one above.
+
+It's usually the search window which keeps the map from expanding.
+Disable all unneeded search options in the "hamburger" drop down menu on the top right in the airport search. Do the same for navaid search.
+
+Additionally undock the search window and let it float. Since the search is usuall only needed for
+flight preparation you can close the search dock window when flying (`Alt-1`). You can always open it quickly by hitting `F4`.
 
 [**▲**](#contents)
 
