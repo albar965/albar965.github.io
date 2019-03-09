@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap and Little Navconnect Manuals"
-date:   2019-02-06 12:00:00 +0100
+date:   2019-03-09 19:00:00 +0100
 ---
 [Alex’ Projects](index.html) ► Little Navmap and Little Navconnect Manuals
 
@@ -17,7 +17,7 @@ Manuals for the current release 2.2.
 
 #### [► Spanish - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/es/), [PDF](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/littlenavmap_book_es.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/littlenavmap_book_es.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/littlenavmap_book_es.mobi)
 
-#### [► German - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/de/) (Work in Progress), [PDF](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/littlenavmap_book_de.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/littlenavmap_book_de.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/littlenavmap_book_de.mobi)
+#### [► German - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/de/), [PDF](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/littlenavmap_book_de.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/littlenavmap_book_de.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/littlenavmap_book_de.mobi)
 
 ## Little Navconnect User Manuals
 
