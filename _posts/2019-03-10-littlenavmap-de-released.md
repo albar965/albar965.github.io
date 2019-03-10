@@ -24,7 +24,7 @@ Dies kann nach der Installation ignoriert werden. Alle Verweise führen dann zum
 
 Das Online Benutzerhandbuch kann über den folgenden Verweis aufgerufen werden:
 
-[**► Deutsches Online-Benutzerhandbuch **](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/de/)
+[**► Deutsches Online-Benutzerhandbuch**](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/de/)
 
 Allgemeine Informationen zu Übersetzungspaketen (Englisch):
 
