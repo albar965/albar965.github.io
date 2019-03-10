@@ -20,15 +20,15 @@ werden. Dies setzt voraus, dass die Hauptsprache des Systems Deutsch ist.
 Im Hilfe Menü von Little Navmap wird weiterhin `(Englisch)` für die Verweise zum Benutzerhandbuch angezeigt.
 Dies kann nach der Installation ignoriert werden. Alle Verweise führen dann zum deutschen Handbuch.
 
-[**► Deutsches Benutzerhandbuch für Versionen 2.2 - Herunterladen**](https://github.com/albar965/littlenavmap/releases/download/v2.2.4/LittleNavmap-manual-language-package-de-2.2.zip)
+[**► Deutsches Benutzerhandbuchpaket für Versionen 2.2 - Herunterladen**](https://github.com/albar965/littlenavmap/releases/download/v2.2.4/LittleNavmap-manual-language-package-de-2.2.zip)
 
 Das Online Benutzerhandbuch kann über den folgenden Verweis aufgerufen werden:
 
-[**► German Online Manual**](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/de/)
+[**► Deutsches Online-Benutzerhandbuch **](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/de/)
 
 Allgemeine Informationen zu Übersetzungspaketen (Englisch):
 
-[**► About Translation Packages**](/littlenavmaptranslations.html)
+[**► Allgemeines zu Übersetzungspaketen**](/littlenavmaptranslations.html)
 
 ## English
 
