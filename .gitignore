@@ -3,6 +3,7 @@
 /Release/
 /release/
 /deploy/
+/_site/
 /*.pro.user
 /*.log
 *.a
@@ -27,4 +28,4 @@
 *.pro.user
 .DS_Store
 .qmake.stash
-albar965.github.io.*
+albar965.github.io.pro.user

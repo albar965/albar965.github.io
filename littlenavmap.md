@@ -22,7 +22,7 @@ date:   2019-02-06 10:00:00 +0100
 
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
-## Version 2.2.2 Features
+## Version 2.2.4 Features
 
 * *Little Navmap* is a **free** open source flight planner, navigation tool, moving map, airport
   search and airport information system.
