@@ -273,7 +273,7 @@ You have to right-click on the hotspot. That is:
 * The small cross at the end of all measurement lines.
 
 The cursor shape changes to a hand if you hover the mouse over such a spot.
-Then you can use one of the [Mouse Clicks](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/LEGEND.html#mouse-clicks)
+Then you can use one of the [Mouse Clicks](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/LEGEND.html#mouse-clicks)
 or the context menu to do something with the feature.
 
 [**▲**](#contents)
