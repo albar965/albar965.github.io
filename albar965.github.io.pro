@@ -18,8 +18,12 @@
 TEMPLATE = aux
 
 OTHER_FILES = \
+  littlenavmap-version \
   *.md \
   *.yml \
+  *.xml \
+  Gemfile \
+  *.ico \
   $$files(_posts/*, true) \
   $$files(_drafts/*, true) \
   $$files(_layouts/*, true) \
