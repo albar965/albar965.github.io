@@ -57,6 +57,7 @@ date:   2019-02-16 10:00:00 +0100
 1. [Airport runway numbers don't match the runway numbers for procedures](#runway-mismatch)
 1. [Search for airport by country, state or city is unreliable in X-Plane](#airport-admin-search)
 1. [I'd like to completely remove the program and all of its traces](#remove)
+1. [How can I make the map window bigger](#map-window)
 
 ### How to update the program {#update}
 
@@ -510,5 +511,15 @@ _Little Navmap_ does not create any registry entries on Windows.
 
 [**▲**](#contents)
 
+### How can I make the map window bigger {#map-window}
 
+there are several options:
+
+- Close the search window and/or close search options in airport search (three lines or "hamburger" button). These take a lot of space.
+- Undock the search window, i.e. remove it from them main window and/or close it. Normally not needed while flying anyway. I have it only open for flight planning.
+- Undock the map and move it to another screen if available.
+- Take the search window and drop it on the progress window. This will create a window with search and progress tabs at the bottom.
+
+Here are some tips for undocking (Ctrl-key, etc.) and moving around in the interface:
+[User Interface](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/INTRO.html#user-interface)
 
