@@ -15,7 +15,7 @@ color: #6d6d6d; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); background: #e7e7
 
 
 body {
-  font-size: 0.8em;
+  font-size: 0.85em;
   color: #101010;
   background: url(../images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -25,6 +25,7 @@ body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   /*        font-size: 1em;*/
   color: #000000;
+  text-shadow: none;
 }
 
 a:link {color:#000088;}
@@ -74,9 +75,17 @@ h5 { font-size: 1em; color: #000000; }
 
 h6 { font-size: .8em; color: #000000; }
 
-ul, ol, li {
-  margin-right: 30px;
-  margin-left: 30px;
+ul, ol {
+  margin-right: 4em;
+  margin-left: 4em;
+}
+
+ul li {
+  padding-left: 0.5em;
+}
+
+ol li {
+  padding-left: 0.5em;
 }
 
 table {
@@ -88,6 +97,10 @@ table {
 
 td {
   border: 0px solid transparent;
+}
+
+table tr td {
+    text-align: left;
 }
 
 p, p.small, form, pre {

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+        <section id="main_content">
+          {{ content }}
+        </section>
+        <footer>
+        {% if site.github.is_project_page %}
+          Alex' Projects is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.<br>
+        {% endif %}
+          Last upddate on {{ page.date | date_to_rfc822 }}.
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
