@@ -33,7 +33,7 @@ This page contains changes for the current version only. See [CHANGELOG.txt](htt
     [MSVC 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=52685) and [Downloads at LittleNavmap.org](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/).
   **Install both 32 bit and 64 bit versions if needed.**
 * Reloading the scenery library is recommended.
-* Reinstall the Little Xpconnect X-Plane plugin to see bug fixes.
+* Reinstall the _Little Xpconnect_ X-Plane plugin to see bug fixes.
 
 ## Notable Changes
 
@@ -398,6 +398,12 @@ This page contains changes for the current version only. See [CHANGELOG.txt](htt
   as CSV and formatted clipboard.
 * Detection for takeoff or landing runway for logbook entries is now more error tolerant.
 
+### Little Xpconnect / X-Plane
+
+* Added new X-Plane turboprop definitions used since 11.30 to better recognize aircraft and fuel type.
+* Now using tail number from aircraft `.acf` file only if the tail number from the dataref is not set.
+  This helps to get the right tail number if add-on aircraft inject this manually using a script.
+
 ### Build and Deployment for Developers
 
 [#387](https://github.com/albar965/littlenavmap/issues/387)
@@ -406,16 +412,10 @@ This page contains changes for the current version only. See [CHANGELOG.txt](htt
 * Linux compilation now uses system OpenSSL again and is based on Ubuntu 18.04.
 * Added build for Travis CI. Thanks to Jannik for all his work!
 * Complete update of project files to allow configuration with environment variables. Removed all
-  hardcoded paths.
+  hard coded paths.
 * Added documentation about environment variables to configure build and updated build instructions
   in `BUILD.txt` and `littlenavmap.pro` files.
 * Added template for Linux desktop file. Explained usage of Linux desktop file in `README.txt`. [#378](https://github.com/albar965/littlenavmap/issues/378)
-
-### Little Xpconnect / X-Plane
-
-* Added new X-Plane turboprop definitions used since 11.30 to better recognize aircraft and fuel type.
-* Now using tail number from aircraft `.acf` file only if the tail number from the dataref is not set.
-  This helps to get the right tail number if add-on aircraft inject this manually using a script.
 
 ### related from atools version 3.4.0.beta
 

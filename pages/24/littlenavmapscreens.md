@@ -11,7 +11,7 @@ date:   2019-09-03 09:30:00 +0200
 
 This page gives an overview of the new features for _Little Navmap_ 2.4 releases.
 
-[**► Changelog for 2.4 Versions**](/pages/24/littlenavmapchangelog.html)
+[**► Detailed Changelog for 2.4 Versions**](/pages/24/littlenavmapchangelog.html)
 
 [**► Little Navmap and Little Navconnect Draft Manuals for 2.4 Versions**](/pages/24/littlenavmapmanuals.html)
 
@@ -30,8 +30,8 @@ Click on image for full size.
 | [![Image](/assets/images/24/airway_highlights_small.jpg)](/assets/images/24/airway_highlights.jpg) | [![Image](/assets/images/24/ils_small.jpg)](/assets/images/24/ils.jpg) | [![Image](/assets/images/24/best_runways_small.jpg)](/assets/images/24/best_runways.jpg) |
 | Whole airways can be highlighted like airspaces. | ILS now has tooltip and information. | Preferred runways in weather report.<br/> A short form is also shown in tooltip.|
 
-| [![Image](/assets/images/24/alternate_units_small.jpg)](/assets/images/24/alternate_units.jpg)| [![Image](/assets/images/24/options_units_small.jpg)](/assets/images/24/options_units.jpg) |
-| Optional display of alternate fuel units and<br/>true course indications. | Options for alternate fuel units,<br/>true course and new coordinate formats. |
+| [![Image](/assets/images/24/alternate_units_small.jpg)](/assets/images/24/alternate_units.jpg) | [![Image](/assets/images/24/options_units_small.jpg)](/assets/images/24/options_units.jpg) |[![Image](/assets/images/24/information_small.jpg)](/assets/images/24/information.jpg) |
+| Optional display of alternate fuel units and<br/>true course indications. | Options for alternate fuel units,<br/>true course and new coordinate formats. | Web links and preferred runways for airport. |
 
 ## Weather
 

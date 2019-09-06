@@ -7,7 +7,7 @@ date:   2019-08-28 19:00:00 +0100
 
 # ![Little Navmap and Little Navconnect Manuals](/assets/images/navroute.png) Little Navmap and Little Navconnect Manuals
 
-[**► Changelog for 2.4 Versions**](/pages/24/littlenavmapchangelog.html)
+[**► Detailed Changelog for 2.4 Versions**](/pages/24/littlenavmapchangelog.html)
 
 [**► Screenshots of new 2.4 Features**](/pages/24/littlenavmapscreens.html)
 

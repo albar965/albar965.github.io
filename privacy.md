@@ -8,7 +8,7 @@ date:   2019-09-04 09:00:00 +0200
 
 # ![Privacy Statement](assets/images/navroute.png) Privacy Statement
 
-This site does not use cookies, trackers or advertisements.
+**This site does not use cookies, trackers or advertisements.**
 
 
 **Anonymous collection of information:**
