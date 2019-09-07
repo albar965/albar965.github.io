@@ -17,8 +17,6 @@ date:   2019-08-28 19:00:00 +0100
 
 ## Little Navmap User Manuals
 
-**Current version is 2.4.0.beta**
-
 **Note that 2.4 is currently in beta and the manuals are not completed yet.**
 
 #### [► English - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/), [PDF](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/littlenavmap_book_en.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/littlenavmap_book_en.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/littlenavmap_book_en.mobi)

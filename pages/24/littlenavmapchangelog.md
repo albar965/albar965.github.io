@@ -9,8 +9,6 @@ date:   2019-09-03 09:30:00 +0200
 
 # Version 2.4.0.beta
 
-**Current version is 2.4.0.beta**
-
 This page contains changes for the current version only. See [CHANGELOG.txt](https://github.com/albar965/littlenavmap/blob/release/2.4/CHANGELOG.txt) for a complete log.
 
 [**► Screenshots of new 2.4 Features**](/pages/24/littlenavmapscreens.html)

@@ -8,8 +8,6 @@ date:   2019-09-03 09:30:00 +0200
 
 # Screenshots of new 2.4 Features
 
-**Current version is 2.4.0.beta**
-
 This page gives an overview of the new features for _Little Navmap_ 2.4 releases.
 
 [**► Detailed Changelog for 2.4 Versions**](/pages/24/littlenavmapchangelog.html)
