@@ -3,7 +3,8 @@ layout: subpage
 title:  "Changelog for 2.4 Versions"
 date:   2019-09-03 09:30:00 +0200
 ---
-[Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Changelog for 2.4 Versions
+
+[Alex’ Projects](/index.html) ►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) ► Changelog for 2.4 Versions
 
 # Version 2.4.0.beta
 
@@ -14,6 +15,8 @@ This page contains changes for the current version only. See [CHANGELOG.txt](htt
 [**► Screenshots of new 2.4 Features**](/pages/24/littlenavmapscreens.html)
 
 [**► Little Navmap and Little Navconnect Draft Manuals for 2.4 Versions**](/pages/24/littlenavmapmanuals.html)
+
+[**► Updated map Legend for 2.4 Versions**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LEGEND.html)
 
 ## Limitations
 
@@ -37,7 +40,7 @@ This page contains changes for the current version only. See [CHANGELOG.txt](htt
 
 ## Notable Changes
 
-* **Winds aloft for display and fuel planning.**
+* **Winds aloft forecast for display and fuel planning.**
 * Wind gust factor in airport weather symbols.
 * **Alternate airports for flight plan and fuel planning.**
 * **Complete rework of logbook. Separated from userpoints and improved functionality.**
@@ -216,7 +219,7 @@ This page contains changes for the current version only. See [CHANGELOG.txt](htt
 
 ### Weather
 
-* Added NOAA and X-Plane high altitude winds (Prepar3D does neither provide a documented format nor
+* Added NOAA and X-Plane high altitude wind forecast (Prepar3D does neither provide a documented format nor
   an interface). [#283](https://github.com/albar965/littlenavmap/issues/283) This shows the NOAA wind aloft forecast which is updated four times a day and
   is used as a source by most weather programs and simulators.
   - Display of wind barbs for selected altitude, flight plan altitude and/or at flight plan

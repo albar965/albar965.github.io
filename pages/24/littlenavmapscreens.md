@@ -3,7 +3,7 @@ layout: subpage
 title:  "Screenshots of new 2.4 Features"
 date:   2019-09-03 09:30:00 +0200
 ---
-[Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Screenshots of new 2.4 Features
+[Alex’ Projects](/index.html) ►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) ► Screenshots of new 2.4 Features
 
 # Screenshots of new 2.4 Features
 
@@ -14,6 +14,8 @@ This page gives an overview of the new features for _Little Navmap_ 2.4 releases
 [**► Detailed Changelog for 2.4 Versions**](/pages/24/littlenavmapchangelog.html)
 
 [**► Little Navmap and Little Navconnect Draft Manuals for 2.4 Versions**](/pages/24/littlenavmapmanuals.html)
+
+[**► Updated map Legend for 2.4 Versions**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LEGEND.html)
 
 Click on image for full size.
 
@@ -36,7 +38,7 @@ Click on image for full size.
 ## Weather
 
 | [![Image](/assets/images/24/gusts_small.jpg)](/assets/images/24/gusts.jpg) | [![Image](/assets/images/24/wind_small.jpg)](/assets/images/24/wind.jpg) | [![Image](/assets/images/24/options_weather_small.jpg)](/assets/images/24/options_weather.jpg) |
-| Wind gust factor in airport weather symbols (red barb). | Winds aloft for display and fuel planning. | Path to X-Plane weather file can<br/>be changed now and settings for wind data download. |
+| Wind gust factor in airport weather symbols (red barb). | Winds aloft forecast for display and fuel planning. | Path to X-Plane weather file can<br/>be changed now and settings for wind data download. |
 
 | [![Image](/assets/images/24/options_map_small.jpg)](/assets/images/24/options_map.jpg) |
 | Optional tooltips for wind barbs. |
