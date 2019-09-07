@@ -105,7 +105,7 @@ This page contains changes for the current version only. See [CHANGELOG.txt](htt
   with high or unreliable magnetic declination.
 * Added option to ignore radio navaid declination when calculating magnetic flight plan leg course.
   This is helpful if you use mostly GPS for flying and do not care about radials of VOR which might
-  have an  outdated calibration. Dialog `Options` -> `Units` -> `Show true course ...`.
+  have an  outdated calibration. Dialog `Options` -> `Flight Plan` -> `Ignore Declination ...`.
 * Other fuel units (kg/liter vs. lb/gal) can now be displayed in small font besides selected fuel
   unit. This affects the fuel plan and aircraft progress tabs. See dialog `Options` -> `Units` ->
   `Show other fuel  units too`. [#401](https://github.com/albar965/littlenavmap/issues/401)
