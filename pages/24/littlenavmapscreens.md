@@ -3,7 +3,8 @@ layout: subpage
 title:  "Screenshots of new 2.4 Features"
 date:   2019-09-03 09:30:00 +0200
 ---
-[Alex’ Projects](/index.html) ►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) ► Screenshots of new 2.4 Features
+<!--[Alex’ Projects](/index.html) ►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) ► Screenshots of new 2.4 Features -->
+[Alex’ Projects](/index.html) ► Screenshots of new 2.4 Features
 
 # Screenshots of new 2.4 Features
 

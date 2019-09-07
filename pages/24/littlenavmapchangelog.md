@@ -4,7 +4,8 @@ title:  "Changelog for 2.4 Versions"
 date:   2019-09-03 09:30:00 +0200
 ---
 
-[Alex’ Projects](/index.html) ►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) ► Changelog for 2.4 Versions
+<!--[Alex’ Projects](/index.html) ►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) ► Changelog for 2.4 Versions -->
+[Alex’ Projects](/index.html) ► Changelog for 2.4 Versions
 
 # Version 2.4.0.beta
 
