@@ -4,8 +4,7 @@ title:  "Changelog for 2.4 Versions"
 date:   2019-09-03 09:30:00 +0200
 ---
 
-<!--[Alex’ Projects](/index.html) ►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) ► Changelog for 2.4 Versions -->
-[Alex’ Projects](/index.html) ► Changelog for 2.4 Versions
+[Alex’ Projects](/index.html) ►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) ► Changelog for 2.4 Versions
 
 # Version 2.4.0.beta
 
@@ -216,7 +215,7 @@ This page contains changes for the current version only. See [CHANGELOG.txt](htt
   which comes from incorrect simBrief plans.
 * Fixed issue where flight plan was saved in wrong format when exporting to clean PLN.
 * Added flight plan table export to HTML page. [#4](https://github.com/albar965/littlenavmap/issues/4)
-* Fixed issue when saving flight plans from airports with empty names which could crashes Prepar3D.
+* Fixed issue when saving flight plans from airports with empty names which could crash Prepar3D.
 
 ### Weather
 
