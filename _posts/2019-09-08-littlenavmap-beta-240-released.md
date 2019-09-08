@@ -35,9 +35,11 @@ categories: release
 
 * You might have to install the Microsoft Visual C++ 2015 Redistributable on a fresh installation of
   Windows 10. Most will have this already installed since it is needed by many programs.
-  You can get the Redistributable from the following download links:
-    [MSVC 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=52685) and [Downloads at LittleNavmap.org](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/).
-  **Install both 32 bit and 64 bit versions if needed.**
+  You can get the Redistributable from the following download links:<br/>
+  **►  Microsoft Visual C++ 2015-2019 Redistributable Package 14.22.27821.0:
+[64 bit](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vc_redist.x64_2015-2019.exe) /
+[32 bit](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vc_redist.x86_2015-2019.exe)**<br/>
+  **Install both 32 bit and 64 bit versions if needed.**<br/>
   **You can safely skip the installation if you get an error about a newer version already installed.**
 * Reloading the scenery library is recommended.
 * Reinstall the _Little Xpconnect_ X-Plane plugin to see bug fixes.
