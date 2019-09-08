@@ -28,19 +28,19 @@ categories: release
 * The online and offline manuals are not updated yet. Neither the English nor the translated
   versions. Help buttons and links are functional but point to empty placeholder pages.
 
+## Help
+* Included map legend updated \([Map Legend Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LEGEND.html)\).
 
 ## Installation
 
-* You have to install the Microsoft Visual C++ 2015 Redistributable on a fresh installation of
+* You might have to install the Microsoft Visual C++ 2015 Redistributable on a fresh installation of
   Windows 10. Most will have this already installed since it is needed by many programs.
   You can get the Redistributable from the following download links:
     [MSVC 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=52685) and [Downloads at LittleNavmap.org](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/).
   **Install both 32 bit and 64 bit versions if needed.**
+  **You can safely skip the installation if you get an error about a newer version already installed.**
 * Reloading the scenery library is recommended.
-* Reinstall the Little Xpconnect X-Plane plugin to see bug fixes.
-
-## Help
-* Included map legend updated \([Map Legend Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LEGEND.html)\).
+* Reinstall the _Little Xpconnect_ X-Plane plugin to see bug fixes.
 
 ## Notable Changes from Release 2.2.4 to 2.4.0.beta
 
