@@ -1,11 +1,13 @@
 ---
 layout: subpage
 title:  "Screenshots of new 2.4 Features"
-date:   2019-09-03 09:30:00 +0200
+date:   2019-09-17 19:00:00 +0200
 ---
-[Alex’ Projects](/index.html) ►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) ► Screenshots of new 2.4 Features
+[Alex’ Projects](/index.html)
+►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) / [Little Navmap 2.4.1.beta released](/release/2019/09/19/littlenavmap-beta-241-released.html)
+► Screenshots of new 2.4 Features
 
-# Screenshots of new 2.4 Features
+# Screenshots of new 2.4 Features (updated for 2.4.1.beta)
 
 This page gives an overview of the new features for _Little Navmap_ 2.4 releases.
 
@@ -19,8 +21,11 @@ Click on image for full size.
 
 ## Flight Plan
 
-| [![Image](/assets/images/24/alternate_small.jpg)](/assets/images/24/alternate.jpg) | [![Image](/assets/images/24/create_approach_small.jpg)](/assets/images/24/create_approach.jpg) | [![Image](/assets/images/24/merge_aircraft_perf_small.jpg)](/assets/images/24/merge_aircraft_perf.jpg) |
-| Alternate airports. | User defined final approach. | Permanent performance collection and merge. |
+| [![Image](/assets/images/24/alternate_small.jpg)](/assets/images/24/alternate.jpg) | [![Image](/assets/images/24/route_descr_alternates_small.jpg)](/assets/images/24/route_descr_alternates.jpg) |[![Image](/assets/images/24/flightplan_errors_small.jpg)](/assets/images/24/flightplan_errors.jpg) |
+| Alternate airports. | Alternate airports in route description.<br/>**Since version 2.4.1.beta.** | Error tooltips for flight plan table.<br/>**Since version 2.4.1.beta.** |
+
+| [![Image](/assets/images/24/create_approach_small.jpg)](/assets/images/24/create_approach.jpg) | [![Image](/assets/images/24/merge_aircraft_perf_small.jpg)](/assets/images/24/merge_aircraft_perf.jpg) |
+| User defined final approach. | Permanent performance collection and merge. |
 
 | [![Image](/assets/images/24/flightplan_columns_small.jpg)](/assets/images/24/flightplan_columns.jpg) | [![Image](/assets/images/24/options_flightplan_small.jpg)](/assets/images/24/options_flightplan.jpg) | [![Image](/assets/images/24/resetflight_small.jpg)](/assets/images/24/resetflight.jpg) |
 | Hide columns in flight plan table. | Ignore VOR declination in flight plan display. | Reset all for a new flight in one dialog. |
@@ -82,8 +87,8 @@ Click on image for full size.
 
 ## User Interface
 
-| [![Image](/assets/images/24/tabs_small.jpg)](/assets/images/24/tabs.jpg) | [![Image](/assets/images/24/error_messages_small.jpg)](/assets/images/24/error_messages.jpg) |
-| Close, open and move tabs. | Error messages with more information in tooltip. |
+| [![Image](/assets/images/24/tabs_small.jpg)](/assets/images/24/tabs.jpg) | [![Image](/assets/images/24/error_messages_small.jpg)](/assets/images/24/error_messages.jpg) | [![Image](/assets/images/24/tools_reset_small.jpg)](/assets/images/24/tools_reset.jpg) |
+| Close, open and move tabs. | Error messages with more information in tooltip. |New reset function replaces the need to delete the settings folder in case of issues.<br/>Creates a backup before resetting.<br/>**Since version 2.4.1.beta.** |
 
 | [![Image](/assets/images/24/options_userinterface_small.jpg)](/assets/images/24/options_userinterface.jpg) |
 | New options to help new users and avoid confusion. |

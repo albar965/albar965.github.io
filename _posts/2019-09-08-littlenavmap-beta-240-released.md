@@ -15,7 +15,7 @@ categories: release
 
 [**► Detailed Changelog for 2.4 Versions**](/pages/24/littlenavmapchangelog.html)
 
-[**► Screenshots of new 2.4 Features**](/pages/24/littlenavmapscreens.html)
+[**► Screenshots of new 2.4 Features (updated for 2.4.1.beta)**](/pages/24/littlenavmapscreens.html)
 
 [**► Little Navmap and Little Navconnect Draft Manuals for 2.4 Versions**](/pages/24/littlenavmapmanuals.html)
 
