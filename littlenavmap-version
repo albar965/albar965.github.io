@@ -924,10 +924,10 @@ changelog=
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
-version=2.4.2.beta
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.4.2.beta/LittleNavmap-win-2.4.2.beta.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.4.2.beta/LittleNavmap-macOS-2.4.2.beta.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.4.2.beta/LittleNavmap-linux-18.04-2.4.2.beta.tar.gz
+version=2.4.3.rc1
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.4.3.rc1/LittleNavmap-win-2.4.3.rc1.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.4.3.rc1/LittleNavmap-macOS-2.4.3.rc1.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.4.3.rc1/LittleNavmap-linux-18.04-2.4.3.rc1.tar.gz
 changelog=
   <head><style type="text/css">code { background: #33808080; }</style></head>
   <body>
@@ -936,32 +936,105 @@ changelog=
         <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g">OneDrive</a></b></p>
     <p><b>► <a href="https://albar965.github.io/pages/24/littlenavmapchangelog.html">Detailed changelog</a><br/>
     <b>► <a href="https://albar965.github.io/pages/24/littlenavmapscreens.html">Screenshots showing changes</a><br/>
-    <b>► <a href="https://albar965.github.io/pages/24/littlenavmapmanuals.html">Manuals (unfinished)</a></b></p>
+    <b>► <a href="https://albar965.github.io/pages/24/littlenavmapmanuals.html">Manuals</a></b></p>
     <p><b>Please do not hesitate to let me know about bugs and inconsistencies.</b></p>
-  <h2 id="version-2.2.4">Changes from 2.4.1.beta to 2.4.2.beta</h2>
-  <ul>
-    <li>Fixed crash when reading GRIB winds aloft or WMM (magentic declination) data on Windows if
-      user's home path contains special characters like umlauts or accents.</li>
-    <li>Fuel flow and amount is now displayed correctly in current performance tab if fuel unit is
-      changed to volume in edit dialog. Was too high before.</li>
-    <li>Removed merge options for aircraft type and model in performance merge dialog which resulted in
-      unwanted changes. Now limited to copy and ignore.</li>
-    <li>Added real ICAO code to airport to avoid issues with X-Plane's artificial airport ids. Now finds
-      procedures for e.g. <code>AT4</code> where ICAO is actually <code>CAT4</code>. Reload the scenery library to see this fix.</li>
-    <li>X-Plane FMS flight plan is now adjusted for real ICAO airport idents when using procedures to
-      avoid problems loading plan.</li>
-    <li>Fixed display problem when deleting transitions from a flight plan.</li>
-    <li>Added IATA and ICAO codes to airport information display if available.</li>
-    <li>Adjusted window texts in night style to better see disabled checkboxes like on the weather
-      tab in options dialog.</li>
-    <li>Solved problem where ILS tooltips and click regions appeared in the wrong places on the map.</li>
-    <li>Now ignoring first zero value when interpolating fuel for aircraft performance.</li>
-    <li>Resetting route description dialog options to default.</li>
-    <li>Updated French and Italian translations. Now complete. Thanks to Flavio, Patrick and Valerio!</li>
-  </ul>
-  <h3 id="related-from-atools-version-341beta">related from atools version 3.4.2.beta</h3>
-  <p>See <code>CHANGELOG.txt</code> in atools project for more technical details. Relevant comments were added to list above.</p>
-  <p>See CHANGELOG.txt in atools project for more technical details. Relevant comments were added to list above.</p>
+  <h2 id="version-2.2.4">Changes from 2.4.2.beta to 2.4.3.rc1</h2>
+   <strong>Please reload the scenery library.</strong></p>
+   <strong>Map theme is reset back to OpenStreetMap.</strong></p>
+   <h3 id="help">Help</h3>
+   <ul>
+     <li>All help buttons and links are functional now in the program.</li>
+     <li>English online manual is now complete. PDF and other formats are available for download:
+   <a href="https://albar965.github.io/pages/24/littlenavmapmanuals.html">Little Navmap and Little Navconnect Manuals</a>.</li>
+     <li>PDF Manuals for French, Italian and German are included in download archive but still based on version 2.2.</li>
+     <li>Sources for the manuals are committed to Github and can be found <a href="https://github.com/albar965/littlenavmap-manual/tree/release/2.4"><strong>here</strong></a> on branch <code class="highlighter-rouge">release/2.4</code> for translation.</li>
+   </ul>
+   <h3 id="help---new-chapters">Help - New Chapters</h3>
+   <ul>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/DOCKWINDOWS.html">Dock Windows</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/TABS.html">Tabs</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/HOLD.html"><strong>Holding</strong></a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/IMAGEEXPORT.html">Image Export</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/CUSTOMPROCEDURE.html"><strong>User Defined Approach</strong></a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/RESET.html">Reset all for a new Flight</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/AIRCRAFTPERFMERGE.html">Aircraft Performance Merge</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LOGBOOK.html"><strong>Logbook</strong></a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/WEATHER.html#wind"><strong>Winds aloft</strong></a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/SCENERY.html#load-scenery-library-openair-airspaces">OpenAir Airspaces</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/WEBSERVER.html">Web Server</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/TUTORIALPERF.html"><strong>Tutorial - Creating an Aircraft Performance Profile</strong></a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/SHORTCUTS.html">Keyboard Shortcuts</a></li>
+   </ul>
+   <h3 id="help---updated-chapters">Help - Updated Chapters</h3>
+   <ul>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/MENUS.html">Menus and Toolbars. Updated for new functions.</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/QUICKOVERVIEW.html">Overview. Updated images and added image for help.</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LEGEND.html">Legend. Updated for new features.</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/FLIGHTPLAN.html">Flight Plan Tab. Wind and alternates.</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/ROUTEDESCR.html">Flight Plan Route Description. Updated for alternates.</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/AIRCRAFTPERFEDIT.html">Edit Aircraft Performance. Updated for wind and changed report.</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/AIRCRAFTPERFCOLL.html">Aircraft Performance Collection. Permanent collection.</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/AIRCRAFTPERF.html">Aircraft Performance. New performance features.</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/INFO.html">Information Dock Window. Logbook, userpoint tabs and airport file links. Nearest and preferred runways.</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/OPTIONS.html">Options Dialog</a></li>
+     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/TUTORIALS.html">All Tutorials</a></li>
+   </ul>
+   <h3 id="fuel-report-and-aircraft-performance">Fuel Report and Aircraft Performance</h3>
+   <ul>
+     <li>Fixed several issues with fuel conversion: Metric units now shown correctly in fuel report and
+   merge dialog.</li>
+     <li>Fuel flow, amount and estimated range now shown correctly if aircraft performance is based on
+   fuel volume instead of weight.</li>
+     <li>Estimated range in fuel report now considers reserve as in performance edit dialog. Numbers were
+   different before.</li>
+     <li>Merging collected values into current performance now set changed state of performance file
+   correctly to avoid data loss.</li>
+   </ul>
+   <h3 id="flight-plan">Flight Plan</h3>
+   <ul>
+     <li>X-Plane FMS flight plans now get correct ICAO ID for destination if available. Destination could
+   receive an empty id before which resulted in an invalid FMS flight plan.</li>
+     <li>Fixed issue where procedure information was lost when loading flight plan into a database which
+   does not contain procedures or after switching databases.</li>
+     <li>Fixed crash when loading flight plan with invalid waypoint while being connected to simulator.</li>
+     <li>Fixed crash that happens with invalid flight plans when switching databases in connected state.
+   The active leg is now reset when switching to avoid crashes.</li>
+     <li>Removed wrong warning of airway altitude violations where upper limit is 0.</li>
+     <li>User set cruise altitude remains unchanged now after victor or jet calculation when east/west rule
+   adjustment is off.</li>
+     <li>Cruise altitude is now adjusted to next valid value for east/west rule based on the current value
+   entered in the user interface. Was always set to lowest allowed value. Now also lowering or raising
+   cruise altitude if not valid for used airways when using jet or victor calculation.</li>
+     <li>Fixed issues which cruise altitude correction when using metric units.</li>
+   </ul>
+   <h3 id="elevation-profile">Elevation Profile</h3>
+   <ul>
+     <li>Fixed problem where aircraft trail was not recorded in elevation profile when window was closed
+   or program was hidden/minimized.</li>
+     <li>Fixed issue where flight plan and elevation profile was built incorrectly if waypoints were not
+   valid in plan.</li>
+   </ul>
+   <h3 id="options">Options</h3>
+   <ul>
+     <li>Restore defaults in options dialog can now be reverted by pressing cancel.</li>
+     <li>Resetting map theme back to OpenStreetMap to avoid wrong selection of disabled OpenMapSurfer theme.</li>
+     <li>Other small user interface fixes.</li>
+   </ul>
+   <h3 id="procedures">Procedures</h3>
+   <ul>
+     <li>Fixed display issue for procedure leg names like <code class="highlighter-rouge">XAROL+5</code>. Was using wrong distance value before.</li>
+     <li>Fixed issue where navaids were hidden on the map if part of a missed procedure in the flight plan.</li>
+     <li>Fixed display problem when deleting transitions from a flight plan resulting in invalid approach.</li>
+   </ul>
+   <h3 id="apple-macos">Apple macOS</h3>
+   <ul>
+     <li>Now showing correct application name and correct application menus on macOS.</li>
+     <li>Fixed wrong color button appearance in options dialog on macOS..</li>
+   </ul>
+   <h3 id="related-from-atools-version-343rc1">related from atools version 3.4.3.rc1</h3>
+   <p>See CHANGELOG.txt in atools project for more technical details. Relevant comments were added to list above.</p>
+   <p><strong>See the included <code class="highlighter-rouge">CHANGELOG.txt</code> or <a href="https://github.com/albar965/littlenavmap/blob/release/2.4/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
+   <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong>
   <!-- ========================================================================================== -->
   <small>
     <!-- ====================================== -->
@@ -969,6 +1042,27 @@ changelog=
     <!-- ====================================== -->
     <br/><br/><hr/><br/><br/>
     <h2>Previous Release Notes</h2>
+    <b id="version-2.2.4">Changes from 2.4.1.beta to 2.4.2.beta</b>
+    <ul>
+      <li>Fixed crash when reading GRIB winds aloft or WMM (magentic declination) data on Windows if
+        user's home path contains special characters like umlauts or accents.</li>
+      <li>Fuel flow and amount is now displayed correctly in current performance tab if fuel unit is
+        changed to volume in edit dialog. Was too high before.</li>
+      <li>Removed merge options for aircraft type and model in performance merge dialog which resulted in
+        unwanted changes. Now limited to copy and ignore.</li>
+      <li>Added real ICAO code to airport to avoid issues with X-Plane's artificial airport ids. Now finds
+        procedures for e.g. <code>AT4</code> where ICAO is actually <code>CAT4</code>. Reload the scenery library to see this fix.</li>
+      <li>X-Plane FMS flight plan is now adjusted for real ICAO airport idents when using procedures to
+        avoid problems loading plan.</li>
+      <li>Fixed display problem when deleting transitions from a flight plan.</li>
+      <li>Added IATA and ICAO codes to airport information display if available.</li>
+      <li>Adjusted window texts in night style to better see disabled checkboxes like on the weather
+        tab in options dialog.</li>
+      <li>Solved problem where ILS tooltips and click regions appeared in the wrong places on the map.</li>
+      <li>Now ignoring first zero value when interpolating fuel for aircraft performance.</li>
+      <li>Resetting route description dialog options to default.</li>
+      <li>Updated French and Italian translations. Now complete. Thanks to Flavio, Patrick and Valerio!</li>
+    </ul>
     <b id="version-2.2.4">Changes from 2.4.0.beta to 2.4.1.beta</b><br/>
     <b id="program">Program</b>
     <ul>

@@ -22,6 +22,7 @@ OTHER_FILES = \
   *.md \
   *.yml \
   *.xml \
+  *.txt \
   Gemfile \
   *.ico \
   $$files(_posts/*, true) \
