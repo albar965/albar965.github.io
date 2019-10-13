@@ -176,7 +176,7 @@ This page contains changes for the current version only. See [CHANGELOG.txt](htt
   - Highlighted airways as well as highlighted airspaces have tooltips now.
   - Thickness of highlighted lines (airspace boundaries, airways, etc.) and text size can now now
     adjusted with option settings (`Options` -> `Map Display 2` -> `Range rings, ...`).
-* Added links to FlightAware, Skyvector, X-Plane Gateway and OpenNav web pages in airport
+* Added links to FlightAware, SkyVector, X-Plane Gateway and OpenNav web pages in airport
   information which link to the airport information on the respective pages.
 * Fuel and time prediction in aircraft progress tab is now based on aircraft performance (if
   available and valid) and therefore more accurate. Will fall back to an estimate based on current
