@@ -505,3 +505,4 @@ See [CHANGELOG.txt](https://github.com/albar965/littlenavmap/blob/release/2.4/CH
 
 See [CHANGELOG.txt](https://github.com/albar965/atools/blob/release/3.4/CHANGELOG.txt) in atools project for more technical details. Relevant comments were added to list above.
 
+**All files are checked by [VirusTotal](https://www.virustotal.com).**
