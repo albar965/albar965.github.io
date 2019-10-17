@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2019-02-11 15:00:00 +0100
+date:   2019-10-17 12:00:00 +0200
 ---
 
 # Alex' Projects
@@ -62,22 +62,26 @@ airport search and airport information system for Flight Simulator X, Prepar3D a
 
 A widely configurable map display using the OpenStreetMap as a background map which is only one
 option of many online and included offline maps. The map shows airports, navaids, airways,
-airspaces, AI or multiplayer aircraft and ships as well as airport weather. A seamlessly integrated airport diagram displays
+airspaces, AI or multiplayer aircraft and ships as well as airport weather and winds aloft. A seamlessly integrated airport diagram displays
 taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
 
-It supports approach and departure procedures like SIDs and STARs, offers several automatic flight
+Use can place airport traffic patterns or holdings on the map.
+
+It supports approach and departure procedures like SIDs, STARs, custom final approaches, offers several automatic flight
 plan calculation options and multiple export formats like GFP \(Reality XP GTN and Flight1 GTN\),
-FPL \(Reality XP GNS\), GPX, RTE, FLP and X-Plane FMS 3/11 as well as
+FPL \(Reality XP GNS\), GPX, RTE, FLP and X-Plane FMS as well as
 drag and drop flight plan editing on the map. The program can read the PLN, FMS and FLP flight plan
 formats.
 
 An elevation profile is shown for the flight plan allowing to find a safe cruise altitude also displaying top climb,
 top of descent and procedure altitude restrictions.
 
-Aircraft performance and fuel planning is included which is also used to calculate top of climb and top of descent.
+Aircraft performance and fuel planning is included which automatically considers winds aloft for fuel, top of climb and top of descent calculation. Performance values can be collected automatically during flight.
 
 Search functionality allows to look for airports, navaids or procedures by a large amount of
 criteria also including a spatial search.
+
+_Little Navmap_ comes with its own logbook allowing to automatically record, search and edit logbook entries.
 
 The program can generate an ATS route description from flight plans and vice versa where the output is widely configurable.
 
@@ -87,6 +91,8 @@ Complete edit, display, import and export functionality for user defined waypoin
 Import and export of CSV, X-Plane and Garmin files.
 
 Display of clients and centers of VATSIM and custom online networks.
+
+_Little Navmap_ features its own internal web server which allows to follow aircraft progress from any device.
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
 Prepar3D v2, v3, v4 and X-Plane 11.

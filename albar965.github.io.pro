@@ -35,3 +35,4 @@ OTHER_FILES = \
   $$files(pages/*, true) \
   $$files(images/*, true) \
   $$files(littlelogbook/*, true)
+

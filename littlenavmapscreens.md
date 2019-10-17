@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap Screenshots"
-date:   2018-12-10 09:30:00 +0200
+date:   2019-10-17 12:00:00 +0200
 ---
 [Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Screenshots
 
@@ -9,9 +9,41 @@ date:   2018-12-10 09:30:00 +0200
 
 Click on image for full size.
 
+Note that some screenshots are from older versions.
+
 <hr/>
 
 <br/>
+
+**Little Navmap 2.4.4 overview:**
+
+[![Little Navmap 2.4.4. Overview](assets/images/overview.jpg)](assets/images/overview.jpg)
+
+<br/><br/>
+
+**Little Navmap 2.4.4 all context menus:**
+
+[![Little Navmap 2.4.4 Overview](assets/images/contextmenus.jpg)](assets/images/contextmenus.jpg)
+
+<br/><br/>
+
+**Little Navmap 2.4.4. Winds aloft forecast for display and fuel planning:**
+
+[![Winds aloft forecast for display and fuel planning](assets/images/wind.jpg)](assets/images/wind.jpg)
+
+<br/><br/>
+
+**Little Navmap 2.4.4. Logbook functionality with three entries selected in search which are highlighted on the map:**
+
+[![Logbook functionality with three entries selected in search which are highlighted on the map](assets/images/logbook.jpg)](assets/images/logbook.jpg)
+
+<br/><br/>
+
+**Little Navmap 2.4.4. Add holdings at navaids or any place:**
+
+[![Add holds at navaids or any place](assets/images/holding.jpg)](assets/images/holding.jpg)
+
+<br/><br/>
 
 **Little Navmap 2.2.2 spherical map projection and elevation profile with flight plan:**
 
@@ -31,9 +63,15 @@ Click on image for full size.
 
 <br/><br/>
 
-**Little Navmap 2.2.2 aircraft performance edit dialog:**
+**Little Navmap 2.4.4. Aircraft performance edit dialog:**
 
 [![Little Navmap 2.2.2 aircraft performance edit dialog](assets/images/aircraft_perf.jpg)](assets/images/aircraft_perf.jpg)
+
+<br/><br/>
+
+**Little Navmap 2.4.4. Permanent performance collection and merge:**
+
+[![Permanent performance collection and merge](assets/images/merge_aircraft_perf.jpg)](assets/images/merge_aircraft_perf.jpg)
 
 <br/><br/>
 
@@ -43,9 +81,9 @@ Click on image for full size.
 
 <br/><br/>
 
-**Little Navmap 2.2.2 all context menus:**
+**Little Navmap 2.4.4. Map page in Firefox browser served by Little Navmap:**
 
-[![Little Navmap 2.2.2 Overview](assets/images/contextmenus.jpg)](assets/images/contextmenus.jpg)
+[![Map page in Firefox browser served by Little Navmap](assets/images/webserver_map.jpg)](assets/images/webserver_map.jpg)
 
 <br/><br/>
 
@@ -64,18 +102,6 @@ Click on image for full size.
 **Little Navmap 2.0.2 Compass Rose:**
 
 [![Little Navmap 2.0.2 Compass Rose](assets/images/compass_rose_aircraft.jpg)](assets/images/compass_rose_aircraft.jpg)
-
-<br/><br/>
-
-**Little Navmap 1.8.5 overview:**
-
-[![Little Navmap 1.8.5 Overview](assets/images/overview.jpg)](assets/images/overview.jpg)
-
-<br/><br/>
-
-**Little Navmap 1.4.0.beta showing all new features like procedures and airspaces:**
-
-[![Little Navmap 1.4 Overview](assets/images/littlenavmapall140.jpg)](assets/images/littlenavmapall140.jpg)
 
 <br/><br/>
 
