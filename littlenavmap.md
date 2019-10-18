@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2019-10-17 12:00:00 +0200
+date:   2019-10-18 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap
@@ -72,7 +72,7 @@ date:   2019-10-17 12:00:00 +0200
   [RouteFinder](http://rfinder.asalink.net) or [SkyVector](https://skyvector.com). This includes
   SIDs, STARs and information for cruise speed and altitude.
 * **Aircraft performance, fuel planning** top of climb and top of descent calculation considering aircraft performance,
-  winds aloft and altitude restrictions in procedures is available and can be automatically collected in background while flying.
+  **winds aloft** and altitude restrictions in procedures is available and can be automatically collected in background while flying.
 * A zoom and scrollable **elevation profile** window shows the **ground elevation** along the flight plan
   including the minimum safe altitude for the whole plan or each segment as well as **procedure altitude restrictions**.
 * The map and flight plans including all related information at departure and destination can be **printed**.
@@ -96,7 +96,7 @@ date:   2019-10-17 12:00:00 +0200
 * **Can display IVAO, VATSIM, PilotEdge and custom online networks centers and clients on map, tooltips and information windows.**
 * **Compass rose** for map or user aircraft showing heading, track and distances.
 * Customizable **airport traffic patterns** can be shown for any airport.
-* Can display customizable holdings at any place on the map.
+* Can display customizable **holdings** at any place on the map.
 * An **automatic reconnect** option makes the start order of programs irrelevant. Running a
   networked setup needs the included [Little Navconnect](littlenavconnect.html) program which eases
   setup across two or more computers.
