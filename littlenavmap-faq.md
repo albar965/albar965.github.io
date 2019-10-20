@@ -225,7 +225,6 @@ If the problem persists send me a bug report in the
 See [How to report a Bug](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/APPENDIX.html#how-to-report-a-bug).
 
 Direct links to all redistributable packages so far:
-[2008](https://www.microsoft.com/en-us/download/details.aspx?id=2092),
 [2010](https://www.microsoft.com/en-us/download/details.aspx?id=13523),
 [2012](https://www.microsoft.com/en-us/download/details.aspx?id=30679),
 [2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) and
