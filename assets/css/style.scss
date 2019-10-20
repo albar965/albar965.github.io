@@ -101,7 +101,7 @@ ul li {
 }
 
 ol li {
-  margin-left: 1em;
+  margin-left: 2em;
   padding-left: 0.5em;
 }
 
@@ -129,19 +129,18 @@ p, p.small, form, pre {
 
 pre, code {
   padding: 0;
-  color: #000000;
   background-color: #e8e8e8;
+  background: #e8e8e8;
   border: solid;
   border-color: lightgray;
   border-width: 0.2px;
   border-radius: 3px;
+  color: #000000;
 }
 
-pre {
-  overflow: auto;
+pre code {
+  background-color: #e8e8e8;
   color: #000000;
-  text-shadow: none;
-  background: #e0e0e0;
 }
 
 p.small {
