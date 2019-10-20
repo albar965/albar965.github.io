@@ -18,7 +18,7 @@ to the the Spanish manual if your computer language is set to Spanish.
 
 The online manual can be accessed using the link below:
 
-[**► Spanish Online Manual**](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.0/es/)
+[**► Spanish Online Manual**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/es/)
 
 General information about translation packages:
 

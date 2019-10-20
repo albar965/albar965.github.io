@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "jekyll-theme-tactile";
+/*@import "jekyll-theme-tactile";*/
 
 /*body { font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-size: 1em; line-height: 1.5;
 color: #6d6d6d; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); background: #e7e7e7 url(../images/background.jpg) 0 0 repeat; }
@@ -20,7 +20,7 @@ color: #6d6d6d; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); background: #e7e7
 
 
 body {
-  font-size: 0.85em;
+  font-size: 0.9em;
   color: #101010;
   background: url(../images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -28,7 +28,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  /*        font-size: 1em;*/
   color: #000000;
   text-shadow: none;
 }
@@ -36,7 +35,7 @@ body {
 
 @media only screen and (max-width: 1024px) {
   .inner {
-    width: 92%;
+    width: 98%;
   }
 }
 
@@ -49,39 +48,40 @@ span.bold {font-weight: bold;}
 
 h1, h2, h3, h4, h5, h6 {
   margin-left: 1rem;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 footer {
   margin-left: 1rem;
+  margin-right: 1rem;
   color:#606060;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 
 h1, h2 {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 
 h3, h4, h5, h6 {
-  margin-top: 0.3rem;
-  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 h1 {
   font-size: 2em; font-weight: bold; color: #000000;
-  border-bottom: 0.2em solid #707070;
+  border-bottom: 0.15em solid #707070;
 }
 
 h2 {
   font-size: 1.8em; font-weight: bold; color: #000000;
-  border-bottom: 0.15em solid #707070;
+  border-bottom: 0.1em solid #707070;
 }
 
 h3 {
   font-size: 1.4em; font-weight: bold; color: #000000;
-  border-bottom: 0.1em solid #707070;
+  border-bottom: 0.05em solid #707070;
 }
 
 h4 { font-size: 1.2em; font-weight: bold; color: #000000; }
@@ -90,19 +90,28 @@ h5 { font-size: 1em; color: #000000; }
 
 h6 { font-size: .8em; color: #000000; }
 
-ul, ol {
-  margin-left: 2em;
-  margin-right: 2em;
+ul {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  margin-left: 0em;
+  margin-right: 0em;
 }
 
 ul li {
+  margin-left: 0em;
+  padding-left: 0.3em;
+}
+
+ol {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
   margin-left: 1em;
-  padding-left: 0.5em;
+  margin-right: 0em;
 }
 
 ol li {
-  margin-left: 2em;
-  padding-left: 0.5em;
+  margin-left: 0em;
+  padding-left: 0.3em;
 }
 
 table {
@@ -121,14 +130,15 @@ table tr td {
 }
 
 p, p.small, form, pre {
-  margin-left: 1.5em;
-  margin-right: 1em;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   margin-top: 0.3em;
   margin-bottom: 0.3em;
 }
 
 pre, code {
-  padding: 0;
+  font-size: 1.2em;
+  padding: 1px;
   background-color: #e8e8e8;
   background: #e8e8e8;
   border: solid;
@@ -140,6 +150,7 @@ pre, code {
 
 pre code {
   background-color: #e8e8e8;
+  border: none;
   color: #000000;
 }
 
@@ -148,22 +159,9 @@ p.small {
 }
 
 hr {
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: rgb(128, 128, 128);
-  border-right-color: rgb(128, 128, 128);
-  border-bottom-color: rgb(128, 128, 128);
-  border-left-color: rgb(128, 128, 128);
-  background-color: rgb(128, 128, 128);
-  margin-left: 30px;
-  margin-right: 30px;
-  height: 2px;
-  line-height: 2px;
-  display: block;
-  border-width: 0px;
-  padding-bottom: 0em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-width: 1px 0 0 0;
 }
 
 blockquote {
@@ -171,7 +169,7 @@ blockquote {
   margin-bottom: 0.8em;
   font-size: 0.8em;
   font-style: italic;
-  border-left: 5px solid #a0a0a0;
+  border-left:15px solid #a0a0a0;
 }
 
 /*hr {

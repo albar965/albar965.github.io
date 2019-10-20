@@ -1,17 +1,14 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2019-02-16 10:00:00 +0100
+date:   2019-10-20 19:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
 
 # ![Little Navmap](assets/images/navroute.png) Little Navmap - Frequently asked Questions
 
-**Die deutsche Übersetzung ist noch in Arbeit. German translation is work in progress.**
-<!-- [**► Diese Seite auf Deutsch**](/littlenavmap-faq_de.html) -->
-
-**You might also have a look at the [appendix in the manual](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/APPENDIX.html).**
+**You might also have a look at the [appendix in the manual](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/APPENDIX.html).**
 
 **Use your browser search function (usually `Ctrl+F`) to find topics or keywords.**
 
@@ -78,7 +75,7 @@ Log file: `C:\Users\YOURUSERNAME\AppData\Local\Temp\abarthel-little_navmap.log`
 
 Configuration file: `C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel\little_navmap.ini`
 
-Details can be found in the [Files](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/FILES.html) chapter in the manual.
+Details can be found in the [Files](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/FILES.html) chapter in the manual.
 
 [**▲**](#contents)
 
@@ -89,7 +86,7 @@ on the map, right click and select `Set ... as Flight Plan Destination`.
 
 That's it. You just built a simple flight plan.
 
-Have a look at the [Tutorials](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/TUTORIALS.html) which are
+Have a look at the [Tutorials](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/TUTORIALS.html) which are
 also linked in the help menu. These help to get around in the program.
 
 [**▲**](#contents)
@@ -151,7 +148,7 @@ violated by the selected cruise altitude when loading the flight plan.
 
 ### I added an airport and it does not show up in _Little Navmap_ {#no-airport}
 
-You have to reload the scenery library. See [Load Scenery Library Dialog](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/SCENERY.html).
+You have to reload the scenery library. See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/SCENERY.html).
 in the manual.
 
 [**▲**](#contents)
@@ -173,7 +170,7 @@ You have to get a [Navigraph](https://www.navigraph.com/) subscription. This all
 
 You should use the automatic scan in the _FMS Data Manager_ which usually finds the correct path.
 
-See [Little Navmap - Install Navigraph Updates](https://albar965.github.io/littlenavmap_navigraph.html) to see
+See [Little Navmap - Install Navigraph Updates](/littlenavmap_navigraph.html) to see
 how to set the path correctly if the automatic scan did not find the path.
 
 [**▲**](#contents)
@@ -184,7 +181,7 @@ There are only white bars with a black outline showing the runways.
 You probably selected `Use Navigraph for all Features` in the `Scenery Library` menu. `Use Navigraph for Navaids and Procedures`
 is the recommended mode which will show detailed stock or add-on airports mixed with Navigraph navaids.
 
-See [Navigation Databases](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/NAVDATA.html) in the manual.
+See [Navigation Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/NAVDATA.html) in the manual.
 
 [**▲**](#contents)
 
@@ -194,7 +191,7 @@ _Little Navmap_ did not recognize SimConnect. X-Plane does not use this. Therefo
 
 _Little Navmap_ is build based on the FSX SP2 SimConnect version 61259. You have to install this version.
 See
-[Other Simulators than FSX SP2](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/INSTALLATION.html#other-simulators-than-fsx-sp2)
+[Other Simulators than FSX SP2](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/INSTALLATION.html#other-simulators-than-fsx-sp2)
 in the manual.
 
 Note that the installation is skipped if this SimConnect version is already installed. Also, you cannot uninstall SimConnect which is no issue since it does not take much space and does not harm otherwise.
@@ -204,7 +201,7 @@ Note that the installation is skipped if this SimConnect version is already inst
 ### Cannot connect to FSX or P3D {#simconnect-issues}
 
 First See
-[Other Simulators than FSX SP2](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/INSTALLATION.html#other-simulators-than-fsx-sp2)
+[Other Simulators than FSX SP2](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/INSTALLATION.html#other-simulators-than-fsx-sp2)
 in the manual.
 
 If that does not help: Check if there is a file `C:\users\YOURUSERNAME\Documents\SimConnect.cfg`. This is sometimes used
@@ -218,14 +215,14 @@ Rename the settings directory which also contains the scenery databases. In Wind
 E.g. rename `ABarthel` to `ABarthel.backup`.
 
 Install the Visual C++ Redistributable Packages as outlined here in the manual:
-[Installation - Windows](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/INSTALLATION.html#windows).
+[Installation - Windows](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/INSTALLATION.html#windows).
 
 These redistributable packages do no harm, do not take much space and are usually needed by other programs too.
 In some cases it also helped to install the 2008 and 2017 redistributables.
 
 If the problem persists send me a bug report in the
 [Avsim Support Forum](https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or by email.
-See [How to report a Bug](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/APPENDIX.html#how-to-report-a-bug).
+See [How to report a Bug](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/APPENDIX.html#how-to-report-a-bug).
 
 Direct links to all redistributable packages so far:
 [2005](https://www.microsoft.com/en-us/download/details.aspx?id=18471),
@@ -249,7 +246,7 @@ This is a known error and can happen at certain zoom distances with long flight 
 Yes. You can even mix different systems like using macOS for _Little Navmap_ and Windows for flying.
 The client computer does not need a SimConnect or simulator installation at all.
 
-See [How to run a network Setup](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/INTRO.html#network-setup)
+See [How to run a network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/INTRO.html#network-setup)
 in the manual.
 
 [**▲**](#contents)
@@ -261,7 +258,7 @@ You can not. But you can:
 1. Use an old second monitor for the map before throwing it away.
 2. Take an old and slow notebook and use it in networked mode. _Little Navmap_ is happy with 2 GB of ram and there
    are options to speed up map display. This notebook can run Linux or macOS. Have a look at the manual here:
-   [How to run a network Setup](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/INTRO.html#network-setup)
+   [How to run a network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/INTRO.html#network-setup)
 3. Run the simulator in seamless window mode. Then you can `Alt+Tab` between applications.
 
 [**▲**](#contents)
@@ -285,9 +282,9 @@ This can have several reasons:
 1. The server for the online map is down. These are free services where I have no influence on availability.
    Wait a few hours and they are usually back.
 2. You are using offline mode. This shows a red `Offline` warning message in _Little Navmap_'s status bar. Disable offline mode in the file menu.
-   See [Work Offline](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/MENUS.html#work-offline).
+   See [Work Offline](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/MENUS.html#work-offline).
 3. Your internet connection is broken or your firewall forbids network access for _Little Navmap_.
-4. _Little Navmap_ cannot establish an encrypted connection to the map server. See [Installation - Windows](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/INSTALLATION.html#windows)
+4. _Little Navmap_ cannot establish an encrypted connection to the map server. See [Installation - Windows](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/INSTALLATION.html#windows)
 in the manual for more information how to fix this.
 
 [**▲**](#contents)
@@ -295,7 +292,7 @@ in the manual for more information how to fix this.
 ### The map has a grayish backgroud {#map-gray}
 
 You use an online map and have  hillshading enabled where it has no coverage. Disable hillshading
-([Show  Hillshading](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/MENUS.html#show-hillshading))
+([Show  Hillshading](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/MENUS.html#show-hillshading))
 or use another theme.
 
 [**▲**](#contents)
@@ -357,7 +354,7 @@ Something went wrong when installing _Little Navmap_. Most likely the directory 
 
 ### I cannot see any airports or navaids {#load-scenery}
 
-Load the scenery library from the simulator. See [Load Scenery Library Dialog](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/SCENERY.html)
+Load the scenery library from the simulator. See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/SCENERY.html)
 in the manual.
 
 [**▲**](#contents)
@@ -368,7 +365,7 @@ You have `Read inactive Scenery Entries:` disabled in the scenery loading dialog
 stale entries. Fix this by restarting X-Plane which will remove the old entries.
 
 You might as well enable `Read inactive Scenery Entries:` which will cause _Little Navmap_ to ignore `scenery_packs.ini`
-and read all. See [Load Scenery Library Dialog](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/SCENERY.html).
+and read all. See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/SCENERY.html).
 
 [**▲**](#contents)
 
@@ -376,7 +373,7 @@ and read all. See [Load Scenery Library Dialog](https://albar965.gitbooks.io/lit
 
 If you have `Read inactive Scenery Entries:` enabled: Restart X-Plane so that it can update the `scenery_packs.ini`.
 
-See [Load Scenery Library Dialog](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/SCENERY.html).
+See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/SCENERY.html).
 
 [**▲**](#contents)
 
@@ -391,7 +388,7 @@ or create an issue for bigger tasks.
 
 For errors send me a bug report in the
 [Avsim Support Forum](https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or by email.
-See [How to report a Bug](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/APPENDIX.html#how-to-report-a-bug).
+See [How to report a Bug](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/APPENDIX.html#how-to-report-a-bug).
 
 [**▲**](#contents)
 
@@ -462,7 +459,7 @@ It's neither a _Little Navmap_ nor Navigraph issue. I's an unavoidable
 real world issue where simulator scenery or airports are not updated as
 fast as the real world airports.
 
-See the [Navdata](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/NAVDATA.html) chapter in the manual for more information.
+See the [Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/NAVDATA.html) chapter in the manual for more information.
 
 For **FSX or Perpar3D** you can use the [Airport Design Editor](http://www.scruffyduck.org/airport-design-editor/4584106799) to change the runway numbers.
 
@@ -505,7 +502,7 @@ I
 ### I'd like to completely remove the program and all of its traces {#remove}
 
 All files and folders created by _Little Navmap_ are described in the
-chapter [Files](https://albar965.gitbooks.io/little-navmap-user-manual/content/en/FILES.html) in the manual.
+chapter [Files](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/FILES.html) in the manual.
 
 _Little Navmap_ does not create any registry entries on Windows.
 

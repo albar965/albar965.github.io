@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap and Little Navconnect Manuals for 2.4 Versions"
-date:   2019-10-13 14:00:00 +0200
+date:   2019-10-20 19:00:00 +0200
 ---
 
 [Alex’ Projects](/index.html)
@@ -10,9 +10,7 @@ date:   2019-10-13 14:00:00 +0200
 
 # ![Little Navmap and Little Navconnect Manuals](/assets/images/navroute.png) Little Navmap and Little Navconnect Manuals
 
-[**► Detailed Changelog for 2.4 Versions**](/pages/24/littlenavmapchangelog.html)
-
-[**► Screenshots of new 2.4 Features (updated for 2.4.1.beta)**](/pages/24/littlenavmapscreens.html)
+[**► Screenshots of new 2.4 Features**](/pages/24/littlenavmapscreens.html)
 
 [**► Updated map Legend for 2.4 Versions**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LEGEND.html)
 

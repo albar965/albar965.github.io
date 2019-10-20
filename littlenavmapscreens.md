@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap Screenshots"
-date:   2019-10-17 12:00:00 +0200
+date:   2019-10-20 19:00:00 +0200
 ---
 [Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Screenshots
 

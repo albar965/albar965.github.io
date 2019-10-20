@@ -11,7 +11,7 @@ categories: release
 
 [**► Bildschirmfotos**](/littlenavmapscreens.html)
 
-[**► Online-Handbuch**](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/) (Englisch)
+[**► Online-Handbuch**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/) (Englisch)
 
 [**► Eigenschaften und Funktionen**](/littlenavmap.html) (Englisch)
 
@@ -54,48 +54,48 @@ Für vergrößerte Ansicht auf die Bilder klicken.
 Alle Verweise zeigen auf das Englische Handbuch.
 
 * Großes Update und Verbesserungen im Höhenprofil:
-  [Höhenprofil](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/PROFILE.html)
+  [Höhenprofil](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/PROFILE.html)
   und
-  [Legende](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/LEGEND.html#elevation-profile-legend).
+  [Legende](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/LEGEND.html#elevation-profile-legend).
 * Flugzeugleistung und Treibstoffplanung:
-  [Allgemein](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/AIRCRAFTPERF.html),
-  [Bearbeiten](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/AIRCRAFTPERFEDIT.html)
+  [Allgemein](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/AIRCRAFTPERF.html),
+  [Bearbeiten](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/AIRCRAFTPERFEDIT.html)
   und
-  [Neue Spalten in der Flugplantabelle](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/FLIGHTPLAN.html#flight-plan-table-columns).
+  [Neue Spalten in der Flugplantabelle](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/FLIGHTPLAN.html#flight-plan-table-columns).
 * Flugplatzwetter:
-  [Allgemein](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/WEATHER.html#airport-weather),
-  [Menüpunkte](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/MENUS.html#show-airport-weather)
+  [Allgemein](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/WEATHER.html#airport-weather),
+  [Menüpunkte](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/MENUS.html#show-airport-weather)
   und
-  [Legende](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/LEGEND.html#airport-weather).
-* [Sonnenschatten](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/SUNSHADOW.html).
+  [Legende](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/LEGEND.html#airport-weather).
+* [Sonnenschatten](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/SUNSHADOW.html).
 * Neue Einstellungen für die Kompassrose, Schiebewinkel und Kurs zum nächsten Wegpunkt:
-  [Kompassrose](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/COMPASSROSE.html)
+  [Kompassrose](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/COMPASSROSE.html)
   und
-  [Legende](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/LEGEND.html#compass-rose).
+  [Legende](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/LEGEND.html#compass-rose).
 * Platzrunde:
-  [Allgemein](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/TRAFFICPATTERN.html),
-  [Menüpunkte](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/MAPDISPLAY.html#show-traffic-pattern)
+  [Allgemein](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/TRAFFICPATTERN.html),
+  [Menüpunkte](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/MAPDISPLAY.html#show-traffic-pattern)
   und
-  [Legende](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/LEGEND.html#airport-traffic-pattern).
+  [Legende](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/LEGEND.html#airport-traffic-pattern).
 * MORA Gitter (Minimum Off-Route Höhenraster) auf der Karte:
-  [Menüpunkte](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/MENUS.html#show-mora-grid)
+  [Menüpunkte](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/MENUS.html#show-mora-grid)
   und
-  [Legende](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/LEGEND.html#mora-grid).
-* [Spezielle Mausklicks in der Karte](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/MAPDISPLAY.html#mouse-clicks-modifiers).
-* [Stil der Benutzeroberfläche schnell ändern](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/MENUS.html#window-styles).
+  [Legende](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/LEGEND.html#mora-grid).
+* [Spezielle Mausklicks in der Karte](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/MAPDISPLAY.html#mouse-clicks-modifiers).
+* [Stil der Benutzeroberfläche schnell ändern](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/MENUS.html#window-styles).
 * Einstellungen zur Kartenanzeige und Simulatorflugzeug:
-  [Unscharfe Karten vermeiden](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/OPTIONS.html#blurred-map)
+  [Unscharfe Karten vermeiden](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/OPTIONS.html#blurred-map)
   und
-  [mehr Details zum Scollen und Zoomen währed des Fliegens](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/OPTIONS.html#simulator-aircraft-allow-scroll-zoom).
-* [X-Plane scenery\_packs.ini wird jetzt ausgewertet](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/SCENERY.html#load-scenery-library-dialog-options).
-* [Beim Laden der Szenerie können nun Dateien ausgeschlossen werden](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/OPTIONS.html#scenery-library-database_exclude).
-* [Verbesserungen beim Drucken](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/PRINT.html#printing-the-flight-plan).
-* [Neue Menüpunkte für Flugplatz in der Prozedursuche](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/SEARCHPROCS.html#show-information).
-* [Flugplan in den aktuellen einfügen](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/FLIGHTPLAN.html#insert-flight-plan).
-* [Sonnenauf- und Sonnenuntergangszeiten für Flugplätze](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/INFO.html#airport).
-* [Kurs und Entfernung zum Benutzerflugzeug in der Informationsanzeige für Flughäfen und Navigationshilfen](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/INFO.html#general).
-* [Mehr oder wenige Daten in Reiter `Fortschritt` anzeigen](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/INFO.html#progress).
-* [Bessere Hervorhebung von Lufträumen im Informationsfenster](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/INFO.html#airspaces).
+  [mehr Details zum Scollen und Zoomen währed des Fliegens](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/OPTIONS.html#simulator-aircraft-allow-scroll-zoom).
+* [X-Plane scenery\_packs.ini wird jetzt ausgewertet](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/SCENERY.html#load-scenery-library-dialog-options).
+* [Beim Laden der Szenerie können nun Dateien ausgeschlossen werden](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/OPTIONS.html#scenery-library-database_exclude).
+* [Verbesserungen beim Drucken](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/PRINT.html#printing-the-flight-plan).
+* [Neue Menüpunkte für Flugplatz in der Prozedursuche](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/SEARCHPROCS.html#show-information).
+* [Flugplan in den aktuellen einfügen](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/FLIGHTPLAN.html#insert-flight-plan).
+* [Sonnenauf- und Sonnenuntergangszeiten für Flugplätze](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/INFO.html#airport).
+* [Kurs und Entfernung zum Benutzerflugzeug in der Informationsanzeige für Flughäfen und Navigationshilfen](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/INFO.html#general).
+* [Mehr oder wenige Daten in Reiter `Fortschritt` anzeigen](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/INFO.html#progress).
+* [Bessere Hervorhebung von Lufträumen im Informationsfenster](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/INFO.html#airspaces).
 
 ### Neue Einstellungen
 

@@ -1,13 +1,13 @@
 ---
 layout: subpage
 title:  "Little Navmap and Little Navconnect Manuals"
-date:   2019-10-17 12:00:00 +0200
+date:   2019-10-20 19:00:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navmap and Little Navconnect Manuals
 
-# ![Little Navmap and Little Navconnect Manuals](assets/images/navroute.png) Little Navmap and Little Navconnect Manuals
+# ![User Manuals](/assets/images/navroute.png) Little Navmap and Little Navconnect Manuals
 
-## Little Navmap User Manuals
+## Little Navmap
 
 Manuals for the current release 2.4.
 
@@ -19,7 +19,7 @@ Manuals for the current release 2.4.
 
 #### [► German - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/de/), [PDF](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/littlenavmap_book_de.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/littlenavmap_book_de.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/littlenavmap_book_de.mobi) (based on _Little Navmap_ 2.2)
 
-## Little Navconnect User Manuals
+## Little Navconnect
 
 Manuals for the current release 2.4.
 

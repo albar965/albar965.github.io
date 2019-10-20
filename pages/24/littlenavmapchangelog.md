@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Changelog for 2.4 Versions"
-date:   2019-09-17 19:00:00 +0200
+date:   2019-10-20 19:00:00 +0200
 ---
 
 [Alex’ Projects](/index.html)
@@ -12,7 +12,7 @@ date:   2019-09-17 19:00:00 +0200
 
 This page contains changes for the current version only. See [CHANGELOG.txt](https://github.com/albar965/littlenavmap/blob/release/2.4/CHANGELOG.txt) for a complete log.
 
-[**► Screenshots of new 2.4 Features (updated for 2.4.1.beta)**](/pages/24/littlenavmapscreens.html)
+[**► Screenshots of new 2.4 Features**](/pages/24/littlenavmapscreens.html)
 
 [**► Little Navmap and Little Navconnect Draft Manuals for 2.4 Versions**](/pages/24/littlenavmapmanuals.html)
 

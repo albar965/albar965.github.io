@@ -24,7 +24,7 @@ Dies kann nach der Installation ignoriert werden. Alle Verweise führen dann zum
 
 Das Online Benutzerhandbuch kann über den folgenden Verweis aufgerufen werden:
 
-[**► Deutsches Online-Benutzerhandbuch**](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/de/)
+[**► Deutsches Online-Benutzerhandbuch**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/de/)
 
 Allgemeine Informationen zu Übersetzungspaketen (Englisch):
 
@@ -39,7 +39,7 @@ to the the German manual if your computer language is set to German.
 
 The online manual can be accessed using the link below:
 
-[**► German Online Manual**](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/de/)
+[**► German Online Manual**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/de/)
 
 General information about translation packages:
 

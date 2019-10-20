@@ -11,13 +11,13 @@ categories: release
 [Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w) -
 [OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)**
 
-[**► Screenshots of new 2.4 Features**](https://albar965.github.io/pages/24/littlenavmapscreens.html)
+[**► Screenshots of new 2.4 Features**](/pages/24/littlenavmapscreens.html)
 
-[**► Screenshots**](https://albar965.github.io/littlenavmapscreens.html)
+[**► Screenshots**](/littlenavmapscreens.html)
 
-[**► Online Manuals**](https://albar965.github.io/manuals.html)
+[**► Online Manuals**](/manuals.html)
 
-[**► Features**](https://albar965.github.io/littlenavmap.html)
+[**► Features**](/littlenavmap.html)
 
 ## Notes
 
@@ -67,7 +67,7 @@ See [CHANGELOG.txt](https://github.com/albar965/littlenavmap/blob/release/2.4/CH
 ### Manuals
 
 * Only English offline PDF manual included. Manuals for French, Italian and German are still based on version 2.2. Updates will follow later. You can access all older manuals based on _Little Navmap_ 2.2 versions and all work in progress here:
-[Little Navmap and Little Navconnect Manuals](https://albar965.github.io/manuals.html).
+[Little Navmap and Little Navconnect Manuals](/manuals.html).
 * Sources for the manuals are committed to GitHub and can be found [**here**](https://github.com/albar965/littlenavmap-manual/tree/release/2.4) on branch `release/2.4` for translation.
 
 ### Help - New Chapters

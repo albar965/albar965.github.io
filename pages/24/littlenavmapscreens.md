@@ -7,11 +7,9 @@ date:   2019-09-17 19:00:00 +0200
 ►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) / [Little Navmap 2.4.1.beta released](/release/2019/09/19/littlenavmap-beta-241-released.html)
 ► Screenshots of new 2.4 Features
 
-# Screenshots of new 2.4 Features (updated for 2.4.1.beta)
+# Screenshots of new 2.4 Features
 
 This page gives an overview of the new features for _Little Navmap_ 2.4 releases.
-
-[**► Detailed Changelog for 2.4 Versions**](/pages/24/littlenavmapchangelog.html)
 
 [**► Little Navmap and Little Navconnect Draft Manuals for 2.4 Versions**](/pages/24/littlenavmapmanuals.html)
 

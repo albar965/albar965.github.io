@@ -16,7 +16,7 @@ to the the French manual if your computer language is set to French.
 
 The online manual can be accessed using the link below:
 
-[**► French Online Manual**](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/fr/)
+[**► French Online Manual**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/fr/)
 
 General information about translation packages:
 

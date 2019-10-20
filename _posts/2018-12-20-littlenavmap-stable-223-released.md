@@ -11,7 +11,7 @@ categories: release
 
 [**► Screenshots**](/littlenavmapscreens.html)
 
-[**► Online Manual**](https://albar965.gitbooks.io/little-navmap-user-manual/content/v/release/2.2/en/)
+[**► Online Manual**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/)
 
 [**► Features**](/littlenavmap.html)
 

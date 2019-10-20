@@ -46,7 +46,7 @@ categories: release
 ### Help
 
 * Changed default email, manual and help link URLs from Gitbook to [www.littlenavmap.org](https://www.littlenavmap.org). [#238](https://github.com/albar965/littlenavmap/issues/238)\\
-  **Manuals in all formats and languages can be found here: [Little Navmap and Little Navconnect Manuals](https://albar965.github.io/manuals.html).**
+  **Manuals in all formats and languages can be found here: [Little Navmap and Little Navconnect Manuals](/manuals.html).**
 * Moved help URLs into configuration file `urls.cfg` which can be overloaded in settings directory. [#238](https://github.com/albar965/littlenavmap/issues/238)
 
 ### Map
