@@ -18,7 +18,7 @@ date:   2019-10-18 10:00:00 +0200
 
 [**► User manuals for _Little Navmap_ and _Little Navconnect_ in all formats and languages.**](/manuals.html)
 
-[► Map Legend](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/LEGEND.html)
+[► Map Legend](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LEGEND.html)
 
 [► GitHub Little Navmap Project and Sources](https://github.com/albar965/littlenavmap)
 

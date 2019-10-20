@@ -274,7 +274,7 @@ You have to right-click on the hotspot. That is:
 * The small cross at the end of all measurement lines.
 
 The cursor shape changes to a hand if you hover the mouse over such a spot.
-Then you can use one of the [Mouse Clicks](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/LEGEND.html#mouse-clicks)
+Then you can use one of the [Mouse Clicks](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LEGEND.html#mouse-clicks)
 or the context menu to do something with the feature.
 
 [**▲**](#contents)
@@ -521,5 +521,5 @@ there are several options:
 - Take the search window and drop it on the progress window. This will create a window with search and progress tabs at the bottom.
 
 Here are some tips for undocking (Ctrl-key, etc.) and moving around in the interface:
-[User Interface](https://www.littlenavmap.org/manuals/littlenavmap/release/2.2/en/INTRO.html#user-interface)
+[User Interface](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/INTRO.html#user-interface)
 
