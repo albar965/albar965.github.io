@@ -1,11 +1,11 @@
 ---
 layout: subpage
-title:  "Little Navmap and Little Navconnect Manuals"
+title:  "User Manuals"
 date:   2019-10-20 19:00:00 +0200
 ---
-[Alex’ Projects](index.html) ► Little Navmap and Little Navconnect Manuals
+[Alex’ Projects](index.html) ► User Manuals
 
-# ![User Manuals](/assets/images/navroute.png) Little Navmap and Little Navconnect Manuals
+# ![User Manuals](/assets/images/navroute.png) User Manuals
 
 ## Little Navmap
 
