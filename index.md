@@ -81,7 +81,7 @@ formats.
 
 Keyboard shortcuts help to access most functions without mouse.
 
-An elevation profile is shown for the flight plan allowing to find a safe cruise altitude also displaying top climb,
+An elevation profile is shown for the flight plan allowing to find a safe cruise altitude also displaying top of climb,
 top of descent and procedure altitude restrictions. Calculated and shown climb as well as descent paths adhere to altitude
 restrictions .
 
@@ -103,7 +103,7 @@ courtesy of Navigraph is included in the download and includes navaids, airways,
 Complete edit, display, import and export functionality for user defined waypoints.
 Import and export of CSV, X-Plane and Garmin files.
 
-Display of clients and centers of VATSIM and custom online networks.
+Display of clients and centers of VATSIM, IVAO, PilotEdge and custom online networks.
 
 _Little Navmap_ features its own internal web server which allows to follow aircraft progress from any device.
 
