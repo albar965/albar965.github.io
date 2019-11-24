@@ -21,14 +21,13 @@ color: #6d6d6d; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); background: #e7e7
 
 body {
   font-size: 0.9em;
-  color: #101010;
+  color: #252525;
   background: url(../images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  color: #000000;
   text-shadow: none;
 }
 
@@ -70,25 +69,25 @@ h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2em; font-weight: bold; color: #000000;
+  font-size: 2em; font-weight: bold; 
   border-bottom: 0.15em solid #707070;
 }
 
 h2 {
-  font-size: 1.8em; font-weight: bold; color: #000000;
+  font-size: 1.8em; font-weight: bold; 
   border-bottom: 0.1em solid #707070;
 }
 
 h3 {
-  font-size: 1.4em; font-weight: bold; color: #000000;
+  font-size: 1.4em; font-weight: bold; 
   border-bottom: 0.05em solid #707070;
 }
 
-h4 { font-size: 1.2em; font-weight: bold; color: #000000; }
+h4 { font-size: 1.2em; font-weight: bold; }
 
-h5 { font-size: 1em; color: #000000; }
+h5 { font-size: 1em;  }
 
-h6 { font-size: .8em; color: #000000; }
+h6 { font-size: .8em;  }
 
 ul {
   margin-top: 0.1em;
