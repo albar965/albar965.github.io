@@ -1,15 +1,16 @@
 ---
 layout: subpage
 title:  "Little Navmap Translation Packages"
-date:   2018-12-13 22:00:00 +0100
+date:   2019-12-01 14:00:00 +0100
 ---
 [Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Translation Packages
 
-# User Interface
+# Status
 
-_Little Navmap_ 2.0.2 includes the following user interface languages: Dutch, Brazilian Portuguese, French, Spanish and German.
+Look at the Github issues below to see the status of the various translation packages:
 
-Thanks to Daniel "Wolf", Eddy Crequie, merspieler, Patrick JUNG , Ricardo Vitor and Stephan Leukert for the translations.
+* [Translate User Manual #136](https://github.com/albar965/littlenavmap/issues/136)
+* [Translate Program #135](https://github.com/albar965/littlenavmap/issues/135)
 
 # Translation Packages
 
