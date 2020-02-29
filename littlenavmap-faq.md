@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2019-10-20 19:00:00 +0200
+date:   2020-02-29 14:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -55,6 +55,8 @@ date:   2019-10-20 19:00:00 +0200
 1. [Search for airport by country, state or city is unreliable in X-Plane](#airport-admin-search)
 1. [I'd like to completely remove the program and all of its traces](#remove)
 1. [How can I make the map window bigger](#map-window)
+1. [I cannot see _Little Xpconnect_ in the X-Plane menu](#xpconnect)
+1. [Cannot run _Little Navmap_ or _Little Xpconnect_ on macOS Catalina](#catalina)
 
 ### How to update the program {#update}
 
@@ -518,3 +520,27 @@ there are several options:
 Here are some tips for undocking (Ctrl-key, etc.) and moving around in the interface:
 [User Interface](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/INTRO.html#user-interface)
 
+[**▲**](#contents)
+
+### I cannot see _Little Xpconnect_ in the X-Plane menu {#xpconnect}
+
+_Little Xpconnect_ does not add menu entries to the X-Plane main menu.
+Look at the plugin manager in X-Plane. _Little Xpconnect_ was installed successfully if you can see it there.
+
+[**▲**](#contents)
+
+### Cannot run _Little Navmap_ or _Little Xpconnect_ on macOS Catalina {#catalina}
+
+A new security feature in macOS forbids the execution of unsigned libraries or apps.
+
+To reset the security attributes and to circumvent this problem run the following command in the terminal application.
+Execute this only in the `Little Navmap` or `.../X-Plane 11/Resources/plugins/Little Xpconnect` folder:
+
+```
+sudo xattr -r -d com.apple.quarantine *
+```
+
+The command will ask for your password and then run `xattr` with administrator priviledges.
+
+**Be careful not to run this command at the top level folder `/` or in your whole home folder.
+Run this only in the folders `Little Navmap` or `.../X-Plane 11/Resources/plugins/Little Xpconnect`.**
