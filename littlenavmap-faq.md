@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2020-02-29 14:00:00 +0100
+date:   2020-04-16 14:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -31,6 +31,7 @@ date:   2020-02-29 14:00:00 +0100
 1. [Why can I see only the X-Plane connect option](#xplane-connection-only)
 1. [Cannot connect to FSX or P3D](#simconnect-issues)
 1. [The program crashes](#crash)
+1. [The map moves jerky or I see stutters in _Little Navmap_ while scrolling or zooming](#jerky-map) 
 1. [Lines disappearing](#lines-disappearing)
 1. [Can I run the program on another client computer across the network](#networking)
 1. [Can I see the program when running FSX, P3D or X-Plane fullscreen ](#sim-fullscreen)
@@ -231,6 +232,16 @@ Direct links to all redistributable packages so far:
 [2012](https://www.microsoft.com/en-us/download/details.aspx?id=30679),
 [2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) and
 [2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
+
+[**▲**](#contents)
+
+### The map moves jerky or I see stutters in _Little Navmap_ while scrolling or zooming {#jerky-map}
+
+This is be caused by weather requests for airport weather symbols  using FSX or Prepar3D.
+
+Go to main menu -> `Weather` -> `Airport Weather Source` and set anything but `Simulator` there.
+
+You can also hide the airport weather symbols: Disable `View` -> `Show airport weather`.
 
 [**▲**](#contents)
 
@@ -544,3 +555,6 @@ The command will ask for your password and then run `xattr` with administrator p
 
 **Be careful not to run this command at the top level folder `/` or in your whole home folder.
 Run this only in the folders `Little Navmap` or `.../X-Plane 11/Resources/plugins/Little Xpconnect`.**
+
+[**▲**](#contents)
+
