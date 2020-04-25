@@ -33,6 +33,5 @@ OTHER_FILES = \
   $$files(de/*, true) \
   $$files(downloads/*, true) \
   $$files(pages/*, true) \
-  $$files(images/*, true) \
-  $$files(littlelogbook/*, true)
+  $$files(images/*, true)
 
