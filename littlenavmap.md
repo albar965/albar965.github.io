@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2019-10-18 10:00:00 +0200
+date:   2020-04-25 16:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap
@@ -24,12 +24,12 @@ date:   2019-10-18 10:00:00 +0200
 
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
-## Version 2.4.4 Features
+## Version 2.4.5 Features
 
 * *Little Navmap* is a **free** open source flight planner, navigation tool, moving map, airport
   search and airport information system.
 * Supported platforms: **Windows 7/8/10, macOS \(10.10 or newer only\) and Linux \(64 bit only\)**.
-* Support for **Flight Simulator X, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4 and
+* Support for **Flight Simulator X, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4, v5 and
   X-Plane 11 \(64 bit\)**.
 * Comes with the following user interface languages: **Brazilian Portuguese, French, Italian and German**
   (Spanish and Dutch are based on older _Little Navmap_ versions).

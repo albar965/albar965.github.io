@@ -3,533 +3,64 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=2.4.4
-url=https://albar965.github.io/release/2019/10/17/littlenavmap-stable-244-released.html
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.4.4/LittleNavmap-win-2.4.4.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.4.4/LittleNavmap-macOS-2.4.4.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.4.4/LittleNavmap-linux-18.04-2.4.4.tar.gz
+version=2.4.5
+url=https://albar965.github.io/release/2020/04/26/littlenavmap-stable-245-released.html
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-win-2.4.5.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-macOS-2.4.5.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-18.04-2.4.5.tar.gz
 changelog=
-  <head><style type="text/css">code { background: #33808080; }</style></head>
   <body>
-   <p><strong>Direct download: <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.4/LittleNavmap-win-2.4.4.zip">Windows</a> -
-   <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.4/LittleNavmap-macOS-2.4.4.zip">macOS</a> -
-   <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.4/LittleNavmap-linux-18.04-2.4.4.tar.gz">Linux (64 bit, based on Ubuntu 18.04)</a> -
-   <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.4/LittleNavmap-linux-16.04-2.4.4.tar.gz">Linux (64 bit, based on Ubuntu 16.04)</a></strong></p>
-   <p><strong>Alternative download locations: <a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa">Dropbox</a> -
-   <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w">Mega.nz</a> -
-   <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g">OneDrive</a></strong></p>
-   <p><a href="https://albar965.github.io/pages/24/littlenavmapscreens.html"><strong>► Screenshots of new 2.4 Features</strong></a></p>
-   <p><a href="https://albar965.github.io/littlenavmapscreens.html"><strong>► Screenshots</strong></a></p>
-   <p><a href="https://albar965.github.io/manuals.html"><strong>► Online Manuals</strong></a></p>
-   <p><a href="https://albar965.github.io/littlenavmap.html"><strong>► Features</strong></a></p>
-   <h2 id="notes">Notes</h2>
-   <ul>
-     <li>Microsoft Visual C++ Redistributables are not needed.</li>
-     <li><strong>Reload the scenery library.</strong></li>
-     <li><strong>Reinstall the Little Xpconnect X-Plane plugin to see bug fixes.</strong></li>
-     <li><strong><em>Little Navmap</em> resets the map theme back to OpenStreetMap to avoid wrong selection of the now unavailable OpenMapSurfer theme.</strong></li>
-     <li><strong>Route description options are reset to defaults.</strong></li>
-   </ul>
-   <!-- ================================================================================================ -->
-   <h2 id="known-issues">Known Issues</h2>
-   <ul>
-     <li>Scrolling is stuttery when using airport weather symbols based on simulator data for FSX/Prepar3D. Switch off airport weather symbols to avoid this.</li>
-     <li>The browser often does not jump to the right chapter the first time when opening online manuals. Got to the URL bar, do not change the URL and press return if this happens.</li>
-   </ul>
-   <h2 id="notable-changes">Notable Changes</h2>
-   <ul>
-     <li><strong>Winds aloft forecast for display and fuel planning.</strong></li>
-     <li>Wind gust factor in airport weather symbols.</li>
-     <li><strong>Alternate airports for flight plan and fuel planning.</strong></li>
-     <li><strong>Complete rework of logbook. Separated from userpoints and improved functionality.</strong></li>
-     <li><strong>Permanent aircraft performance collection. Results can be merged any time. Improvements to fuel planning.</strong></li>
-     <li>Accurate fuel and time prediction in aircraft progress tab based on aircraft performance.</li>
-     <li><strong>Internal webserver. Access map and flight plan from everywhere.</strong></li>
-     <li>ILS tooltip and information.</li>
-     <li><strong>User defined final approach for vertical guidance including VASI and ILS slope at any airport.</strong></li>
-     <li><strong>Preferred runway by wind for airports in tooltip and information.</strong></li>
-     <li><strong>Nearest navaids and airports around a selected airport.</strong></li>
-     <li><strong>Display holdings on map like traffic patterns.</strong></li>
-     <li><strong>Two new map navigation modes: Click to center and navigation areas for touchscreens.</strong></li>
-     <li>Map images can now be saved with an arbitrary size.</li>
-     <li>Hide columns in flight plan table.</li>
-     <li>Can highlight full airways from information window <code class="highlighter-rouge">Map</code> link like airspaces.</li>
-     <li>Improved airspace database. Added user airspaces. Assign online centers to airspace geometry.</li>
-     <li><strong>Movable and closable tabs. Tab menu button and context menu for tabs.</strong></li>
-     <li>Fixed all known procedure display issues.</li>
-     <li>Display alternate fuel units and true course optionally.</li>
-     <li>User features like range rings, holds and others can be hidden on the map.</li>
-     <li>Error and warning messages in user interface have tooltip for more information now.</li>
-     <li>Many user interface improvements and bug fixes for procedure display, METAR parsing and more.</li>
-   </ul>
-   <h2 id="changes-from-release-224-to-244">Changes from Release 2.2.4 to 2.4.4</h2>
-   <p>See <a href="https://github.com/albar965/littlenavmap/blob/release/2.4/CHANGELOG.txt">CHANGELOG.txt</a> in littlenavmap project for changes across all versions.</p>
-   <h3 id="manuals">Manuals</h3>
-   <ul>
-     <li>Only English offline PDF manual included. Manuals for French, Italian and German are still based on version 2.2. Updates will follow later. You can access all older manuals based on <em>Little Navmap</em> 2.2 versions and all work in progress here:
-   <a href="https://albar965.github.io/manuals.html">Little Navmap and Little Navconnect Manuals</a>.</li>
-     <li>Sources for the manuals are committed to Github and can be found <a href="https://github.com/albar965/littlenavmap-manual/tree/release/2.4"><strong>here</strong></a> on branch <code class="highlighter-rouge">release/2.4</code> for translation.</li>
-   </ul>
-   <h3 id="help---new-chapters">Help - New Chapters</h3>
-   <ul>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/DOCKWINDOWS.html">Dock Windows</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/TABS.html">Tabs</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/HOLD.html"><strong>Holding</strong></a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/IMAGEEXPORT.html">Image Export</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/CUSTOMPROCEDURE.html"><strong>User Defined Approach</strong></a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/RESET.html">Reset all for a new Flight</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/AIRCRAFTPERFMERGE.html">Aircraft Performance Merge</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LOGBOOK.html"><strong>Logbook</strong></a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/WEATHER.html#wind"><strong>Winds aloft</strong></a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/SCENERY.html#load-scenery-library-openair-airspaces">OpenAir Airspaces</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/WEBSERVER.html">Web Server</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/TUTORIALPERF.html"><strong>Tutorial - Creating an Aircraft Performance Profile</strong></a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/SHORTCUTS.html">Keyboard Shortcuts</a></li>
-   </ul>
-   <h3 id="help---updated-chapters">Help - Updated Chapters</h3>
-   <ul>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/MENUS.html">Menus and Toolbars. Updated for new functions.</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/QUICKOVERVIEW.html">Overview. Updated images and added image for help.</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LEGEND.html">Legend. Updated for new features.</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/FLIGHTPLAN.html">Flight Plan Tab. Wind and alternates.</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/ROUTEDESCR.html">Flight Plan Route Description. Updated for alternates.</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/AIRCRAFTPERFEDIT.html">Edit Aircraft Performance. Updated for wind and changed report.</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/AIRCRAFTPERFCOLL.html">Aircraft Performance Collection. Permanent collection.</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/AIRCRAFTPERF.html">Aircraft Performance. New performance features.</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/INFO.html">Information Dock Window. Logbook, userpoint tabs and airport file links. Nearest and preferred runways.</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/OPTIONS.html">Options Dialog</a></li>
-     <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/TUTORIALS.html">All Tutorials</a></li>
-   </ul>
-   <h3 id="user-interface-translation">User Interface Translation</h3>
-   <ul>
-     <li>User interface translation is complete for the languages French, Italian, German and Brazilian Portuguese.
-    Many thanks to Patrick, Flavio, Valerio and Ricardo for their work.</li>
-     <li>Spanish and Dutch translations are not adapted and the program will show a mix of English and the local language.</li>
-   </ul>
-   <h3 id="user-interface">User Interface</h3>
-   <ul>
-     <li>User interface translation is complete for the languages French, Italian, German and Brazilian Portuguese.
-   Other translations (Spanish and Dutch) are not adapted and the program will show a mix of English and the local language.
-   Many thanks to Patrick, Flavio, Valerio and Ricardo for their work.</li>
-     <li>Tabs can now be closed and moved in information display, aircraft progress, flight plan and
-   search. <a href="https://github.com/albar965/littlenavmap/issues/437">#437</a> and <a href="https://github.com/albar965/littlenavmap/issues/345">#345</a>
-       <ul>
-         <li>A drop down menu in a button at the right top corner and a context menu on the tab bar allow to
-   close, open and lock tabs.</li>
-         <li>Tab states and positions are saved between sessions.</li>
-         <li>Tabs are opened and/or raised on demand on info click or menu selection.</li>
-         <li>Reset window layout also resets tab layout and reopens all closed.</li>
-       </ul>
-     </li>
-     <li>Now raising windows and/or tabs optionally on actions like e.g. <code class="highlighter-rouge">Set Destination</code>. Also after
-   loading, importing or creating a new flight plan, aircraft performance file or others.
-   This should help to avoid confusion when creating new or modifying documents.
-   This behavior can be disabled in <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">User Interface</code> -&gt; <code class="highlighter-rouge">Raise related windows ...</code>.</li>
-     <li>Moved map theme and projection into separate toolbar. This helps to avoid toolbar overflow on the
-   right for the map toolbar.</li>
-     <li>Added menu item to save all options and window layout. Menu <code class="highlighter-rouge">Tools</code> -&gt; <code class="highlighter-rouge">Save Options and State</code>. <a href="https://github.com/albar965/littlenavmap/issues/420">#420</a></li>
-     <li>Renamed dock window <code class="highlighter-rouge">Flight Plan</code> to <code class="highlighter-rouge">Flight Planning</code> and tab <code class="highlighter-rouge">Aircraft Performance</code> to
-   <code class="highlighter-rouge">Fuel Report</code>.</li>
-     <li>Added <code class="highlighter-rouge">Reset all Settings and Restart</code> function in tools menu which replaces the need to delete the settings
-   folder in case of issues. This will create a backup of the <code class="highlighter-rouge">little_navmap.ini</code> and erase all contents afterwards.</li>
-     <li>Stacks of tabbed dock windows are now completely closed if one of the docks in the stack is closed by
-   using the shortcut, menu or toolbar. Closed stacks are reopened completely if one of the dock windows
-   is reopened or activated.</li>
-     <li>Stacked dock windows are now correctly raised on shortcut or other activation. Before the stack of dock
-   windows was raised only but the dock window was still hidden.</li>
-     <li>Style <code class="highlighter-rouge">macintosh</code> is now usable on smaller screens for macOS. Tabs took up too much space previously and
-   prevented dock windows from shrinking. More improvements for macOS user interface.</li>
-     <li>Many more user interface improvements.</li>
-   </ul>
-   <h3 id="options">Options</h3>
-   <ul>
-     <li>Replaced tabs in options dialog with list including icons and tooltips for better overview.</li>
-     <li>Added option for high DPI high resolution display support.
-   Dialog <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">User Interface</code> -&gt; <code class="highlighter-rouge">Enable high DPI ...</code>.</li>
-     <li>Added option to disable proposed filename when doing <code class="highlighter-rouge">Save as</code> or <code class="highlighter-rouge">Export</code> and file already
-   exists. Dialog <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">User Interface</code> -&gt; <code class="highlighter-rouge">Propose new name ...</code>. <a href="https://github.com/albar965/littlenavmap/issues/433">#433</a></li>
-     <li>Added option to add true heading/course to all values in display in smaller font. This affects
-   all information, progress and tooltip displays.
-   Can be selected in <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Units</code> -&gt; <code class="highlighter-rouge">Show true course ...</code>.  Useful for flying in areas
-   with high or unreliable magnetic declination.</li>
-     <li>Added option to ignore radio navaid declination when calculating magnetic flight plan leg course.
-   This is helpful if you use mostly GPS for flying and do not care about radials of VOR which might
-   have an  outdated calibration. Dialog <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Flight Plan</code> -&gt; <code class="highlighter-rouge">Ignore Declination ...</code>.</li>
-     <li>Other fuel units (kg/liter vs. lb/gal) can now be displayed in small font besides selected fuel
-   unit. This affects the fuel plan and aircraft progress tabs. See dialog <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Units</code> -&gt;
-   <code class="highlighter-rouge">Show other fuel  units too</code>. <a href="https://github.com/albar965/littlenavmap/issues/401">#401</a></li>
-     <li>Added new coordinate formats for display and reading: Plain latitude/longitude or
-   longitude/latitude numbers with sign. Can be selected in <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Units</code> -&gt; <code class="highlighter-rouge">Coordinates</code>. Not
-   that this also affects the order  (lat/lon vs. lon/lat) when reading coordinates in dialogs if
-   selected.</li>
-     <li>Added options to change MORA grid transparency and text size.
-   Dialog <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Map Display 2</code>. <a href="https://github.com/albar965/littlenavmap/issues/343">#343</a></li>
-     <li>Added separate size option for airport weather icons.</li>
-     <li>Added text display options for flight plan legs. Now one can select distance and
-   true/magnetic/rhumb/great circle indicators. Labels indicating type will be shown and values will
-   be merged if equal. <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Map Display 2</code> -&gt; <code class="highlighter-rouge">Flight Plan</code> in tree. <a href="https://github.com/albar965/littlenavmap/issues/365">#365</a></li>
-     <li>Changed defaults in options dialog to more sensible values. This will affect only new users after selecting
-   <code class="highlighter-rouge">Reset all Settings and Restart</code> in the tools menu.</li>
-     <li>Fixed several issues with <code class="highlighter-rouge">Restore Defaults</code> function in options dialog where values were not reset at all
-   or reset to the wrong defaults.</li>
-     <li>Restore defaults in options dialog can now be reverted by pressing cancel.</li>
-   </ul>
-   <h3 id="scenery-database">Scenery Database</h3>
-   <ul>
-     <li>Added recursive import of OpenAir airspaces for user database from folder. <a href="https://github.com/albar965/littlenavmap/issues/236">#236</a> and <a href="https://github.com/albar965/littlenavmap/issues/426">#426</a>
-       <ul>
-         <li>New folder setting in options dialog for default airspace base folder and file extensions.
-   See dialog <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Cache and Files</code>.</li>
-         <li>Load airspaces from folder in <code class="highlighter-rouge">Scenery Library</code> -&gt; <code class="highlighter-rouge">Load Airspaces ...</code>.</li>
-         <li>Added switches in menu for airspace source databases and added separate user airspace database.
-   User can now choose between any combination of simulator, Navigraph, user or online airspaces.
-   Menu <code class="highlighter-rouge">View</code>  -&gt; <code class="highlighter-rouge">Airspace Source</code>.</li>
-         <li>Removed online airspace button and function to copy airspaces from P3D to X-Plane.</li>
-         <li>Removed option to read airspaces from <code class="highlighter-rouge">Documents/Little Navmap</code> in X-Plane compiler.</li>
-         <li>Made airspace databases independent of navdata switch.</li>
-       </ul>
-     </li>
-     <li>Added better error message about missing <code class="highlighter-rouge">scenery_packs.ini</code> for X-Plane.</li>
-     <li>Added geomagnetic model calculation for X-Plane compilation based on current year and month. <a href="https://github.com/albar965/littlenavmap/issues/300">#300</a>
-       <ul>
-         <li>Resulting table is written into database when compiling scenery library.</li>
-         <li>Showing error dialog about missing declination data. Falling back to world magnetic model if
-   database is empty now.</li>
-       </ul>
-     </li>
-     <li>Added support for the new <code class="highlighter-rouge">gui_label</code> 3D attribute in X-Plane 11.35 and higher. This gives a more
-   precise detection of 3D airports now which will be consistent with the X-Plane airport selection
-   and can be used to hide <code class="highlighter-rouge">Empty Airports</code>. <a href="https://github.com/albar965/littlenavmap/issues/424">#424</a> and <a href="https://github.com/albar965/littlenavmap/issues/410">#410</a></li>
-     <li>Added support for X-Plane 8.33 kHz frequency spacing. <a href="https://github.com/albar965/littlenavmap/issues/409">#409</a></li>
-     <li>Added real ICAO code to airport to avoid issues with X-Plane’s artificial airport ids. Now finds
-   procedures for e.g. “AT4” where ICAO is actually “CAT4”.</li>
-     <li>X-Plane FMS flight plan is now adjusted for real ICAO airport idents when using procedures to
-   avoid problems loading plan.</li>
-     <li>Fixed issue where FSX was wrongly selected on initial startup on Linux or macOS.</li>
-     <li>Fixed issue where scenery entries were read despite being disabled in add-ons.cfg for P3D.</li>
-     <li>Discovery paths from add-ons.cfg are now read for P3D.</li>
-   </ul>
-   <h3 id="information-and-aircraft-progress">Information and Aircraft Progress</h3>
-   <ul>
-     <li>Added ILS map tooltip, <code class="highlighter-rouge">Show information</code> in map context menu and information display. <a href="https://github.com/albar965/littlenavmap/issues/386">#386</a>
-       <ul>
-         <li>Click on ILS shows information in <code class="highlighter-rouge">Navaid</code> tab.</li>
-         <li>Zoom to ILS on double click in map or selecting <code class="highlighter-rouge">Map</code> link in information display.</li>
-         <li>Added offset localizer hint to ILS information if runway heading does not match ILS heading.</li>
-         <li>Displaying ILS source for clarification in information panel. Either <code class="highlighter-rouge">Navigraph</code> or <code class="highlighter-rouge">Simulator</code>.</li>
-       </ul>
-     </li>
-     <li>Added preferred runways depending on wind conditions to tooltip, airport information tab and
-   as detailed table including runway surface and length to weather tab. <a href="https://github.com/albar965/littlenavmap/issues/187">#187</a></li>
-     <li>Aircraft progress tab now shows red warning text for icing and insufficient fuel.</li>
-     <li>Progress tab now shows orange warnings if fuel and time have to be estimated because of
-   invalid aircraft performance or an invalid flight plan. Shows also orange warning text if fuel is
-   below reserve at destination (needs valid aircraft performance).</li>
-     <li>Now showing orange warning text if no active flight plan leg can be found if aircraft is too far
-   from plan.</li>
-     <li>Tab <code class="highlighter-rouge">Aircraft</code> on window <code class="highlighter-rouge">Simulator Aircraft</code> shows gross weight as red warning text if heavier
-   than max weight.</li>
-     <li>Now displaying more fuel values and weights in alternative units as small text in information
-   window and progress window. See above in <code class="highlighter-rouge">Options</code>. <a href="https://github.com/albar965/littlenavmap/issues/401">#401</a></li>
-     <li>Added new tab to show nearest map objects around selected airport: One list with airports having
-   procedures and one list with radio navaids. <a href="https://github.com/albar965/littlenavmap/issues/344">#344</a></li>
-     <li>Added highlighting of whole airway strings from information window similar to airspaces. <a href="https://github.com/albar965/littlenavmap/issues/348">#348</a>
-       <ul>
-         <li>Highlighted airways as well as highlighted airspaces have tooltips now.</li>
-         <li>Thickness of highlighted lines (airspace boundaries, airways, etc.) and text size can now now
-   adjusted with option settings (<code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Map Display 2</code> -&gt; <code class="highlighter-rouge">Range rings, ...</code>).</li>
-       </ul>
-     </li>
-     <li>Added links to FlightAware, SkyVector, X-Plane Gateway and OpenNav web pages in airport
-   information which link to the airport information pages on the respective sites.</li>
-     <li>Fuel and time prediction in aircraft progress tab is now based on aircraft performance (if
-   available and valid) and therefore more accurate. Will fall back to an estimate based on current
-   speed and fuel consumption if aircraft performance is not valid.</li>
-     <li>Added IATA and ICAO codes to airport information display if available.</li>
-     <li>Fixed airport file links to use both English and translated path names.
-   <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/INFO.html#tabs-in-information-dock-window">Airport Tab - Files</a>.</li>
-   </ul>
-   <h3 id="flight-plan">Flight Plan</h3>
-   <ul>
-     <li>Added support for alternate airports to map display, flight plan, printing, web server, drag and
-   drop editing, all flight plan move, delete, edit and append functions as well as all relevant context menus.
-   Fuel calculation considers farthest alternate in fuel calculation now. <a href="https://github.com/albar965/littlenavmap/issues/230">#230</a></li>
-     <li>Added reset all function to quickly set up program for a new flight.
-   Menu <code class="highlighter-rouge">File</code> -&gt; <code class="highlighter-rouge">Reset all for a new Flight</code>.</li>
-     <li>Added dialog to show or hide columns in flight plan table. See context menu of flight plan table.
-   Context menu item <code class="highlighter-rouge">Select visible Columns</code>.</li>
-     <li>Added columns for true rhumb and true great circle course to flight plan table.</li>
-     <li>Better messages about missing and invalid flight plan. Now adding tooltip to empty flight plan
-   table space and header label with hints if plan is empty. Same for procedure search. This should
-   help new users.</li>
-     <li>Now clearly describing which flight plan legs violate altitude restrictions in tooltip of error
-   message. <a href="https://github.com/albar965/littlenavmap/issues/347">#347</a></li>
-     <li>Edit flight plan position now allows to use shortcut <code class="highlighter-rouge">Return</code> for editing of user defined flight
-   plan waypoints.</li>
-     <li>Improved route description parser. Now using VOR if a VOR and NDB with the same name are close by
-   (for example <code class="highlighter-rouge">LOWI VIC FAL PRU TEA LIRN</code>).</li>
-     <li>Showing minimum and maximum altitude for airways in flight plan table now.</li>
-     <li>Airway now shown as red text if either direction, minimum or maximum altitude is violated.</li>
-     <li>Tooltips on red text in flight plan table now show information for airway restriction
-   violations or invalid waypoints.</li>
-     <li>Fixed issue where procedure information was lost when loading flight plan into a database which
-   does not contain procedures or after switching databases.</li>
-     <li>User set cruise altitude remains unchanged now after victor or jet calculation when east/west rule
-   adjustment is off.</li>
-     <li>Cruise altitude is now adjusted to next valid value for east/west rule based on the current value
-   entered in the user interface. Was always set to lowest allowed value. Now also lowering or raising
-   cruise altitude if not valid for used airways when using jet or victor calculation.</li>
-     <li>Fixed magnetic course calculation when flying outbound from a VOR.
-   <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/FLIGHTPLAN.html#magnetic-declination">Magnetic Declination</a>.</li>
-     <li>Fixed several crashes and other issues.</li>
-   </ul>
-   <h3 id="flight-plan-export">Flight Plan Export</h3>
-   <ul>
-     <li>Added separate export menu item for X-IvAp since format differs slightly from IvAp. <a href="https://github.com/albar965/littlenavmap/issues/395">#395</a>
-   Fixed more issues with IVAP export. Alternate airports are now pre-filled in online format export.</li>
-     <li>Added TFDi Design 717 flight plan export format. <a href="https://github.com/albar965/littlenavmap/issues/399">#399</a></li>
-     <li>Now omitting final DCT for flight factor aircraft export to <code class="highlighter-rouge">corte.in</code>.
-   Should fix loading of flight plans without STAR. <a href="https://github.com/albar965/littlenavmap/issues/394">#394</a></li>
-     <li>Fixed Maddog X export to use correct file extension <code class="highlighter-rouge">mdr</code>.</li>
-     <li>Fixed missing <code class="highlighter-rouge">=</code> in cruise altitude for BBS Airbus export. <a href="https://github.com/albar965/littlenavmap/issues/396">#396</a></li>
-     <li>Added flight plan table export to HTML page. <a href="https://github.com/albar965/littlenavmap/issues/4">#4</a></li>
-     <li>Fixed issue when saving flight plans from airports with empty names which could crash Prepar3D.</li>
-     <li>More fixes around flight plan saving and export.</li>
-   </ul>
-   <h3 id="route-description">Route Description</h3>
-   <ul>
-     <li>Added missing alternate airport parsing functionality to route description dialog.
-       <ul>
-         <li>Route description can now read and write more than one alternate airport to and from the string.</li>
-         <li>Added option to drop down menu button to output alternate airports to string.</li>
-         <li>Added option to route description dialog drop down menu button that allows to read trailing airports
-   either as alternate airports or simply add the airports as waypoints.</li>
-       </ul>
-     </li>
-     <li>Better error, warning and information messages now when reading route descriptions.</li>
-   </ul>
-   <h3 id="profile-display">Profile Display</h3>
-   <ul>
-     <li>Keeping aircraft more on the lest and on bottom of elevation profile when climbing and on top of profile if descending to avoid manual scrolling.</li>
-     <li>Fixed problem where aircraft trail was not recorded in elevation profile when window was closed
-   or program was hidden/minimized.</li>
-     <li>Fixed issue where flight plan and elevation profile was built incorrectly if waypoints were not
-   valid in plan.</li>
-   </ul>
-   <h3 id="weather">Weather</h3>
-   <ul>
-     <li>Added NOAA and X-Plane high altitude wind forecast (Prepar3D does neither provide a documented format nor
-   an interface). <a href="https://github.com/albar965/littlenavmap/issues/283">#283</a> This shows the NOAA wind aloft forecast which is updated four times a day and
-   is used as a source by most weather programs and simulators.
-       <ul>
-         <li>Display of wind barbs for selected altitude, flight plan altitude and/or at flight plan
-   waypoints. Toolbar button with drop down menu or menu <code class="highlighter-rouge">View</code> -&gt; <code class="highlighter-rouge">Wind Levels</code> allow to select
-   wind display.</li>
-         <li>Tooltip on map shows wind for several layers when hovering over a wind barb. Setting for
-   wind barbs tooltip on <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Map Display</code>.</li>
-         <li>Hovering over the elevation profile shows wind at position in the header line of the elevation
-   profile.</li>
-         <li>Fuel planning now considers high altitude winds. The manual cruise wind selection is still
-   available and can be used to override the downloaded winds.</li>
-         <li>Top of climb and top of descent and now adjusted for head- and tailwind.</li>
-         <li>See menu <code class="highlighter-rouge">View</code> -&gt; <code class="highlighter-rouge">Wind Levels</code> and <code class="highlighter-rouge">Wind Source</code>, dialog <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Map</code> -&gt; <code class="highlighter-rouge">Tooltips</code> and
-   <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Weather</code> -&gt; <code class="highlighter-rouge">Files and web addresses for wind reports</code>.</li>
-         <li>Download and processing can be disabled in menu if not needed.</li>
-       </ul>
-     </li>
-     <li>Added display of gusts as red lines in wind barbs for airport weather.</li>
-     <li>Fixed several METAR parsing issues related to no data like <code class="highlighter-rouge">///</code>. <a href="https://github.com/albar965/littlenavmap/issues/441">#441</a></li>
-     <li>Now ignoring ASX weather files written for X-Plane and fixed excessive logging about missing
-   file. <a href="https://github.com/albar965/littlenavmap/issues/422">#422</a></li>
-     <li>Full NOAA METAR file is now downloaded to avoid time consuming single web requests for airports.
-   Weather display is now faster on map for NOAA METARs.  Changed NOAA download URL in dialog
-   <code class="highlighter-rouge">Options</code>. <a href="https://github.com/albar965/littlenavmap/issues/359">#359</a></li>
-     <li>Added option to change X-Plane <code class="highlighter-rouge">METAR.rwx</code> path to allow custom file, e.g. for remote setups
-   across a share.</li>
-     <li>Added error dialog if weather downloads fail.</li>
-     <li>Moved wind and airport weather source from menu <code class="highlighter-rouge">View</code> to new menu <code class="highlighter-rouge">Weather</code> since these functions also
-   affect flight planning and not just the map display.</li>
-   </ul>
-   <h3 id="online-networks">Online Networks</h3>
-   <ul>
-     <li>Added two options to fetch online center boundary from user airspaces. Now optionally looking
-   up geometry for online centers either by airspace name or filename. Falling back to circle shape
-   if not present. See dialog <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Map Display Online</code> -&gt; <code class="highlighter-rouge">Online Center Boundary Lookup ...</code>.</li>
-     <li>Disabled wrong rounding of frequencies for online centers. Now displaying as given.</li>
-     <li>Changed AI and online network aircraft icon colors for better visibility. This is also reflected
-   in the toolbar buttons. The aircraft icons can still be overloaded by the user.</li>
-     <li>Enabled PilotEdge network. <a href="https://github.com/albar965/littlenavmap/issues/388">#388</a></li>
-   </ul>
-   <h3 id="map">Map</h3>
-   <ul>
-     <li>Added option to display holding on map similar to traffic pattern. Holding can be customized
-   before adding to map. See map, search and flight plan context menu item
-   <code class="highlighter-rouge">Add Holding at position</code>. <a href="https://github.com/albar965/littlenavmap/issues/326">#326</a></li>
-     <li>Added menu items and drop down button to hide or show user features like range rings, holdings,
-   measurement lines and traffic patterns.
-       <ul>
-         <li>See menu <code class="highlighter-rouge">View</code> -&gt; <code class="highlighter-rouge">User Features</code>.</li>
-         <li>Context menu items for range rings, measurement lines, holds and patterns are now disabled with
-   a remark in the menu text when respective user feature is hidden on the map. You have to enable
-   the respective user feature before you can add one on the map.</li>
-         <li>Special shortcut clicks on the map like e.g. <code class="highlighter-rouge">Shift+Left Mouse button</code> for range rings enable
-   display of the respective user features silently if hidden.</li>
-       </ul>
-     </li>
-     <li>Traffic patterns and holdings have tooltips now.</li>
-     <li>Added warning dialog before deleting all user features. Warning dialog can be disabled.</li>
-     <li>Added small direction arrows for one-way airways which are shown in overview.</li>
-     <li>Updated traffic pattern dialog with better table view instead of the simple combo box. Double
-   click in pattern dialog now confirms dialog and adds pattern to the map.</li>
-     <li>Now disabling all tooltips while doing drag and drop operations: Flight plan changes,
-   dragging measurement lines and userpoint movement. <a href="https://github.com/albar965/littlenavmap/issues/337">#337</a></li>
-     <li>Increased maximum number of map objects from 4000 to 8000.</li>
-     <li>Disabled OpenMapSurfer since map is not publicly available at the given URL anymore, needs an
-   API key and has download limitations now.</li>
-     <li>Added dialog to image export for files, AviTab and clipboard that allows to choose an arbitrary
-   image resolution. This allows to export high resolution and highly detailed maps. A download timer
-   allows to wait for online map updates to avoid blurry maps. <a href="https://github.com/albar965/littlenavmap/issues/377">#377</a> and <a href="https://github.com/albar965/littlenavmap/issues/384">#384</a></li>
-     <li>Corrected <code class="highlighter-rouge">View</code> -&gt; <code class="highlighter-rouge">Reset Display Settings</code> function and added missing display features to
-   reset (weather, airspace sources, user features and more).</li>
-     <li>Fixed double drawing of waypoints and navaids which are part of a flight plan.</li>
-     <li>Corrected display priorities from map context menu. Logbook is now prioritized before userpoint
-   before airport for all actions.</li>
-   </ul>
-   <h3 id="map-navigation">Map Navigation</h3>
-   <ul>
-     <li>Added <code class="highlighter-rouge">Click to center map</code> navigation mode where mouse wheel zooms to center position. Also added
-   new <code class="highlighter-rouge">Map Areas</code> navigation mode using click/touch zones on the map screen. The latter mode is
-   helpful for touchscreen navigation. Both navigation options can be selected on new tab
-   <code class="highlighter-rouge">Map Navigation</code> in the options dialog. <code class="highlighter-rouge">Map Areas</code> still allows the classic navigation if clicking
-   outside the active zones. <a href="https://github.com/albar965/littlenavmap/issues/380">#380</a> and <a href="https://github.com/albar965/littlenavmap/issues/411">#411</a></li>
-     <li>Navigation aids like symbols, center cross and navigation areas for the above mentioned navigation
-   modes can be enabled in <code class="highlighter-rouge">Options</code> -&gt; <code class="highlighter-rouge">Map Display 2</code> -&gt; <code class="highlighter-rouge">Navigation Aids</code> in tree.</li>
-   </ul>
-   <h3 id="procedures">Procedures</h3>
-   <ul>
-     <li>Added custom, user defined final approaches made of final leg altitude and distance to threshold
-   which allows to see the approach path including ground, VASI and/or ILS slope in the elevation
-   profile. The custom approaches consist of an initial fix and a runway fix. <a href="https://github.com/albar965/littlenavmap/issues/307">#307</a></li>
-     <li>Fixed many procedure decoding and drawing issues: <a href="https://github.com/albar965/littlenavmap/issues/406">#406</a>, <a href="https://github.com/albar965/littlenavmap/issues/408">#408</a>, <a href="https://github.com/albar965/littlenavmap/issues/379">#379</a>, <a href="https://github.com/albar965/littlenavmap/issues/336">#336</a> and <a href="https://github.com/albar965/littlenavmap/issues/370">#370</a>
-       <ul>
-         <li>Fixed procedure drawing for course/heading to radial termination legs.</li>
-         <li>Fixed procedure issues with track from fix to DME distance legs and similar.</li>
-         <li>Removed unnecessary intercept instructions at course reversal procedures.</li>
-         <li>Fixes for display of manual procedure legs. Now connecting manual legs to next leg or airport
-   using a dotted line.</li>
-         <li>Now also drawing vector legs as dashed line.</li>
-         <li>Fixed display of SID that start with an initial fix. Now using vectors leg. Example: ENSG EVNA1F</li>
-         <li>Fixed issue where first course to fix procedure leg was missing intercept point.</li>
-         <li>Fixed procedure decoding which wrongly used the final endpoint fix altitude as a restriction.</li>
-       </ul>
-     </li>
-     <li>Fixed several issues with runways from simulator database having no <code class="highlighter-rouge">0</code> prefix.</li>
-     <li>Now removing all flight plan waypoints that overlap with procedure points when adding a new
-   procedure for an already calculated flight plan.</li>
-   </ul>
-   <h3 id="userpoints">Userpoints</h3>
-   <ul>
-     <li>Moved user point information out of information tab <code class="highlighter-rouge">Navaids</code> and added separate information tab
-   for user defined waypoints.</li>
-     <li>Custom userpoint icons now allow SVG, PNG, JPG and GIF image formats.</li>
-     <li>Added new default userpoint types VOR, VORDME, VORTAC, DME, TACAN, NDB and lighthouse.</li>
-     <li>Fixed crash and missing updates in information window when deleting userpoints.</li>
-   </ul>
-   <h3 id="aircraft-performance">Aircraft Performance</h3>
-   <p><a href="https://github.com/albar965/littlenavmap/issues/367">#367</a>, <a href="https://github.com/albar965/littlenavmap/issues/340">#340</a> and <a href="https://github.com/albar965/littlenavmap/issues/339">#339</a>.</p>
-   <ul>
-     <li>Removed manual option to collect performance and introduced background collection which is running
-   permanently now. Tab <code class="highlighter-rouge">Current Performance</code> in window <code class="highlighter-rouge">Flight Planning</code>.</li>
-     <li>New dialog for merging current performance at any time with collected aircraft performance or
-   another performance file. See menu <code class="highlighter-rouge">Aircraft</code> -&gt; <code class="highlighter-rouge">Merge Collected ...</code> and
-   menu <code class="highlighter-rouge">Aircraft</code> -&gt; <code class="highlighter-rouge">Open Aircraft Performance and merge ...</code></li>
-     <li>Added new tab <code class="highlighter-rouge">Current Performance</code> showing collected values.</li>
-     <li>Renamed tab <code class="highlighter-rouge">Aircraft Performance</code> to <code class="highlighter-rouge">Fuel Report</code>.</li>
-     <li>Function <code class="highlighter-rouge">New Aircraft Performance</code> shows edit dialog now to avoid confusion.</li>
-     <li>Aircraft performance dialog now allows to switch between US and metric units independent of
-   program settings.</li>
-     <li>Added alternate speed, alternate fuel flow, minimum runway length, runway type and usable fuel to
-   aircraft performance.</li>
-     <li>Tab <code class="highlighter-rouge">Fuel Report</code> shows a warning if usable fuel (new field) is not given.</li>
-     <li>Changed aircraft performance editing dialog and split page in three tabs.</li>
-     <li>Added aircraft state, required runway parameters and alternate fuel units to fuel report.</li>
-     <li>Improved aircraft performance display without flight plan. Now showing basic information about
-   aircraft like estimated range.</li>
-     <li>Aircraft performance now uses cruise altitude from flight plan tab to detect if aircraft is in
-   cruise state even if no flight plan is loaded.</li>
-     <li>Fuel calculation now considers fuel to farthest alternate and falls back to cruise fuel flow and
-   speed if values for alternate are not given.</li>
-     <li>Added more error and warning messages if performance settings have errors or missing values.</li>
-     <li>Now showing a warning if aircraft type does not match performance type.</li>
-     <li>Top of climb and top of descent are now calculated considering the manual or real (NOAA or X-Plane)
-   wind situation.</li>
-     <li>Fix for invalid <code class="highlighter-rouge">Cannot Comply with Altitude Restriction</code> message. <a href="https://github.com/albar965/littlenavmap/issues/417">#417</a></li>
-     <li>Fixed issue in fuel report where average wind and average groundspeed were calculated incorrectly.</li>
-     <li>More improvements and crash fixes.</li>
-   </ul>
-   <h3 id="search">Search</h3>
-   <ul>
-     <li>All keyboard shortcuts can now be used in search tabs from input fields or buttons. For example:
-   Enter an airport ICAO in the search field and press <code class="highlighter-rouge">Ctrl+M</code> to show the airport on top of the list
-   on the map.</li>
-     <li><code class="highlighter-rouge">Show in search</code> in map context menu now selects found items in search result table.</li>
-     <li>More fixes and improvements to menu and shortcuts.</li>
-   </ul>
-   <h3 id="webserver">Webserver</h3>
-   <p><a href="https://github.com/albar965/littlenavmap/issues/163">#163</a></p>
-   <ul>
-     <li>Added internal web server which can be started in menu <code class="highlighter-rouge">Tools</code>. This shows a web page which has
-   simple use cases for map display, aircraft progress and airport information with automatic refresh.
-   The page can be accessed from any computer, tablet or smartphone in the local network (you need to
-   adjust you router settings to access it from the internet).</li>
-     <li>Simple stateless protocol added to fetch map images and more. See directory <code class="highlighter-rouge">web/test.html</code> or
-   <code class="highlighter-rouge">http://localhost:8965/test.html</code> when running the webserver for examples.</li>
-     <li>Allowing HTTPS/SSL connections to internal web server. An example private and public key for
-   encrypted server connections is included.</li>
-     <li>Added configuration for web server in option dialog on page <code class="highlighter-rouge">Web Server</code>.</li>
-   </ul>
-   <h3 id="logbook">Logbook</h3>
-   <p><a href="https://github.com/albar965/littlenavmap/issues/346">#346</a></p>
-   <ul>
-     <li>Split logbook completely off from userpoints and added new format for entries.
-       <ul>
-         <li>New main menu <code class="highlighter-rouge">Logbook</code>.</li>
-         <li>Added own search tab including edit, delete and create facilities similar to userpoints.</li>
-         <li>Bulk edit for logbook entries available similar to userpoints.</li>
-         <li>Selected logbook entries are highlighted on the map showing great circle line connection
-   between departure and destination. Highlights have own tooltip.</li>
-         <li>Added separate logbook entry tab in information window.</li>
-         <li>CSV export and import as well as X-Plane logbook import (Prepar3D logbook format is not
-   open and therefore unusable).</li>
-         <li>Legacy logbook entries from the Little Navmap userpoint database can be converted to new
-   logbook entries. Entries are shown in search after import including detailed error report.</li>
-       </ul>
-     </li>
-     <li>Added dialog for logbook statistics with overview, various group queries as well as export
-   as CSV and formatted clipboard.</li>
-   </ul>
-   <h3 id="little-xpconnect--x-plane">Little Xpconnect / X-Plane</h3>
-   <ul>
-     <li>Added new X-Plane turboprop definitions to better recognize aircraft and fuel type.</li>
-     <li>Now using tail number from aircraft <code class="highlighter-rouge">.acf</code> file only if the tail number from the dataref is not set.
-   This helps to get the right tail number if add-on aircraft inject this manually using a script.</li>
-   </ul>
-   <h3 id="build-and-deployment-for-developers">Build and Deployment for Developers</h3>
-   <p><a href="https://github.com/albar965/littlenavmap/issues/387">#387</a></p>
-   <ul>
-     <li>Updated for Qt 5.12.5 for Linux 18.04 and Windows builds. Changed OpenSSL to 1.1.1.
-   Qt 5.9.8 remains for macOS and Linux 16.04 builds to keep compatibility with older OS versions.</li>
-     <li>Linux compilation now uses system OpenSSL again and is based on Ubuntu 18.04 and Ubuntu 16.04.</li>
-     <li>Added build for Travis CI. Thanks to Jannik for all his work!</li>
-     <li>Complete update of project files to allow configuration with environment variables. Removed all
-   hard coded paths.</li>
-     <li>Added documentation about environment variables to configure build and updated build instructions
-   in <code class="highlighter-rouge">BUILD.txt</code> and <code class="highlighter-rouge">littlenavmap.pro</code> files.</li>
-     <li>Added template for Linux desktop file. Explained usage of Linux desktop file in <code class="highlighter-rouge">README.txt</code>. <a href="https://github.com/albar965/littlenavmap/issues/378">#378</a></li>
-   </ul>
-   <h3 id="related-from-atools-version-344">related from atools version 3.4.4</h3>
-   <p>See <a href="https://github.com/albar965/atools/blob/release/3.4/CHANGELOG.txt">CHANGELOG.txt</a> in atools project for more technical details. Relevant comments were added to list above.</p>
-     </body>
+    <head><style type="text/css">code { background: #33808080; }</style></head>
+  <hr />
+  <p><strong>Direct download: <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-win-2.4.5.zip">Windows</a> - <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-macOS-2.4.5.zip">macOS</a> - <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-18.04-2.4.5.tar.gz">Linux (64 bit, based on Ubuntu 18.04)</a> - <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-16.04-2.4.5.tar.gz">Linux (64 bit, based on Ubuntu 16.04)</a></strong></p>
+  <p><strong>Alternative download locations: <a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa">Dropbox</a> - <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w">Mega.nz</a> - <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g">OneDrive</a></strong></p>
+  <p><a href="/littlenavmapscreens.html"><strong>► Screenshots</strong></a><br/>
+  <a href="/manuals.html"><strong>► Online Manuals</strong></a><br/>
+  <a href="/littlenavmap.html"><strong>► Features</strong></a></p>
+  <!-- ================================================================================================ -->
+  <h2 id="notes">Notes</h2>
+  <p>This release adds support for Prepar3D v5, Chinese user interface translation by John Liu, bug fixes for crashes and other small improvements.<br/>
+  Note that not all reported issues are fixed so far.<br/>
+  Most will be fixed in the next major update version 2.6 (2.5 is only internal) which I'm working on in parallel.</p>
+  <!-- ================================================================================================ -->
+  <h2 id="changes-from-release-244-to-245">Changes from Release 2.4.4 to 2.4.5</h2>
+  <p>See <a href="https://github.com/albar965/littlenavmap/blob/release/2.4/CHANGELOG.txt">CHANGELOG.txt</a> in littlenavmap project for changes across all versions.</p>
+  <h3 id="p3d-v5">Prepar3D v5</h3>
+  <p><a href="https://github.com/albar965/littlenavmap/issues/512">#512</a></p>
+  <ul>
+  <li>Added P3D v5 to simulator detection.</li>
+  <li>Adapted loading of BGL files to P3D v5 structure changes and added new records as well as new COM and other types.</li>
+  <li>Enabled loading of add-on packages from <code>%USERPROFILE%\Documents\Prepar3D v5 Add-ons</code>.</li>
+  </ul>
+  <h3 id="fixed-crashes-and-other-errors">Fixed Crashes and other Errors</h3>
+  <ul>
+  <li>Fixed crash to desktop when adding an approach after a list of user defined waypoints. <a href="https://github.com/albar965/littlenavmap/issues/500">#500</a></li>
+  <li>Fixed error reporting in wind download and decoding. Program does not crash to desktop if wind download has errors. <a href="https://github.com/albar965/littlenavmap/issues/480">#480</a></li>
+  <li>Now limiting weather display to the 10 most important/biggest airports if connected via network or SimConnect to P3D/FSX. This minimizes map stutters when scrolling or zooming. <a href="https://github.com/albar965/littlenavmap/issues/497">#497</a> Disable display of airport weather symbols if stutters still appear:
+  <ul>
+  <li>Menu <code>Weather</code> -&gt; <code>Airport Weather Source</code>: Select anything but <code>Simulator</code>.</li>
+  <li>Or menu <code>View</code>: Disable <code>Show Airport Weather</code>.</li>
+  </ul></li>
+  <li>Fixed crash when entering an invalid ICAO in web interface for airport information. <a href="https://github.com/albar965/littlenavmap/issues/491">#491</a></li>
+  <li>Fixed wrong handling of <code>Options/RenderOpt</code> setting in <code>little_navmap.ini</code>.</li>
+  <li>Corrected encoding when exporting flightplan as HTML page.</li>
+  </ul>
+  <h3>User Interface:</h3>
+  <ul>
+  <li>Fixed spelling and typos in user interface.</li>
+  <li>Small UI changes in connection dialog for more clarity.</li>
+  <li>Added word wrap to avoid dialogs growing too large in user interface.</li>
+  <li>Better display on mobile devices for webserver.</li>
+  <li>Updated German legend.</li>
+  </ul>
+  <h3 id="build-and-deployment-for-developers">Build and Deployment for Developers</h3>
+  <ul>
+  <li>Added option to include common <code>../build_options.pro</code> file with defines for qmake. File is included automatically if it exists.</li>
+  </ul>
+  <h3 id="related-from-atools-version-346">related from atools version 3.4.6</h3>
+  <p>See <a href="https://github.com/albar965/atools/blob/release/3.4/CHANGELOG.txt">CHANGELOG.txt</a> in atools project for more technical details. Relevant comments were added to list above.</p>
+  <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
+  </body>
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------

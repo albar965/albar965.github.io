@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2019-10-18 10:00:00 +0200
+date:   2020-04-25 16:00:00 +0200
 ---
 
 # Alex' Projects
@@ -108,7 +108,7 @@ Display of clients and centers of VATSIM, IVAO, PilotEdge and custom online netw
 _Little Navmap_ features its own internal web server which allows to follow aircraft progress from any device.
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
-Prepar3D v2, v3, v4 and X-Plane 11.
+Prepar3D v2, v3, v4, v5 and X-Plane 11.
 
 **Supported platforms:** Windows 7/8/10, Apple macOS \(10.10 or newer only\) and Linux \(64 bit only\).
 
@@ -124,7 +124,7 @@ simulator. This allows to use *Little Navmap*
 on Linux or Apple macOS and saves the the pain of setting up remote SimConnect links for FSX or Prepar3D.
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
-Prepar3D v2, v3, v4 and X-Plane 11.
+Prepar3D v2, v3, v4, v5 and X-Plane 11.
 
 **Supported platforms:** Windows 7/8/10, Apple macOS and Linux \(64 bit\).
 
