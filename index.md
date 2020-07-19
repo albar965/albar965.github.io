@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2020-07-19 11:00:00 +0200
+date:   2020-07-19 11:20:00 +0200
 ---
 
 # Alex' Projects
@@ -24,13 +24,12 @@ date:   2020-07-19 11:00:00 +0200
 
 ## Links {#links}
 
-**► Download _Little Navmap_: [Windows](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-win-2.4.5.zip) - [macOS](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-macOS-2.4.5.zip) - [Linux \(64 bit, based on Ubuntu 18.04\)](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-18.04-2.4.5.tar.gz) - [Linux \(64 bit, based on Ubuntu 16.04\)](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-16.04-2.4.5.tar.gz)** - Alternative download locations: [Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa) -
-[Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w) -
-[OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)
+**► Download _Little Navmap_: [Windows](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-win-2.4.5.zip) - [macOS](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-macOS-2.4.5.zip)** - [**Linux** \(64 bit, based on Ubuntu 18.04\)](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-18.04-2.4.5.tar.gz) - [Linux \(64 bit, based on Ubuntu 16.04\)](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-16.04-2.4.5.tar.gz) - Alternative download locations: [Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa) -
+[Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w) - [OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)
 
 [**► Other Downloads** (SimConnect, Aircraft Performance and more)](https://www.littlenavmap.org/downloads)
 
-[**► User manuals for _Little Navmap_ and _Little Navconnect_ in all formats and languages.**](/manuals.html)
+[**► User manuals for _Little Navmap_ and _Little Navconnect_ in different formats and languages**](/manuals.html)
 
 ----
 
