@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2020-04-25 16:00:00 +0200
+date:   2020-07-19 11:00:00 +0200
 ---
 
 # Alex' Projects
@@ -24,24 +24,34 @@ date:   2020-04-25 16:00:00 +0200
 
 ## Links {#links}
 
+**► Download _Little Navmap_: [Windows](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-win-2.4.5.zip) - [macOS](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-macOS-2.4.5.zip) - [Linux \(64 bit, based on Ubuntu 18.04\)](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-18.04-2.4.5.tar.gz) - [Linux \(64 bit, based on Ubuntu 16.04\)](https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-16.04-2.4.5.tar.gz)** - Alternative download locations: [Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa) -
+[Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w) -
+[OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)
+
+[**► Other Downloads** (SimConnect, Aircraft Performance and more)](https://www.littlenavmap.org/downloads)
+
+[**► User manuals for _Little Navmap_ and _Little Navconnect_ in all formats and languages.**](/manuals.html)
+
+----
+
 <a href="alex AT littlenavmap DOT org"
    rel="nofollow"
    onclick="this.href='mailto:' + 'alex' + '@' + 'little' + 'nav' + 'map' + '.' + 'org'"
    onmouseleave="this.href='alex AT littlenavmap DOT org'"><span class="bold">► Contact me by email (English / Deutsch)</span></a>
 
-[**► User manuals for _Little Navmap_ and _Little Navconnect_ in all formats and languages.**](/manuals.html)
+[**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) **Support and help for users.**
 
-[**► Support Forum at Avsim**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) **Support and help for users.**
+[**► _Little Navmap_ - Frequently asked Questions**](littlenavmap-faq.html) <!--[**► Oft gestellte Fragen**](littlenavmap-faq_de.html)-->
 
-[**► Little Navmap - Frequently asked Questions**](littlenavmap-faq.html) <!--[**► Oft gestellte Fragen**](littlenavmap-faq_de.html)-->
+[**► _Little Navmap_ - Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
-[**► Little Navmap - Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
-
-[**► Little Navmap Downloads**](https://www.littlenavmap.org/downloads)
+----
 
 [**► GitHub Profile**](https://github.com/albar965) All my projects, releases, source code, issue lists and more.
 
 [**► About Translation Packages**](littlenavmaptranslations.html) General information about translation packages.
+
+----
 
 [**► Donations / Spenden**](donate.html)
 
