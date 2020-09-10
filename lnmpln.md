@@ -10,4 +10,4 @@ date:   2020-08-16 16:00:00 +0200
 
 [See Online Manual](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html#flight-plan-file-format)
 
-[XML Schema](https://www.littlenavmap.org/schema/lnmperf.xsd)
+[XML Schema](https://www.littlenavmap.org/schema/lnmpln.xsd)
