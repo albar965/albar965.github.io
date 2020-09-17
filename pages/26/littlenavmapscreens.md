@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Screenshots of new 2.6 Features"
-date:   2020-09-19 12:00:00 +0200
+date:   2020-09-17 09:00:00 +0200
 ---
 [Alex’ Projects](/index.html)
 ►  [Little Navmap 2.6.0.beta released](/release/2020/09/19/littlenavmap-beta-260-released.html)

@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap and Little Navconnect Manuals for 2.6 Versions"
-date:   2020-09-19 10:00:00 +0200
+date:   2020-09-17 09:00:00 +0200
 ---
 
 [Alex’ Projects](/index.html)
