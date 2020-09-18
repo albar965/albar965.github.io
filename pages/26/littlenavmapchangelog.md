@@ -5,7 +5,7 @@ date:   2020-09-17 09:00:00 +0200
 ---
 
 [Alex’ Projects](/index.html)
-►  [Little Navmap 2.6.0.beta released](/release/2020/09/19/littlenavmap-beta-260-released.html)
+►  [Little Navmap 2.6.0.beta released](/release/2020/09/18/littlenavmap-beta-260-released.html)
 ► Changelog for 2.6 Versions
 
 # Version 2.6.0.beta
