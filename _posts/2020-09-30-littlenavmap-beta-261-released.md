@@ -19,6 +19,12 @@ categories: release
 
 **Please do not hesitate to let me know about bugs, inconsistencies and ideas for improvement.**
 
+## Hotfix for the broken offline maps
+
+For all operating systems. Includes a missing plugin to repair the offline map themes.
+
+[**► LittleNavmap-2.6.1.beta-offlinemap-hotfix.zip**](https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-2.6.1.beta-offlinemap-hotfix.zip)
+
 ## Important for MSFS Users
 
 * Remove the MSFS Community folder from the ignore list in *Little Navmap*, `Options`, page `Scenery Library Database`
