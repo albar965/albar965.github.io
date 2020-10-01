@@ -5,11 +5,7 @@ date:   2020-09-30 14:00:00 +0200
 categories: release
 ---
 
-**Direct download: [Windows](https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-win-2.6.1.beta.zip) - [macOS](https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-macOS-2.6.1.beta.zip) - [Linux \(64 bit, based on Ubuntu 20.04\)](https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-linux-20.04-2.6.1.beta.tar.gz) - [Linux \(64 bit, based on Ubuntu 16.04\)](https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-linux-16.04-2.6.1.beta.tar.gz)**
-
-**Alternative download locations: [Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa) -
-[Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w) -
-[OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)**
+## Links
 
 [**► Detailed Changelog for previous Version 2.6.0.beta**](/pages/26/littlenavmapchangelog.html)
 
@@ -17,13 +13,31 @@ categories: release
 
 [**► Little Navmap and Little Navconnect Draft Manuals for 2.6 Versions**](/pages/26/littlenavmapmanuals.html)
 
-**Please do not hesitate to let me know about bugs, inconsistencies and ideas for improvement.**
+### Direct Download
 
-## Hotfix for the broken offline maps
+[**► Windows** - LittleNavmap-win-2.6.1.beta.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-win-2.6.1.beta.zip)
+
+[**► macOS** - LittleNavmap-macOS-2.6.1.beta.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-macOS-2.6.1.beta.zip)
+
+[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-2.6.1.beta.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/
+LittleNavmap-linux-20.04-2.6.1.beta.tar.gz)
+
+[**► Linux \(64 bit, based on Ubuntu 16.04\)** - LittleNavmap-linux-16.04-2.6.1.beta.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-linux-16.04-2.6.1.beta.tar.gz)
+
+### Alternative Download Locations
+
+[**► Dropbox**](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa)
+
+[**► Mega.nz**](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w)
+
+[**► OneDrive**](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)
+
+### Hotfix for the broken Offline Map Themes
 
 For all operating systems. Includes a missing plugin to repair the offline map themes.
 
 [**► LittleNavmap-2.6.1.beta-offlinemap-hotfix.zip**](https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-2.6.1.beta-offlinemap-hotfix.zip)
+
 
 ## Important for MSFS Users
 
@@ -42,6 +56,8 @@ For all operating systems. Includes a missing plugin to repair the offline map t
   Ask in the [Avsim forum](https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum/) if you have questions.
 
 ## Known Issues
+
+**Please do not hesitate to let me know about bugs, inconsistencies and ideas for improvement.**
 
 ### MSFS
 
