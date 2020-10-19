@@ -65,30 +65,35 @@ changelog=
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
-version=2.6.1.beta
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-win-2.6.1.beta.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-macOS-2.6.1.beta.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-linux-20.04-2.6.1.beta.tar.gz
+version=2.6.2.beta
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.2.beta/LittleNavmap-win-2.6.2.beta.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.2.beta/LittleNavmap-macOS-2.6.2.beta.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.2.beta/LittleNavmap-linux-20.04-2.6.2.beta.tar.gz
 changelog=
-  <body>
-    <head><style type="text/css">code { background: #33808080; }</style></head>
-  <hr />
-  <p><strong>Direct download: <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-win-2.6.1.beta.zip">Windows</a> - <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-macOS-2.6.1.beta.zip">macOS</a> - <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-linux-20.04-2.6.1.beta.tar.gz">Linux (64 bit, based on Ubuntu 20.04)</a> - <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.1.beta/LittleNavmap-linux-16.04-2.6.1.beta.tar.gz">Linux (64 bit, based on Ubuntu 16.04)</a></strong></p>
-  <p><strong>Alternative download locations: <a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa">Dropbox</a> - <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w">Mega.nz</a> - <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g">OneDrive</a></strong></p>
-  <p><a href="https://albar965.github.io/pages/26/littlenavmapchangelog.html"><strong>► Detailed Changelog for previous Version 2.6.0.beta</strong></a></p>
-  <p><a href="https://albar965.github.io/pages/26/littlenavmapscreens.html"><strong>► Screenshots of new 2.6 Features</strong></a></p>
-  <p><a href="https://albar965.github.io/pages/26/littlenavmapmanuals.html"><strong>► Little Navmap and Little Navconnect Draft Manuals for 2.6 Versions</strong></a></p>
-  <p><strong>Please do not hesitate to let me know about bugs, inconsistencies and ideas for improvement.</strong></p>
+  <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
+  <h2 id="links">Links</h2>
+  <p><a href="https://albar965.github.io/pages/26/littlenavmapchangelog.html"><strong>► Detailed Changelog for previous major update 2.6.0.beta</strong></a><br/>
+     <a href="https://albar965.github.io/pages/26/littlenavmapscreens.html"><strong>► Screenshots of new 2.6 Features</strong></a><br/>
+     <a href="https://albar965.github.io/pages/26/littlenavmapmanuals.html"><strong>► Little Navmap and Little Navconnect Draft Manuals for 2.6 Versions</strong></a></p>
+  <h3 id="direct-download">Direct Download</h3>
+  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.2.beta/LittleNavmap-win-2.6.2.beta.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.2.beta.zip</a><br/>
+     <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.2.beta/LittleNavmap-macOS-2.6.2.beta.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.2.beta.zip</a><br/>
+     <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.2.beta/LittleNavmap-linux-20.04-2.6.2.beta.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.2.beta.tar.gz</a><br/>
+     <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.2.beta/LittleNavmap-linux-16.04-2.6.2.beta.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 16.04)</strong> - LittleNavmap-linux-16.04-2.6.2.beta.tar.gz</a></p>
+  <h3 id="alternative-download-locations">Alternative Download Locations</h3>
+  <p><a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa"><strong>► Dropbox</strong></a><br/>
+     <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w"><strong>► Mega.nz</strong></a><br/>
+     <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g"><strong>► OneDrive</strong></a></p>
+  <h2 id="important">Important</h2>
+  <ul>
+  <li>All multiexport options now reset back to default due to internal format changes.</li>
+  <li>The hotfix for the broken offline maps is not needed anymore.</li>
+  </ul>
   <h2 id="important-for-msfs-users">Important for MSFS Users</h2>
   <ul>
-  <li>Remove the MSFS Community folder from the ignore list in <em>Little Navmap</em>, <code>Options</code>, page <code>Scenery Library Database</code> if you added it. The exclusion to avoid the crash is not needed anymore.</li>
+  <li>Remove the MSFS Community folder from the ignore list in <em>Little Navmap</em>, <code>Options</code>, page <code>Scenery Library Database</code> if you added it with <em>Little Navmap</em> 2.6.0.beta. The exclusion to avoid the crash is not needed anymore.</li>
   <li>Update to the latest beta Navigraph navdata update for MSFS if you use it.</li>
   <li>Reload the scenery library if you use MSFS.</li>
-  </ul>
-  <h2 id="limitations">Limitations</h2>
-  <ul>
-  <li>Translations are not updated yet. The user interface might be a mix of your local language and English. Map legend not updated. Feel free to send me an email or ask in the <a href="https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum/">Avsim forum</a> if you like to contribute a translation of the program or the manual.</li>
-  <li>The online and offline manuals are not updated yet. Neither the English nor the translated versions. Help buttons and links are functional but point to placeholder pages. Map legend not updated. Ask in the <a href="https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum/">Avsim forum</a> if you have questions.</li>
   </ul>
   <h2 id="known-issues">Known Issues</h2>
   <h3 id="msfs">MSFS</h3>
@@ -96,11 +101,8 @@ changelog=
   <li><em>Little Navmap</em> cannot read SID and STAR from MSFS. Documentation about MSFS format changes are needed in SDK.</li>
   <li>MSFS multiplayer and real-time AI cannot be displayed. Needs SDK updates or more documentation.</li>
   <li>Simulator weather cannot be shown for MSFS since SimConnect weather functions are deprecated and do not deliver data. Needs update or documentation in MSFS SDK. Use NOAA weather which gives you the most up-to-date weather reports.</li>
-  <li>MSFS has no clear concept of scenery order as far as I can see (<code>Content.xml</code> seems unreliable)
-  and there is no information in the SDK. Add-ons are loaded by alphabetical order by <em>Little Navmap</em>.
-  To put an add-on to the end of the loading list add a <code>z_</code> to the folder name, for example.</li>
-  <li>Flight plan loading in MSFS is flawed and does not produce any error messages if it fails. Quite
-  often MSFS cannot load its own plans correctly.</li>
+  <li>MSFS has no clear concept of scenery order as far as I can see (<code>Content.xml</code> seems unreliable) and there is no information in the SDK. Add-ons are loaded by alphabetical order by <em>Little Navmap</em>. To put an add-on to the end of the loading list add a <code>z_</code> to the folder name, for example.</li>
+  <li>Flight plan loading in MSFS is flawed and does not produce any error messages if it fails. Quite often MSFS cannot load its own plans correctly.</li>
   <li>Country names are missing in MSFS translation tables and are not available in <em>Little Navmap</em>, therefore.</li>
   <li>Add-ons using the <code>.fsarchive</code> encrypted format are not supported and most likely never will.</li>
   </ul>
@@ -109,56 +111,115 @@ changelog=
   <li>Dock window layout in <em>Little Navmap</em> can change when resizing or maximizing window and back. Qt limitation.</li>
   <li>Window is restored in normal state when changing from a maximized window to fullscreen and back. This is a Qt limitation.</li>
   <li>The window layout might not be restored precisely on startup in some cases. This is a limitation in the used Qt library.</li>
-  <li>The height of the elevation profile window cannot be reduced in some cases. Rearrange or move the elevation profile window to another position which usually solves this. Save the layout once you have a working one. This is a limitation in the used Qt library.</li>
+  <li>The flight plan calculation might pop up shortly when starting the program. Simply ignore this.</li>
+  <li>The height of the elevation profile window cannot be reduced in some cases. Reset to default window layout which fixes this. Rearrange or move the elevation profile window to another position which usually solves this. Save the layout once you have a working one. This is a limitation in the used Qt library.</li>
   <li>Zooming with touchpad or magic mouse does not work properly on macOS. Use the navigation overlay or one of the other options on page <code>Map Navigation</code> in <code>Options</code> if you think it is unusable. This is a limitation in the used Qt library.</li>
-  <li>Program hangs on macOS Big Sur. Investigating.</li>
+  <li>Program hangs on macOS Big Sur beta. Investigating.</li>
   </ul>
   <h3 id="going-back-to-stable-little-navmap-245-after-trying-the-beta">Going back to stable <em>Little Navmap</em> 2.4.5 after trying the beta</h3>
-  <p>The scenery databases of the new beta versions are not compatible with <em>Little Navmap</em> 2.4.5. Delete the databases files from the settings folder of <em>Little Navmap</em> if you see crashes and exceptions containing messages like <code>no such column</code>. You can find information about the folder and the files here in the documentation: <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html#databases">Databases</a>.</p>
+  <p>The scenery databases of the new beta versions are not compatible with <em>Little Navmap</em> 2.4.5. Delete the databases files from the settings folder of <em>Little Navmap</em> if you see crashes and exceptions containing messages like <code>no such column</code>. You can find information about the folder and the files here in the online documentation in chapter <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html#databases">Databases</a>.</p>
   <p>You can safely delete the following files since they can be created again by reloading the scenery library:</p>
   <p><code>little_navmap_fsx.sqlite</code>, <code>little_navmap_fsxse.sqlite</code>, <code>little_navmap_p3dv2.sqlite</code>, <code>little_navmap_p3dv3.sqlite</code>, <code>little_navmap_p3dv4.sqlite</code>, <code>little_navmap_msfs.sqlite</code> and <code>little_navmap_xp11.sqlite</code></p>
-  <h2 id="changes-from-release-260beta-to-261beta">Changes from Release 2.6.0.beta to 2.6.1.beta</h2>
-  <h3 id="msfs-1">MSFS</h3>
+  <p><strong>Do not delete any other databases which contain userpoints and the logbook entries, for example.</strong></p>
+  <h2 id="changes-from-release-261beta-to-262beta">Changes from Release 2.6.1.beta to 2.6.2.beta</h2>
+  <h3 id="translations">Translations</h3>
   <ul>
-  <li>Fixed issue with <code>NOT NULL constraint failed:tmp_waypoint.ident Unable to fetch...</code> caused by incomplete waypoints emitted by MSFS BGL compiler. Navaids with empty names are now ignored and printed into the log with BGL file name. Do not forget to remove the community folder from exclusion list in <em>Little Navmap</em>.</li>
-  <li>AI aircraft names are now correctly shown instead of the user aircraft name for all AI.</li>
-  <li>Fix for update issues where wrong aircraft positions are emitted while user is in MSFS menu. These caused <em>Little Navmap</em> jumping back to the old position and wrong progress updates. Now omitting wrong positions with an invalid state like no groundspeed and position 0/0.</li>
-  <li>Exporting MSFS flightplan now reverts type to <code>Direct</code> if using VFR to avoid MSFS changing plan to IFR.</li>
-  <li>MSFS exported flight plans now have special characters like umlauts or accents replaced or removed. Note that MSFS cannot load flightplans that have special characters in the filename or path.</li>
-  <li>Localizer heading for MSFS now saved correctly in scenery database.</li>
-  <li>Fixed issues where the default instead of changed simulator paths were used in some dialog windows.</li>
-  <li>Changed default MSFS Steam flight plan path to base folder <code>Microsoft Flight Simulator</code> (<code>LocalState</code> on MS installations).</li>
-  <li>Also looking in <code>...\Official\OneStore</code> and <code>...\Official\Steam</code> folders for purchased add-ons now. These are added with add-on flag to the database and are shown italic and underlined on the map.</li>
-  <li>Updating administrative names like city in airports now. This also corrects missing city and airport names for the Navigraph navdata update.</li>
-  <li>Adapted to Navigraph navdata update 12 for MSFS. <em>Little Navmap</em> only reads required features which are: Airports, COM and ILS. Everything else is ignored and not needed since it can be updated with a more complete dataset by Navigraph directly for <em>Little Navmap</em>.</li>
-  <li>Corrected ILS course for Navigraph update in simulator. Slight variations like for EDDM remain.</li>
+  <li>Italian user interface translation completed. Thanks to Flavio for his work!</li>
+  <li>German program translation completed.</li>
+  <li>Other translations are work in progress.</li>
   </ul>
-  <h3 id="other-1">Other</h3>
+  <p><strong>Note that you can change the user interface language in the options dialog on page <code>User interface</code>.</strong></p>
+  <h3 id="scenery-library">Scenery Library</h3>
   <ul>
-  <li>Added option to restore window layout from last loaded file on startup. This is the file on top of the <code>Recent Window Layouts</code> menu. See options dialog on page <code>Startup</code>.</li>
-  <li>Improved handling of dock window layout. Now applying dock state after window shown. This might cause a small visible layout change after loading but solves issues when restoring the layout.</li>
-  <li>Fixed issue where layout of maximized windows was not restored properly.</li>
-  <li>Fix for blinking aircraft when updating weather over SimConnect. This affected FSX, P3D and MSFS.</li>
-  <li>Better sensitivity and handling for zooming when using touchpad (better, yet limited on macOS).</li>
-  <li>Compass rose settings are now saved again from <code>Options</code> on page <code>Map Display 2</code>.</li>
-  <li>Fixed issue where magnetic declination was not created correctly for locale which do not have a dot as decimal separator. Declination was 20 degrees off near VORDME STN in X-Plane, for example. #564</li>
-  <li>Updated to world magnetic model 2020. This will be used to calculate X-Plane declination when loading the scenery database or as a fallback if the file <code>magdec.bgl</code> is not available.</li>
-  <li>Changed drawing of online airspaces for better visibility. Add center circle.</li>
-  <li>Fixed issue with long route legs causing garbled elevation display when using online elevation.</li>
-  <li>Removed unused Marble OsmPlugin, Pn2 and Pnt Plugins.</li>
-  <li>Added error message when trying to load missing KML file.</li>
-  <li>Corrected route calculation to allow calculation of selected between last leg of a SID and first leg of an arrival procedure.</li>
-  <li>Fixed issue where procedures disappeared with low detail settings.</li>
-  <li>Clean up of user interface in flight plan calculation dock window to avoid window resizes due to error messages.</li>
-  <li>Fixed error <code>Bind name "flightplan" does not exist</code> when importing logfiles from CSV or X-Plane.</li>
-  <li>Display of time to next waypoint and fuel at next waypoint in progress tab corrected.</li>
-  <li>Added new columns for distance flown and more to logbook search table.</li>
-  <li>Fixed issue where NOAA weather was not updated despite showing download message.</li>
+  <li>Now checking for all paths <code>Community</code>, <code>fs-base</code> and <code>fs-base-nav</code> before recognizing a MSFS installation as valid. This should help to avoid detection issues with remains from previous or other installations. * Airports in folders prefixed with <code>asobo-airports-</code> in <code>Official\Steam</code> or <code>Official\OneStore</code> are now flagged as add-ons.</li>
+  <li>Fixed issue where program could appear frozen while counting files before loading scenery.</li>
+  <li>Fixed detection for military airports in MSFS and extended detection with international phrases like <code>Militärflugplatz</code>.</li>
+  <li>Now capitalizing all airport names for FSX, P3D and MSFS to fix wrong designators like <code>Afb</code>.</li>
+  <li>Added checking for database file modifications outside application now. Showing a warning dialog if changes are detected. This should make clear that <em>Little Navmap</em> has to be closed before updating databases.</li>
   </ul>
-  <p><strong>See the included <code>CHANGELOG.txt</code> or <a href="https://github.com/albar965/littlenavmap/blob/release/2.6/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
-  <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
-  <hr/>
-  <p><strong>Previous beta announcement: <a href="https://albar965.github.io/release/2020/09/18/littlenavmap-beta-260-released.html">Little Navmap 2.6.0.beta released</a>.</strong><br/><br/></p>
+  <h3 id="map-display">Map Display</h3>
+  <ul>
+  <li>Changed <code>force add-on</code> airport display functionality completely. Now keeping add-ons airports visible on map independent of zoom level if this option is selected in the toolbar or the menu <code>View</code> -&gt; <code>Airports</code> -&gt; <code>Force Show Add-on Airports</code>. Add-on airports are now shown highlighted with a yellow ring per default. Add-on highlighting can be disabled in options dialog on page <code>Map Display</code>. The colors can be adjusted in the configuration file <code>little_navmap_mapstyle.ini</code>.</li>
+  <li>Changed display when increasing or decreasing detail level on map. Now also scaling icons, texts and other map object features. Detail level can now be used to show airport diagram earlier.</li>
+  <li>Flight plan waypoints are now shown with higher detail level which results in more text and larger symbols. Flight plan display is now also affected by detail level changes.</li>
+  <li>Resetting label options for flight plan line (options dialog on page <code>Map Display 2</code> tree element <code>Flight Plan</code>) on first start to distance and magnetic course since course was switched off in some cases.</li>
+  <li>Increased map details for certain zoom factors. Certain navaids are now shown earlier as small triangles (waypoint), rectangles (VOR) or points (NDB) symbols depending on zoom.</li>
+  <li>Fixed issue where context menu was all disabled if shown by menu key and mouse not over map.</li>
+  <li>Fixed handling of map overflow when showing the maximum number of objects on the map. User now gets a warning <code>Too Many Objects</code> in the status bar if a result exceeds the limit. This is needed to avoid program freeze situations. This fixes the half filled map without warning message.</li>
+  <li>Added missing shared library file back to fix the broken offline map themes. The hotfix is not needed anymore.</li>
+  <li>Fixed issue where waypoints were queried from the database with tracks not loaded. This slowed down map rendering significantly.</li>
+  <li>Fixed issue where context menu item to select parking was disabled on departure airport.</li>
+  <li>Added option to enable or disable AI and user aircraft background text fill. AI/multiplayer and user aircraft label colors are now configurable in <code>little_navmap_mapstyle.ini</code>.</li>
+  <li>Fixed issue where ghost tooltips were displayed for missed approaches.</li>
+  <li>Added option to show indicated altitude at user aircraft label on map. This is now the default altitude shown in the label. This can be changed in options on page <code>Map Display 2</code> in the tree on the right at <code>User Aircraft</code>.</li>
+  <li>The elevation profile now uses indicated altitude for aircraft position to avoid discrepancies in display when flying at flight levels.</li>
+  <li>The map is now also centered and updated with disabled aircraft display. The active leg (magenta line) is now correctly updated on the map and elevation profile in this case.</li>
+  <li>Other display improvements.</li>
+  </ul>
+  <h3 id="weather">Weather</h3>
+  <ul>
+  <li>Fixed issue with NOAA weather downloads where a missing internet connection or wrong web address flooded the log and caused the program to crash. Now applying a grace period of three minutes after an error which blocks new downloads for METAR requests. Online weather is updated every ten minutes.</li>
+  </ul>
+  <h3 id="flight-plan">Flight Plan</h3>
+  <ul>
+  <li>Added option to extract flight plan for selected plan range and save it into a new file. Select a range of flight plan legs not touching alternates or procedures. Then right click into the table and choose <code>Save selected Range as Flight Plan</code>. This will not replace the current plan but add the saved file to the recent files list.</li>
+  <li>Fixed crash while calculating elevation profile with cruise altitude below destination airport elevation.</li>
+  <li>Corrected wrong distance calculation for an approach where a course intercept leg follows an initial fix. Example EGPB LOC FF09 via D244L.</li>
+  </ul>
+  <h3 id="export">Export</h3>
+  <ul>
+  <li>Export paths now remain unchanged when switching simulator after first initialization. Paths can still be adapted to the currently selected simulator by using reset.</li>
+  <li>Now ignoring MSFS path for FSX and P3D aircraft. Best guess for export paths improved.</li>
+  <li>Added descriptions with more details in tooltip for multiexport dialog.</li>
+  <li>Added native LNMPLN flight plan format to multiexport. Note that using this option will clear the change flag (the <code>*</code> in the window title plus further question dialogs asking to save file). It will also set the current filename to the exported file name. Furthermore, it will add the filename to the recent files list. This way the LNMPLN export option behaves exactly as if the user called <code>Save</code> or <code>Save as</code>.</li>
+  <li>Now stopping export and showing warning dialog if one or more paths are invalid instead of silently ignoring the error.</li>
+  <li>Removed Garmin export option for waypoints from options dialog. Added new entries in multiexport dialog instead.</li>
+  <li>X-Plane FMS export file name now using a dash in file name for better readability.</li>
+  <li>Changed default F1 GTN export path to <code>F1TGTN</code>.</li>
+  <li>Small improvements and several fixes in multiexport configuration dialog and context menu. Fixed missing update (not switching to bold font) of table when checking for export.</li>
+  <li>Airac cycle was not correctly applied in some cases and resulted in using the current month and warnings in X-Plane.</li>
+  </ul>
+  <h3 id="user-interface">User Interface</h3>
+  <ul>
+  <li>Changed default window layout to one where dock windows <code>Search</code> and <code>Simulator Aircraft</code> are merged into a tabbed view. This avoids the frozen (not resizable) elevation profile window. Look for the tabs <code>Search</code> and <code>Simulator Aircraft</code> on the lower right side of the main window.</li>
+  <li>Removed wrong rounding to nearest 0.025 MHz for COM frequencies.</li>
+  <li>Added source indicator for COM frequencies in information window. Either <code>Navigraph</code> or <code>Simulator</code> depending on scenery library selection.</li>
+  <li>Now showing add-on and closed airports throughout the whole program in italic underline and strikeout respectively.</li>
+  <li>Route description dialog now properly updates result list in macOS when using interface style <code>macintosh</code>.</li>
+  <li>Fixed issue where fuel report remained active but was not updated due to failed top of descent calculation. Now clearing window and showing orange warning message if this is the case.</li>
+  <li>Now showing an excerpt of the waypoint remarks in the next waypoint section of the progress display.</li>
+  <li>Added calculated altitude for next waypoint to aircraft progress display.</li>
+  <li>Added link to download section to the help menu.</li>
+  <li>Now showing ice and condition column in progress only if not equal to none.</li>
+  <li>Further user interface improvements and fixes.</li>
+  </ul>
+   <p><strong>See the included <code>CHANGELOG.txt</code> or <a href="https://github.com/albar965/littlenavmap/blob/release/2.6/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
+   <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
