@@ -60,6 +60,19 @@ categories: release
 * The height of the elevation profile window cannot be reduced in some cases. Reset to default window layout which fixes this. Rearrange or move the elevation profile window to another position which usually solves this. Save the layout once you have a working one. This is a limitation in the used Qt library.
 * Zooming with touchpad or magic mouse does not work properly on macOS. Use the navigation overlay or one of the other options on page `Map Navigation` in `Options` if you think it is unusable. This is a limitation in the used Qt library.
 
+### Going back to stable _Little Navmap_ 2.4.5 after trying the beta
+
+The scenery databases of the new beta versions are not compatible with _Little Navmap_ 2.4.5. Delete
+the databases files from the settings folder of _Little Navmap_ if you see crashes and exceptions
+containing messages like `no such column`. You can find information  about the folder and the files
+here in the online documentation in chapter [Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html#databases).
+
+You can safely delete the following files since they can be created again by reloading the scenery library:
+
+`little_navmap_fsx.sqlite`, `little_navmap_fsxse.sqlite`, `little_navmap_p3dv2.sqlite`, `little_navmap_p3dv3.sqlite`, `little_navmap_p3dv4.sqlite`, `little_navmap_msfs.sqlite` and `little_navmap_xp11.sqlite`
+
+**Do not delete any other databases which contain userpoints and the logbook entries, for example.**
+
 ## Changes from Release 2.6.2.beta to 2.6.3.beta
 
 ### Translations
