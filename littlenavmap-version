@@ -65,10 +65,10 @@ changelog=
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
-version=2.6.3.beta
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.3.beta/LittleNavmap-win-2.6.3.beta.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.3.beta/LittleNavmap-macOS-2.6.3.beta.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.3.beta/LittleNavmap-linux-20.04-2.6.3.beta.tar.gz
+version=2.6.4.beta
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.4.beta/LittleNavmap-win-2.6.4.beta.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.4.beta/LittleNavmap-macOS-2.6.4.beta.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.4.beta/LittleNavmap-linux-20.04-2.6.4.beta.tar.gz
 changelog=
   <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
   <h2 id="links">Links</h2>
@@ -76,10 +76,10 @@ changelog=
   <a href="https://albar965.github.io/pages/26/littlenavmapscreens.html"><strong>► Screenshots of new 2.6 Features</strong></a><br/>
   <a href="https://albar965.github.io/pages/26/littlenavmapmanuals.html"><strong>► Little Navmap and Little Navconnect Draft Manuals for 2.6 Versions</strong></a></p>
   <h3 id="direct-download">Direct Download</h3>
-  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.3.beta/LittleNavmap-win-2.6.3.beta.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.3.beta.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.3.beta/LittleNavmap-macOS-2.6.3.beta.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.3.beta.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.3.beta/LittleNavmap-linux-20.04-2.6.3.beta.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.3.beta.tar.gz</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.3.beta/LittleNavmap-linux-16.04-2.6.3.beta.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 16.04)</strong> - LittleNavmap-linux-16.04-2.6.3.beta.tar.gz</a></p>
+  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.4.beta/LittleNavmap-win-2.6.4.beta.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.4.beta.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.4.beta/LittleNavmap-macOS-2.6.4.beta.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.4.beta.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.4.beta/LittleNavmap-linux-20.04-2.6.4.beta.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.4.beta.tar.gz</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.4.beta/LittleNavmap-linux-16.04-2.6.4.beta.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 16.04)</strong> - LittleNavmap-linux-16.04-2.6.4.beta.tar.gz</a></p>
   <h3 id="alternative-download-locations">Alternative Download Locations</h3>
   <p><a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa"><strong>► Dropbox</strong></a><br/>
   <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w"><strong>► Mega.nz</strong></a><br/>
@@ -91,7 +91,6 @@ changelog=
   <li>Update to the latest beta Navigraph navdata update for MSFS if you use it.</li>
   <li>Reload the scenery library.</li>
   <li>The manual was not updated yet. Neither the English nor the translated version. Help buttons and links are functional but point to placeholder pages.</li>
-  <li>X-Plane users: Update _Little Xpconnect_ to see time related bug fixes.</li>
   </ul>
   <h2 id="known-issues">Known Issues</h2>
   <h3 id="msfs">MSFS</h3>
@@ -104,6 +103,7 @@ changelog=
   <li>Country names are missing in MSFS translation tables and are not available in <em>Little Navmap</em>, therefore.</li>
   <li>Add-ons using the <code>.fsarchive</code> encrypted format are not supported. <em>Little Navmap</em> will show only the stock airport instead of the add-on if a package is locked down like this.</li>
   <li>Some aircraft mods do not report correct fuel flow to work around simulator limitations. This cannot be fixed in <em>Little Navmap</em>.</li>
+  <li>Some airports files like <code>LEMG.bgl</code> cannot be read due to unknown format. <em>Little Navmap</em> reports <code>Error: readInt for file "...OMITTED.../LEMG.bgl" failed. Reason 1</code>. Exclude the airport file from reading in options on page <code>Scenery Library Database</code> or simply ignore the message. The stock LEMG and all other airports are not affected by this.</li>
   </ul>
   <h3 id="other">Other</h3>
   <ul>
@@ -118,72 +118,22 @@ changelog=
   <p>You can safely delete the following files since they can be created again by reloading the scenery library:</p>
   <p><code>little_navmap_fsx.sqlite</code>, <code>little_navmap_fsxse.sqlite</code>, <code>little_navmap_p3dv2.sqlite</code>, <code>little_navmap_p3dv3.sqlite</code>, <code>little_navmap_p3dv4.sqlite</code>, <code>little_navmap_msfs.sqlite</code> and <code>little_navmap_xp11.sqlite</code></p>
   <p><strong>Do not delete any other databases which contain userpoints and the logbook entries, for example.</strong></p>
-  <h2 id="changes-from-release-262beta-to-263beta">Changes from Release 2.6.2.beta to 2.6.3.beta</h2>
-  <h3 id="translations">Translations</h3>
+  <h2 id="changes-from-263beta-to-264beta">Changes from 2.6.3.beta to 2.6.4.beta</h2>
   <ul>
-  <li>French, German and Italian user interface translation completed. Thanks to Patrick for adding the French translation!</li>
-  <li>Updated Chinese translation. Thanks to John Liu for providing a first draft!</li>
-  <li>Other translations are work in progress.</li>
+  <li>Added region codes again to MSFS flight plan export. Missing region codes resulted in empty waypoints when loading into MSFS.</li>
+  <li>Corrected runway surface for longest runway of airports which was not determined correctly for add-on airports while reading scenery library from MSFS.</li>
+  <li>Calculation for selected flight plan legs corrected. Showed <code>Cannot calculate flight plan between selected legs.</code> for a correct selection between procedures.</li>
+  <li>All context menus now allow correct selection for departure or arrival procedures for round trips where departure is equal to destination.</li>
+  <li>Fix for missing preferences menu on macOS which happens for some translations.</li>
+  <li>Now excluding all alternate airports more than 1000 NM from destination from parsing in route description. Problem was <code>KYIP METRO2 DUNKS J70 PMM KBIV</code> read PMM as far alternate airport instead of VOR.</li>
+  <li>Removed runway smoothness indication for all simulators except X-Plane.</li>
+  <li>Moved menu <code>Airspace Sources</code> from view menu to <code>Scenery Library</code> -&gt; <code>Airspace Libraries</code>.</li>
+  <li>Removed <code>Scenery Library</code> -&gt; <code>Show Database Files</code> menu item since it is a duplicate of <code>Tools</code> -&gt; <code>Files and Directories</code> -&gt; <code>Show Database Files</code> which is doing the same.</li>
+  <li>Saving the LNMPLN flight plan format with multiexport now avoids showing save as dialog when clicking save.</li>
+  <li>Added missing fixes (like the inaccurate scalebar) from 2.6.0.beta for map overlays to Linux versions.</li>
   </ul>
-  <p>Note that you can change the user interface language in the options dialog on page <code>User interface</code>.</p>
-  <h3 id="user-interface">User Interface</h3>
-  <ul>
-  <li>Added new splash screen image by Günter Steiner.</li>
-  <li>Fixed freezing on startup on macOS Big Sur.</li>
-  <li>Fixed several problems with dialogs hidden behind main window when using <code>Keep in Foreground</code>.</li>
-  <li>Added support for coordinate parsing from Wikipedia which uses special characters to minute and second symbols. Coordinates like <code>40°41′21″N 74°2′40″W</code> (note ″ and ′ instead of " and ') can now be directly pasted into <em>Little Navmap</em> dialogs.</li>
-  <li>Corrected parsing of coordinate format longitude/latitude (reversed order compared to usual format). Now swapping coordinates in this format only if no designators N, S, E and W are given. See options dialog on page <code>Units</code> and tooltip on coordinate format box.</li>
-  <li>Added <code>Manual Wind</code> menu item to weather menu which is a clone of the checkbox in the fuel report.</li>
-  </ul>
-  <h3 id="flight-plan">Flight Plan</h3>
-  <ul>
-  <li>Corrected wrong calculation of time to next waypoint where time was not affected by wind.</li>
-  <li>Fixed missing aircraft information when elevation profile and performance data cannot be calculated.</li>
-  <li>Now checking for path validity more often in multiexport dialog to catch path changes done outside <em>Little Navmap</em>.</li>
-  <li>Auto renumbering all user flight plan positions (green rectangle) that match default pattern prefixed with <code>WP</code> like <code>WP1</code>, <code>WP2</code> or <code>WP99</code> now. Note that positions are already renumbered when loading a plan.</li>
-  <li>Waypoint names and positions for user created approaches now correct when exporting plan.</li>
-  <li>Problem with wrong active leg sequencing in some procedures solved.</li>
-  <li>Fixed procedure query for airports which have a different ident in sim and navdata. Procedures were not shown before. Example: Vanderhoof which is AU4 in some simulators vs. CAU4 in Navigraph where procedures are loaded from Navigraph database.</li>
-  <li>Fixed crash when loading LNMPLN flight plans with an empty waypoint list and added error message.</li>
-  <li>PLN files for FSX, P3D and MSFS now have altitude set for all waypoints.</li>
-  <li>Removed ICAO region code from MSFS export to improve loading in simulator.</li>
-  </ul>
-  <h3 id="map">Map</h3>
-  <ul>
-  <li>Fixed problem where procedure legs like arcs could disappear when zooming.</li>
-  <li>Improved drawing of procedures with curves and arcs when following in elevation profile.</li>
-  <li>Reduced size of VOR and NDB symbols in lower zoom levels on map.</li>
-  <li>Flight plan details reduced on map display.</li>
-  <li>Tooltips, map click and menus now working on add-on airports if all other airports are off. Before some menu items like <code>Set as destination</code> where disabled although airport was visible.</li>
-  <li>Corrected display for manual wind. Map and tooltips now show wind based on manual setting instead of a probably enabled online wind source.</li>
-  <li>Enabled <code>Set as Destination</code> and <code>Set as Departure</code> in map context menu again to allow round trips where destination is equal to departure.</li>
-  </ul>
-  <h3 id="elevation-profile">Elevation Profile</h3>
-  <ul>
-  <li>Fixed wrong display of mouse hover position and wrong waypoint position in elevation profile for some procedures. Example: Norwich (EGSH), via NWI1 and NDB FN27 (N27) to runway 27.</li>
-  <li>Removed green elevation ramp in profile for legs longer than 2000 NM when using online elevation data. Now filling long legs with zero elevation if maximum length for online data is exceeded.</li>
-  <li>PAPI slope for approaches now shown again on elevation profile.</li>
-  <li>Tooltip in elevation profile not showing up in front of other windows anymore.</li>
-  <li>Set minimum size for elevation profile to avoid corrupted display.</li>
-  <li>Fixed issue with missing update in tooltip data after flight plan altitude change.</li>
-  <li>Several crashes in elevation profile and context menu fixed.</li>
-  <li>More improvements in profile.</li>
-  </ul>
-  <h3 id="other-1">Other</h3>
-  <ul>
-  <li>Adjusted detection of MSFS Navigraph navdata update to avoid all airports being detected as add-on.</li>
-  <li>Fixed parsing of the incomplete METAR date which gives only day of month. The error could result in reports having the wrong date one month back.</li>
-  <li>Fixed issue where METAR reports might not be updated in index which could result in old reports shown.</li>
-  <li>Now imitating MSFS if an scenery update like the Navigraph navdata update tries to reuse the ident of an airport for a new one. Example: Boyd Field (54XS) in MSFS which actually Bar C Ranch Airport (54XS) in real life at another location. 54XS is shown in the old and wrong location by MSFS while the Navigraph update assigns the ident to the new and correct position.</li>
-  <li>Fixed issue where military airports were not recognized in add-ons.</li>
-  <li>Limited logging for online network connections to avoid log flooding with high frequency connections.</li>
-  <li>Fixed issues where the wrong UTC time might be sent by <em>Little Xpconnect</em> X-Plane in some cases.</li>
-  <li>Made display of head- and tailwind consistent. Arrow down <code>▼</code> now indicates headwind and arrow up <code>▲</code> indicates tailwind in all parts of the program.</li>
-  </ul>
-  <p><strong>See the included <code>CHANGELOG.txt</code> or <a href="https://github.com/albar965/littlenavmap/blob/v2.6.3.beta/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
+  <p><strong>See the included <code>CHANGELOG.txt</code> or <a href="https://github.com/albar965/littlenavmap/blob/v2.6.4.beta/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
   <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
-
-
 
 
 # ---------------------------------------------------------------
