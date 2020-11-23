@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap and Little Navconnect Manuals for 2.6 Versions"
-date:   2020-09-17 09:00:00 +0200
+date:   2020-11-23 14:00:00 +0200
 ---
 
 [Alex’ Projects](/index.html)
@@ -14,11 +14,11 @@ date:   2020-09-17 09:00:00 +0200
 
 [**► Screenshots of new 2.6 Features**](/pages/26/littlenavmapscreens.html)
 
-[**► Map Legend**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/LEGEND.html) (based on _Little Navmap_ 2.4)
+[**► Map Legend**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/LEGEND.html) (draft for _Little Navmap_ 2.6)
 
 ## Little Navmap User Manuals
 
-#### [► English - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/), [PDF](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/littlenavmap_book_en.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/littlenavmap_book_en.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/littlenavmap_book_en.mobi) (based on _Little Navmap_ 2.4)
+#### [► English - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/), [PDF](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/littlenavmap_book_en.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/littlenavmap_book_en.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/littlenavmap_book_en.mobi) (draft for _Little Navmap_ 2.6)
 
 #### [► French - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/fr/), [PDF](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/littlenavmap_book_fr.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/littlenavmap_book_fr.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/littlenavmap_book_fr.mobi) (based on _Little Navmap_ 2.2)
 
