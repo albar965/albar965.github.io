@@ -45,7 +45,7 @@ categories: release
 * _Little Navmap_ cannot read SID and STAR from MSFS. Documentation about MSFS format changes are needed in SDK.
 * MSFS multiplayer and real-time AI cannot be displayed yet. These do not appear in the SimConnect interface.
 * Simulator weather cannot be shown for MSFS since SimConnect weather functions are deprecated and do not deliver data. Needs update or documentation in MSFS SDK. Use NOAA weather which gives you the most up-to-date weather reports.
-* MSFS seems to have clear concept of scenery order (`Content.xml` seems unreliable) and there is no information in the SDK about this. Add-ons are loaded by alphabetical order by _Little Navmap_. To put an add-on to the end of the loading list add a `z_` to the folder name, for example.
+* MSFS seems to have no clear concept of scenery order (`Content.xml` seems unreliable) and there is no information in the SDK about this. Add-ons are loaded by alphabetical order by _Little Navmap_. To put an add-on to the end of the loading list add a `z_` to the folder name, for example.
 * Flight plan loading in MSFS is flawed and does not produce any error messages if it fails. Quite often MSFS cannot load its own plans correctly.
 * Country names are missing in MSFS translation tables and are not available in _Little Navmap_, therefore.
 * Add-ons using the `.fsarchive` encrypted format are not supported. _Little Navmap_ will show only the stock airport instead of the add-on if a package is locked down like this.

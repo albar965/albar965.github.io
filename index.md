@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2020-07-19 11:20:00 +0200
+date:   2020-12-04 14:00:00 +0100
 ---
 
 # Alex' Projects
@@ -36,7 +36,8 @@ date:   2020-07-19 11:20:00 +0200
 <a href="alex AT littlenavmap DOT org"
    rel="nofollow"
    onclick="this.href='mailto:' + 'alex' + '@' + 'little' + 'nav' + 'map' + '.' + 'org'"
-   onmouseleave="this.href='alex AT littlenavmap DOT org'"><span class="bold">► Contact me by email (English / Deutsch)</span></a>
+   onmouseleave="this.href='alex AT littlenavmap DOT org'"><span class="bold">► Contact me by email</span></a>,
+<a rel="pgpkey" href="alex@littlenavmap.org.pubkey.asc">PGP Public Key</a> (English / Deutsch).
 
 [**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) **Support and help for users.**
 

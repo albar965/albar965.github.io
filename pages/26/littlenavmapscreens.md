@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Screenshots of new 2.6 Features"
-date:   2020-09-17 09:00:00 +0200
+date:   2020-12-04 14:00:00 +0100
 ---
 [Alex’ Projects](/index.html)
 ►  [Little Navmap 2.6.0.beta released](/release/2020/09/18/littlenavmap-beta-260-released.html)
@@ -26,7 +26,7 @@ Click on image for full size.
 | [![Image](/assets/images/26/logbook_small.jpg)](/assets/images/26/logbook.jpg) | [![Image](/assets/images/26/menus_small.jpg)](/assets/images/26/menus.jpg) |
 | New logbook functionality.<br/>Attached trail, performance and flight plan files<br/>with preview on the map. | New map context menu with sub-menus. |
 | [![Image](/assets/images/26/profiletooltip_small.jpg)](/assets/images/26/profiletooltip.jpg) | [![Image](/assets/images/26/messages_small.jpg)](/assets/images/26/messages.jpg) |
-| Elevation profile information tooltip. | Message are in status bar showing background tasks.<br/>Opened on click or hover. |
+| Elevation profile information tooltip. | Messages in status bar showing background tasks.<br/>Opened on click or hover. |
 | [![Image](/assets/images/26/grid_small.jpg)](/assets/images/26/grid.jpg) | [![Image](/assets/images/26/uirfir_small.jpg)](/assets/images/26/uirfir.jpg) |
 | Five to one degree grid map overlay with labels. | New UIR and FIR airspaces instead of merged center type. |
 | [![Image](/assets/images/26/window_small.jpg)](/assets/images/26/window.jpg) | [![Image](/assets/images/26/tearoff_small.jpg)](/assets/images/26/tearoff.jpg) |
