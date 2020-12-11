@@ -1,29 +1,39 @@
 ---
 layout: subpage
 title:  "Little Navmap Screenshots"
-date:   2019-10-20 19:00:00 +0200
+date:   2020-12-11 12:00:00 +0100
 ---
-[Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Screenshots
+[Alex’ Projects](index.html) ► Little Navmap Screenshots
 
 # Screenshots
+
+See also:
+
+[**► Screenshots of new 2.6 Features**](/pages/26/littlenavmapscreens.html)
+
+----
 
 Click on image for full size.
 
 Note that some screenshots are from older versions.
 
-<hr/>
-
 <br/>
 
-**Little Navmap 2.4.4 overview:**
+**Little Navmap 2.6.6 overview:**
 
-[![Little Navmap 2.4.4. Overview](assets/images/overview.jpg)](assets/images/overview.jpg)
+[![Little Navmap 2.6.6. Overview](assets/images/overview.jpg)](assets/images/overview.jpg)
 
 <br/><br/>
 
-**Little Navmap 2.4.4 all context menus:**
+**Little Navmap 2.6.6 all context menus:**
 
-[![Little Navmap 2.4.4 Overview](assets/images/contextmenus.jpg)](assets/images/contextmenus.jpg)
+[![Little Navmap 2.6.6 Overview](assets/images/contextmenus.jpg)](assets/images/contextmenus.jpg)
+
+<br/><br/>
+
+**Little Navmap 2.6.6 help:**
+
+[![Little Navmap 2.6.6 Help](assets/images/help.jpg)](assets/images/help.jpg)
 
 <br/><br/>
 

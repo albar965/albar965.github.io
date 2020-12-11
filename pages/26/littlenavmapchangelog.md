@@ -1,11 +1,11 @@
 ---
 layout: subpage
 title:  "Changelog for 2.6 Versions"
-date:   2020-09-17 09:00:00 +0200
+date:   2020-12-11 12:00:00 +0100
 ---
 
 [Alex’ Projects](/index.html)
-►  [Little Navmap 2.6.0.beta released](/release/2020/09/18/littlenavmap-beta-260-released.html)
+► [Little Navmap 2.6.6 released](/release/2020/12/12/littlenavmap-stable-266-released.html)
 ► Changelog for 2.6 Versions
 
 # Version 2.6.0.beta
@@ -13,8 +13,6 @@ date:   2020-09-17 09:00:00 +0200
 This page contains changes for the current version only. See [CHANGELOG.txt](https://github.com/albar965/littlenavmap/blob/release/2.6/CHANGELOG.txt) for a complete log.
 
 [**► Screenshots of new 2.6 Features**](/pages/26/littlenavmapscreens.html)
-
-[**► Little Navmap and Little Navconnect Draft Manuals for 2.6 Versions**](/pages/26/littlenavmapmanuals.html)
 
 **Please do not hesitate to let me know about bugs, inconsistencies and ideas for improvement.**
 

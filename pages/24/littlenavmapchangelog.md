@@ -5,7 +5,7 @@ date:   2019-10-20 19:00:00 +0200
 ---
 
 [Alex’ Projects](/index.html)
-►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) / [Little Navmap 2.4.1.beta released](/release/2019/09/19/littlenavmap-beta-241-released.html)
+► [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) / [Little Navmap 2.4.1.beta released](/release/2019/09/19/littlenavmap-beta-241-released.html)
 ► Changelog for 2.4 Versions
 
 # Version 2.4.0.beta
@@ -33,7 +33,7 @@ This page contains changes for the current version only. See [CHANGELOG.txt](htt
 * You might have to install the Microsoft Visual C++ 2015 Redistributable on a fresh installation of
   Windows 10. Most will have this already installed since it is needed by many programs.
   You can get the Redistributable from the following download links:<br/>
-  **►  Microsoft Visual C++ 2015-2019 Redistributable Package 14.22.27821.0:
+  **► Microsoft Visual C++ 2015-2019 Redistributable Package 14.22.27821.0:
 [64 bit](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vc_redist.x64_2015-2019.exe) /
 [32 bit](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vc_redist.x86_2015-2019.exe)**<br/>
   **Install both 32 bit and 64 bit versions if needed.**<br/>

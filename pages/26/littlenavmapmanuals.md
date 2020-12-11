@@ -1,11 +1,11 @@
 ---
 layout: subpage
 title:  "Little Navmap and Little Navconnect Manuals for 2.6 Versions"
-date:   2020-12-06 20:00:00 +0100
+date:   2020-12-11 12:00:00 +0100
 ---
 
 [Alex’ Projects](/index.html)
-►  [Little Navmap 2.6.0.beta released](/release/2020/09/18/littlenavmap-beta-260-released.html)
+► [Little Navmap 2.6.6 released](/release/2020/12/12/littlenavmap-stable-266-released.html)
 ► Little Navmap and Little Navconnect Manuals for 2.6 Versions
 
 # ![Little Navmap and Little Navconnect Manuals](/assets/images/navroute.png) Little Navmap and Little Navconnect Manuals for 2.6 Versions

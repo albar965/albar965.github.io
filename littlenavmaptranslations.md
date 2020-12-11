@@ -1,9 +1,9 @@
 ---
 layout: subpage
 title:  "Little Navmap Translation Packages"
-date:   2019-12-01 14:00:00 +0100
+date:   2020-12-11 12:00:00 +0100
 ---
-[Alex’ Projects](index.html) ►  [Little Navmap](littlenavmap.html) ► Translation Packages
+[Alex’ Projects](index.html) ► Translation Packages
 
 # Status
 

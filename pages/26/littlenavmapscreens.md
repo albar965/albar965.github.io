@@ -1,17 +1,15 @@
 ---
 layout: subpage
 title:  "Screenshots of new 2.6 Features"
-date:   2020-12-04 14:00:00 +0100
+date:   2020-12-11 12:00:00 +0100
 ---
 [Alex’ Projects](/index.html)
-►  [Little Navmap 2.6.0.beta released](/release/2020/09/18/littlenavmap-beta-260-released.html)
+► [Little Navmap 2.6.6 released](/release/2020/12/12/littlenavmap-stable-266-released.html)
 ► Screenshots of new 2.6 Features
 
 # Screenshots of new 2.6 Features
 
 This page gives an overview of the new features for _Little Navmap_ 2.6 releases.
-
-[**► Little Navmap and Little Navconnect Draft Manuals for 2.6 Versions**](/pages/26/littlenavmapmanuals.html)
 
 Click on image for full size.
 

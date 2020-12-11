@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2020-04-25 16:00:00 +0200
+date:   2020-12-11 12:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap
@@ -18,20 +18,22 @@ date:   2020-04-25 16:00:00 +0200
 
 [**► User manuals for _Little Navmap_ and _Little Navconnect_ in all formats and languages.**](/manuals.html)
 
-[► Map Legend](https://www.littlenavmap.org/manuals/littlenavmap/release/2.4/en/LEGEND.html)
+[► Map Legend](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/LEGEND.html)
 
 [► GitHub Little Navmap Project and Sources](https://github.com/albar965/littlenavmap)
 
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
-## Version 2.4.5 Features
+## Version 2.6.6 Features
+
+TODO
 
 * *Little Navmap* is a **free** open source flight planner, navigation tool, moving map, airport
   search and airport information system.
-* Supported platforms: **Windows 7/8/10, macOS \(10.10 or newer only\) and Linux \(64 bit only\)**.
-* Support for **Flight Simulator X, Flight Simulator - Steam Edition, Prepar3D v2, v3, v4, v5 and
-  X-Plane 11 \(64 bit\)**.
-* Comes with the following user interface languages: **Brazilian Portuguese, French, Italian and German**
+* Supported platforms: **Windows 7/8/10, macOS \(10.12 or newer only\) and Linux \(64 bit only\)**.
+* **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
+  Prepar3D v2, v3, v4, v5, Microsoft Flight Simulator 2020 and X-Plane 11.
+* Comes with the following user interface languages: **Brazilian Portuguese, Chinese (draft), Dutch (draft), French, Italian and German**
   (Spanish and Dutch are based on older _Little Navmap_ versions).
 * All is based on flight simulator stock or add-on data, no third party data needed. All stock and
   add-on airports are loaded in a few minutes.
@@ -98,7 +100,7 @@ date:   2020-04-25 16:00:00 +0200
 * Customizable **airport traffic patterns** can be shown for any airport.
 * Can display customizable **holdings** at any place on the map.
 * An **automatic reconnect** option makes the start order of programs irrelevant. Running a
-  networked setup needs the included [Little Navconnect](littlenavconnect.html) program which eases
+  networked setup needs the included *Little Navconnect* program which eases
   setup across two or more computers.
 * The program does not consume a lot of resources and can be run on **low end computers**.
 * _Little Navmap_ features its own **internal web server** which allows to follow aircraft progress from any device.

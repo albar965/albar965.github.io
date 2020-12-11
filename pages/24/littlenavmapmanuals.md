@@ -5,7 +5,7 @@ date:   2019-10-20 19:00:00 +0200
 ---
 
 [Alex’ Projects](/index.html)
-►  [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) / [Little Navmap 2.4.1.beta released](/release/2019/09/19/littlenavmap-beta-241-released.html)
+► [Little Navmap 2.4.0.beta released](/release/2019/09/08/littlenavmap-beta-240-released.html) / [Little Navmap 2.4.1.beta released](/release/2019/09/19/littlenavmap-beta-241-released.html)
 ► Little Navmap and Little Navconnect Manuals for 2.4 Versions
 
 # ![Little Navmap and Little Navconnect Manuals](/assets/images/navroute.png) Little Navmap and Little Navconnect Manuals
