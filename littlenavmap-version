@@ -3,62 +3,119 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=2.4.5
-url=https://albar965.github.io/release/2020/04/26/littlenavmap-stable-245-released.html
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-win-2.4.5.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-macOS-2.4.5.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-18.04-2.4.5.tar.gz
+version=2.6.6
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.6/LittleNavmap-win-2.6.6.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.6/LittleNavmap-macOS-2.6.6.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.6/LittleNavmap-linux-20.04-2.6.6.tar.gz
 changelog=
-  <body> <head><style type="text/css">code { background: #33808080; }</style></head> <hr />
-  <p><strong>Direct download: <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-win-2.4.5.zip">Windows</a> - <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-macOS-2.4.5.zip">macOS</a> - <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-18.04-2.4.5.tar.gz">Linux (64 bit, based on Ubuntu 18.04)</a> - <a href="https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-linux-16.04-2.4.5.tar.gz">Linux (64 bit, based on Ubuntu 16.04)</a></strong></p>
-  <p><strong>Alternative download locations: <a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa">Dropbox</a> - <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w">Mega.nz</a> - <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g">OneDrive</a></strong></p>
-  <p><a href="/littlenavmapscreens.html"><strong>► Screenshots</strong></a><br/>
-  <a href="/manuals.html"><strong>► Online Manuals</strong></a><br/>
-  <a href="/littlenavmap.html"><strong>► Features</strong></a></p>
-  <!-- ================================================================================================ -->
-  <h2 id="notes">Notes</h2>
-  <p>This release adds support for Prepar3D v5, Chinese user interface translation by John Liu, bug fixes for crashes and other small improvements.<br/>
-  Note that not all reported issues are fixed so far.<br/>
-  Most will be fixed in the next major update version 2.6 (2.5 is only internal) which I'm working on in parallel.</p>
-  <!-- ================================================================================================ -->
-  <h2 id="changes-from-release-244-to-245">Changes from Release 2.4.4 to 2.4.5</h2>
-  <p>See <a href="https://github.com/albar965/littlenavmap/blob/release/2.4/CHANGELOG.txt">CHANGELOG.txt</a> in littlenavmap project for changes across all versions.</p>
-  <h3 id="p3d-v5">Prepar3D v5</h3>
-  <p><a href="https://github.com/albar965/littlenavmap/issues/512">#512</a></p>
-  <ul>
-  <li>Added P3D v5 to simulator detection.</li>
-  <li>Adapted loading of BGL files to P3D v5 structure changes and added new records as well as new COM and other types.</li>
-  <li>Enabled loading of add-on packages from <code>%USERPROFILE%\Documents\Prepar3D v5 Add-ons</code>.</li>
-  </ul>
-  <h3 id="fixed-crashes-and-other-errors">Fixed Crashes and other Errors</h3>
-  <ul>
-  <li>Fixed crash to desktop when adding an approach after a list of user defined waypoints. <a href="https://github.com/albar965/littlenavmap/issues/500">#500</a></li>
-  <li>Fixed error reporting in wind download and decoding. Program does not crash to desktop if wind download has errors. <a href="https://github.com/albar965/littlenavmap/issues/480">#480</a></li>
-  <li>Now limiting weather display to the 10 most important/biggest airports if connected via network or SimConnect to P3D/FSX. This minimizes map stutters when scrolling or zooming. <a href="https://github.com/albar965/littlenavmap/issues/497">#497</a> Disable display of airport weather symbols if stutters still appear:
-  <ul>
-  <li>Menu <code>Weather</code> -&gt; <code>Airport Weather Source</code>: Select anything but <code>Simulator</code>.</li>
-  <li>Or menu <code>View</code>: Disable <code>Show Airport Weather</code>.</li>
-  </ul></li>
-  <li>Fixed crash when entering an invalid ICAO in web interface for airport information. <a href="https://github.com/albar965/littlenavmap/issues/491">#491</a></li>
-  <li>Fixed wrong handling of <code>Options/RenderOpt</code> setting in <code>little_navmap.ini</code>.</li>
-  <li>Corrected encoding when exporting flightplan as HTML page.</li>
-  </ul>
-  <h3>User Interface:</h3>
-  <ul>
-  <li>Fixed spelling and typos in user interface.</li>
-  <li>Small UI changes in connection dialog for more clarity.</li>
-  <li>Added word wrap to avoid dialogs growing too large in user interface.</li>
-  <li>Better display on mobile devices for webserver.</li>
-  <li>Updated German legend.</li>
-  </ul>
-  <h3 id="build-and-deployment-for-developers">Build and Deployment for Developers</h3>
-  <ul>
-  <li>Added option to include common <code>../build_options.pro</code> file with defines for qmake. File is included automatically if it exists.</li>
-  </ul>
-  <h3 id="related-from-atools-version-346">related from atools version 3.4.6</h3>
-  <p>See <a href="https://github.com/albar965/atools/blob/release/3.4/CHANGELOG.txt">CHANGELOG.txt</a> in atools project for more technical details. Relevant comments were added to list above.</p>
-  <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
-  </body>
+    <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
+    <h2 id="links">Links</h2>
+    <p><a href="https://albar965.github.io/pages/26/littlenavmapscreens.html"><strong>► Screenshots of new 2.6 Features</strong></a><br/>
+    <a href="https://albar965.github.io/manuals.html"><strong>► Little Navmap and Little Navconnect Manuals for 2.6 Versions</strong></a></p>
+    <h3 id="direct-download">Direct Download</h3>
+    <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.6/LittleNavmap-win-2.6.6.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.6.zip</a><br/>
+    <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.6/LittleNavmap-macOS-2.6.6.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.6.zip</a><br/>
+    <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.6/LittleNavmap-linux-20.04-2.6.6.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.6.tar.gz</a><br/>
+    <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.6/LittleNavmap-linux-16.04-2.6.6.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 16.04)</strong> - LittleNavmap-linux-16.04-2.6.6.tar.gz</a></p>
+    <h3 id="alternative-download-locations">Alternative Download Locations</h3>
+    <p><a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa"><strong>► Dropbox</strong></a><br/>
+    <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w"><strong>► Mega.nz</strong></a><br/>
+    <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g"><strong>► OneDrive</strong></a></p>
+    <h2 id="important">Important</h2>
+    <ul>
+    <li><strong>The data exchange protocol has changed. You have to update <em>Little Navconnect</em> (if using remote/network connections) and <em>Little Xpconnect</em> (if using X-Plane) too. Both are included in the <em>Little Navmap</em> download package.</strong></li>
+    <li><strong>Reload the scenery library database to see fixes and improvements.</strong></li>
+    <li><em>Little Navmap</em> asks to create a recommended folder structure for files on first start after updating to 2.6 versions. Let the program create the paths if you like to use them and move your files accordingly. Note that this is purely optional. All Files of <em>Little Navmap</em> can be stored in any place.</li>
+    </ul>
+    <h2 id="known-issues">Known Issues</h2>
+    <p>See here: <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems">User Manual - Known Problems</a>.</p>
+    <h2 id="notable-changes-from-release-245-to-266">Notable Changes from Release 2.4.5 to 2.6.6</h2>
+    <h3 id="user-manuals-and-help">User Manuals and Help</h3>
+    <ul>
+    <li>All help buttons and links are functional now in the program.</li>
+    <li>English online manual is now complete and vailable for download in PDF, EPUB and MOBI format:<br/>
+    <a href="https://albar965.github.io/manuals.html">Little Navmap and Little Navconnect Manuals</a>.</li>
+    </ul>
+    <h4 id="new-chapters">New Chapters</h4>
+    <ul>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/ROUTECALC.html">Flight Plan Route Calculation</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/ROUTEEXPORTALL.html">Flight Plan Multiexport</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/TRACKS.html">Tracks</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/EDITFPPOSITION.html">Edit Flight Plan Position</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/EDITFPREMARKS.html">Edit Flight Plan Remarks</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/LAYOUT.html">Window Layout</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NETWORK.html">Network Setup</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/START.html">Start</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FOLDERS.html">Directories</a></li>
+    </ul>
+    <h4 id="updated-chapters">Updated Chapters</h4>
+    <ul>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FLIGHTPLANFMT.html">Flight Plan Formats</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/OPTIONS.html">Options</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html">Installation</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html">Menus and Toolbars</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INTRO.html">Introduction</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MAPDISPLAY.html">Map Display</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/LEGEND.html">Legend</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/PROFILE.html">Elevation Profile</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/LOGBOOK.html">Logbook</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/CONNECT.html">Connecting to a Flight Simulator</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/TUTORIALVFR.html">Tutorial - Building a VFR Flight Plan</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/TUTORIALIFR.html">Tutorial - Building an IFR Flight Plan with Approach Procedures</a></li>
+    <li><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/TUTORIALPERF.html">Tutorial - Creating an Aircraft Performance Profile</a></li>
+    </ul>
+    <h3 id="program-changes">Program Changes</h3>
+    <ul>
+    <li><strong>Microsoft Flight Simulator 2020 support. <em>Little Navmap</em> detects all known MSFS installation paths, can read the scenery library, follows user aircraft and can save/load flight plans also with procedures.</strong> All star airports in MSFS get a five star rating in <em>Little Navmap</em>. See known issues above for limitations.</li>
+    <li><strong>Oceanic tracks: NAT, PACOTS and AUSOTS.</strong> Visible on map and can be used in flight planning as well as for automatic plan calculation. See <code>Flight Plan</code> -&gt; <code>Download Tracks</code>.</li>
+    <li><strong>Multi-export:</strong> Export more than one flight plan format at once with just one click. Formats and paths are configurable. See <code>File</code> -&gt; <code>Multi Export Flight Plan Options</code>.</li>
+    <li><strong>Improvements to logbook</strong>: A log entry now gets track and flight plan attached which can be saved or shown in preview.</li>
+    <li>Added total flight time numbers in logbook statistics dialog.</li>
+    <li><strong>Improved flight plan calculation.</strong> Can now calculate across regions which are void of airways. Can use oceanic tracks, avoid RNAV airways and more options. <code>Flight Plan</code> -&gt; <code>Calculate Flight Plan</code>.</li>
+    <li><em>Little Navmap</em> now uses its own flight plan format (extension <code>LNMPLN</code>) which allows removing most of the confusing warning dialogs. Flight plan saving and loading logic has changed completely and is now more straigtforward.</li>
+    <li>User can add <strong>remarks or comments on flight plan and flight plan waypoints</strong>. See tab <code>Flight Plan Remarks</code> in <code>Flight Planning</code> dock window. Right click on flight plan waypoint in plan table or map and select <code>Edit Flight Plan Position Remarks</code>.</li>
+    <li><strong>Auto renumbering all user flight plan positions</strong> (green rectangle) that match default name pattern prefixed with <code>WP</code> like <code>WP1</code>, <code>WP2</code> or <code>WP99</code> now. Note that positions are already renumbered when loading a plan.</li>
+    <li>Program suggests to create a <strong>recommended folder structure</strong> on first startup. Click <code>Do not show this dialog again</code> and press <code>Cancel</code> if you do not like this.</li>
+    <li>Added option to <strong>extract flight plan for selected range</strong> and save it into a new file. Select a range of flight plan legs not touching alternates or procedures. Then right click into the table and choose <code>Save selected Range as Flight Plan</code>. This will not replace the current plan but add the saved file to the recent files list.</li>
+    <li><strong>Better map context menu</strong> with sub-menus for easier selection of actions if more than one map object is below clicked position.</li>
+    <li>Changed display functionality to <strong>force add-on airport display</strong>. Now keeping add-ons airports visible on map independent of zoom level if this option is selected in the toolbar or the menu <code>View</code> -&gt; <code>Airports</code> -&gt; <code>Force Show Add-on Airports</code>. Add-on airports are now shown highlighted with a yellow ring per default. Add-on highlighting can be disabled in options dialog on page <code>Map Display</code>. The colors can be adjusted in the configuration file <code>little_navmap_mapstyle.ini</code>.</li>
+    <li>Now always drawing approach procedure related ILS and airport diagram from flight plan even if these features are disabled in map. Allows to hide all map features and show only the important flight plan related navaids.</li>
+    <li>Changed display when increasing or decreasing detail level on map. Now also scaling icons, texts and other map object features. Detail level can now be used to show airport diagram earlier.</li>
+    <li>Replaced title bar information for mouse hover in elevation profile with tooltip window showing more information.</li>
+    <li>User can now <strong>select font for user interface and map display</strong>. Options dialog on pages <code>User Interface</code> and <code>Map</code>. See <a href="https://b612-font.com">b612-font</a> for an open source font used in aviation.</li>
+    <li><strong>Free user interface language selection</strong> (if translation available). Change this in the dialog <code>Options</code> on page <code>User Interface</code></li>
+    <li><strong>Fullscreen mode</strong> maximizes map on one click or key press of <code>Shift+F11</code>. See <code>Window</code> -&gt; <code>Fullscreen Map</code>.</li>
+    <li>Save and <strong>load window layouts</strong> for dock windows. This also saves toolbar positions and the main window size. See menu <code>Window</code>. Layouts are saved separately for both normal and fullscreen mode. Added option to restore window layout from last loaded file on startup. This is the file on top of the <code>Recent Window Layouts</code> menu. See options dialog on page <code>Startup</code>.</li>
+    <li>Changed default window layout which is used after <code>Reset Window Layout to Default</code> to one where dock windows <code>Search</code> and <code>Simulator Aircraft</code> are merged into a tabbed view. This avoids the frozen (not resizable) elevation profile window. Look for the tabs <code>Search</code> and <code>Simulator Aircraft</code> on the lower right side of the main window.</li>
+    <li>The elevation <strong>profile now uses indicated altitude</strong> for aircraft position to avoid discrepancies in display when flying at flight levels.</li>
+    <li>Optionally <strong>focus and raise dock windows or main window on mouse hover</strong>. Change this in <code>Options</code> on page <code>User Interface</code>.</li>
+    <li>Option to disallow docking windows from snapping back to main window when moving around. Can be toggled in menu <code>Window</code> -&gt; <code>Show all floating Windows</code>.</li>
+    <li>Added new map display options. Text size and line width for airways, labels for measurement lines, airport diagram features and more. See dialog <code>Options</code> on pages <code>Map Display</code> and <code>Map Display 2</code>.</li>
+    <li>Now reading and showing <strong>X-Plane frigate and carrier as AI</strong>.</li>
+    <li>Many drawing issues fixed like disappearing lines near the date line, problems with procedures and symbols popping out at the map window border. Also solved problems with ghost tooltips which appear at positions without map content.</li>
+    <li><strong>Tear off toolbar button menus</strong>, e.g. for userpoints. Click the dashed line to move the drop down menu to its own window.</li>
+    <li><strong>SimConnect library is included now.</strong> A FSX SP2 SimConnect installation is not required.</li>
+    <li>Many improvements and fixes for procedure display, map display, window layout, weather updates, route description, flight plan handling, tooltips, logbook statistics, error reporting and more.</li>
+    <li>Better reading of coordinate formats. Wikipedia coordinates can now be pasted into the input fields.</li>
+    </ul>
+    <h3 id="user-interface-changes">User Interface Changes</h3>
+    <ul>
+    <li>Brazilian Portuguese, Chinese (draft), Dutch (draft), French, German and Italian user interface translation completed. Thanks to all who helped!</li>
+    <li>Support for macOS Big Sur.</li>
+    <li>Made display of <strong>head- and tailwind</strong> consistent. Arrow down <code>▼</code> now indicates headwind and arrow up <code>▲</code> indicates tailwind in all parts of the program.</li>
+    <li>Removed <code>Scenery Library</code> -&gt; <code>Show Database Files</code> menu item since it is a duplicate of <code>Tools</code> -&gt; <code>Files and Directories</code> -&gt; <code>Show Database Files</code> which is doing the same.</li>
+    <li>Moved menu <code>Airspace Sources</code> from view menu to <code>Scenery Library</code> -&gt; <code>Airspace Libraries</code>.</li>
+    <li>More changes to options dialog where some settings were added and/or moved to the tree view on page <code>Map Display 2</code>.</li>
+    <li>Added new splash screen image by Günter Steiner.</li>
+    </ul>
+    <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/v2.6.6/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
+    <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
+
+
+
+
+
+
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
