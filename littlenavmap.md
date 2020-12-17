@@ -33,7 +33,7 @@ TODO
 * Supported platforms: **Windows 7/8/10, macOS \(10.12 or newer only\) and Linux \(64 bit only\)**.
 * **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
   Prepar3D v2, v3, v4, v5, Microsoft Flight Simulator 2020 and X-Plane 11.
-* Comes with the following user interface languages: **Brazilian Portuguese, Chinese (draft), Dutch (draft), French, Italian and German**
+* Comes with the following user interface languages: **Brazilian Portuguese, Chinese (draft), Dutch (draft), English, French, German and Italian**
   (Spanish and Dutch are based on older _Little Navmap_ versions).
 * All is based on flight simulator stock or add-on data, no third party data needed. All stock and
   add-on airports are loaded in a few minutes.
