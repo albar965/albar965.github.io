@@ -93,4 +93,3 @@ Noch in Arbeit.
 1. Ich möchte das Programm und alle seine Spuren vollständig entfernen](#remove)
 
 
-Übersetzt mit www.DeepL.com/Translator
