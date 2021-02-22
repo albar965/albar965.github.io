@@ -54,6 +54,6 @@ See user manual for limitations and issues around Microsoft Flight Simulator 202
 * Fixed error when reading procedures with invalid or unknown approach types from FSX, P3D and MSFS.
   Now logging error instead.
 
-**See the included `CHANGELOG.txt` file or [here](https://github.com/albar965/littlenavmap/blob/v2.6.8/CHANGELOG.txt) online for a complete list across all versions.**
+**See the included `CHANGELOG.txt` file or [here](https://github.com/albar965/littlenavmap/blob/v2.6.9/CHANGELOG.txt) online for a complete list across all versions.**
 
 **All files are checked by [VirusTotal](https://www.virustotal.com).**
