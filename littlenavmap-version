@@ -3,68 +3,41 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=2.6.8
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.8/LittleNavmap-win-2.6.8.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.8/LittleNavmap-macOS-2.6.8.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.8/LittleNavmap-linux-20.04-2.6.8.tar.gz
+version=2.6.9
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.9/LittleNavmap-win-2.6.9.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.9/LittleNavmap-macOS-2.6.9.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.9/LittleNavmap-linux-20.04-2.6.9.tar.gz
 changelog=
   <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
   <h2 id="links">Links</h2>
   <p><a href="https://albar965.github.io/pages/26/littlenavmapscreens.html"><strong>► Screenshots of 2.6 Features</strong></a><br/>
   <a href="https://albar965.github.io/manuals.html"><strong>► Little Navmap and Little Navconnect User Manuals for 2.6 Versions</strong></a></p>
   <h3 id="direct-download">Direct Download</h3>
-  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.8/LittleNavmap-win-2.6.8.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.8.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.8/LittleNavmap-macOS-2.6.8.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.8.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.8/LittleNavmap-linux-20.04-2.6.8.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.8.tar.gz</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.8/LittleNavmap-linux-16.04-2.6.8.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 16.04)</strong> - LittleNavmap-linux-16.04-2.6.8.tar.gz</a></p>
+  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.9/LittleNavmap-win-2.6.9.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.9.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.9/LittleNavmap-macOS-2.6.9.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.9.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.9/LittleNavmap-linux-20.04-2.6.9.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.9.tar.gz</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.9/LittleNavmap-linux-16.04-2.6.9.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 16.04)</strong> - LittleNavmap-linux-16.04-2.6.9.tar.gz</a></p>
   <h3 id="alternative-download-locations">Alternative Download Locations</h3>
   <p><a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa"><strong>► Dropbox</strong></a><br/>
   <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w"><strong>► Mega.nz</strong></a><br/>
   <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g"><strong>► OneDrive</strong></a></p>
   <!-- ========================================================================================================== -->
+  <p><strong>►► This is a bugfix release which addresses an unrecoverable crash on startup when downloading tracks (</strong><code>Caught unknown exception in file ... line 85</code><strong>). ◄◄</strong></p>
   <h2 id="notes">Notes</h2>
-  <p>Read the linked chapter below to minimize issues when loading flight plans into <strong>MSFS</strong>:<br/>
-  <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata">User Manual - Microsoft Flight Simulator 2020 Airports and Navdata</a>.</p>
+  <p>Read the linked chapter below to minimize issues when loading flight plans into <strong>MSFS</strong>:</p>
+  <p><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata">User Manual - Microsoft Flight Simulator 2020 Airports and Navdata</a>.</p>
   <h2 id="known-issues">Known Issues</h2>
-  <p>See user manual for general known problems:<br/>
-  <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems">User Manual - Known Problems</a>.</p>
-  <p>See user manual for limitations and issues around Microsoft Flight Simulator 2020:<br/>
-  <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems-msfs">User Manual - Known Problems - Microsoft Flight Simulator 2020</a>.</p>
-  <h2 id="changes-from-267-to-268">Changes from 2.6.7 to 2.6.8</h2>
-  <h3 id="help-and-manuals">Help and Manuals</h3>
+  <p>See user manual for general known problems:</p>
+  <p><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems">User Manual - Known Problems</a>.</p>
+  <p>See user manual for limitations and issues around Microsoft Flight Simulator 2020:</p>
+  <p><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems-msfs">User Manual - Known Problems - Microsoft Flight Simulator 2020</a>.</p>
+  <h2 id="changes-from-268-to-269">Changes from 2.6.8 to 2.6.9</h2>
   <ul>
-  <li>Revised German user manual for spelling and grammar errors.</li>
-  <li>Small additions and corrections to English manual.</li>
+  <li>Fixed unrecoverable error when downloading PACOTS tracks (<code>Caught unknown exception in file ... line 85</code>).</li>
+  <li>Improved error handling for unreadable track information. Program now logs an error message instead of crashing.</li>
+  <li>Fixed error when reading procedures with invalid or unknown approach types from FSX, P3D and MSFS. Now logging error instead.</li>
   </ul>
-  <h3 id="general">General</h3>
-  <ul>
-  <li>Reverted change that was needed for work around a MSFS crash which occured when connecting. Now fetching destination and departure for AI aircraft again.</li>
-  <li>Fixed unrecoverable crash on startup which can occur with Mercator projection zoomed far out.</li>
-  <li>Resolved crashes when showing information for VOR and NDB having no type like <code>High</code> or <code>Terminal</code>.</li>
-  <li>Added error handling for missing layout file on startup if <code>Load window layout from last used file</code> in <code>Options</code> on page <code>Startup and Updates</code> is checked. Removing or renaming the layout file resulted in an unrecoverable crash on startup.</li>
-  <li>Fixed procedure display issues for turn bow after circular legs. Example: LGSR VOR-B transition BINKI.</li>
-  <li>Fixed issue where weather from FSX and P3D was not transferred across networked connections.</li>
-  <li>Logbook details (route preview and trail) on the map are now only shown if one entry is selected in the logbook search result table. Selecting more than one entry shows only the direct connection lines if enabled. This fixes performance issues when selecting many logbook entries.</li>
-  <li>Added warning dialog when user switches to offline mode.</li>
-  <li>Fixed issues with disappearing flight plan and measurement lines. Lines might still disappear near the poles for long flight plan legs depending on zoom factor.</li>
-  <li>Navaid resolution when loading flight plans or switching scenery databases is now more tolerant for wrong ICAO regions. Navaids were marked red with an error in the flight plan table before if the region did not match.</li>
-  <li>Fixed issue resulting in degraded drawing performance for airport diagrams. This was most visible on large airports.</li>
-  <li>Various drawing and user interface corrections.</li>
-  </ul>
-  <h3 id="flight-plan">Flight Plan</h3>
-  <ul>
-  <li>Fixed issue where waypoints inserted for procedure endpoints received wrong altitude when saving or exporting flight plans right after calculation. This caused error messages when loading the resulting LNMPLN files. <a href="https://github.com/albar965/littlenavmap/issues/608">GitHub issue #608</a>.</li>
-  <li>Now extracting ICAO airport idents for waypoints, NDB and VOR for MSFS export. PLN element <code>ICAOAirport</code> was missing before and caused problems when loading flight plans in MSFS. <a href="https://github.com/albar965/littlenavmap/issues/614">GitHub issue #614</a>.</li>
-  <li>Split up export options for JARDesign and Rotate aircraft to allow export for both separately.</li>
-  <li>Corrections to X-Plane FMS export. Using keywords <code>DEP</code> and <code>DES</code> now instead of truncating ident. This allows to reload the FMS file in <em>Little Navmap</em>.</li>
-  <li>Fixed a regression where circle-to-land approaches could not be loaded by X-Plane due to missing destination runway in FMS export.</li>
-  <li>Fixed flight plan export for FSX and MSFS which used the wrong coordinates for destination element <code>DestinationLLA</code> in flight plan. This confused third party programs which relied on this value.</li>
-  <li>Corrected wrong departure position for saved LNMPLN and FSX/P3D PLN flight plans. Now uses position from parking, helipad or runway/start for PLN <code>DepartureLLA</code> and LNMPLN <code>Start</code> element. <a href="https://github.com/albar965/littlenavmap/issues/613">GitHub issue #613</a>.</li>
-  <li>Fixed issue where LNMPLN flight plan procedures were replaced with waypoints inadvertently if enabled in export options menu. This happened when saving LNMPLN plans with multiexport.</li>
-  <li>Removed extra space to fix flight plan export for iFly (<code>.FLTPLAN</code>).</li>
-  <li>Other small corrections for flight plan export.</li>
-  </ul>
-  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/v2.6.8/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
+  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/v2.6.9/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
   <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
 
 
