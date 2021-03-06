@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2021-03-05 14:00:00 +0100
+date:   2021-03-06 11:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -22,6 +22,7 @@ date:   2021-03-05 14:00:00 +0100
 1. [How to backup userdata or the logbook](#userdata-backup)
 1. [I cannot resize a dock window](#dock-frozen)
 1. [How can I make the map window larger](#resize-map)
+1. [The map is jumping around randomly while flying](#aircraft-center)
 1. [Navaids or airways are red in the flight plan table](#red-navaids)
 1. [I added an airport and it does not show up in _Little Navmap_](#no-airport)
 1. [X-Plane: I installed _Little Xpconnect_ but cannot find it in the X-Plane menus](#xpconnect-menus)
@@ -139,6 +140,20 @@ Disable all unneeded search options in the "hamburger" drop down menu on the top
 
 Additionally undock the search window and let it float. Since the search is usuall only needed for
 flight preparation you can close the search dock window when flying (`Alt-1`). You can always open it quickly by hitting `F4`.
+
+[**▲**](#contents)
+
+### The map is jumping around randomly while flying {#aircraft-center}
+
+The map does not jump randomly. The level of zoom changes to keep aircraft and thhe next flight plan waypoint centered.
+
+The default is to keep aircraft and next flight plan waypoint on the screen once one leg is active (magenta), i.e. you're flying. You can move around the map manually but LNM jumps back to aircraft and waypoint after a while. All this is configurable in options on page [Simulator Aircraft](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/OPTIONS.html#simulator-aircraft).
+
+You can also revert to simple aircraft centering, for example. The default values might be confusing first but they are like that to reduce the need for manual zooming.
+
+If you switch to normal zooming you can change the level of zoom with the mouse wheel other other methods.
+
+Please also read the note about the special gestures in the linked manual chapter above.
 
 [**▲**](#contents)
 
@@ -508,5 +523,3 @@ See [User Manual - Connecting to a Flight Simulator](https://www.littlenavmap.or
 Options can be accessed in the application menu `Little Navmap` -&gt; `Preferences`.
 
 [**▲**](#contents)
-
-
