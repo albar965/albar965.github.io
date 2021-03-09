@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2021-03-09 15:00:00 +0100
+date:   2021-03-09 20:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -41,6 +41,7 @@ Read the linked chapter below to minimize issues when loading flight plans into 
 1. [I cannot see aprons and taxiways on the map](#no-aprons-taxi)
 1. [Why can I see only the X-Plane connect option](#xplane-connection-only)
 1. [The program crashes](#crash)
+1. [The program does not start and Windows shows an error message](#no-start)
 1. [The map moves jerky or I see stutters in _Little Navmap_ while scrolling or zooming](#jerky-map)
 1. [Lines disappearing](#lines-disappearing)
 1. [Can I run the program on another client computer across the network](#networking)
@@ -261,6 +262,19 @@ E.g. rename `ABarthel` to `ABarthel.backup`.
 If the problem persists send me a bug report in the
 [Avsim Support Forum](https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or by email.
 See [How to report a Bug](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#how-to-report-a-bug).
+
+[**▲**](#contents)
+
+### The program does not start and Windows shows an error message {#no-start}
+
+Windows shows an error message `cannot proceed because libmarblewidget-qt5.dll was not found` or similar
+when trying to start *Little Navmap*.
+
+This can have several reasons:
+
+* Not all files were extracted and the mentioned DLL file is missing. Check if it present in the same folder as the `littlenamvmap.exe`.
+* Anti-virus put the DLL into quarantine.
+* You start the program using a shortcut (`.lnk` file) and the working directory is not the *Little Navmap* folder (the one with the `littlenamvmap.exe`). The working directory can be changed in the link properties in input field `Start In`.
 
 [**▲**](#contents)
 
