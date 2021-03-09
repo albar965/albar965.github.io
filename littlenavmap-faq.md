@@ -1,20 +1,28 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2021-03-06 11:00:00 +0100
+date:   2021-03-09 15:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
 
 # ![Little Navmap](assets/images/navroute.png) Little Navmap - Frequently asked Questions
 
-**You might also have a look at the [appendix in the manual](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html).**
+See user manual for general known problems:\\
+[► User Manual - Known Problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems).
 
-**Use your browser search function (usually `Ctrl+F`) to find topics or keywords.**
+See user manual for limitations and issues around Microsoft Flight Simulator 2020:\\
+[► User Manual - Known Problems - Microsoft Flight Simulator 2020](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems-msfs).
+
+Read the linked chapter below to minimize issues when loading flight plans into **MSFS**:\\
+[► User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata).
+
+**Use your browser search function (usually `Ctrl+F` for Windows and Linux or `⌘+F` for macOS) to find topics or keywords.**
 
 <!-- egrep '{###}' littlenavmap-faq.md |sed -e 's/### \(.\+\) {#\(.\+\)}/1. [\1](#\2)/g' -->
+<!-- Curly brackets only used to escape the header -->
 
-## Contents {#contents}
+## Frequently asked Questions and Issues {#contents}
 
 1. [How to update the program](#update)
 1. [Where are the log and configuration files?](#log-and-config-files)
@@ -25,8 +33,10 @@ date:   2021-03-06 11:00:00 +0100
 1. [The map is jumping around randomly while flying](#aircraft-center)
 1. [Navaids or airways are red in the flight plan table](#red-navaids)
 1. [I added an airport and it does not show up in _Little Navmap_](#no-airport)
+1. [A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_](#no-airport-msfs)
 1. [X-Plane: I installed _Little Xpconnect_ but cannot find it in the X-Plane menus](#xpconnect-menus)
 1. [How can I update the navdata to the latest cycle](#update-navdata)
+1. [I still see an older AIRAC cycle in the Scenery Libary menu for X-Plane](#update-navdata-cycle)
 1. [I updated the navdata but it does not show up](#update-navdata-noshow)
 1. [I cannot see aprons and taxiways on the map](#no-aprons-taxi)
 1. [Why can I see only the X-Plane connect option](#xplane-connection-only)
@@ -176,7 +186,16 @@ See also [User Manual - Flight Plan - Error Display](https://www.littlenavmap.or
 You have to reload the scenery library. See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html).
 in the manual.
 
+See topic below for limitations with MSFS.
+
+### A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_ {#no-airport-msfs}
+
 Encrypted add-on airports in MSFS cannot be read by *Little Navmap*.
+The add-on is locked down with a DRM scheme if you find a file `BGL.fsarchive` in the add-on folders
+
+Note that *Little Navmap* reads only add-on scenery which has `"content_type": "CORE"` or `"content_type": "SCENERY"` set in the file `manifest.json` of the add-on.
+Some add-on developers still use wrong values like `"UNKNOWN"` which will cause *Little Navmap* to ignore the scenery.
+You can change the `manifest.json` manually in a text editor and replace the wrong `"UNKNOWN"` with `"SCENERY"`.
 
 See also [User Manual - Know Issues](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#microsoft-flight-simulator-2020).
 
@@ -194,6 +213,13 @@ Installation was successful if you can find _Little Xpconnect_ in the plugin inf
 You have to get a [Navigraph](https://www.navigraph.com/) subscription. This allows you to update the _Little Navmap_ navdata to the latest.
 
 I recommend to keep *Little Navmap*, the simulator and all tools on the same AIRAC cycle to avoid issues when loading flight plans.
+
+[**▲**](#contents)
+
+### I still see an older AIRAC cycle in the Scenery Libary menu for X-Plane {#update-navdata-cycle}
+
+You have to reload the scenery library in *Little Navmap* after updating the navdata in the simulator.
+*Little Navmap* will show the correct cycle and navdata after reloading.
 
 [**▲**](#contents)
 
