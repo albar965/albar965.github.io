@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2021-03-09 20:00:00 +0100
+date:   2021-03-11 12:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -16,6 +16,9 @@ See user manual for limitations and issues around Microsoft Flight Simulator 202
 
 Read the linked chapter below to minimize issues when loading flight plans into **MSFS**:\\
 [► User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata).
+
+Read below if you plan to use *Little Navmap* on a remote computer across a network to avoid common mistakes:\\
+[► User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NETWORK.html).
 
 **Use your browser search function (usually `Ctrl+F` for Windows and Linux or `⌘+F` for macOS) to find topics or keywords.**
 
@@ -189,6 +192,8 @@ in the manual.
 
 See topic below for limitations with MSFS.
 
+[**▲**](#contents)
+
 ### A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_ {#no-airport-msfs}
 
 Encrypted add-on airports in MSFS cannot be read by *Little Navmap*.
@@ -251,6 +256,10 @@ does not require a separate installation of SimConnect.
 
 The included SimConnect library is compatible with all FSX and P3D versions as well as Microsoft
 Flight Simulator 2020.
+
+The X-Plane connect option is always shown. You probably installed *Little Navmap* on a computer that has no FSX, P3D or MSFS installation.
+See [User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NETWORK.html)
+if you intend to run *Little Navmap* on a remote computer.
 
 [**▲**](#contents)
 
