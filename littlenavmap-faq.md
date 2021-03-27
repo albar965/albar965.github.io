@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2021-03-11 12:00:00 +0100
+date:   2021-03-27 16:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -42,6 +42,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I still see an older AIRAC cycle in the Scenery Libary menu for X-Plane](#update-navdata-cycle)
 1. [I updated the navdata but it does not show up](#update-navdata-noshow)
 1. [I cannot see aprons and taxiways on the map](#no-aprons-taxi)
+1. [I cannot choose a start position](#no-start-pos)
 1. [Why can I see only the X-Plane connect option](#xplane-connection-only)
 1. [The program crashes](#crash)
 1. [The program does not start and Windows shows an error message](#no-start)
@@ -51,7 +52,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Can I see the program when running FSX, P3D or X-Plane fullscreen ](#sim-fullscreen)
 1. [Cannot remove the traffic pattern, holding or measurement lines](#remove-pattern)
 1. [Map is fuzzy and not updating](#map-no-update)
-1. [The map has a grayish backgroud](#map-gray)
+1. [The map has a grayish or dark background when zooming in](#map-gray)
 1. [Why isn't the terrain mesh shown far North and South?](#terrain-mesh-limitations)
 1. [Search result empty](#search-empty)
 1. [Weather in X-Plane does not match what _Little Navmap_ displays](#xplane-weather)
@@ -121,7 +122,7 @@ You can also backup the database directly. The userpoints and logbook entries ar
 If interested you can look into this database using tools like this one: [SQLitebrowser](https://sqlitebrowser.org/)
 
 The main database is `C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel\little_navmap_db\little_navmap_userdata.sqlite` and
-`little_navmap_logbook.sqlite` respecitively in
+`little_navmap_logbook.sqlite` respectively in
 Windows and `$HOME/.config/ABarthel/little_navmap_db/little_navmap_userdata.sqlite` in macOS or Linux.
 
 You have to close _Little Navmap_ before creating a backup or replacing the databases.
@@ -152,7 +153,7 @@ The issue is similar to the one above.
 It's usually the search window which keeps the map from expanding.
 Disable all unneeded search options in the "hamburger" drop down menu on the top right in the airport search. Do the same for navaid search.
 
-Additionally undock the search window and let it float. Since the search is usuall only needed for
+Additionally undock the search window and let it float. Since the search is usually only needed for
 flight preparation you can close the search dock window when flying (`Alt-1`). You can always open it quickly by hitting `F4`.
 
 [**▲**](#contents)
@@ -249,6 +250,16 @@ See [Navigation Databases](https://www.littlenavmap.org/manuals/littlenavmap/rel
 
 [**▲**](#contents)
 
+### I cannot choose a start position {#no-start-pos}
+
+
+You might use the wrong scenery mode `Use Navigraph for all Features`.
+See [Navigation Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NAVDATA.html) and  [Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) for more information about this.
+
+Select either `Use Navigraph for Navaids and Procedures` or `Do not use Navigraph Database` depending on information in above links (Navigraph MSFS update installed or not).
+
+[**▲**](#contents)
+
 ### Why can I see only the X-Plane connect option {#xplane-connection-only}
 
 *Little Navmap* comes with a SimConnect library version 10.0.61259.0 (FSX SP2 / no Acceleration) and
@@ -342,9 +353,9 @@ This can have several reasons:
 
 [**▲**](#contents)
 
-### The map has a grayish backgroud {#map-gray}
+### The map has a grayish or dark background when zooming in {#map-gray}
 
-You use an online map and have  hillshading enabled where it has no coverage. Disable hillshading
+You use an online map and have hillshading enabled where it has no coverage. Disable hillshading
 ([Show  Hillshading](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#show-hillshading))
 or use another theme.
 
@@ -496,7 +507,7 @@ simulator scenery for runways and ILS and the Navigraph database for all airspac
 Runways are named by the magnetic direction which changes over the years. This results in airports renaming their runways from time to time.
 Therefore, mismatches between old airports, be it stock or add-on, can happen.
 
-It's neither a _Little Navmap_ nor Navigraph issue. I's an unavoidable
+It's neither a _Little Navmap_ nor Navigraph issue. It is an unavoidable
 real world issue where simulator scenery or airports are not updated as
 fast as the real world airports.
 
