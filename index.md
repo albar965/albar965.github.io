@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2021-03-05 14:00:00 +0100
+date:   2021-03-29 10:00:00 +0200
 ---
 
 # Alex' Projects
@@ -32,31 +32,25 @@ date:   2021-03-05 14:00:00 +0100
 
 ### Little Navmap Links
 
-[**► Screenshots**](littlenavmapscreens.html)
-
 [**► User Manuals**](/manuals.html)
+
+[**► Screenshots**](littlenavmapscreens.html)
 
 -----
 
-[**► Other Downloads** (aircraft performance profiles and more)](https://www.littlenavmap.org/downloads)
+[**► Contact and Support**](contact.html) Links, support forum and email.
 
-[**► _Little Navmap_ - Frequently asked Questions**](littlenavmap-faq.html)
+[**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Support and help for users.
 
-[**► _Little Navmap_ - Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
+[**► Frequently asked Questions**](littlenavmap-faq.html) Solutions for known problems and more.
+
+[**► Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
+
+[**► Downloads**](https://www.littlenavmap.org/downloads) Aircraft performance profiles and more.
 
 [► GitHub Profile](https://github.com/albar965) All my projects, releases, source code, issue lists and more.
 
 [► About Translation Packages](littlenavmaptranslations.html) General information about translation packages.
-
-### Contact and Support
-
-<a href="alex AT littlenavmap DOT org"
-   rel="nofollow"
-   onclick="this.href='mailto:' + 'alex' + '@' + 'little' + 'nav' + 'map' + '.' + 'org'"
-   onmouseleave="this.href='alex AT littlenavmap DOT org'"><span class="bold">► Contact me by email</span></a>,
-<a rel="pgpkey" href="alex@littlenavmap.org.pubkey.asc">PGP Public Key</a> (English / Deutsch).
-
-[**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) **Support and help for users.**
 
 ### Little Navmap Donations
 
