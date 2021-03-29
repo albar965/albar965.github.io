@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2020-12-11 12:00:00 +0100
+date:   2021-03-29 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap
@@ -24,9 +24,7 @@ date:   2020-12-11 12:00:00 +0100
 
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
-## Version 2.6.6 Features
-
-TODO
+## Version 2.6 Features
 
 * *Little Navmap* is a **free** open source flight planner, navigation tool, moving map, airport
   search and airport information system.
