@@ -22,10 +22,9 @@ date:   2021-03-29 10:00:00 +0200
 <br/><br/>
 
 **Please check the [support forum](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum),
-the [frequently asked questions](littlenavmap-faq.html), the [known problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems) in the user manual and probably the [Github issues](https://github.com/albar965/littlenavmap/issues)
-for known problems or solutions.**
+the [frequently asked questions](littlenavmap-faq.html) and the [known problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems) in the user manual first. Your question is likely already answered there.**
 
-<br/><br/>
+<br/>
 
 <a href="alex AT littlenavmap DOT org"
    rel="nofollow"

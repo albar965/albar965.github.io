@@ -3,20 +3,20 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=2.6.10
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.10/LittleNavmap-win-2.6.10.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.10/LittleNavmap-macOS-2.6.10.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.10/LittleNavmap-linux-20.04-2.6.10.tar.gz
+version=2.6.11
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-win-2.6.11.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-macOS-2.6.11.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-linux-20.04-2.6.11.tar.gz
 changelog=
   <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
   <h2 id="links">Links</h2>
   <p><a href="https://albar965.github.io/pages/26/littlenavmapscreens.html"><strong>► Screenshots of 2.6 Features</strong></a><br/>
   <a href="https://albar965.github.io/manuals.html"><strong>► Little Navmap and Little Navconnect User Manuals for 2.6 Versions</strong></a></p>
   <h3 id="direct-download">Direct Download</h3>
-  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.10/LittleNavmap-win-2.6.10.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.10.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.10/LittleNavmap-macOS-2.6.10.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.10.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.10/LittleNavmap-linux-20.04-2.6.10.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.10.tar.gz</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.10/LittleNavmap-linux-16.04-2.6.10.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 16.04)</strong> - LittleNavmap-linux-16.04-2.6.10.tar.gz</a></p>
+  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-win-2.6.11.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.11.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-macOS-2.6.11.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.11.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-linux-20.04-2.6.11.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.11.tar.gz</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-linux-16.04-2.6.11.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 16.04)</strong> - LittleNavmap-linux-16.04-2.6.11.tar.gz</a></p>
   <h3 id="alternative-download-locations">Alternative Download Locations</h3>
   <p><a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa"><strong>► Dropbox</strong></a><br/>
   <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w"><strong>► Mega.nz</strong></a><br/>
@@ -25,19 +25,31 @@ changelog=
   <h2 id="known-issues">Known Issues</h2>
   <p>Read the linked chapter below to minimize issues when loading flight plans into <strong>MSFS</strong>:<br/><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata">► User Manual - Microsoft Flight Simulator 2020 Airports and Navdata</a>.</p>
   <p>See user manual for general known problems:<br/><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems">► User Manual - Known Problems</a>.</p>
-  <p>See user manual for limitations and issues around Microsoft Flight Simulator 2020:<br/><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems-msfs">► User Manual - Known Problems - Microsoft Flight Simulator 2020</a>.</p>
-  <h2 id="changes-from-269-to-2610">Changes from 2.6.9 to 2.6.10</h2>
+  <h2 id="changes-from-2610-to-2611">Changes from 2.6.10 to 2.6.11</h2>
+  <h3 id="weather">Weather</h3>
   <ul>
-  <li>Fixed crash that occurs when showing the dialog <code>The flight plan had no valid start position</code> on startup. This kept the user from starting <em>Little Navmap</em>.</li>
-  <li>Removed wrong warning dialog about start position when loading MSFS flight plans. MSFS cannot load start positions like gates from a flight plan file.</li>
-  <li>Fixed missing time, fuel and altitude values for departure and destination legs in flight plan table.</li>
-  <li>Corrected message in progress tab which gave the wrong impression that program is already connected when using a network connection.</li>
-  <li>Fixed issue where minimum zoom was wrongly set in the elevation profile in some cases. As a result the user could not zoom in to the minimum of around 4 NM and was stuck at much higher levels.</li>
-  <li>Changed keyboard shortcut for <code>Create Approach</code> in context menus to <code>Alt+Shift+R</code> to avoid overlap with <code>Calculate Flight Plan</code>.</li>
-  <li>Added new sub-menu <code>Track Sources</code> in menu <code>Flight Plan</code> which allows to enable or disable the different track systems to load. Note that AUSOTS is disabled per default since there are no flex tracks available for almost one year and the service is unreliable causing download errors.</li>
-  <li>More small user interface and map display improvements.</li>
+  <li>Fixed <code>Error downloading or reading wind data</code> issue. Adapted URL for winds aloft download to NOAA changes and added <code>atmos</code> as directory. <a href="https://github.com/albar965/littlenavmap/issues/623">#623</a></li>
+  <li>Now suppressing wind and other downloads with log warning message if URLs are empty. <a href="https://github.com/albar965/littlenavmap/issues/623">#623</a></li>
+  <li>New decompression methods to speed up weather and track downloads.</li>
+  <li>Now showing airport weather symbols on higher zoom levels. Avoiding simple line on wind barb which can be confused with low wind.</li>
   </ul>
-  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/v2.6.10/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
+  <h3 id="flight-plans">Flight Plans</h3>
+  <ul>
+  <li>Corrected approach identifier in FLP flight plan export and loading for Aerosoft aircraft. Now using ARINC identifier for approaches and ignoring transitions of type <code>VECTOR</code>. Adapted changed keywords in file for CRJ. Problems still appear when loading flight plans into the aircraft. This will be fixed in one of the next updates.</li>
+  <li>Added extra entry for Aerosoft MSFS CRJ in multi export to avoid loading issues because of a too long file name.</li>
+  <li>Added patch by Slawek Mikula to support loading of Aviamaps flight plans. <a href="https://github.com/albar965/littlenavmap/issues/616">#616</a></li>
+  <li>Exporting online network flight plan files from menu now correctly remembers last used folder for each format.</li>
+  </ul>
+  <h3 id="other">Other</h3>
+  <ul>
+  <li>Adjustments to drawing. ILS, online aircraft and AI aircraft are now shown at higher zoom levels.</li>
+  <li>Added support for new VATSIM JSON version 3 data feed. Better update rate for online networks is now one minute for VATSIM and PilotEdge and two minutes for IVAO. Allowing centers and clients (VATSIM prefile) without coordinates now throughout program. Keep in mind that the real center boundaries are not depicted yet. <a href="https://github.com/albar965/littlenavmap/issues/606">#606</a></li>
+  <li>MSFS: Now ignoring invalid content types like <code>Unknown</code> in MSFS <code>manifest.json</code> file which are often set wrongly by add-on developers. This kept add-on airports from showing up.</li>
+  <li>Fixed issue where userdata CSV backup files could not be loaded and had to be manually corrected before import.</li>
+  <li>Updates for detection of military airports and name capitalization.</li>
+  <li>More small user interface corrections.</li>
+  </ul>
+  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/v2.6.11/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
   <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
 
 
