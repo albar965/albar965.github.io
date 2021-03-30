@@ -1,15 +1,14 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2021-03-29 10:00:00 +0200
+date:   2021-03-30 17:00:00 +0200
 ---
 [Alex’ Projects](index.html) ► Contact and Support
 
 # ![Little Navmap](assets/images/navroute.png) Contact and Support
 
+## Links
 [**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Support and help for users.
-
-[**► Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
 [**► Frequently asked Questions**](littlenavmap-faq.html) Solutions for known problems and more.
 
@@ -17,12 +16,26 @@ date:   2021-03-29 10:00:00 +0200
 
 [**► Github Issues**](https://github.com/albar965/littlenavmap/issues) Tasks and bug reports.
 
-# Email
+[**► Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
-<br/><br/>
+## Configuration and log files
+
+The locations are explained in chapter `Files` in the user manual:
+
+<br/>
+
+[**► Files**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html) Locations of all log, database and configuration files for all supported operating systems.
+
+<br/>
+
+You can also open some files and folders directly in *Little Navmap* in menu `Tools` -> [Files and Directories](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#files-and-directories).
+
+## Email
+
+<br/>
 
 **Please check the [support forum](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum),
-the [frequently asked questions](littlenavmap-faq.html) and the [known problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems) in the user manual first. Your question is likely already answered there.**
+the [frequently asked questions](littlenavmap-faq.html) and the [known problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems) in the user manual first. Your question is probably answered there.**
 
 <br/>
 
