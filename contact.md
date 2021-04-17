@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2021-03-30 17:00:00 +0200
+date:   2021-04-17 09:00:00 +0200
 ---
 [Alex’ Projects](index.html) ► Contact and Support
 
@@ -36,6 +36,9 @@ You can also open some files and folders directly in *Little Navmap* in menu `To
 
 **Please check the [support forum](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum),
 the [frequently asked questions](littlenavmap-faq.html) and the [known problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems) in the user manual first. Your question is probably answered there.**
+
+**Provide as much information as possible if you'd like to report a problem.
+A screenshot of the full *Little Navmap* window including title or a flight plan depending on issue might be helpful first.**
 
 <br/>
 

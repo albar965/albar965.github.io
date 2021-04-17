@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2021-03-29 10:00:00 +0200
+date:   2021-04-17 09:00:00 +0200
 ---
 
 # Alex' Projects
@@ -23,7 +23,7 @@ date:   2021-03-29 10:00:00 +0200
 
 ### Little Navmap Downloads
 
-* [**Windows** (LittleNavmap-win-2.6.11.zip)](https://github.com/albar965/littlenavmap/releases/download/v2.6.10/LittleNavmap-win-2.6.11.zip)
+* [**Windows** (LittleNavmap-win-2.6.11.zip)](https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-win-2.6.11.zip)
 * [**macOS** (LittleNavmap-macOS-2.6.11.zip)](https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-macOS-2.6.11.zip)
 * [**Linux** - 64 bit, based on Ubuntu 20.04 (LittleNavmap-linux-20.04-2.6.11.tar.gz)](https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-linux-20.04-2.6.11.tar.gz)
 * [**Linux** - 64 bit, based on Ubuntu 16.04 (LittleNavmap-linux-16.04-2.6.11.tar.gz)](https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-linux-16.04-2.6.11.tar.gz)
