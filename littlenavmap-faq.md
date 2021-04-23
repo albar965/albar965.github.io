@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2021-04-05 11:00:00 +0200
+date:   2021-04-23 15:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -58,6 +58,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I updated the navdata but it does not show up](#update-navdata-noshow)
 1. [I cannot see aprons and taxiways on the map](#no-aprons-taxi)
 1. [I cannot choose a start position](#no-start-pos)
+1. [Some procedures or procedure legs are marked red in the selection/search tree](#red-proc)
 
 ### User Interface and Windows
 
@@ -481,10 +482,21 @@ Select either `Use Navigraph for Navaids and Procedures` or `Do not use Navigrap
 
 ----
 
+#### Some procedures or procedure legs are marked red in the selection/search tree {#red-proc}
 
+This can happen if navdata read from the simulator has errors or is incomplete. Note that this issue appears only when
+using `Do not use Navigraph Database` in the menu `Scenery Library`.
 
+The procedures cannot be used at all or only after confirming a warning dialog.
 
+A currently known problem is missing recommended fix information for constant radius arc procedure legs in MSFS navdata.
 
+See also [Search Procedures](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SEARCHPROCS.html) and
+[Procedures](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPROACHES.html) for more information.
+
+[**▲**](#contents)
+
+----
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
