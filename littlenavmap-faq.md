@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2021-04-23 15:00:00 +0200
+date:   2021-04-27 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
