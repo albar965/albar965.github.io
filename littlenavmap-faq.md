@@ -245,15 +245,15 @@ also linked in the help menu. These help to get around in the program.
 
 #### The map is jumping around randomly while flying {#aircraft-center}
 
-The map does not jump randomly. The level of zoom changes to keep aircraft and thhe next flight plan waypoint centered.
+The map does not jump randomly. The level of zoom changes to keep aircraft and the next flight plan waypoint centered.
 
-The default is to keep aircraft and next flight plan waypoint on the screen once one leg is active (magenta), i.e. you're flying. You can move around the map manually but LNM jumps back to aircraft and waypoint after a while. All this is configurable in options on page [Simulator Aircraft](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/OPTIONS.html#simulator-aircraft).
+The default behavior is to keep aircraft and next flight plan waypoint on the screen once one flight plan leg is active (magenta), i.e. you're flying. You can move around the map manually but LNM jumps back to aircraft and waypoint after a while. All this is configurable in options on page [Simulator Aircraft](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/OPTIONS.html#simulator-aircraft).
 
 You can also revert to simple aircraft centering, for example. The default values might be confusing first but they are like that to reduce the need for manual zooming.
 
 If you switch to normal zooming you can change the level of zoom with the mouse wheel other other methods.
 
-Please also read the note about the special gestures in the linked manual chapter above.
+**Please also read the note about the special gestures in the linked manual chapter above.**
 
 [**▲**](#contents)
 
