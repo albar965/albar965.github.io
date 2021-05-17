@@ -1,12 +1,12 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2021-04-27 10:00:00 +0200
+date:   2021-05-17 07:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
 
-# ![Little Navmap](assets/images/navroute.png) Little Navmap - Frequently asked Questions
+# ![Little Navmap](assets/images/navroute.png) Little Navmap - Frequently asked Questions {#top}
 
 See user manual for general known problems:\\
 [► User Manual - Known Problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems).
@@ -92,7 +92,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I get an error message about missing directories when loading X-Plane scenery](#missing-xplane-scenery)
 1. [Airports missing in X-Plane scenery after reloading](#airports-missing-xplane-scenery)
 1. [I still see an older AIRAC cycle in the Scenery Libary menu for X-Plane](#update-navdata-cycle)
-
+1. [Little Xpconnect does not load in Ubuntu 18.04 or derived Linux distributions](#xpconnect-linux)
 
 ## Frequently asked Questions and Issues {#contents}
 
@@ -112,7 +112,7 @@ In either case do not merge the two old and new directories. Remains of previous
 
 Always update all related programs like *Little Navconnect* and *Little Xpconnect*.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -128,7 +128,7 @@ Configuration file: `C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel\little_navma
 
 Details can be found in the [Files](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html) chapter in the manual.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -143,7 +143,7 @@ You can send your downloaded files to VirusTotal and you will get the report fro
 
 One false positive might occur and is no reason for concern.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -159,7 +159,7 @@ The X-Plane connect option is always shown. You probably installed *Little Navma
 See [User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NETWORK.html)
 if you intend to run *Little Navmap* on a remote computer.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -176,7 +176,7 @@ For errors send me a bug report in the
 [Avsim Support Forum](https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or by email.
 See [How to report a Bug](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#how-to-report-a-bug).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -189,7 +189,7 @@ If the problem persists send me a bug report in the
 [Avsim Support Forum](https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or by email.
 See [How to report a Bug](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#how-to-report-a-bug).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -204,7 +204,7 @@ This can have several reasons:
 * Anti-virus put the DLL into quarantine.
 * You start the program using a shortcut (`.lnk` file) and the working directory is not the *Little Navmap* folder (the one with the `littlenamvmap.exe`). The working directory can be changed in the link properties in input field `Start In`.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -215,7 +215,7 @@ chapter [Files](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en
 
 _Little Navmap_ does not create any registry entries on Windows.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -239,7 +239,7 @@ That's it. You just built a simple flight plan.
 Have a look at the [Tutorials](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/TUTORIALS.html) which are
 also linked in the help menu. These help to get around in the program.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -255,7 +255,7 @@ If you switch to normal zooming you can change the level of zoom with the mouse 
 
 **Please also read the note about the special gestures in the linked manual chapter above.**
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -275,7 +275,7 @@ You have to close _Little Navmap_ before creating a backup or replacing the data
 Little Navmap also creates three rolling backups (`little_navmap_userdata.sqlite.1`, etc.) on startup which you can use
 if you deleted something accidentally.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -291,7 +291,7 @@ violated by the selected cruise altitude when loading the flight plan.
 
 See also [User Manual - Flight Plan - Error Display](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FLIGHTPLAN.html#error-display).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -303,7 +303,7 @@ the result table or press `Ctrl+R` to clear all search criteria.
 
 Note that using an ICAO code for searching will temporarily override all other options. This helps to do a quick search for an airport.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -315,7 +315,7 @@ Fuel flow in the tab `Performance` of _Little Navmap_ does not match to what the
 An aircraft add-on probably uses doctored values to workaround simulator limitations. This happens often
 with complex study level add-ons and might affect fuel calculation, planning and especially collection.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -332,7 +332,7 @@ Tune the profile manually as needed.
 
 It might also be beneficial to create different profiles for different cruise altitude ranges, especially for large complex aircraft.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -342,7 +342,7 @@ It might also be beneficial to create different profiles for different cruise al
 
 See [User Manual - Connecting to a Flight Simulator](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/CONNECT.html).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -356,7 +356,7 @@ See [User Manual - Connecting to a Flight Simulator](https://www.littlenavmap.or
 Load the scenery library from the simulator. See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html)
 in the manual.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -367,7 +367,7 @@ in the manual.
 
 See topic below for limitations with MSFS.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -380,7 +380,7 @@ Data sources limit this functionality and it depends on the selected navdata sou
 * All other modes: The completeness of administrative information depends on the airport. Administrative data (State, City, etc.)
   is often missing for X-Plane airports. Country information is missing in MSFS.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -402,7 +402,7 @@ For **FSX or Perpar3D** you can use the [Airport Design Editor](http://www.scruf
 
 Use [WED](https://developer.x-plane.com/tools/worldeditor/) to change an airport for X-Plane.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -418,7 +418,7 @@ read the procedures from your add-on airport and you can use them like the other
 
 See [Navdata in X-Plane 11](https://developer.x-plane.com/?article=navdata-in-x-plane-11) and [XP-CIFP1101-Spec.pdf](http://developer.x-plane.com/wp-content/uploads/2016/10/XP-CIFP1101-Spec.pdf).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -433,7 +433,7 @@ You can change the `manifest.json` manually in a text editor and replace the wro
 
 See also [User Manual - Know Issues](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#microsoft-flight-simulator-2020).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -443,7 +443,7 @@ You have to get a [Navigraph](https://www.navigraph.com/) subscription. This all
 
 I recommend to keep *Little Navmap*, the simulator and all tools on the same AIRAC cycle to avoid issues when loading flight plans.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -454,7 +454,7 @@ You should use the automatic scan in the _FMS Data Manager_ which usually finds 
 See [Little Navmap - Install Navigraph Updates](/littlenavmap_navigraph.html) to see
 how to set the path correctly if the automatic scan did not find the path.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -467,7 +467,7 @@ is the recommended mode which will show detailed stock or add-on airports mixed 
 
 See [Navigation Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NAVDATA.html) in the manual.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -478,7 +478,7 @@ See [Navigation Databases](https://www.littlenavmap.org/manuals/littlenavmap/rel
 
 Select either `Use Navigraph for Navaids and Procedures` or `Do not use Navigraph Database` depending on information in above links (Navigraph MSFS update installed or not).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -494,7 +494,7 @@ A currently known problem is missing recommended fix information for constant ra
 See also [Search Procedures](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SEARCHPROCS.html) and
 [Procedures](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPROACHES.html) for more information.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -515,7 +515,7 @@ there are several options:
 Here are some tips for undocking (Ctrl-key, etc.) and moving around in the interface:
 [User Interface - Dock Windows](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/DOCKWINDOWS.html)
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -529,7 +529,7 @@ Disable all unneeded search options in the "hamburger" drop down menu on the top
 Additionally undock the search window and let it float. Since the search is usually only needed for
 flight preparation you can close the search dock window when flying (`Alt-1`). You can always open it quickly by hitting `F4`.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -545,7 +545,7 @@ Another reason can be the search window taking up too much space:
 1. Switch around in the search tabs or undock and dock one back by double clicking into the title bar.
 1. Undock the search window and let it float. This dock window is very expansive and squeezes other docks into the corners even when search options are disabled.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -558,7 +558,7 @@ Another reason can be the search window taking up too much space:
 
 You might have selected too many details. Go to main menu -&gt; `View` -&gt; `Details` -&gt; `Default Detail`.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -568,7 +568,7 @@ Parts of the flight plan disappear.
 
 This is a known error and can happen at certain zoom distances with long flight plan legs.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -578,7 +578,7 @@ You have to right-click on the hotspot.
 
 See [User Manual - Mouse Click Hotspots](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MAPDISPLAY.html#mouse-click-hotspots).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -591,7 +591,7 @@ This can have several reasons:
    See [Work Offline](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#work-offline).
 3. Your internet connection is broken or your firewall forbids network access for _Little Navmap_.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -601,7 +601,7 @@ You use an online map and have hillshading enabled where it has no coverage. Dis
 ([Show  Hillshading](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#show-hillshading))
 or use another theme.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -613,7 +613,7 @@ The GLOBAL elevation data is only for the elevation profile and altitude display
 from an open server and that has known limitations and bugs. Coverage is limited. You can use
 another map theme which includes worldwide hillshading like the `StamenTerrain` or `OpenTopoMap`.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -621,7 +621,7 @@ another map theme which includes worldwide hillshading like the `StamenTerrain` 
 
 Something went wrong when installing _Little Navmap_. Most likely the directory `data` is missing.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -638,7 +638,7 @@ The client computer does not need a SimConnect or simulator installation at all.
 See [User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NETWORK.html)
 in the manual.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -652,7 +652,7 @@ You can not. But you can:
    [How to run a network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INTRO.html#network-setup)
 3. Run the simulator in seamless window mode. Then you can `Alt+Tab` between applications.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -660,7 +660,7 @@ You can not. But you can:
 
 Options can be accessed in the application menu `Little Navmap` -&gt; `Preferences`.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -673,7 +673,7 @@ You probably have to enter an administrator name and password once. The program 
 
 See [User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#macos).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -683,7 +683,7 @@ A new security feature in macOS forbids the execution of unsigned libraries or a
 
 See [User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#macos).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -697,7 +697,7 @@ See [User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/li
 _Little Xpconnect_ does not create any menus items in X-Plane.
 Installation was successful if you can find _Little Xpconnect_ in the plugin information of the X-Plane plugin manager.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -712,7 +712,7 @@ Check if there is a another folder with the _Little Xpconnect_ executable (`win.
 
 You can see the path of the (wrongly) loaded plugin in the X-Plane plugin manager.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -724,7 +724,7 @@ _Little Navmap_ can only read the X-Plane weather file `METAR.rwx` and display o
 
 There is no information available how and if X-Plane interpolates weather between stations. Therefore, nearest weather and even station weather might not match.
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -736,7 +736,7 @@ stale entries. Fix this by restarting X-Plane which will remove the old entries.
 You might as well enable `Read inactive Scenery Entries:` which will cause _Little Navmap_ to ignore `scenery_packs.ini`
 and read all. See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -746,7 +746,7 @@ If you have `Read inactive Scenery Entries:` enabled: Restart X-Plane so that it
 
 See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html).
 
-[**▲**](#contents)
+[**▲**](#top)
 
 ----
 
@@ -755,6 +755,27 @@ See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenav
 You have to reload the scenery library in *Little Navmap* after updating the navdata in the simulator.
 *Little Navmap* will show the correct cycle and navdata after reloading.
 
-[**▲**](#contents)
+[**▲**](#top)
+
+----
+
+#### Little Xpconnect does not load in Ubuntu 18.04 or derived Linux distributions {#xpconnect-linux}
+
+The problem is caused by a missing library. You can install this manually.
+
+`libicu55` was supported until Ubuntu 16.04 Xenial, but it is compatible with 18.04 Bionic as well.
+
+Add the following repository and install the package
+
+```
+sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
+sudo apt-get update
+sudo apt-get install libicu55
+```
+
+Thanks to Wolfgang for the tip!
+
+
+[**▲**](#top)
 
 ----
