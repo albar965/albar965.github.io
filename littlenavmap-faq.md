@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2021-05-17 07:00:00 +0200
+date:   2021-05-19 15:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -77,6 +77,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Map background is black](#map-black)
 1. [Can I run the program on another client computer across the network](#networking)
 1. [Can I see the program when running FSX, P3D, MSFS or X-Plane fullscreen](#sim-fullscreen)
+1. [The map window is not visible or shows only a gray surface](#map-hidden)
 
 ### Apple macOS
 
@@ -651,6 +652,16 @@ You can not. But you can:
    are options to speed up map display. This notebook can run Linux or macOS. Have a look at the manual here:
    [How to run a network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INTRO.html#network-setup)
 3. Run the simulator in seamless window mode. Then you can `Alt+Tab` between applications.
+
+[**▲**](#top)
+
+----
+
+#### The map window is not visible or shows only a gray surface {#map-hidden}
+
+This can happen for various reasons (like a crash) or if you change the option [Allow to undock the map window](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/OPTIONS.html#allow-to-undock-the-map-window) in the options dialog.
+
+Use menu `Window` -> [Reset Window Layout](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#reset-layout-menu) in the main menu to clean up the window layout.
 
 [**▲**](#top)
 
