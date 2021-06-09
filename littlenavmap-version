@@ -3,54 +3,249 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=2.6.11
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-win-2.6.11.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-macOS-2.6.11.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-linux-20.04-2.6.11.tar.gz
+version=2.6.13
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.13/LittleNavmap-win-2.6.13.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.13/LittleNavmap-macOS-2.6.13.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.13/LittleNavmap-linux-20.04-2.6.13.tar.gz
 changelog=
   <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
-  <h2 id="links">Links</h2>
-  <p><a href="https://albar965.github.io/pages/26/littlenavmapscreens.html"><strong>► Screenshots of 2.6 Features</strong></a><br/>
-  <a href="https://albar965.github.io/manuals.html"><strong>► Little Navmap and Little Navconnect User Manuals for 2.6 Versions</strong></a></p>
+  <p><strong>►► This version contains mostly bug fixes, adaption to MSFS scenery library changes, support for the new X-Plane
+  TCAS scheme and a reworked web user interface. ◄◄</strong></p>
   <h3 id="direct-download">Direct Download</h3>
-  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-win-2.6.11.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.11.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-macOS-2.6.11.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.11.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-linux-20.04-2.6.11.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.11.tar.gz</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-linux-16.04-2.6.11.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 16.04)</strong> - LittleNavmap-linux-16.04-2.6.11.tar.gz</a></p>
+  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.13/LittleNavmap-win-2.6.13.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.13.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.13/LittleNavmap-macOS-2.6.13.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.13.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.13/LittleNavmap-linux-20.04-2.6.13.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.13.tar.gz</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.13/LittleNavmap-linux-16.04-2.6.13.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 16.04)</strong> - LittleNavmap-linux-16.04-2.6.13.tar.gz</a></p>
   <h3 id="alternative-download-locations">Alternative Download Locations</h3>
   <p><a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa"><strong>► Dropbox</strong></a><br/>
   <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w"><strong>► Mega.nz</strong></a><br/>
   <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g"><strong>► OneDrive</strong></a></p>
   <!-- ========================================================================================================== -->
   <h2 id="known-issues">Known Issues</h2>
-  <p>Read the linked chapter below to minimize issues when loading flight plans into <strong>MSFS</strong>:<br/><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata">► User Manual - Microsoft Flight Simulator 2020 Airports and Navdata</a>.</p>
-  <p>See user manual for general known problems:<br/><a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems">► User Manual - Known Problems</a>.</p>
-  <h2 id="changes-from-2610-to-2611">Changes from 2.6.10 to 2.6.11</h2>
-  <h3 id="weather">Weather</h3>
+  <p>Read the linked chapter below to minimize issues when loading
+  flight plans into <strong>MSFS</strong>:<br/> <a href=
+  "https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata">
+  ► User Manual - Microsoft Flight Simulator 2020 Airports and
+  Navdata</a>.</p>
+  <p>See user manual for general known problems:<br/> <a href=
+  "https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems">
+  ► User Manual - Known Problems</a>.</p>
+  <p>See user manual for limitations and issues around Microsoft
+  Flight Simulator 2020:<br/> <a href=
+  "https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems-msfs">
+  ► User Manual - Known Problems - Microsoft Flight Simulator
+  2020</a>.</p>
+  <h2 id="important-notes">Important Notes</h2>
   <ul>
-  <li>Fixed <code>Error downloading or reading wind data</code> issue. Adapted URL for winds aloft download to NOAA changes and added <code>atmos</code> as directory. <a href="https://github.com/albar965/littlenavmap/issues/623">#623</a></li>
-  <li>Now suppressing wind and other downloads with log warning message if URLs are empty. <a href="https://github.com/albar965/littlenavmap/issues/623">#623</a></li>
-  <li>New decompression methods to speed up weather and track downloads.</li>
-  <li>Now showing airport weather symbols on higher zoom levels. Avoiding simple line on wind barb which can be confused with low wind.</li>
+  <li>You have to update/reinstall <em>Little Navconnect</em> and
+  <em>Little Xpconnect</em> if you use these since the data protocol
+  has changed. This version is compatible with <em>Little
+  Navconnect</em> 2.6.11 and <em>Little Xpconnect</em>
+  1.0.24 or newer.</li>
+  <li>Aircraft label settings are reset back to default. Adjust these
+  in the options dialog on page <code>Map Display 2</code>.</li>
+  <li>All MSFS scenery library related changes need at least MSFS
+  version 1.16.2 .</li>
+  <li>MSFS users need to reload the scenery library to new features
+  like SID and STAR.</li>
+  <li>Do not use the scenery library mode <code>Do not use Navigraph
+  Database</code> if you have the Navigraph udpate installed. You
+  will see errors in procedures. Instead update the scenery database
+  of <em>Little Navmap</em> using the Navigraph FMS Data
+  Manager.</li>
   </ul>
+  <h2 id="changes-from-2611-to-2613">Changes from 2.6.11 to
+  2.6.13</h2>
+  <p>Version 2.6.12.beta was an unofficial beta release.</p>
   <h3 id="flight-plans">Flight Plans</h3>
   <ul>
-  <li>Corrected approach identifier in FLP flight plan export and loading for Aerosoft aircraft. Now using ARINC identifier for approaches and ignoring transitions of type <code>VECTOR</code>. Adapted changed keywords in file for CRJ. Problems still appear when loading flight plans into the aircraft. This will be fixed in one of the next updates.</li>
-  <li>Added extra entry for Aerosoft MSFS CRJ in multi export to avoid loading issues because of a too long file name.</li>
-  <li>Added patch by Slawek Mikula to support loading of Aviamaps flight plans. <a href="https://github.com/albar965/littlenavmap/issues/616">#616</a></li>
-  <li>Exporting online network flight plan files from menu now correctly remembers last used folder for each format.</li>
+  <li>Corrected loading and saving of GPX tracks. Now also saving
+  timestamps and considering disconnected trail segments. A flight
+  where the aircraft was moved or warped during flight results in a
+  straight line connecting the two segments. Changing aircraft,
+  restarting the simulator or <em>Little Navmap</em> results in
+  disconnected trail segments.</li>
+  <li>Fixed issue causing error messages on flight plan elevation
+  profile calculation if destination airport is below sea level and
+  an approach procedure is used.</li>
+  <li>Flight cruise altitude was set wrongly after calculating route
+  with metric altitude units.</li>
+  <li>Now omitting visual reporting points (like <code>VP123</code>)
+  and other obscure numbered waypoints from route calculation. Also
+  ignoring half degree points like <code>H5711</code> in north
+  atlantic now. Simplified and optimized loading of routing
+  network.</li>
+  <li>Fixed issue where a flight plan calculation resulted in not
+  optimal routes. This happened when a nearby navaid connected to the
+  airway system could not be found.</li>
   </ul>
-  <h3 id="other">Other</h3>
+  <h3 id="flight-plan-export">Flight Plan Export</h3>
   <ul>
-  <li>Adjustments to drawing. ILS, online aircraft and AI aircraft are now shown at higher zoom levels.</li>
-  <li>Added support for new VATSIM JSON version 3 data feed. Better update rate for online networks is now one minute for VATSIM and PilotEdge and two minutes for IVAO. Allowing centers and clients (VATSIM prefile) without coordinates now throughout program. Keep in mind that the real center boundaries are not depicted yet. <a href="https://github.com/albar965/littlenavmap/issues/606">#606</a></li>
-  <li>MSFS: Now ignoring invalid content types like <code>Unknown</code> in MSFS <code>manifest.json</code> file which are often set wrongly by add-on developers. This kept add-on airports from showing up.</li>
-  <li>Fixed issue where userdata CSV backup files could not be loaded and had to be manually corrected before import.</li>
-  <li>Updates for detection of military airports and name capitalization.</li>
-  <li>More small user interface corrections.</li>
+  <li>Enabled departure parking position for MSFS flight plan export
+  and import. Enabled check for parking position for MSFS export
+  which shows a warning if starting on a runway. You can also set a fuel
+  pad as starting position but note that runways and helipads as starting
+  positions will be ignored by MSFS.
+</li>
+  <li>More relaxed user waypoint naming conventions for MSFS. Now
+  allowing more special characters.</li>
+  <li>Corrected Aerosoft CRJ flight plan export as far as possible.
+  Now exporting a list of waypoints instead of airway routes for MSFS
+  CRJ to minimize issues when loading plan in aircraft. Adapted
+  changed keywords in <code>.flp</code> file and compressing airway
+  segments now. <a href=
+  "https://github.com/albar965/littlenavmap/issues/632">#632</a></li>
+  <li>Added export of modified PLN format for Integrated Simavionics
+  / ISG devices and gauges.</li>
+  <li>Export option for MSFS PMS50 GTN750 Garmin added. This export
+  saves the flight plan using a fixed filename
+  <code>fpl.pln</code>.</li>
+  <li>Now always adding procedure entry and exit waypoints for flight
+  plan export formats not supporting procedures like FSX/P3D PLN.
+  User can an additional waypoint in the simulator if needed.</li>
+  <li>Corrected default flight plan pattern to use departure and
+  destination ident if flight plan pattern is empty. Used departure
+  airport ident wrongly before.</li>
+  <li>Changes to allow updates for new export formats.</li>
+  <li>Now clearing invalid procedures (red error message below flight
+  plan table) before saving LNMPLN. Reloading a saved LNMPLN clears
+  any error messages now.</li>
   </ul>
-  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/v2.6.11/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
-  <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
+  <h3 id="procedures-and-scenery-library">Procedures and Scenery
+  Library</h3>
+  <ul>
+  <li>Now fully recognizing SID and STAR from MSFS scenery library.
+  Many thanks to <a href="https://github.com/icykoneko">icykoneko</a>
+  for implementing this. <a href=
+  "https://github.com/albar965/littlenavmap/issues/649">#649</a></li>
+  <li>Adapted loading of approach procedures and some airport
+  structures to new MSFS changes since 1.16.2. This fixes the issue
+  of empty and not selectable approaches in the procedure tab.</li>
+  <li>Constant turn radius legs in procedures are now correctly
+  depicted for MSFS.</li>
+  <li>Fixed issue where some navaids did not get airport ident
+  assigned if in different BGL file.</li>
+  <li>Other improvements for procedure drawing.</li>
+  <li>Added speed limit for MSFS procedure legs.</li>
+  <li>Now checking all MSFS procedures before saving in the database.
+  A warning will be logged and the procedure will be omitted if not
+  valid.</li>
+  <li>Now omitting closed dummy airport structures having no runways
+  and no start positions which are used by MSFS as POIs.</li>
+  <li>Fixed issue where an error was shown when loading
+  <code>Library.xml</code> files from add-on aircraft.</li>
+  <li><code>Library.xml</code> files are now considered when
+  excluding folders from loading.</li>
+  <li>Removed exception for invalid files in X-Plane CIFP path. Now
+  simply writing a warning to the log file.</li>
+  </ul>
+  <h3 id="map">Map</h3>
+  <ul>
+  <li>Fixed issue where tooltips and click regions for route preview
+  were wrongly active when showing more than on logbook entry
+  highlighted.</li>
+  <li>Added new airspace types MCTR, TRSA and GCA where GCAis for
+  unknown and general types. <a href=
+  "https://github.com/albar965/littlenavmap/issues/607">#607</a></li>
+  <li>Function <code>Center map on aircraft and next flight plan
+  waypoint</code> now uses defined box for aircraft and waypoint to
+  avoid aircraft or next waypoint leaving screen space. More
+  improvements to aircraft centering to avoid permanent updates or
+  hanging view.</li>
+  <li>Corrected flight plan editing on map which could cause various
+  issues if editing near a missed approach which is hidden on the
+  map.</li>
+  <li>Removed wrongly drawn procedure point underlay (like overfly
+  indication) from intercept point for legs.</li>
+  <li>Now updating online centers (transceivers) in VATSIM network
+  every five minutes. Fixes issue where user had to restart LNM to
+  update VATSIM centers.</li>
+  </ul>
+  <h3 id="logbook">Logbook</h3>
+  <ul>
+  <li>Logbook entry now uses a separate aircraft trail which does not
+  include previously flown segments from other flights.</li>
+  <li>Corrected storing of local real time in logbook. Now uses a
+  time format with timezone (not shown in logbook search result
+  table but in information window).</li>
+  <li>Avoiding crash if previously created logbook entry cannot be
+  found on landing.</li>
+  </ul>
+  <h2 id="user-interface-and-general">User Interface and General</h2>
+  <ul>
+  <li>
+  Completely reworked web user interface. Now with mouse wheel
+  zoom, a mode to follow the user aircraft and more. Big thanks to
+  <a href="https://github.com/u-an-i">u-an-i</a> for implementing
+  this!
+  </li>
+  <li>
+  Now using new X-Plane TCAS AI and traffic scheme based on
+  <code>sim/cockpit2/tcas/targets</code> datarefs. Note that X-Plane
+  provides only limited information about AI or multiplayer aircraft.
+  Only transponder code, position, groundspeed, vertical speed and
+  heading are available. <a href=
+  "https://github.com/albar965/littlenavmap/issues/525">#525</a>
+  </li>
+  <li>
+  Fetching transponder code for all simulators now.
+  </li>
+  <li>
+  Added transponder code to user and AI aircraft. Now showing in
+  tooltips, information and map.
+  </li>
+  <li>
+  Added transponder code option to aircraft labels. Note that
+  aircraft label settings are now reset back to default.
+  </li>
+  <li>
+  Added properties to transferred simulator aircraft data to avoid
+  future incompatibilities when adding new values.
+  </li>
+  <li>
+  Increased data version to 11 to force incompatibility. This
+  requires to update/install <em>Little Navconnect</em> and
+  <em>Little Xpconnect</em> as well.
+  </li>
+  <li>
+  Added links in flight plan table header to quickly get
+  information and jump to departure, departure parking and
+  destination on map.
+  </li>
+  <li>
+  Added clickable airport link to procedure search header to get
+  information and jump to airport on the map.
+  </li>
+  <li>
+  Corrected issue where airport files were not found in related
+  documents folder when using translated file and folder names.
+  Adapted all translations to this change.
+  </li>
+  <li>
+  Added new userpoint icons based on <a href=
+  "https://bushtalkradio.com/">Bushtalk Radio</a> categories.
+  </li>
+  <li>
+  <em>Little Xpconnect</em>: Offloaded loading of aircraft files
+  and scanning for keys to separate thread to avoid blocking main
+  thread on startup. This could have caused stutters when starting
+  X-Plane.
+  </li>
+  <li>
+  Chinese translation revised. Thanks to <a href=
+  "https://github.com/tonghuix">Tong Hui</a> and <a href=
+  "https://github.com/yudongx">yudongx</a> for their effort.
+  </li>
+  </ul>
+  <p><strong>See the included <code>CHANGELOG.txt</code> file or
+  <a href=
+  "https://github.com/albar965/littlenavmap/blob/v2.6.13/CHANGELOG.txt">
+  here</a> online for a complete list across all
+  versions.</strong>
+  <p><strong>All files are checked by <a href=
+  "https://www.virustotal.com">VirusTotal</a>.</strong></p>
+
+
 
 
 # ---------------------------------------------------------------

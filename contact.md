@@ -1,8 +1,9 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2021-05-17 12:00:00 +0200
+date:   2021-06-09 14:00:00 +0200
 ---
+
 [Alex’ Projects](index.html) ► Contact and Support
 
 # ![Little Navmap](assets/images/navroute.png) Contact and Support
@@ -40,6 +41,8 @@ You can also find all releases on [Github](https://github.com/albar965/littlenav
 
 **Please check the [support forum](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum),
 the [frequently asked questions](littlenavmap-faq.html) and the [known problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems) in the user manual first. Your question is probably answered there.**
+
+**Please use either the forum or email to avoid confusion and additional effort. Please do not use both.**
 
 **Provide as much information as possible if you'd like to report a problem.
 A screenshot of the full *Little Navmap* window including title or a flight plan depending on issue might be helpful first.**
