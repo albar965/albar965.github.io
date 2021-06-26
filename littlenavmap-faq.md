@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2021-05-19 15:00:00 +0200
+date:   2021-06-26 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -59,6 +59,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I cannot see aprons and taxiways on the map](#no-aprons-taxi)
 1. [I cannot choose a start position](#no-start-pos)
 1. [Some procedures or procedure legs are marked red in the selection/search tree](#red-proc)
+1. [Navaids from the X-Plane `user_nav.dat` and the `user_fix.dat` files do not show up in *Little Navmap*](#user-nav-fix-dat)
 
 ### User Interface and Windows
 
@@ -494,6 +495,21 @@ A currently known problem is missing recommended fix information for constant ra
 
 See also [Search Procedures](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SEARCHPROCS.html) and
 [Procedures](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPROACHES.html) for more information.
+
+[**▲**](#top)
+
+----
+
+#### Navaids from the X-Plane `user_nav.dat` and the `user_fix.dat` files do not show up in *Little Navmap* {#user-nav-fix-dat}
+
+LNM reads both the the `user_nav.dat` and the `user_fix.dat` files. The problem is that the navaids
+are hidden by Navigraph data per default. Therefore, you have to switch to `Do not use Navigraph
+database` in the menu `Scenery Library` to see the user navaids.
+
+You also have to reload the LNM scenery library after adding or changing the user files.
+
+The user navaids can be used in the X-Plane stock FMS and GPS. But keep in mind that the user navaids
+do not show up on the X-Plane internal map.
 
 [**▲**](#top)
 
