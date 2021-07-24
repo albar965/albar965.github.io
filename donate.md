@@ -22,6 +22,8 @@ If you would like to show your appreciation you can donate here using PayPal:
 <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
 </form>
 
+<br/>
+
 Donations are purely optional but greatly appreciated.
 
 # Spenden
@@ -41,107 +43,30 @@ Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten, können Sie hier
 
 Falls jemand kein PayPal benutzen möchte: Mir einfach eine E-Mail schicken und ich sende meine Kontoverbindung zurück.
 
+<br/>
+
 Spenden sind vollkommen freiwillig.
 
 # Science Fiction (German/Deutsch)
 
-Alternativ würde ich mich auch darüber freuen, wenn Sie das Projekt meiner Frau Anja Fahrner \([**Autorenseite**](https://www.anja-fahrner.de)\) anschauen.
+Alternativ würde ich mich auch darüber freuen, wenn Sie das Projekt von Anja Fahrner \([**Autorenseite**](https://www.anja-fahrner.de)\) anschauen.
 
 Sie schreibt gesellschaftskritische Science-Fiction- bzw. Fantasy-Romane und Kurzgeschichten.
 
 Vielleicht ist etwas zum Verschenken oder für Sie selbst dabei.
 
-[**Alkatar**](https://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar) \(Taschenbuch 15 €, eBook 4,95 € und Kindle Unlimited\)
+<br/>
 
-**Neu:** [**Alkatar - Der Erbe**](https://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar-der-erbe) \(Taschenbuch 16 €, eBook 4,95 € und Kindle Unlimited\)
+**Auf [Amazon](https://www.amazon.de/Anja-Fahrner/e/B01HHAF97Y) oder [Emmerich Books & Media](http://www.emmerich-books-media.de/htm/99_de.html)**
 
-[**Die Erben der Verbannten**](https://www.anja-fahrner.de/meine-buecher-und-geschichten/die-erben-der-verbannten) \(Kurzgeschichte, eBook 0,99 € und Kindle Unlimited\).
+<br/>
 
-[![Alkatar](assets/images/alkatar_buch.jpg)](https://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar)
-[![Alkatar - Der Erbe](assets/images/alkatar_der_erbe_buch.jpg)](https://www.anja-fahrner.de/meine-buecher-und-geschichten/alkatar-der-erbe)
-[![Die Erben der Verbannten](assets/images/die_erben_buch.jpg)](https://www.anja-fahrner.de/meine-buecher-und-geschichten/die-erben-der-verbannten)
+[![Alkatar](assets/images/Neuerscheinung-Rueckkehr-e1625686038962.jpg)](https://www.amazon.de/Anja-Fahrner/e/B01HHAF97Y)
 
-## Rezensionen zu Alkatar
 
-### Amazon
 
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-19.04.2017 - [Eine Reise ins unbekannte…](https://www.amazon.de/review/RPDCSSTJNOXR1/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B01H7E4A20&amp;channel=detail-glance&amp;nodeID=530484031&amp;store=digital-text)
 
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-18.04.2017 - [Ich bin begeistert...](https://www.amazon.de/review/R1VVGH9HNJ9BWN/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B01H7E4A20&amp;channel=detail-glance&amp;nodeID=530484031&amp;store=digital-text)
 
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-07.04.2017 - [Empfehlenswert](http://amzn.to/2nMiLXv)
 
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-05.04.2017 - [Die sehr gelungene Vermischung zweier Welten](https://www.amazon.de/review/R1S5GQMV82FZIL/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B01H7E4A20&amp;channel=detail-glance&amp;nodeID=530484031&amp;store=digital-text)
 
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern_leer.gif)
-27.02.2017 - [Spannende Science Fiction mit Gesellschaftskritik](https://www.amazon.de/gp/customer-reviews/RPEI98W3343YC/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&amp;ASIN=B01H7E4A20)
 
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-15.02.2017 - [Eine andere Welt und doch zugleich unsere Welt](https://www.amazon.de/gp/customer-reviews/R14DJDGW8XHVG7/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&amp;ASIN=B01H7E4A20)
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern_leer.gif)
-23.12.2016 - [Spannende Fantasy-Dystopie über menschliche Werte](https://www.amazon.de/gp/customer-reviews/RLAOES1N02G37/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&amp;ASIN=1533142807)
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-21.11.2016 - [Sehr schöne SciFi-Geschichte mit einen kleinen Fantasy-Anteil](https://www.amazon.de/review/R3NROM08AHFRB/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=1533142807&amp;channel=detail-glance&amp;nodeID=299956&amp;store=books)
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-19.11.2016 - [Großartige Geschichte- Alkatar](https://www.amazon.de/gp/customer-reviews/R1FRAVSCOISLVQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=1533142807)
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-14.11.2016 - [Alkatar aus meiner Sicht](https://www.amazon.de/gp/customer-reviews/R4GS2NTPCW4MC/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&amp;ASIN=1533142807)
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-03.11.2016 - [Phantastische Gechichte](https://www.amazon.de/gp/customer-reviews/R26V6JPO4D4AHA/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&amp;ASIN=1533142807)
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-23.10.2016 - Rezension Alkatar
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-28.09.2016 - Spannende Science-Fiction
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-19.08.2016 - Eine spannende und tiefgründige Gesellschaftskritik
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern_leer.gif)
-17.08.2016 - Gelungene SciFi-Fantasy Geschichte
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern_leer.gif)
-15.08.2016 - Keine klassische Science Fiction
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-11.08.2016 - Für Sciene-Fiction-Fans ein Muss!
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-28.07.2016 - Alkatar = absolut lesenswert für Science-Fiction-Fans
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-28.06.2016 - Phantastische Unterhaltung, deutsche Science Fiction
-
-[Mehr Rezensionen auf Amazon ...](http://www.amazon.de/review/1533142807)
-
-### LovelyBooks
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-14.06.2017 - [Alkatar – eine sehr gelungene Sience-Fiction-Geschichte](https://www.lovelybooks.de/autor/Anja-Fahrner/Alkatar-1355166186-w/rezension/1465050702/)
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-18.03.2017 - [Tolle Sci Fi Geschichte I Love it](https://www.lovelybooks.de/autor/Anja-Fahrner/Alkatar-1249858569-w/rezension/1441044572/)
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern_leer.gif)
-14.09.2016 – [Ein kritischer Sci-Fi Roman mit Liebe zum Detail](http://www.lovelybooks.de/autor/Anja-Fahrner/Alkatar-1249858569-w/rezension/1322501146/)
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-12.08.2016 – [Dieses Buch ist für mich etwas sehr Besonderes](http://www.lovelybooks.de/autor/Anja-Fahrner/Alkatar-1249858569-w/rezension/1278577466/)
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)
-05.08.2016 – [Realistischer ,gesellschaftskritischer Sciencefictionroman](http://www.lovelybooks.de/autor/Anja-Fahrner/Alkatar-1249858569-w/rezension/1267076399/)
-
-![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern.gif)![](assets/images/stern_leer.gif)
-03.08.2016 – [Soll das die Zukunft sein?](http://www.lovelybooks.de/autor/Anja-Fahrner/Alkatar-1249858569-w/rezension/1263886931/)
-
-[Mehr Rezensionen auf LovelyBooks ...](http://www.lovelybooks.de/autor/Anja-Fahrner/Alkatar-1249858569-w)
