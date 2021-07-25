@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Donations / Spenden"
-date:   2018-06-27 10:00:00 +0200
+date:   2018-07-26 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Donations / Spenden
