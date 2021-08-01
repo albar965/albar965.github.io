@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2018-07-26 10:00:00 +0200
+date:   2018-08-01 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -109,17 +109,21 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 #### How to fix issues {#fix-issues}
 
-You can try the following if you see issues like crashes, freezes or other issues.
+You can try the following if you experience problems like crashes, freezes, a corrupted window layout or other issues.
 
-If nothing helps, report an issue either in the [**Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or send me an email through [**Contact and Support**](contact.html).
+##### Corrupted window layout or missing map window
+
+Try `Window` -> [Reset Window layout to default](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#reset-window-layout) or load a previously saved window layout file (see [Saving and Loading Layouts](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/LAYOUT.html#saving-and-loading-layouts)).
+
+If this does not help, try the suggestions below.
 
 ##### Quick and simple Solution
 
 Go to the *Little Navmap* main menu `Tools` and select [Reset all Settings and restart](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#reset-all-settings-and-restart). *Little Navmap* will show a question dialog and then restart after deleting all settings.
 
-If this does not help, you can restore the settings file backup.
+If this does not help, you can restore the settings file backup which was mentioned in the dialog.
 
-##### More complicated but more thorough option.
+##### More complicated but thorough option
 
 Quit *Little Navmap* and rename the main settings folder `ABarthel` which contains all
 simulator databases and is stored in the following places:
@@ -132,8 +136,12 @@ Do not delete the folder, but rename it to keep your settings if this does not f
 
 Start *Little Navmap* and see if the issue is gone.
 
-If this did not help: Delete `ABarthel` which was created newly and rename your backup again to `ABarthel` to get your
+If this did not help: Quit *Little Navmap*. Delete `ABarthel` which was just created newly by the program and rename your backup again to `ABarthel` to get your
 settings and databases back.
+
+##### Report the problem
+
+If nothing helps, report an issue either in the [**Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or send me an email through [**Contact and Support**](contact.html).
 
 [**▲**](#top)
 
