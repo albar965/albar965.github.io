@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2018-08-12 09:00:00 +0200
+date:   2018-08-12 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -401,11 +401,14 @@ See [User Manual - Connecting to a Flight Simulator](https://www.littlenavmap.or
 MSFS has many issues loading flight plans. Additionally the format is not documented yet which requires a lot of guesswork.
 
 The following issues are known so far:
-- MSFS automatically adds transitions to approach procedures (sometimes also SID and STAR) which may result in zig-zag routing. These cannot be changed manually in MSFS.
+- MSFS automatically adds transitions to approach procedures as well as SID and STAR if plan is of type IFR. Changing these results in a completely new routing.
+- Saving a direct plan between two airports of type IFR will result in MSFS adding intermediate waypoints and procedures like SID and STAR.
+- You cannot use airways or procedures for VFR flight plans. MSFS will quietly remove these.
+- MSFS cannot load round trips where destination is equal to departure in some cases.
 - Altitude at waypoints and sometimes the cruise altitude is ignored and replaced by MSFS' own idea of a climb and descent profile which has nothing to do with the *Little Navmap* profile. This happens despite *Little Navmap* saving the altitude for each waypoint.
 - Flight plan names must not contains special characters like umlauts or accents. *Little Navmap* replaces these automatically when exporting a plan.
-- MSFS cannot load round trips where destination is equal to departure. The result after loading in MSFS is a zig-zag flight plan.
-- You cannot use airways or procedures for VFR flight plans.
+
+Apart from these issues above you might see MSFS crashes or corrupted flight plans when loading.
 
 Also read the chapter [Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) in the *Little Navmap* user manual to minimize issues with different navdata.
 
