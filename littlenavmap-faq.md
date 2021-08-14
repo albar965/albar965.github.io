@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2018-08-12 15:00:00 +0200
+date:   2021-08-14 12:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -111,6 +111,8 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 #### How to fix issues {#fix-issues}
 
 You can try the following if you experience problems like crashes, freezes, a corrupted window layout or other issues.
+
+**First update *Little Navmap* if you're not running the latest version.**
 
 ##### Corrupted window layout or missing map window
 

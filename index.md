@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2021-07-26 14:00:00 +0200
+date:   2021-08-14 12:00:00 +0200
 ---
 
 # Alex' Projects
@@ -23,10 +23,10 @@ date:   2021-07-26 14:00:00 +0200
 
 ### Little Navmap Downloads
 
-[**► Windows** - LittleNavmap-win-2.6.15.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.15/LittleNavmap-win-2.6.15.zip)\\
-[**► macOS** - LittleNavmap-macOS-2.6.15.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.15/LittleNavmap-macOS-2.6.15.zip)\\
-[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-2.6.15.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.15/LittleNavmap-linux-20.04-2.6.15.tar.gz)\\
-[**► Linux \(64 bit, based on Ubuntu 18.04\)** - LittleNavmap-linux-18.04-2.6.15.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.15/LittleNavmap-linux-18.04-2.6.15.tar.gz)
+[**► Windows** - LittleNavmap-win-2.6.16.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-win-2.6.16.zip)\\
+[**► macOS** - LittleNavmap-macOS-2.6.16.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-macOS-2.6.16.zip)\\
+[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-2.6.16.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-linux-20.04-2.6.16.tar.gz)\\
+[**► Linux \(64 bit, based on Ubuntu 18.04\)** - LittleNavmap-linux-18.04-2.6.16.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-linux-18.04-2.6.16.tar.gz)
 
 **Alternative download locations:** **[Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa)**, **[Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w)** and **[OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)**.
 
@@ -61,8 +61,8 @@ date:   2021-07-26 14:00:00 +0200
 ![Little Navmap](assets/images/navroute.png) **_Little Navmap_** is a free open source flight planner, navigation tool, moving map,
 airport search and airport information system for **Flight Simulator X, Prepar3D, Microsoft Flight Simulator 2020 and X-Plane** and is available for **Windows, Apple macOS and Linux**.
 
-_Little Navmap_ comes with a **detailed manual** also including tutorials which is available online as well as in PDF and other formats like EPUB.
-Help buttons in all relevant areas of the program display corresponding chapters in the online manual on click.
+_Little Navmap_ comes with a **detailed user manual including several tutorials** which is available online as well as in PDF and other formats like EPUB.
+**Help buttons** in all relevant areas of the program display corresponding chapters in the online manual on click.
 
 | ---- | ---- |
 | [![Little Navmap 2.2.2 spherical map projection and elevation profile with flight plan](assets/images/spherical_small.jpg)](assets/images/spherical.jpg) | [![Little Navmap 2.2.2 sun shadow on globe](assets/images/sunshadow_small.jpg)](assets/images/sunshadow.jpg) |
@@ -84,7 +84,7 @@ flight plan editing on the map. The program can read the PLN, FMS and FLP and mo
 
 Several flight plan formats can be exported using the **flight plan multiexport** feature with one click.
 
-Keyboard shortcuts help to access most functions without mouse.
+**Keyboard shortcuts** help to access most functions without mouse.
 
 An **elevation profile** is shown for the flight plan allowing to find a safe cruise altitude also
 displaying top of climb, top of descent and procedure altitude restrictions. Calculated and shown
