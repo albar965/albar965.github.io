@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2021-08-14 12:00:00 +0200
+date:   2021-10-18 16:00:00 +0200
 ---
 
 # Alex' Projects
@@ -23,10 +23,10 @@ date:   2021-08-14 12:00:00 +0200
 
 ### Little Navmap Downloads
 
-[**► Windows** - LittleNavmap-win-2.6.16.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-win-2.6.16.zip)\\
-[**► macOS** - LittleNavmap-macOS-2.6.16.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-macOS-2.6.16.zip)\\
-[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-2.6.16.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-linux-20.04-2.6.16.tar.gz)\\
-[**► Linux \(64 bit, based on Ubuntu 18.04\)** - LittleNavmap-linux-18.04-2.6.16.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-linux-18.04-2.6.16.tar.gz)
+[**► Windows** - LittleNavmap-win-2.6.17.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-win-2.6.17.zip)\\
+[**► macOS** - LittleNavmap-macOS-2.6.17.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-macOS-2.6.17.zip)\\
+[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-2.6.17.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-linux-20.04-2.6.17.tar.gz)\\
+[**► Linux \(64 bit, based on Ubuntu 18.04\)** - LittleNavmap-linux-18.04-2.6.17.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-linux-18.04-2.6.17.tar.gz)
 
 **Alternative download locations:** **[Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa)**, **[Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w)** and **[OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)**.
 

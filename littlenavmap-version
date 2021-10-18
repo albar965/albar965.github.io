@@ -3,20 +3,20 @@
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [stable]
-version=2.6.16
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-win-2.6.16.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-macOS-2.6.16.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-linux-20.04-2.6.16.tar.gz
+version=2.6.17
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-win-2.6.17.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-macOS-2.6.17.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-linux-20.04-2.6.17.tar.gz
 changelog=
   <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
   <!-- UPDATE HEADER ========================================================================= -->
   <p><strong>►► This version fixes flight plan issues with X-Plane as well as flight plan export and printing issues. ◄◄</strong></p>
   <!-- UPDATE HEADER ========================================================================= -->
   <h3 id="direct-download">Direct Download</h3>
-  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-win-2.6.16.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.16.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-macOS-2.6.16.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.16.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-linux-20.04-2.6.16.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.16.tar.gz</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.16/LittleNavmap-linux-18.04-2.6.16.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 18.04)</strong> - LittleNavmap-linux-18.04-2.6.16.tar.gz</a></p>
+  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-win-2.6.17.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.17.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-macOS-2.6.17.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.17.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-linux-20.04-2.6.17.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.17.tar.gz</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-linux-18.04-2.6.17.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 18.04)</strong> - LittleNavmap-linux-18.04-2.6.17.tar.gz</a></p>
   <h3 id="alternative-download-locations">Alternative Download Locations</h3>
   <p><a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa"><strong>► Dropbox</strong></a><br/>
   <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w"><strong>► Mega.nz</strong></a><br/>
@@ -27,39 +27,58 @@ changelog=
   <p>Read the linked chapter below to minimize issues when loading flight plans into <strong>MSFS</strong>:<br/> <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata">► User Manual - Microsoft Flight Simulator 2020 Airports and Navdata</a>.</p>
   <p>See user manual for general known problems:<br/> <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems">► User Manual - Known Problems</a>.</p>
   <p>See user manual for limitations and issues around Microsoft Flight Simulator 2020:<br/> <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems-msfs">► User Manual - Known Problems - Microsoft Flight Simulator 2020</a>.</p>
-  <h2 id="changes-from-2615-to-2616">Changes from 2.6.15 to 2.6.16</h2>
-  <h3 id="x-plane-flight-plan-export-and-loading-741">X-Plane flight plan export and loading <a href="https://github.com/albar965/littlenavmap/issues/741">#741</a></h3>
+  <h2 id="changes-from-2616-to-2617">Changes from 2.6.16 to 2.6.17</h2>
+  <h3 id="msfs">MSFS</h3>
   <ul>
-  <li>Now falling back to DEP/DES keywords in X-Plane FMS flight plan files. These keywords denote departure or destination as a waypoint or a not identifiable airport opposed to ADEP/ADES. This avoids loading issues in X-Plane FMS and third party tools. Flight plans should be loadable in X-Plane FMS and GPS in any case. The conditions for this case are below:
-  <ul>
-  <li>Airport ident is longer than four characters. Example: White Lake (<code>XC0004</code>).</li>
-  <li>Airport has ICAO and this does not match internal id. Example: Torres with official ICAO id <code>SSTE</code> using internal ident of <code>SBTR</code>.</li>
-  <li>Airport has no ICAO but FAA code which does not match the internal id. Example: Red Lion with FAA code <code>JY73</code> using internal ident of <code>N73</code>.</li>
-  <li>Airport has neither of above but a local code which does not match internal. Example: Edmonton Cooking Lake having local code of <code>CEZ3</code> and internal X-Plane ident <code>EZ3</code>.</li>
-  </ul></li>
-  <li>Now truncating all X-Plane airport idents to six characters. Also the ones used in intermediate waypoints.</li>
-  <li>Enabled loading of X-Plane FMS plans with truncated airport ids.</li>
+  <li>Fixed crashes when loading scenery library of MSFS SU6. <a href="https://github.com/albar965/littlenavmap/issues/799">#799</a></li>
+  <li>Corrected MSFS airport detection. Now ignoring airport closed flag which removes many POI wrongly detected as airports.</li>
+  <li>Reduced warnings for unknown BGL records to avoid flooding the log with messages and crashing when reading scenery.</li>
   </ul>
-  <h3 id="general">General</h3>
+  <h3 id="map">Map</h3>
   <ul>
-  <li>Added airport elevation to tab <code>Runways</code> and airport transition altitude in tab <code>Weather</code> in information window.</li>
-  <li>Fixed issues with flight plan and waypoint remarks being truncated when saving plan as HTML, printing plan or copying plan as CSV (<code>Ctrl+C</code> in table).</li>
-  <li>Fixed issues when copying CSV text to clipboard in flight plan table and search result tables (<code>Ctrl+C</code> in table). Wrong columns were copied into the CSV text if columns in the table were reordered.</li>
-  <li>Added missing flight plan remarks field to HTML export and print.</li>
-  <li>Table columns which are shrinked to minimum width are now excluded from export to HTML and CSV.</li>
-  <li>Fixed issue where the wrong flight plan columns were printed or exported to HTML or columns were missing. This happened if the user rearranged the flight plan table columns by moving the headers around.</li>
-  <li>Small corrections to options dialog text, aircraft labels on the map (<code>TCAS</code> vs <code>XPDR</code>) and airport labels on the map.</li>
-  <li>More tolerance for finding airports when loading flight plans. Trying all available internal and official ids (ICAO, FAA, IATA and local) now.</li>
-  <li>Now also showing ILS frequency for final approach in flight plan table for circling as well as IGS, LDA, LOC and SDF approaches if navaid is present.</li>
+  <li>Limited minimum detail level to -2 to avoid confusion about missing map features when user selects a too low value. Now resetting details to default on update.</li>
+  <li>Fixed issue where runway offset markings were not visible on unknown runway surfaces like when using scenery library mode <code>Use Navigraph for all Features</code>.</li>
+  <li>Corrected drawing for logbook entries where departure or destination airport could not be found in the scenery library database.</li>
   </ul>
-  <h3 id="web-interface">Web interface</h3>
-  <p>Fixes provided by <a href="https://github.com/u-an-i">u-an-i</a>.</p>
+  <h3 id="options">Options</h3>
   <ul>
-  <li>Fixed JavaScript errors on desktop due to pointermove after generalising touch zoom.</li>
-  <li>Now giving user commands always priority if server does not respond.</li>
-  <li>Adjusted fast map refresh to not produce images too large at for slow connections.</li>
+  <li>Changed IVAO weather URL to use HTTPS (secure connection). The URL is now reset to the new default on first startup.</li>
+  <li>Fixed issue where AI and user aircraft tooltip settings were not restored in options.</li>
   </ul>
-  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/v2.6.16/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
+  <h3 id="flight-plan">Flight Plan</h3>
+  <ul>
+  <li>Corrected flight plan calculation using radio navaids. Selected navaids were too close in some cases. Example: <code>PAYA MDO ODK CDB ELF DUT PADK</code> where CDB and ELF are too close resulting in zig-zag routing.</li>
+  <li>Added heading for departure parking position to LNMPLN flight plan format.</li>
+  <li>Adjusted cost factor for flight plan calculation to avoid direct calculation (no airways at all) on the last two ticks of the slider. Default value for slider after installation is not centered.</li>
+  <li>Fixed issues where departure position type (runway, parking, helipad or airport) was not saved in LNMPLN after changing start position to a runway or assigning departure airport. Departure position type now set correctly to <code>runway</code> after assigning a runway automatically.</li>
+  </ul>
+  <h3 id="logbook-search">Logbook Search</h3>
+  <ul>
+  <li>Fixed broken search for departure and destination airport in logbook.</li>
+  <li>Disabled not working airport filters in logbook search context menu (<code>Filter by ...</code> in context menu). These will be enabled again in a later version.</li>
+  <li>X-Plane: Fixed several issues where an airport using official ids (ICAO, FAA, IATA or local) was not found in logbook context menu, logbook edit dialog and information display for log entries.</li>
+  </ul>
+  <h3 id="other-and-user-interface">Other and User Interface</h3>
+  <ul>
+  <li>Fixed issue where an internal cache gave wrong results which caused random wrong airport assignments when working with flight plans or after switching scenery library databases.</li>
+  <li>Removed slow down in internal airport queries when searching by official codes. This caused short freezes when clicking on an airport for information in some cases.</li>
+  <li>Fixed several issues where airports were wrongly identified as X-Plane airports. Corrected display of airport ids.</li>
+  <li>Fixed issue where a X-Plane was still wrongly detected while using scenery library mode <code>Use Navigraph for all Features</code>.</li>
+  <li>X-Plane: Adjusted display options for official airport codes. IATA is now used before internal ident in all cases. Route description now shows IATA code as well if available.</li>
+  <li>Adjustments to flight plan and aircraft centering when getting close to ground while flying. Now avoiding too close zoom.</li>
+  <li>Added Pilot Nav to airport link list.</li>
+  <li>Removed <code>Work offline</code> option in file menu since it is of limited use and causes too many problems if users check this inadvertently.</li>
+  <li>Fixed bug with wrong airspace assignment for class F and G when reading OpenAir files. <a href="https://github.com/albar965/littlenavmap/issues/797">#797</a></li>
+  <li>Better coordinate parsing. Removing separators <code>|</code>, <code>;</code>, <code>_</code> and <code>:</code> for latitude and longitude now.</li>
+  <li>Fixed several typos in user interface and more small user interface improvements.</li>
+  </ul>
+  <h3 id="build-and-development">Build and Development</h3>
+  <ul>
+  <li>Now using Qt libraries 5.15.2.</li>
+  <li>Changed build to use OpenSSL library provided by the Qt installer on Windows.</li>
+  <li>Updated flight plan schema file <a href="https://www.littlenavmap.org/schema/lnmpln.xsd">lnmpln.xsd</a> and LNMPLN file format documentation in the user manual.</li>
+  </ul>
+  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/v2.6.17/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
   <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
   <!-- ... All files are checked by ... END ==================================================== -->
   <!-- ========================================================================================= -->
