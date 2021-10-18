@@ -11,6 +11,10 @@ categories: release
 
 ----
 
+### Hotfix for SSL intialization failure
+
+Install [vcredist_x64_2010.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_x64_2010.exe) and [vcredist_x86_2010.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_x86_2010.exe) to fix this issue.
+
 ### Direct Download
 
 [**► Windows** - LittleNavmap-win-2.6.17.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-win-2.6.17.zip)<br/>
