@@ -1,12 +1,17 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2021-10-18 19:00:00 +0200
+date:   2022-01-24 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
 
 # ![Little Navmap](assets/images/navroute.png) Little Navmap - Frequently asked Questions {#top}
+
+<br/>
+[**► See here in the Avsim Forum about current issues with map display**](https://www.avsim.com/forums/topic/613903-map-display-issues-with-openstreetmap-and-other-maps/?tab=comments#comment-4709913)<br/>
+<br/>
+<br/>
 
 See user manual for general known problems:\\
 [► User Manual - Known Problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems).
@@ -67,14 +72,16 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Some procedures or procedure legs are marked red in the selection/search tree](#red-proc)
 1. [Navaids from the X-Plane `user_nav.dat` and the `user_fix.dat` files do not show up in *Little Navmap*](#user-nav-fix-dat)
 
-### User Interface and Windows
+### User Interface
 
+1. [Text and/or icons appear very small on a 4k or other high resolution monitor](#highdpi)
 1. [How can I make the map window bigger](#map-window)
 1. [How can I make the map window larger](#resize-map)
 1. [I cannot resize a dock window](#dock-frozen)
 
 ### Map Display
 
+1. [I see white rectangles containing a message about contacting User:TheDJ on the map](#hillshadingissues)
 1. [The map moves jerky or I see stutters in _Little Navmap_ while scrolling or zooming](#jerky-map)
 1. [Lines disappearing](#lines-disappearing)
 1. [I cannot remove a traffic pattern, a holding or measurement lines](#remove-pattern)
@@ -595,7 +602,15 @@ do not show up on the X-Plane internal map.
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
-### User Interface and Windows
+### User Interface
+
+#### Text and/or icons appear very small on a 4k or other high resolution monitor {#highdpi}
+
+go to menu `Tools` -> `Options` and then to page `Display and Text`. Check `Enable high DPI monitor support` and restart _Little Navmap_.
+
+[**▲**](#top)
+
+----
 
 #### How can I make the map window bigger {#map-window}
 
@@ -647,6 +662,23 @@ Another reason can be the search window taking up too much space:
 <!-- ================================================================================================ -->
 
 ### Map Display
+
+#### I see white rectangles containing a message about contacting `User:TheDJ` on the map {#hillshadingissues}
+
+This is related to the hillshading option.
+
+The admin for the server providing the hillshading data decided to shut down the service.
+
+Uncheck the button `Show Hillshading` on the toolbar or in menu `View` -> `Show Hillshading`.
+
+You can use the OpenTopoMap or StamenTerrain map themes which do not require a separate hillshading source since it is included in the map images.
+
+Or use one these maps as an alternative: [New maps for LNM (Avsim Forum)](https://www.avsim.com/forums/topic/548994-new-maps-for-lnm/).
+
+[**▲**](#top)
+
+----
+
 
 #### The map moves jerky or I see stutters in _Little Navmap_ while scrolling or zooming {#jerky-map}
 
