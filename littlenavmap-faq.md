@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-01-27 12:00:00 +0200
+date:   2022-01-27 14:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -439,8 +439,14 @@ Also read the chapter [Microsoft Flight Simulator 2020 Airports and Navdata](htt
 
 #### There are airways missing over France and central Europe {#airways-missing}
 
-There are gaps in the airway system over some European countries. This is not an error but real and
-a result of the European airway restructuring to save fuel and emissions.
+There are gaps in the airway system over some European countries.
+
+This is not an error but real and a result of the European airway restructuring to save fuel and emissions.
+
+See [Free route airspace](https://www.eurocontrol.int/concept/free-route-airspace) for more information.
+
+_Little Navmap_ can skip these gaps when calculating a flight plan. See here for information how to deal with this:
+[User Manual - Flight Plan Route Calculation](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/ROUTECALC.html#prefer).
 
 [**▲**](#top)
 
