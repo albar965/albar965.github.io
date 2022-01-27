@@ -1,12 +1,21 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2021-10-18 16:00:00 +0200
+date:   2022-01-27 12:00:00 +0200
 ---
 
 # Alex' Projects
 
 ## [![RSS Feed](assets/images/feed.png)](/feed.xml) News
+
+<br/>
+[**►►► See here in the Avsim Forum about current issues with map display**](https://www.avsim.com/forums/topic/613903-map-display-issues-with-openstreetmap-and-other-maps/?tab=comments#comment-4709913)
+
+**Uncheck `Show Hillshading`  in the main menu `View` to get rid of this message.
+You can use the OpenTopoMap or StamenTerrain map themes which do not require a separate hillshading source since it is included in the map images.**
+<br/>
+<br/>
+
 <p>
   {% for post in site.posts limit:3 %}
     <p>

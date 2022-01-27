@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-01-24 10:00:00 +0200
+date:   2022-01-27 12:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -9,7 +9,10 @@ date:   2022-01-24 10:00:00 +0200
 # ![Little Navmap](assets/images/navroute.png) Little Navmap - Frequently asked Questions {#top}
 
 <br/>
-[**► See here in the Avsim Forum about current issues with map display**](https://www.avsim.com/forums/topic/613903-map-display-issues-with-openstreetmap-and-other-maps/?tab=comments#comment-4709913)<br/>
+[**►►► See here in the Avsim Forum about current issues with map display**](https://www.avsim.com/forums/topic/613903-map-display-issues-with-openstreetmap-and-other-maps/?tab=comments#comment-4709913)
+
+**Uncheck `Show Hillshading`  in the main menu `View` to get rid of this message.
+You can use the OpenTopoMap or StamenTerrain map themes which do not require a separate hillshading source since it is included in the map images.**
 <br/>
 <br/>
 
@@ -56,6 +59,8 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Fuel planning and collection gives wrong fuel values](#wrong-fuel-planning)
 1. [I cannot see my aircraft](#connect)
 1. [The flight plan does not show up correctly in MSFS](#flightplan-msfs)
+1. [There are airways missing over France and central Europe](#airways-missing)
+1. [I see strange ILS feathers labelled `G25F, GS` and similar](#ils)
 
 ### Airports, scenery library and navigation data
 
@@ -427,6 +432,26 @@ The following issues are known so far:
 Apart from these issues above you might see MSFS crashes or corrupted flight plans when loading.
 
 Also read the chapter [Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) in the *Little Navmap* user manual to minimize issues with different navdata.
+
+[**▲**](#top)
+
+----
+
+#### There are airways missing over France and central Europe {#airways-missing}
+
+There are gaps in the airway system over some European countries. This is not an error but real and
+a result of the European airway restructuring to save fuel and emissions.
+
+[**▲**](#top)
+
+----
+
+#### I see strange ILS feathers labelled `G25F, GS` and similar {#ils}
+
+These are GLS/RNAV approach facilities which will be shown in a future version of _Little Navmap_
+and are already placed in the navigation database.
+
+Unfortunately I cannot remove these for the current version of _Little Navmap_.
 
 [**▲**](#top)
 
