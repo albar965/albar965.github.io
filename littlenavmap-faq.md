@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-01-27 14:00:00 +0200
+date:   2022-02-05 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -61,6 +61,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [The flight plan does not show up correctly in MSFS](#flightplan-msfs)
 1. [There are airways missing over France and central Europe](#airways-missing)
 1. [I see strange ILS feathers labelled `G25F, GS` and similar](#ils)
+1. [Three-letter IATA airport codes are used everywhere instead of ICAO codes](#iata)
 
 ### Airports, scenery library and navigation data
 
@@ -458,6 +459,16 @@ These are GLS/RNAV approach facilities which will be shown in a future version o
 and are already placed in the navigation database.
 
 Unfortunately I cannot remove these for the current version of _Little Navmap_.
+
+[**▲**](#top)
+
+----
+
+#### Three-letter IATA airport codes are used everywhere instead of ICAO codes {#iata}
+
+Reload the scenery library database if you see the tree-letter IATA codes on the map and in the flight plan window.
+
+The display will revert to the default ICAO codes (where available) after reloading.
 
 [**▲**](#top)
 
