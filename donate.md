@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Donations / Spenden"
-date:   2018-07-26 10:00:00 +0200
+date:   2022-02-06 15:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Donations / Spenden
@@ -9,10 +9,11 @@ date:   2018-07-26 10:00:00 +0200
 # Donations
 
 Little Navmap and all of my other programs are made available free of charge.
+I have no plans to change this. Donations are purely optional but greatly appreciated.
 
-I have no plans to change this.
+<br/>
 
-If you would like to show your appreciation you can donate here using PayPal:
+**If you would like to show your appreciation you can donate here using PayPal:**
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -24,15 +25,22 @@ If you would like to show your appreciation you can donate here using PayPal:
 
 <br/>
 
-Donations are purely optional but greatly appreciated.
+**Or support me on GitHub:**
+<p><iframe src="https://github.com/sponsors/albar965/button" title="Sponsor albar965" height="35" width="116" style="border: 0;"></iframe></p>
+
+<br/>
+
+If you prefer an EU bank transfer, just send me an email and I will send back my bank account details.
+
 
 # Spenden
 
 Little Navmap und all meine anderen Programme werden kostenlos zur Verfügung gestellt.
+Ich beabsichtige nicht, dies zu ändern. Spenden sind und bleiben vollkommen freiwillig.
 
-Ich beabsichtige nicht, dies zu ändern.
+<br/>
 
-Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten, können Sie hier per PayPal spenden:
+**Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten, können Sie hier per PayPal spenden:**
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -41,11 +49,14 @@ Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten, können Sie hier
 <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-Falls jemand kein PayPal benutzen möchte: Mir einfach eine E-Mail schicken und ich sende meine Kontoverbindung zurück.
+<br/>
+
+**Oder mich auf GitHub als Sponsor unterstützen:**
+<p><iframe src="https://github.com/sponsors/albar965/button" title="Sponsor albar965" height="35" width="116" style="border: 0;"></iframe></p>
 
 <br/>
 
-Spenden sind vollkommen freiwillig.
+Wenn Sie eine EU-Banküberweisung bevorzugen, schicken Sie mir einfach eine E-Mail und ich werde Ihnen meine Kontodaten zurücksenden.
 
 # Science Fiction (German/Deutsch)
 
