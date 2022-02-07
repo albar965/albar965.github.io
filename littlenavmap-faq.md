@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-02-05 10:00:00 +0200
+date:   2022-02-07 12:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -65,6 +65,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### Airports, scenery library and navigation data
 
+1. [Little Navmap crashes with an SQL error `unknown table fence` or similar](#crash-fence)
 1. [I cannot see any airports or navaids](#load-scenery)
 1. [I added an airport and it does not show up in _Little Navmap_](#no-airport)
 1. [Search for airport by country, state or city does not work](#airport-admin-search)
@@ -478,6 +479,14 @@ The display will revert to the default ICAO codes (where available) after reload
 <!-- ================================================================================================ -->
 
 ### Airports, scenery library and navigation data
+
+#### Little Navmap crashes with an SQL error `unknown table fence` or similar {#crash-fence}
+
+You're using a very old version of _Little Navmap_ with a new database. Update _Little Navmap_ to the latest version to fix this.
+
+[**▲**](#top)
+
+----
 
 #### I cannot see any airports or navaids {#load-scenery}
 
