@@ -206,9 +206,9 @@ changelog=
 # ---------------------------------------------------------------
 [develop]
 version=2.7.7.develop
-downloadwin=https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa
-downloadmac=https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa
-downloadlinux=https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa
+downloadwin=https://www.dropbox.com/sh/eh446yent4rz3uq/AAB2aiLbCfu0kQMZonXopUYea/Development
+downloadmac=https://www.dropbox.com/sh/eh446yent4rz3uq/AAB2aiLbCfu0kQMZonXopUYea/Development
+downloadlinux=https://www.dropbox.com/sh/eh446yent4rz3uq/AAB2aiLbCfu0kQMZonXopUYea/Development
 changelog=
   <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
   <!-- UPDATE HEADER ========================================================================= -->
