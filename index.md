@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2022-01-27 12:00:00 +0200
+date:   2022-03-31 12:00:00 +0100
 ---
 
 # Alex' Projects
@@ -133,7 +133,7 @@ _Little Navmap_ features its own internal **web server** which allows to follow 
 any device across a network.
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
-Prepar3D v2, v3, v4, v5, Microsoft Flight Simulator 2020 and X-Plane 11.
+Prepar3D v3, v4, v5, Microsoft Flight Simulator 2020 and X-Plane 11.
 
 **Supported platforms:** Windows 7/8/10, Apple macOS \(10.12 or newer only\) and Linux \(64 bit only\).
 
@@ -148,7 +148,7 @@ simulator remotely across the network.
 **_Little navconnnect_ is included in the download archive of *Little Navmap*.**
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
-Prepar3D v2, v3, v4, v5, Microsoft Flight Simulator 2020 and X-Plane 11.
+Prepar3D v3, v4, v5, Microsoft Flight Simulator 2020 and X-Plane 11.
 
 **Supported platforms:** Windows 7/8/10, Apple macOS \(10.12 or newer only\) and Linux \(64 bit only\).
 

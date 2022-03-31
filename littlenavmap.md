@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2021-03-29 10:00:00 +0200
+date:   2022-03-31 12:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap
@@ -30,7 +30,7 @@ date:   2021-03-29 10:00:00 +0200
   search and airport information system.
 * Supported platforms: **Windows 7/8/10, macOS \(10.12 or newer only\) and Linux \(64 bit only\)**.
 * **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
-  Prepar3D v2, v3, v4, v5, Microsoft Flight Simulator 2020 and X-Plane 11.
+  Prepar3D v3, v4, v5, Microsoft Flight Simulator 2020 and X-Plane 11.
 * Comes with the following user interface languages: **Brazilian Portuguese, Chinese (draft), Dutch (draft), English, French, German and Italian**
   (Spanish and Dutch are based on older _Little Navmap_ versions).
 * All is based on flight simulator stock or add-on data, no third party data needed. All stock and
