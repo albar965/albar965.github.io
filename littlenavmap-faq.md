@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-02-10 12:00:00 +0100
+date:   2022-04-05 12:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -65,6 +65,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### Airports, scenery library and navigation data
 
+1. [All airports are marked as add-on (yellow circle on map) for MSFS](#airport-addon-msfs)
 1. [Little Navmap crashes with an SQL error `unknown table fence` or similar](#crash-fence)
 1. [I cannot see any airports or navaids](#load-scenery)
 1. [I added an airport and it does not show up in _Little Navmap_](#no-airport)
@@ -472,6 +473,17 @@ The display will revert to the default ICAO codes (where available) after reload
 <!-- ================================================================================================ -->
 
 ### Airports, scenery library and navigation data
+
+#### All airports are marked as add-on (yellow circle on map) for MSFS {#airport-addon-msfs}
+
+This appears after updating MSFS to the SU9 (beta).
+
+Airports were moved to a new folder `fs-base-genericairports` which is the reason _Little Navmap_ does not recognize these as stock airports.
+
+You can add the `fs-base-genericairports` folder to the exclude list for add-on recognition in _Little Navmap_ as a workaround.
+The actual location of the folder depends on installation. Common is `C:\Users\YOURLOGINNAME\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache\Packages\Official\OneStore\fs-base-genericairports` for installation from the Microsoft store.
+
+See chapter [Select Paths to exclude add-on recognition](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/OPTIONS.html#select-paths-to-exclude-add-on-recognition) for more information.
 
 #### Little Navmap crashes with an SQL error `unknown table fence` or similar {#crash-fence}
 
