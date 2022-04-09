@@ -1,20 +1,12 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2022-03-31 12:00:00 +0100
+date:   2022-04-09 10:00:00 +0200
 ---
 
 # Alex' Projects
 
 ## [![RSS Feed](assets/images/feed.png)](/feed.xml) News
-
-<br/>
-[**►►► See here in the Avsim Forum about current issues with map display**](https://www.avsim.com/forums/topic/613903-map-display-issues-with-openstreetmap-and-other-maps/?tab=comments#comment-4709913)
-
-**Uncheck `Show Hillshading`  in the main menu `View` to get rid of this message.
-You can use the OpenTopoMap or StamenTerrain map themes which do not require a separate hillshading source since it is included in the map images.**
-<br/>
-<br/>
 
 <p>
   {% for post in site.posts limit:3 %}
@@ -32,12 +24,12 @@ You can use the OpenTopoMap or StamenTerrain map themes which do not require a s
 
 ### Little Navmap Downloads
 
-[**► Windows** - LittleNavmap-win-2.6.17.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-win-2.6.17.zip)\\
-[**► macOS** - LittleNavmap-macOS-2.6.17.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-macOS-2.6.17.zip)\\
-[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-2.6.17.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-linux-20.04-2.6.17.tar.gz)\\
-[**► Linux \(64 bit, based on Ubuntu 18.04\)** - LittleNavmap-linux-18.04-2.6.17.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.17/LittleNavmap-linux-18.04-2.6.17.tar.gz)
+[**► Windows** - LittleNavmap-win-2.6.18.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.18/LittleNavmap-win-2.6.18.zip)\\
+[**► macOS** - LittleNavmap-macOS-2.6.18.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.18/LittleNavmap-macOS-2.6.18.zip)\\
+[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-2.6.18.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.18/LittleNavmap-linux-20.04-2.6.18.tar.gz)\\
+[**► Linux \(64 bit, based on Ubuntu 18.04\)** - LittleNavmap-linux-18.04-2.6.18.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.18/LittleNavmap-linux-18.04-2.6.18.tar.gz)
 
-**Alternative download locations:** **[Box](https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy)**, **[Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w)** and **[OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)**.
+**Alternative download locations:** **[Box](https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy)**, **[Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa)**, **[Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w)** and **[OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)**.
 
 ### Little Navmap Links
 

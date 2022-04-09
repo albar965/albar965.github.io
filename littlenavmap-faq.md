@@ -1,20 +1,12 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-04-05 12:00:00 +0200
+date:   2022-04-09 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
 
 # ![Little Navmap](assets/images/navroute.png) Little Navmap - Frequently asked Questions {#top}
-
-<br/>
-[**►►► See here in the Avsim Forum about current issues with map display**](https://www.avsim.com/forums/topic/613903-map-display-issues-with-openstreetmap-and-other-maps/?tab=comments#comment-4709913)
-
-**Uncheck `Show Hillshading`  in the main menu `View` to get rid of this message.
-You can use the OpenTopoMap or StamenTerrain map themes which do not require a separate hillshading source since it is included in the map images.**
-<br/>
-<br/>
 
 See user manual for general known problems:\\
 [► User Manual - Known Problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems).
@@ -60,7 +52,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I cannot see my aircraft](#connect)
 1. [The flight plan does not show up correctly in MSFS](#flightplan-msfs)
 1. [There are airways missing over France and central Europe](#airways-missing)
-1. [I see strange ILS feathers labelled `G25F, GS` and similar](#ils)
+1. [I see strange ILS feathers labeled `G25F, GS` and similar](#ils)
 1. [Three-letter IATA airport codes are used everywhere instead of ICAO codes](#iata)
 
 ### Airports, scenery library and navigation data
@@ -174,7 +166,7 @@ If nothing helps, report an issue either in the [**Support Forum at _Avsim_**](h
 You might either:
 
 * Delete the previous version of _Little Navmap_ and install the new version in the same place.
-* Install the new version in a new folder, e.g. by using the version as a directory name suffix.
+* Install the new version in a new folder by using the version as a directory name suffix, for example.
 
 In either case do not merge the two old and new directories. Remains of previous versions might cause trouble.
 
@@ -265,7 +257,7 @@ Windows shows an error message `cannot proceed because libmarblewidget-qt5.dll w
 
 This can have several reasons:
 
-* Not all files were extracted and the mentioned DLL file is missing. Check if it present in the same folder as the `littlenamvmap.exe`.
+* Not all files were extracted and the mentioned DLL file is missing. Check if it can be found in the same folder as the `littlenamvmap.exe`.
 * Anti-virus put the DLL into quarantine.
 * You start the program using a shortcut (`.lnk` file) and the working directory is not the *Little Navmap* folder (the one with the `littlenamvmap.exe`). The working directory can be changed in the link properties in input field `Start In`.
 
@@ -428,7 +420,7 @@ The following issues are known so far:
 
 Apart from these issues above you might see MSFS crashes or corrupted flight plans when loading.
 
-Also read the chapter [Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) in the *Little Navmap* user manual to minimize issues with different navdata.
+Also, read the chapter [Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) in the *Little Navmap* user manual to minimize issues with different navdata.
 
 [**▲**](#top)
 
@@ -480,10 +472,11 @@ This appears after updating MSFS to the SU9 (beta).
 
 Airports were moved to a new folder `fs-base-genericairports` which is the reason _Little Navmap_ does not recognize these as stock airports.
 
-You can add the `fs-base-genericairports` folder to the exclude list for add-on recognition in _Little Navmap_ as a workaround.
-The actual location of the folder depends on installation. Common is `C:\Users\YOURLOGINNAME\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache\Packages\Official\OneStore\fs-base-genericairports` for installation from the Microsoft store.
+Update _Little Navmap_ to the latest. This was fixed with version 2.6.18.
 
-See chapter [Select Paths to exclude add-on recognition](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/OPTIONS.html#select-paths-to-exclude-add-on-recognition) for more information.
+[**▲**](#top)
+
+----
 
 #### Little Navmap crashes with an SQL error `unknown table fence` or similar {#crash-fence}
 
@@ -669,7 +662,7 @@ What can you do:
 
 #### Text and/or icons appear very small on a 4k or other high resolution monitor {#highdpi}
 
-go to menu `Tools` -> `Options` and then to page `Display and Text`. Check `Enable high DPI monitor support` and restart _Little Navmap_.
+Go to menu `Tools` -> `Options` and then to page `Display and Text`. Check `Enable high DPI monitor support` and restart _Little Navmap_.
 
 [**▲**](#top)
 
@@ -731,11 +724,7 @@ This is related to the hillshading option.
 
 The admin for the server providing the hillshading data decided to shut down the service.
 
-Uncheck the button `Show Hillshading` on the toolbar or in menu `View` -> `Show Hillshading`.
-
-You can use the OpenTopoMap or StamenTerrain map themes which do not require a separate hillshading source since it is included in the map images.
-
-Or use one these maps as an alternative: [New maps for LNM (Avsim Forum)](https://www.avsim.com/forums/topic/548994-new-maps-for-lnm/).
+Update _Little Navmap_ to the latest. This was fixed with version 2.6.18.
 
 [**▲**](#top)
 
@@ -913,7 +902,7 @@ The X-Plane weather interface is very limited.
 
 _Little Navmap_ can only read the X-Plane weather file `METAR.rwx` and display only the nearest weather report for an airport in some cases.
 
-There is no information available how and if X-Plane interpolates weather between stations. Therefore, nearest weather and even station weather might not match.
+There is no information available how and if X-Plane interpolates weather between stations. Therefore, the nearest weather and even the station weather might not match.
 
 [**▲**](#top)
 
