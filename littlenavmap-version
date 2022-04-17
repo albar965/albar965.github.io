@@ -193,21 +193,21 @@ changelog=
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [develop]
-version=2.7.8.develop
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.7.8.develop/LittleNavmap-win-2.7.8.develop.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.7.8.develop/LittleNavmap-macOS-2.7.8.develop.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.7.8.develop/LittleNavmap-linux-20.04-2.7.8.develop.tar.gz
+version=2.7.9.develop
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-win-2.7.9.develop.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-macOS-2.7.9.develop.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-linux-20.04-2.7.9.develop.tar.gz
 changelog=
   <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
   <!-- UPDATE HEADER ========================================================================= -->
   <h3 id="direct-download">Direct Download</h3>
-  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.8.develop/LittleNavmap-win-2.7.8.develop.zip"><strong>► Windows</strong> - LittleNavmap-win-2.7.8.develop.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.8.develop/LittleNavmap-macOS-2.7.8.develop.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.7.8.develop.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.8.develop/LittleNavmap-linux-20.04-2.7.8.develop.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.7.8.develop.tar.gz</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.8.develop/LittleNavmap-linux-18.04-2.7.8.develop.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 18.04)</strong> - LittleNavmap-linux-18.04-2.7.8.develop.tar.gz</a></p>
+  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-win-2.7.9.develop.zip"><strong>► Windows</strong> - LittleNavmap-win-2.7.9.develop.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-macOS-2.7.9.develop.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.7.9.develop.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-linux-20.04-2.7.9.develop.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.7.9.develop.tar.gz</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-linux-18.04-2.7.9.develop.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 18.04)</strong> - LittleNavmap-linux-18.04-2.7.9.develop.tar.gz</a></p>
   <h3 id="alternative-download-locations">Alternative Download Locations</h3>
   <p>Look into sub-folder <code>Development</code>.</p>
-  <p><a href="https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy"><strong>Box</strong></a>, <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w"><strong>Mega.nz</strong></a>, <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g"><strong>OneDrive</strong></a></p>
+  <p><a href="https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy" rel="nofollow">Box</a>, <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w" rel="nofollow">Mega.nz</a>, <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g" rel="nofollow">OneDrive</a>, <a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa" rel="nofollow">DropBox</a></p>
   <!-- ========================================================================================= -->
   <!-- START WITH Known Issues ... ============================================================= -->
   <h2 id="known-issues">Notes</h2>
@@ -218,16 +218,9 @@ changelog=
   <p>Note that all dialogs, windows, menus and buttons are functional. There are no unfinished or fake buttons/dialogs in the program despite being an alpha release. Tooltips are updated with all new functions and give help. Help buttons are an exception since the manual is not updated yet.</p>
   <p>Please report if something does not work or does not work as expected.</p>
   <p><strong>Create a backup of your settings and database folder just in case you'd like to go back to the stable release.</strong> Backup <code>ABarthel</code> in <code>C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel</code> on Windows and <code>$HOME/.config/ABarthel</code> on Linux and macOS.</p>
+  <p>Or see <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#multiple-installations" rel="nofollow">Multiple Installations</a> for information how to run the stable and alpha versions in parallel.</p>
   <p><strong>Reload the scenery library after updating.</strong></p>
-  <h2 id="changes-from-277develop-to-278develop">Changes from 2.7.7.develop to 2.7.8.develop</h2>
-  <ul>
-  <li>Fixed crash after loading or switching scenery library when web server is disabled.</li>
-  <li>Fixed crash with MapTiler and MapBox map themes when using spherical map projection.</li>
-  <li>Fixed issues where GLS/RNP approaches were not found when using FSX/P3D/MSFS databases. ILS and GLS information is now always taken from Navigraph database except when using <code>Do not use Navigraph Database</code>. As a result ILS course might probably not match for older scenery data or airport add-ons. Select <code>Do not use Navigraph Database</code> temporarily if this is an issue. Note that some approach information about RNP is not yet available with the current Navigraph cycle.</li>
-  <li>Removed wrong warning dialog about old scenery library database if scenery library is empty.</li>
-  <li>Updated French translation from Patrick.</li>
-  <li>Fixed issue when downloading NAT tracks containing text like <code>PBCS TRACKS AS FOLLOWS / V W X / END OF PBCS OTS</code>. <code>V W X</code> was wrongly recognized as a track resulting in an error message.</li>
-  </ul>
-  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/0a702a257916252851d6478ebcf02a72f951c0be/CHANGELOG.txt">CHANGELOG.txt</a> online on GitHub for a detailed list of changes.</strong></p>  <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
+  <h2 >Changes from 2.7.8.develop to 2.7.9.develop</h2>
+  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/14433e8c10da87ad46ddf66f23a318b8b63addc9/CHANGELOG.txt">CHANGELOG.txt</a> online on GitHub for a detailed list of changes.</strong></p>  <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
   <!-- ... All files are checked by ... END ==================================================== -->
   <!-- ========================================================================================= -->
