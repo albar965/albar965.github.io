@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-04-09 10:00:00 +0200
+date:   2022-05-09 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -555,11 +555,10 @@ See [Navdata in X-Plane 11](https://developer.x-plane.com/?article=navdata-in-x-
 #### A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_ {#no-airport-msfs}
 
 Encrypted add-on airports in MSFS cannot be read by *Little Navmap*.
-The add-on is locked down with a DRM scheme if you find a file `BGL.fsarchive` in the add-on folders
 
-Note that *Little Navmap* reads only add-on scenery which has `"content_type": "CORE"` or `"content_type": "SCENERY"` set in the file `manifest.json` of the add-on.
-Some add-on developers still use wrong values like `"UNKNOWN"` which will cause *Little Navmap* to ignore the scenery.
-You can change the `manifest.json` manually in a text editor and replace the wrong `"UNKNOWN"` with `"SCENERY"`.
+The add-on is locked down with a DRM ([Digital _Restriction_ Management](https://en.wikipedia.org/wiki/Digital_rights_management)) scheme if you find a file `BGL.fsarchive` in the add-on folders. *Little Navmap* will not show a new airport or only the stock airport if an add-on replaces a stock one.
+
+Buy add-ons directly from developers instead of the Microsoft market which enforces encryption. Alternatively you can also use and support freeware scenery.
 
 See also [User Manual - Know Issues](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#microsoft-flight-simulator-2020).
 
