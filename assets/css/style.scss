@@ -241,3 +241,204 @@ padding-right: 4px;
 background-color: lightgray;
 }
 */
+
+
+
+// modification "idea for new look" by https://github.com/u-an-i, PR https://github.com/albar965/albar965.github.io/pull/2, following:
+
+
+// general layout
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 1cm;
+    height: calc(100% - 2 * 1cm);
+
+	@media (max-width: 768px) {
+    	padding: .5cm;
+    	height: calc(100% - 2 * .5cm);
+	}
+}
+
+#container {
+    height: 100%;
+    overflow: hidden;
+}
+
+.inner {
+    overflow: auto;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: .5cm;
+
+	@media (min-width: 1281px) {
+        height: 100%;
+        width: 70vw;
+	}
+
+	@media (max-width: 1280px) {
+        height: 100%;
+        width: 100%;
+	}
+}
+
+
+// gaps
+
+#main_content {
+    min-height: 100%;
+    padding: 1cm;
+
+	@media (max-width: 768px) {
+    	padding: .5cm;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+	    margin: 1cm 0 .5cm;
+	}
+
+	> :first-child {
+	    margin-top: 0;
+	}
+
+	h1 {
+	    padding-bottom: .4cm;
+	}
+
+	h2 {
+	    font-size: 1.7em;					// slightly smaller than h1 (2em)
+	    padding-bottom: .3cm;
+	}
+	
+	h3 {
+	    margin-top: 1.34cm;
+	    padding-bottom: .2cm;
+	}
+
+	p {
+	    margin: .3cm;
+	}
+	
+	ul + p {
+	    margin-top: .5cm;
+	}
+}
+
+ul li {
+    margin: .3cm 0;   
+}
+
+hr {
+    margin: .5cm .9cm;
+}
+
+section ~ br {
+    display: none;
+}
+
+footer {
+    margin: 0 1.2cm .5cm;
+}
+
+
+// specials
+
+#-news {
+    display: flex;
+    align-items: center;
+    color: #e70;
+    
+    a {
+	    display: block;
+	    height: .74em;
+	    margin-right: .45em;
+	    margin-top: 2px;
+	    
+	    img {
+		    height: 100%;
+		    width: auto;
+		    display: block;
+		}
+	}
+}
+
+a[href="archive.html"] {
+    margin-top: .5cm;
+    display: block;
+}
+
+td:first-child {				// donation table
+    width: 6cm;
+}
+
+td + td {						// donation table
+    padding-left: 1cm;
+}
+
+#general ~ table td {			// Screenshots of new X.Y Features
+	width: auto;
+}
+
+#littlenavmap, #littlenavconnect, #littlexpconnect {
+    margin-top: 1.5cm !important;
+    
+	+ p img {
+	    float: left;
+	    margin-right: 1cm;
+	}
+}
+
+#littlenavmap {
+	~ table td {
+	    width: 50%;
+	    padding: 0 .5cm;
+	    box-sizing: border-box;
+	}
+	
+	~ p > a {
+		&[href] {
+		    margin-top: -.5cm;
+		    display: block;
+		}
+		
+	 	&[href="https://www.facebook.com/FSMAGAZIN/posts/1349379408450042"], &[href="https://github.com/albar965/littlenavconnect/releases"], &[href="https://github.com/albar965/littlexpconnect/releases"] {
+		    margin-top: 0;
+		}
+	}
+	
+	 ~ *:not(#littlenavmap + *):not(#littlenavconnect + *):not(#littlexpconnect + *) {
+	    margin-top: 1cm;
+	}
+}
+
+
+// colors
+
+a {
+	color: #009FFF !important;
+}
+
+#alex-projects {
+    filter: brightness(.79);
+    color: yellowgreen;
+}
+
+#littlenavmap, #littlenavconnect, #littlexpconnect {
+    filter: brightness(0.79);
+}
+
+#littlenavmap {
+    color: burlywood;
+}
+
+#littlenavconnect {
+    color: greenyellow;
+}
+
+#littlexpconnect {
+    color: lightskyblue;
+}
