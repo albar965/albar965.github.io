@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-05-09 10:00:00 +0200
+date:   2022-06-04 19:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -54,6 +54,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [There are airways missing over France and central Europe](#airways-missing)
 1. [I see strange ILS feathers labeled `G25F, GS` and similar](#ils)
 1. [Three-letter IATA airport codes are used everywhere instead of ICAO codes](#iata)
+1. [Can I run _Little Navmap_ offline without an internet connection](#offline)
 
 ### Airports, scenery library and navigation data
 
@@ -87,7 +88,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Lines disappearing](#lines-disappearing)
 1. [I cannot remove a traffic pattern, a holding or measurement lines](#remove-pattern)
 1. [Map is fuzzy and not updating](#map-no-update)
-1. [The map has a grayish or dark background when zooming in](#map-gray)
 1. [Why isn't the terrain mesh shown far North and South?](#terrain-mesh-limitations)
 1. [Map background is black](#map-black)
 1. [Can I run the program on another client computer across the network](#networking)
@@ -461,6 +461,19 @@ The display will revert to the default ICAO codes (where available) after reload
 
 ----
 
+#### Can I run _Little Navmap_ offline without an internet connection {#offline}
+
+Yes. Switch to an offline map in menu `View` -> `Theme` (offline is indicated in the menus) and
+disable all weather and wind downloads/assignments in the menu `Weather` as well as in options on
+page `Weather`. You might also want disable the automatic check for updates in options on page `Startup
+and Updates`. Switch `Online Service` to `None` on options page `Online Flying`.
+
+This disables all network connections in _Little Navmap_.
+
+[**▲**](#top)
+
+----
+
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
@@ -762,17 +775,7 @@ See [User Manual - Mouse Click Hotspots](https://www.littlenavmap.org/manuals/li
 
 This can have several reasons:
 1. The server for the online map is down. These are free services where I have no influence on availability. Wait a few hours and they are usually back.
-2. You are using offline mode. This shows a red `Offline` warning message in _Little Navmap_'s status bar. Disable offline mode in the file menu. See [Work Offline](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#work-offline).
-3. Your internet connection is broken or your firewall forbids network access for _Little Navmap_.
-
-[**▲**](#top)
-
-----
-
-#### The map has a grayish or dark background when zooming in {#map-gray}
-
-You use an online map and have hillshading enabled where it has no coverage. Disable hillshading ([Show Hillshading](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#show-hillshading))
-or use another theme.
+2. Your internet connection is broken or your firewall forbids network access for _Little Navmap_.
 
 [**▲**](#top)
 
