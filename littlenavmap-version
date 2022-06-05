@@ -193,24 +193,24 @@ changelog=
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [develop]
-version=2.7.9.develop
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-win-2.7.9.develop.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-macOS-2.7.9.develop.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-linux-20.04-2.7.9.develop.tar.gz
+version=2.7.10.develop
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.7.10.develop/LittleNavmap-win-2.7.10.develop.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.7.10.develop/LittleNavmap-macOS-2.7.10.develop.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.7.10.develop/LittleNavmap-linux-20.04-2.7.10.develop.tar.gz
 changelog=
   <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
   <!-- UPDATE HEADER ========================================================================= -->
   <h3 id="direct-download">Direct Download</h3>
-  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-win-2.7.9.develop.zip"><strong>► Windows</strong> - LittleNavmap-win-2.7.9.develop.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-macOS-2.7.9.develop.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.7.9.develop.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-linux-20.04-2.7.9.develop.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.7.9.develop.tar.gz</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.9.develop/LittleNavmap-linux-18.04-2.7.9.develop.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 18.04)</strong> - LittleNavmap-linux-18.04-2.7.9.develop.tar.gz</a></p>
+  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.10.develop/LittleNavmap-win-2.7.10.develop.zip"><strong>► Windows</strong> - LittleNavmap-win-2.7.10.develop.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.10.develop/LittleNavmap-macOS-2.7.10.develop.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.7.10.develop.zip</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.10.develop/LittleNavmap-linux-20.04-2.7.10.develop.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.7.10.develop.tar.gz</a><br/>
+  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.7.10.develop/LittleNavmap-linux-18.04-2.7.10.develop.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 18.04)</strong> - LittleNavmap-linux-18.04-2.7.10.develop.tar.gz</a></p>
   <h3 id="alternative-download-locations">Alternative Download Locations</h3>
   <p>Look into sub-folder <code>Development</code>.</p>
   <p><a href="https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy" rel="nofollow">Box</a>, <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w" rel="nofollow">Mega.nz</a>, <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g" rel="nofollow">OneDrive</a>, <a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa" rel="nofollow">DropBox</a></p>
   <!-- ========================================================================================= -->
-  <!-- START WITH Known Issues ... ============================================================= -->
-  <h2 id="known-issues">Notes</h2>
+  <!-- START WITH Known Issues or Notes ... ==================================================== -->
+  <h2 id="notes">Notes</h2>
   <p></p>
   <p>This is a public development/alpha release. Not all features are implemented yet for the next stable 2.8 branches. Translations are incomplete, new help links do not work and user manual is not adapted.</p>
   <p>Some features like MSA, vertical paths or en-route holdings require either X-Plane, the included AIRAC 1801 database or a Navigraph database newer or equal than AIRAC 2201.</p>
@@ -220,7 +220,7 @@ changelog=
   <p><strong>Create a backup of your settings and database folder just in case you'd like to go back to the stable release.</strong> Backup <code>ABarthel</code> in <code>C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel</code> on Windows and <code>$HOME/.config/ABarthel</code> on Linux and macOS.</p>
   <p>Or see <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#multiple-installations" rel="nofollow">Multiple Installations</a> for information how to run the stable and alpha versions in parallel.</p>
   <p><strong>Reload the scenery library after updating.</strong></p>
-  <h2 >Changes from 2.7.8.develop to 2.7.9.develop</h2>
-  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/14433e8c10da87ad46ddf66f23a318b8b63addc9/CHANGELOG.txt">CHANGELOG.txt</a> online on GitHub for a detailed list of changes.</strong></p>  <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
+  <h2 >Changes from 2.7.9.develop to 2.7.10.develop</h2>
+  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/00c1c2f93190687c50f644d66d98bbb899c26759/CHANGELOG.txt">CHANGELOG.txt</a> online on GitHub for a detailed list of changes.</strong></p>  <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
   <!-- ... All files are checked by ... END ==================================================== -->
   <!-- ========================================================================================= -->
