@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navconnect"
-date:   2019-02-06 10:00:00 +0100
+date:   2022-06-15 10:00:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navconnect
 # ![Little Navconnect](assets/images/navconnect.png) Little Navconnect
@@ -13,10 +13,6 @@ date:   2019-02-06 10:00:00 +0100
 ## Links {#links}
 
 **Little Navconnect is included in the download archive of [Little Navmap](littlenavmap.html).**
-
-Downloading it separately is normally not needed.
-
-[**► Releases and Downloads**](https://github.com/albar965/littlenavconnect/releases)
 
 [**► User manuals for _Little Navmap_ and _Little Navconnect_ in all formats and languages.**](/manuals.html)
 
