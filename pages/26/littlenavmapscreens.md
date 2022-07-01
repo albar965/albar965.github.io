@@ -1,10 +1,10 @@
 ---
 layout: subpage
 title:  "Screenshots of new 2.6 Features"
-date:   2020-12-11 12:00:00 +0100
+date:   2022-07-01 12:00:00 +0200
 ---
 [Alex’ Projects](/index.html)
-► [Little Navmap 2.6.6 released](/release/2020/12/12/littlenavmap-stable-266-released.html)
+► [Little Navmap 2.6.6 released](/release/2020/12/11/littlenavmap-stable-266-released.html)
 ► Screenshots of new 2.6 Features
 
 # Screenshots of new 2.6 Features

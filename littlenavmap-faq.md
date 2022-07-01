@@ -543,7 +543,7 @@ It's neither a _Little Navmap_ nor Navigraph issue. It is an unavoidable real wo
 
 See the [Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NAVDATA.html) chapter in the manual for more information.
 
-For **FSX or Perpar3D** you can use the [Airport Design Editor](http://www.scruffyduck.org/airport-design-editor/4584106799) to change the runway numbers.
+For **FSX or Perpar3D** you can use the [Airport Design Editor](https://www.scruffyducksoftware.com/airport-design-editor) to change the runway numbers.
 
 Use [WED](https://developer.x-plane.com/tools/worldeditor/) to change an airport for X-Plane.
 
