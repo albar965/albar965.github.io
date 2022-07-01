@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-06-04 19:00:00 +0200
+date:   2022-07-01 12:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -277,7 +277,7 @@ _Little Navmap_ does not create any registry entries on Windows.
 
 #### SSL Initialization Error {#ssl-init}
 
-This is caused by a missing redistributable installation.
+This is caused by a missing redistributable installation for older versions of _Little Navmap_.
 
 Install both [vcredist_x64_2010.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_x64_2010.exe) and [vcredist_x86_2010.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_x86_2010.exe) to fix this issue.
 
@@ -443,6 +443,8 @@ _Little Navmap_ can skip these gaps when calculating a flight plan. See here for
 
 #### I see strange ILS feathers labeled `G25F, GS` and similar {#ils}
 
+Update _Little Navmap_ to the latest. This was fixed with version 2.6.19.
+
 These are GLS/RNAV approach facilities which will be shown in a future version of _Little Navmap_ and are already placed in the navigation database.
 
 Unfortunately I cannot remove these for the current version of _Little Navmap_.
@@ -481,11 +483,11 @@ This disables all network connections in _Little Navmap_.
 
 #### All airports are marked as add-on (yellow circle on map) for MSFS {#airport-addon-msfs}
 
+Update _Little Navmap_ to the latest. This was fixed with version 2.6.18.
+
 This appears after updating MSFS to the SU9 (beta).
 
 Airports were moved to a new folder `fs-base-genericairports` which is the reason _Little Navmap_ does not recognize these as stock airports.
-
-Update _Little Navmap_ to the latest. This was fixed with version 2.6.18.
 
 [**▲**](#top)
 
@@ -553,7 +555,7 @@ Use [WED](https://developer.x-plane.com/tools/worldeditor/) to change an airport
 
 This is a very complex task.
 
-For **FSX or Perpar3D** you can use the [Airport Design Editor](http://www.scruffyduck.org/airport-design-editor/4584106799),
+For **FSX or Perpar3D** you can use the [Airport Design Editor](https://www.scruffyducksoftware.com/airport-design-editor),
 add procedures to the airport and then switch off Navigraph in the scenery library menu. LNM will
 read the procedures from your add-on airport and you can use them like the others.
 
@@ -732,11 +734,11 @@ Another reason can be the search window taking up too much space:
 
 #### I see white rectangles containing a message about contacting `User:TheDJ` on the map {#hillshadingissues}
 
+Update _Little Navmap_ to the latest. This was fixed with version 2.6.18.
+
 This is related to the hillshading option.
 
 The admin for the server providing the hillshading data decided to shut down the service.
-
-Update _Little Navmap_ to the latest. This was fixed with version 2.6.18.
 
 [**▲**](#top)
 
