@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2021-06-09 14:00:00 +0200
+date:   2022-07-21 12:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Contact and Support
@@ -44,8 +44,12 @@ the [frequently asked questions](littlenavmap-faq.html) and the [known problems]
 
 **Please use either the forum or email to avoid confusion and additional effort. Please do not use both.**
 
-**Provide as much information as possible if you'd like to report a problem.
-A screenshot of the full *Little Navmap* window including title or a flight plan depending on issue might be helpful first.**
+**Provide as much information as possible if you'd like to report a problem:**
+
+1. A screenshot of the full *Little Navmap* window including title or a flight plan depending on issue might be helpful at first.
+2. Used simulator including version.
+3. The version of *Little Navmap*.
+4. Information about used add-on airports if applicable.
 
 <br/>
 

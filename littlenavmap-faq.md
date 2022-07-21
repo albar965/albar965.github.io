@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-07-01 12:00:00 +0200
+date:   2022-07-21 12:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -72,7 +72,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I cannot choose a start position](#no-start-pos)
 1. [Some procedures or procedure legs are marked red in the selection/search tree](#red-proc)
 1. [Navaids from the X-Plane `user_nav.dat` and the `user_fix.dat` files do not show up in *Little Navmap*](#user-nav-fix-dat)
-1. [An airport looks wrong or has runways pointing into the wrong direction](#airport-wrong)
+1. [An airport looks wrong, has runways pointing in the wrong direction, or its name is misspelled](#airport-wrong)
 
 ### User Interface
 
@@ -260,6 +260,11 @@ This can have several reasons:
 * Not all files were extracted and the mentioned DLL file is missing. Check if it can be found in the same folder as the `littlenamvmap.exe`.
 * Anti-virus put the DLL into quarantine.
 * You start the program using a shortcut (`.lnk` file) and the working directory is not the *Little Navmap* folder (the one with the `littlenamvmap.exe`). The working directory can be changed in the link properties in input field `Start In`.
+
+Other problems on Windows:
+
+* You double clicked the file `littlenavmap.exe.simconnect` which is not the executable file. Double clicking on this will show a dialog where Windows asks for a program to open it. Double click on `littlenamvmap.exe` (light blue globe icon) to open _Little Navmap_.
+* You probably downloaded the wrong Zip archive containing only the source files or an archive for another operating system. In both cases the file `littlenamvmap.exe` is missing.
 
 [**▲**](#top)
 
@@ -526,7 +531,7 @@ See topic below for limitations with MSFS.
 Data sources limit this functionality and it depends on the selected navdata source in menu `Scenery Library`:
 
 * Navigraph only: This has only limited administrative airport information. Only airport name (`Frankfurt am Main`), ICAO code (`EDDF`), ICAO region (`ED`) and area code (`EUR`) are available.
-* All other modes: The completeness of administrative information depends on the airport. Administrative data (State, City, etc.) is often missing for X-Plane airports. Country information is missing in MSFS.
+* All other modes: The completeness of administrative information depends on the airport. Administrative data (State, City, etc.) is often missing for X-Plane airports. Country information is completely missing in MSFS.
 
 [**▲**](#top)
 
@@ -652,13 +657,15 @@ The user navaids can be used in the X-Plane stock FMS and GPS. But keep in mind 
 
 ----
 
-#### An airport looks wrong or has runways pointing into the wrong direction {#airport-wrong}
+#### An airport looks wrong, has runways pointing in the wrong direction, or its name is misspelled {#airport-wrong}
 
 The following are scenery or add-on issues:
 1. Aprons are over sized or at the wrong position: Some add-on developers misuse apron polygons for other purposes like parking lots or flattening. MSFS seems to have automatically generated apron polygons which can be wrong. This is not a bug in _Little Navmap_ which reads these structures as is.
 2. Taxiway signs are missing or wrong: This is an issue with the stock airport scenery or an add-on.
 3. Runways pointing into the wrong direction, e.g. runway 27 pointing to 90 east: This is an issue with the airport scenery or an add-on having wrong runway designators.
 4. Runway in procedures do not match the runways of the airport: This happens since runways are renamed because of magnetic drift from time to time. As a result an older add-on might not match the latest navdata update.
+5. Airport names are misspelled. This is a scenery problem.
+6. Country, state, province, city or airport name is wrong or missing: Completeness of administrative information depends on simulator or airport add-on. Administrative data is often missing or wrong for X-Plane airports. Country information is completely missing in MSFS. Other simulators might provide only obsolete data.
 
 What can you do:
 1. You can contact the add-on developers and ask them to fix the issue.
