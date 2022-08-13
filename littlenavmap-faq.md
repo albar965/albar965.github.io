@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-07-21 12:00:00 +0200
+date:   2022-08-13 12:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -73,6 +73,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Some procedures or procedure legs are marked red in the selection/search tree](#red-proc)
 1. [Navaids from the X-Plane `user_nav.dat` and the `user_fix.dat` files do not show up in *Little Navmap*](#user-nav-fix-dat)
 1. [An airport looks wrong, has runways pointing in the wrong direction, or its name is misspelled](#airport-wrong)
+1. [How does _Little Navmap_ find the MSFS scenery library, or MSFS installation not found](#msfs-scenery-library)
 
 ### User Interface
 
@@ -671,6 +672,27 @@ What can you do:
 1. You can contact the add-on developers and ask them to fix the issue.
 2. For X-Plane you can use [WED](https://developer.x-plane.com/tools/worldeditor/) to correct the issue and upload your changes to the [Scenery Gateway](https://gateway.x-plane.com/) or file a bug report at the Gateway.
 3. Use the MSFS development tools to create a corrected version of the airport.
+
+[**▲**](#top)
+
+----
+
+#### How does _Little Navmap_ find the MSFS scenery library, or MSFS installation not found {#msfs-scenery-library}
+
+_Little Navmap_ looks into fixed installation folders for the various MSFS installation options (MS Online, MS Boxed or Steam). There are no Windows registry entries used. Installation on a removable drive is usually no problem.
+
+_Little Navmap_ first looks for a file `UserCfg.opt` at the following fixed locations:
+1. MS online installation: `C:\Users\USER\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache\UserCfg.opt`
+2. Steam installation: `C:\Users\USER\AppData\Roaming\Microsoft Flight Simulator\UserCfg.opt`
+3. MS Boxed installation: `C:\Users\USER\AppData\Local\MSFSPackages\UserCfg.opt`
+
+Replace `USER` with your login name.
+
+The text file `UserCfg.opt` contains a last line `InstalledPackagesPath` which points to the MSFS scenery library.
+
+From there _Little Navmap_ looks up `...\Official\Steam\fs-base\layout.json` or `...\Official\OneStore\fs-base\layout.json` to check if the installation path is really valid or if it consists only of remains from previous installations.
+
+Detection problems can usually caused by file permission issues, missing files / folders or remaining files from previous installations.
 
 [**▲**](#top)
 
