@@ -136,7 +136,6 @@ p, p.small, form, pre {
 }
 
 pre, code {
-  font-size: 1.2em;
   padding: 1px;
   background-color: #e8e8e8;
   background: #e8e8e8;
@@ -151,6 +150,10 @@ pre code {
   background-color: #e8e8e8;
   border: none;
   color: #000000;
+}
+
+code {
+  font-size: 1.1em;
 }
 
 p.small {
@@ -259,10 +262,10 @@ body {
     height: calc(100% - 2 * 1cm);
     background-position-y: 0%;
 
-	@media (max-width: 768px) {
-    	padding: .5cm;
-    	height: calc(100% - 2 * .5cm);
-	}
+  @media (max-width: 768px) {
+      padding: .5cm;
+      height: calc(100% - 2 * .5cm);
+  }
 }
 
 #container {
@@ -276,15 +279,15 @@ body {
     background: rgba(255, 255, 255, 0.9);
     border-radius: .5cm;
 
-	@media (min-width: 1281px) {
+  @media (min-width: 1281px) {
         height: 100%;
         width: 70vw;
-	}
+  }
 
-	@media (max-width: 1280px) {
+  @media (max-width: 1280px) {
         height: 100%;
         width: 100%;
-	}
+  }
 }
 
 
@@ -294,43 +297,43 @@ body {
     min-height: 100%;
     padding: 1cm;
 
-	@media (max-width: 768px) {
-    	padding: .5cm;
-	}
+  @media (max-width: 768px) {
+      padding: .5cm;
+  }
 
-	h1, h2, h3, h4, h5, h6 {
-	    margin: 1cm 0 .5cm;
-	}
+  h1, h2, h3, h4, h5, h6 {
+      margin: 1cm 0 .5cm;
+  }
 
-	> :first-child {
-	    margin-top: 0;
-	}
+  > :first-child {
+      margin-top: 0;
+  }
 
-	h1 {
-	    padding-bottom: .4cm;
-	}
+  h1 {
+      padding-bottom: .4cm;
+  }
 
-	h2 {
-	    font-size: 1.7em;					// slightly smaller than h1 (2em)
-	    padding-bottom: .3cm;
-	}
-	
-	h3 {
-	    margin-top: 1.34cm;
-	    padding-bottom: .2cm;
-	}
+  h2 {
+      font-size: 1.7em;					// slightly smaller than h1 (2em)
+      padding-bottom: .3cm;
+  }
 
-	p {
-	    margin: .3cm;
-	}
-	
-	ul + p {
-	    margin-top: .5cm;
-	}
+  h3 {
+      margin-top: 1.34cm;
+      padding-bottom: .2cm;
+  }
+
+  p {
+      margin: .3cm;
+  }
+
+  ul + p {
+      margin-top: .5cm;
+  }
 }
 
 ul li {
-    margin: .3cm 0;   
+    margin: .3cm 0;
 }
 
 hr {
@@ -352,19 +355,19 @@ footer {
     display: flex;
     align-items: center;
     color: #e70;
-    
+
     a {
-	    display: block;
-	    height: .74em;
-	    margin-right: .45em;
-	    margin-top: 2px;
-	    
-	    img {
-		    height: 100%;
-		    width: auto;
-		    display: block;
-		}
-	}
+      display: block;
+      height: .74em;
+      margin-right: .45em;
+      margin-top: 2px;
+
+      img {
+        height: 100%;
+        width: auto;
+        display: block;
+    }
+  }
 }
 
 a[href="archive.html"] {
@@ -381,46 +384,46 @@ td + td {						// donation table
 }
 
 #general ~ table td {			// Screenshots of new X.Y Features
-	width: auto;
+  width: auto;
 }
 
 #littlenavmap, #littlenavconnect, #littlexpconnect {
     margin-top: 1.5cm !important;
-    
-	+ p img {
-	    float: left;
-	    margin-right: 1cm;
-	}
+
+  + p img {
+      float: left;
+      margin-right: 1cm;
+  }
 }
 
 #littlenavmap {
-	~ table td {
-	    width: 50%;
-	    padding: 0 .5cm;
-	    box-sizing: border-box;
-	}
-	
-	~ p > a {
-		&[href] {
-		    margin-top: -.5cm;
-		    display: block;
-		}
-		
-	 	&[href="https://www.facebook.com/FSMAGAZIN/posts/1349379408450042"], &[href="https://github.com/albar965/littlenavconnect/releases"], &[href="https://github.com/albar965/littlexpconnect/releases"] {
-		    margin-top: 0;
-		}
-	}
-	
-	 ~ *:not(#littlenavmap + *):not(#littlenavconnect + *):not(#littlexpconnect + *) {
-	    margin-top: 1cm;
-	}
+  ~ table td {
+      width: 50%;
+      padding: 0 .5cm;
+      box-sizing: border-box;
+  }
+
+  ~ p > a {
+    &[href] {
+        margin-top: -.5cm;
+        display: block;
+    }
+
+    &[href="https://www.facebook.com/FSMAGAZIN/posts/1349379408450042"], &[href="https://github.com/albar965/littlenavconnect/releases"], &[href="https://github.com/albar965/littlexpconnect/releases"] {
+        margin-top: 0;
+    }
+  }
+
+   ~ *:not(#littlenavmap + *):not(#littlenavconnect + *):not(#littlexpconnect + *) {
+      margin-top: 1cm;
+  }
 }
 
 
 // colors
 
 a {
-	color: #009FFF !important;
+  color: #009FFF !important;
 }
 
 #alex-projects {

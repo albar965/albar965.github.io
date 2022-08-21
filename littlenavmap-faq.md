@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-08-13 12:00:00 +0200
+date:   2022-08-21 11:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -74,6 +74,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Navaids from the X-Plane `user_nav.dat` and the `user_fix.dat` files do not show up in *Little Navmap*](#user-nav-fix-dat)
 1. [An airport looks wrong, has runways pointing in the wrong direction, or its name is misspelled](#airport-wrong)
 1. [How does _Little Navmap_ find the MSFS scenery library, or MSFS installation not found](#msfs-scenery-library)
+1. [Error `Caught exception: NOT NULL constraint failed: tmp_waypoint.region ...` when loading the scenery library](#msfs-scenery-library-no-region)
 
 ### User Interface
 
@@ -697,6 +698,34 @@ Detection problems can usually caused by file permission issues, missing files /
 [**▲**](#top)
 
 ----
+
+#### Error `Caught exception: NOT NULL constraint failed: tmp_waypoint.region ...` when loading the scenery library {#msfs-scenery-library-no-region}
+
+The problem is caused by a faulty add-on which inserts waypoints without the two-letter ICAO region code into the scenery library. This causes the error.
+
+You can find the offending add-on by opening the log file of _Little Navmap_ in menu `Tools` -> `Files and Directories` -> `Open Log File`.
+This will show the logfile in your default text editor.
+
+You can find one or more messages like below if you search through the log file for the text `has no region`:
+
+```
+[... INFO ]: Scenery path "C:\\MSFS\\Community\\2nxx-mountain-air"
+[... INFO ]: =P=== "9379 of 11465 (81 %) [1]" "2nxx-modelLib.BGL"
+[... INFO ]: =P=== "9380 of 11465 (81 %) [1]" "2nxx_Objects.bgl"
+[... WARN ]: Waypoint at Pos(-170.55,-87.86,0.000000) ident EXAMPLE has no region
+```
+
+The problem is the scenery file above the warning (`2nxx_Objects.bgl` here).
+
+Now go to menu `Tools` -> `Options` in _Little Navmap_ and select the page `Scenery Library Database`.
+You can exclude the whole add-on by adding the directory `C:\MSFS\Community\2nxx-mountain-air` or only the file `C:\MSFS\Community\2nxx-mountain-air\2nxx_Objects.bgl` to the upper list.
+
+Reload the scenery library and the issue should be gone.
+
+[**▲**](#top)
+
+----
+
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
