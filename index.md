@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2022-06-15 10:00:00 +0200
+date:   2022-09-02 10:00:00 +0200
 ---
 
 # Alex' Projects
@@ -61,6 +61,8 @@ date:   2022-06-15 10:00:00 +0200
 
 ![Little Navmap](assets/images/navroute.png) **_Little Navmap_** is a free open source flight planner, navigation tool, moving map,
 airport search and airport information system for **Flight Simulator X, Prepar3D, Microsoft Flight Simulator 2020 and X-Plane** and is available for **Windows, Apple macOS and Linux**.
+
+**_Little Navmap_ does not use track its users and does not display advertisements.**
 
 _Little Navmap_ comes with a **detailed user manual including several tutorials** which is available online as well as in PDF and other formats like EPUB.
 **Help buttons** in all relevant areas of the program display corresponding chapters in the online manual on click.
