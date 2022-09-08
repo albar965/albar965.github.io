@@ -107,7 +107,7 @@ changelog=
   <p><strong>Note that certains settings are reset to default after updating to 2.8.</strong></p>
   <p><strong>A few keyboard shortcuts have changed.</strong></p>
   <p><strong>Create a backup of your settings and database folder just in case you'd like to go back to the stable release. Backup <code>ABarthel</code> in <code>C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel</code> on Windows and <code>$HOME/.config/ABarthel</code> on Linux and macOS.</strong></p>
-  <p>Or see <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#multiple-installations">Multiple Installations</a> for information how to run the stable and alpha versions in parallel.</p>
+  <p>Or see <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#multiple-installations">Multiple Installations</a> for information how to run the stable and beta versions in parallel.</p>
   <h2 id="known-issues">Known Issues</h2>
   <ul>
   <li>X-Plane 12 weather and winds aloft are not read from the simulator yet. This will be added in the next release. Use NOAA as a workaround for now.</li>

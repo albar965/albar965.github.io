@@ -47,7 +47,7 @@ stable release. Backup `ABarthel` in `C:\Users\YOURUSERNAME\AppData\Roaming\ABar
 and `$HOME/.config/ABarthel` on Linux and macOS.**
 
 Or see [Multiple Installations](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#multiple-installations)
-for information how to run the stable and alpha versions in parallel.
+for information how to run the stable and beta versions in parallel.
 
 ## Known Issues
 
