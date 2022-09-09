@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Little Navmap 2.8.0.beta released
-date:   2022-09-08 20:00:00 +0200
+date:   2022-09-09 14:00:00 +0200
 categories: release
 ---
 
@@ -25,7 +25,7 @@ adapted yet to the new features. Feel free to ask if something is not clear.
 
 **A big thank you to all who reported bugs and issues!**
 
-**This version is ready MSFS SU10 and for X-Plane 12.**
+**This version is ready MSFS SU10 and for X-Plane 12 and also supports FSX, P3D and X-Plane 11.**
 
 Some features like MSA, vertical paths or en-route holdings require either X-Plane, the included
 AIRAC 1801 database or a Navigraph database newer or equal than AIRAC 2201.
