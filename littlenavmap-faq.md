@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-09-05 18:00:00 +0200
+date:   2022-09-25 10:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -75,6 +75,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [An airport looks wrong, has runways pointing in the wrong direction, or its name is misspelled](#airport-wrong)
 1. [How does _Little Navmap_ find the MSFS scenery library, or MSFS installation not found](#msfs-scenery-library)
 1. [Error `Caught exception: NOT NULL constraint failed: tmp_waypoint.region ...` when loading the scenery library](#msfs-scenery-library-no-region)
+1. [Error reading `.../Content.xml“ on line 6 column 13: premature end of document` when loading the scenery library](#msfs-scenery-library-content-xml)
 
 ### User Interface [🔗](#ui) {#ui}
 
@@ -424,6 +425,7 @@ The following issues are known so far:
 - MSFS uses turn anticipation which may result in wrong flight plan display in the GPS units or autopilot behavior. The GPS or autopilot will take a shortcut for hard turns which sometimes messes up a flight plan, for example. Turn anticipation is a function performed by FMS or RNAV devices to tell the pilot when to initiate a turn to the next waypoint on the programmed flight path to avoid overshooting the programmed course.
 - Altitude at waypoints and sometimes the cruise altitude is ignored and replaced by MSFS' own idea of a climb and descent profile which has nothing to do with the *Little Navmap* profile. This happens despite *Little Navmap* saving the altitude for each waypoint.
 - Flight plan names must not contains special characters like umlauts or accents. *Little Navmap* replaces these automatically when exporting a plan.
+- Loading a flight plan containing user defined points (coordinates) results in some positions of the plan placed at the North Pole.
 
 Apart from these issues above you might see MSFS crashes or corrupted flight plans when loading.
 
@@ -702,6 +704,8 @@ Detection problems can usually caused by file permission issues, missing files /
 
 #### Error `Caught exception: NOT NULL constraint failed: tmp_waypoint.region ...` when loading the scenery library [🔗](#msfs-scenery-library-no-region) {#msfs-scenery-library-no-region}
 
+Note: This issue was fixed with the Little Navmap beta 2.8 versions. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.
+
 The problem is caused by a faulty add-on which inserts waypoints without the two-letter ICAO region code into the scenery library. This causes the error.
 
 You can find the offending add-on by opening the log file of _Little Navmap_ in menu `Tools` -> `Files and Directories` -> `Open Log File`.
@@ -727,6 +731,19 @@ Reload the scenery library and the issue should be gone.
 
 ----
 
+#### Error reading `.../Content.xml“ on line 6 column 13: premature end of document` when loading the scenery library [🔗](#msfs-scenery-library-content-xml) {#msfs-scenery-library-content-xml}
+
+Note: This issue was fixed with the *Little Navmap* beta 2.8 versions. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.
+
+The file `Content.xml` was changed with the MSFS update SU10. The new and changed format will only be written if you install MSFS or if you use development functions in MSFS to reorganize the scenery package priority.
+
+Use *Little Navmap* beta version 2.8 or later.
+
+Alternatively, you can delete the file, since it serves no particular purpose so far and is not documented anyway. Or you better rename it to have a copy.
+
+[**▲**](#top)
+
+----
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
