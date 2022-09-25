@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-09-25 10:00:00 +0200
+date:   2022-09-25 12:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -101,7 +101,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 1. [Where is the options menu item on macOS](#prefs)
 1. [I get a message complaining about an unidentified developer on macOS](#macos-unidentified-developer)
-1. [Cannot run _Little Navmap_ or _Little Xpconnect_ on macOS Catalina](#catalina)
+1. [Cannot run _Little Navmap_ or _Little Xpconnect_ on macOS Catalina or later](#catalina)
 
 ### X-Plane and _Little Xpconnect_  [🔗](#xp) {#xp}
 
@@ -937,11 +937,13 @@ See [User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/li
 
 ----
 
-#### Cannot run _Little Navmap_ or _Little Xpconnect_ on macOS Catalina [🔗](#catalina) {#catalina}
+#### Cannot run _Little Navmap_ or _Little Xpconnect_ on macOS Catalina or later [🔗](#catalina) {#catalina}
 
 A new security feature in macOS forbids the execution of unsigned libraries or apps.
 
-See [User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#macos).
+See [User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#macos) for information how to remove the flag.
+
+Alternatively, you can download the tool [Mac OS - CleanUp Quarantine Flags](https://forums.x-plane.org/index.php?/files/file/79828-mac-os-cleanup-quarantine-flags/) from x-plane.org, place this in the X-Plane base folder and run it to clean up the flags on all plugins at once.
 
 [**▲**](#top)
 
