@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Little Navmap 2.8.1.beta released
-date:   2022-10-12 14:00:00 +0200
+date:   2022-10-12 10:00:00 +0200
 categories: release
 ---
 
