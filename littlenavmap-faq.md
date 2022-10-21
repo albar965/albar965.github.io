@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-09-27 16:00:00 +0200
+date:   2022-10-21 14:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -56,7 +56,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Three-letter IATA airport codes are used everywhere instead of ICAO codes](#iata)
 1. [Can I run _Little Navmap_ offline without an internet connection](#offline)
 
-### Airports, scenery library and navigation data [🔗](#scenery) {#scenery}
+### Airports, scenery library, userpoint and navigation data [🔗](#scenery) {#scenery}
 
 1. [All airports are marked as add-on (yellow circle on map) for MSFS](#airport-addon-msfs)
 1. [Little Navmap crashes with an SQL error `unknown table fence` or similar](#crash-fence)
@@ -76,6 +76,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [How does _Little Navmap_ find the MSFS scenery library, or MSFS installation not found](#msfs-scenery-library)
 1. [Error `Caught exception: NOT NULL constraint failed: tmp_waypoint.region ...` when loading the scenery library](#msfs-scenery-library-no-region)
 1. [Error reading `.../Content.xml“ on line 6 column 13: premature end of document` when loading the scenery library](#msfs-scenery-library-content-xml)
+1. [Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id` after adding a userpoint](#userdata-exception)
 
 ### User Interface [🔗](#ui) {#ui}
 
@@ -745,6 +746,25 @@ Alternatively, you can delete the file, since it serves no particular purpose so
 
 ----
 
+#### Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id` after adding a userpoint [🔗](#userdata-exception) {#userdata-exception}
+
+This is related to a bug that appeared in *Little Navmap* version 2.8.0.beta. The userpoint database has inconsistencies.
+
+Do the following to fix this:
+
+1. Export all your userpoints as CSV file from *Little Navmap* main menu -> `Userpoints` -> `Export CSV`. Disable `Export selected entries only` and `Append to an already present file`. Leave the other option as is.
+2. Rename the file `C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel\little_navmap_db\little_navmap_userdata.sqlite` (file locations on other operating systems are documented [Little Navmap User Manual - Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html#databases)). Do not delete it to have a backup.
+3. Import the CSV from 1. from main menu -> 'Userpoints' -> `Import CSV`.
+
+Note that this also removes all undo/redo steps from the database.
+
+The error should not appear again.
+
+[**▲**](#top)
+
+----
+
+
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
@@ -970,7 +990,7 @@ Pop up window says my versions are not compatible and I need to upgrade _Little 
 There is probably an old version of _Little Xpconnect_ installed wrongly somewhere in your X-Plane plugins path.
 Maybe it was installed accidentally in the plugins base path without the _Little Xpconnect_ folder structure.
 
-Check if there is a another folder with the _Little Xpconnect_ executable (`win.xpl`, `mac.xpl` or `lin.xpl` depending on operating system) around or if the file is stored in the plugins folder on the top level.
+Check if there is another folder with the _Little Xpconnect_ executable (`win.xpl`, `mac.xpl` or `lin.xpl` depending on operating system) around or if the file is stored in the plugins folder on the top level.
 
 You can see the path of the (wrongly) loaded plugin in the X-Plane plugin manager.
 
