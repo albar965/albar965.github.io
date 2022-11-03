@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2022-09-02 10:00:00 +0200
+date:   2022-11-03 12:00:00 +0100
 ---
 
 # Alex' Projects
@@ -22,7 +22,19 @@ date:   2022-09-02 10:00:00 +0200
 
 [**► News Archive**](archive.html)
 
+
 ### Little Navmap Downloads
+
+<p style="color: #f00000; ">
+  <b>
+    Only Download Little Navmap from trusted places:<br/>
+    <a style="color: #c00000;" href="https://github.com/albar965">► https://github.com/albar965</a>,<br/>
+    <a style="color: #c00000;" href="https://forums.x-plane.org/index.php?/files/file/41694-little-navmap/">► x-plane.org</a>,<br/>
+    <a style="color: #c00000;" href="https://forums.flightsimulator.com/t/little-navmap-2-6-19-stable-version-released-update-18/277145/">► forums.flightsimulator.com</a><br/>
+    or one of the alternative download locations below.<br/>
+    Third-party download sites are beyond my control, often offer outdated versions, and might be compromised.
+  </b>
+</p>
 
 [**► Windows** - LittleNavmap-win-2.6.19.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-win-2.6.19.zip)\\
 [**► macOS** - LittleNavmap-macOS-2.6.19.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-macOS-2.6.19.zip)\\

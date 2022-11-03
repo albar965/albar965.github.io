@@ -423,7 +423,11 @@ td + td {						// donation table
 // colors
 
 a {
-  color: #0050b0 !important;
+  color: #0050b0;
+}
+
+abbr[title] {
+  text-decoration: none;
 }
 
 #alex-projects {
