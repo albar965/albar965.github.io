@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-11-03 12:00:00 +0100
+date:   2022-11-05 10:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -182,7 +182,7 @@ Always update all related programs like *Little Navconnect* and *Little Xpconnec
 
 #### Where are the log and configuration files? [**▲**](#top) [🔗](#log-and-config-files) {#log-and-config-files}
 
-The files can be opened in the default text editor from menu -&gt; `Tools` -&gt; `Files and Directories` -&gt; `Open Log File` in *Little Navmap*.
+The files can be opened in the default text editor from menu -&gt; `Tools` -&gt; `Files and Directories` in *Little Navmap*.
 
 For Windows these are:
 
@@ -190,7 +190,7 @@ Log file: `C:\Users\YOURUSERNAME\AppData\Local\Temp\abarthel-little_navmap.log`
 
 Configuration file: `C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel\little_navmap.ini`
 
-Details can be found in the [Files](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html) chapter in the manual.
+Details can be found in the chapter [Files](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html) in the manual.
 
 
 
@@ -478,11 +478,12 @@ The display will revert to the default ICAO codes (where available) after reload
 Yes. Switch to an offline map in menu `View` -> `Theme` (offline is indicated in the menus) and
 disable all weather and wind downloads/assignments in the menu `Weather` as well as in options on
 page `Weather`. You might also want disable the automatic check for updates in options on page `Startup
-and Updates`. Switch `Online Service` to `None` on options page `Online Flying`.
+and Updates`. Additionally switch `Online Service` to `None` on options page `Online Flying`.
+
+Also install the offline GLOBE elevation data to avoid elevation online accesses as described here in the user manual:
+[Install GLOBE elevation data](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/OPTIONS.html#install-globe-elevation-data).
 
 This disables all network connections in _Little Navmap_.
-
-
 
 ----
 
@@ -738,9 +739,9 @@ Note: This issue was fixed with the *Little Navmap* beta 2.8 versions. See page 
 
 The file `Content.xml` was changed with the MSFS update SU10. The new and changed format will only be written if you install MSFS or if you use development functions in MSFS to reorganize the scenery package priority.
 
-Use *Little Navmap* beta version 2.8 or later.
-
-Alternatively, you can delete the file, since it serves no particular purpose so far and is not documented anyway. Or you better rename it to have a copy.
+There are two possible solutions:
+1. You can rename the file temporarily while loading the scenery library database in *Little Navmap*.
+1. Use *Little Navmap* beta version 2.8 or later. See [the main page here](https://albar965.github.io/index.html) for announcements of beta releases.
 
 
 
