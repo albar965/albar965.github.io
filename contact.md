@@ -1,57 +1,42 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2022-07-21 12:00:00 +0200
+date:   2022-11-13 10:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Contact and Support
 
 # ![Little Navmap](assets/images/navroute.png) Contact and Support
 
+## Notes
+
+Issues might be already fixed with the latest version. Therefore, check if you have the latest version installed. These are announced on [Alex’ Projects](index.html).
+You can also find all releases on [Github](https://github.com/albar965/littlenavmap/releases).
+
 ## Links
 
-[**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Support and help for users.
+Please check these pages first. Your question is probably answered there.
 
 [**► Frequently asked Questions**](littlenavmap-faq.html) Solutions for known problems and more.
 
-[**► User Manual - Known Problems**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems) General known problems.
+[**► Little Navmap User Manual - Known Problems**](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPENDIX.html#problems) General known problems.
+
+[**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Support and help for users.
 
 [**► Github Issues**](https://github.com/albar965/littlenavmap/issues) Tasks and bug reports.
 
 [**► Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
-## Configuration and log files
+## Configuration and Log Files
 
-The locations are explained in chapter `Files` in the user manual:
-
-<br/>
-
-[**► Files**](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html) Locations of all log, database and configuration files for all supported operating systems.
-
-<br/>
-
-You can also open some files and folders directly in *Little Navmap* in menu `Tools` -> [Files and Directories](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#files-and-directories).
+See [Little Navmap User Manual - Files](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPENDIX.html#how-to-report-a-bug)
+about bug reporting before sending or posting reports.
 
 ## Email
 
-<br/>
+Please use either the forum or email to avoid confusion and additional effort. Please do not use both.
 
-**Issues might be already fixed with the latest version. Therefore, check if you have the latest version installed. These are announced on [my main page](index.html).
-You can also find all releases on [Github](https://github.com/albar965/littlenavmap/releases).**
-
-**Please check the [support forum](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum),
-the [frequently asked questions](littlenavmap-faq.html) and the [known problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems) in the user manual first. Your question is probably answered there.**
-
-**Please use either the forum or email to avoid confusion and additional effort. Please do not use both.**
-
-**Provide as much information as possible if you'd like to report a problem:**
-
-1. A screenshot of the full *Little Navmap* window including title or a flight plan depending on issue might be helpful at first.
-2. Used simulator including version.
-3. The version of *Little Navmap*.
-4. Information about used add-on airports if applicable.
-
-<br/>
+The email link below is encoded to avoid spam. You have to click it to open an email editing window.
 
 <a href="alex AT littlenavmap DOT org"
    rel="nofollow"

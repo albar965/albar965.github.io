@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2022-06-15 10:00:00 +0200
+date:   2022-11-13 10:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap
@@ -18,7 +18,7 @@ date:   2022-06-15 10:00:00 +0200
 
 [**► User manuals for _Little Navmap_ and _Little Navconnect_ in all formats and languages.**](/manuals.html)
 
-[► Map Legend](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/LEGEND.html)
+[► Map Legend](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/LEGEND.html)
 
 [► GitHub Little Navmap Project and Sources](https://github.com/albar965/littlenavmap)
 

@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2022-11-05 10:00:00 +0100
+date:   2022-11-13 10:00:00 +0100
 ---
 
 # Alex' Projects
@@ -180,7 +180,7 @@ It is light weight, free and open source.
 
 **Supported platforms:** Windows 7/8/10/11, Apple macOS \(High Sierra 10.13 or later\) and Linux \(64 bit only\).
 
-[**► Installation** (_Little Navmap_ user manual)](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#x-plane-plugin)
+[**► Installation** (_Little Navmap_ user manual)](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INSTALLATION.html#x-plane-plugin)
 
 [► GitHub _Little Xpconnect_ Project and Sources](https://github.com/albar965/littlexpconnect)
 

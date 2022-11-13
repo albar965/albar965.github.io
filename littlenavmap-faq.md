@@ -1,36 +1,35 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-11-05 10:00:00 +0100
+date:   2022-11-13 10:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
 
 # ![Little Navmap](assets/images/navroute.png) Little Navmap - Frequently asked Questions {#top}
 
+**Use your browser search function (usually `Ctrl+F` for Windows and Linux or `⌘+F` for macOS) to find topics or keywords.**
+
 See user manual for general known problems:\\
-[► User Manual - Known Problems](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems).
+[► Little Navmap User Manual - Known Problems](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPENDIX.html#problems).
 
-See user manual for limitations and issues around Microsoft Flight Simulator 2020:\\
-[► User Manual - Known Problems - Microsoft Flight Simulator 2020](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems-msfs).
-
-Read the linked chapter below to minimize issues when loading flight plans into **MSFS**:\\
-[► User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata).
+[► See below for limitations and issues around Microsoft Flight Simulator 2020](#problems-msfs)
 
 Read below if you plan to use *Little Navmap* on a remote computer across a network to avoid common mistakes:\\
-[► User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NETWORK.html).
+[► Little Navmap User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NETWORK.html).
 
-**Use your browser search function (usually `Ctrl+F` for Windows and Linux or `⌘+F` for macOS) to find topics or keywords.**
+In case you have a question or a problem which cannot be solved:\\
+[► **Contact and Support**](/contact.html).
 
 <!-- egrep '####' littlenavmap-faq.md | sed -e 's/#### \(.\+\) {#\(.\+\)}/1. [\1](#\2)/g' -->
 
 ### Troubleshooting
 
-1. [How to fix issues](#fix-issues)
+1. [**How to fix issues**](#fix-issues)
 
 ### Installation {#installation}
 
-1. [How to update the program](#update)
+1. [**How to update the program**](#update)
 1. [Where are the log and configuration files?](#log-and-config-files)
 1. [My anti-virus or anti-malware complains about _Little Navmap_](#anti-virus)
 1. [Why can I see only the X-Plane connect option](#xplane-connection-only)
@@ -42,6 +41,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### General {#general}
 
+1. [**MSFS Specific Issues**](#problems-msfs)
 1. [How can I create a flight plan](#flightplan)
 1. [The map is jumping around randomly while flying](#aircraft-center)
 1. [How to backup userdata or the logbook](#userdata-backup)
@@ -66,10 +66,10 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Airport runway numbers don't match the runway numbers for procedures](#runway-mismatch)
 1. [How to add procedures to airports?](#add-procedures)
 1. [A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_](#no-airport-msfs)
-1. [How can I update the navdata to the latest cycle](#update-navdata)
+1. [**How can I update the navdata to the latest cycle**](#update-navdata)
 1. [I updated the navdata but it does not show up](#update-navdata-noshow)
 1. [I cannot see aprons and taxiways on the map](#no-aprons-taxi)
-1. [I cannot choose a start position](#no-start-pos)
+1. [I cannot select a start position](#no-start-pos)
 1. [Some procedures or procedure legs are marked red in the selection/search tree](#red-proc)
 1. [Navaids from the X-Plane `user_nav.dat` and the `user_fix.dat` files do not show up in *Little Navmap*](#user-nav-fix-dat)
 1. [An airport looks wrong, has runways pointing in the wrong direction, or its name is misspelled](#airport-wrong)
@@ -129,13 +129,13 @@ You can try the following if you experience problems like crashes, freezes, a co
 
 ##### Corrupted window layout or missing map window
 
-Try `Window` -> [Reset Window layout to default](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#reset-window-layout) or load a previously saved window layout file (see [Saving and Loading Layouts](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/LAYOUT.html#saving-and-loading-layouts)).
+Try `Window` -> [Little Navmap User Manual - Reset Window layout to default](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#reset-window-layout) or load a previously saved window layout file (see [Little Navmap User Manual - Saving and Loading Layouts](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/LAYOUT.html#saving-and-loading-layouts)).
 
 If this does not help, try the suggestions below.
 
 ##### Quick and simple Solution
 
-Go to the *Little Navmap* main menu `Tools` and select [Reset all Settings and restart](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#reset-all-settings-and-restart). *Little Navmap* will show a question dialog and then restart after deleting all settings.
+Go to the *Little Navmap* main menu `Tools` and select [Little Navmap User Manual - Reset all Settings and restart](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#reset-all-settings-and-restart). *Little Navmap* will show a question dialog and then restart after deleting all settings.
 
 If this does not help, you can restore the settings file backup which was mentioned in the dialog.
 
@@ -145,8 +145,10 @@ Quit *Little Navmap* and rename the main settings folder `ABarthel` which contai
 simulator databases and is stored in the following places:
 
 * Windows: `C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel`
-* Linux: `/home/YOURUSERNAME/.config/ABarthel`
 * macOS: `/Users/YOURUSERNAME/.config/ABarthel`
+* Linux: `/home/YOURUSERNAME/.config/ABarthel`
+
+See also [Little Navmap User Manual - Configuration](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FILES.html#configuration).
 
 Do not delete the folder, but rename it to keep your settings if this does not fix the problem.
 
@@ -154,11 +156,13 @@ Start *Little Navmap* and see if the issue is gone.
 
 If this did not help: Quit *Little Navmap*. Delete `ABarthel` which was just created newly by the program and rename your backup again to `ABarthel` to get your settings and databases back.
 
+##### Where is the log file
+
+See [Little Navmap User Manual - Logs](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FILES.html#logs).
+
 ##### Report the problem
 
 If nothing helps, report an issue either in the [**Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or send me an email through [**Contact and Support**](contact.html).
-
-
 
 ----
 
@@ -184,13 +188,7 @@ Always update all related programs like *Little Navconnect* and *Little Xpconnec
 
 The files can be opened in the default text editor from menu -&gt; `Tools` -&gt; `Files and Directories` in *Little Navmap*.
 
-For Windows these are:
-
-Log file: `C:\Users\YOURUSERNAME\AppData\Local\Temp\abarthel-little_navmap.log`
-
-Configuration file: `C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel\little_navmap.ini`
-
-Details can be found in the chapter [Files](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html) in the manual.
+Details can be found in the chapter [Little Navmap User Manual - Files](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FILES.html) in the manual.
 
 
 
@@ -218,7 +216,7 @@ The included SimConnect library is compatible with all FSX and P3D versions as w
 Flight Simulator 2020.
 
 The X-Plane connect option is always shown. You probably installed *Little Navmap* on a computer that has no FSX, P3D or MSFS installation.
-See [User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NETWORK.html)
+See [Little Navmap User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NETWORK.html)
 if you intend to run *Little Navmap* on a remote computer.
 
 
@@ -236,7 +234,7 @@ or create an issue for bigger tasks.
 
 For errors send me a bug report in the
 [Avsim Support Forum](https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or by email.
-See [How to report a Bug](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#how-to-report-a-bug).
+See [Little Navmap User Manual - How to report a Bug](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPENDIX.html#how-to-report-a-bug).
 
 
 
@@ -249,7 +247,7 @@ E.g. rename `ABarthel` to `ABarthel.backup`.
 
 If the problem persists send me a bug report in the
 [Avsim Support Forum](https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or by email.
-See [How to report a Bug](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#how-to-report-a-bug).
+See [Little Navmap User Manual - How to report a Bug](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPENDIX.html#how-to-report-a-bug).
 
 
 
@@ -276,7 +274,7 @@ Other problems on Windows:
 
 #### I'd like to completely remove the program and all of its traces [**▲**](#top) [🔗](#remove) {#remove}
 
-All files and folders created by _Little Navmap_ are described in the chapter [Files](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html) in the manual.
+All files and folders created by _Little Navmap_ are described in the chapter [Little Navmap User Manual - Files](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FILES.html) in the manual.
 
 _Little Navmap_ does not create any registry entries on Windows.
 
@@ -306,10 +304,42 @@ on the map, right click and select `Set ... as Flight Plan Destination`.
 
 That's it. You just built a simple flight plan.
 
-Have a look at the [Tutorials](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/TUTORIALS.html) which are
-also linked in the help menu. These help to get around in the program.
+Have a look at the [Little Navmap User Manual - Tutorials](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/TUTORIALS.html) which are also linked in the help menu. These help to get around in the program.
 
+----
 
+#### MSFS Specific Issues [**▲**](#top) [🔗](#problems-msfs) {#problems-msfs}
+
+Read the linked chapter below to minimize issues when loading flight plans into **MSFS**:\\
+[► Little Navmap User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata).
+
+**Note that many of these issues are a result of MSFS limitations and cannot be fixed in** *Little Navmap* **.**
+
+-  **Active pause in the simulator breaks the connection and does not allow to reconnect. This has already been reported to Asobo.**
+-  **Some third-party plugins like traffic add-ons might cause connection issues when used together with *Little Navmap*.**
+-  Autoconnect to the simulator does not work reliably.
+-  City and state names are missing in the search (fixed with *Little Navmap* 2.8.2.beta).
+-  Navdata updates are not read properly from the MSFS scenery library. This is in general no issue
+   since you can also update the navdata in *Little Navmap* with the Navigraph FMS Data Manager to keep the
+   program in sync with MSFS. Stock data is not affected by this. See :ref:`load-scenery-library-dialog-msfs-apt-navdata`.
+-  You can set a parking spot or fuel pad as starting position in a flight plan but note that runways and
+   helipads as starting positions will be ignored by MSFS.
+-  Parking spots having suffixes cannot be loaded by MSFS, Example EDDG, 18A to 18E.
+-  MSFS multiplayer and real-time AI cannot be displayed. These do not appear in the SimConnect
+   interface.
+-  Simulator weather cannot be shown for MSFS since SimConnect weather functions are deprecated and
+   do not deliver data. Use NOAA weather which gives you the most up-to-date weather reports.
+-  Flight plan loading in MSFS has issues and does not produce any error messages if it fails.
+-  Country names are missing in MSFS translation tables and are not available in *Little Navmap*,
+   therefore.
+-  Add-ons using the ``.fsarchive`` encrypted format are not supported. *Little Navmap* will show
+   only the stock airport instead of the add-on if a package is locked down like this.
+-  Some aircraft mods do not report correct fuel flow to work around simulator limitations. This
+   cannot be fixed in *Little Navmap*.
+-  Some airports files like ``LEMG.bgl`` cannot be read due to unknown format. *Little Navmap*
+   reports ``Error: readInt for file "...OMITTED.../LEMG.bgl" failed. Reason 1``. Exclude the airport
+   file from reading in options on page ``Scenery Library Database`` or simply ignore the message. The
+   stock LEMG and all other airports are not affected by this.
 
 ----
 
@@ -317,7 +347,7 @@ also linked in the help menu. These help to get around in the program.
 
 The map does not jump randomly. The level of zoom changes to keep aircraft and the next flight plan waypoint centered.
 
-The default behavior is to keep aircraft and next flight plan waypoint on the screen once one flight plan leg is active (magenta), i.e. you're flying. You can move around the map manually but LNM jumps back to aircraft and waypoint after a while. All this is configurable in options on page [Simulator Aircraft](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/OPTIONS.html#simulator-aircraft).
+The default behavior is to keep aircraft and next flight plan waypoint on the screen once one flight plan leg is active (magenta), i.e. you're flying. You can move around the map manually but LNM jumps back to aircraft and waypoint after a while. All this is configurable in options on page [Little Navmap User Manual - Simulator Aircraft](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/OPTIONS.html#simulator-aircraft).
 
 You can also revert to simple aircraft centering, for example. The default values might be confusing first but they are like that to reduce the need for manual zooming.
 
@@ -359,7 +389,7 @@ These are shown in red and are treated like user defined flight plan waypoints i
 Airways are displayed in red if they do not exist or the minimum or maximum airway altitude restrictions are
 violated by the selected cruise altitude when loading the flight plan.
 
-See also [User Manual - Flight Plan - Error Display](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FLIGHTPLAN.html#error-display).
+See also [Little Navmap User Manual - Flight Plan - Error Display](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FLIGHTPLAN.html#error-display).
 
 
 
@@ -408,7 +438,7 @@ It might also be beneficial to create different profiles for different cruise al
 
 *Little Navmap* does not connect automatically to a simulator per default. You have to go to the main menu -&gt; `Tools` -&gt; `Flight Simulator Connection`.
 
-See [User Manual - Connecting to a Flight Simulator](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/CONNECT.html).
+See [Little Navmap User Manual - Connecting to a Flight Simulator](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/CONNECT.html).
 
 
 
@@ -430,7 +460,7 @@ The following issues are known so far:
 
 Apart from these issues above you might see MSFS crashes or corrupted flight plans when loading.
 
-Also, read the chapter [Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) in the *Little Navmap* user manual to minimize issues with different navdata.
+Also, read the chapter [Little Navmap User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) in the *Little Navmap* user manual to minimize issues with different navdata.
 
 
 
@@ -445,7 +475,7 @@ This is not an error but real and a result of the European airway restructuring 
 See [Free route airspace](https://www.eurocontrol.int/concept/free-route-airspace) for more information.
 
 _Little Navmap_ can skip these gaps when calculating a flight plan. See here for information how to deal with this:
-[User Manual - Flight Plan Route Calculation](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/ROUTECALC.html#prefer).
+[Little Navmap User Manual - Flight Plan Route Calculation](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/ROUTECALC.html#prefer).
 
 
 
@@ -481,7 +511,7 @@ page `Weather`. You might also want disable the automatic check for updates in o
 and Updates`. Additionally switch `Online Service` to `None` on options page `Online Flying`.
 
 Also install the offline GLOBE elevation data to avoid elevation online accesses as described here in the user manual:
-[Install GLOBE elevation data](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/OPTIONS.html#install-globe-elevation-data).
+[Little Navmap User Manual - Install GLOBE elevation data](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/OPTIONS.html#install-globe-elevation-data).
 
 This disables all network connections in _Little Navmap_.
 
@@ -514,7 +544,7 @@ You're using a very old version of _Little Navmap_ with a new database. Update _
 
 #### I cannot see any airports or navaids [**▲**](#top) [🔗](#load-scenery) {#load-scenery}
 
-Load the scenery library from the simulator. See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html)
+Load the scenery library from the simulator. See [Little Navmap User Manual - Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html)
 in the manual.
 
 
@@ -523,7 +553,7 @@ in the manual.
 
 #### I added an airport and it does not show up in _Little Navmap_ [**▲**](#top) [🔗](#no-airport) {#no-airport}
 
-You have to reload the scenery library. See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html).
+You have to reload the scenery library. See [Little Navmap User Manual - Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html).
 in the manual.
 
 See topic below for limitations with MSFS.
@@ -552,7 +582,7 @@ Therefore, mismatches between old airports, be it stock or add-on, can happen.
 
 It's neither a _Little Navmap_ nor Navigraph issue. It is an unavoidable real world issue where simulator scenery or airports are not updated as fast as the real world airports.
 
-See the [Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NAVDATA.html) chapter in the manual for more information.
+See the [Little Navmap User Manual - Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NAVDATA.html) chapter in the manual for more information.
 
 For **FSX or Perpar3D** you can use the [Airport Design Editor](https://www.scruffyducksoftware.com/airport-design-editor) to change the runway numbers.
 
@@ -586,7 +616,7 @@ The add-on is locked down with a DRM ([Digital _Restriction_ Management](https:/
 
 Buy add-ons directly from developers instead of the Microsoft market which enforces encryption. Alternatively you can also use and support freeware scenery.
 
-See also [User Manual - Known Issues](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#microsoft-flight-simulator-2020).
+See also [Little Navmap User Manual - Known Issues](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPENDIX.html#microsoft-flight-simulator-2020).
 
 
 
@@ -620,16 +650,16 @@ There are only white bars with a black outline showing the runways.
 
 You probably selected `Use Navigraph for all Features` in the `Scenery Library` menu. `Use Navigraph for Navaids and Procedures` is the recommended mode which will show detailed stock or add-on airports mixed with Navigraph navaids.
 
-See [Navigation Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NAVDATA.html) in the manual.
+See [Little Navmap User Manual - Navigation Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NAVDATA.html) in the manual.
 
 
 
 ----
 
-#### I cannot choose a start position [**▲**](#top) [🔗](#no-start-pos) {#no-start-pos}
+#### I cannot select a start position [**▲**](#top) [🔗](#no-start-pos) {#no-start-pos}
 
 You might use the wrong scenery mode `Use Navigraph for all Features`.
-See [Navigation Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NAVDATA.html) and  [Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) for more information about this.
+See [Little Navmap User Manual - Navigation Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NAVDATA.html) and  [Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) for more information about this.
 
 Select either `Use Navigraph for Navaids and Procedures` or `Do not use Navigraph Database` depending on information in above links (Navigraph MSFS update installed or not).
 
@@ -645,8 +675,8 @@ The procedures cannot be used at all or only after confirming a warning dialog.
 
 A currently known problem is missing recommended fix information for constant radius arc procedure legs in MSFS navdata.
 
-See also [Search Procedures](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SEARCHPROCS.html) and
-[Procedures](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPROACHES.html) for more information.
+See also [Little Navmap User Manual - Search Procedures](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SEARCHPROCS.html) and
+[Procedures](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPROACHES.html) for more information.
 
 
 
@@ -754,7 +784,7 @@ This is related to a bug that appeared in *Little Navmap* version 2.8.0.beta. Th
 Do the following to fix this:
 
 1. Export all your userpoints as CSV file from *Little Navmap* main menu -> `Userpoints` -> `Export CSV`. Disable `Export selected entries only` and `Append to an already present file`. Leave the other option as is.
-2. Rename the file `C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel\little_navmap_db\little_navmap_userdata.sqlite` (file locations on other operating systems are documented [Little Navmap User Manual - Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/FILES.html#databases)). Do not delete it to have a backup.
+2. Rename the file `C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel\little_navmap_db\little_navmap_userdata.sqlite` (file locations on other operating systems are documented [Little Navmap User Manual - Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FILES.html#databases)). Do not delete it to have a backup.
 3. Import the CSV from 1. from main menu -> 'Userpoints' -> `Import CSV`.
 
 Note that this also removes all undo/redo steps from the database.
@@ -789,7 +819,7 @@ there are several options:
 - Take the search window and drop it on the progress window. This will create a window with search and progress tabs at the bottom.
 
 Here are some tips for undocking (Ctrl-key, etc.) and moving around in the interface:
-[User Interface - Dock Windows](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/DOCKWINDOWS.html)
+[Little Navmap User Manual - Dock Windows](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/DOCKWINDOWS.html)
 
 
 
@@ -864,7 +894,7 @@ This is a known error and can happen at certain zoom distances with long flight 
 
 You have to right-click on the hotspot.
 
-See [User Manual - Mouse Click Hotspots](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MAPDISPLAY.html#mouse-click-hotspots).
+See [Little Navmap User Manual - Mouse Click Hotspots](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MAPDISPLAY.html#mouse-click-hotspots).
 
 
 
@@ -908,7 +938,7 @@ Something went wrong when installing _Little Navmap_. Most likely the directory 
 Yes. You can even mix different systems like using macOS for _Little Navmap_ and Windows for flying.
 The client computer does not need a SimConnect or simulator installation at all.
 
-See [User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/NETWORK.html)
+See [Little Navmap User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NETWORK.html)
 in the manual.
 
 
@@ -920,7 +950,7 @@ in the manual.
 You can not. But you can:
 
 1. Use an old second monitor for the map before throwing it away.
-2. Take an old and slow notebook and use it in networked mode. _Little Navmap_ is happy with 2 GB of ram and there are options to speed up map display. This notebook can run Linux or macOS. Have a look at the manual here: [How to run a network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INTRO.html#network-setup)
+2. Take an old and slow notebook and use it in networked mode. _Little Navmap_ is happy with 2 GB of ram and there are options to speed up map display. This notebook can run Linux or macOS. Have a look at the manual here: [Little Navmap User Manual - How to run a network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INTRO.html#network-setup)
 3. Run the simulator in seamless window mode. Then you can `Alt+Tab` between applications.
 
 
@@ -929,9 +959,9 @@ You can not. But you can:
 
 #### The map window is not visible or shows only a gray surface [**▲**](#top) [🔗](#map-hidden) {#map-hidden}
 
-This can happen for various reasons (like a crash) or if you change the option [Allow to undock the map window](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/OPTIONS.html#allow-to-undock-the-map-window) in the options dialog.
+This can happen for various reasons (like a crash) or if you change the option [Little Navmap User Manual - Allow to undock the map window](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/OPTIONS.html#allow-to-undock-the-map-window) in the options dialog.
 
-Use menu `Window` -> [Reset Window Layout](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/MENUS.html#reset-layout-menu) in the main menu to clean up the window layout.
+Use menu `Window` -> [Little Navmap User Manual - Reset Window Layout](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#reset-layout-menu) in the main menu to clean up the window layout.
 
 
 
@@ -952,7 +982,7 @@ Then right click or `Ctrl+Click` on the application and select `Open`. Confirm t
 
 You probably have to enter an administrator name and password once. The program can be started normally after this procedure.
 
-See [User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#macos).
+See [Little Navmap User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INSTALLATION.html#macos).
 
 
 
@@ -962,7 +992,7 @@ See [User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/li
 
 A new security feature in macOS forbids the execution of unsigned libraries or apps.
 
-See [User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/INSTALLATION.html#macos) for information how to remove the flag.
+See [Little Navmap User Manual -  Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INSTALLATION.html#macos) for information how to remove the flag.
 
 Alternatively, you can download the tool [Mac OS - CleanUp Quarantine Flags](https://forums.x-plane.org/index.php?/files/file/79828-mac-os-cleanup-quarantine-flags/) from x-plane.org, place this in the X-Plane base folder and run it to clean up the flags on all plugins at once.
 
@@ -1015,7 +1045,7 @@ There is no information available how and if X-Plane interpolates weather betwee
 
 You have `Read inactive Scenery Entries:` disabled in the scenery loading dialog and X-Plane's `scenery_packs.ini` contains stale entries. Fix this by restarting X-Plane which will remove the old entries.
 
-You might as well enable `Read inactive Scenery Entries:` which will cause _Little Navmap_ to ignore `scenery_packs.ini` and read all. See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html).
+You might as well enable `Read inactive Scenery Entries:` which will cause _Little Navmap_ to ignore `scenery_packs.ini` and read all. See [Little Navmap User Manual - Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html).
 
 
 
@@ -1025,7 +1055,7 @@ You might as well enable `Read inactive Scenery Entries:` which will cause _Litt
 
 If you have `Read inactive Scenery Entries:` enabled: Restart X-Plane so that it can update the `scenery_packs.ini`.
 
-See [Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html).
+See [Little Navmap User Manual - Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html).
 
 
 
