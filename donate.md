@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Donations / Spenden"
-date:   2022-02-06 15:00:00 +0200
+date:   2022-11-18 14:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Donations / Spenden
@@ -57,27 +57,4 @@ Ich beabsichtige nicht, dies zu ändern. Spenden sind und bleiben vollkommen fre
 <br/>
 
 Wenn Sie eine EU-Banküberweisung bevorzugen, schicken Sie mir einfach eine E-Mail und ich werde Ihnen meine Kontodaten zurücksenden.
-
-# Science Fiction (German/Deutsch)
-
-Alternativ würde ich mich auch darüber freuen, wenn Sie das Projekt von Anja Fahrner \([**Autorenseite**](https://www.anja-fahrner.de)\) anschauen.
-
-Sie schreibt gesellschaftskritische Science-Fiction- bzw. Fantasy-Romane und Kurzgeschichten.
-
-Vielleicht ist etwas zum Verschenken oder für Sie selbst dabei.
-
-<br/>
-
-**Auf [Amazon](https://www.amazon.de/Anja-Fahrner/e/B01HHAF97Y) oder [Emmerich Books & Media](http://www.emmerich-books-media.de/htm/99_de.html)**
-
-<br/>
-
-[![Alkatar](assets/images/Neuerscheinung-Rueckkehr-e1625686038962.jpg)](https://www.amazon.de/Anja-Fahrner/e/B01HHAF97Y)
-
-
-
-
-
-
-
 

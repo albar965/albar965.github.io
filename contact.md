@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2022-11-13 10:00:00 +0100
+date:   2022-11-18 14:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Contact and Support
@@ -18,8 +18,6 @@ You can also find all releases on [Github](https://github.com/albar965/littlenav
 Please check these pages first. Your question is probably answered there.
 
 [**► Frequently asked Questions**](littlenavmap-faq.html) Solutions for known problems and more.
-
-[**► Little Navmap User Manual - Known Problems**](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPENDIX.html#problems) General known problems.
 
 [**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Support and help for users.
 

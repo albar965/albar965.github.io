@@ -2,6 +2,8 @@
 layout: index
 title:  "Alex' Projects"
 date:   2022-11-13 10:00:00 +0100
+release-version: 2.8.2.beta
+release-version-stable: 2.6.19
 ---
 
 # Alex' Projects
@@ -22,18 +24,9 @@ date:   2022-11-13 10:00:00 +0100
 
 [**► News Archive**](archive.html)
 
-### Little Navmap Downloads
+## Little Navmap Downloads
 
-
-[**► Windows** - LittleNavmap-win-2.6.19.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-win-2.6.19.zip)\\
-[**► macOS** - LittleNavmap-macOS-2.6.19.zip](https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-macOS-2.6.19.zip)\\
-[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-2.6.19.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-linux-20.04-2.6.19.tar.gz)\\
-[**► Linux \(64 bit, based on Ubuntu 18.04\)** - LittleNavmap-linux-18.04-2.6.19.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-linux-18.04-2.6.19.tar.gz)
-
-**Alternative download locations:** **[Box](https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy)**, **[Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa)**, **[Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w)** and **[OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)**.
-
-<br/>
-<p style="color: #c00000; background: rgba(250, 220, 220, 0.5); font-size: 0.9em;">
+<p style="color: #c00000; background: rgba(250, 220, 220, 0.5); font-size: 0.8em;">
   <b>
     Only download Little Navmap from these trusted places:<br/>
     <a style="color: #a00000;" href="https://github.com/albar965">► https://github.com/albar965</a>,<br/>
@@ -44,7 +37,25 @@ date:   2022-11-13 10:00:00 +0100
   </b>
 </p>
 
-### Little Navmap Links
+#### Last Beta
+
+[**► Windows 64-bit (*MSFS and X-Plane*)** - LittleNavmap-win64-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-win64-{{ page.release-version }}.zip)<br/>
+[**► macOS** - LittleNavmap-macOS-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-macOS-{{ page.release-version }}.zip)<br/>
+[**► Linux \(64 bit, based on Ubuntu 22.04\)** - LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz)
+
+**Alternative download locations:** [Box](https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy), [Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa), [Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w) and [OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g). Look into folder `beta`.<br/>
+**Other Versions:** [Github - Version {{ page.release-version }}](https://github.com/albar965/littlenavmap/releases/tag/v{{ page.release-version }})
+
+#### Last Stable (*not* for MSFS SU11 and X-Plane 12)
+
+[**► Windows** - LittleNavmap-win-{{ page.release-version-stable }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-win-{{ page.release-version-stable }}.zip)\\
+[**► macOS** - LittleNavmap-macOS-{{ page.release-version-stable }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-macOS-{{ page.release-version-stable }}.zip)\\
+[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-{{ page.release-version-stable }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-linux-20.04-{{ page.release-version-stable }}.tar.gz)\\
+[**► Linux \(64 bit, based on Ubuntu 18.04\)** - LittleNavmap-linux-18.04-{{ page.release-version-stable }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-linux-18.04-{{ page.release-version-stable }}.tar.gz)
+
+**Alternative download locations:** **[Box](https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy)**, **[Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa)**, **[Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w)** and **[OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)**.
+
+## Little Navmap Links
 
 [**► User Manuals**](/manuals.html)
 
@@ -64,9 +75,7 @@ date:   2022-11-13 10:00:00 +0100
 
 [► GitHub Profile](https://github.com/albar965) All my projects, releases, source code, issue lists and more.
 
-[► About Translation Packages](littlenavmaptranslations.html) General information about translation packages.
-
-### Little Navmap Donations
+## Little Navmap Donations
 
 |  [![Donate](assets/images/donate.png)](donate.html) | **Donate to show your appreciation if you like my programs.**<br/><br/>**Spenden Sie, um Ihre Wertschätzung zu zeigen, wenn Ihnen  meine Programme gefallen.** |
 
@@ -140,7 +149,7 @@ _Little Navmap_ features its own internal **web server** which allows to follow 
 any device across a network.
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
-Prepar3D v3, v4, v5, Microsoft Flight Simulator 2020 and X-Plane 11.
+Prepar3D v3, v4, v5, Microsoft Flight Simulator 2020, X-Plane 11 and X-Plane 12.
 
 **Supported platforms:** Windows 7/8/10/11, Apple macOS \(High Sierra 10.13 or later\) and Linux \(64 bit only\).
 
@@ -155,7 +164,7 @@ simulator remotely across the network.
 **_Little navconnnect_ is included in the download archive of *Little Navmap*.**
 
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
-Prepar3D v3, v4, v5, Microsoft Flight Simulator 2020 and X-Plane 11.
+Prepar3D v3, v4, v5, Microsoft Flight Simulator 2020, X-Plane 11 and X-Plane 12.
 
 **Supported platforms:** Windows 7/8/10/11, Apple macOS \(High Sierra 10.13 or later\) and Linux \(64 bit only\).
 
@@ -176,7 +185,7 @@ It is light weight, free and open source.
 
 **_Little Xpconnect_ is included in the download archive of *Little Navmap*.**
 
-**Supported Flight Simulators:** X-Plane 11 \(64 bit\).
+**Supported Flight Simulators:** X-Plane 11 and X-Plane 12.
 
 **Supported platforms:** Windows 7/8/10/11, Apple macOS \(High Sierra 10.13 or later\) and Linux \(64 bit only\).
 

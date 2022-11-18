@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-11-13 10:00:00 +0100
+date:   2022-11-18 14:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -10,38 +10,28 @@ date:   2022-11-13 10:00:00 +0100
 
 **Use your browser search function (usually `Ctrl+F` for Windows and Linux or `⌘+F` for macOS) to find topics or keywords.**
 
-See user manual for general known problems:\\
-[► Little Navmap User Manual - Known Problems](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPENDIX.html#problems).
-
-[► See below for limitations and issues around Microsoft Flight Simulator 2020](#problems-msfs)
+In case you have a question or a problem which cannot be solved:\\
+[► **Contact and Support**](/contact.html).
 
 Read below if you plan to use *Little Navmap* on a remote computer across a network to avoid common mistakes:\\
 [► Little Navmap User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NETWORK.html).
 
-In case you have a question or a problem which cannot be solved:\\
-[► **Contact and Support**](/contact.html).
-
-<!-- egrep '####' littlenavmap-faq.md | sed -e 's/#### \(.\+\) {#\(.\+\)}/1. [\1](#\2)/g' -->
-
-### Troubleshooting
-
-1. [**How to fix issues**](#fix-issues)
-
 ### Installation {#installation}
 
 1. [**How to update the program**](#update)
-1. [Where are the log and configuration files?](#log-and-config-files)
 1. [My anti-virus or anti-malware complains about _Little Navmap_](#anti-virus)
 1. [Why can I see only the X-Plane connect option](#xplane-connection-only)
-1. [I found an issue or have a proposal](#issue-proposal)
-1. [The program crashes](#crash)
-1. [The program does not start and Windows shows an error message](#no-start)
 1. [I'd like to completely remove the program and all of its traces](#remove)
-1. [SSL Initialization Error on Windows](#ssl-init)
 
 ### General {#general}
 
-1. [**MSFS Specific Issues**](#problems-msfs)
+1. [**Troubleshooting**](#troubleshooting)
+1. [**Common Problems**](#problems-general)
+1. [**MSFS Common Problems**](#problems-msfs)
+1. [Where are the log and configuration files?](#log-and-config-files)
+1. [I found an issue or have a proposal](#issue-proposal)
+1. [The program crashes](#crash)
+1. [The program does not start and Windows shows an error message](#no-start)
 1. [How can I create a flight plan](#flightplan)
 1. [The map is jumping around randomly while flying](#aircraft-center)
 1. [How to backup userdata or the logbook](#userdata-backup)
@@ -55,6 +45,7 @@ In case you have a question or a problem which cannot be solved:\\
 1. [I see strange ILS feathers labeled `G25F, GS` and similar](#ils)
 1. [Three-letter IATA airport codes are used everywhere instead of ICAO codes](#iata)
 1. [Can I run _Little Navmap_ offline without an internet connection](#offline)
+1. [SSL Initialization Error on Windows](#ssl-init)
 
 ### Airports, scenery library, userpoint and navigation data {#scenery}
 
@@ -119,9 +110,9 @@ In case you have a question or a problem which cannot be solved:\\
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
-### Troubleshooting
+### Troubleshooting {#troubleshooting}
 
-#### How to fix issues {#fix-issues}
+#### How to fix issues
 
 You can try the following if you experience problems like crashes, freezes, a corrupted window layout or other issues.
 
@@ -163,6 +154,52 @@ See [Little Navmap User Manual - Logs](https://www.littlenavmap.org/manuals/litt
 ##### Report the problem
 
 If nothing helps, report an issue either in the [**Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) or send me an email through [**Contact and Support**](contact.html).
+
+##### Other Issues
+
+-  ** Program starts slowly:** This can happen if a distance search
+   is enabled in one of the search tabs. The search is executed at each
+   start. Simply disable the distance search or reset the search options
+   to avoid the slow startup.
+   Also exclude the installation and settings folder from anti-virus scanning.
+-  **Online maps do not load or update:** Check your firewall settings
+   if Windows blocks any outgoing connections. Check if *Little
+   Navmap* can connect to the internet by going to the options dialog on
+   tab :ref:`weather-files`. Use one of the buttons `Test` for NOAA or VATSIM
+   weather. *Little Navmap* cannot reach the internet if these fail.
+-  **Search shows no result or unexpected results:** Check the drop down
+   menu for the change indicator `*` and the search fields for any
+   remaining text if the distance search does not give any or unexpected
+   results. Use :ref:`reset-search` in the context menu of the result table
+   or press `Ctrl+R` to clear all search criteria.
+-  **Search or flight plan tables shows strange column names
+   like** `airport_id` **or others:** This can happen if the
+   program is updated. Use :ref:`reset-view` in the context menu of the
+   result table.
+-  **The flight plan elevation profile has errors or invalid elevation
+   data:** The online elevation data contains several known errors. Use
+   the recommended GLOBE offline elevation data. See
+   :ref:`cache-elevation` for information how to install
+   the offline data.
+-  **Loading of the scenery database takes too long:** Exclude scenery
+   directories containing only landclass, elevation data or other for
+   *Little Navmap* irrelevant data. You can do that in the `Options`
+   dialog on the `Scenery Library Database` tab. See
+   :ref:`scenery-library-database-exclude`.
+-  **Crash while loading the scenery library database:** You can exclude
+   scenery directories in the `Options` dialog on the
+   `Scenery Library Database` tab if loading of an add-on BGL causes
+   the program to crash. Do not restart the program after it shows the
+   crash dialog and instead load the log file which is typically
+   `C:\Users\YOURUSERNAME\AppData\Local\Temp\abarthel-little_navmap.log`.
+   The path may vary depending on your Windows installation. Search for
+   the last line in the log-file that looks like:
+
+   `[2016-10-14 22:58:21.903 default INFO ]  unknown: ==== "404 of 521 (77 %)" "APX41080.bgl"`
+
+   Now search for `APX41080.bgl` and exclude the file or its directory
+   from loading in the `Options` dialog.
+
 
 ----
 
@@ -308,7 +345,48 @@ Have a look at the [Little Navmap User Manual - Tutorials](https://www.littlenav
 
 ----
 
-#### MSFS Specific Issues [**▲**](#top) [🔗](#problems-msfs) {#problems-msfs}
+#### Common Problems [**▲**](#top) [🔗](#problems-general) {#problems-general}
+
+-  Some airport add-ons do not modify the stock airports but only add
+   new scenery and buildings. These add-ons will not be recognized as
+   such and are therefore not highlighted on the map (italic and
+   underlined text).
+-  Add-on developers have to use all kind of workarounds to avoid FSX or
+   P3D limitations which means the display and information given for
+   add-on airports is not always correct. A lot of these changes are
+   also done to make AI behave properly. Typical examples are: Airports
+   without runways, airports with runway dimensions 0 by 0 ft or 0 ft
+   runway width, taxiways with 0 ft width, seemingly closed taxiways,
+   duplicate airports, duplicate runways in water, taxiways in water,
+   military gates at civilian airports and more.
+-  Some KML/KMZ files do not show up on the map. Adding a center point
+   pushpin to the KML/KMZ file can fix this.
+-  There are errors in the online elevation source data (like in
+   northern Italy, Po Valley or Lake Titicaca in Peru and Bolivia) which
+   will show up in the flight plan elevation profile.
+-  Magnetic declination is partially not set (for example VORDME
+   Cambridge Bay YCB) or inconsistent between airports an adjacent
+   navaids. This is an error in the source data.
+-  Airports are misplaced (for example Cabo San Lucas, MM15 in Mexico for FSX)
+   compared to the background maps. This is an error in the source data
+   and cannot be fixed.
+-  Procedures are drawn incorrectly in some cases.
+-  The airport search attribute `Procedures` does not work correctly
+   in the mixed database. It will show only simulator airports having
+   procedures instead of using the Navigraph airport status.
+-  Dock window layout in Little Navmap can change when resizing or maximizing window and back.
+-  Window is restored in normal state when changing from a maximized window to fullscreen and back.
+-  The window layout might not be restored precisely on startup in some cases.
+-  The height of the elevation profile window cannot be reduced in some cases. Reset to default window
+   layout which fixes this. Rearrange or move the elevation profile window to another position which
+   usually solves this. Save the layout once you have a working one.
+-  Zooming with touchpad or magic mouse does not work properly on macOS. Use the navigation overlay
+   or one of the other options on page `Map Navigation` in `Options` if you think it is unusable.
+-  X-Plane airport administrative data like city or country are not accurate and use many wrong variations.
+
+----
+
+#### MSFS Common Problems [**▲**](#top) [🔗](#problems-msfs) {#problems-msfs}
 
 Read the linked chapter below to minimize issues when loading flight plans into **MSFS**:\\
 [► Little Navmap User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata).
@@ -332,13 +410,13 @@ Read the linked chapter below to minimize issues when loading flight plans into 
 -  Flight plan loading in MSFS has issues and does not produce any error messages if it fails.
 -  Country names are missing in MSFS translation tables and are not available in *Little Navmap*,
    therefore.
--  Add-ons using the ``.fsarchive`` encrypted format are not supported. *Little Navmap* will show
+-  Add-ons using the `.fsarchive` encrypted format are not supported. *Little Navmap* will show
    only the stock airport instead of the add-on if a package is locked down like this.
 -  Some aircraft mods do not report correct fuel flow to work around simulator limitations. This
    cannot be fixed in *Little Navmap*.
--  Some airports files like ``LEMG.bgl`` cannot be read due to unknown format. *Little Navmap*
-   reports ``Error: readInt for file "...OMITTED.../LEMG.bgl" failed. Reason 1``. Exclude the airport
-   file from reading in options on page ``Scenery Library Database`` or simply ignore the message. The
+-  Some airports files like `LEMG.bgl` cannot be read due to unknown format. *Little Navmap*
+   reports `Error: readInt for file "...OMITTED.../LEMG.bgl" failed. Reason 1`. Exclude the airport
+   file from reading in options on page `Scenery Library Database` or simply ignore the message. The
    stock LEMG and all other airports are not affected by this.
 
 ----
@@ -715,6 +793,8 @@ What can you do:
 
 #### How does _Little Navmap_ find the MSFS scenery library, or MSFS installation not found [**▲**](#top) [🔗](#msfs-scenery-library) {#msfs-scenery-library}
 
+**Click `Reset Paths` in the scenery library load dialog if you've moved your simulator.**
+
 _Little Navmap_ looks into fixed installation folders for the various MSFS installation options (MS Online, MS Boxed or Steam). There are no Windows registry entries used. Installation on a removable drive is usually no problem.
 
 _Little Navmap_ first looks for a file `UserCfg.opt` at the following fixed locations:
@@ -729,8 +809,6 @@ The text file `UserCfg.opt` contains a last line `InstalledPackagesPath` which p
 From there _Little Navmap_ looks up `...\Official\Steam\fs-base\layout.json` or `...\Official\OneStore\fs-base\layout.json` to check if the installation path is really valid or if it consists only of remains from previous installations.
 
 Detection problems can usually caused by file permission issues, missing files / folders or remaining files from previous installations.
-
-
 
 ----
 
