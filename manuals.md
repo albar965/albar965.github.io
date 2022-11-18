@@ -15,7 +15,7 @@ date:   2022-11-18 14:00:00 +0100
 
 ### Little Navmap 2.8
 
-**[► English - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/)**, [PDF A4 Format](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en_a4.pdf), [PDF US Letter Format](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en_letter.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en.mobi), [Little Navmap Manual HTML en.zip](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/Little Navmap Manual HTML en.zip)
+**[► English - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/)**, [PDF A4 Format](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en_a4.pdf), [PDF US Letter Format](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en_letter.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en.mobi), [Little Navmap Manual HTML en.zip](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/Little%20Navmap%20Manual HTML en.zip)
 
 ### Little Navconnect 2.8
 
