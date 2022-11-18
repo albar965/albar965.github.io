@@ -48,9 +48,9 @@ release-version-stable: 2.6.19
 
 #### Last Stable (*not* for MSFS SU11 and X-Plane 12)
 
-[**► Windows** - LittleNavmap-win-{{ page.release-version-stable }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-win-{{ page.release-version-stable }}.zip)\\
-[**► macOS** - LittleNavmap-macOS-{{ page.release-version-stable }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-macOS-{{ page.release-version-stable }}.zip)\\
-[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-{{ page.release-version-stable }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-linux-20.04-{{ page.release-version-stable }}.tar.gz)\\
+[**► Windows** - LittleNavmap-win-{{ page.release-version-stable }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-win-{{ page.release-version-stable }}.zip)<br/>
+[**► macOS** - LittleNavmap-macOS-{{ page.release-version-stable }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-macOS-{{ page.release-version-stable }}.zip)<br/>
+[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-{{ page.release-version-stable }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-linux-20.04-{{ page.release-version-stable }}.tar.gz)<br/>
 [**► Linux \(64 bit, based on Ubuntu 18.04\)** - LittleNavmap-linux-18.04-{{ page.release-version-stable }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-linux-18.04-{{ page.release-version-stable }}.tar.gz)
 
 **Alternative download locations:** **[Box](https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy)**, **[Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa)**, **[Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w)** and **[OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)**.

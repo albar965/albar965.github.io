@@ -79,110 +79,33 @@ changelog=
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 [beta]
-version=2.8.1.beta
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.8.1.beta/LittleNavmap-win-2.8.1.beta.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.8.1.beta/LittleNavmap-macOS-2.8.1.beta.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.8.1.beta/LittleNavmap-linux-20.04-2.8.1.beta.tar.gz
+version=2.8.2.beta
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.8.2.beta/LittleNavmap-win64-2.8.2.beta.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.8.2.beta/LittleNavmap-macOS-2.8.2.beta.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.8.2.beta/LittleNavmap-linux-22.04-2.8.2.beta.tar.gz
 changelog=
-  <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
-  <!-- UPDATE HEADER ========================================================================= -->
-  <h3 id="direct-download">Direct Download</h3>
-  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.8.1.beta/LittleNavmap-win-2.8.1.beta.zip"><strong>► Windows</strong> - LittleNavmap-win-2.8.1.beta.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.8.1.beta/LittleNavmap-macOS-2.8.1.beta.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.8.1.beta.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.8.1.beta/LittleNavmap-linux-20.04-2.8.1.beta.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.8.1.beta.tar.gz</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.8.1.beta/LittleNavmap-linux-18.04-2.8.1.beta.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 18.04)</strong> - LittleNavmap-linux-18.04-2.8.1.beta.tar.gz</a></p>
-  <h3 id="alternative-download-locations">Alternative Download Locations</h3>
-  <p>Look into sub-folder <code>Beta</code>.</p>
-  <p><a href="https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy" rel="nofollow">Box</a>, <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w" rel="nofollow">Mega.nz</a>, <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g" rel="nofollow">OneDrive</a>, <a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa" rel="nofollow">DropBox</a></p>
-  <!-- ========================================================================================= -->
-  <!-- START WITH Known Issues or Notes ... ==================================================== -->
-  <h2 id="notes">Notes</h2>
-  <p>This is a public beta release which is feature complete but might have issues. Furthermore, some translations are incomplete, new help links do not work and the user manual is not adapted yet to the new features. Feel free to ask if something is not clear.</p>
-  <p>This changelog also explains new features. First read here if anything is not clear.</p>
-  <p><strong>First a big thank you to all who reported bugs and issues!</strong></p>
-  <p><strong>This version is ready MSFS SU10 and for X-Plane 12.</strong></p>
-  <p><strong>X-Plane users: In any case reinstall Little Xpconnect from this package. Otherwise fuel flow calculation or other functions might not work correctly in Little Navmap.</strong></p>
-  <p><strong>Little Navmap probably reminds you to reload scenery library databases after updating. Please do so to benefit from new features and bug fixes.</strong></p>
-  <p>Note that certain settings and table layouts are reset to default after updating.</p>
-  <p>A few keyboard shortcuts have changed.</p>
-  <p><strong>Create a backup of your settings and database folder just in case you'd like to go back to the stable release. Backup <code>ABarthel</code> in <code>C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel</code> on Windows and <code>$HOME/.config/ABarthel</code> on Linux and macOS.</strong></p>
-  <p>Alternatively use one of the scripts <code>Little Navmap Portable.cmd</code> (Windows), <code>Little Navmap Portable.command</code> (macOS) and <code>Little Navmap Portable.sh</code> (Linux) to let Little Navmap store all settings, databases and caches in the installation folder (portable mode).</p>
-  <p>Or see <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/INSTALLATION.html#multiple-installations">Multiple Installations</a> for information how to run the stable and alpha versions in parallel.</p>
-  <p>Some features like MSA, vertical paths or en-route holdings require either X-Plane, the included AIRAC 1801 database or a Navigraph database newer or equal than AIRAC 2201.</p>
-  <p>See here for a <a href="https://github.com/albar965/littlenavmap/milestone/11?closed=1">list of issues done</a>. More issues are solved than publicly known on Github. This changelog lists the most important.</p>
-  <p>Please report if something does not work or does not work as expected.</p>
-  <h2 id="known-issues">Known Issues</h2>
-  <ul>
-  <li>Scenery library folders linked with macOS aliases do no work. Use symbolic links instead.</li>
-  <li>En-route holding courses were not correct due to an error in declination calculation. This was fixed with AIRAC cycle 2210.</li>
-  <li>Running Little Navmap with autoconnect for P3D, FSX or MSFS for several hours without starting the simulator leaks a small amount of resources. This is mitigated by reducing the connection rate automatically after 30 minutes. Disable autoconnect or quit the program to avoid this.</li>
-  </ul>
-  <h2 id="changes-from-280beta-to-281beta">Changes from 2.8.0.beta to 2.8.1.beta</h2>
-  <h3 id="scenery-library">Scenery Library</h3>
-  <ul>
-  <li>Now supporting symbolic links (all OS), Windows junctions and Windows shortcuts (<code>.lnk</code> files) in MSFS <code>Community</code> and X-Plane <code>Custom Scenery</code> folders. Note that macOS aliases are not supported. Use symbolic links instead.</li>
-  <li>Fixed exclude file, exclude directory and exclude add-on recognition to work with symbolic links, shortcuts or junctions.</li>
-  </ul>
-  <h3 id="x-plane-11-and-12">X-Plane 11 and 12</h3>
-  <ul>
-  <li>Little Xpconnect now supports Apple Silicon / ARM 64 machines. Note that this is untested. Please report if you run into issues. <a href="https://github.com/albar965/littlenavmap/issues/923">#923</a></li>
-  <li>The included Little Xpconnect might not work with older macOS version. You can use Xpconnect from the previous release if needed</li>
-  <li>Reinstall the Little Xpconnect plugin from this or the last package. Otherwise fuel flow calculation or other functions might not work in Little Navmap.</li>
-  <li>Now supporting X-Plane 12 METAR airport weather reports and GRIB winds aloft by checking folder <code>Output/real weather</code>. Added folder configuration in options on page <code>Weather Files</code>. <a href="https://github.com/albar965/littlenavmap/issues/926">#926</a></li>
-  <li>Fixed issue where X-Plane 12 add-on airports were not read from <code>Custom Scenery</code> in some cases. Airports not included in the file <code>scenery_packs.ini</code> are now treated like enabled. <a href="https://github.com/albar965/littlenavmap/issues/927">#927</a></li>
-  <li>Corrected userpoint export and import to and from <code>user_fix.dat</code> for X-Plane 11 and 12. Exporting and importing waypoint flags and full name for X-Plane 12 now. The Little Navmap Userpoint tags field is used to load and save the ID of the airport terminal area as well as the waypoint type. Waypoint type is based on ARINC 424 field type definition 5.42. Spaces are replaced by underscores '_' for userpoint tags. Alternatively double quotes and spaces can be used. Example tags: <code>EDDF V__</code> is a VFR Waypoint at airport EDDF, <code>ENRT "I  "</code> is an en-route unnamed charted intersection and <code>ENRT R__</code> is an en-route named intersection.</li>
-  <li>Made reading of X-Plane <code>scenery_packs.ini</code> more error tolerant for XP12. Now printing warnings into the log file instead of failing with an exception.</li>
-  </ul>
-  <h3 id="flight-plan">Flight Plan</h3>
-  <ul>
-  <li>Magnetic course of flight plan legs is now always calculated using normal magnetic declination. VOR calibrated declination is ignored. The content of the chapter <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/FLIGHTPLAN.html#magnetic-declination">User Manual - 27.3. Magnetic Declination</a> is not valid anymore. Other options to display VOR inbound and outbound magnetic course are now available.</li>
-  <li>Added optional inbound and outbound VOR course to aircraft progress display considering VOR calibrated declination. This is always shown when the next or last waypoint is a VOR, VORDME or VORTAC. Enable this in <code>Tools</code> -&gt; <code>Aircraft progress display options</code> -&gt; branch <code>Next Waypoint</code> -&gt; <code>Leg course from</code> and <code>Leg course to</code>.</li>
-  <li>Removed merging (e.g. grouping of multiple deletions into one) of same changes for undo or redo in flight plan operations. Now single changes can be undone.</li>
-  <li>Fixed issues where selection in flight plan table was cleared after undo or delete operations making modifications using keyboard shortcuts more difficult. Now keeping selection stable during various operations like undo/redo and others.</li>
-  <li>Added option to use either Pilot Id or username for SimBrief download.</li>
-  <li>Removed <code>Ignore declination of VOR and other radio navaids</code> on options page <code>Flight Plan</code> since there are other ways to display VOR inbound and outbound magnetic course now.</li>
-  </ul>
-  <h3 id="map">Map</h3>
-  <ul>
-  <li>Added option on page <code>Map Display Labels</code> to show start and end course labels also considering VOR calibrated declination. Useful when flying VOR to VOR. Labels are shown at a fixed position at start or end of flight plan legs.</li>
-  <li>Outbound and inbound VOR calibrated declination now ignored per default in normal route leg course shown in the moving labels.</li>
-  <li>Options <code>Show Selected Altitude Range</code> and <code>Show Turn flight path</code> in menu <code>View</code> are disabled on first startup after a new installation.</li>
-  <li>Fixed issues where the turn path disappeared after user changed simulator time. Note that the turn path now requires the updated Little Xpconnect plugin for X-Plane to get accurate timestamps.</li>
-  <li>Fixed detailed label display for the 5 nearest AI aircraft which are 10 NM near user and within 5000 ft of altitude.</li>
-  <li>Criteria for nearby AI labels can be changed in configuration file in group <code>[Map]</code> and keys <code>MaxNearestAiLabels</code>, <code>MaxNearestAiLabelsDistNm</code> as well as <code>MaxNearestAiLabelsVertDistFt</code>.</li>
-  <li>Adjusted AI aircraft label visibility depending on aircraft ground status and details.</li>
-  <li>Added configuration file options for online shadow aircraft detection in group <code>[Options]</code> keys <code>MaxShadow...</code>. Tuned shadow aircraft detection. Increased allowed heading difference.</li>
-  <li>Final course for measurement lines at VOR is now calculated based on VOR calibrated declination.</li>
-  <li>Fixed incorrect endurance range display and wrong warnings when simulator time is changed.</li>
-  </ul>
-  <h3 id="undo--redo">Undo / Redo</h3>
-  <ul>
-  <li>Added progress dialog for long undo operations in logbook and userpoints which can happen when undoing the import or a bulk change of large datasets. Operations can be canceled now.</li>
-  <li>Fixed performance issues for undo and redo operations resulting in frozen program.</li>
-  <li>Fixed issue where import of logbook or userpoint data resulted in a messed up undo state.</li>
-  </ul>
-  <h3 id="user-interface">User Interface</h3>
-  <ul>
-  <li>Now showing the canonical path (i.e. symbolic links, Windows shortcuts and Windows junctions resolved to the real path) for airport add-ons in information display. This means that the real installation location of linked add-ons is shown now.</li>
-  <li>Moved option <code>Remove duplicate aircraft from online service and simulator</code> to page <code>Online Flying</code>.</li>
-  <li>Added option for tooltips in menus which is off per default. Option to show tooltips in whole program is now reset to enabled. Not available on macOS.</li>
-  <li>Fuel sampling is now based on simulator time for more accuracy and requires the updated Little Xpconnect plugin for X-Plane. No actions required for FSX, P3D and MSFS.</li>
-  <li>Resetting flight plan table, airport search result table and navaid search result table view on update to 2.8.1.beta now to avoid display of wrong columns or missing table columns.</li>
-  <li>Fixed issues with some labels not updating after style change.</li>
-  <li>Fixed memory leak caused by AI aicraft collection resulting in crashes. These appeared with a message containing <code>std::bad_alloc</code> in the log file.</li>
-  <li>Fixed occasional crash on exit.</li>
-  <li>Updated Italian translation by Flavio Borgna.</li>
-  <li>Updated German translation.</li>
-  <li>More small user interface improvements.</li>
-  </ul>
-  <h3 id="command-line-and-startup">Command Line and Startup</h3>
-  <ul>
-  <li>Added scripts for portable execution: <code>Little Navmap Portable.cmd</code> (Windows), <code>Little Navmap Portable.command</code> (macOS) and <code>Little Navmap Portable.sh</code> (Linux). All settings, databases and cache folders are saved to the installation folder when starting the program with these scripts.</li>
-  <li>New command line parameter <code>-c</code>, <code>--cache-path</code> to define the location of the Marble map tile cache folder. Start Little Navmap with the option <code>-h</code> for help on all command line options.</li>
-  </ul>
-  <!-- UPDATE CHANGELOG LINK ========================================================================= -->
-  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/v2.8.1.beta/CHANGELOG.txt">CHANGELOG.txt</a> online on GitHub for a detailed list of changes.</strong></p>
-  <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
+  <body>
+    <head>
+      <style type="text/css">
+        p { text-align: center; }
+        code { background: #33808080; }
+        a { color: #5a4b96; }
+        a:visited { color: #5a4b96; }
+        a:hover { color: #3091d1; }
+      </style>
+    </head>
+    <hr />
+    <!-- ========================================================================= -->
+    <p style="font: large; font-weight: bold;vertical-align:middle">
+      Click here for the full announcement,<br/>changelog and download links<br/>for all operating systems:<br/><br/><br/>
+    </p>
+    <p style="font: x-large; font-weight: bold;">
+      <a href="https://albar965.github.io/release/2022/11/18/littlenavmap-beta-282-released.html">
+      Little Navmap 2.8.2.beta released
+      </a>
+    </p>
+    <!-- ========================================================================= -->
+  </body>
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
