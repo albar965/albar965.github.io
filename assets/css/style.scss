@@ -165,9 +165,9 @@ p.small {
 }
 
 hr {
-  margin-left: 1rem;
-  margin-right: 1rem;
   border-width: 1px 0 0 0;
+  width: 90%;
+  align: center;
 }
 
 blockquote {
@@ -340,9 +340,9 @@ ul li {
     margin: .3cm 0;
 }
 
-hr {
-    margin: .5cm .9cm;
-}
+//hr {
+//    margin: .5cm .9cm;
+//}
 
 section ~ br {
     display: none;
