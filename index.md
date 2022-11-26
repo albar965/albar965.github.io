@@ -2,7 +2,7 @@
 layout: index
 title:  "Alex' Projects"
 date:   2022-11-13 10:00:00 +0100
-release-version: 2.8.2.beta
+release-version: 2.8.3.beta
 release-version-stable: 2.6.19
 ---
 
