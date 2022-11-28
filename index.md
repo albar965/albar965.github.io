@@ -1,8 +1,8 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2022-11-13 10:00:00 +0100
-release-version: 2.8.3.beta
+date:   2022-11-28 15:00:00 +0100
+release-version: 2.8.4.beta
 release-version-stable: 2.6.19
 ---
 
@@ -44,13 +44,6 @@ release-version-stable: 2.6.19
 [**► Linux \(64 bit, based on Ubuntu 22.04\)** - LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz)
 
 **Other Versions:** [Github - Version {{ page.release-version }}](https://github.com/albar965/littlenavmap/releases/tag/v{{ page.release-version }})
-
-#### Last Stable (*not* for MSFS SU11 and X-Plane 12)
-
-[**► Windows** - LittleNavmap-win-{{ page.release-version-stable }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-win-{{ page.release-version-stable }}.zip)<br/>
-[**► macOS** - LittleNavmap-macOS-{{ page.release-version-stable }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-macOS-{{ page.release-version-stable }}.zip)<br/>
-[**► Linux \(64 bit, based on Ubuntu 20.04\)** - LittleNavmap-linux-20.04-{{ page.release-version-stable }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-linux-20.04-{{ page.release-version-stable }}.tar.gz)<br/>
-[**► Linux \(64 bit, based on Ubuntu 18.04\)** - LittleNavmap-linux-18.04-{{ page.release-version-stable }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version-stable }}/LittleNavmap-linux-18.04-{{ page.release-version-stable }}.tar.gz)
 
 #### Alternative Download Locations
 

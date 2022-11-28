@@ -119,10 +119,10 @@ changelog=
 # ---------------------------------------------------------------
 
 [beta]
-version=2.8.3.beta
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.8.3.beta/LittleNavmap-win64-2.8.3.beta.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.8.3.beta/LittleNavmap-macOS-2.8.3.beta.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.8.3.beta/LittleNavmap-linux-22.04-2.8.3.beta.tar.gz
+version=2.8.4.beta
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.8.4.beta/LittleNavmap-win64-2.8.4.beta.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.8.4.beta/LittleNavmap-macOS-2.8.4.beta.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.8.4.beta/LittleNavmap-linux-22.04-2.8.4.beta.tar.gz
 changelog=
   <body>
     <head>
@@ -140,8 +140,8 @@ changelog=
       Click here for the full announcement,<br/>changelog and download links<br/>for all operating systems:<br/><br/><br/>
     </p>
     <p style="font: x-large; font-weight: bold;">
-      <a href="https://albar965.github.io/release/2022/11/26/littlenavmap-beta-283-released.html">
-      Little Navmap 2.8.3.beta released
+      <a href="https://albar965.github.io/release/2022/11/28/littlenavmap-beta-284-released.html">
+      Little Navmap 2.8.4.beta released
       </a>
     </p>
     <!-- ========================================================================= -->
