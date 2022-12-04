@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-11-25 20:45:00 +0100
+date:   2022-12-04 13:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -48,6 +48,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [SSL Initialization Error on Windows](#ssl-init)
 1. [_Little Navmap_ does not start on Linux](#linux-start)
 1. [_Little Navmap_ or _Little Navconnect_ pop up quickly and vanish](#start-monitor)
+1. [The pprogram does not start and shows a message `libmarblewidget-qt5 was not found`](#start-zip)
 
 ### Airports, scenery library, userpoint and navigation data {#scenery}
 
@@ -321,6 +322,8 @@ _Little Navmap_ does not create any registry entries on Windows.
 
 #### SSL Initialization Error [**▲**](#top) [🔗](#ssl-init) {#ssl-init}
 
+**This issue was solved with the 2.6 versions of _Little Navmap_ update to the latest version.**
+
 This is caused by a missing redistributable installation for older versions of _Little Navmap_.
 
 Install both [vcredist_x64_2010.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_x64_2010.exe) and [vcredist_x86_2010.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_x86_2010.exe) to fix this issue.
@@ -351,6 +354,12 @@ Remove the monitor from the system settings or check if it still present.
 _Little Navmap_ or _Little Navconnect_ will relocate their main windows once they detect that they are off space.
 
 
+#### The program does not start and shows a message `libmarblewidget-qt5 was not found` [**▲**](#top) [🔗](#start-zip) {#start-zip}
+
+You see an error message `the code excution cannot proceed because libmarblewidget-qt5 was not found.` when double clicking the file `littlenavmap.exe`.
+
+You're starting the program from the Windows Explorer Zip view.
+You have to extract the Zip archive before running _Little Navmap_.
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
@@ -670,10 +679,6 @@ Data sources limit this functionality and it depends on the selected navdata sou
 * Navigraph only: This has only limited administrative airport information. Only airport name (`Frankfurt am Main`), ICAO code (`EDDF`), ICAO region (`ED`) and area code (`EUR`) are available.
 * All other modes: The completeness of administrative information depends on the airport. Administrative data (State, City, etc.) is often missing for X-Plane airports. Country information is completely missing in MSFS.
 
-
-
-
-
 #### Airport runway numbers don't match the runway numbers for procedures [**▲**](#top) [🔗](#runway-mismatch) {#runway-mismatch}
 
 This depends on the scenery mode as set in the menu `Scenery Library` -&gt; `Navigraph`. The default is to use the flight simulator scenery for runways and ILS and the Navigraph database for all airspaces, airways and all other navaids.
@@ -687,10 +692,7 @@ See the [Little Navmap User Manual - Navdata](https://www.littlenavmap.org/manua
 
 For **FSX or Perpar3D** you can use the [Airport Design Editor](https://www.scruffyducksoftware.com/airport-design-editor) to change the runway numbers.
 
-Use [WED](https://developer.x-plane.com/tools/worldeditor/) to change an airport for X-Plane.
-
-
-
+Use [WED](https://developer.x-plane.com/tools/worldeditor/) to change an airport for X-Plane or download the latest airport from the [The X-Plane Scenery Gateway](https://gateway.x-plane.com/).
 
 
 #### How to add procedures to airports? [**▲**](#top) [🔗](#add-procedures) {#add-procedures}
