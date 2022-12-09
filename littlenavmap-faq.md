@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-12-04 13:00 +0100
+date:   2022-12-09 14:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -74,6 +74,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### User Interface {#ui}
 
+1. [Is there a night or dark mode for the user interface](#night)
 1. [Text and/or icons appear very small on a 4k or other high resolution monitor](#highdpi)
 1. [How can I make the map window bigger](#map-window)
 1. [How can I make the map window larger](#resize-map)
@@ -862,10 +863,6 @@ You can exclude the whole add-on by adding the directory `C:\MSFS\Community\2nxx
 
 Reload the scenery library and the issue should be gone.
 
-
-
-
-
 #### Error reading `.../Content.xml“ on line 6 column 13: premature end of document` when loading the scenery library [**▲**](#top) [🔗](#msfs-scenery-library-content-xml) {#msfs-scenery-library-content-xml}
 
 Note: This issue was fixed with the *Little Navmap* beta 2.8 versions. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.
@@ -875,10 +872,6 @@ The file `Content.xml` was changed with the MSFS update SU10. The new and change
 There are two possible solutions:
 1. You can rename the file temporarily while loading the scenery library database in *Little Navmap*.
 1. Use *Little Navmap* beta version 2.8 or later. See [the main page here](https://albar965.github.io/index.html) for announcements of beta releases.
-
-
-
-
 
 #### Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id` after adding a userpoint [**▲**](#top) [🔗](#userdata-exception) {#userdata-exception}
 
@@ -894,23 +887,20 @@ Note that this also removes all undo/redo steps from the database.
 
 The error should not appear again.
 
-
-
-
-
-
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
 ### User Interface
 
+#### Is there a night or dark mode for the user interface [**▲**](#top) [🔗](#night) {#night}
+
+If you'd like to use a dark mode or night mode when flying: Enable this in menu `Window` -> `Styles` -> `Night`
+
+The darkness of the map window can be adjusted in options on page `Map Display User` -> `Map dimming in night style`.
+
 #### Text and/or icons appear very small on a 4k or other high resolution monitor [**▲**](#top) [🔗](#highdpi) {#highdpi}
 
 Go to menu `Tools` -> `Options` and then to page `Display and Text`. Check `Enable high DPI monitor support` and restart _Little Navmap_.
-
-
-
-
 
 #### How can I make the map window bigger [**▲**](#top) [🔗](#map-window) {#map-window}
 
@@ -923,10 +913,6 @@ there are several options:
 
 Here are some tips for undocking (Ctrl-key, etc.) and moving around in the interface:
 [Little Navmap User Manual - Dock Windows](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/DOCKWINDOWS.html)
-
-
-
-
 
 #### How can I make the map window larger [**▲**](#top) [🔗](#resize-map) {#resize-map}
 
@@ -971,27 +957,15 @@ This is related to the hillshading option.
 The admin for the server providing the hillshading data decided to shut down the service.
 
 
-
-
-
-
 #### The map moves jerky or I see stutters in _Little Navmap_ while scrolling or zooming [**▲**](#top) [🔗](#jerky-map) {#jerky-map}
 
 You might have selected too many details. Go to main menu -&gt; `View` -&gt; `Details` -&gt; `Default Detail`.
-
-
-
-
 
 #### Lines disappearing [**▲**](#top) [🔗](#lines-disappearing) {#lines-disappearing}
 
 Parts of the flight plan disappear.
 
 This is a known error and can happen at certain zoom distances with long flight plan legs.
-
-
-
-
 
 #### I cannot remove a traffic pattern, a holding or measurement lines [**▲**](#top) [🔗](#remove-pattern) {#remove-pattern}
 
