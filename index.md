@@ -1,8 +1,8 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2022-11-28 15:00:00 +0100
-release-version: 2.8.4.beta
+date:   2022-12-11 14:00:00 +0100
+release-version: 2.8.5.rc1
 release-version-stable: 2.6.19
 ---
 
@@ -37,7 +37,7 @@ release-version-stable: 2.6.19
   </b>
 </p>
 
-#### Last Beta
+#### Latest Release Candidate
 
 [**► Windows 64-bit (*MSFS and X-Plane*)** - LittleNavmap-win64-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-win64-{{ page.release-version }}.zip)<br/>
 [**► macOS** - LittleNavmap-macOS-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-macOS-{{ page.release-version }}.zip)<br/>
