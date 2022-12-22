@@ -1,77 +1,3 @@
-# ---------------------------------------------------------------
-# ---------------------------------------------------------------
-# ---------------------------------------------------------------
-# ---------------------------------------------------------------
-[stable]
-version=2.6.19
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-win-2.6.19.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-macOS-2.6.19.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-linux-20.04-2.6.19.tar.gz
-changelog=
-  <body> <head><style type="text/css">code { background: #33808080; }</style></head><hr />
-  <!-- UPDATE NOTES ========================================================================= -->
-  <p>This release fixes several issues affecting elevation profile, MSFS and X-Plane scenery libraries.</p>
-  <p>Only the most imortant or easy to integrate issues are integrated into this release.
-  Development is going on in parallel for the next major release and a public alpha version was already published in the <a href="https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum/">Avsim Forum</a>.</p>
-  <p><strong>Reload the scenery library to see fixed issues.</strong></p>
-  <!-- UPDATE HEADER ========================================================================= -->
-  <h3 id="direct-download">Direct Download</h3>
-  <p><a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-win-2.6.19.zip"><strong>► Windows</strong> - LittleNavmap-win-2.6.19.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-macOS-2.6.19.zip"><strong>► macOS</strong> - LittleNavmap-macOS-2.6.19.zip</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-linux-20.04-2.6.19.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 20.04)</strong> - LittleNavmap-linux-20.04-2.6.19.tar.gz</a><br/>
-  <a href="https://github.com/albar965/littlenavmap/releases/download/v2.6.19/LittleNavmap-linux-18.04-2.6.19.tar.gz"><strong>► Linux (64 bit, based on Ubuntu 18.04)</strong> - LittleNavmap-linux-18.04-2.6.19.tar.gz</a></p>
-  <h3 id="alternative-download-locations">Alternative Download Locations</h3>
-  <p><strong>►</strong> <a href="https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy"><strong>Box</strong></a> / <a href="https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa"><strong>Dropbox</strong></a> / <a href="https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w"><strong>Mega.nz</strong></a> / <a href="https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g"><strong>OneDrive</strong></a></p>
-  <!-- ========================================================================================= -->
-  <!-- START WITH Known Issues ... ============================================================= -->
-  <h2 id="known-issues">Known Issues</h2>
-  <p>Read the linked chapter below to minimize issues when loading flight plans into <strong>MSFS</strong>:<br/> <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata">► User Manual - Microsoft Flight Simulator 2020 Airports and Navdata</a>.</p>
-  <p>See user manual for general known problems:<br/> <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems">► User Manual - Known Problems</a>.</p>
-  <p>See user manual for limitations and issues around Microsoft Flight Simulator 2020:<br/> <a href="https://www.littlenavmap.org/manuals/littlenavmap/release/2.6/en/APPENDIX.html#problems-msfs">► User Manual - Known Problems - Microsoft Flight Simulator 2020</a>.</p>
-  <h2 id="changes-from-2618-to-2619">Changes from 2.6.18 to 2.6.19</h2>
-  <h3 id="user-interface">User Interface</h3>
-  <ul>
-  <li>Fixed issue where main window could not be resized below 1000 pixels. Minimum limit is now 300 pixels.</li>
-  <li>Changed style <code>Night</code> to improve visibility for checked icon menu items and menu separator lines which were barely visible before.</li>
-  </ul>
-  <h3 id="map-display">Map Display</h3>
-  <ul>
-  <li>Disabled GLS and other virtual paths which were wrongly shown as ILS when using latest Navigraph databases updated for future versions of Little Navmap.</li>
-  <li>Fixed issue where new user airspaces were not drawn after reading from disk.</li>
-  </ul>
-  <h3 id="flight-plan-and-elevation-profile">Flight Plan and Elevation Profile</h3>
-  <ul>
-  <li>Fixed issue which appeared when airport altitude is reported higher from simulator than runway altitude from navdata for procedures. Program showed wrongly a violated altitude restriction at runway and refused to build elevation profile.</li>
-  <li>Fixed issue where alternate airport was lost and error message remained after switching scenery library databases.</li>
-  <li>Corrected mapping of parking names for empty or invalid MSFS parking spots which broke reloading of parking positions from flight plans. Exported MSFS PLN files now have correct parking name set for these cases.</li>
-  <li>Fixed issue where flight plan leg in elevation profile had wrong position offset related to restriction.</li>
-  <li>Fixed issue where elevation profile could not be calculated if a STAR has an <code>At Altitude</code> restriction.</li>
-  <li>Fixed missing waypoints in MSFS flight plan export for all distance, altitude or otherwise terminated procedure legs.</li>
-  <li>Fixed issue where MSFS SID and STAR cannot be loaded due to missing runway in database.</li>
-  <li>Extended waypoint coordinate parser for all ARINC 424 Code Convention full degree waypoint formats like <code>57N30</code>, <code>5730E</code> or <code>57S30</code>. Flight plan route description can now read these waypoints independent if they are in the navdata or not.</li>
-  <li>Improvements to Flightgear XML flightplan files import and export. Thanks to @colingeniet at Github for the fixes.</li>
-  </ul>
-  <h3 id="scenery-library">Scenery Library</h3>
-  <ul>
-  <li>Database minor version updated to 21. Reloading is adivsed to see bug fixes.</li>
-  <li>Added push request <a href="https://github.com/albar965/littlenavmap/issues/6">#6</a> of @flpduarte. Fixed bug in which Little Navmap would only read and display a single transition from addon (Community) SIDs and STARs, despite these procedures actually having more than one transition. This happens when using the latest MSFS SDK (SU9 or later).</li>
-  <li>Now saving invalid and null parking names from MSFS with indicator <code>NONE</code> into the database to allow handling in flight plans.</li>
-  <li>Fixed issue where airport frequencies were written as 0 instead of null for MSFS resulting in wrong search results.</li>
-  <li>Now skipping empty X-Plane <code>apt.dat</code> files to avoid program freezing in an empty loop for malformed files.</li>
-  </ul>
-  <h3 id="other">Other</h3>
-  <ul>
-  <li>Now decreasing connection rate for long running sessions using autoconnect to avoid loss of internal SimConnect resources. An attempt to connect is made every 30 seconds after half an hour and every minute after one hour. Workaround for SimConnect issue mentinoned in <a href="https://github.com/albar965/littlenavmap/issues/91">#91</a>.</li>
-  </ul>
-  <h3 id="development-and-build">Development and Build</h3>
-  <ul>
-  <li>Moved version number to variable <code>VERSION_NUMBER</code> in file <code>littlenavmap.pro</code> instead of coding it into sources.</li>
-  <li>Now writing files <code>version.txt</code> and <code>revision.txt</code> files into install folder allowing deployment scripts to automatically name archives. These files can be used to identify a version without opening the program.</li>
-  </ul>
-  <p><strong>See the included <code>CHANGELOG.txt</code> file or <a href="https://github.com/albar965/littlenavmap/blob/v2.6.19/CHANGELOG.txt">here</a> online for a complete list across all versions.</strong></p>
-  <p><strong>All files are checked by <a href="https://www.virustotal.com">VirusTotal</a>.</strong></p>
-  <!-- ... All files are checked by ... END ==================================================== -->
-  <!-- ========================================================================================= -->
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
@@ -145,6 +71,39 @@ changelog=
     <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
       Note that you need to download the 32-bit version<br/>
       from the <a href="https://albar965.github.io/release/2022/12/17/littlenavmap-rc2-286-released.html">link above</a>
+      if you use FSX or Prepar3D.
+    </p>
+  </body>
+
+
+# NEW ==================================================================================================
+[stable]
+version=2.8.7
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.8.7/LittleNavmap-win64-2.8.7.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.8.7/LittleNavmap-macOS-2.8.7.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.8.7/LittleNavmap-linux-22.04-2.8.7.tar.gz
+changelog=
+  <body>
+    <head>
+      <style type="text/css">
+        p { text-align: center; }
+        code { background: #33808080; }
+        a { color: #5a4b96; }
+        a:visited { color: #5a4b96; }
+        a:hover { color: #3091d1; }
+      </style>
+    </head>
+    <p style="font: x-large; font-weight: bold;"><br/><br/>
+      <a href="https://albar965.github.io/release/2022/12/22/littlenavmap-stable-287-released.html">
+      Little Navmap Stable Version 2.8.7 released
+      </a>
+    </p>
+    <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
+      Click above link for the full announcement,<br/>changelog and download links<br/>for all operating systems.
+    </p>
+    <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
+      Note that you need to download the 32-bit version<br/>
+      from the <a href="https://albar965.github.io/release/2022/12/22/littlenavmap-stable-287-released.html">link above</a>
       if you use FSX or Prepar3D.
     </p>
   </body>

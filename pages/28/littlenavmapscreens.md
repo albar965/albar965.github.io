@@ -4,7 +4,7 @@ title:  "Screenshots of new 2.8 Features"
 date:   2022-12-22 19:00:00 +0100
 ---
 [Alex’ Projects](/index.html)
-► [Little Navmap 2.8.7 released](/release/2022/12/23/littlenavmap-stable-287-released.html)
+► [Little Navmap 2.8.7 released](/release/2022/12/22/littlenavmap-stable-287-released.html)
 ► Screenshots of new 2.8 Features
 
 # Screenshots of new 2.8 Features
