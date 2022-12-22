@@ -44,6 +44,8 @@ release-version: 2.8.7
 
 **Other Versions:** [Github - Version {{ page.release-version }}](https://github.com/albar965/littlenavmap/releases/tag/v{{ page.release-version }})
 
+[**► Screenshots of new 2.8 Features**](https://albar965.github.io/pages/28/littlenavmapscreens.html)
+
 #### Alternative Download Locations
 
 [Box](https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy), [Dropbox](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa), [Mega.nz](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w) and [OneDrive](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g).<br/>
