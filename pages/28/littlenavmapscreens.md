@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Screenshots of new 2.8 Features"
-date:   2022-12-22 12:00:00 +0200
+date:   2022-12-22 19:00:00 +0100
 ---
 [Alex’ Projects](/index.html)
 ► [Little Navmap 2.8.7 released](/release/2022/12/23/littlenavmap-stable-287-released.html)
@@ -10,6 +10,8 @@ date:   2022-12-22 12:00:00 +0200
 # Screenshots of new 2.8 Features
 
 This page gives an overview of the new features for _Little Navmap_ 2.8 releases and also shows links to the releated chapter in the user manual.
+
+See the included `CHANGELOG.txt` or [here](https://github.com/albar965/littlenavmap/blob/v2.8.7/CHANGELOG.txt) online for a complete list across all versions.
 
 *Click on an image for full size.*
 
@@ -78,7 +80,7 @@ This page gives an overview of the new features for _Little Navmap_ 2.8 releases
 ---
 
 | <a href="/assets/images/28/profilemenu.jpg"><img src="/assets/images/28/profilemenu.jpg"></a> | <a href="/assets/images/28/profileoptions.jpg"><img src="/assets/images/28/profileoptions.jpg"></a> | <a href="/assets/images/28/profileany.jpg"><img src="/assets/images/28/profileany.jpg"></a> |
-| Added functions in elevation profile. See [Center on Aircraft and Destination](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/PROFILE.html#zoom-aircraft-center-on-aircraft-and-destination) and [Show Vertical Track](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/PROFILE.html#show-vertical-track-show-vertical-track). | Display configuration for the elevation profile with many new options including explanations [Elevation Profile](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/PROFILE.html). | The elevation profile is now calculated betwenn arbirary waypoints and does not need to start and end with an airport now. |
+| Added functions in elevation profile. See [Center on Aircraft and Destination](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/PROFILE.html#zoom-aircraft-center-on-aircraft-and-destination) and [Show Vertical Track](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/PROFILE.html#show-vertical-track-show-vertical-track). | Display configuration for the elevation profile with many new options including explanations [Elevation Profile](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/PROFILE.html). | The elevation profile is now calculated between arbitrary waypoints and does not need to start and end with an airport now. |
 
 <br/>
 ---

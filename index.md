@@ -1,9 +1,8 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2022-12-11 14:00:00 +0100
-release-version: 2.8.6.rc2
-release-version-stable: 2.6.19
+date:   2022-12-22 20:00:00 +0100
+release-version: 2.8.7
 ---
 
 # Alex' Projects
