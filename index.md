@@ -36,7 +36,7 @@ release-version: 2.8.7
   </b>
 </p>
 
-#### Latest Release Candidate
+#### Latest Stable Release
 
 [**► Windows 64-bit (*MSFS and X-Plane*)** - LittleNavmap-win64-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-win64-{{ page.release-version }}.zip)<br/>
 [**► macOS** - LittleNavmap-macOS-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-macOS-{{ page.release-version }}.zip)<br/>
