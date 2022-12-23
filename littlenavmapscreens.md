@@ -1,13 +1,15 @@
 ---
 layout: subpage
 title:  "Little Navmap Screenshots"
-date:   2020-12-11 12:00:00 +0100
+date:   2022-12-23 20:00:00 +0100
 ---
 [Alex’ Projects](index.html) ► Little Navmap Screenshots
 
 # Screenshots
 
 See also:
+
+[**► Screenshots of new 2.8 Features**](/pages/28/littlenavmapscreens.html)
 
 [**► Screenshots of new 2.6 Features**](/pages/26/littlenavmapscreens.html)
 
