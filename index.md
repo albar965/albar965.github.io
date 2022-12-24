@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2022-12-22 20:00:00 +0100
+date:   2022-12-24 13:00:00 +0100
 release-version: 2.8.7
 ---
 
@@ -40,7 +40,7 @@ release-version: 2.8.7
 
 [**► Windows 64-bit (*MSFS and X-Plane*)** - LittleNavmap-win64-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-win64-{{ page.release-version }}.zip)<br/>
 [**► macOS** - LittleNavmap-macOS-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-macOS-{{ page.release-version }}.zip)<br/>
-[**► Linux \(64 bit, based on Ubuntu 22.04\)** - LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz)
+[**► Linux (64 bit, based on Ubuntu 22.04)** - LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz)
 
 **Other Versions:** [Github - Version {{ page.release-version }}](https://github.com/albar965/littlenavmap/releases/tag/v{{ page.release-version }})
 
@@ -77,7 +77,7 @@ release-version: 2.8.7
 ## Little Navmap {#littlenavmap}
 
 ![Little Navmap](assets/images/navroute.png) **_Little Navmap_** is a free open source flight planner, navigation tool, moving map,
-airport search and airport information system for **Flight Simulator X, Prepar3D, Microsoft Flight Simulator 2020 and X-Plane** and is available for **Windows, Apple macOS and Linux**.
+airport search and airport information system for **Flight Simulator X, Prepar3D, Microsoft Flight Simulator 2020, X-Plane 11 and  X-Plane 12** is available for **Windows, Apple macOS and Linux**.
 
 **_Little Navmap_ does not use track its users and does not display advertisements.**
 
@@ -88,21 +88,27 @@ _Little Navmap_ comes with a **detailed user manual including several tutorials*
 | [![Little Navmap 2.2.2 spherical map projection and elevation profile with flight plan](assets/images/spherical_small.jpg)](assets/images/spherical.jpg) | [![Little Navmap 2.2.2 sun shadow on globe](assets/images/sunshadow_small.jpg)](assets/images/sunshadow.jpg) |
 
 A widely configurable **map display** using the OpenStreetMap as a background map which is only one
-option of many online and included offline maps. The map shows airports, navaids, airways,
-airspaces, oceanic tracks, high altitude winds, AI or multiplayer aircraft and ships as well as airport weather, winds aloft and a minimum off-route altitude grid (MORA). A seamlessly integrated **airport diagram** displays
-taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
+option of many online and included offline maps. The map shows airports, navaids (VOR, NDB, ILS and
+more), MORA (minimum off-route altitude) altitude grid, MSA (minimum sector altitude) diagrams,
+airways, en-route holdings, airspaces, oceanic tracks, high altitude winds, AI or multiplayer
+aircraft and ships as well as airport weather and winds aloft. A seamlessly integrated **airport
+diagram** displays taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
 
-User can place airport traffic patterns or holdings as a visual guidance on the map.
+Users can place **airport traffic patterns**, **holdings** or **minimum sector altitude diagrams** for visual guidance on the map.
 
 | ---- | ---- |
 | [![Little Navmap 2.4.4 winds aloft](assets/images/user_features_small.jpg)](assets/images/user_features.jpg) | [![Little Navmap 2.4.4 User Features](assets/images/wind_small.jpg)](assets/images/wind.jpg) |
 
-It supports **approach and departure procedures like SIDs, STARs, custom final approaches**, offers a
-widely configurable **automatic flight plan calculation** and **several export formats** like GFP \(Reality XP GTN
-and Flight1 GTN\), FPL \(Reality XP GNS\), GPX, RTE, FLP and X-Plane FMS as well as drag and drop
+It supports **approach and departure procedures like SIDs, STARs and final approaches**, offers a
+widely configurable **automatic flight plan calculation** and **several export formats** like GFP (Reality XP GTN
+and Flight1 GTN), FPL (Reality XP GNS), GPX, RTE, FLP and X-Plane FMS as well as drag and drop
 flight plan editing on the map. The program can read the PLN, FMS and FLP and more flight plan formats.
 
+Selecting departure and destination runways allows to have extended runway center lines and vertical guidance in the elevation profile.
+
 Several flight plan formats can be exported using the **flight plan multiexport** feature with one click.
+
+Flight plans can be easily exchanged with **SimBrief**.
 
 **Keyboard shortcuts** help to access most functions without mouse.
 
@@ -146,7 +152,7 @@ any device across a network.
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
 Prepar3D v3, v4, v5, Microsoft Flight Simulator 2020, X-Plane 11 and X-Plane 12.
 
-**Supported platforms:** Windows 7/8/10/11, Apple macOS \(High Sierra 10.13 or later\) and Linux \(64 bit only\).
+**Supported platforms:** Windows 7/8/10/11, Apple macOS (High Sierra 10.13 or later) and Linux (64 bit only).
 
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
@@ -161,7 +167,7 @@ simulator remotely across the network.
 **Supported Flight Simulators:** All FSX versions from SP2 up, Flight Simulator - Steam Edition,
 Prepar3D v3, v4, v5, Microsoft Flight Simulator 2020, X-Plane 11 and X-Plane 12.
 
-**Supported platforms:** Windows 7/8/10/11, Apple macOS \(High Sierra 10.13 or later\) and Linux \(64 bit only\).
+**Supported platforms:** Windows 7/8/10/11, Apple macOS (High Sierra 10.13 or later) and Linux (64 bit only).
 
 [**► User manuals for _Little Navmap_ and _Little Navconnect_**](/manuals.html)
 
@@ -182,9 +188,9 @@ It is light weight, free and open source.
 
 **Supported Flight Simulators:** X-Plane 11 and X-Plane 12.
 
-**Supported platforms:** Windows 7/8/10/11, Apple macOS \(High Sierra 10.13 or later\) and Linux \(64 bit only\).
+**Supported platforms:** Windows 7/8/10/11, Apple macOS (High Sierra 10.13 or later) and Linux (64 bit only).
 
-[**► Installation** (_Little Navmap_ user manual)](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INSTALLATION.html#x-plane-plugin)
+[**► _Little Navmap_ User Manual - Little Xpconnect**](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/XPCONNECT.html)
 
 [► GitHub _Little Xpconnect_ Project and Sources](https://github.com/albar965/littlexpconnect)
 

@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2022-11-13 10:00:00 +0100
+date:   2022-12-24 13:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap
@@ -16,15 +16,19 @@ date:   2022-11-13 10:00:00 +0100
 
 [**► Screenshots**](littlenavmapscreens.html)
 
+[**► Screenshots of new 2.8 Features**](https://albar965.github.io/pages/28/littlenavmapscreens.html)
+
+[**► Screenshots of new 2.6 Features**](https://albar965.github.io/pages/26/littlenavmapscreens.html)
+
 [**► User manuals for _Little Navmap_ and _Little Navconnect_ in all formats and languages.**](/manuals.html)
 
 [► Map Legend](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/LEGEND.html)
 
-[► GitHub Little Navmap Project and Sources](https://github.com/albar965/littlenavmap)
+[► GitHub Little Navmap Project, Sources and Release Downloads](https://github.com/albar965/littlenavmap)
 
 [![Little Navmap](assets/images/Tipp_FSMagazin_D_Neu_2014_50.png)](https://www.facebook.com/FSMAGAZIN/posts/1349379408450042)
 
-## Version 2.6 Features
+## Version 2.8 Features
 
 * *Little Navmap* is a **free** open source flight planner, navigation tool, moving map, airport
   search and airport information system.
@@ -47,7 +51,7 @@ date:   2022-11-13 10:00:00 +0100
 * It features a detail rich **navigation map** that partially uses symbols from real VFR maps thus
   transporting a large amount of information. Multiple offline maps, online map themes
   ([OpenStreetMap](https://www.openstreetmap.org), [OpenTopoMap](https://opentopomap.org) and more) and two map projections are
-  available. Several map themes provide **hill shading** as well as display of the **sun shadow** on the globe.
+  available. Several map themes provide built-in **hill shading** as well as display of the **sun shadow** on the globe.
 * **Quick modifier mouse clicks** in map allow fast actions.
   E.g. `Ctrl+Click` to start measurement or `Shift+Click` to place range rings.
 * The map shows user and **AI aircraft as well as ships**, airports, **airport maps** (runway
@@ -57,6 +61,7 @@ date:   2022-11-13 10:00:00 +0100
   for each map object.
 * **Flight plans** and flight plan fragments can be loaded, saved and merged all using the common
   Flight Simulator PLN files as well as **X-Plane FMS format version 3 and 11**, FSC and FLP files.
+* Flight plans can be exchanged with **SimBrief**.
 * Flight plans can be exported to the **_Reality XP GNS 530W/430W V2_, the _Reality XP GTN 750/650 Touch_ and
   the _Flight1 GTN 650/750_**.
 * More export formats are **GPX (GPS Exchange Format, including flown track), PMDG RTE, FLP, X-Plane

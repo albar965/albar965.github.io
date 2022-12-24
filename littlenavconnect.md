@@ -12,7 +12,7 @@ date:   2022-06-15 10:00:00 +0200
 
 ## Links {#links}
 
-**Little Navconnect is included in the download archive of [Little Navmap](littlenavmap.html).**
+**Little Navconnect is included in the download archive of _Little Navmap_.**
 
 [**► User manuals for _Little Navmap_ and _Little Navconnect_ in all formats and languages.**](/manuals.html)
 
