@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-12-09 14:00 +0100
+date:   2022-12-28 21:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -48,7 +48,8 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [SSL Initialization Error on Windows](#ssl-init)
 1. [_Little Navmap_ does not start on Linux](#linux-start)
 1. [_Little Navmap_ or _Little Navconnect_ pop up quickly and vanish](#start-monitor)
-1. [The pprogram does not start and shows a message `libmarblewidget-qt5 was not found`](#start-zip)
+1. [The program does not start and shows a message `libmarblewidget-qt5 was not found`](#start-zip)
+1. [There is a message `SimConnect not found.` in the connect dialog window](#no-simconnect)
 
 ### Airports, scenery library, userpoint and navigation data {#scenery}
 
@@ -209,8 +210,6 @@ If nothing helps, report an issue either in the [**Support Forum at _Avsim_**](h
 
 
 
-### Installation
-
 #### How to update the program [**▲**](#top) [🔗](#update) {#update}
 
 You might either:
@@ -362,10 +361,32 @@ You see an error message `the code excution cannot proceed because libmarblewidg
 You're starting the program from the Windows Explorer Zip view.
 You have to extract the Zip archive before running _Little Navmap_.
 
-<!-- ================================================================================================ -->
-<!-- ================================================================================================ -->
 
-### General
+#### There is a message `SimConnect not found.` in the connect dialog window [**▲**](#top) [🔗](#no-simconnect) {#no-simconnect}
+
+_Little Navmap_ does not connect to MSFS or you see an error message in the connection dialog window when trying to connect:
+
+```
+SimConnect not found. Your Little Navmap installation is missing the file "SimConnect.dll".
+Reinstall Little Navmap or install a FSX SP2 compatible version of SimConnect on your computer.
+```
+
+First check if the file `SimConnect.dll` is present in the _Little Navmap_ installation folder,
+in case it was removed by virus protection or it is missing due to improper installation.
+
+You're probably missing common libraries on your computer if the file exists but cannot be loaded.
+
+**Download and install two Windows Redistributable Packages from Microsoft:**<br/>
+**[Microsoft Visual C++ Redistributable latest supported downloads](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170)**.<br/>
+You need to get the download links in chapter `Visual Studio 2015, 2017, 2019 and 2022` for `X86` and `X64`.
+
+You can also download the files directly from the _Little Navmap_ download page:<br/>
+_Little Navmap Downloads - Windows Redistributable Packages -_ [vcredist_2015-2022.x64.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_2015-2022.x64.exe) and [vcredist_2015-2022.x86.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_2015-2022.x86.exe).
+
+Restart _Little Navmap_ after installing the packages. The error message should be gone.
+
+<!-- ================================================================================================ -->
+<!-- ================================================================================================ -->
 
 #### How can I create a flight plan [**▲**](#top) [🔗](#flightplan) {#flightplan}
 
@@ -631,7 +652,6 @@ This disables all network connections in _Little Navmap_.
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
-### Airports, scenery library and navigation data
 
 #### All airports are marked as add-on (yellow circle on map) for MSFS [**▲**](#top) [🔗](#airport-addon-msfs) {#airport-addon-msfs}
 
@@ -890,7 +910,6 @@ The error should not appear again.
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
-### User Interface
 
 #### Is there a night or dark mode for the user interface [**▲**](#top) [🔗](#night) {#night}
 
@@ -946,7 +965,6 @@ Another reason can be the search window taking up too much space:
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
-### Map Display
 
 #### I see white rectangles containing a message about contacting `User:TheDJ` on the map [**▲**](#top) [🔗](#hillshadingissues) {#hillshadingissues}
 
@@ -1008,7 +1026,6 @@ Something went wrong when installing _Little Navmap_. Most likely the directory 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
-### Apple macOS
 
 #### Can I run the program on another client computer across the network [**▲**](#top) [🔗](#networking) {#networking}
 
@@ -1080,7 +1097,6 @@ Alternatively, you can download the tool [Mac OS - CleanUp Quarantine Flags](htt
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
-### X-Plane and _Little Xpconnect_
 
 #### I installed _Little Xpconnect_ but cannot find it in the X-Plane menus [**▲**](#top) [🔗](#xpconnect-menus) {#xpconnect-menus}
 
