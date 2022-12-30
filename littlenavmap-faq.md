@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-12-30 12:00 +0100
+date:   2022-12-30 14:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -20,7 +20,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 1. [**How to update the program**](#update)
 1. [My anti-virus or anti-malware complains about _Little Navmap_](#anti-virus)
-1. [Why can I see only the X-Plane connect option](#xplane-connection-only)
 1. [I'd like to completely remove the program and all of its traces](#remove)
 
 ### General {#general}
@@ -37,15 +36,12 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [How to backup userdata or the logbook](#userdata-backup)
 1. [Navaids or airways are red in the flight plan table](#red-navaids)
 1. [Search result is empty](#search-empty)
-1. [I get fuel flow indications that don't match _Little Navmap_'s values](#wrong-fuel-indication)
+1. [I get fuel flow indications that do not match the values in _Little Navmap_](#wrong-fuel-indication)
 1. [Fuel planning and collection gives wrong fuel values](#wrong-fuel-planning)
 1. [I cannot see my aircraft](#connect)
 1. [The flight plan does not show up correctly in MSFS](#flightplan-msfs)
 1. [There are airways missing over France and central Europe](#airways-missing)
-1. [I see strange ILS feathers labeled `G25F, GS` and similar](#ils)
-1. [Three-letter IATA airport codes are used everywhere instead of ICAO codes](#iata)
 1. [Can I run _Little Navmap_ offline without an internet connection](#offline)
-1. [SSL Initialization Error on Windows](#ssl-init)
 1. [SSL Handshake failed on Linux](#ssl-init-linux)
 1. [_Little Navmap_ does not start on Linux](#linux-start)
 1. [_Little Navmap_ or _Little Navconnect_ pop up quickly and vanish](#start-monitor)
@@ -54,7 +50,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### Airports, scenery library, userpoint and navigation data {#scenery}
 
-1. [All airports are marked as add-on (yellow circle on map) for MSFS](#airport-addon-msfs)
 1. [Little Navmap crashes with an SQL error `unknown table fence` or similar](#crash-fence)
 1. [I cannot see any airports or navaids](#load-scenery)
 1. [I added an airport and it does not show up in _Little Navmap_](#no-airport)
@@ -103,7 +98,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### X-Plane and _Little Xpconnect_ {#xp}
 
-1. [I installed _Little Xpconnect_ but cannot find it in the X-Plane menus](#xpconnect-menus)
 1. [A pop up window says my versions are not compatible Little Xpconnect needs to be updated](#xpconnect-install)
 1. [Weather in X-Plane does not match what _Little Navmap_ displays](#xplane-weather)
 1. [I get an error message about missing directories when loading X-Plane scenery](#missing-xplane-scenery)
@@ -250,21 +244,6 @@ One false positive might occur and is no reason for concern.
 
 
 
-#### Why can I see only the X-Plane connect option [**▲**](#top) [🔗](#xplane-connection-only) {#xplane-connection-only}
-
-*Little Navmap* comes with a SimConnect library version 10.0.61259.0 (FSX SP2 / no Acceleration) and does not require a separate installation of SimConnect.
-
-The included SimConnect library is compatible with all FSX and P3D versions as well as Microsoft
-Flight Simulator 2020.
-
-The X-Plane connect option is always shown. You probably installed *Little Navmap* on a computer that has no FSX, P3D or MSFS installation.
-See [Little Navmap User Manual - Network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NETWORK.html)
-if you intend to run *Little Navmap* on a remote computer.
-
-
-
-
-
 #### I found an issue or have a proposal [**▲**](#top) [🔗](#issue-proposal) {#issue-proposal}
 
 All ideas and bugs are collected in the [Github Issues](https://github.com/albar965/littlenavmap/issues) for _Little Navmap_.
@@ -321,25 +300,13 @@ All files and folders created by _Little Navmap_ are described in the chapter [L
 _Little Navmap_ does not create any registry entries on Windows.
 
 
-#### SSL Initialization Error [**▲**](#top) [🔗](#ssl-init) {#ssl-init}
-
-**This issue was solved with the 2.6 versions of _Little Navmap_ update to the latest version.**
-
-This is caused by a missing redistributable installation for older versions of _Little Navmap_.
-
-Install both [vcredist_x64_2010.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_x64_2010.exe) and [vcredist_x86_2010.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_x86_2010.exe) to fix this issue.
-
-
 #### SSL Handshake failed on Linux [**▲**](#top) [🔗](#ssl-init-linux) {#ssl-init-linux}
 
 The problem appears when checking for updates and all other network communciaton. You see errors like `Reason: "SSL handshake failed"` in the log file.
 
 This is an issue in the Linux build. The included `libssl.so` is not loaded by Qt. Instead the not compatible version SSL version 3 is loaded on some systems.
 
-To fix this open a terminal, cd to the LNM installation folder, cd to the folder `lib` and then create a symbolic link to the library:
-
-`ln -s libssl.so libssl.so.1.1`
-
+To fix this download the hotfix [LittleNavmap-linux-22.04-2.8.7-openssl-1.1.tar.gz(]https://github.com/albar965/littlenavmap/releases/download/v2.8.7/LittleNavmap-linux-22.04-2.8.7-openssl-1.1.tar.gz) and install it according to the included `README.txt`.
 
 #### _Little Navmap_ does not start on Linux [**▲**](#top) [🔗](#linux-start) {#linux-start}
 
@@ -552,7 +519,7 @@ Note that using an ICAO code for searching will temporarily override all other o
 
 
 
-#### I get fuel flow indications that don't match _Little Navmap_'s values [**▲**](#top) [🔗](#wrong-fuel-indication) {#wrong-fuel-indication}
+#### I get fuel flow indications that do not match the values in _Little Navmap_ [**▲**](#top) [🔗](#wrong-fuel-indication) {#wrong-fuel-indication}
 
 Fuel flow in the tab `Performance` of _Little Navmap_ does not match to what the aircraft is showing.
 
@@ -626,23 +593,9 @@ _Little Navmap_ can skip these gaps when calculating a flight plan. See here for
 
 
 
-#### I see strange ILS feathers labeled `G25F, GS` and similar [**▲**](#top) [🔗](#ils) {#ils}
-
-Update _Little Navmap_ to the latest. This was fixed with version 2.6.19.
-
-These are GLS/RNAV approach facilities which will be shown in a future version of _Little Navmap_ and are already placed in the navigation database.
-
-Unfortunately I cannot remove these for the current version of _Little Navmap_.
 
 
 
-
-
-#### Three-letter IATA airport codes are used everywhere instead of ICAO codes [**▲**](#top) [🔗](#iata) {#iata}
-
-Reload the scenery library database if you see the tree-letter IATA codes on the map and in the flight plan window.
-
-The display will revert to the default ICAO codes (where available) after reloading.
 
 
 
@@ -665,14 +618,6 @@ This disables all network connections in _Little Navmap_.
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
-
-#### All airports are marked as add-on (yellow circle on map) for MSFS [**▲**](#top) [🔗](#airport-addon-msfs) {#airport-addon-msfs}
-
-Update _Little Navmap_ to the latest. This was fixed with version 2.6.18.
-
-This appears after updating MSFS to the SU9 (beta).
-
-Airports were moved to a new folder `fs-base-genericairports` which is the reason _Little Navmap_ does not recognize these as stock airports.
 
 
 
@@ -1109,14 +1054,6 @@ Alternatively, you can download the tool [Mac OS - CleanUp Quarantine Flags](htt
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
-
-
-#### I installed _Little Xpconnect_ but cannot find it in the X-Plane menus [**▲**](#top) [🔗](#xpconnect-menus) {#xpconnect-menus}
-
-_Little Xpconnect_ does not create any menus items in X-Plane.
-Installation was successful if you can find _Little Xpconnect_ in the plugin information of the X-Plane plugin manager.
-
-
 
 
 
