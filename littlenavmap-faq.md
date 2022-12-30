@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-12-28 21:00 +0100
+date:   2022-12-30 12:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -46,6 +46,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Three-letter IATA airport codes are used everywhere instead of ICAO codes](#iata)
 1. [Can I run _Little Navmap_ offline without an internet connection](#offline)
 1. [SSL Initialization Error on Windows](#ssl-init)
+1. [SSL Handshake failed on Linux](#ssl-init-linux)
 1. [_Little Navmap_ does not start on Linux](#linux-start)
 1. [_Little Navmap_ or _Little Navconnect_ pop up quickly and vanish](#start-monitor)
 1. [The program does not start and shows a message `libmarblewidget-qt5 was not found`](#start-zip)
@@ -329,21 +330,33 @@ This is caused by a missing redistributable installation for older versions of _
 Install both [vcredist_x64_2010.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_x64_2010.exe) and [vcredist_x86_2010.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_x86_2010.exe) to fix this issue.
 
 
+#### SSL Handshake failed on Linux [**▲**](#top) [🔗](#ssl-init-linux) {#ssl-init-linux}
+
+The problem appears when checking for updates and all other network communciaton. You see errors like `Reason: "SSL handshake failed"` in the log file.
+
+This is an issue in the Linux build. The included `libssl.so` is not loaded by Qt. Instead the not compatible version SSL version 3 is loaded on some systems.
+
+To fix this open a terminal, cd to the LNM installation folder, cd to the folder `lib` and then create a symbolic link to the library:
+
+`ln -s libssl.so libssl.so.1.1`
 
 
 #### _Little Navmap_ does not start on Linux [**▲**](#top) [🔗](#linux-start) {#linux-start}
 
-You can run _Little Navmap_ and generate more diagnostics by opening a terminal/shell and cd to the LNM installation folder. Enter the following:
+Commonly missing shared libraries can be installed by entering
+
+`sudo apt install libxcb-xinerama0 libxcb-icccm4`
+
+on a terminal in an Ubuntu or derived system. Use your system package manager (`rpm`, `pacman`, etc.) to install missing libraries if using another system.
+
+You can run _Little Navmap_ and generate more diagnostics by opening a terminal/shell and cd to the
+LNM installation folder if above does not help. Enter the following:
 
 `bash -c "(ldd littlenavmap && export QT_DEBUG_PLUGINS=1 && ./littlenavmap )" >start_log.txt 2>&1`
 
 This will check dependencies for _Little Navmap_, enable extra output for plugin loading, run the program and put the output into a file `start_log.txt`.
 
-Send me this file and I can check which library is missing: [Contact](https://albar965.github.io/contact.html).
-
-Alternatively you can run `ldd littlenavmap` and see yourself which libraries are missing.
-
-
+Look at the file to see missing dependencies or send me this file and I can check which library is missing: [Contact](https://albar965.github.io/contact.html).
 
 #### _Little Navmap_ or _Little Navconnect_ pop up quickly and vanish [**▲**](#top) [🔗](#start-monitor) {#start-monitor}
 
