@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2022-12-24 13:00:00 +0100
+date:   2022-12-31 13:00:00 +0100
 release-version: 2.8.7
 ---
 
@@ -79,10 +79,14 @@ release-version: 2.8.7
 ![Little Navmap](assets/images/navroute.png) **_Little Navmap_** is a free open source flight planner, navigation tool, moving map,
 airport search and airport information system for **Flight Simulator X, Prepar3D, Microsoft Flight Simulator 2020, X-Plane 11 and  X-Plane 12** is available for **Windows, Apple macOS and Linux**.
 
-**_Little Navmap_ does not use track its users and does not display advertisements.**
+**_Little Navmap_ does not track its users and does not display advertisements.**
 
 _Little Navmap_ comes with a **detailed user manual including several tutorials** which is available online as well as in PDF and other formats like EPUB.
 **Help buttons** in all relevant areas of the program display corresponding chapters in the online manual on click.
+
+A cycle 1801 database courtesy of Navigraph is included in the download and includes navaids,
+airways, airspaces, procedures and more. The **navigation data can be updated using the [Navigraph
+FMS Data Manager](https://navigraph.com/apps/navigation-data/fms-data-manager)** (subscription required).
 
 | ---- | ---- |
 | [![Little Navmap 2.2.2 spherical map projection and elevation profile with flight plan](assets/images/spherical_small.jpg)](assets/images/spherical.jpg) | [![Little Navmap 2.2.2 sun shadow on globe](assets/images/sunshadow_small.jpg)](assets/images/sunshadow.jpg) |
@@ -95,6 +99,7 @@ aircraft and ships as well as airport weather and winds aloft. A seamlessly inte
 diagram** displays taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
 
 Users can place **airport traffic patterns**, **holdings** or **minimum sector altitude diagrams** for visual guidance on the map.
+
 
 | ---- | ---- |
 | [![Little Navmap 2.4.4 winds aloft](assets/images/user_features_small.jpg)](assets/images/user_features.jpg) | [![Little Navmap 2.4.4 User Features](assets/images/wind_small.jpg)](assets/images/wind.jpg) |
@@ -139,10 +144,6 @@ automatic flight plan calculation.
 
 The program can generate an **ATS route description** from flight plans and vice versa where the output
 is widely configurable.
-
-A cycle 1801 database courtesy of Navigraph is included in the download and includes navaids,
-airways, airspaces, procedures and more. The **navigation data can be updated by the Navigraph
-FMS Data Manager**.
 
 Display of clients and centers of **VATSIM, IVAO, PilotEdge** and custom online networks.
 

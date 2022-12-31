@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Install Navigraph Updates"
-date:   2022-11-19 12:00:00 +0100
+date:   2022-12-31 13:00:00 +0100
 ---
 [Alex’ Projects](index.html) ► Little Navmap - Install Navigraph Updates
 # ![Little Navmap](assets/images/navroute.png) Little Navmap - Install Navigraph Updates
@@ -14,9 +14,10 @@ See [Little Navmap User Manual - Scenery Library Menu](https://www.littlenavmap.
 
 ## Please Note
 
-* **I recommend to use the automatic scan in the _FMS Data Manager_ which usually finds the correct path.**
+* **I recommend to use the automatic scan in the [Navigraph FMS Data Manager](https://navigraph.com/apps/navigation-data/fms-data-manager)
+which usually finds the correct path.**
 * **Use the method below only if the automatic scan does not work for you.**
-* **Close _Little Navmap_ when updating its database. _Little Navmap_ might crash otherwise. The update might also silently fail.**
+* **Close _Little Navmap_ when updating its database. The program might crash or the update might silently fail.**
 
 ### macOS Users
 
@@ -53,7 +54,7 @@ See screenshots below.
 
 You can also download the manual update from your Navigraph account. Close *Little Navmap* before copying the files.
 
-Go to [Navigraph - Manual Downloads](https://navigraph.com/downloads) and search for `Little Navmap`. 
+Go to [Navigraph - Manual Downloads](https://navigraph.com/downloads) and search for `Little Navmap`.
 You probably have to login before. Download the Zip archive for Linux no matter which operating system you use.
 
 You will get a file like `lnm_native_2211.zip`.
