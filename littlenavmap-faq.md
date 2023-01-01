@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2022-12-30 14:00 +0100
+date:   2023-01-01 15:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -47,6 +47,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [_Little Navmap_ or _Little Navconnect_ pop up quickly and vanish](#start-monitor)
 1. [The program does not start and shows a message `libmarblewidget-qt5 was not found`](#start-zip)
 1. [There is a message `SimConnect not found.` in the connect dialog window](#no-simconnect)
+1. [I see strange texts with question marks in curly brackets like `{2020.?}` in the program windows and dialogs](#strange-texts)
 
 ### Airports, scenery library, userpoint and navigation data {#scenery}
 
@@ -364,6 +365,12 @@ You can also download the files directly from the _Little Navmap_ download page:
 _Little Navmap Downloads - Windows Redistributable Packages -_ [vcredist_2015-2022.x64.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_2015-2022.x64.exe) and [vcredist_2015-2022.x86.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_2015-2022.x86.exe).
 
 Restart _Little Navmap_ after installing the packages. The error message should be gone.
+
+
+#### I see strange texts with question marks in curly brackets like `{2020.?}` in the program windows and dialogs [**▲**](#top) [🔗](#strange-texts) {#strange-texts}
+
+This is a sign for an incomplete user interface translation. Go to the _Little Navmap_ options
+dialog on page `User Interface` and select English as interface language to get rid of these artifacts.
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
