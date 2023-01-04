@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-01-01 15:00 +0100
+date:   2023-01-04 16:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -80,12 +80,9 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### Map Display {#mapdisplay}
 
-1. [I see white rectangles containing a message about contacting User:TheDJ on the map](#hillshadingissues)
 1. [The map moves jerky or I see stutters in _Little Navmap_ while scrolling or zooming](#jerky-map)
-1. [Lines disappearing](#lines-disappearing)
 1. [I cannot remove a traffic pattern, a holding or measurement lines](#remove-pattern)
 1. [Map is fuzzy and not updating](#map-no-update)
-1. [Why isn't the terrain mesh shown far North and South?](#terrain-mesh-limitations)
 1. [Map background is black](#map-black)
 1. [Can I run the program on another client computer across the network](#networking)
 1. [Can I see the program when running FSX, P3D, MSFS or X-Plane fullscreen](#sim-fullscreen)
@@ -104,7 +101,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I get an error message about missing directories when loading X-Plane scenery](#missing-xplane-scenery)
 1. [Airports missing in X-Plane scenery after reloading](#airports-missing-xplane-scenery)
 1. [I still see an older AIRAC cycle in the Scenery Libary menu for X-Plane](#update-navdata-cycle)
-1. [Little Xpconnect does not load in Ubuntu 18.04 or derived Linux distributions](#xpconnect-linux)
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
@@ -434,7 +430,8 @@ Read the linked chapter below to minimize issues when loading flight plans into 
 
 **Note that many of these issues are a result of MSFS limitations and cannot be fixed in** *Little Navmap* **.**
 
--  **Active pause in the simulator breaks the connection and does not allow to reconnect. This has already been reported to Asobo.**
+-  **Active pause in MSFS breaks the connection and does not allow to reconnect even when restarting *Little Navmap*.
+   This is a MSFS issue. Use the key `Esc` for normal pause or click the toolbar button for pause to avoid problems.**
 -  **Some third-party plugins like traffic add-ons might cause connection issues when used together with *Little Navmap*.**
 -  Autoconnect to the simulator does not work reliably.
 -  City and state names are missing in the search (fixed with *Little Navmap* 2.8.2.beta).
@@ -931,24 +928,9 @@ Another reason can be the search window taking up too much space:
 <!-- ================================================================================================ -->
 
 
-#### I see white rectangles containing a message about contacting `User:TheDJ` on the map [**▲**](#top) [🔗](#hillshadingissues) {#hillshadingissues}
-
-Update _Little Navmap_ to the latest. This was fixed with version 2.6.18.
-
-This is related to the hillshading option.
-
-The admin for the server providing the hillshading data decided to shut down the service.
-
-
 #### The map moves jerky or I see stutters in _Little Navmap_ while scrolling or zooming [**▲**](#top) [🔗](#jerky-map) {#jerky-map}
 
 You might have selected too many details. Go to main menu -&gt; `View` -&gt; `Details` -&gt; `Default Detail`.
-
-#### Lines disappearing [**▲**](#top) [🔗](#lines-disappearing) {#lines-disappearing}
-
-Parts of the flight plan disappear.
-
-This is a known error and can happen at certain zoom distances with long flight plan legs.
 
 #### I cannot remove a traffic pattern, a holding or measurement lines [**▲**](#top) [🔗](#remove-pattern) {#remove-pattern}
 
@@ -965,16 +947,6 @@ See [Little Navmap User Manual - Mouse Click Hotspots](https://www.littlenavmap.
 This can have several reasons:
 1. The server for the online map is down. These are free services where I have no influence on availability. Wait a few hours and they are usually back.
 2. Your internet connection is broken or your firewall forbids network access for _Little Navmap_.
-
-
-
-
-
-#### Why isn't the terrain mesh shown far North and South? [**▲**](#top) [🔗](#terrain-mesh-limitations) {#terrain-mesh-limitations}
-
-I installed the Global mesh for LNM, but still nothing far North and South?
-
-The GLOBAL elevation data is only for the elevation profile and altitude display in the status bar. Hillshading comes from an open server and that has known limitations and bugs. Coverage is limited. You can use another map theme which includes worldwide hillshading like the `StamenTerrain` or `OpenTopoMap`.
 
 
 
@@ -1120,26 +1092,8 @@ You have to reload the scenery library in *Little Navmap* after updating the nav
 
 
 
-#### Little Xpconnect does not load in Ubuntu 18.04 or derived Linux distributions [**▲**](#top) [🔗](#xpconnect-linux) {#xpconnect-linux}
-
-The problem is caused by a missing library. You can install this manually.
-
-`libicu55` was supported until Ubuntu 16.04 Xenial, but it is compatible with 18.04 Bionic as well.
-
-Add the following repository and install the package
-
-```
-sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
-sudo apt-get update
-sudo apt-get install libicu55
-```
-
-Thanks to Wolfgang for the tip!
-
-
-
-
-
+<!-- ================================================================================================ -->
+<!-- ================================================================================================ -->
 
 *[🔗]: Get permalink
 *[▲]: Go to top
