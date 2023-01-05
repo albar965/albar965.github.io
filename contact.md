@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2022-12-09 14:00 +0100
+date:   2023-01-05 12:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Contact and Support
@@ -25,16 +25,18 @@ Please check these pages first. Your question is probably answered there.
 
 [**► Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
+[**► Little Navmap User Manual - How to report a Bug**](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPENDIX.html#how-to-report-a-bug)
+
 ## Configuration and Log Files
 
-See [Little Navmap User Manual - Files](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPENDIX.html#how-to-report-a-bug)
-about bug reporting before sending or posting reports.
+The chapters [Little Navmap User Manual - Logs](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FILES.html#logs) and
+[Little Navmap User Manual - Menu Tools - Files and Directories](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#files-and-directories) describe how to obtain log and other files.
 
 **Please compress log and other files before sending them.**
 
 ## Email
 
-**Please use either the forum or email to avoid confusion and additional effort. Please do not use both.**
+**Please use _either the forum or email_ to avoid confusion and additional effort. Please do not use both.**
 
 The email link below is encoded to avoid spam. You have to click it to open an email editing window.
 
