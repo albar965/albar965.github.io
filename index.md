@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2022-12-31 13:00:00 +0100
+date:   2023-01-13 15:00:00 +0100
 release-version: 2.8.7
 ---
 
@@ -24,6 +24,12 @@ release-version: 2.8.7
 [**► News Archive**](archive.html)
 
 ## Little Navmap Downloads
+
+<p style="color: #c00000; background: rgba(250, 220, 220, 0.5); font-size: 1em;">
+  <b>
+    Little Navmap is free. Ask for a refund if you have paid for it.
+  </b>
+</p>
 
 <p style="color: #c00000; background: rgba(250, 220, 220, 0.5); font-size: 0.8em;">
   <b>
