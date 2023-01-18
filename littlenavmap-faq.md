@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-01-04 16:00 +0100
+date:   2023-01-18 17:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -48,6 +48,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [The program does not start and shows a message `libmarblewidget-qt5 was not found`](#start-zip)
 1. [There is a message `SimConnect not found.` in the connect dialog window](#no-simconnect)
 1. [I see strange texts with question marks in curly brackets like `{2020.?}` in the program windows and dialogs](#strange-texts)
+1. [Error version `GLIBCXX_3.4.29' not found` or smilar on Linux](#glibc-linux)
 
 ### Airports, scenery library, userpoint and navigation data {#scenery}
 
@@ -335,6 +336,22 @@ Restart _Little Navmap_ after installing the packages. The error message should 
 This is a sign for an incomplete user interface translation. Go to the _Little Navmap_ options
 dialog on page `User Interface` and select English as interface language to get rid of these artifacts.
 
+
+
+#### Error version `GLIBCXX_3.4.29' not found` or similar on Linux [**▲**](#top) [🔗](#glibc-linux) {#glibc-linux}
+
+You see an error about a missing GLIBC version on the terminal when running *Little Navmap* on Debian or other distributions:
+
+```
+./littlenavmap: /lib/x86_64-linux-gnu/libstdc++.so.6: version GLIBCXX_3.4.29' not found (required by ./littlenavmap)
+./littlenavmap: /lib/x86_64-linux-gnu/libc.so.6: version GLIBC_2.34' not found (required by ./littlenavmap)
+```
+
+Use the *Little Navmap* build based on Ubuntu 20.04. You can find it in the assets of every release on Github.
+For example [LittleNavmap-linux-20.04-2.8.8.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.8.8/LittleNavmap-linux-20.04-2.8.8.tar.gz).
+
+The functionality of this build is identical to the 22.04 builds.
+
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
@@ -394,7 +411,8 @@ Read the linked chapter below to minimize issues when loading flight plans into 
 **Note that many of these issues are a result of MSFS limitations and cannot be fixed in** *Little Navmap* **.**
 
 -  **Active pause in MSFS breaks the connection and does not allow to reconnect even when restarting *Little Navmap*.
-   This is a MSFS issue. Use the key `Esc` for normal pause or click the toolbar button for pause to avoid problems.**
+   This is a MSFS issue. Use the key `Esc` for normal pause or click the toolbar button for pause to avoid problems.
+   You can restore the connection by toggling the active pause on the toolbar button.**
 -  **Some third-party plugins like traffic add-ons might cause connection issues when used together with *Little Navmap*.**
 -  Autoconnect to the simulator does not work reliably.
 -  City and state names are missing in the search (fixed with *Little Navmap* 2.8.2.beta).

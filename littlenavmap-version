@@ -1,8 +1,8 @@
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
 
-# ---------------------------------------------------------------
-# ---------------------------------------------------------------
-# ---------------------------------------------------------------
-# ---------------------------------------------------------------
 [develop]
 version=2.7.9.develop
 downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.7.11.develop/LittleNavmap-win-2.7.11.develop.zip
@@ -75,13 +75,16 @@ changelog=
     </p>
   </body>
 
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
 
-# NEW ==================================================================================================
 [stable]
-version=2.8.7
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.8.7/LittleNavmap-win64-2.8.7.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.8.7/LittleNavmap-macOS-2.8.7.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.8.7/LittleNavmap-linux-22.04-2.8.7.tar.gz
+version=2.8.8
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.8.8/LittleNavmap-win64-2.8.8.zip
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.8.8/LittleNavmap-macOS-2.8.8.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.8.8/LittleNavmap-linux-22.04-2.8.8.tar.gz
 changelog=
   <body>
     <head>
@@ -94,8 +97,8 @@ changelog=
       </style>
     </head>
     <p style="font: x-large; font-weight: bold;"><br/><br/>
-      <a href="https://albar965.github.io/release/2022/12/22/littlenavmap-stable-287-released.html">
-      Little Navmap Stable Version 2.8.7 released
+      <a href="https://albar965.github.io/release/2023/01/18/littlenavmap-stable-288-released.html">
+      Little Navmap Stable Version 2.8.8 released
       </a>
     </p>
     <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
@@ -103,7 +106,7 @@ changelog=
     </p>
     <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
       Note that you need to download the 32-bit version<br/>
-      from the <a href="https://albar965.github.io/release/2022/12/22/littlenavmap-stable-287-released.html">link above</a>
+      from the <a href="https://albar965.github.io/release/2023/01/18/littlenavmap-stable-288-released.html">link above</a>
       if you use FSX or Prepar3D.
     </p>
   </body>
