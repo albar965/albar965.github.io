@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-01-18 17:00 +0100
+date:   2023-02-02 14:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -31,6 +31,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I found an issue or have a proposal](#issue-proposal)
 1. [The program crashes](#crash)
 1. [The program does not start and Windows shows an error message](#no-start)
+1. [**Aircraft display on the map freezes when using MSFS**](#active-pause)
 1. [How can I create a flight plan](#flightplan)
 1. [The map is jumping around randomly while flying](#aircraft-center)
 1. [How to backup userdata or the logbook](#userdata-backup)
@@ -99,6 +100,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 1. [A pop up window says my versions are not compatible Little Xpconnect needs to be updated](#xpconnect-install)
 1. [Weather in X-Plane does not match what _Little Navmap_ displays](#xplane-weather)
+1. [*Little Navmap* shows an error message about file `METAR.rwx` or directory `Output/real weather` does not exist](#xplane-weather-missing)
 1. [I get an error message about missing directories when loading X-Plane scenery](#missing-xplane-scenery)
 1. [Airports missing in X-Plane scenery after reloading](#airports-missing-xplane-scenery)
 1. [I still see an older AIRAC cycle in the Scenery Libary menu for X-Plane](#update-navdata-cycle)
@@ -262,6 +264,15 @@ Other problems on Windows:
 * You double clicked the file `littlenavmap.exe.simconnect` which is not the executable file. Double clicking on this will show a dialog where Windows asks for a program to open it. Double click on `littlenamvmap.exe` (light blue globe icon) to open _Little Navmap_.
 * You probably downloaded the wrong Zip archive containing only the source files or an archive for another operating system. In both cases the file `littlenamvmap.exe` is missing.
 
+#### Aircraft display on the map freezes when using MSFS [**▲**](#top) [🔗](#active-pause) {#active-pause}
+
+This is a known issue in MSFS introduced with SU11.
+
+The function active pause in MSFS breaks the connection and does not allow to reconnect even when restarting *Little Navmap*.
+Use the key `Esc` for normal pause or click the toolbar button for pause to avoid problems.
+
+You can also start active pause as usual and stop it using the active pause toolbar button. This keeps the connection stable.
+
 #### I'd like to completely remove the program and all of its traces [**▲**](#top) [🔗](#remove) {#remove}
 
 All files and folders created by _Little Navmap_ are described in the chapter [Little Navmap User Manual - Files](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FILES.html) in the manual.
@@ -412,7 +423,7 @@ Read the linked chapter below to minimize issues when loading flight plans into 
 
 -  **Active pause in MSFS breaks the connection and does not allow to reconnect even when restarting *Little Navmap*.
    This is a MSFS issue. Use the key `Esc` for normal pause or click the toolbar button for pause to avoid problems.
-   You can restore the connection by toggling the active pause on the toolbar button.**
+   You can also start active pause as usual and stop it using the active pause toolbar button. This keeps the connection stable.**
 -  **Some third-party plugins like traffic add-ons might cause connection issues when used together with *Little Navmap*.**
 -  Autoconnect to the simulator does not work reliably.
 -  City and state names are missing in the search (fixed with *Little Navmap* 2.8.2.beta).
@@ -875,11 +886,25 @@ You can see the path of the (wrongly) loaded plugin in the X-Plane plugin manage
 
 #### Weather in X-Plane does not match what _Little Navmap_ displays [**▲**](#top) [🔗](#xplane-weather) {#xplane-weather}
 
-The X-Plane weather interface is very limited.
+The X-Plane weather interface is limited.
 
 _Little Navmap_ can only read the X-Plane weather file `METAR.rwx` and display only the nearest weather report for an airport in some cases.
 
 There is no information available how and if X-Plane interpolates weather between stations. Therefore, the nearest weather and even the station weather might not match.
+
+#### *Little Navmap* shows an error message about file `.../X-Plane 11/METAR.rwx` or directory `.../X-Plane 12/Output/real weather` does not exist [**▲**](#top) [🔗](#xplane-weather-missing) {#xplane-weather-missing}
+
+*Little Navmap* reads weather information the file or directory and either one is missing.
+This can happen if you never have used X-Plane with real weather.
+
+Start X-Plane once using real weather as a workaround.
+Note that you will get wrong weather indications if you used X-Plane with real weather some time ago and stopped doing so.
+
+Functions that trigger access to X-Plane weather files:
+
+- Menu `Weather` -> `Airport Weather Source` -> `Flight Simulator`
+- Menu `Weather` -> `Wind Source` -> `Flight Simulator`
+- All `Flight Simulator` boxes on options page `Weather`
 
 #### I get an error message about missing directories when loading X-Plane scenery [**▲**](#top) [🔗](#missing-xplane-scenery) {#missing-xplane-scenery}
 
