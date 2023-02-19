@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-02-02 14:00 +0100
+date:   2023-02-19 13:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -30,7 +30,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Where are the log and configuration files?](#log-and-config-files)
 1. [I found an issue or have a proposal](#issue-proposal)
 1. [The program crashes](#crash)
-1. [The program does not start and Windows shows an error message](#no-start)
+1. [**The program does not start and Windows shows an error message**](#no-start)
 1. [**Aircraft display on the map freezes when using MSFS**](#active-pause)
 1. [How can I create a flight plan](#flightplan)
 1. [The map is jumping around randomly while flying](#aircraft-center)
@@ -46,7 +46,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [SSL Handshake failed on Linux](#ssl-init-linux)
 1. [_Little Navmap_ does not start on Linux](#linux-start)
 1. [_Little Navmap_ or _Little Navconnect_ pop up quickly and vanish](#start-monitor)
-1. [The program does not start and shows a message `libmarblewidget-qt5 was not found`](#start-zip)
 1. [There is a message `SimConnect not found.` in the connect dialog window](#no-simconnect)
 1. [I see strange texts with question marks in curly brackets like `{2020.?}` in the program windows and dialogs](#strange-texts)
 1. [Error version `GLIBCXX_3.4.29' not found` or smilar on Linux](#glibc-linux)
@@ -255,14 +254,11 @@ Windows shows an error message `cannot proceed because libmarblewidget-qt5.dll w
 
 This can have several reasons:
 
-* Not all files were extracted and the mentioned DLL file is missing. Check if it can be found in the same folder as the `littlenamvmap.exe`.
-* Anti-virus put the DLL into quarantine.
-* You start the program using a shortcut (`.lnk` file) and the working directory is not the *Little Navmap* folder (the one with the `littlenamvmap.exe`). The working directory can be changed in the link properties in input field `Start In`.
-
-Other problems on Windows:
-
-* You double clicked the file `littlenavmap.exe.simconnect` which is not the executable file. Double clicking on this will show a dialog where Windows asks for a program to open it. Double click on `littlenamvmap.exe` (light blue globe icon) to open _Little Navmap_.
-* You probably downloaded the wrong Zip archive containing only the source files or an archive for another operating system. In both cases the file `littlenamvmap.exe` is missing.
+* You're starting the program from the Windows Explorer Zip view. You have to extract the Zip archive before running _Little Navmap_.
+* You downloaded the wrong Zip archive containing only the source files or an archive for another operating system. In both cases the file `littlenamvmap.exe` is missing and you try to start a different file.
+* Not all files were extracted and the mentioned DLL file is missing. Check if it can be found in the same folder as the `littlenamvmap.exe`. Try to download and install again.
+* Anti-virus put the DLL into quarantine. This is a false positive since all _Little Navmap_ files are checked by [VirusTotal](https://www.virustotal.com/) before release.
+* You start the program using a shortcut (`.lnk` file) and the working directory is not the *Little Navmap* installation folder (the one with the `littlenamvmap.exe`). The working directory can be changed in the link properties in input field `Start In`.
 
 #### Aircraft display on the map freezes when using MSFS [**▲**](#top) [🔗](#active-pause) {#active-pause}
 
@@ -311,13 +307,6 @@ The progam still opens on the vanished monitor since the screen space is still v
 
 Remove the monitor from the system settings or check if it still present.
 _Little Navmap_ or _Little Navconnect_ will relocate their main windows once they detect that they are off space.
-
-#### The program does not start and shows a message `libmarblewidget-qt5 was not found` [**▲**](#top) [🔗](#start-zip) {#start-zip}
-
-You see an error message `the code excution cannot proceed because libmarblewidget-qt5 was not found.` when double clicking the file `littlenavmap.exe`.
-
-You're starting the program from the Windows Explorer Zip view.
-You have to extract the Zip archive before running _Little Navmap_.
 
 #### There is a message `SimConnect not found.` in the connect dialog window [**▲**](#top) [🔗](#no-simconnect) {#no-simconnect}
 
@@ -810,13 +799,15 @@ You might have selected too many details. Go to main menu -&gt; `View` -&gt; `De
 
 #### I cannot remove a traffic pattern, a holding or measurement lines [**▲**](#top) [🔗](#remove-pattern) {#remove-pattern}
 
-You have to right-click on the hotspot.
+You have to right-click on the hotspot and select `Remove ...` from the context menu.
 
-See [Little Navmap User Manual - Mouse Click Hotspots](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MAPDISPLAY.html#mouse-click-hotspots).
+See [Little Navmap User Manual - Mouse Click Hotspots](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MAPDISPLAY.html#mouse-click-hotspots)
+for more information.
 
 #### Map is fuzzy and not updating [**▲**](#top) [🔗](#map-no-update) {#map-no-update}
 
 This can have several reasons:
+
 1. The server for the online map is down. These are free services where I have no influence on availability. Wait a few hours and they are usually back.
 2. Your internet connection is broken or your firewall forbids network access for _Little Navmap_.
 
