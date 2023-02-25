@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-02-19 13:00 +0100
+date:   2023-02-25 13:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -37,6 +37,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [How to backup userdata or the logbook](#userdata-backup)
 1. [Navaids or airways are red in the flight plan table](#red-navaids)
 1. [Search result is empty](#search-empty)
+1. [Actual aircraft altitude differs from indicated despite correct baro settings](#altitude-correction)
 1. [I get fuel flow indications that do not match the values in _Little Navmap_](#wrong-fuel-indication)
 1. [Fuel planning and collection gives wrong fuel values](#wrong-fuel-planning)
 1. [I cannot see my aircraft](#connect)
@@ -262,7 +263,9 @@ This can have several reasons:
 
 #### Aircraft display on the map freezes when using MSFS [**▲**](#top) [🔗](#active-pause) {#active-pause}
 
-This is a known issue in MSFS introduced with SU11.
+**Note: This issue was fixed with the MSFS SU12 beta update.**
+
+This is an issue in MSFS introduced with SU11.
 
 The function active pause in MSFS breaks the connection and does not allow to reconnect even when restarting *Little Navmap*.
 Use the key `Esc` for normal pause or click the toolbar button for pause to avoid problems.
@@ -276,6 +279,8 @@ All files and folders created by _Little Navmap_ are described in the chapter [L
 _Little Navmap_ does not create any registry entries on Windows.
 
 #### SSL Handshake failed on Linux [**▲**](#top) [🔗](#ssl-init-linux) {#ssl-init-linux}
+
+**Note: This issue was fixed with the Little Navmap version 2.8.8. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
 
 The problem appears when checking for updates and all other network communciaton. You see errors like `Reason: "SSL handshake failed"` in the log file.
 
@@ -335,8 +340,6 @@ Restart _Little Navmap_ after installing the packages. The error message should 
 
 This is a sign for an incomplete user interface translation. Go to the _Little Navmap_ options
 dialog on page `User Interface` and select English as interface language to get rid of these artifacts.
-
-
 
 #### Error version `GLIBCXX_3.4.29' not found` or similar on Linux [**▲**](#top) [🔗](#glibc-linux) {#glibc-linux}
 
@@ -485,6 +488,23 @@ the result table or press `Ctrl+R` to clear all search criteria.
 
 Note that using an ICAO code for searching will temporarily override all other options. This helps to do a quick search for an airport.
 
+#### Actual aircraft altitude differs from indicated despite correct baro settings [**▲**](#top) [🔗](#altitude-correction) {#altitude-correction}
+
+Actual altitude shown in *Little Navmap* might differ from indicated altitude even with a correct baro setting.
+
+This is an effect of the outside air temperature (OAT) on actual altitude where low temperatures affect the aircraft altimeter.
+When temperature is less than ISA conditions an aircraft will be lower than the altimeter reading.
+
+This effect is currently modeled in X-Plane 12 and MSFS.
+
+Corrections have to be applied when the aerodrome temperature is 0°C or colder:
+
+- DH/DA or MDH/MDA and step-down fixes inside the final approach fix (FAF).
+- All low altitude approach procedure altitudes in mountainous regions (terrain of 3000 ft AMSL or higher)
+
+See [SKYbrary - Altimeter Temperature Error Correction](https://skybrary.aero/articles/altimeter-temperature-error-correction)
+for more information.
+
 #### I get fuel flow indications that do not match the values in _Little Navmap_ [**▲**](#top) [🔗](#wrong-fuel-indication) {#wrong-fuel-indication}
 
 Fuel flow in the tab `Performance` of _Little Navmap_ does not match to what the aircraft is showing.
@@ -557,6 +577,7 @@ This disables all network connections in _Little Navmap_.
 #### Little Navmap crashes with an SQL error `unknown table fence` or similar [**▲**](#top) [🔗](#crash-fence) {#crash-fence}
 
 You're using a very old version of _Little Navmap_ with a new database. Update _Little Navmap_ to the latest version to fix this.
+See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.
 
 #### I cannot see any airports or navaids [**▲**](#top) [🔗](#load-scenery) {#load-scenery}
 
@@ -697,7 +718,7 @@ Detection problems can usually caused by file permission issues, missing files /
 
 #### Error `Caught exception: NOT NULL constraint failed: tmp_waypoint.region ...` when loading the scenery library [**▲**](#top) [🔗](#msfs-scenery-library-no-region) {#msfs-scenery-library-no-region}
 
-Note: This issue was fixed with the Little Navmap beta 2.8 versions. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.
+**Note: This issue was fixed with the Little Navmap beta 2.8 versions. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
 
 The problem is caused by a faulty add-on which inserts waypoints without the two-letter ICAO region code into the scenery library. This causes the error.
 
@@ -722,7 +743,7 @@ Reload the scenery library and the issue should be gone.
 
 #### Error reading `.../Content.xml“ on line 6 column 13: premature end of document` when loading the scenery library [**▲**](#top) [🔗](#msfs-scenery-library-content-xml) {#msfs-scenery-library-content-xml}
 
-Note: This issue was fixed with the *Little Navmap* beta 2.8 versions. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.
+**Note: This issue was fixed with the *Little Navmap* beta 2.8 versions. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
 
 The file `Content.xml` was changed with the MSFS update SU10. The new and changed format will only be written if you install MSFS or if you use development functions in MSFS to reorganize the scenery package priority.
 
@@ -743,6 +764,8 @@ Do the following to fix this:
 Note that this also removes all undo/redo steps from the database.
 
 The error should not appear again.
+
+**Note: This root issue was fixed with the Little Navmap stable version 2.8.8. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
@@ -833,6 +856,7 @@ You can not. But you can:
 1. Use an old second monitor for the map before throwing it away.
 2. Take an old and slow notebook and use it in networked mode. _Little Navmap_ is happy with 2 GB of ram and there are options to speed up map display. This notebook can run Linux or macOS. Have a look at the manual here: [Little Navmap User Manual - How to run a network Setup](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INTRO.html#network-setup)
 3. Run the simulator in seamless window mode. Then you can `Alt+Tab` between applications.
+4. Try one of the tools mentioned in this thread: [Avsim - littlenavmap in vr](https://www.avsim.com/forums/topic/627045-littlenavmap-in-vr/).
 
 #### The map window is not visible or shows only a gray surface [**▲**](#top) [🔗](#map-hidden) {#map-hidden}
 
@@ -879,7 +903,7 @@ You can see the path of the (wrongly) loaded plugin in the X-Plane plugin manage
 
 The X-Plane weather interface is limited.
 
-_Little Navmap_ can only read the X-Plane weather file `METAR.rwx` and display only the nearest weather report for an airport in some cases.
+_Little Navmap_ can only read the X-Plane 11 ``METAR.rwx`` and ``global_winds.grib`` files as well as the X-Plane 12 ``Output/real weather`` folder for weather information. Only the nearest weather report for an airport is available in some cases.
 
 There is no information available how and if X-Plane interpolates weather between stations. Therefore, the nearest weather and even the station weather might not match.
 
