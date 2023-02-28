@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-02-25 13:00 +0100
+date:   2023-02-28 12:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -451,8 +451,6 @@ You can also revert to simple aircraft centering, for example. The default value
 
 If you switch to normal zooming you can change the level of zoom with the mouse wheel or other methods.
 
-**Please also read the note about the special gestures in the linked manual chapter above.**
-
 #### How to backup userdata or the logbook [**▲**](#top) [🔗](#userdata-backup) {#userdata-backup}
 
 One way to back up is export all into a CSV file. This covers all used fields.
@@ -542,7 +540,7 @@ The following issues are known so far:
 - MSFS uses turn anticipation which may result in wrong flight plan display in the GPS units or autopilot behavior. The GPS or autopilot will take a shortcut for hard turns which sometimes messes up a flight plan, for example. Turn anticipation is a function performed by FMS or RNAV devices to tell the pilot when to initiate a turn to the next waypoint on the programmed flight path to avoid overshooting the programmed course.
 - Altitude at waypoints and sometimes the cruise altitude is ignored and replaced by MSFS' own idea of a climb and descent profile which has nothing to do with the *Little Navmap* profile. This happens despite *Little Navmap* saving the altitude for each waypoint.
 - Flight plan names must not contains special characters like umlauts or accents. *Little Navmap* replaces these automatically when exporting a plan.
-- Loading a flight plan containing user defined points (coordinates) results in some positions of the plan placed at the North Pole. **Note this was fixed with a Navigraph update AIRAC Cycle 2209 rev.2.**
+- Loading a flight plan containing user defined points (coordinates) results in some positions of the plan placed at the North Pole. **Note this was fixed with the MSFS SU12 Beta or Navigraph update AIRAC Cycle 2209 rev.2.**
 
 Apart from these issues above you might see MSFS crashes or corrupted flight plans when loading.
 
