@@ -1,12 +1,15 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-02-28 12:00 +0100
+date:   2023-03-06 13:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
 
 # ![Little Navmap](assets/images/navroute.png) Little Navmap - Frequently asked Questions {#top}
+
+**Always update to the latest version if you have issues. The latest can be found here:
+[Alex’ Projects - Little Navmap Downloads](https://albar965.github.io/index.html).**
 
 **Use your browser search function (usually `Ctrl+F` for Windows and Linux or `⌘+F` for macOS) to find topics or keywords.**
 
@@ -53,6 +56,8 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### Airports, scenery library, userpoint and navigation data {#scenery}
 
+1. [**Encrypted add-on found. Add-on might not show up correctly.**](#msfs-notes-encrypted)
+1. [**Found 10 notes in 12 scenery entries when loading the scenery database**](#msfs-notes)
 1. [Little Navmap crashes with an SQL error `unknown table fence` or similar](#crash-fence)
 1. [I cannot see any airports or navaids](#load-scenery)
 1. [I added an airport and it does not show up in _Little Navmap_](#no-airport)
@@ -98,6 +103,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### X-Plane and _Little Xpconnect_ {#xp}
 
+1. [X-Plane shows a warning or error message after trying to load a flight plan in the stock GPS or FMS](#fms-export-issues)
 1. [A pop up window says my versions are not compatible Little Xpconnect needs to be updated](#xpconnect-install)
 1. [Weather in X-Plane does not match what _Little Navmap_ displays](#xplane-weather)
 1. [*Little Navmap* shows an error message about file `METAR.rwx` or directory `Output/real weather` does not exist](#xplane-weather-missing)
@@ -572,6 +578,26 @@ This disables all network connections in _Little Navmap_.
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
+#### Encrypted add-on found. Add-on might not show up correctly [**▲**](#top) [🔗](#msfs-notes-encrypted) {#msfs-notes-encrypted}
+
+See next topic below.
+
+#### Found 10 notes in 12 scenery entries when loading the scenery database [**▲**](#top) [🔗](#msfs-notes) {#msfs-notes}
+
+This message appears after loading the MSFS scenery library. Numbers will differ.
+
+Futhermore there are one or more messages like the one below:
+
+```
+Scenery Title: OneStore
+Encrypted add-on "asobo-airport-eddf-frankfurt" found. Add-on might not show up correctly.
+```
+
+This is not an error message but merely a reminder that the layout of encrypted payware aiports in _Little Navmap_ might not match what you see in the simulator.
+You can still use the airport for flight planning but taxiways, parking spots and aprons might probably differ.
+
+This is related to [A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_](#no-airport-msfs). See there for more information.
+
 #### Little Navmap crashes with an SQL error `unknown table fence` or similar [**▲**](#top) [🔗](#crash-fence) {#crash-fence}
 
 You're using a very old version of _Little Navmap_ with a new database. Update _Little Navmap_ to the latest version to fix this.
@@ -629,9 +655,9 @@ Encrypted add-on airports in MSFS cannot be read by *Little Navmap*.
 
 The add-on is locked down with a DRM ([Digital _Restriction_ Management](https://en.wikipedia.org/wiki/Digital_rights_management)) scheme if you find a file `BGL.fsarchive` in the add-on folders. *Little Navmap* will not show a new airport or only the stock airport if an add-on replaces a stock one.
 
-Buy add-ons directly from developers instead of the Microsoft market which enforces encryption. Alternatively you can also use and support freeware scenery.
+You can still use the stock airport shown in _Little Navmap_ for flight planning but keep in mind that parking, taxiways or aprons might probably look different in the simulator.
 
-See also [Little Navmap User Manual - Known Issues](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/APPENDIX.html#microsoft-flight-simulator-2020).
+Buy add-ons directly from developers instead of the Microsoft market which enforces encryption. Alternatively you can also use and support freeware scenery.
 
 #### How can I update the navdata to the latest cycle [**▲**](#top) [🔗](#update-navdata) {#update-navdata}
 
@@ -885,6 +911,10 @@ Alternatively, you can download the tool [Mac OS - CleanUp Quarantine Flags](htt
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
+
+#### X-Plane shows a warning or error message after trying to load a flight plan in the stock GPS or FMS [**▲**](#top) [🔗](#fms-export-issues) {#fms-export-issues}
+
+See the user manual for more information about these issues: [Little Navmap User Manual - FMS Export Issues](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FLIGHTPLANFMT.html#fms-export-issues).
 
 #### A pop up window says my versions are not compatible Little Xpconnect needs to be updated [**▲**](#top) [🔗](#xpconnect-install) {#xpconnect-install}
 
