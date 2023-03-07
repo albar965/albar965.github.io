@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-03-06 13:00 +0100
+date:   2023-03-07 15:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -44,6 +44,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I get fuel flow indications that do not match the values in _Little Navmap_](#wrong-fuel-indication)
 1. [Fuel planning and collection gives wrong fuel values](#wrong-fuel-planning)
 1. [I cannot see my aircraft](#connect)
+1. [AI or online aircraft are only visible when zooming in close](#ai-hidden)
 1. [The flight plan does not show up correctly in MSFS](#flightplan-msfs)
 1. [There are airways missing over France and central Europe](#airways-missing)
 1. [Can I run _Little Navmap_ offline without an internet connection](#offline)
@@ -533,6 +534,17 @@ It might also be beneficial to create different profiles for different cruise al
 *Little Navmap* does not connect automatically to a simulator per default. You have to go to the main menu -&gt; `Tools` -&gt; `Flight Simulator Connection`.
 
 See [Little Navmap User Manual - Connecting to a Flight Simulator](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/CONNECT.html).
+
+#### AI or online aircraft are only visible when zooming in close [**▲**](#top) [🔗](#ai-hidden) {#ai-hidden}
+
+Some online or AI tools do not provide enough or wrong information
+for the aircraft injected into the simulator. As a result, _Little Navmap_ considers all
+aircraft on ground and hides them on higher zoom levels.
+
+You can install the configuration file from the download below to override this behavior and keep the aircraft visible:
+[Little Navmap Downloads - Customization - 	Map Layers on-ground Aircraft.zip](https://www.littlenavmap.org/downloads/Customization/Map%20Layers%20on-ground%20Aircraft.zip).
+
+Note that installing this configuration might result in a map cluttered up with more AI or online aircraft at airports.
 
 #### The flight plan does not show up correctly in MSFS [**▲**](#top) [🔗](#flightplan-msfs) {#flightplan-msfs}
 
