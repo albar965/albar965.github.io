@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2023-01-05 12:00 +0100
+date:   2023-03-27 15:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Contact and Support
@@ -40,9 +40,12 @@ The chapters [Little Navmap User Manual - Logs](https://www.littlenavmap.org/man
 
 The email link below is encoded to avoid spam. You have to click it to open an email editing window.
 
-<a href="alex AT littlenavmap DOT org"
-   rel="nofollow"
-   onclick="this.href='mailto:' + 'alex' + '@' + 'little' + 'nav' + 'map' + '.' + 'org'"
-   onmouseleave="this.href='alex AT littlenavmap DOT org'"><span class="bold">► Contact me by email</span></a>,
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#108;&#101;&#120;&#32;&#65;&#84;&#32;&#108;&#105;&#116;&#116;&#108;&#101;&#110;&#97;&#118;&#109;&#97;&#112;&#32;&#68;&#79;&#84;&#32;&#111;&#114;&#103;" rel="nofollow"
+   onmouseenter="this.href='mailto:' +  'alex' + '@' + 'little' + 'nav' + 'map' + '.' + 'org'"
+   onmouseleave="this.href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#108;&#101;&#120;&#32;&#65;&#84;&#32;&#108;&#105;&#116;&#116;&#108;&#101;&#110;&#97;&#118;&#109;&#97;&#112;&#32;&#68;&#79;&#84;&#32;&#111;&#114;&#103;'">
+   <span class="bold">► Click here to contact me by email (&#97;lex<!-- mimi@momomo.tv -->
+   AT<!-- a@example.org -->  littlenavmap
+   <!-- @lnm -->  DOT<!-- @lnm.com -->  or&#103;)</span>
+</a>,
 <a rel="pgpkey" href="alex@littlenavmap.org.pubkey.asc">PGP Public Key</a> (English / Deutsch).
 
