@@ -1,7 +1,8 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-03-07 15:00 +0100
+date:   2023-04-06 15:00 +0100
+release-version: 2.8.9
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -34,7 +35,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I found an issue or have a proposal](#issue-proposal)
 1. [The program crashes](#crash)
 1. [**The program does not start and Windows shows an error message**](#no-start)
-1. [**Aircraft display on the map freezes when using MSFS**](#active-pause)
 1. [How can I create a flight plan](#flightplan)
 1. [The map is jumping around randomly while flying](#aircraft-center)
 1. [How to backup userdata or the logbook](#userdata-backup)
@@ -181,7 +181,7 @@ If nothing helps, report an issue either in the [**Support Forum at _Avsim_**](h
    or press `Ctrl+R` to clear all search criteria.
 -  **Search or flight plan tables shows strange column names
    like** `airport_id` **or others:** This can happen if the
-   program is updated. Use :ref:`reset-view` in the context menu of the
+   program is updated. Use `Reset View` in the context menu of the
    result table.
 -  **The flight plan elevation profile has errors or invalid elevation
    data:** The online elevation data contains several known errors. Use
@@ -268,17 +268,6 @@ This can have several reasons:
 * Anti-virus put the DLL into quarantine. This is a false positive since all _Little Navmap_ files are checked by [VirusTotal](https://www.virustotal.com/) before release.
 * You start the program using a shortcut (`.lnk` file) and the working directory is not the *Little Navmap* installation folder (the one with the `littlenamvmap.exe`). The working directory can be changed in the link properties in input field `Start In`.
 
-#### Aircraft display on the map freezes when using MSFS [**▲**](#top) [🔗](#active-pause) {#active-pause}
-
-**Note: This issue was fixed with the MSFS SU12 beta update.**
-
-This is an issue in MSFS introduced with SU11.
-
-The function active pause in MSFS breaks the connection and does not allow to reconnect even when restarting *Little Navmap*.
-Use the key `Esc` for normal pause or click the toolbar button for pause to avoid problems.
-
-You can also start active pause as usual and stop it using the active pause toolbar button. This keeps the connection stable.
-
 #### I'd like to completely remove the program and all of its traces [**▲**](#top) [🔗](#remove) {#remove}
 
 All files and folders created by _Little Navmap_ are described in the chapter [Little Navmap User Manual - Files](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FILES.html) in the manual.
@@ -297,9 +286,9 @@ To fix this download the hotfix [LittleNavmap-linux-22.04-2.8.7-openssl-1.1.tar.
 
 #### _Little Navmap_ does not start on Linux [**▲**](#top) [🔗](#linux-start) {#linux-start}
 
-Commonly missing shared libraries can be installed by entering
+Commonly missing shared libraries can be installed by entering `sudo apt install libxcb-xinerama0 libxcb-icccm4`.
 
-`sudo apt install libxcb-xinerama0 libxcb-icccm4`
+Also missing might be `qt5dxcb` which can be installed with `sudo apt install qt5dxcb-plugin`.
 
 on a terminal in an Ubuntu or derived system. Use your system package manager (`rpm`, `pacman`, etc.) to install missing libraries if using another system.
 
@@ -358,7 +347,7 @@ You see an error about a missing GLIBC version on the terminal when running *Lit
 ```
 
 Use the *Little Navmap* build based on Ubuntu 20.04. You can find it in the assets of every release on Github.
-For example [LittleNavmap-linux-20.04-2.8.8.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v2.8.8/LittleNavmap-linux-20.04-2.8.8.tar.gz).
+For example [LittleNavmap-linux-20.04-{{ page.release-version }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-20.04-{{ page.release-version }}.tar.gz).
 
 The functionality of this build is identical to the 22.04 builds.
 
@@ -420,12 +409,6 @@ Read the linked chapter below to minimize issues when loading flight plans into 
 
 **Note that many of these issues are a result of MSFS limitations and cannot be fixed in** *Little Navmap* **.**
 
--  **Active pause in MSFS breaks the connection and does not allow to reconnect even when restarting *Little Navmap*.
-   This is a MSFS issue. Use the key `Esc` for normal pause or click the toolbar button for pause to avoid problems.
-   You can also start active pause as usual and stop it using the active pause toolbar button. This keeps the connection stable.**
--  **Some third-party plugins like traffic add-ons might cause connection issues when used together with *Little Navmap*.**
--  Autoconnect to the simulator does not work reliably.
--  City and state names are missing in the search (fixed with *Little Navmap* 2.8.2.beta).
 -  Navdata updates are not read properly from the MSFS scenery library. This is in general no issue
    since you can also update the navdata in *Little Navmap* with the Navigraph FMS Data Manager to keep the
    program in sync with MSFS. Stock data is not affected by this. See :ref:`load-scenery-library-dialog-msfs-apt-navdata`.
@@ -558,7 +541,6 @@ The following issues are known so far:
 - MSFS uses turn anticipation which may result in wrong flight plan display in the GPS units or autopilot behavior. The GPS or autopilot will take a shortcut for hard turns which sometimes messes up a flight plan, for example. Turn anticipation is a function performed by FMS or RNAV devices to tell the pilot when to initiate a turn to the next waypoint on the programmed flight path to avoid overshooting the programmed course.
 - Altitude at waypoints and sometimes the cruise altitude is ignored and replaced by MSFS' own idea of a climb and descent profile which has nothing to do with the *Little Navmap* profile. This happens despite *Little Navmap* saving the altitude for each waypoint.
 - Flight plan names must not contains special characters like umlauts or accents. *Little Navmap* replaces these automatically when exporting a plan.
-- Loading a flight plan containing user defined points (coordinates) results in some positions of the plan placed at the North Pole. **Note this was fixed with the MSFS SU12 Beta or Navigraph update AIRAC Cycle 2209 rev.2.**
 
 Apart from these issues above you might see MSFS crashes or corrupted flight plans when loading.
 
