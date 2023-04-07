@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 date:   2023-04-06 15:00 +0100
-release-version: 2.8.9
+release-version: 2.8.10
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions

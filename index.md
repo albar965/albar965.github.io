@@ -2,7 +2,7 @@
 layout: index
 title:  "Alex' Projects"
 date:   2023-03-07 15:00:00 +0100
-release-version: 2.8.9
+release-version: 2.8.10
 ---
 
 # Alex' Projects
