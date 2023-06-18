@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2023-06-18 12:00:00 +0100
+date:   2023-06-18 14:00:00 +0100
 release-version: 2.8.11
 ---
 
@@ -70,6 +70,8 @@ release-version: 2.8.11
 [**► Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
 [**► Downloads**](https://www.littlenavmap.org/downloads) Aircraft performance profiles and more.
+
+[**► Links**](links.html) A list of open source tools used to create *Little Navmap*.
 
 [► GitHub Profile](https://github.com/albar965) All my projects, releases, source code, issue lists and more.
 
