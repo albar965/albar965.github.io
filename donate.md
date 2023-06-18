@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Donations / Spenden"
-date:   2023-01-27 12:00:00 +0100
+date:   2023-06-18 12:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Donations / Spenden
@@ -11,9 +11,11 @@ date:   2023-01-27 12:00:00 +0100
 Little Navmap and all of my other programs are made available free of charge.
 I have no plans to change this. Donations are purely optional but greatly appreciated.
 
-<br/>
+**If you would like to show your appreciation you can donate here.**
 
-**If you would like to show your appreciation you can donate here using PayPal:**
+If you prefer an **EU bank transfer**, just send me an email and I will send back my bank account details.
+
+## PayPal
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -23,26 +25,39 @@ I have no plans to change this. Donations are purely optional but greatly apprec
 <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-<br/>
+## Stripe
 
-**Or support me on GitHub:**
+**Stripe allows various payment methods like credit cards.**
+
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1NKKYRIxpobJArOgQVc2JGgp"
+  publishable-key="pk_live_51N6E61IxpobJArOgatDvdpitdvHj8EcNxiYyIFpPYecPv7yYszpAKqIZ6e5SbqnGcpe1KcU315HfjOODdhgf7DdY00tK4YANXE"
+>
+
+</stripe-buy-button>
+
+![Stripe EU / EUR](assets/images/qr_6oE7sEcYg51e2LS9AC.png){:width="15%"}
+
+## GitHub Sponsors
+
 <p>
 <iframe src="https://github.com/sponsors/albar965/button" title="Sponsor albar965" height="35" width="116" style="border: 0;"></iframe>
 </p>
-
-<br/>
-
-If you prefer an EU bank transfer, just send me an email and I will send back my bank account details.
-
 
 # Spenden
 
 Little Navmap und all meine anderen Programme werden kostenlos zur Verfügung gestellt.
 Ich beabsichtige nicht, dies zu ändern. Spenden sind und bleiben vollkommen freiwillig.
 
-<br/>
+**Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten, können Sie hier spenden.**
 
-**Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten, können Sie hier per PayPal spenden:**
+Wenn Sie eine **EU-Banküberweisung** bevorzugen, schicken Sie mir einfach eine E-Mail und ich werde Ihnen meine Kontodaten zurücksenden.
+
+## PayPal
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -51,14 +66,14 @@ Ich beabsichtige nicht, dies zu ändern. Spenden sind und bleiben vollkommen fre
 <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-<br/>
+## Stripe
 
-**Oder mich auf GitHub als Sponsor unterstützen:**
+**Stripe erlaubt verschiedene Zahlungsmethoden, wie Sofort, Klarna oder Kreditkarten.**
+
+[**► Hier klicken, um zu Stripe zu gelangen**](https://donate.stripe.com/6oE7sEcYg51e2LS9AC).
+
+## GitHub Sponsors
+
 <p>
 <iframe src="https://github.com/sponsors/albar965/button" title="Sponsor albar965" height="35" width="116" style="border: 0;"></iframe>
 </p>
-
-<br/>
-
-Wenn Sie eine EU-Banküberweisung bevorzugen, schicken Sie mir einfach eine E-Mail und ich werde Ihnen meine Kontodaten zurücksenden.
-
