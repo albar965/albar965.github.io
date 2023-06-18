@@ -1,8 +1,8 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-04-06 15:00 +0100
-release-version: 2.8.10
+date:   2023-06-18 12:00:00 +0100
+release-version: 2.8.11
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -46,6 +46,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I cannot see my aircraft](#connect)
 1. [AI or online aircraft are only visible when zooming in close](#ai-hidden)
 1. [The flight plan does not show up correctly in MSFS](#flightplan-msfs)
+1. [Waypoints are moved North when loading a flight plan in MSFS](#flightplan-north-msfs)
 1. [There are airways missing over France and central Europe](#airways-missing)
 1. [Can I run _Little Navmap_ offline without an internet connection](#offline)
 1. [SSL Handshake failed on Linux](#ssl-init-linux)
@@ -77,6 +78,8 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Error `Caught exception: NOT NULL constraint failed: tmp_waypoint.region ...` when loading the scenery library](#msfs-scenery-library-no-region)
 1. [Error reading `.../Content.xml“ on line 6 column 13: premature end of document` when loading the scenery library](#msfs-scenery-library-content-xml)
 1. [Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id` after adding a userpoint](#userdata-exception)
+1. [Loading of the scenery library database takes a long time](#loading-too-long)
+
 
 ### User Interface {#ui}
 
@@ -101,6 +104,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Where is the options menu item on macOS](#prefs)
 1. [I get a message complaining about an unidentified developer on macOS](#macos-unidentified-developer)
 1. [Cannot run _Little Navmap_ or _Little Xpconnect_ on macOS Catalina or later](#catalina)
+1. [To open "Little Navmap" you need to install Rosetta](#rosetta)
 
 ### X-Plane and _Little Xpconnect_ {#xp}
 
@@ -537,7 +541,6 @@ The following issues are known so far:
 - MSFS automatically adds transitions to approach procedures as well as SID and STAR if plan is of type IFR. Changing these results in a completely new routing.
 - Saving a direct plan between two airports of type IFR will result in MSFS adding intermediate waypoints and procedures like SID and STAR.
 - You cannot use airways or procedures for VFR flight plans. MSFS will quietly remove these.
-- MSFS cannot load round trips where destination is equal to departure in some cases.
 - MSFS uses turn anticipation which may result in wrong flight plan display in the GPS units or autopilot behavior. The GPS or autopilot will take a shortcut for hard turns which sometimes messes up a flight plan, for example. Turn anticipation is a function performed by FMS or RNAV devices to tell the pilot when to initiate a turn to the next waypoint on the programmed flight path to avoid overshooting the programmed course.
 - Altitude at waypoints and sometimes the cruise altitude is ignored and replaced by MSFS' own idea of a climb and descent profile which has nothing to do with the *Little Navmap* profile. This happens despite *Little Navmap* saving the altitude for each waypoint.
 - Flight plan names must not contains special characters like umlauts or accents. *Little Navmap* replaces these automatically when exporting a plan.
@@ -545,6 +548,12 @@ The following issues are known so far:
 Apart from these issues above you might see MSFS crashes or corrupted flight plans when loading.
 
 Also, read the chapter [Little Navmap User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) in the *Little Navmap* user manual to minimize issues with different navdata.
+
+#### Waypoints are moved North when loading a flight plan in MSFS [**▲**](#top) [🔗](#flightplan-north-msfs) {#flightplan-north-msfs}
+
+This is a known issue when using the Navigraph navdata update in MSFS and is most likely caused by bug in MSFS.
+Disable, uninstall or move the two folders `navigraph-navdata` and `navigraph-navdata-base` from the community folder.
+Then reload the scenery library in *Little Navmap* and restart MSFS.
 
 #### There are airways missing over France and central Europe [**▲**](#top) [🔗](#airways-missing) {#airways-missing}
 
@@ -785,6 +794,26 @@ The error should not appear again.
 
 **Note: This root issue was fixed with the Little Navmap stable version 2.8.8. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
 
+#### Loading of the scenery library database takes a long time [**▲**](#top) [🔗](#loading-too-long) {#loading-too-long}
+
+First exclude the main folders of *Little Navmap* from anti-virus scanning. Anti-virus can significantly slow down reading the scenery library.
+
+Therefore, it is recommended to exclude the following directories from scanning:
+
+- Disk cache for map tiles: ``C:\Users\YOURUSERNAME\AppData\Local\.marble\data``
+- Scenery library and userpoint databases\ ``C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel\little_navmap_db``
+
+These directories do not contain executable files and are accessed frequently by *Little Navmap*.
+
+Do the same for you flight simulator scenery libraries:
+
+* **X-Plane:** `Custom Data`, `Custom Scenery` and `Global Scenery` (X-Plane 12 only).
+* **MSFS:** `Community` and `Official\\One Store` or `Official\\Steam`.
+* **FSX and P3D:** `Scenery` and `Addon scenery`.
+
+Alternatively you can exclude unneeded folders in *Little Navmap* from scanning by adding them in option on
+page `Scenery Library Database`.
+
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
 
@@ -893,15 +922,22 @@ Then right click or `Ctrl+Click` on the application and select `Open`. Confirm t
 
 You probably have to enter an administrator name and password once. The program can be started normally after this procedure.
 
-See [Little Navmap User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INSTALLATION.html#macos).
+See [Little Navmap User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INSTALLATION.html#macos) and
+[Safely open apps on your Mac](https://support.apple.com/HT202491).
 
 #### Cannot run _Little Navmap_ or _Little Xpconnect_ on macOS Catalina or later [**▲**](#top) [🔗](#catalina) {#catalina}
 
 A new security feature in macOS forbids the execution of unsigned libraries or apps.
 
-See [Little Navmap User Manual -  Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INSTALLATION.html#macos) for information how to remove the flag.
+See [Little Navmap User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INSTALLATION.html#macos) and
+[Safely open apps on your Mac](https://support.apple.com/HT202491).
 
 Alternatively, you can download the tool [Mac OS - CleanUp Quarantine Flags](https://forums.x-plane.org/index.php?/files/file/79828-mac-os-cleanup-quarantine-flags/) from x-plane.org, place this in the X-Plane base folder and run it to clean up the flags on all plugins at once.
+
+#### To open "Little Navmap" you need to install Rosetta [**▲**](#top) [🔗](#rosetta) {#rosetta}
+
+*Little Navmap* (unlike Little Xpconnect) is not compiled to run natively on Apple Silicon. You need to install Rosetta. The impact on performance is negligible.
+See [How to install Rosetta](https://support.apple.com/HT211861).
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
