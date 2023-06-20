@@ -1,10 +1,39 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2023-06-18 13:00:00 +0100
+date:   2023-06-20 13:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Links
+
+## Useful Software {#useful-software}
+
+See also in the Avsim *Little Navmap* support forum in the pinned posts for more tools.
+
+[**► VirtualFlight.Online Transmitter**](https://flightsim.to/file/18920/virtual-flight-online-transmitter/)
+
+VirtualFlight.Online Transmitter displays multiplayer aircraft from Microsoft Flight Simulator live in LittleNavMap and on a live map in the VirtualFlight.Online website to assist those taking part in group flights and to simulate air traffic control for groups wishing to provice ATC services.
+
+[**► LittleNavmapOFMTheme**](https://github.com/AmbitiousPilots/LittleNavmapOFMTheme)
+
+Now you can use open flightmaps VFR maps in *Little Navmap* for your VFR flight planning and navigation.
+
+[**► Ingamepanel NAVMAP for Flight Simulator**](https://flightsimulator.me/simulators/flight-simulator/panels/105-ingamepanel-navmap-for-flight-simulator)
+
+The most famous and powerful utility for flight simulators now integrated into your cockpit.
+Using *Little Navmap* webserver with this new and optimized ingamepanel for Flight Simulator you will can follow your flight like from the main app.
+
+[**► Map extensions for Little Navmap**](https://flightsim.to/file/6411/map-extensions-for-little-navmap-lnm)
+
+More useable maps for flightplanning with worldwide latin letter naming for *Little Navmap*.
+
+[**► LittleNavMap 'Userpoint Icons'**](https://flightsim.to/file/23181/littlenavmap-userpoint-icons)
+
+Additional icons for for marking your favorite places and things in *Little NavMap*.
+
+[**► Little Navmap - MSFS POI database**](https://flightsim.to/file/17193/little-navmap-msfs-poi-database)
+
+CSV database of all default POIs in MSFS for import into *Little Navmap*. 2120 POIs in total sorted in separate files.
 
 ## Software used to create Little Navmap {#software}
 
