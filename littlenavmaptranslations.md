@@ -1,13 +1,13 @@
 ---
 layout: subpage
 title:  "Little Navmap Translation Packages"
-date:   2020-12-11 12:00:00 +0100
+date:   2023-07-07 20:00 +0200
 ---
 [Alex’ Projects](index.html) ► Translation Packages
 
 # Status
 
-Look at the Github issues below to see the status of the various translation packages:
+Look at the GitHub issues below to see the status of the various translation packages:
 
 * [Translate User Manual #136](https://github.com/albar965/littlenavmap/issues/136)
 * [Translate Program #135](https://github.com/albar965/littlenavmap/issues/135)

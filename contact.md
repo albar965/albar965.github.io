@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2023-03-27 15:00 +0200
+date:   2023-07-07 20:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Contact and Support
@@ -11,7 +11,7 @@ date:   2023-03-27 15:00 +0200
 ## Notes
 
 Issues might be already fixed with the latest version. Therefore, check if you have the latest version installed. These are announced on [Alex’ Projects](index.html).
-You can also find all releases on [Github](https://github.com/albar965/littlenavmap/releases).
+You can also find all releases on [GitHub](https://github.com/albar965/littlenavmap/releases).
 
 ## Links
 
@@ -21,7 +21,7 @@ Please check these pages first. Your question is probably answered there.
 
 [**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Support and help for users.
 
-[**► Github Issues**](https://github.com/albar965/littlenavmap/issues) Tasks and bug reports.
+[**► GitHub Issues**](https://github.com/albar965/littlenavmap/issues) Tasks and bug reports.
 
 [**► Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
