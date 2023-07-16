@@ -83,10 +83,10 @@ changelog=
 # ---------------------------------------------------------------
 
 [stable]
-version=2.8.11
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.8.11/LittleNavmap-win64-2.8.11.zip
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.8.11/LittleNavmap-macOS-2.8.11.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.8.11/LittleNavmap-linux-22.04-2.8.11.tar.gz
+version=2.8.12
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v2.8.12/LittleNavmap-win64-2.8.12-Install.exe
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v2.8.12/LittleNavmap-macOS-2.8.12.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v2.8.12/LittleNavmap-linux-22.04-2.8.12.tar.gz
 changelog=
   <body>
     <head>
@@ -99,8 +99,8 @@ changelog=
       </style>
     </head>
     <p style="font: x-large; font-weight: bold;"><br/><br/>
-      <a href="https://albar965.github.io/release/2023/06/18/littlenavmap-stable-2811-released.html">
-      Little Navmap Stable Version 2.8.11 released
+      <a href="https://albar965.github.io/release/2023/07/16/littlenavmap-stable-2812-released.html">
+      Little Navmap Stable Version 2.8.12 released
       </a>
     </p>
     <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
@@ -108,10 +108,8 @@ changelog=
     </p>
     <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
       Note that you need to download the 32-bit version<br/>
-      from the <a href="https://albar965.github.io/release/2023/06/18/littlenavmap-stable-2811-released.html">link above</a>
+      from the <a href="https://albar965.github.io/release/2023/07/16/littlenavmap-stable-2812-released.html">link above</a>
       if you use FSX or Prepar3D.
     </p>
   </body>
-
-
 

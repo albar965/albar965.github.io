@@ -1,10 +1,22 @@
 ---
 layout: subpage
 title:  "Little Navmap - Install Navigraph Updates"
-date:   2022-12-31 13:00:00 +0100
+date:   2023-07-16 15:00:00 +0200
 ---
 [Alex’ Projects](index.html) ► Little Navmap - Install Navigraph Updates
+
 # ![Little Navmap](assets/images/navroute.png) Little Navmap - Install Navigraph Updates
+
+## How to get a Navigation Data only subscription
+
+Create an accout at [Navigraph](https://navigraph.com/) if you do not already have one.
+
+Click on your name in the top right corner when logged in on the webpage. Click on `Subscription` on the left if you're not already there.
+You will see the webpage below where you can select the `Navigation Data subscription` at the bottom of the page.
+
+![Select navdata option](assets/images/navdata_only.jpg)
+
+This will allow you to download navdata and update *Little Navmap*, simulators and add-ons to the latest AIRAC cycle on a monthly basis.
 
 ## Scenery Library Menu
 

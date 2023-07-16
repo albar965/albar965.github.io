@@ -1,8 +1,8 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-07-07 20:00 +0200
-release-version: 2.8.11
+date:   2023-07-15 18:00:00 +0200
+release-version: 2.8.12
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
@@ -58,6 +58,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### Airports, scenery library, userpoint and navigation data {#scenery}
 
+1. [**How can I update the navdata to the latest cycle**](#update-navdata)
 1. [**Encrypted add-on found. Add-on might not show up correctly.**](#msfs-notes-encrypted)
 1. [**Found 10 notes in 12 scenery entries when loading the scenery database**](#msfs-notes)
 1. [Little Navmap crashes with an SQL error `unknown table fence` or similar](#crash-fence)
@@ -67,7 +68,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Airport runway numbers don't match the runway numbers for procedures](#runway-mismatch)
 1. [How to add procedures to airports?](#add-procedures)
 1. [A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_](#no-airport-msfs)
-1. [**How can I update the navdata to the latest cycle**](#update-navdata)
 1. [I updated the navdata but it does not show up](#update-navdata-noshow)
 1. [I cannot see aprons and taxiways on the map](#no-aprons-taxi)
 1. [I cannot select a start position](#no-start-pos)
@@ -276,7 +276,7 @@ This can have several reasons:
 
 All files and folders created by _Little Navmap_ are described in the chapter [Little Navmap User Manual - Files](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FILES.html) in the manual.
 
-_Little Navmap_ does not create any registry entries on Windows.
+_Little Navmap_ does not create any registry entries on Windows except when using the installer.
 
 #### SSL Handshake failed on Linux [**▲**](#top) [🔗](#ssl-init-linux) {#ssl-init-linux}
 
@@ -551,6 +551,8 @@ Also, read the chapter [Little Navmap User Manual - Microsoft Flight Simulator 2
 
 #### Waypoints are moved North when loading a flight plan in MSFS [**▲**](#top) [🔗](#flightplan-north-msfs) {#flightplan-north-msfs}
 
+**This issue was fixed with *Little Navmap* release 2.8.12.**
+
 This is a known issue when using the Navigraph navdata update in MSFS and is most likely caused by bug in MSFS.
 Disable, uninstall or move the two folders `navigraph-navdata` and `navigraph-navdata-base` from the community folder.
 Then reload the scenery library in *Little Navmap* and restart MSFS.
@@ -664,9 +666,20 @@ Buy add-ons directly from developers instead of the Microsoft market which enfor
 
 #### How can I update the navdata to the latest cycle [**▲**](#top) [🔗](#update-navdata) {#update-navdata}
 
-You have to get a [Navigraph](https://www.navigraph.com/) subscription. This allows you to update the _Little Navmap_ navdata to the latest.
+You have to get a [Navigraph](https://www.navigraph.com/) navdata only subscription. This allows you to update the _Little Navmap_ navdata to the latest.
 
 I recommend to keep *Little Navmap*, the simulator and all tools on the same AIRAC cycle to avoid issues when loading flight plans.
+
+##### How to get a Navdata only Subscription
+
+Create an accout at [Navigraph](https://navigraph.com/) if you do not already have one.
+
+Click on your name in the top right corner when logged in on the webpage. Click on `Subscription` on the left if you're not already there.
+You will see the webpage below where you can select the `Navigation Data subscription` at the bottom of the page.
+
+![Select navdata option](assets/images/navdata_only.jpg)
+
+This will allow you to download navdata and update *Little Navmap*, simulators and add-ons to the latest AIRAC cycle on a monthly basis.
 
 #### I updated the navdata but it does not show up [**▲**](#top) [🔗](#update-navdata-noshow) {#update-navdata-noshow}
 
