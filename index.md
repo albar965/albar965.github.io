@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2023-07-16 15:00:00 +0200
+date:   2023-08-02 20:00:00 +0200
 release-version: 2.8.12
 ---
 
@@ -44,14 +44,20 @@ release-version: 2.8.12
 
 #### Latest Stable Release
 
-[**► Windows 64-bit (*MSFS and X-Plane*)** - LittleNavmap-win64-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-win64-{{ page.release-version }}.zip)<br/>
+[**► Windows 64-bit Installer \(*MSFS and X-Plane*\)** - LittleNavmap-win64-{{ page.release-version }}-Install.exe](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-win64-{{ page.release-version }}-Install.exe)<br/>
 [**► macOS** - LittleNavmap-macOS-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-macOS-{{ page.release-version }}.zip)<br/>
-[**► Linux (64 bit, based on Ubuntu 22.04)** - LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz)
+[**► Linux \(64 bit, based on Ubuntu 22.04\)** - LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-22.04-{{ page.release-version }}.tar.gz)
 
-**Other Versions:** [Windows 32-bit (*only for FSX and P3D*) - LittleNavmap-win32-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-win32-{{ page.release-version }}.zip),
-[Linux \(64 bit, based on Ubuntu 20.04\) - LittleNavmap-linux-20.04-{{ page.release-version }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-20.04-{{ page.release-version }}.tar.gz).
+**Other Versions:**
 
-**Alternative Download Locations:** **►** [**Box**](https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy) / [**Dropbox**](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa) / [**Mega.nz**](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w) / [**OneDrive**](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)
+[► Windows 32-bit Installer \(*only for FSX and P3D*\) - LittleNavmap-win32-{{ page.release-version }}-Install.exe](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-win32-{{ page.release-version }}-Install.exe)<br/>
+[► Linux \(64 bit, based on Ubuntu 20.04 for Debian or older systems\) - LittleNavmap-linux-20.04-{{ page.release-version }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-20.04-{{ page.release-version }}.tar.gz)
+
+Zipped Windows releases without installer are available in the alternative download locations below or from the release assets at [GitHub - Little Navmap Releases - Version {{ page.release-version }}](https://github.com/albar965/littlenavmap/releases/v{{ page.release-version }}) \(scroll down to `Assets`\).
+
+**Alternative Download Locations - Look into sub-folders for beta, development or release candidates:**
+
+**►** [**Box**](https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy) / [**Dropbox**](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa) / [**Mega.nz**](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w) / [**OneDrive**](https://1drv.ms/u/s!AoWYKlNEZds9auvFMliyQ3HK-lY?e=42ud1g)
 
 ## Little Navmap Links
 
