@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-07-15 18:00:00 +0200
+date:   2023-08-14 12:00:00 +0200
 release-version: 2.8.12
 ---
 
@@ -77,7 +77,8 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [How does _Little Navmap_ find the MSFS scenery library, or MSFS installation not found](#msfs-scenery-library)
 1. [Error `Caught exception: NOT NULL constraint failed: tmp_waypoint.region ...` when loading the scenery library](#msfs-scenery-library-no-region)
 1. [Error reading `.../Content.xml“ on line 6 column 13: premature end of document` when loading the scenery library](#msfs-scenery-library-content-xml)
-1. [Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id` after adding a userpoint](#userdata-exception)
+1. [After adding a userpoint: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id`](#userdata-exception)
+1. [After importing userpoints from CSV: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id`](#userdata-exception-csv)
 1. [Loading of the scenery library database takes a long time](#loading-too-long)
 
 
@@ -791,7 +792,9 @@ There are two possible solutions:
 1. You can rename the file temporarily while loading the scenery library database in *Little Navmap*.
 1. Use *Little Navmap* beta version 2.8 or later. See [the main page here](https://albar965.github.io/index.html) for announcements of beta releases.
 
-#### Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id` after adding a userpoint [**▲**](#top) [🔗](#userdata-exception) {#userdata-exception}
+#### After adding a userpoint: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id` [**▲**](#top) [🔗](#userdata-exception) {#userdata-exception}
+
+**Note: This root issue was fixed with the Little Navmap stable version 2.8.8. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
 
 This is related to a bug that appeared in *Little Navmap* version 2.8.0.beta. The userpoint database has inconsistencies.
 
@@ -805,7 +808,16 @@ Note that this also removes all undo/redo steps from the database.
 
 The error should not appear again.
 
-**Note: This root issue was fixed with the Little Navmap stable version 2.8.8. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
+
+#### After importing userpoints from CSV: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id` [**▲**](#top) [🔗](#userdata-exception-csv) {#userdata-exception-csv}
+
+This is a bug in *Little Navmap* which appears after importing a second userpoint file into a previously empty database.
+It will be fixed with *Little Navmap* version 2.8.13 (not yet released).
+
+There are two possible workarounds:
+
+1. Import the first CSV file and restart *Little Navmap*. The second import and all following should succeed now.
+2. Manually add a userpoint after importing the first CSV.
 
 #### Loading of the scenery library database takes a long time [**▲**](#top) [🔗](#loading-too-long) {#loading-too-long}
 
