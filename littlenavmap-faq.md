@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-08-14 12:00:00 +0200
+date:   2023-09-19 20:00:00 +0200
 release-version: 2.8.12
 ---
 
@@ -39,6 +39,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [The map is jumping around randomly while flying](#aircraft-center)
 1. [How to backup userdata or the logbook](#userdata-backup)
 1. [Navaids or airways are red in the flight plan table](#red-navaids)
+1. [The elevation profile is a flat line at cruise altitude](#profile-flat)
 1. [Search result is empty](#search-empty)
 1. [Actual aircraft altitude differs from indicated despite correct baro settings](#altitude-correction)
 1. [I get fuel flow indications that do not match the values in _Little Navmap_](#wrong-fuel-indication)
@@ -169,7 +170,7 @@ If nothing helps, report an issue either in the [**Support Forum at _Avsim_**](h
 
 ##### Other Issues
 
--  ** Program starts slowly:** This can happen if a distance search
+-  **Program starts slowly:** This can happen if a distance search
    is enabled in one of the search tabs. The search is executed at each
    start. Simply disable the distance search or reset the search options
    to avoid the slow startup.
@@ -416,7 +417,7 @@ Read the linked chapter below to minimize issues when loading flight plans into 
 
 -  Navdata updates are not read properly from the MSFS scenery library. This is in general no issue
    since you can also update the navdata in *Little Navmap* with the Navigraph FMS Data Manager to keep the
-   program in sync with MSFS. Stock data is not affected by this. See :ref:`load-scenery-library-dialog-msfs-apt-navdata`.
+   program in sync with MSFS. Stock data is not affected by this. See [Little Navmap User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata).
 -  You can set a parking spot or fuel pad as starting position in a flight plan but note that runways and
    helipads as starting positions will be ignored by MSFS.
 -  Parking spots having suffixes cannot be loaded by MSFS, Example EDDG, 18A to 18E.
@@ -473,6 +474,15 @@ Airways are displayed in red if they do not exist or the minimum or maximum airw
 violated by the selected cruise altitude when loading the flight plan.
 
 See also [Little Navmap User Manual - Flight Plan - Error Display](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FLIGHTPLAN.html#error-display).
+
+#### The elevation profile is a flat line at cruise altitude [**▲**](#top) [🔗](#profile-flat) {#profile-flat}
+
+The elevation profile cannot be calculated by _Little Navmap_ and you see a red error message \([Little Navmap User Manual - Warning and Error Messages](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INTRO.html#warning-and-error-messages)\) at the bottom of the flight plan table for one of the reasons below:
+
+1. The cruise altitude is too high. Therefore the top of climb and the top of descent cannot be calculated. Lower the cruise altitude until the profile can be calculated again.
+2. The flight plan violates altitude restrictions of used procedures (SID, STAR or approach). Change the flight plan cruise altitude to match these restrictions or remove or change the procedures.
+3. The aircraft performance profile is wrong or configured for too shallow climb and descent sections. See [Little Navmap User Manual - Aircraft Performance](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/AIRCRAFTPERF.html) for more information.
+4. Cruise altitude is below a high elevation departure or destination airport.
 
 #### Search result is empty [**▲**](#top) [🔗](#search-empty) {#search-empty}
 
