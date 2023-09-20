@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2023-06-20 13:00:00 +0100
+date:   2023-09-20 17:00:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Links
@@ -17,6 +17,10 @@ VirtualFlight.Online Transmitter displays multiplayer aircraft from Microsoft Fl
 [**► LittleNavmapOFMTheme**](https://github.com/AmbitiousPilots/LittleNavmapOFMTheme)
 
 Now you can use open flightmaps VFR maps in *Little Navmap* for your VFR flight planning and navigation.
+
+[**► Little Navmap VR Panel**](https://flightsim.to/file/43086/little-navmap-vr-panel)
+
+This panel works differently than some other solutions which in majority just display a static image with a map view together with information in a form of a tables exactly as returned by Little Navmap. Here the map is constructed from the tiles and is displayed continuously so it can be zoomed and dragged. Data from the tables is extracted so it can be displayed and manipulated in any context, basically allowing me to an entirely different app on top of it.
 
 [**► Ingamepanel NAVMAP for Flight Simulator**](https://flightsimulator.me/simulators/flight-simulator/panels/105-ingamepanel-navmap-for-flight-simulator)
 
