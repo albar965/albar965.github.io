@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-09-19 20:00:00 +0200
+date:   2023-10-11 11:00:00 +0200
 release-version: 2.8.12
 ---
 
@@ -100,6 +100,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Can I run the program on another client computer across the network](#networking)
 1. [Can I see the program when running FSX, P3D, MSFS or X-Plane fullscreen](#sim-fullscreen)
 1. [The map window is not visible or shows only a gray surface](#map-hidden)
+1. [The map theme StamenTerrain shows gray blocks on the map](#stamenterrain)
 
 ### Apple macOS {#macos}
 
@@ -946,6 +947,30 @@ This can happen for various reasons (like a crash) or if you change the option [
 
 Use menu `Window` -> [Little Navmap User Manual - Reset Window Layout](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#reset-layout-menu) in the main menu to clean up the window layout.
 
+#### The map theme StamenTerrain shows gray blocks on the map [**▲**](#top) [🔗](#stamenterrain) {#stamenterrain}
+
+You see map tiles with the message `These basemap tiles will no longer be available as of October 31, 2023. The site administrator can upgrade to the new map at stamen.com/faq.`.
+
+The free StamenTerrain map theme is discontinued.
+
+You can select another map theme in the LNM menu `View` or you can use the new StamenTerrain which requires a free account at [Stadia Maps](https://stadiamaps.com/stamen/onboarding/create-account/). Note that this service is free if you do not download more than 200000 map tiles a month. No need to use one of the paid plans and no need to enter credit card information.
+
+Download the map theme file [Stadia StamenTerrain.zip](https://www.littlenavmap.org/downloads/Map%20Themes/Stadia%20StamenTerrain.zip) and install it in LNM map themes.
+
+You will see a new `Stadia StamenTerrain` map in the LNM map themes list \(menu `View` -> `Theme`\) and a new entry `Stadia API Key` in LNM options on page `Map Display Keys` after installation and restarting _Little Navmap_.
+
+Sign up at `stadiamaps.com` and create an API key. Go to `Your Account` and click `Manage Properties`. There you can find the API key to access the map.
+Copy the key and insert it into the `Stadia API Key` in LNM options. Restart LNM and StamenTerrain is back.
+
+Installation instructions and more information about map themes can be found in
+[Little Navmap User Manual - Map Themes](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MAPTHEMES.html) and
+[Little Navmap User Manual - Map Display - Map Themes](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MAPDISPLAY.html#map-themes).
+
+If you still see tiles with the message after installation:
+Go to the _Little Navmap_ main menu `Tools` -> `Files and directories` and select `Show map cache`.
+This will open your system file browser showing the cache folder for map tiles.
+Close _Little Navmap_ now and delete the folders `stadiastamenterrain` and `stamenterrain` folders to clear the cache.
+
 #### Where is the options menu item on macOS [**▲**](#top) [🔗](#prefs) {#prefs}
 
 Options can be accessed in the application menu `Little Navmap` -&gt; `Preferences`.
@@ -969,7 +994,7 @@ See [Little Navmap User Manual - Installation - macOS](https://www.littlenavmap.
 
 Alternatively, you can download the tool [Mac OS - CleanUp Quarantine Flags](https://forums.x-plane.org/index.php?/files/file/79828-mac-os-cleanup-quarantine-flags/) from x-plane.org, place this in the X-Plane base folder and run it to clean up the flags on all plugins at once.
 
-#### To open "Little Navmap" you need to install Rosetta [**▲**](#top) [🔗](#rosetta) {#rosetta}
+#### To open _Little Navmap_ you need to install Rosetta [**▲**](#top) [🔗](#rosetta) {#rosetta}
 
 *Little Navmap* (unlike Little Xpconnect) is not compiled to run natively on Apple Silicon. You need to install Rosetta. The impact on performance is negligible.
 See [How to install Rosetta](https://support.apple.com/HT211861).
