@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-10-11 11:00:00 +0200
+date:   2023-11-08 15:00:00 +0100
 release-version: 2.8.12
 ---
 
@@ -54,6 +54,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [_Little Navmap_ does not start on Linux](#linux-start)
 1. [_Little Navmap_ or _Little Navconnect_ pop up quickly and vanish](#start-monitor)
 1. [There is a message `SimConnect not found.` in the connect dialog window](#no-simconnect)
+1. [Too many errors when trying to connect to FSX](#no-fsx-connect)
 1. [I see strange texts with question marks in curly brackets like `{2020.?}` in the program windows and dialogs](#strange-texts)
 1. [Error version `GLIBCXX_3.4.29' not found` or smilar on Linux](#glibc-linux)
 
@@ -81,7 +82,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [After adding a userpoint: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id`](#userdata-exception)
 1. [After importing userpoints from CSV: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id`](#userdata-exception-csv)
 1. [Loading of the scenery library database takes a long time](#loading-too-long)
-
+1. [X-Plane 12 airports appear with a gray icon](#xp-gray-airports)
 
 ### User Interface {#ui}
 
@@ -338,6 +339,14 @@ You can also download the files directly from the _Little Navmap_ download page:
 _Little Navmap Downloads - Windows Redistributable Packages -_ [vcredist_2015-2022.x64.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_2015-2022.x64.exe) and [vcredist_2015-2022.x86.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_2015-2022.x86.exe).
 
 Restart _Little Navmap_ after installing the packages. The error message should be gone.
+
+#### Too many errors when trying to connect to FSX [**▲**](#top) [🔗](#no-fsx-connect) {#no-fsx-connect}
+
+You see an error message
+`Too many errors when trying to connect to simulator. Not matching simulator interface or other SimConnect problem.`
+when trying to connect to FSX using the 32-bit build of _Little Navmap_.
+
+You have to update FSX with the SP2. _Little Navmap_ cannot connect to a plain not updated FSX.
 
 #### I see strange texts with question marks in curly brackets like `{2020.?}` in the program windows and dialogs [**▲**](#top) [🔗](#strange-texts) {#strange-texts}
 
@@ -849,6 +858,19 @@ Do the same for you flight simulator scenery libraries:
 
 Alternatively you can exclude unneeded folders in *Little Navmap* from scanning by adding them in option on
 page `Scenery Library Database`.
+
+#### X-Plane 12 airports appear with a gray icon [**▲**](#top) [🔗](#xp-gray-airports) {#xp-gray-airports}
+
+_Little Navmap_ considers the X-Plane airport flag `3D` which indicates that an airport also contains 3D objects.
+This can be a lamp post or a fully modeled terminal building. The full explanation is here:
+[Little Navmap User Manual View -> Airports -> Empty](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#empty).
+
+Some major airports in XP12 are wrongly missing the 3D flag and LNM shows them as `empty`.
+This affects major airports like KSEA, EDDF or EDDS.
+
+You can disable this behavior in LNM options on page `Map`.
+Uncheck `Consider all X-Plane airports not being 3D empty` and maybe `Treat empty airports special`
+as well if you don't care about this functionality at all.
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
