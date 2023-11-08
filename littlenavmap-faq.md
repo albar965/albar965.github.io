@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-11-08 15:00:00 +0100
+date:   2023-11-08 16:00:00 +0100
 release-version: 2.8.12
 ---
 
@@ -301,7 +301,7 @@ Also missing might be `qt5dxcb` which can be installed with `sudo apt install qt
 on a terminal in an Ubuntu or derived system. Use your system package manager (`rpm`, `pacman`, etc.) to install missing libraries if using another system.
 
 You can run _Little Navmap_ and generate more diagnostics by opening a terminal/shell and cd to the
-LNM installation folder if above does not help. Enter the following:
+_Little Navmap_ installation folder if above does not help. Enter the following:
 
 `bash -c "(ldd littlenavmap && export QT_DEBUG_PLUGINS=1 && ./littlenavmap )" >start_log.txt 2>&1`
 
@@ -451,7 +451,7 @@ Read the linked chapter below to minimize issues when loading flight plans into 
 
 The map does not jump randomly. The level of zoom changes to keep aircraft and the next flight plan waypoint centered.
 
-The default behavior is to keep aircraft and next flight plan waypoint on the screen once one flight plan leg is active (magenta), i.e. you're flying. You can move around the map manually but LNM jumps back to aircraft and waypoint after a while. All this is configurable in options on page [Little Navmap User Manual - Simulator Aircraft](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/OPTIONS.html#simulator-aircraft).
+The default behavior is to keep aircraft and next flight plan waypoint on the screen once one flight plan leg is active (magenta), i.e. you're flying. You can move around the map manually but _Little Navmap_ jumps back to aircraft and waypoint after a while. All this is configurable in options on page [Little Navmap User Manual - Simulator Aircraft](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/OPTIONS.html#simulator-aircraft).
 
 You can also revert to simple aircraft centering, for example. The default values might be confusing first but they are like that to reduce the need for manual zooming.
 
@@ -668,7 +668,7 @@ Use [WED](https://developer.x-plane.com/tools/worldeditor/) to change an airport
 This is a very complex task.
 
 For **FSX or Perpar3D** you can use the [Airport Design Editor](https://www.scruffyducksoftware.com/airport-design-editor),
-add procedures to the airport and then switch off Navigraph in the scenery library menu. LNM will
+add procedures to the airport and then switch off Navigraph in the scenery library menu. _Little Navmap_ will
 read the procedures from your add-on airport and you can use them like the others.
 
 **X-Plane**: You can try to create a CIFP file but this is very complex and not recommended as stated on the page [here](https://developer.x-plane.com/?article=navdata-in-x-plane-11#How_do_I_make_my_own_approach_No_hand_editing_please).
@@ -737,9 +737,9 @@ See also [Little Navmap User Manual - Search Procedures](https://www.littlenavma
 
 #### Navaids from the X-Plane `user_nav.dat` and the `user_fix.dat` files do not show up in *Little Navmap* [**▲**](#top) [🔗](#user-nav-fix-dat) {#user-nav-fix-dat}
 
-LNM reads both the `user_nav.dat` and the `user_fix.dat` files. The problem is that the navaids are hidden by Navigraph data per default. Therefore, you have to switch to `Do not use Navigraph database` in the menu `Scenery Library` to see the user navaids.
+_Little Navmap_ reads both the `user_nav.dat` and the `user_fix.dat` files. The problem is that the navaids are hidden by Navigraph data per default. Therefore, you have to switch to `Do not use Navigraph database` in the menu `Scenery Library` to see the user navaids.
 
-You also have to reload the LNM scenery library after adding or changing the user files.
+You also have to reload the _Little Navmap_ scenery library after adding or changing the user files.
 
 The user navaids can be used in the X-Plane stock FMS and GPS. But keep in mind that the user navaids do not show up on the X-Plane internal map.
 
@@ -865,10 +865,10 @@ _Little Navmap_ considers the X-Plane airport flag `3D` which indicates that an 
 This can be a lamp post or a fully modeled terminal building. The full explanation is here:
 [Little Navmap User Manual View -> Airports -> Empty](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#empty).
 
-Some major airports in XP12 are wrongly missing the 3D flag and LNM shows them as `empty`.
+Some major airports in XP12 are wrongly missing the 3D flag and _Little Navmap_ shows them as `empty`.
 This affects major airports like KSEA, EDDF or EDDS.
 
-You can disable this behavior in LNM options on page `Map`.
+You can disable this behavior in _Little Navmap_ options on page `Map`.
 Uncheck `Consider all X-Plane airports not being 3D empty` and maybe `Treat empty airports special`
 as well if you don't care about this functionality at all.
 
@@ -975,14 +975,14 @@ You see map tiles with the message `These basemap tiles will no longer be availa
 
 The free StamenTerrain map theme is discontinued.
 
-You can select another map theme in the LNM menu `View` or you can use the new StamenTerrain which requires a free account at [Stadia Maps](https://stadiamaps.com/stamen/onboarding/create-account/). Note that this service is free if you do not download more than 200000 map tiles a month. No need to use one of the paid plans and no need to enter credit card information.
+You can select another map theme in the _Little Navmap_ menu `View` or you can use the new StamenTerrain which requires a free account at [Stadia Maps](https://stadiamaps.com/stamen/onboarding/create-account/). Note that this service is free if you do not download more than 200000 map tiles a month. No need to use one of the paid plans and no need to enter credit card information.
 
-Download the map theme file [Stadia StamenTerrain.zip](https://www.littlenavmap.org/downloads/Map%20Themes/Stadia%20StamenTerrain.zip) and install it in LNM map themes.
+Download the map theme file [Stadia StamenTerrain.zip](https://www.littlenavmap.org/downloads/Map%20Themes/Stadia%20StamenTerrain.zip) and install it in _Little Navmap_ map themes.
 
-You will see a new `Stadia StamenTerrain` map in the LNM map themes list \(menu `View` -> `Theme`\) and a new entry `Stadia API Key` in LNM options on page `Map Display Keys` after installation and restarting _Little Navmap_.
+You will see a new `Stadia StamenTerrain` map in the _Little Navmap_ map themes list \(menu `View` -> `Theme`\) and a new entry `Stadia API Key` in _Little Navmap_ options on page `Map Display Keys` after installation and restarting _Little Navmap_.
 
 Sign up at `stadiamaps.com` and create an API key. Go to `Your Account` and click `Manage Properties`. There you can find the API key to access the map.
-Copy the key and insert it into the `Stadia API Key` in LNM options. Restart LNM and StamenTerrain is back.
+Copy the key and insert it into the `Stadia API Key` in _Little Navmap_ options. Restart _Little Navmap_ and StamenTerrain is back.
 
 Installation instructions and more information about map themes can be found in
 [Little Navmap User Manual - Map Themes](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MAPTHEMES.html) and
