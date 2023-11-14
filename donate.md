@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Donations / Spenden"
-date:   2023-06-18 12:00:00 +0100
+date:   2023-11-14 13:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Donations / Spenden
@@ -11,7 +11,7 @@ date:   2023-06-18 12:00:00 +0100
 Little Navmap and all of my other programs are made available free of charge.
 I have no plans to change this. Donations are purely optional but greatly appreciated.
 
-**If you would like to show your appreciation you can donate here.**
+**If you would like to show your appreciation and support the further development of Little Navmap, you can donate here.**
 
 If you prefer an **EU bank transfer**, just send me an email and I will send back my bank account details.
 
@@ -53,7 +53,7 @@ If you prefer an **EU bank transfer**, just send me an email and I will send bac
 Little Navmap und all meine anderen Programme werden kostenlos zur Verfügung gestellt.
 Ich beabsichtige nicht, dies zu ändern. Spenden sind und bleiben vollkommen freiwillig.
 
-**Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten, können Sie hier spenden.**
+**Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten und die weitere Entwicklung von Little Navmap unterstützen möchten, können Sie hier spenden.**
 
 Wenn Sie eine **EU-Banküberweisung** bevorzugen, schicken Sie mir einfach eine E-Mail und ich werde Ihnen meine Kontodaten zurücksenden.
 
