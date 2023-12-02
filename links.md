@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2023-09-20 17:00:00 +0200
+date:   2023-12-02 16:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Links
@@ -42,6 +42,18 @@ CSV database of all default POIs in MSFS for import into *Little Navmap*. 2120 P
 ## Software used to create Little Navmap {#software}
 
 All used software is open source. Most used programs run on Windows, Linux and macOS.
+
+[**► Qt**](https://https://www.qt.io/)
+
+Qt is a cross-platform software for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms.
+
+Qt is currently being developed by The Qt Company and the Qt Project under open-source governance, involving individual developers and organizations working to advance Qt. Qt is available under both commercial licenses and open-source licenses.
+
+*Little Navmap* uses Qt extensively.
+
+[**► Marble**](https://marble.kde.org/)
+
+*Little Navmap* uses the Marble widget component to display the background map which consists of map image tiles downloaded from OpenStreetMap and others.
 
 [**► Kubuntu Linux**](https://kubuntu.org/)
 
