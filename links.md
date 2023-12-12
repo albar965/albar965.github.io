@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2023-12-02 16:00:00 +0100
+date:   2023-12-12 16:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Links
@@ -13,6 +13,18 @@ See also in the Avsim *Little Navmap* support forum in the pinned posts for more
 [**► VirtualFlight.Online Transmitter**](https://flightsim.to/file/18920/virtual-flight-online-transmitter/)
 
 VirtualFlight.Online Transmitter displays multiplayer aircraft from Microsoft Flight Simulator live in LittleNavMap and on a live map in the VirtualFlight.Online website to assist those taking part in group flights and to simulate air traffic control for groups wishing to provice ATC services.
+
+[**► FlightLog Analyzer**](https://flightloganalyzer.com/)
+
+A Flight Analyzer and Viewer for MSFS 2020. Features:
+
+* Edit Flight Simulator's Logbook to Permanently Remove Unwanted Flights
+* Export Flight Simulator's Logbook as a .CSV, .XML, or .KML file, which can be imported into Excel, Google Earth, Volanta, Little Navmap and more.
+* View your Flight Paths on Google Earth and OpenStreetMap.
+* Perform Group Summaries & Analysis on flights by 'Flight Attributes'.
+* Create Altitude Profile Charts of your Flights.
+* View All your Flights, pulled directly from Flight Simulator's Internal Logbook, without having to open Flight Simulator,
+* Backup and Restore Microsoft Flight Simulator's Logbook,
 
 [**► LittleNavmapOFMTheme**](https://github.com/AmbitiousPilots/LittleNavmapOFMTheme)
 
