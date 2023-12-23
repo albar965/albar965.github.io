@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-11-08 16:00:00 +0100
+date:   2023-12-23 12:00:00 +0100
 release-version: 2.8.12
 ---
 
@@ -63,6 +63,8 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [**How can I update the navdata to the latest cycle**](#update-navdata)
 1. [**Encrypted add-on found. Add-on might not show up correctly.**](#msfs-notes-encrypted)
 1. [**Found 10 notes in 12 scenery entries when loading the scenery database**](#msfs-notes)
+1. [Buttons for en-route holdings, MSA sectors, MORA grid and others are disabled](#msfs-features-missing)
+1. [TACAN or VORTAC are missing on the map](#msfs-tacan-missing)
 1. [Little Navmap crashes with an SQL error `unknown table fence` or similar](#crash-fence)
 1. [I cannot see any airports or navaids](#load-scenery)
 1. [I added an airport and it does not show up in _Little Navmap_](#no-airport)
@@ -296,9 +298,9 @@ To fix this download the hotfix [LittleNavmap-linux-22.04-2.8.7-openssl-1.1.tar.
 
 Commonly missing shared libraries can be installed by entering `sudo apt install libxcb-xinerama0 libxcb-icccm4`.
 
-Also missing might be `qt5dxcb` which can be installed with `sudo apt install qt5dxcb-plugin`.
+Also missing might be `qt5dxcb` which can be installed with `sudo apt install qt5dxcb-plugin` on a terminal in an Ubuntu or derived system. Use your system package manager (`rpm`, `pacman`, etc.) to install missing libraries if using another system.
 
-on a terminal in an Ubuntu or derived system. Use your system package manager (`rpm`, `pacman`, etc.) to install missing libraries if using another system.
+You will need to install the `qtwayland5` package if you are using a newer system such as Ubuntu 23.10 which uses the Wayland-Compositor by default instead of X.org.
 
 You can run _Little Navmap_ and generate more diagnostics by opening a terminal/shell and cd to the
 _Little Navmap_ installation folder if above does not help. Enter the following:
@@ -623,6 +625,33 @@ This is not an error message but merely a reminder that the layout of encrypted 
 You can still use the airport for flight planning but taxiways, parking spots and aprons might probably differ.
 
 This is related to [A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_](#no-airport-msfs). See there for more information.
+
+#### TACAN or VORTAC are missing on the map for MSFS[**▲**](#top) [🔗](#msfs-tacan-missing) {#msfs-tacan-missing}
+
+This is related to the [next issue](#msfs-features-missing). See below for more information.
+
+#### Buttons for en-route holdings, MSA sectors, MORA grid and others are disabled when using MSFS[**▲**](#top) [🔗](#msfs-features-missing) {#msfs-features-missing}
+
+Certain features are not available from the MSFS scenery library. Partially this affects FSX and P3D as well.
+
+If you have the Navigraph navdata update for MSFS installed: You have to update the *Little Navmap* navdata too. See [Install Navigraph Updates](https://albar965.github.io/littlenavmap_navigraph.html).
+
+The following features are not provided by the MSFS scenery library:
+
+- One-way attribute for airways
+- Airway maximum altitude restrictions
+- TACAN, these are shown as DME instead
+- VORTAC, shown as VORDME instead
+- MORA grid \([Show Minimum off-route Altitude Grid](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#show-mora-grid)\)
+- Airport MSA sectors \([Show MSA Sectors](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#view-show-msa-sectors)\)
+- En-route holdings \([Show Holdings](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#view-show-holdings)\)
+- GLS/RNV glidepaths \([Show GLS/RNP Approach Paths](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#view-show-gls-approach-paths)\)
+
+See also [Load Scenery Library](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html) and
+[Navigation Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NAVDATA.html) for more information.
+
+You can avoid these limitations by updating the MSFS and *Little Navmap* navdata with a Navigraph subscription and the Navigraph FMS Data Manager
+[Install Navigraph Updates](https://albar965.github.io/littlenavmap_navigraph.html).
 
 #### Little Navmap crashes with an SQL error `unknown table fence` or similar [**▲**](#top) [🔗](#crash-fence) {#crash-fence}
 
