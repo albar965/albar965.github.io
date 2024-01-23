@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2023-12-23 12:00:00 +0100
+date:   2024-01-23 17:00:00 +0100
 release-version: 2.8.12
 ---
 
@@ -54,6 +54,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [_Little Navmap_ does not start on Linux](#linux-start)
 1. [_Little Navmap_ or _Little Navconnect_ pop up quickly and vanish](#start-monitor)
 1. [There is a message `SimConnect not found.` in the connect dialog window](#no-simconnect)
+1. [The simulator crashes or the connection drops when using SimConnect and other programs](#simconnect-drop)
 1. [Too many errors when trying to connect to FSX](#no-fsx-connect)
 1. [I see strange texts with question marks in curly brackets like `{2020.?}` in the program windows and dialogs](#strange-texts)
 1. [Error version `GLIBCXX_3.4.29' not found` or smilar on Linux](#glibc-linux)
@@ -341,6 +342,32 @@ You can also download the files directly from the _Little Navmap_ download page:
 _Little Navmap Downloads - Windows Redistributable Packages -_ [vcredist_2015-2022.x64.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_2015-2022.x64.exe) and [vcredist_2015-2022.x86.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_2015-2022.x86.exe).
 
 Restart _Little Navmap_ after installing the packages. The error message should be gone.
+
+#### The simulator crashes or the connection drops when using SimConnect and other programs [**▲**](#top) [🔗](#simconnect-drop) {#simconnect-drop}
+
+This can be caused by too many applications using the SimConnect interface in MSFS, P3D or FSX or by bugs in the simulator.
+
+You can try to reduce the load on SimConnect by disabling certain options in _Little Navmap_:
+
+1. Disable all weather options `Flight Simulator` in _Little Navmap_ options on page `Weather`.
+2. Disable all `Flight Simulator` options in the _Little Navmap_ menu `Weather`.
+2. Uncheck the `Fetch AI ...` options in the simulator connection dialog.
+
+You can use NOAA weather instead which is the most up-to-date source.
+
+Another option is to increase the setting for `MaxClients` entries in the file `Simconnect.xml` to 128 or more.
+
+The file can be found for MSFS:
+- Microsoft Store: `C:\Users\YOURUSERNAME\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache`
+- Steam: `C:\Users\YOURUSERNAME\AppData\Roaming\Microsoft Flight Simulator`
+
+See here for more information about `Simconnect.xml` in MSFS:
+[SimConnect XML Definition](https://docs.flightsimulator.com/html/Programming_Tools/SimConnect/SimConnect_XML_Definition.htm)
+
+See here for more information about `Simconnect.xml` in P3D:
+[The SimConnect.xml file](https://www.prepar3d.com/SDKv3/LearningCenter/utilities/simconnect/simconnect.html#The%20SimConnect%20xml%20file)
+
+You probably have to create the file.
 
 #### Too many errors when trying to connect to FSX [**▲**](#top) [🔗](#no-fsx-connect) {#no-fsx-connect}
 

@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2023-12-12 16:00:00 +0100
+date:   2024-01-13 17:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Links
@@ -71,6 +71,10 @@ Qt is currently being developed by The Qt Company and the Qt Project under open-
 
 Kubuntu is an official flavor of the Ubuntu operating system that uses the KDE Plasma Desktop
 instead of the GNOME desktop environment. It is highly customizable. Almost all *Little Navmap* development is done on Kubuntu.
+
+[**► Inno Setup**](https://jrsoftware.org/isinfo.php)
+
+Inno Setup is a free installer for Windows programs by Jordan Russell and Martijn Laan. First introduced in 1997, Inno Setup today rivals and even surpasses many commercial installers in feature set and stability.
 
 [**► Krita**](https://krita.org/)
 
