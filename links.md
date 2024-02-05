@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2024-01-13 17:00:00 +0100
+date:   2024-02-05 16:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Links
@@ -28,7 +28,7 @@ A Flight Analyzer and Viewer for MSFS 2020. Features:
 
 [**► LittleNavmapOFMTheme**](https://github.com/AmbitiousPilots/LittleNavmapOFMTheme)
 
-Now you can use open flightmaps VFR maps in *Little Navmap* for your VFR flight planning and navigation.
+Now you can use open flightmaps VFR maps in *Little Navmap* for your VFR flight planning and navigation. This theme is already included as a stock theme.
 
 [**► Little Navmap VR Panel**](https://flightsim.to/file/43086/little-navmap-vr-panel)
 
