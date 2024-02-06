@@ -6,7 +6,7 @@ categories: release
 release-version: 2.8.7
 ---
 
-### Direct Download
+### Direct Download (outdated Version)
 
 [**► Windows 64-bit (*MSFS and X-Plane*)** - LittleNavmap-win64-2.8.7.zip](https://github.com/albar965/littlenavmap/releases/download/v2.8.7/LittleNavmap-win64-2.8.7.zip)<br/>
 [**► macOS** - LittleNavmap-macOS-2.8.7.zip](https://github.com/albar965/littlenavmap/releases/download/v2.8.7/LittleNavmap-macOS-2.8.7.zip)<br/>

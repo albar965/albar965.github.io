@@ -6,7 +6,7 @@ categories: release
 release-version: 3.0.0.beta
 ---
 
-### Direct Download
+### Direct Download (outdated Version)
 
 [**► Windows 64-bit Installer \(*MSFS and X-Plane*\)** - LittleNavmap-win64-3.0.0.beta-Install.exe](https://github.com/albar965/littlenavmap/releases/download/v3.0.0.beta/LittleNavmap-win64-3.0.0.beta-Install.exe)<br/>
 [**► macOS** - LittleNavmap-macOS-3.0.0.beta.zip](https://github.com/albar965/littlenavmap/releases/download/v3.0.0.beta/LittleNavmap-macOS-3.0.0.beta.zip)<br/>
@@ -19,9 +19,7 @@ release-version: 3.0.0.beta
 
 Zipped Windows releases without installer are available in the alternative download locations below or from the release assets at [GitHub - Little Navmap Releases - Version 3.0.0.beta](https://github.com/albar965/littlenavmap/releases/v3.0.0.beta) \(scroll down to `Assets`\).
 
-**Alternative Download Locations - Look into sub-folders for beta, development or release candidates:**
-
-**►** [**Box**](https://app.box.com/s/8c9x2f91enpkn41cmc4b5tkzlil9ouhy) / [**Dropbox**](https://www.dropbox.com/sh/eh446yent4rz3uq/AACg8vMEmX8AxY_5Hjpt90kWa) / [**Mega.nz**](https://mega.nz/#F!iOZHlIab!65qqRGToUUCxiSMmzbab1w)
+**► [Alternative Download Locations](downloads.html)**
 
 ## Notes
 
