@@ -19,7 +19,7 @@ release-version: 3.0.2.beta
 
 Zipped Windows releases without installer are available in the alternative download locations below or from the release assets at [GitHub - Little Navmap Releases - Version 3.0.2.beta](https://github.com/albar965/littlenavmap/releases/v3.0.2.beta) \(scroll down to `Assets`\).
 
-**► [Alternative Download Locations](downloads.html)**
+**► [Alternative Download Locations](/downloads.html)**
 
 ## Notes
 

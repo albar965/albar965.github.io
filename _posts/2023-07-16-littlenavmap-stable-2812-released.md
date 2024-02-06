@@ -19,7 +19,7 @@ release-version: 2.8.12
 
 Zipped Windows releases without installer are available in the alternative download locations below or from the release assets at [GitHub - Little Navmap Releases - Version 2.8.12](https://github.com/albar965/littlenavmap/releases/v2.8.12) \(scroll down to `Assets`\).
 
-**► [Alternative Download Locations](downloads.html)**
+**► [Alternative Download Locations](/downloads.html)**
 
 ## Notes
 
