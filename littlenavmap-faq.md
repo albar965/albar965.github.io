@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-01-23 17:00:00 +0100
+date:   2024-02-07 14:00:00 +0100
 release-version: 2.8.12
 ---
 
@@ -86,6 +86,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [After importing userpoints from CSV: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id`](#userdata-exception-csv)
 1. [Loading of the scenery library database takes a long time](#loading-too-long)
 1. [X-Plane 12 airports appear with a gray icon](#xp-gray-airports)
+1. [AI and/or multiplayer aircraft disappear early when zooming out](#ai-zoom-out)
 
 ### User Interface {#ui}
 
@@ -289,7 +290,7 @@ _Little Navmap_ does not create any registry entries on Windows except when usin
 
 **Note: This issue was fixed with the Little Navmap version 2.8.8. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
 
-The problem appears when checking for updates and all other network communciaton. You see errors like `Reason: "SSL handshake failed"` in the log file.
+The problem appears when checking for updates and all other network communication. You see errors like `Reason: "SSL handshake failed"` in the log file.
 
 This is an issue in the Linux build. The included `libssl.so` is not loaded by Qt. Instead the not compatible version SSL version 3 is loaded on some systems.
 
@@ -315,7 +316,7 @@ Look at the file to see missing dependencies or send me this file and I can chec
 #### _Little Navmap_ or _Little Navconnect_ pop up quickly and vanish [**▲**](#top) [🔗](#start-monitor) {#start-monitor}
 
 Chances are that you attached a monitor recently and removed or disconnected it afterwards.
-The progam still opens on the vanished monitor since the screen space is still valid in the operating system.
+The program still opens on the vanished monitor since the screen space is still valid in the operating system.
 
 Remove the monitor from the system settings or check if it still present.
 _Little Navmap_ or _Little Navconnect_ will relocate their main windows once they detect that they are off space.
@@ -351,7 +352,7 @@ You can try to reduce the load on SimConnect by disabling certain options in _Li
 
 1. Disable all weather options `Flight Simulator` in _Little Navmap_ options on page `Weather`.
 2. Disable all `Flight Simulator` options in the _Little Navmap_ menu `Weather`.
-2. Uncheck the `Fetch AI ...` options in the simulator connection dialog.
+2. Deselect the `Fetch AI ...` options in the simulator connection dialog.
 
 You can use NOAA weather instead which is the most up-to-date source.
 
@@ -751,7 +752,7 @@ I recommend to keep *Little Navmap*, the simulator and all tools on the same AIR
 
 Create an accout at [Navigraph](https://navigraph.com/) if you do not already have one.
 
-Click on your name in the top right corner when logged in on the webpage. Click on `Subscription` on the left if you're not already there.
+Click on your name in the top right corner when logged in on the web page. Click on `Subscription` on the left if you're not already there.
 You will see the webpage below where you can select the `Navigation Data subscription` at the bottom of the page.
 
 ![Select navdata option](assets/images/navdata_only.jpg)
@@ -927,6 +928,15 @@ This affects major airports like KSEA, EDDF or EDDS.
 You can disable this behavior in _Little Navmap_ options on page `Map`.
 Uncheck `Consider all X-Plane airports not being 3D empty` and maybe `Treat empty airports special`
 as well if you don't care about this functionality at all.
+
+
+#### AI and/or multiplayer aircraft disappear early when zooming out [**▲**](#top) [🔗](#ai-zoom-out) {#ai-zoom-out}
+
+Some traffic or multiplayer tools do not set the on-ground status correctly. *Little Navmap* hides aircraft being on
+ground early when zooming out to avoid cluttered up airports.
+
+You can disable this in the options on page `Map Display`.
+Look for the section `AI or Multiplayer Aircraft` and deselect `Hide Aircraft on Ground`.
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
