@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-02-07 14:00:00 +0100
+date:   2024-02-09 17:00:00 +0100
 release-version: 2.8.12
 ---
 
@@ -123,6 +123,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I get an error message about missing directories when loading X-Plane scenery](#missing-xplane-scenery)
 1. [Airports missing in X-Plane scenery after reloading](#airports-missing-xplane-scenery)
 1. [I still see an older AIRAC cycle in the Scenery Libary menu for X-Plane](#update-navdata-cycle)
+1. [X-Plane crashes and the last log message is `--=={This application has crashed because of the plugin: Little Xpconnect/64/lin.xpl}==--`](#xpconnect-crash)
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
@@ -1143,6 +1144,15 @@ See [Little Navmap User Manual - Load Scenery Library Dialog](https://www.little
 
 You have to reload the scenery library in *Little Navmap* after updating the navdata in the simulator.
 *Little Navmap* will show the correct cycle and navdata after reloading.
+
+#### X-Plane crashes and the last log message is `--=={This application has crashed because of the plugin: Little Xpconnect/64/lin.xpl}==--` [**▲**](#top) [🔗](#xpconnect-crash) {#xpconnect-crash}
+
+This crash is caused by a wrong installation of *Little Xpconnect*. You either installed the plugin manually and did not keep the folder structure or you installed it more than once using different folder names.
+
+1. Check for duplicate installations of *Little Xpconnect* and remove them.
+2. Then remove the file `.../X-Plane 11/Resources/plugins/win.xpl` (`mac.xpl` on macOS and `lin.xpl` on Linux) if present.
+3. Reinstall *Little Xpconnect* correctly. See also [Little Navmap User Manual - Little Xpconnect](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/XPCONNECT.html).
+
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
