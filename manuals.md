@@ -1,17 +1,50 @@
 ---
 layout: subpage
 title:  "User Manuals"
-date:   2023-06-18 14:00:00 +0100
+date:   2024-02-24 13:00:00 +0100
+release-version: 2.8
+release-version-beta: 3.0
+
 ---
 [Alex’ Projects](index.html) ► User Manuals
 
 # ![User Manuals](/assets/images/navroute.png) User Manuals
 
-### Little Navmap 2.8 Latest Stable Release {#stable}
+### Latest Stable Releases {{ page.release-version }} {#stable}
 
-**[► English - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/)**, [PDF A4 Format](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en_a4.pdf), [PDF US Letter Format](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en_letter.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/littlenavmap_book_en.mobi), [Little Navmap Manual HTML en.zip](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/Little%20Navmap%20Manual HTML en.zip)
+#### Little Navmap
 
-### Little Navconnect 2.8 Latest Stable Release
+- **[► English - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version }}/en/)<br/>The online user manual which is used by help buttons and menus in Little Navmap.**
+- [► PDF A4 Format](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version }}/littlenavmap_book_en_a4.pdf) - For printing in A4 format.
+- [► PDF US Letter Format](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version }}/littlenavmap_book_en_letter.pdf) - For printing in US format.
+- [► EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version }}/littlenavmap_book_en.epub) - For ebook readers.
+- [► MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version }}/littlenavmap_book_en.mobi) - For Kindle ebook readers.
+- [► Little Navmap Manual HTML en.zip](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version }}/Little%20Navmap%20Manual HTML en.zip) - Download this and extract it into the folder `help` in the installation to use the HTML manual offline.
 
-**[► English - Online](https://www.littlenavmap.org/manuals/littlenavconnect/release/2.8/en/)**, [PDF A4 Format](https://www.littlenavmap.org/manuals/littlenavconnect/release/2.8/littlenavconnect_book_en_a4.pdf), [PDF US Letter Format](https://www.littlenavmap.org/manuals/littlenavconnect/release/2.8/littlenavconnect_book_en_letter.pdf), [EPUB](https://www.littlenavmap.org/manuals/littlenavconnect/release/2.8/littlenavconnect_book_en.epub), [MOBI](https://www.littlenavmap.org/manuals/littlenavconnect/release/2.8/littlenavconnect_book_en.mobi)
+#### Little Navconnect
 
+- **[► English - Online](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version }}/en/)**
+- [► PDF A4 Format](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version }}/littlenavconnect_book_en_a4.pdf)
+- [► PDF US Letter Format](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version }}/littlenavconnect_book_en_letter.pdf)
+- [► EPUB](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version }}/littlenavconnect_book_en.epub)
+- [► MOBI](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version }}/littlenavconnect_book_en.mobi)
+
+
+### Latest Beta, Test or Release Candidates {{ page.release-version-beta }} {#beta}
+
+#### Little Navmap
+
+- **[► English - Online](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version-beta }}/en/)<br/>The online user manual i is used by help buttons and menus in Little Navmap.**
+- [► PDF A4 Format](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version-beta }}/littlenavmap_book_en_a4.pdf) - For printing in A4 format.
+- [► PDF US Letter Format](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version-beta }}/littlenavmap_book_en_letter.pdf) - For printing in US format.
+- [► EPUB](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version-beta }}/littlenavmap_book_en.epub) - For ebook readers.
+- [► MOBI](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version-beta }}/littlenavmap_book_en.mobi) - For Kindle ebook readers.
+- [► Little Navmap Manual HTML en.zip](https://www.littlenavmap.org/manuals/littlenavmap/release/{{ page.release-version-beta }}/Little%20Navmap%20Manual HTML en.zip) - Download this and extract it into the folder `help` in the installation to use the HTML manual offline.
+
+#### Little Navconnect
+
+- **[► English - Online](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version-beta }}/en/)**
+- [► PDF A4 Format](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version-beta }}/littlenavconnect_book_en_a4.pdf)
+- [► PDF US Letter Format](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version-beta }}/littlenavconnect_book_en_letter.pdf)
+- [► EPUB](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version-beta }}/littlenavconnect_book_en.epub)
+- [► MOBI](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version-beta }}/littlenavconnect_book_en.mobi)

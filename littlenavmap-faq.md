@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-02-09 17:00:00 +0100
+date:   2024-02-24 13:00:00 +0100
 release-version: 2.8.12
 ---
 
@@ -123,7 +123,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I get an error message about missing directories when loading X-Plane scenery](#missing-xplane-scenery)
 1. [Airports missing in X-Plane scenery after reloading](#airports-missing-xplane-scenery)
 1. [I still see an older AIRAC cycle in the Scenery Libary menu for X-Plane](#update-navdata-cycle)
-1. [X-Plane crashes and the last log message is `--=={This application has crashed because of the plugin: Little Xpconnect/64/lin.xpl}==--`](#xpconnect-crash)
+1. [X-Plane crashes and the last log message is `--=={This application has crashed because of the plugin: Little Xpconnect/64/*.xpl}==--`](#xpconnect-crash)
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
@@ -224,6 +224,7 @@ If nothing helps, report an issue either in the [**Support Forum at _Avsim_**](h
 
 You might either:
 
+* Simply download and run the installer if you use Windows. The installer takes care of all obsolete files.
 * Delete the previous version of _Little Navmap_ and install the new version in the same place.
 * Install the new version in a new folder by using the version as a directory name suffix, for example.
 
@@ -1076,9 +1077,10 @@ See [Little Navmap User Manual - Installation - macOS](https://www.littlenavmap.
 
 #### Cannot run _Little Navmap_ or _Little Xpconnect_ on macOS Catalina or later [**▲**](#top) [🔗](#catalina) {#catalina}
 
-A new security feature in macOS forbids the execution of unsigned libraries or apps.
+A security feature in macOS forbids the execution of unsigned libraries or apps.
 
-See [Little Navmap User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INSTALLATION.html#macos) and
+See [Little Navmap User Manual - Installation - macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INSTALLATION.html#macos),
+[Little Navmap User Manual - Little Xpconnect](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/XPCONNECT.html) and
 [Safely open apps on your Mac](https://support.apple.com/HT202491).
 
 Alternatively, you can download the tool [Mac OS - CleanUp Quarantine Flags](https://forums.x-plane.org/index.php?/files/file/79828-mac-os-cleanup-quarantine-flags/) from x-plane.org, place this in the X-Plane base folder and run it to clean up the flags on all plugins at once.
@@ -1105,6 +1107,9 @@ Maybe it was installed accidentally in the plugins base path without the _Little
 Check if there is another folder with the _Little Xpconnect_ executable (`win.xpl`, `mac.xpl` or `lin.xpl` depending on operating system) around or if the file is stored in the plugins folder on the top level.
 
 You can see the path of the (wrongly) loaded plugin in the X-Plane plugin manager.
+
+See [Little Navmap User Manual - Little Xpconnect](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/XPCONNECT.html)
+for more information.
 
 #### Weather in X-Plane does not match what _Little Navmap_ displays [**▲**](#top) [🔗](#xplane-weather) {#xplane-weather}
 
@@ -1145,7 +1150,7 @@ See [Little Navmap User Manual - Load Scenery Library Dialog](https://www.little
 You have to reload the scenery library in *Little Navmap* after updating the navdata in the simulator.
 *Little Navmap* will show the correct cycle and navdata after reloading.
 
-#### X-Plane crashes and the last log message is `--=={This application has crashed because of the plugin: Little Xpconnect/64/lin.xpl}==--` [**▲**](#top) [🔗](#xpconnect-crash) {#xpconnect-crash}
+#### X-Plane crashes and the last log message is `--=={This application has crashed because of the plugin: Little Xpconnect/64/*.xpl}==--` [**▲**](#top) [🔗](#xpconnect-crash) {#xpconnect-crash}
 
 This crash is caused by a wrong installation of *Little Xpconnect*. You either installed the plugin manually and did not keep the folder structure or you installed it more than once using different folder names.
 
