@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2024-02-05 16:00:00 +0100
+date:   2024-02-18 23:00:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Links
@@ -9,10 +9,6 @@ date:   2024-02-05 16:00:00 +0100
 ## Useful Software {#useful-software}
 
 See also in the Avsim *Little Navmap* support forum in the pinned posts for more tools.
-
-[**► VirtualFlight.Online Transmitter**](https://flightsim.to/file/18920/virtual-flight-online-transmitter/)
-
-VirtualFlight.Online Transmitter displays multiplayer aircraft from Microsoft Flight Simulator live in LittleNavMap and on a live map in the VirtualFlight.Online website to assist those taking part in group flights and to simulate air traffic control for groups wishing to provice ATC services.
 
 [**► FlightLog Analyzer**](https://flightloganalyzer.com/)
 
