@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2023-12-03 23:00:00 +0100
+date:   2024-02-20 11:00:00 +0100
 release-version: 2.8.12
 ---
 
@@ -34,10 +34,9 @@ release-version: 2.8.12
 <p style="color: #c00000; background: rgba(250, 220, 220, 0.5); font-size: 0.8em;">
   <b>
     Only download Little Navmap from these trusted places:<br/>
-    <a style="color: #a00000;" href="https://github.com/albar965">► https://github.com/albar965</a>,<br/>
-    <a style="color: #a00000;" href="https://forums.x-plane.org/index.php?/files/file/41694-little-navmap/">► x-plane.org</a>,<br/>
-    <a style="color: #a00000;" href="https://forums.flightsimulator.com/t/little-navmap-2-6-19-stable-version-released-update-18/277145/">► forums.flightsimulator.com</a><br/>
-    or one of the alternative download locations above.<br/>
+    <a style="color: #a00000;" href="https://github.com/albar965/littlenavmap/releases">► GitHub - Little Navmap Releases</a><br/>
+    <a style="color: #a00000;" href="https://forums.x-plane.org/index.php?/files/file/41694-little-navmap/">► X-Plane.Org</a><br/>
+    <a style="color: #a00000;" href="/downloads.html">► Alternative Download Locations</a><br/>
     Third-party download sites are beyond my control, may offer outdated versions, and might be compromised.
   </b>
 </p>
