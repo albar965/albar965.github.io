@@ -36,7 +36,7 @@ release-version: 2.8.12
     Only download Little Navmap from these trusted places:<br/>
     <a style="color: #a00000;" href="https://github.com/albar965/littlenavmap/releases">► GitHub - Little Navmap Releases</a><br/>
     <a style="color: #a00000;" href="https://forums.x-plane.org/index.php?/files/file/41694-little-navmap/">► X-Plane.Org</a><br/>
-    <a style="color: #a00000;" href="/downloads.html">► Alternative Download Locations</a><br/>
+    <a style="color: #a00000;" href="https://albar965.github.io/downloads.html">► Alternative Download Locations</a><br/>
     Third-party download sites are beyond my control, may offer outdated versions, and might be compromised.
   </b>
 </p>
@@ -193,7 +193,9 @@ allows *Little Navmap* and *Little Navconnect* to connect to X-Plane.
 
 It is light weight, free and open source.
 
-**_Little Xpconnect_ is included in the download archive of *Little Navmap*.**
+**_Little Xpconnect_ is included in the download archive and installation of *Little Navmap*. Do not try to download it elsewhere.**
+
+The plugin can be easily installed from within *Little Navmap* in menu `Tools` -> `Install Little Xpconnect in X-Plane Plugins`.
 
 **Supported Flight Simulators:** X-Plane 11 and X-Plane 12.
 
