@@ -1,11 +1,13 @@
 ---
 layout: subpage
 title:  "User Manuals"
-date:   2024-02-24 13:00:00 +0100
-release-version: 2.8
+date:   2024-03-11 14:00 +0100
+release-version: 3.0
 release-version-beta: 3.0
-
 ---
+
+<!-- VERSION_NUMBER_TODO -->
+
 [Alex’ Projects](index.html) ► User Manuals
 
 # ![User Manuals](/assets/images/navroute.png) User Manuals
@@ -29,6 +31,7 @@ release-version-beta: 3.0
 - [► EPUB](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version }}/littlenavconnect_book_en.epub)
 - [► MOBI](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version }}/littlenavconnect_book_en.mobi)
 
+<!--
 
 ### Latest Beta, Test or Release Candidates {{ page.release-version-beta }} {#beta}
 
@@ -48,3 +51,4 @@ release-version-beta: 3.0
 - [► PDF US Letter Format](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version-beta }}/littlenavconnect_book_en_letter.pdf)
 - [► EPUB](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version-beta }}/littlenavconnect_book_en.epub)
 - [► MOBI](https://www.littlenavmap.org/manuals/littlenavconnect/release/{{ page.release-version-beta }}/littlenavconnect_book_en.mobi)
+-->

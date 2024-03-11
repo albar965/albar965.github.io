@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2023-07-16 15:00:00 +0200
+date:   2024-03-11 14:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap
@@ -107,7 +107,7 @@ date:   2023-07-16 15:00:00 +0200
   setup across two or more computers.
 * The program does not consume a lot of resources and can be run on **low end computers**.
 * _Little Navmap_ features its own **internal web server** which allows to follow aircraft progress from any device.
-* **User interface styles** (also `Night`) can be changed on the fly without restart.
+* **User interface styles** (also `Dark`) can be changed on the fly without restart.
 * **Help** is available online \(can be downloaded as PDF, ePub or Mobi\). A PDF file with the
   complete manual is included with the program. Help buttons in dialogs link to corresponding online
   help chapter.

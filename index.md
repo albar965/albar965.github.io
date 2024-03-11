@@ -1,9 +1,11 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2024-02-20 11:00:00 +0100
-release-version: 2.8.12
+date:   2024-03-11 14:00 +0100
+release-version: 3.0.4
 ---
+
+<!-- VERSION_NUMBER_TODO -->
 
 # Alex' Projects
 
@@ -108,6 +110,7 @@ diagram** displays taxiways, displaced thresholds, overrun areas, aprons, parkin
 
 Users can place **airport traffic patterns**, **holdings** or **minimum sector altitude diagrams** for visual guidance on the map.
 
+Unlike static charts, *Little Navmap* allows you to customize the way the map is displayed.
 
 | ---- | ---- |
 | [![Little Navmap 2.4.4 winds aloft](assets/images/user_features_small.jpg)](assets/images/user_features.jpg) | [![Little Navmap 2.4.4 User Features](assets/images/wind_small.jpg)](assets/images/wind.jpg) |

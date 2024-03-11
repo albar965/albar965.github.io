@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Install Navigraph Updates"
-date:   2023-07-16 15:00:00 +0200
+date:   2024-03-11 14:00 +0100
 ---
 [Alex’ Projects](index.html) ► Little Navmap - Install Navigraph Updates
 
@@ -37,9 +37,9 @@ If the automatic scan does not find the folder for _Little Navmap_ you have to a
 
 When you add the mapping manually in the _FMS Data Manager_ it should read `/Users/YOURUSERNAME/.config/ABarthel`.
 
-But macOS does not allow to select this directory since it is hidden. Therefore you have to apply a trick:
+But macOS does not allow to select this directory since it is hidden. Therefore you have to apply one of the tricks below:
 
-If the folder selection box is open press `Command+Shift+.` (period) keys to show the hidden files (i.e. all files and folders that start with a period). Then you can get into `.config` and select the folder `ABarthel`.
+If the folder selection box is open press `⌘+Shift+.` (period) keys to show the hidden files (i.e. all files and folders that start with a period). Then you can get into `.config` and select the folder `ABarthel`.
 
 ### Windows Users
 
@@ -78,3 +78,4 @@ Extract the archive and copy the included file `little_navmap_navigraph.sqlite` 
 -  macOS: `/Users/YOURUSERNAME/.config/ABarthel/little_navmap_db/little_navmap_navigraph.sqlite`
 -  Linux: `$HOME/.config/ABarthel/little_navmap_db/little_navmap_navigraph.sqlite`
 
+macOS: Press `⌘+Shift+.` in an open Finder window showing your home to reveal the hidden `.config` folder.

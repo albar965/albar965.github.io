@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2024-02-18 23:00:00 +0100
+date:   2024-03-11 14:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Links
@@ -33,7 +33,7 @@ This panel works differently than some other solutions which in majority just di
 [**► Ingamepanel NAVMAP for Flight Simulator**](https://flightsimulator.me/simulators/flight-simulator/panels/105-ingamepanel-navmap-for-flight-simulator)
 
 The most famous and powerful utility for flight simulators now integrated into your cockpit.
-Using *Little Navmap* webserver with this new and optimized ingamepanel for Flight Simulator you will can follow your flight like from the main app.
+Using *Little Navmap* web server with this new and optimized ingamepanel for Flight Simulator you will can follow your flight like from the main app.
 
 [**► Map extensions for Little Navmap**](https://flightsim.to/file/6411/map-extensions-for-little-navmap-lnm)
 
@@ -114,6 +114,26 @@ The *Little Navmap* user manual is generated using this tool.
 [**► Read The Docs Theme**](https://github.com/rtfd/sphinx_rtd_theme/)
 
 The documentation theme used to generate the *Little Navmap* user manual.
+
+[**► BorgBackup**](https://www.borgbackup.org/)
+
+Deduplicating archiver with compression and encryption for Linux.
+
+BorgBackup (short: Borg) gives you:
+
+- Space efficient storage of backups.
+- Secure, authenticated encryption.
+- Compression: lz4, zstd, zlib, lzma or none.
+- Mountable backups with FUSE.
+- Easy installation on multiple platforms: Linux, macOS, BSD, ...
+- Free software (BSD license).
+- Backed by a large and active open source community.
+
+[**► Rclone**](https://rclone.org/)
+
+Rclone is a command-line program to manage files on cloud storage. It is a feature-rich alternative to cloud vendors'
+web storage interfaces. Over 70 cloud storage products support rclone including S3 object stores, business & consumer
+file storage services, as well as standard transfer protocols.
 
 ## Server software {#software-local}
 
