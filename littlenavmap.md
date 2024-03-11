@@ -41,9 +41,6 @@ date:   2024-03-11 14:00 +0100
   add-on airports are loaded in a few minutes.
 * **Navigation data can be updated from [Navigraph](http://www.navigraph.com/). A cycle 1801 database
   courtesy of navigraph is included in the download and includes navaids, airways, airspaces and procedures**.
-* Navigation database updates by [fsAerodata](https://www.fsaerodata.com) and [FSX/P3D Navaids
-  update](https://www.aero.sors.fr/navaids3.html) are supported. Support for X-Plane navdata updates
-  and user defined waypoints.
 * Can read airspaces in OpenAir format from any directory which can be chosen by the user. Navigraph,
   Simulator, User or Online airspaces can be selected for display.
 * Uses X-Plane stock and updated navdata for approach, SID and STAR procedures including
