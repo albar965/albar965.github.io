@@ -1,8 +1,8 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-03-11 14:00 +0100
-release-version: 3.0.4
+date:   2024-03-12 15:00 +0100
+release-version: 3.0.5
 ---
 
 <!-- VERSION_NUMBER_TODO -->
