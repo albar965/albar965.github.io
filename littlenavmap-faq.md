@@ -1,8 +1,8 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-03-12 15:00 +0100
-release-version: 3.0.5
+date:   2024-03-31 16:00 +0200
+release-version: 3.0.6
 ---
 
 <!-- VERSION_NUMBER_TODO -->
@@ -128,7 +128,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [*Little Navmap* shows an error message about file `METAR.rwx` or directory `Output/real weather` does not exist](#xplane-weather-missing)
 1. [I get an error message about missing directories when loading X-Plane scenery](#missing-xplane-scenery)
 1. [Airports missing in X-Plane scenery after reloading](#airports-missing-xplane-scenery)
-1. [I still see an older AIRAC cycle in the Scenery Libary menu for X-Plane](#update-navdata-cycle)
+1. [I still see an older AIRAC cycle in the Scenery Library menu for X-Plane](#update-navdata-cycle)
 1. [X-Plane crashes and the last log message is `--=={This application has crashed because of the plugin: Little Xpconnect/64/*.xpl}==--`](#xpconnect-crash)
 
 <!-- ================================================================================================ -->
@@ -186,7 +186,7 @@ contains further links and describes how to create a report Zip archive containi
 
       Also exclude the installation and settings folder `Abarthel` from anti-virus scanning.
 
-      Furthermore disable uneeded weather downloads like NOAA, VATSIM or IVAO. Also shut down
+      Furthermore disable unneeded weather downloads like NOAA, VATSIM or IVAO. Also shut down
       the web server if it is not needed.
    2. **Online maps do not load or update:** Check your firewall settings
       if Windows blocks any outgoing connections. Check if *Little
@@ -269,7 +269,7 @@ See [Little Navmap User Manual - How to report a Bug](https://www.littlenavmap.o
 *Little Navmap* shows and error message if a previous unsafe shutdown was detected, i.e. a crash.
 Follow the notes in the dialog window to send the generated crash report.
 
-See [Little Navmap User Manual - Crashreport](https://www.littlenavmap.org/manuals/littlenavmap/release/3.0/en/CRASHREPORT.html).
+See [Little Navmap User Manual - Crash Report](https://www.littlenavmap.org/manuals/littlenavmap/release/3.0/en/CRASHREPORT.html).
 
 What you can try to workaround the issue:
 1. Use [Little Navmap User Manual - Reset all Settings and Restart](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#reset-all-settings-and-restart) in the menu `Tools`.
@@ -667,14 +667,14 @@ See next topic below.
 
 This message appears after loading the MSFS scenery library. Numbers will differ.
 
-Futhermore there are one or more messages like the one below:
+Furthermore there are one or more messages like the one below:
 
 ```
 Scenery Title: OneStore
 Encrypted add-on "asobo-airport-eddf-frankfurt" found. Add-on might not show up correctly.
 ```
 
-This is not an error message but merely a reminder that the layout of encrypted payware aiports in _Little Navmap_ might not match what you see in the simulator.
+This is not an error message but merely a reminder that the layout of encrypted payware airports in _Little Navmap_ might not match what you see in the simulator.
 You can still use the airport for flight planning but taxiways, parking spots and aprons might probably differ.
 
 This is related to [A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_](#no-airport-msfs). See there for more information.
@@ -746,7 +746,7 @@ It's neither a _Little Navmap_ nor Navigraph issue. It is an unavoidable real wo
 
 See the [Little Navmap User Manual - Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NAVDATA.html) chapter in the manual for more information.
 
-For **FSX or Perpar3D** you can use the [Airport Design Editor](https://www.scruffyducksoftware.com/airport-design-editor) to change the runway numbers.
+For **FSX or Prepar3D** you can use the [Airport Design Editor](https://www.scruffyducksoftware.com/airport-design-editor) to change the runway numbers.
 
 Use [WED](https://developer.x-plane.com/tools/worldeditor/) to change an airport for X-Plane or download the latest airport from the [The X-Plane Scenery Gateway](https://gateway.x-plane.com/).
 
@@ -754,7 +754,7 @@ Use [WED](https://developer.x-plane.com/tools/worldeditor/) to change an airport
 
 This is a very complex task.
 
-For **FSX or Perpar3D** you can use the [Airport Design Editor](https://www.scruffyducksoftware.com/airport-design-editor),
+For **FSX or Prepar3D** you can use the [Airport Design Editor](https://www.scruffyducksoftware.com/airport-design-editor),
 add procedures to the airport and then switch off Navigraph in the scenery library menu. _Little Navmap_ will
 read the procedures from your add-on airport and you can use them like the others.
 
@@ -780,7 +780,7 @@ I recommend to keep *Little Navmap*, the simulator and all tools on the same AIR
 
 ##### How to get a Navdata only Subscription
 
-Create an accout at [Navigraph](https://navigraph.com/) if you do not already have one.
+Create an account at [Navigraph](https://navigraph.com/) if you do not already have one.
 
 Click on your name in the top right corner when logged in on the web page. Click on `Subscription` on the left if you're not already there.
 You will see the webpage below where you can select the `Navigation Data subscription` at the bottom of the page.
@@ -832,6 +832,8 @@ The user navaids can be used in the X-Plane stock FMS and GPS. But keep in mind 
 
 #### An airport looks wrong, has runways pointing in the wrong direction, or its name is misspelled [**▲**](#top) [🔗](#airport-wrong) {#airport-wrong}
 
+_Little Navmap_ does not maintain airports. It just reads the airport data from the simulator scenery library and shows what it finds there. I cannot update airports.
+
 The following are scenery or add-on issues:
 1. Aprons are over sized or at the wrong position: Some add-on developers misuse apron polygons for other purposes like parking lots or flattening. MSFS seems to have automatically generated apron polygons which can be wrong. This is not a bug in _Little Navmap_ which reads these structures as is.
 2. Taxiway signs are missing or wrong: This is an issue with the stock airport scenery or an add-on.
@@ -840,10 +842,17 @@ The following are scenery or add-on issues:
 5. Airport names are misspelled. This is a scenery problem.
 6. Country, state, province, city or airport name is wrong or missing: Completeness of administrative information depends on simulator or airport add-on. Administrative data is often missing or wrong for X-Plane airports. Country information is completely missing in MSFS. Other simulators might provide only obsolete data.
 
-What can you do:
-1. You can contact the add-on developers and ask them to fix the issue.
-2. For X-Plane you can use [WED](https://developer.x-plane.com/tools/worldeditor/) to correct the issue and upload your changes to the [Scenery Gateway](https://gateway.x-plane.com/) or file a bug report at the Gateway.
-3. Use the MSFS development tools to create a corrected version of the airport.
+**What can you do in general:**
+1. Look for an add-on airport which corrects the issue if it is a stock airport.
+2. Contact the add-on developer and ask him to fix the issue if it is an add-on airport.
+
+**MSFS:**
+1. Use the MSFS development tools to create a corrected version of the airport.
+
+**X-Plane:**
+1. Check the [Scenery Gateway](https://gateway.x-plane.com/) if there is already an updated version of the airport.
+2. File a bug report at the [Scenery Gateway](https://gateway.x-plane.com/).
+3. Use [WED](https://developer.x-plane.com/tools/worldeditor/) to correct the issue and optionally upload your changes to the [Scenery Gateway](https://gateway.x-plane.com/).
 
 #### How does _Little Navmap_ find the MSFS scenery library, or MSFS installation not found [**▲**](#top) [🔗](#msfs-scenery-library) {#msfs-scenery-library}
 
@@ -1039,7 +1048,7 @@ Close _Little Navmap_ now and delete the folders `stadiastamenterrain` and `stam
 
 Unlike static charts, *Little Navmap* allows you to customize the way the map is displayed.
 
-Lower the detail level in menu `View` or deselect uneeded features you do not need for the task.
+Lower the detail level in menu `View` or deselect unneeded features you do not need for the task.
 Hide airways when flying, for example.
 
 See [Little Navmap User Manual - Map Display - Declutter](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MAPDISPLAY.html#map-clutter) for more information.
@@ -1131,7 +1140,7 @@ If you have `Read inactive Scenery Entries:` enabled: Restart X-Plane so that it
 
 See [Little Navmap User Manual - Load Scenery Library Dialog](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html).
 
-#### I still see an older AIRAC cycle in the Scenery Libary menu for X-Plane [**▲**](#top) [🔗](#update-navdata-cycle) {#update-navdata-cycle}
+#### I still see an older AIRAC cycle in the Scenery Library menu for X-Plane [**▲**](#top) [🔗](#update-navdata-cycle) {#update-navdata-cycle}
 
 You have to reload the scenery library in *Little Navmap* after updating the navdata in the simulator.
 *Little Navmap* will show the correct cycle and navdata after reloading.
