@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-03-31 16:00 +0200
+date:   2024-04-04 20:00 +0200
 release-version: 3.0.6
 ---
 
@@ -623,11 +623,14 @@ The following issues are known so far:
 - You cannot use airways or procedures for VFR flight plans. MSFS will quietly remove these. *Little Navmap* shows a warning if you try to export such a plan.
 - MSFS uses turn anticipation which may result in wrong flight plan display in the GPS units or autopilot behavior. The GPS or autopilot will take a shortcut for hard turns which sometimes messes up a flight plan, for example. Turn anticipation is a function performed by FMS or RNAV devices to tell the pilot when to initiate a turn to the next waypoint on the programmed flight path to avoid overshooting the programmed course.
 - Altitude at waypoints and sometimes the cruise altitude is ignored and replaced by MSFS' own idea of a climb and descent profile which has nothing to do with the *Little Navmap* profile. This happens despite *Little Navmap* saving the altitude for each waypoint.
-- Flight plan names must not contains special characters like umlauts or accents. *Little Navmap* replaces these automatically when exporting a plan.
+- Flight plan names must not contain special characters like umlauts or accents. *Little Navmap* replaces these automatically when exporting a plan.
 
-Apart from these issues above you might see MSFS crashes or corrupted flight plans when loading.
+Do not change an incorrect departure position or procedure by clicking into the MSFS map. This will reshuffle the entire flight plan.
+Use the top drop-down boxes to change procedures or departure parking. This will keep the flight plan intact.
 
-Also, read the chapter [Little Navmap User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) in the *Little Navmap* user manual to minimize issues with different navdata.
+Apart from these issues above you might see MSFS crashes or otherwise corrupted flight plans when loading.
+
+Read the chapter [Little Navmap User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) in the *Little Navmap* user manual to minimize issues with different navdata.
 
 #### Waypoints are moved North when loading a flight plan in MSFS [**▲**](#top) [🔗](#flightplan-north-msfs) {#flightplan-north-msfs}
 
