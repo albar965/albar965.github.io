@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2024-03-11 14:00 +0100
+date:   2024-06-18 14:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Links
@@ -41,7 +41,7 @@ More useable maps for flightplanning with worldwide latin letter naming for *Lit
 
 [**► LittleNavMap 'Userpoint Icons'**](https://flightsim.to/file/23181/littlenavmap-userpoint-icons)
 
-Additional icons for for marking your favorite places and things in *Little NavMap*.
+Additional icons for marking your favorite places and things in *Little NavMap*.
 
 [**► Little Navmap - MSFS POI database**](https://flightsim.to/file/17193/little-navmap-msfs-poi-database)
 

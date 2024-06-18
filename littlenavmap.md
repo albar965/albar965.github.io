@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2024-03-11 14:00 +0100
+date:   2024-06-18 14:00 +0100
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap
@@ -84,7 +84,7 @@ date:   2024-03-11 14:00 +0100
   approach and departure procedures, navaids, the user aircraft, AI or multiplayer aircraft as well
   as ships, **decoded weather** from multiple sources like X-Plane, AS16, Active Sky Next, Active Sky
   for Prepare3D v4, NOAA, VATSIM and IVAO. **Sunrise and sunset** for airports is shown in information as well
-  as bearing and distance to user aircraft.
+  as bearing and distance from user aircraft.
 * The map display and the measurement units (nautical, metric, imperial) can be customized by the
   user.
 * User interface and map display can be further customized by changing configuration files and SVG icons.
