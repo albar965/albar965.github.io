@@ -34,10 +34,39 @@ changelog=
 
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
-[beta]
-
-# ---------------------------------------------------------------
-# ---------------------------------------------------------------
 
 [develop]
 
+
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+[beta]
+version=3.0.7.rc1
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-win64-3.0.7.rc1-Install.exe
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-macOS-3.0.7.rc1.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-linux-22.04-3.0.7.rc1.tar.xz
+changelog=
+  <body>
+    <head>
+      <style type="text/css">
+        p { text-align: center; }
+        code { background: #33808080; }
+        a { color: #5a4b96; }
+        a:visited { color: #5a4b96; }
+        a:hover { color: #3091d1; }
+      </style>
+    </head>
+    <p style="font: x-large; font-weight: bold;"><br/><br/>
+      <a href="https://albar965.github.io/release/2024/06/21/littlenavmap-rc1-307-released.html">
+      Little Navmap Release Candidate 3.0.7.rc1 released
+      </a>
+    </p>
+    <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
+      Click above link for the full announcement,<br/>changelog and download links<br/>for all operating systems.
+    </p>
+    <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
+      Note that you need to download the 32-bit version<br/>
+      from the <a href="https://albar965.github.io/release/2024/06/21/littlenavmap-rc1-307-released.html">link above</a>
+      if you use FSX or Prepar3D.
+    </p>
+  </body>
