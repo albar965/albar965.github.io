@@ -10,13 +10,13 @@ release-version: 3.0.7.rc1
 
 [**► Windows 64-bit Installer \(*MSFS and X-Plane*\)** - LittleNavmap-win64-3.0.7.rc1-Install.exe](https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-win64-3.0.7.rc1-Install.exe)<br/>
 [**► macOS** - LittleNavmap-macOS-3.0.7.rc1.zip](https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-macOS-3.0.7.rc1.zip)<br/>
-[**► Linux \(64 bit, based on Ubuntu 22.04\)** - LittleNavmap-linux-22.04-3.0.7.rc1.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-linux-22.04-3.0.7.rc1.tar.xz)<br/>
+[**► Linux \(64 bit, based on Ubuntu 22.04\)** - LittleNavmap-linux-ubuntu-22.04-3.0.7.rc1.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-linux-ubuntu-22.04-3.0.7.rc1.tar.xz)<br/>
 [**► Linux Debian Installation Package \(64 bit, based on Ubuntu 22.04\)** - LittleNavmap-linux-ubuntu-22.04-3.0.7.rc1-1_amd64.deb](https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-linux-ubuntu-22.04-3.0.7.rc1-1_amd64.deb)
 
 **Other Versions:**
 
 [► Windows 32-bit Installer \(*only for FSX and P3D*\) - LittleNavmap-win32-3.0.7.rc1-Install.exe](https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-win32-3.0.7.rc1-Install.exe)<br/>
-[► Linux \(64 bit, based on Ubuntu 20.04 for Debian or older systems\) - LittleNavmap-linux-20.04-3.0.7.rc1.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-linux-20.04-3.0.7.rc1.tar.xz)<br/>
+[► Linux \(64 bit, based on Ubuntu 20.04 for Debian or older systems\) - LittleNavmap-linux-ubuntu-20.04-3.0.7.rc1.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-linux-ubuntu-20.04-3.0.7.rc1.tar.xz)<br/>
 [► Linux Debian Installation Package \(64 bit, based on Ubuntu 20.04\) - LittleNavmap-linux-ubuntu-20.04-3.0.7.rc1-1_amd64.deb](https://github.com/albar965/littlenavmap/releases/download/v3.0.7.rc1/LittleNavmap-linux-ubuntu-20.04-3.0.7.rc1-1_amd64.deb)
 
 Zipped Windows releases without installer are available in the alternative download locations below or from the release assets at [GitHub - Little Navmap Releases - Version 3.0.7.rc1](https://github.com/albar965/littlenavmap/releases/v3.0.7.rc1) \(scroll down to `Assets`\).
