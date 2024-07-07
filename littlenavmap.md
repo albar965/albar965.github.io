@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2024-06-18 14:00 +0100
+date:   2024-07-07 12:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap
@@ -39,7 +39,7 @@ date:   2024-06-18 14:00 +0100
   (Spanish and Dutch are based on older _Little Navmap_ versions).
 * All is based on flight simulator stock or add-on data, no third party data needed. All stock and
   add-on airports are loaded in a few minutes.
-* **Navigation data can be updated from [Navigraph](http://www.navigraph.com/). A cycle 1801 database
+* **Navigation data can be updated from [Navigraph](https://www.navigraph.com/). A cycle 1801 database
   courtesy of navigraph is included in the download and includes navaids, airways, airspaces and procedures**.
 * Can read airspaces in OpenAir format from any directory which can be chosen by the user. Navigraph,
   Simulator, User or Online airspaces can be selected for display.
@@ -71,7 +71,7 @@ date:   2024-06-18 14:00 +0100
 * Option to **calculate flight plan fragments** between any two waypoints of a present flight plan.
 * Flight plan route descriptions can be read which allows to convert flight plans from and to **ATS
   route descriptions** which can be retrieved from the various online services like
-  [RouteFinder](http://rfinder.asalink.net) or [SkyVector](https://skyvector.com). This includes
+  [RouteFinder](https://rfinder.asalink.net) or [SkyVector](https://skyvector.com). This includes
   SIDs, STARs and information for cruise speed and altitude.
 * **Aircraft performance, fuel planning** top of climb and top of descent calculation considering aircraft performance,
   **winds aloft** and altitude restrictions in procedures is available and can be automatically collected in background while flying.

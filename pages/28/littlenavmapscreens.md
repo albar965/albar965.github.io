@@ -1,8 +1,9 @@
 ---
 layout: subpage
 title:  "Screenshots of new 2.8 Features"
-date:   2022-12-22 19:00:00 +0100
+date:   2024-07-07 12:00 +0200
 ---
+
 [Alex’ Projects](/index.html)
 ► [Little Navmap 2.8.7 released](/release/2022/12/22/littlenavmap-stable-287-released.html)
 ► Screenshots of new 2.8 Features
@@ -98,7 +99,7 @@ See [Options](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/O
 ---
 
 | <a href="/assets/images/28/optionsmapall.jpg"><img src="/assets/images/28/optionsmapall.jpg"></a> | <a href="/assets/images/28/optionsmap.jpg"><img src="/assets/images/28/optionsmap.jpg"></a> | <a href="/assets/images/28/optionsmapkeys.jpg"><img src="/assets/images/28/optionsmapkeys.jpg"></a> |
-| Many new label display options on page `Map Display Labels`. | More map tooltip options. | Key management to use maps requiring a login. See [Map Display Keys](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/OPTIONS.html#map-display-keys) for details. |
+| Many new label display options on page `Map Labels`. | More map tooltip options. | Key management to use maps requiring a login. See [Map Keys](https://www.littlenavmap.org/manuals/littlenavmap/release/2.8/en/OPTIONS.html#map-display-keys) for details. |
 
 <br/>
 ---

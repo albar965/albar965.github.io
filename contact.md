@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2024-03-11 14:00 +0100
+date:   2024-07-07 12:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Contact and Support
@@ -26,7 +26,7 @@ You can also find all releases on [GitHub](https://github.com/albar965/littlenav
 
 [**► Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
-## Create an Issue Report
+## Create Issue Report
 
 The chapter [Little Navmap User Manual - Issue Report](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/ISSUEREPORT.html#logs)
 describes how to create a report Zip archive containing all needed files.

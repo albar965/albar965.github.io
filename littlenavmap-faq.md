@@ -1,8 +1,8 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-04-04 20:00 +0200
-release-version: 3.0.6
+date:   2024-07-07 12:00 +0200
+release-version: 3.0.8
 ---
 
 <!-- VERSION_NUMBER_TODO -->
@@ -303,12 +303,6 @@ _Little Navmap_ does not create any registry entries on Windows except when usin
 
 **Note: This issue was fixed with the Little Navmap version 2.8.8. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
 
-The problem appears when checking for updates and all other network communication. You see errors like `Reason: "SSL handshake failed"` in the log file.
-
-This is an issue in the Linux build. The included `libssl.so` is not loaded by Qt. Instead the not compatible version SSL version 3 is loaded on some systems.
-
-To fix this download the hotfix [LittleNavmap-linux-22.04-2.8.7-openssl-1.1.tar.gz(]https://github.com/albar965/littlenavmap/releases/download/v2.8.7/LittleNavmap-linux-22.04-2.8.7-openssl-1.1.tar.gz) and install it according to the included `README.txt`.
-
 #### _Little Navmap_ does not start on Linux [**▲**](#top) [🔗](#linux-start) {#linux-start}
 
 Commonly missing shared libraries can be installed by entering `sudo apt install libxcb-xinerama0 libxcb-icccm4`.
@@ -410,7 +404,7 @@ You see an error about a missing GLIBC version on the terminal when running *Lit
 ```
 
 Use the *Little Navmap* build based on Ubuntu 20.04. You can find it in the assets of every release on GitHub.
-For example [LittleNavmap-linux-20.04-{{ page.release-version }}.tar.gz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-20.04-{{ page.release-version }}.tar.gz).
+For example [LittleNavmap-linux-ubuntu-20.04-{{ page.release-version }}.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-20.04-{{ page.release-version }}.tar.xz).
 
 The functionality of this build is identical to the 22.04 builds ad they use the same settings folder and files.
 
@@ -763,7 +757,7 @@ read the procedures from your add-on airport and you can use them like the other
 
 **X-Plane**: You can try to create a CIFP file but this is very complex and not recommended as stated on the page [here](https://developer.x-plane.com/?article=navdata-in-x-plane-11#How_do_I_make_my_own_approach_No_hand_editing_please).
 
-See [Navdata in X-Plane 11](https://developer.x-plane.com/?article=navdata-in-x-plane-11) and [XP-CIFP1101-Spec.pdf](http://developer.x-plane.com/wp-content/uploads/2016/10/XP-CIFP1101-Spec.pdf).
+See [Navdata in X-Plane 11](https://developer.x-plane.com/?article=navdata-in-x-plane-11) and [XP-CIFP1101-Spec.pdf](https://developer.x-plane.com/wp-content/uploads/2016/10/XP-CIFP1101-Spec.pdf).
 
 #### A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_ [**▲**](#top) [🔗](#no-airport-msfs) {#no-airport-msfs}
 
