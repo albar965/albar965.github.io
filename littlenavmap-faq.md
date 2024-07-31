@@ -1,11 +1,18 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-07-07 12:00 +0200
-release-version: 3.0.8
+date:   2024-07-31 14:00 +0200
+release-version: 3.0.9
 ---
 
 <!-- VERSION_NUMBER_TODO -->
+
+<!-- TODO
+Install xpconnect disabled
+Keep structure ok to install xpconnect
+Map too cluttered
+
+-->
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
 
@@ -89,7 +96,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [After adding a userpoint: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id`](#userdata-exception)
 1. [After importing userpoints from CSV: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id`](#userdata-exception-csv)
 1. [Loading of the scenery library database takes a long time](#loading-too-long)
-1. [X-Plane 12 airports appear with a gray icon](#xp-gray-airports)
+1. [X-Plane 12 airports are missing on the map or appear with a gray icon](#xp-gray-airports)
 1. [AI and/or multiplayer aircraft disappear early when zooming out](#ai-zoom-out)
 
 ### User Interface {#ui}
@@ -906,7 +913,7 @@ Do the same for you flight simulator scenery libraries:
 Alternatively you can exclude unneeded folders in *Little Navmap* from scanning by adding them in option on
 page `Scenery Library Database`.
 
-#### X-Plane 12 airports appear with a gray icon [**▲**](#top) [🔗](#xp-gray-airports) {#xp-gray-airports}
+#### X-Plane 12 airports are missing on the map or appear with a gray icon [**▲**](#top) [🔗](#xp-gray-airports) {#xp-gray-airports}
 
 _Little Navmap_ considers the X-Plane airport flag `3D` which indicates that an airport also contains 3D objects.
 This can be a lamp post or a fully modeled terminal building. The full explanation is here:
