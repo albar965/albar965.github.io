@@ -1,18 +1,11 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-07-31 14:00 +0200
+date:   2024-08-10 15:00 +0200
 release-version: 3.0.9
 ---
 
 <!-- VERSION_NUMBER_TODO -->
-
-<!-- TODO
-Install xpconnect disabled
-Keep structure ok to install xpconnect
-Map too cluttered
-
--->
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
 
@@ -137,6 +130,8 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Airports missing in X-Plane scenery after reloading](#airports-missing-xplane-scenery)
 1. [I still see an older AIRAC cycle in the Scenery Library menu for X-Plane](#update-navdata-cycle)
 1. [X-Plane crashes and the last log message is `--=={This application has crashed because of the plugin: Little Xpconnect/64/*.xpl}==--`](#xpconnect-crash)
+1. [The option `Install Little Xpconnect in X-Plane plugins` in menu `Tools` is disabled / grayed out](#xpconnect-disabled)
+1. [How does *Little Navmap* find an X-Plane installation](#xplane-detect)
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
@@ -1157,6 +1152,26 @@ This crash is caused by a wrong installation of *Little Xpconnect*. You either i
 2. Then remove the file `.../X-Plane 11/Resources/plugins/win.xpl` (`mac.xpl` on macOS and `lin.xpl` on Linux) if present.
 3. Reinstall *Little Xpconnect* correctly. See also [Little Navmap User Manual - Little Xpconnect](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/XPCONNECT.html).
 
+#### The option `Install Little Xpconnect in X-Plane plugins` in menu `Tools` is disabled / grayed out [**▲**](#top) [🔗](#xpconnect-disabled) {#xpconnect-disabled}
+
+The menu item to install *Little Xpconnect* is disabled if *Little Navmap* could not find a X-Plane installation or if
+a simulator other than X-Plane is selected in the menu `Scenery Library`.
+
+*Little Navmap* uses the base path of the simulator as shown in the `Load Scenery Library` dialog (from menu `Tools`)
+to find the installation path. See [How does *Little Navmap* find an X-Plane installation](#xplane-detect) below for details.
+
+#### How does *Little Navmap* find an X-Plane installation [**▲**](#top) [🔗](#xplane-detect) {#xplane-detect}
+
+*Little Navmap* detects a X-Plane 11 or 12 installation by looking for the files below (examples for X-Plane 12):
+
+- Windows: `C:\Users\USER\AppData\Local\x-plane_install_12.txt`
+- macOS: `/Users/USER/Library/Preferences/x-plane_install_12.txt`
+- Linux `/home/USER/.x-plane/x-plane_install_12.txt`
+
+The files contain one line for each X-Plane installation pointing to the base path.
+
+*Little Navmap* will disable the simulator in the load scenery library dialog window if the files are missing or contain invalid paths.
+The first path found is used as the base path.
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
