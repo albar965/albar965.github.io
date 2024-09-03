@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-08-10 15:00 +0200
+date:   2024-09-03 20:00 +0200
 release-version: 3.0.9
 ---
 
@@ -33,6 +33,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [**Troubleshooting**](#troubleshooting)
 1. [**Common Problems**](#problems-general)
 1. [**MSFS Common Problems**](#problems-msfs)
+1. [**After downloading in Windows Edge I see an error message** `Program isn’t commonly downloaded. Make sure you trust Little Navmap` \(or similar\)](#windows-download)
 1. [The program, all menus and windows look blurry](#blurry)
 1. [Can I publish screenshots of _Little Navmap_, flight plans or other files made with _Little Navmap_?](#copyright)
 1. [Where are the log and configuration files?](#log-and-config-files)
@@ -489,6 +490,36 @@ Read the linked chapter below to minimize issues when loading flight plans into 
    reports `Error: readInt for file "...OMITTED.../LEMG.bgl" failed. Reason 1`. Exclude the airport
    file from reading in options on page `Scenery Library Database` or simply ignore the message. The
    stock LEMG and all other airports are not affected by this.
+
+#### After downloading in Windows Edge I see an error message `Program isn’t commonly downloaded. Make sure you trust Little Navmap` (or similar) [**▲**](#top) [🔗](#windows-download) {#windows-download}
+
+Follow the screenshots below if you see this error message when downloading *Little Navmap* from Windows Edge.
+
+You can upload all downloaded files to [VirusTotal](https://www.virustotal.com/) to have them checked by various anti-virus programs for free.
+
+----
+
+##### Step 1 - Click the three dot menu (you have to hover the mouse above to see it) and keep the downloaded program
+
+![Windows Download Step 1 of 4](assets/images/lnm_windows_download_1_of_4.jpeg)
+
+----
+
+##### Step 1 - Show more options by clicking the down arrow
+
+![Windows Download Step 1 of 4](assets/images/lnm_windows_download_2_of_4.jpeg)
+
+----
+
+##### Step 1 - Click to keep the downloaded program anyway
+
+![Windows Download Step 1 of 4](assets/images/lnm_windows_download_3_of_4.jpeg)
+
+----
+
+##### Step 1 - Open the file for installation
+
+![Windows Download Step 1 of 4](assets/images/lnm_windows_download_4_of_4.jpeg)
 
 #### The program, all menus and windows look blurry [**▲**](#top) [🔗](#blurry) {#blurry}
 
