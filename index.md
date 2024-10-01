@@ -1,11 +1,13 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2024-07-31 14:00 +0200
+date:   2024-10-01 13:00 +0200
 release-version: 3.0.9
 ---
 
 <!-- VERSION_NUMBER_TODO -->
+
+**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Findex.html).
 
 # Alex' Projects
 

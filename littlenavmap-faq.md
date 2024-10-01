@@ -1,11 +1,13 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-09-03 20:00 +0200
+date:   2024-10-01 13:00 +0200
 release-version: 3.0.9
 ---
 
 <!-- VERSION_NUMBER_TODO -->
+
+**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flittlenavmap-faq.html).
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
 
@@ -310,7 +312,7 @@ _Little Navmap_ does not create any registry entries on Windows except when usin
 
 Commonly missing shared libraries can be installed by entering `sudo apt install libxcb-xinerama0 libxcb-icccm4`.
 
-Also missing might be `qt5dxcb` which can be installed with `sudo apt install qt5dxcb-plugin` on a terminal in an Ubuntu or derived system. Use your system package manager (`rpm`, `pacman`, etc.) to install missing libraries if using another system.
+Also missing might be `qt5dxcb` which can be installed with `sudo apt install qt5dxcb-plugin` on a terminal in a Ubuntu or derived system. Use your system package manager (`rpm`, `pacman`, etc.) to install missing libraries if using another system.
 
 Little Navmap supports the Wayland compositor which is used on newer Linux distributions
 but you have to install the package `qtwayland5`.

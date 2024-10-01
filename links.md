@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2024-06-18 14:00 +0100
+date:   2024-10-01 13:00 +0200
 ---
 
 [Alex’ Projects](index.html) ► Little Navmap - Links
@@ -43,7 +43,7 @@ More useable maps for flightplanning with worldwide latin letter naming for *Lit
 
 Additional icons for marking your favorite places and things in *Little NavMap*.
 
-[**► Little Navmap - MSFS POI database**](https://flightsim.to/file/17193/little-navmap-msfs-poi-database)
+[**► Little Navmap - MSFS POI database**](https://flightsim.to/file/81114/littlenavmap-msfs-poi-s)
 
 CSV database of all default POIs in MSFS for import into *Little Navmap*. 2120 POIs in total sorted in separate files.
 
