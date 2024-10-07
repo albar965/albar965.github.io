@@ -1,8 +1,10 @@
 ---
 layout: subpage
 title:  "Alternative Download Locations"
-date:   2024-09-22 15:00:00 +0200
+date:   2024-10-07 15:00 +0200
 ---
+
+**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Fdownloads.html).
 
 [Alex’ Projects](index.html) ► Alternative Download Locations
 

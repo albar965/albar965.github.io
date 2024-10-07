@@ -1,8 +1,11 @@
 ---
 layout: subpage
 title:  "Little Navconnect"
-date:   2022-06-15 10:00:00 +0200
+date:   2024-10-07 15:00 +0200
 ---
+
+**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flittlenavconnect.html).
+
 [Alex’ Projects](index.html) ► Little Navconnect
 # ![Little Navconnect](assets/images/navconnect.png) Little Navconnect
 
