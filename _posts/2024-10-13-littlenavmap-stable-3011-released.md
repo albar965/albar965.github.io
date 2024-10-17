@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Little Navmap 3.0.11 released
-date:   2024-10-17 20:00 +0200
+date:   2024-10-13 16:00 +0200
 categories: release
 release-version: 3.0.11
 ---
