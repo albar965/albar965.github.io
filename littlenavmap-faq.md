@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-10-01 13:00 +0200
+date:   2024-10-17 20:00 +0200
 release-version: 3.0.11
 ---
 
@@ -495,7 +495,12 @@ Read the linked chapter below to minimize issues when loading flight plans into 
 
 #### After downloading in Windows Edge I see an error message `Program isn’t commonly downloaded. Make sure you trust Little Navmap` (or similar) [**▲**](#top) [🔗](#windows-download) {#windows-download}
 
-Follow the screenshots below if you see this error message when downloading *Little Navmap* from Windows Edge.
+<!-- This is the latest pseudo-security circus from Microsoft, which only makes life worse for developers by discouraging people from using software outside their stores by leading them through a maze of dark patterns. -->
+
+**Simplest solution: Do not use Edge or Chrome but install [Firefox](https://www.mozilla.org) instead.**
+<!--**Best solution: Use Linux.**-->
+
+Alternatively follow the screenshots below if you see this error message when downloading *Little Navmap* from Windows Edge or other Chrome based browsers.
 
 You can upload all downloaded files to [VirusTotal](https://www.virustotal.com/) to have them checked by various anti-virus programs for free.
 

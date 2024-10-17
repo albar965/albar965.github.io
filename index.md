@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2024-10-01 13:00 +0200
+date:   2024-10-17 20:00 +0200
 release-version: 3.0.11
 ---
 
@@ -60,7 +60,11 @@ release-version: 3.0.11
 
 Zipped Windows releases without installer are available in the alternative download locations below or from the release assets at [GitHub - Little Navmap Releases - Version {{ page.release-version }}](https://github.com/albar965/littlenavmap/releases/v{{ page.release-version }}) \(scroll down to `Assets`\).
 
-**► [Alternative Download Locations](/downloads.html)**
+**[► Alternative Download Locations](https://albar965.github.io/downloads.html).** Look into sub-folders for beta, development or release candidates.
+
+**[►► Read here if you have problems downloading _Little Navmap_ for Windows](/littlenavmap-faq.html#windows-download)**
+
+**[►► See here if you have problems running _Little Navmap_ on macOS](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/INSTALLATION.html#macos)**
 
 ## Little Navmap Links
 
