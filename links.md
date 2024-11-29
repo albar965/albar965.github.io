@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2024-10-10 11:00 +0200
+date:   2024-11-29 20:00 +0100
 ---
 
 **Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flinks.html).
@@ -27,6 +27,12 @@ A Flight Analyzer and Viewer for MSFS 2020. Features:
 [**► LittleNavmapOFMTheme**](https://github.com/AmbitiousPilots/LittleNavmapOFMTheme)
 
 Now you can use open flightmaps VFR maps in *Little Navmap* for your VFR flight planning and navigation. This theme is already included as a stock theme.
+
+[**► Little Navmap EFB Client**](https://flightsim.to/file/85446/little-navmap-efb-client)
+
+The Little Navmap EFB Client is a simple application designed to integrate Little Navmap with Microsoft Flight Simulator's in-game Electronic Flight Bag (EFB). This in-progress add-on provides features such as centering of the aircraft, zooming in and out, and displaying flight plans.
+
+For MSFS 2020 and MSFS 2024.
 
 [**► Little Navmap VR Panel**](https://flightsim.to/file/43086/little-navmap-vr-panel)
 
