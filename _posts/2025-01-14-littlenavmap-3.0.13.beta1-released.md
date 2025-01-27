@@ -155,3 +155,5 @@ Note that some of theses limitations can only be fixed by Asobo.
 **See the included `CHANGELOG.txt` or [here](https://github.com/albar965/littlenavmap/blob/v3.0.13.beta1/CHANGELOG.txt) online for a complete list across all versions.**
 
 **All files are checked by [VirusTotal](https://www.virustotal.com).**
+
+**Note:** There are always a few false positives on the installer while the majority of 60 to 70 anti-virus see no issue. Download and unpack the Zip archive it if this scares you.
