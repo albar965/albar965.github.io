@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2024-10-17 20:00 +0200
+date:   2025-01-27 13:00 +0100
 release-version: 3.0.12
 ---
 
@@ -13,8 +13,8 @@ release-version: 3.0.12
 
 # ![Little Navmap](assets/images/navroute.png) Little Navmap - Frequently asked Questions {#top}
 
-**Always update to the latest version if you have issues. The latest can be found here:
-[Alex’ Projects - Little Navmap Downloads](https://albar965.github.io/index.html).**
+**Always update to the latest version if you have issues. The latest can be found here:**<br/>
+[► **Alex’ Projects - Little Navmap Downloads**](https://albar965.github.io/index.html)
 
 **Use your browser search function (usually `Ctrl+F` for Windows and Linux or `⌘+F` for macOS) to find topics or keywords.**
 
@@ -36,6 +36,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [**Common Problems**](#problems-general)
 1. [**MSFS Common Problems**](#problems-msfs)
 1. [**After downloading in Windows Edge I see an error message** `Program isn’t commonly downloaded. Make sure you trust Little Navmap` \(or similar\)](#windows-download)
+1. [**VirusTotal detects malware in the downloads**](#virus-total-false-positive)
 1. [The program, all menus and windows look blurry](#blurry)
 1. [Can I publish screenshots of _Little Navmap_, flight plans or other files made with _Little Navmap_?](#copyright)
 1. [Where are the log and configuration files?](#log-and-config-files)
@@ -54,10 +55,8 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [I cannot see my aircraft](#connect)
 1. [AI or online aircraft are only visible when zooming in close](#ai-hidden)
 1. [The flight plan does not show up correctly in MSFS](#flightplan-msfs)
-1. [Waypoints are moved North when loading a flight plan in MSFS](#flightplan-north-msfs)
 1. [There are airways missing over France and central Europe](#airways-missing)
 1. [Can I run _Little Navmap_ offline without an internet connection](#offline)
-1. [SSL Handshake failed on Linux](#ssl-init-linux)
 1. [_Little Navmap_ does not start on Linux](#linux-start)
 1. [_Little Navmap_ or _Little Navconnect_ pop up quickly and vanish](#start-monitor)
 1. [There is a message `SimConnect not found.` in the connect dialog window](#no-simconnect)
@@ -87,10 +86,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Navaids from the X-Plane `user_nav.dat` and the `user_fix.dat` files do not show up in *Little Navmap*](#user-nav-fix-dat)
 1. [An airport looks wrong, has runways pointing in the wrong direction, or its name is misspelled](#airport-wrong)
 1. [How does _Little Navmap_ find the MSFS scenery library, or MSFS installation not found](#msfs-scenery-library)
-1. [Error `Caught exception: NOT NULL constraint failed: tmp_waypoint.region ...` when loading the scenery library](#msfs-scenery-library-no-region)
-1. [Error reading `.../Content.xml“ on line 6 column 13: premature end of document` when loading the scenery library](#msfs-scenery-library-content-xml)
-1. [After adding a userpoint: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id`](#userdata-exception)
-1. [After importing userpoints from CSV: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id`](#userdata-exception-csv)
 1. [Loading of the scenery library database takes a long time](#loading-too-long)
 1. [X-Plane 12 airports are missing on the map or appear with a gray icon](#xp-gray-airports)
 1. [AI and/or multiplayer aircraft disappear early when zooming out](#ai-zoom-out)
@@ -304,10 +299,6 @@ All files and folders created by _Little Navmap_ are described in the chapter [L
 
 _Little Navmap_ does not create any registry entries on Windows except when using the installer.
 
-#### SSL Handshake failed on Linux [**▲**](#top) [🔗](#ssl-init-linux) {#ssl-init-linux}
-
-**Note: This issue was fixed with the Little Navmap version 2.8.8. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
-
 #### _Little Navmap_ does not start on Linux [**▲**](#top) [🔗](#linux-start) {#linux-start}
 
 Commonly missing shared libraries can be installed by entering `sudo apt install libxcb-xinerama0 libxcb-icccm4`.
@@ -512,23 +503,40 @@ You can upload all downloaded files to [VirusTotal](https://www.virustotal.com/)
 
 ----
 
-##### Step 1 - Show more options by clicking the down arrow
+##### Step 2 - Show more options by clicking the down arrow
 
 ![Windows Download Step 1 of 4](assets/images/lnm_windows_download_2_of_4.jpeg)
 
 ----
 
-##### Step 1 - Click to keep the downloaded program anyway
+##### Step 3 - Click to keep the downloaded program anyway
 
 ![Windows Download Step 1 of 4](assets/images/lnm_windows_download_3_of_4.jpeg)
 
 ----
 
-##### Step 1 - Open the file for installation
+##### Step 4 - Open the file for installation
 
 ![Windows Download Step 1 of 4](assets/images/lnm_windows_download_4_of_4.jpeg)
 
-#### The program, all menus and windows look blurry [**▲**](#top) [🔗](#blurry) {#blurry}
+
+#### VirusTotal detects malware in the downloads [**▲**](#top) [🔗](#virus-total-false-positive) {#virus-total-false-positive}
+
+It is normal that VirusTotal shows one or a few positives. This affects mostly the installer `.exe`.
+
+Keep in mind that there are usually 60 to 70 other anti-virus solutions which do not flag the *Little Navmap* download as malware. Therefore, these few positive flags can be considered false positives.
+
+You can download and unpack the Zip archive for a manual installation if this bothers you.
+
+##### Important: Only download Little Navmap from these trusted places:
+
+[► GitHub - Little Navmap Releases](https://github.com/albar965/littlenavmap/releases)<br/>
+[► X-Plane.Org](https://forums.x-plane.org/index.php?/files/file/41694-little-navmap/)<br/>
+[► Alternative Download Locations](https://albar965.github.io/downloads.html)
+
+**Third-party download sites are beyond my control, may offer outdated versions, and might be compromised.**
+
+#### The program, all menus and windows look blurry
 
 Disable the FreeType font engine on Windows on options page `Display and Text`.
 Enabling this option results in better and faster text display on the map, especially for rotated labels.
@@ -665,10 +673,6 @@ Use the top drop-down boxes to change procedures or departure parking. This will
 Apart from these issues above you might see MSFS crashes or otherwise corrupted flight plans when loading.
 
 Read the chapter [Little Navmap User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata) in the *Little Navmap* user manual to minimize issues with different navdata.
-
-#### Waypoints are moved North when loading a flight plan in MSFS [**▲**](#top) [🔗](#flightplan-north-msfs) {#flightplan-north-msfs}
-
-**This issue was fixed with *Little Navmap* release 2.8.12.**
 
 #### There are airways missing over France and central Europe [**▲**](#top) [🔗](#airways-missing) {#airways-missing}
 
@@ -893,38 +897,32 @@ The following are scenery or add-on issues:
 
 #### How does _Little Navmap_ find the MSFS scenery library, or MSFS installation not found [**▲**](#top) [🔗](#msfs-scenery-library) {#msfs-scenery-library}
 
-**Click `Reset Paths` in the scenery library load dialog if you've moved your simulator.**
+_Little Navmap_ looks into fixed installation folders for the various MSFS 2020 and MSFS 2024 installation options. These are MS Online, MS Boxed or Steam for MSFS 2020 and MS Online or Steam for MSFS 2024. There are no Windows registry entries used. Installation on a removable drive or a drive other tha `C:\` is usually no problem.
 
-_Little Navmap_ looks into fixed installation folders for the various MSFS installation options (MS Online, MS Boxed or Steam). There are no Windows registry entries used. Installation on a removable drive is usually no problem.
+Detection problems can usually caused by file permission issues, missing files or folders or remaining files from previous installations.
+
+Replace `USER` in the paths below with your login name.
+
+##### MSFS 2020
+
+**Click `Reset Paths` in the scenery library load dialog if you've moved your simulator.**
 
 _Little Navmap_ first looks for a file `UserCfg.opt` at the following fixed locations:
 1. MS online installation: `C:\Users\USER\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache\UserCfg.opt`
 2. Steam installation: `C:\Users\USER\AppData\Roaming\Microsoft Flight Simulator\UserCfg.opt`
 3. MS Boxed installation: `C:\Users\USER\AppData\Local\MSFSPackages\UserCfg.opt`
 
-Replace `USER` with your login name.
-
 The text file `UserCfg.opt` contains a last line `InstalledPackagesPath` which points to the MSFS scenery library.
 
 From there _Little Navmap_ looks up `...\Official\Steam\fs-base\layout.json` or `...\Official\OneStore\fs-base\layout.json` to check if the installation path is really valid or if it consists only of remains from previous installations.
 
-Detection problems can usually caused by file permission issues, missing files or folders or remaining files from previous installations.
+##### MSFS 2024
 
-#### Error `Caught exception: NOT NULL constraint failed: tmp_waypoint.region ...` when loading the scenery library [**▲**](#top) [🔗](#msfs-scenery-library-no-region) {#msfs-scenery-library-no-region}
+_Little Navmap_ first looks for a file `UserCfg.opt` at the following fixed locations:
+1. MS online installation: `C:\Users\USER\AppData\Local\Packages\Microsoft.Limitless_8wekyb3d8bbwe\LocalCache\UserCfg.opt`
+2. Steam installation: `C:\Users\USER\AppData\Roaming\Microsoft Flight Simulator 2024\UserCfg.opt`
 
-**Note: This issue was fixed with the Little Navmap beta 2.8 versions. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
-
-#### Error reading `.../Content.xml“ on line 6 column 13: premature end of document` when loading the scenery library [**▲**](#top) [🔗](#msfs-scenery-library-content-xml) {#msfs-scenery-library-content-xml}
-
-**Note: This issue was fixed with the *Little Navmap* beta 2.8 versions. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
-
-#### After adding a userpoint: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id` [**▲**](#top) [🔗](#userdata-exception) {#userdata-exception}
-
-**Note: This root issue was fixed with the Little Navmap stable version 2.8.8. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
-
-#### After importing userpoints from CSV: Error `Caught exception in file ..\atools\src\gui\application.cpp line 83 what UNIQUE constraint failed: userdata.userdata_id` [**▲**](#top) [🔗](#userdata-exception-csv) {#userdata-exception-csv}
-
-**Note: This issue was fixed with the Little Navmap stable version 3.0.4. See page [Alex' Projects](https://albar965.github.io/index.html) for latest releases of stable and beta versions.**
+The text file `UserCfg.opt` contains a last line `InstalledPackagesPath` which points to the MSFS scenery library. This is only used to detect a Navigraph navdata update in folder `Community` but not to load the data. Loading uses SimConnect to fetch the airports and navaids from the running simulator.
 
 #### Loading of the scenery library database takes a long time [**▲**](#top) [🔗](#loading-too-long) {#loading-too-long}
 
