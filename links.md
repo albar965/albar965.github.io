@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2024-11-29 20:00 +0100
+date:   2025-02-13 12:00 +0100
 ---
 
 **Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flinks.html).
@@ -43,11 +43,19 @@ This panel works differently than some other solutions which in majority just di
 The most famous and powerful utility for flight simulators now integrated into your cockpit.
 Using *Little Navmap* web server with this new and optimized ingamepanel for Flight Simulator you will can follow your flight like from the main app.
 
+[**► Mark Little Navmap airports as addons from the database of MSFS Addons Linker**](https://flightsim.to/file/88630/altolnm-mark-little-navmap-airports-as-addons-from-the-database-of-msfs-addons-linker)
+
+Little Navmap is not able to mark the airport as an addon because the procedure of building the database of MSFS 2024 changed.
+
+Therefore there is no indication in Little Navmap if an airport is an addon or not.
+
+The utility uses the database of popular MSFS Addons Linker 2024 edition to read the airports and then mark them as addons in Little Navmap.
+
 [**► Map extensions for Little Navmap**](https://flightsim.to/file/6411/map-extensions-for-little-navmap-lnm)
 
 More useable maps for flightplanning with worldwide latin letter naming for *Little Navmap*.
 
-[**► LittleNavMap 'Userpoint Icons'**](https://flightsim.to/file/23181/littlenavmap-userpoint-icons)
+[**► LittleNavmap 'Userpoint Icons'**](https://flightsim.to/file/23181/littlenavmap-userpoint-icons)
 
 Additional icons for marking your favorite places and things in *Little NavMap*.
 
@@ -114,10 +122,6 @@ Foundation (TDF). It can completely replace Microsoft Office.
 
 VirtualBox is a powerful virtualization product for enterprise as well as home use. it is used to
 build and test *Little Navmap* on all supported platforms.
-
-[**► libvirt**](https://libvirt.org/)
-
-A Linux toolkit to manage virtualization platforms besides VirtualBox.
 
 [**► Sphinx**](https://www.sphinx-doc.org)
 
