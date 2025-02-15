@@ -1,8 +1,8 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2025-01-27 13:00 +0100
-release-version: 3.0.12
+date:   2025-02-15 13:00 +0100
+release-version: 3.0.14
 ---
 
 <!-- VERSION_NUMBER_TODO -->
@@ -34,7 +34,8 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 1. [**Troubleshooting**](#troubleshooting)
 1. [**Common Problems**](#problems-general)
-1. [**MSFS Common Problems**](#problems-msfs)
+1. [**MSFS 2020 Common Problems**](#problems-msfs)
+1. [**MSFS 2024 Scenery Library Limitations**](#problems-scenery-msfs24)
 1. [**After downloading in Windows Edge I see an error message** `Program isn’t commonly downloaded. Make sure you trust Little Navmap` \(or similar\)](#windows-download)
 1. [**VirusTotal detects malware in the downloads**](#virus-total-false-positive)
 1. [The program, all menus and windows look blurry](#blurry)
@@ -54,10 +55,11 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Fuel planning and collection gives wrong fuel values](#wrong-fuel-planning)
 1. [I cannot see my aircraft](#connect)
 1. [AI or online aircraft are only visible when zooming in close](#ai-hidden)
-1. [The flight plan does not show up correctly in MSFS](#flightplan-msfs)
+1. [The flight plan does not show up correctly in MSFS 2020](#flightplan-msfs)
 1. [There are airways missing over France and central Europe](#airways-missing)
 1. [Can I run _Little Navmap_ offline without an internet connection](#offline)
 1. [_Little Navmap_ does not start on Linux](#linux-start)
+1. [_Little Navmap_ cannot find a X-Plane Steam Installation on Linux](#linux-xplane)
 1. [_Little Navmap_ or _Little Navconnect_ pop up quickly and vanish](#start-monitor)
 1. [There is a message `SimConnect not found.` in the connect dialog window](#no-simconnect)
 1. [The simulator crashes or the connection drops when using SimConnect and other programs](#simconnect-drop)
@@ -71,14 +73,13 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [**Encrypted add-on found. Add-on might not show up correctly.**](#msfs-notes-encrypted)
 1. [**Found 10 notes in 12 scenery entries when loading the scenery database**](#msfs-notes)
 1. [Buttons for en-route holdings, MSA sectors, MORA grid and others are disabled](#msfs-features-missing)
-1. [TACAN or VORTAC are missing on the map](#msfs-tacan-missing)
 1. [Little Navmap crashes with an SQL error `unknown table fence` or similar](#crash-fence)
 1. [I cannot see all airports](#load-scenery)
 1. [I added an airport and it does not show up in _Little Navmap_](#no-airport)
 1. [Search for airport by country, state or city does not work](#airport-admin-search)
 1. [Airport runway numbers don't match the runway numbers for procedures](#runway-mismatch)
 1. [How to add procedures to airports?](#add-procedures)
-1. [A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_](#no-airport-msfs)
+1. [A MSFS 2020 add-on does not show up after reloading the scenery library in _Little Navmap_](#no-airport-msfs)
 1. [I updated the navdata but it does not show up](#update-navdata-noshow)
 1. [I cannot see aprons and taxiways on the map](#no-aprons-taxi)
 1. [I cannot select a start position](#no-start-pos)
@@ -317,6 +318,13 @@ This will check dependencies for _Little Navmap_, enable extra output for plugin
 
 Look at the file to see missing dependencies or send me this file and I can check which library is missing: [Contact](https://albar965.github.io/contact.html).
 
+### _Little Navmap_ cannot find a X-Plane Steam Installation on Linux [**▲**](#top) [🔗](#linux-xplane) {#linux-xplane}
+
+The problem can appear if Steam uses a Ubuntu Snap package to install X-Plane. This package resides inside a sandbox which does not allow
+communication between _Little Navmap_ and _Little Xpconnect_ which uses shared memory.
+
+I'm not aware of an easy solution for this. Try to install X-Plane in a different way or manually move it out of the Snap sandbox.
+
 #### _Little Navmap_ or _Little Navconnect_ pop up quickly and vanish [**▲**](#top) [🔗](#start-monitor) {#start-monitor}
 
 Chances are that you attached a monitor recently and removed or disconnected it afterwards.
@@ -455,9 +463,9 @@ Have a look at the [Little Navmap User Manual - Tutorials](https://www.littlenav
    or one of the other options on page `Map Navigation` in `Options` if you think it is unusable.
 -  X-Plane airport administrative data like city or country are not accurate and use many wrong variations.
 
-#### MSFS Common Problems [**▲**](#top) [🔗](#problems-msfs) {#problems-msfs}
+#### MSFS 2020 Common Problems [**▲**](#top) [🔗](#problems-msfs) {#problems-msfs}
 
-Read the linked chapter below to minimize issues when loading flight plans into **MSFS**:\\
+Read the linked chapter below to minimize issues when loading flight plans into **MSFS 2020**:\\
 [► Little Navmap User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata).
 
 **Note that many of these issues are a result of MSFS limitations and cannot be fixed in** *Little Navmap* **.**
@@ -483,6 +491,47 @@ Read the linked chapter below to minimize issues when loading flight plans into 
    reports `Error: readInt for file "...OMITTED.../LEMG.bgl" failed. Reason 1`. Exclude the airport
    file from reading in options on page `Scenery Library Database` or simply ignore the message. The
    stock LEMG and all other airports are not affected by this.
+
+#### MSFS 2024 Scenery Library Limitations [**▲**](#top) [🔗](#problems-scenery-msfs24) {#problems-scenery-msfs24}
+
+There are limitations since Little Navmap has to load the complete scenery library through the MSFS
+SimConnect interface and cannot rely on files anymore. All files used by Little Navmap from MSFS
+2020 were dropped due to the streaming only approach of MSFS 2024. This required a full new data
+compiler implementation.
+
+- The simulator has to run to load the scenery library.
+- The simulator connection in Little Navmap has to be paused during loading. You will not see
+  aircraft updates in Little Navmap but you can use Little Navmap normally while loading.
+- Loading airports and navaids takes about 10 to 15 minutes. Better loading times need improvements
+  and fixes in the SimConnect interface which has to provide a world wide list of navaids.
+- A workaround is used to load all navaids which are not connected to procedures or airways until
+  the SimConnect interface is fixed. Note that this workaround
+  does not ensure that really all available navaids are loaded.
+- Detection of add-on airports is not possible. Right click on an airport icon on the map, the
+  airport search result table or the flight plan table and use the function `Mark Airport as add-on`
+  which will add a userpoint on top of an airport marking it as an add-on.
+- Airports have no city, country or state/province names.
+- Airport names or parts of the names are always in your local language as set in MSFS 2024.
+- Neither closed runways nor closed airports can be recognized.
+- Runways used by procedures at an airport where runways have been renamed recently in the real world
+  do not always match. Example: EDDK, LSZR, LSZN, ENSB, EKRN, LFLO, LOWK and more .
+  You will see an orange warning message about runway mismatches in the procedure search tab of Little Navmap.
+- A workaround has to be used to detect if an airport has lighted runways or not. This information
+  is missing in the SimConnect interface. This is not 100 percent reliable.
+- MSFS 2020 provides around 42000 airports while MSFS 2024 has almost 84000 airports. Half of these
+  are heliports.
+- Airspaces are not available through SimConnect. You can use other sources for airspaces. See
+  chapter
+  [Little Navmap User Manual - Loading  Airspaces](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/AIRSPACELOAD.html)
+  for more information and links to public airspace sources.
+- Airport aprons are not available, only taxiways.
+- Airline codes for parking are missing.
+- Different NDBs with the same name and region cannot be loaded due to the limitations of SimConnect.
+  Example BM/UH. This can break airways or procedures in some cases.
+- Note that all path related fields in the load scenery library dialog are disabled when selecting
+  MSFS 2024 since no path is used.
+- Note that detailed user or AI/multiplayer aircraft descriptions are not available in MSFS 2024
+  since aircraft files are not accessible.
 
 #### After downloading in Windows Edge I see an error message `Program isn’t commonly downloaded. Make sure you trust Little Navmap` (or similar) [**▲**](#top) [🔗](#windows-download) {#windows-download}
 
@@ -610,7 +659,7 @@ Actual altitude shown in *Little Navmap* might differ from indicated altitude ev
 This is an effect of the outside air temperature (OAT) on actual altitude where low temperatures affect the aircraft altimeter.
 When temperature is less than ISA conditions an aircraft will be lower than the altimeter reading.
 
-This effect is currently modeled in X-Plane 12 and MSFS.
+This effect is currently modeled in X-Plane 12 and MSFS 2020 MSFS 2024.
 
 Corrections have to be applied when the aerodrome temperature is 0°C or colder:
 
@@ -655,9 +704,9 @@ aircraft on ground and hides them on higher zoom levels.
 
 Go to options on page `Map Display`, section `AI or Multiplayer Aircraft` and disable `Hide Aircraft on Ground` to override this behavior.
 
-#### The flight plan does not show up correctly in MSFS [**▲**](#top) [🔗](#flightplan-msfs) {#flightplan-msfs}
+#### The flight plan does not show up correctly in MSFS 2020 [**▲**](#top) [🔗](#flightplan-msfs) {#flightplan-msfs}
 
-MSFS has many issues loading flight plans. Additionally, the format is not documented yet which requires a lot of guesswork.
+MSFS 2020 has many issues loading flight plans. Additionally, the format is not documented yet which requires a lot of guesswork.
 
 The following issues are known so far:
 - MSFS automatically adds transitions to approach procedures as well as SID and STAR if plan is of type IFR. Changing these can result in a completely new routing.
@@ -706,7 +755,9 @@ See next topic below.
 
 #### Found 10 notes in 12 scenery entries when loading the scenery database [**▲**](#top) [🔗](#msfs-notes) {#msfs-notes}
 
-This message appears after loading the MSFS scenery library. Numbers will differ.
+This message appears after loading the MSFS 2020 scenery library. Numbers will differ.
+
+Note that this issue does not appear with MSFS 2024.
 
 Furthermore there are one or more messages like the one below:
 
@@ -720,10 +771,6 @@ You can still use the airport for flight planning but taxiways, parking spots an
 
 This is related to [A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_](#no-airport-msfs). See there for more information.
 
-#### TACAN or VORTAC are missing on the map for MSFS[**▲**](#top) [🔗](#msfs-tacan-missing) {#msfs-tacan-missing}
-
-These are not yet considered by *Little Navmap* when reading the scenery library.
-
 #### Buttons for en-route holdings, MSA sectors, MORA grid and others are disabled when using MSFS[**▲**](#top) [🔗](#msfs-features-missing) {#msfs-features-missing}
 
 Certain features are not available from the MSFS scenery library. Partially this affects FSX and P3D as well.
@@ -734,8 +781,6 @@ The following features are not provided by the MSFS scenery library:
 
 - One-way attribute for airways
 - Airway maximum altitude restrictions
-- TACAN, these are shown as DME instead
-- VORTAC, shown as VORDME instead
 - MORA grid ([Show Minimum off-route Altitude Grid](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#show-mora-grid))
 - Airport MSA sectors ([Show MSA Sectors](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#view-show-msa-sectors))
 - En-route holdings ([Show Holdings](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#view-show-holdings))
@@ -773,7 +818,9 @@ See topic below for limitations with MSFS.
 Data sources limit this functionality and it depends on the selected navdata source in menu `Scenery Library`:
 
 * Navigraph only: This has only limited administrative airport information. Only airport name (`Frankfurt am Main`), ICAO code (`EDDF`), ICAO region (`ED`) and area code (`EUR`) are available.
-* All other modes: The completeness of administrative information depends on the airport and simulator. Administrative data (State, City, etc.) is often missing for X-Plane airports. Country information is completely missing in MSFS.
+* All other modes: The completeness of administrative information depends on the airport and simulator. Administrative data (State, City, etc.) is often missing for X-Plane airports.
+
+Country information is completely missing in MSFS 2020 and in MSFS 2024 provides only the airport name.
 
 #### Airport runway numbers don't match the runway numbers for procedures [**▲**](#top) [🔗](#runway-mismatch) {#runway-mismatch}
 
@@ -803,7 +850,7 @@ read the procedures from your add-on airport and you can use them like the other
 
 See [Navdata in X-Plane 11](https://developer.x-plane.com/?article=navdata-in-x-plane-11) and [XP-CIFP1101-Spec.pdf](https://developer.x-plane.com/wp-content/uploads/2016/10/XP-CIFP1101-Spec.pdf).
 
-#### A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_ [**▲**](#top) [🔗](#no-airport-msfs) {#no-airport-msfs}
+#### A MSFS 2020 add-on does not show up after reloading the scenery library in _Little Navmap_ [**▲**](#top) [🔗](#no-airport-msfs) {#no-airport-msfs}
 
 Encrypted add-on airports in MSFS cannot be read by *Little Navmap*.
 
@@ -956,7 +1003,6 @@ This affects major airports like KSEA, EDDF or EDDS.
 You can disable this behavior in _Little Navmap_ options on page `Map`.
 Uncheck `Consider all X-Plane airports not being 3D empty` and maybe `Treat empty airports special`
 as well if you don't care about this functionality at all.
-
 
 #### AI and/or multiplayer aircraft disappear early when zooming out [**▲**](#top) [🔗](#ai-zoom-out) {#ai-zoom-out}
 
