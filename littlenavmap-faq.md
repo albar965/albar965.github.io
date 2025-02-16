@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2025-02-16 17:00 +0100
+date:   2025-02-16 20:00 +0100
 release-version: 3.0.14
 ---
 
@@ -310,11 +310,17 @@ Little Navmap supports the Wayland compositor which is used on newer Linux distr
 but you have to install the package `qtwayland5`.
 
 You can run _Little Navmap_ and generate more diagnostics by opening a terminal/shell and cd to the
-_Little Navmap_ installation folder if above does not help. Enter the following:
+_Little Navmap_ installation folder if above does not help.
 
-`bash -c "(ldd littlenavmap && export QT_DEBUG_PLUGINS=1 && ./littlenavmap )" >start_log.txt 2>&1`
+Open a terminal, `cd` to the *Little Navmap* folder and enter the following:
 
-This will check dependencies for _Little Navmap_, enable extra output for plugin loading, run the program and put the output into a file `start_log.txt`.
+`bash -c "(ldd littlenavmap && export QT_DEBUG_PLUGINS=1 && ./littlenavmap )" >$HOME/little_navmap_start_log.txt 2>&1`
+
+If you have used the Debian package (`.deb`) to install, you can use the command:
+
+`cd "/opt/Little Navmap" && bash -c "(ldd littlenavmap && export QT_DEBUG_PLUGINS=1 && ./littlenavmap )" >$HOME/little_navmap_start_log.txt 2>&1`
+
+This will check dependencies for _Little Navmap_, enable extra output for plugin loading, run the program and put the output into a file `little_navmap_start_log.txt` in your home folder.
 
 Look at the file to see missing dependencies or send me this file and I can check which library is missing: [Contact](https://albar965.github.io/contact.html).
 
