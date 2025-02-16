@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2025-02-15 13:00 +0100
+date:   2025-02-16 17:00 +0100
 release-version: 3.0.14
 ---
 
@@ -1157,6 +1157,9 @@ See [Little Navmap User Manual - Installation - macOS](https://www.littlenavmap.
 [Safely open apps on your Mac](https://support.apple.com/HT202491).
 
 Alternatively, you can download the tool [Mac OS - CleanUp Quarantine Flags](https://forums.x-plane.org/index.php?/files/file/79828-mac-os-cleanup-quarantine-flags/) from x-plane.org, place this in the X-Plane base folder and run it to clean up the flags on all plugins at once.
+
+You can also use the tool [Sentinel](https://github.com/alienator88/Sentinel) to clear the quarantine flag of *Little Navmap* or
+the plugin by drag and dropping *Little Navmap* on the tool's window.
 
 #### To open _Little Navmap_ you need to install Rosetta [**▲**](#top) [🔗](#rosetta) {#rosetta}
 
