@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2025-02-16 20:00 +0100
+date:   2025-02-25 16:00 +0100
 release-version: 3.0.14
 ---
 
@@ -35,6 +35,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [**Troubleshooting**](#troubleshooting)
 1. [**Common Problems**](#problems-general)
 1. [**MSFS 2020 Common Problems**](#problems-msfs)
+1. [**MSFS 2024 Common Problems**](#problems-msfs24)
 1. [**MSFS 2024 Scenery Library Limitations**](#problems-scenery-msfs24)
 1. [**After downloading in Windows Edge I see an error message** `Program isn’t commonly downloaded. Make sure you trust Little Navmap` \(or similar\)](#windows-download)
 1. [**VirusTotal detects malware in the downloads**](#virus-total-false-positive)
@@ -432,42 +433,56 @@ Have a look at the [Little Navmap User Manual - Tutorials](https://www.littlenav
 
 #### Common Problems [**▲**](#top) [🔗](#problems-general) {#problems-general}
 
--  Some airport add-ons do not modify the stock airports but only add
-   new scenery and buildings. These add-ons will not be recognized as
-   such and are therefore not highlighted on the map (italic and
-   underlined text).
--  Add-on developers have to use all kind of workarounds to avoid FSX or
-   P3D limitations which means the display and information given for
-   add-on airports is not always correct. A lot of these changes are
-   also done to make AI behave properly. Typical examples are: Airports
-   without runways, airports with runway dimensions 0 by 0 ft or 0 ft
-   runway width, taxiways with 0 ft width, seemingly closed taxiways,
-   duplicate airports, duplicate runways in water, taxiways in water,
-   military gates at civilian airports and more.
--  Some KML/KMZ files do not show up on the map. Adding a center point
-   pushpin to the KML/KMZ file can fix this.
--  There are errors in the online elevation source data (like in
-   northern Italy, Po Valley or Lake Titicaca in Peru and Bolivia) which
-   will show up in the flight plan elevation profile.
--  Magnetic declination is partially not set (for example VORDME
-   Cambridge Bay YCB) or inconsistent between airports an adjacent
-   navaids. This is an error in the source data.
--  Airports are misplaced (for example Cabo San Lucas, MM15 in Mexico for FSX)
-   compared to the background maps. This is an error in the source data
-   and cannot be fixed.
--  Procedures are drawn incorrectly in some cases.
--  The airport search attribute `Procedures` does not work correctly
-   in the mixed database. It will show only simulator airports having
-   procedures instead of using the Navigraph airport status.
--  Dock window layout in Little Navmap can change when resizing or maximizing window and back.
--  Window is restored in normal state when changing from a maximized window to fullscreen and back.
--  The window layout might not be restored precisely on startup in some cases.
--  The height of the elevation profile window cannot be reduced in some cases. Reset to default window
-   layout which fixes this. Rearrange or move the elevation profile window to another position which
-   usually solves this. Save the layout once you have a working one.
--  Zooming with touchpad or magic mouse does not work properly on macOS. Use the navigation overlay
-   or one of the other options on page `Map Navigation` in `Options` if you think it is unusable.
--  X-Plane airport administrative data like city or country are not accurate and use many wrong variations.
+- Some airport add-ons do not modify the stock airports but only add
+  new scenery and buildings. These add-ons will not be recognized as
+  such and are therefore not highlighted on the map (italic and
+  underlined text).
+- Add-on developers have to use all kind of workarounds to avoid FSX or
+  P3D limitations which means the display and information given for
+  add-on airports is not always correct. A lot of these changes are
+  also done to make AI behave properly. Typical examples are: Airports
+  without runways, airports with runway dimensions 0 by 0 ft or 0 ft
+  runway width, taxiways with 0 ft width, seemingly closed taxiways,
+  duplicate airports, duplicate runways in water, taxiways in water,
+  military gates at civilian airports and more.
+- Some KML/KMZ files do not show up on the map. Adding a center point
+  pushpin to the KML/KMZ file can fix this.
+- There are errors in the online elevation source data (like in
+  northern Italy, Po Valley or Lake Titicaca in Peru and Bolivia) which
+  will show up in the flight plan elevation profile.
+- Magnetic declination is partially not set (for example VORDME
+  Cambridge Bay YCB) or inconsistent between airports an adjacent
+  navaids. This is an error in the source data.
+- Airports are misplaced (for example Cabo San Lucas, MM15 in Mexico for FSX)
+  compared to the background maps. This is an error in the source data
+  and cannot be fixed.
+- Procedures are drawn incorrectly in some cases.
+- The airport search attribute `Procedures` does not work correctly
+  in the mixed database. It will show only simulator airports having
+  procedures instead of using the Navigraph airport status.
+- Dock window layout in Little Navmap can change when resizing or maximizing window and back.
+- Window is restored in normal state when changing from a maximized window to fullscreen and back.
+- The window layout might not be restored precisely on startup in some cases.
+- The height of the elevation profile window cannot be reduced in some cases. Reset to default window
+  layout which fixes this. Rearrange or move the elevation profile window to another position which
+  usually solves this. Save the layout once you have a working one.
+- Zooming with touchpad or magic mouse does not work properly on macOS. Use the navigation overlay
+  or one of the other options on page `Map Navigation` in `Options` if you think it is unusable.
+- X-Plane airport administrative data like city or country are not accurate and use many wrong variations.
+
+#### MSFS 2024 Common Problems [**▲**](#top) [🔗](#problems-msfs) {#problems-msfs24}
+
+See also [MSFS 2024 Scenery Library Limitations](#problems-scenery-msfs24) below.
+
+The issues below are entirely MSFS problems and not *Little Navmap*'s fault.
+
+- AI aircraft move in a funny way, move across the wrong places or jump.
+- AI ships don't move and/or stack in the wrong places.
+- An aircraft circling somewhere over the ocean is shown while the simulator shows the startup menu.
+- Departure parking cannot be set when exporting flight plans. The new MSFS 2024 PLN format does not support this.
+- There is a runway 01/19 in the middle of KJFK which does not exist in the real world.
+- Heavy stutters while loading the MSFS 2024 scenery library.
+  This is normal since a lot of data is transferred through the SimConnect interface.
 
 #### MSFS 2020 Common Problems [**▲**](#top) [🔗](#problems-msfs) {#problems-msfs}
 
@@ -476,27 +491,28 @@ Read the linked chapter below to minimize issues when loading flight plans into 
 
 **Note that many of these issues are a result of MSFS limitations and cannot be fixed in** *Little Navmap* **.**
 
--  Navdata updates are not read properly from the MSFS scenery library. This is in general no issue
-   since you can also update the navdata in *Little Navmap* with the Navigraph FMS Data Manager to keep the
-   program in sync with MSFS. Stock data is not affected by this. See [Little Navmap User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata).
--  You can set a parking spot or fuel pad as starting position in a flight plan but note that runways and
-   helipads as starting positions will be ignored by MSFS.
--  Parking spots having suffixes cannot be loaded by MSFS, Example EDDG, 18A to 18E.
--  MSFS multiplayer and real-time AI cannot be displayed. These do not appear in the SimConnect
-   interface.
--  Simulator weather cannot be shown for MSFS since SimConnect weather functions are deprecated and
-   do not deliver data. Use NOAA weather which gives you the most up-to-date weather reports.
--  Flight plan loading in MSFS has issues and does not produce any error messages if it fails.
--  Country names are missing in MSFS translation tables and are not available in *Little Navmap*,
-   therefore.
--  Add-ons using the `.fsarchive` encrypted format are not supported. *Little Navmap* will show
-   only the stock airport instead of the add-on if a package is locked down like this.
--  Some aircraft mods do not report correct fuel flow to work around simulator limitations. This
-   cannot be fixed in *Little Navmap*.
--  Some airports files like `LEMG.bgl` cannot be read due to unknown format. *Little Navmap*
-   reports `Error: readInt for file "...OMITTED.../LEMG.bgl" failed. Reason 1`. Exclude the airport
-   file from reading in options on page `Scenery Library Database` or simply ignore the message. The
-   stock LEMG and all other airports are not affected by this.
+- Navdata updates are not read properly from the MSFS scenery library. This is in general no issue
+  since you can also update the navdata in *Little Navmap* with the Navigraph FMS Data Manager to keep the
+  program in sync with MSFS. Stock data is not affected by this. See
+  [Little Navmap User Manual - Microsoft Flight Simulator 2020 Airports and Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html#load-scenery-library-dialog-msfs-apt-navdata).
+- You can set a parking spot or fuel pad as starting position in a flight plan but note that runways and
+  helipads as starting positions will be ignored by MSFS.
+- Parking spots having suffixes cannot be loaded by MSFS, Example EDDG, 18A to 18E.
+- MSFS multiplayer and real-time AI cannot be displayed. These do not appear in the SimConnect
+  interface.
+- Simulator weather cannot be shown for MSFS since SimConnect weather functions are deprecated and
+  do not deliver data. Use NOAA weather which gives you the most up-to-date weather reports.
+- Flight plan loading in MSFS has issues and does not produce any error messages if it fails.
+- Country names are missing in MSFS translation tables and are not available in *Little Navmap*,
+  therefore.
+- Add-ons using the `.fsarchive` encrypted format are not supported. *Little Navmap* will show
+  only the stock airport instead of the add-on if a package is locked down like this.
+- Some aircraft mods do not report correct fuel flow to work around simulator limitations. This
+  cannot be fixed in *Little Navmap*.
+- Some airports files like `LEMG.bgl` cannot be read due to unknown format. *Little Navmap*
+  reports `Error: readInt for file "...OMITTED.../LEMG.bgl" failed. Reason 1`. Exclude the airport
+  file from reading in options on page `Scenery Library Database` or simply ignore the message. The
+  stock LEMG and all other airports are not affected by this.
 
 #### MSFS 2024 Scenery Library Limitations [**▲**](#top) [🔗](#problems-scenery-msfs24) {#problems-scenery-msfs24}
 
