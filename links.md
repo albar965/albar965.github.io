@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2025-02-13 12:00 +0100
+date:   2025-02-26 12:00 +0100
 ---
 
 **Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flinks.html).
@@ -38,10 +38,13 @@ For MSFS 2020 and MSFS 2024.
 
 This panel works differently than some other solutions which in majority just display a static image with a map view together with information in a form of a tables exactly as returned by Little Navmap. Here the map is constructed from the tiles and is displayed continuously so it can be zoomed and dragged. Data from the tables is extracted so it can be displayed and manipulated in any context, basically allowing me to an entirely different app on top of it.
 
-[**► Ingamepanel NAVMAP for Flight Simulator**](https://flightsimulator.me/simulators/flight-simulator/panels/105-ingamepanel-navmap-for-flight-simulator)
+[**► ALL IN ONE**](https://flightsimulator.me)
 
-The most famous and powerful utility for flight simulators now integrated into your cockpit.
-Using *Little Navmap* web server with this new and optimized ingamepanel for Flight Simulator you will can follow your flight like from the main app.
+The most famous and powerful utility for flight simulators now integrated into your cabin. Using the *Little Navmap* web server with this new, optimized in-game dashboard for Flight Simulator, you'll be able to track your flight like from the main app, with all the options.
+
+If you think that many panels in the toolbar is a mess and you prefer to have everything better organized, this is the right plugin for you. Have a hyper-realistic tablet in the cockpit, just like the real thing.
+
+You can switch between apps without missing anything by pressing the button on the tablet. When you return to the previous app, it will be where you left off.
 
 [**► Mark Little Navmap airports as addons from the database of MSFS Addons Linker**](https://flightsim.to/file/88630/altolnm-mark-little-navmap-airports-as-addons-from-the-database-of-msfs-addons-linker)
 
