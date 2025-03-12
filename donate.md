@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Donations / Spenden"
-date:   2024-10-07 15:00 +0200
+date:   2025-03-12 20:00 +0100
 ---
 
 **Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Fdonate.html).
@@ -16,6 +16,14 @@ I have no plans to change this. Donations are purely optional but greatly apprec
 **If you would like to show your appreciation and support the further development of Little Navmap, you can donate here.**
 
 If you prefer an **EU bank transfer**, just send me an email and I will send back my bank account details.
+
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#108;&#101;&#120;&#32;&#65;&#84;&#32;&#108;&#105;&#116;&#116;&#108;&#101;&#110;&#97;&#118;&#109;&#97;&#112;&#32;&#68;&#79;&#84;&#32;&#111;&#114;&#103;" rel="nofollow"
+   onmouseenter="this.href='mailto:' +  'alex' + '@' + 'little' + 'nav' + 'map' + '.' + 'org'"
+   onmouseleave="this.href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#108;&#101;&#120;&#32;&#65;&#84;&#32;&#108;&#105;&#116;&#116;&#108;&#101;&#110;&#97;&#118;&#109;&#97;&#112;&#32;&#68;&#79;&#84;&#32;&#111;&#114;&#103;'">
+   <span class="bold">► Click here to contact me by email (&#97;lex<!-- mimi@momomo.tv -->
+   AT<!-- a@example.org -->  littlenavmap
+   <!-- @lnm -->  DOT<!-- @lnm.com -->  or&#103;)</span>
+</a>
 
 ## PayPal
 
@@ -58,6 +66,14 @@ Ich beabsichtige nicht, dies zu ändern. Spenden sind und bleiben vollkommen fre
 **Wenn Sie Ihre Wertschätzung für meine Arbeit zeigen möchten und die weitere Entwicklung von Little Navmap unterstützen möchten, können Sie hier spenden.**
 
 Wenn Sie eine **EU-Banküberweisung** bevorzugen, schicken Sie mir einfach eine E-Mail und ich werde Ihnen meine Kontodaten zurücksenden.
+
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#108;&#101;&#120;&#32;&#65;&#84;&#32;&#108;&#105;&#116;&#116;&#108;&#101;&#110;&#97;&#118;&#109;&#97;&#112;&#32;&#68;&#79;&#84;&#32;&#111;&#114;&#103;" rel="nofollow"
+   onmouseenter="this.href='mailto:' +  'alex' + '@' + 'little' + 'nav' + 'map' + '.' + 'org'"
+   onmouseleave="this.href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#108;&#101;&#120;&#32;&#65;&#84;&#32;&#108;&#105;&#116;&#116;&#108;&#101;&#110;&#97;&#118;&#109;&#97;&#112;&#32;&#68;&#79;&#84;&#32;&#111;&#114;&#103;'">
+   <span class="bold">► Hier klicken, um mich per Email zu kontaktieren (&#97;lex<!-- mimi@momomo.tv -->
+   AT<!-- a@example.org -->  littlenavmap
+   <!-- @lnm -->  DOT<!-- @lnm.com -->  or&#103;)</span>
+</a>
 
 ## PayPal
 
