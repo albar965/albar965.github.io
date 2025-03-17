@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2024-10-07 15:00 +0200
+date:   2025-03-25 13:00 +0100
 ---
 
 **Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Fcontact.html).
@@ -37,7 +37,7 @@ describes how to create a report Zip archive containing all needed files.
 
 **Please use _either the forum or email_ to avoid confusion and additional effort. Please do not use both.**
 
-**The email link below is encoded to avoid spam. You have to click it to open an email editing window.**
+**The email link below is encoded to avoid spam. You have to click it to open an email editing window. If this does not work right-click on it and select** `Copy Email Address` **or similar.**
 
 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#108;&#101;&#120;&#32;&#65;&#84;&#32;&#108;&#105;&#116;&#116;&#108;&#101;&#110;&#97;&#118;&#109;&#97;&#112;&#32;&#68;&#79;&#84;&#32;&#111;&#114;&#103;" rel="nofollow"
    onmouseenter="this.href='mailto:' +  'alex' + '@' + 'little' + 'nav' + 'map' + '.' + 'org'"

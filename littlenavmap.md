@@ -1,10 +1,10 @@
 ---
 layout: subpage
 title:  "Little Navmap"
-date:   2025-02-15 13:00 +0100
+date:   2025-03-25 13:00 +0100
 ---
 
-**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flittlenavmap.html).
+**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flittlenavmap.html). <small>Note that this can break download links.</small>
 
 [Alex’ Projects](index.html) ► Little Navmap
 

@@ -1,10 +1,10 @@
 ---
 layout: subpage
 title:  "Donations / Spenden"
-date:   2025-03-12 20:00 +0100
+date:   2025-03-25 13:00 +0100
 ---
 
-**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Fdonate.html).
+**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Fdonate.html). <small>Note that this can break external links.</small>
 
 [Alex’ Projects](index.html) ► Donations / Spenden
 

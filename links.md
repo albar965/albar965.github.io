@@ -1,16 +1,21 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2025-02-26 12:00 +0100
+date:   2025-03-25 13:00 +0100
 ---
 
-**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flinks.html).
+**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flinks.html). <small>Note that this can break download links.</small>
 
 [Alex’ Projects](index.html) ► Little Navmap - Links
 
 ## Useful Software {#useful-software}
 
 See also in the Avsim *Little Navmap* support forum in the pinned posts for more tools.
+
+<p style="color: #c00000; background: rgba(250, 220, 220, 0.5); font-size: 1em;">
+  <b>Please note that these projects are not developed by me.<br/>
+  Please contact the respective author if you have any questions or requests.</b>
+</p>
 
 [**► FlightLog Analyzer**](https://flightloganalyzer.com/)
 

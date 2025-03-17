@@ -1,13 +1,13 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2025-02-25 16:00 +0100
+date:   2025-03-25 13:00 +0100
 release-version: 3.0.16
 ---
 
 <!-- VERSION_NUMBER_TODO -->
 
-**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flittlenavmap-faq.html).
+**Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flittlenavmap-faq.html). <small>Note that this can break download links.</small>
 
 [Alex’ Projects](index.html) ► Little Navmap - Frequently asked Questions
 
