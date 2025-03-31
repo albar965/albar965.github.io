@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2025-03-25 13:00 +0100
+date:   2025-03-31 21:00 +0200
 release-version: 3.0.16
 ---
 
@@ -47,7 +47,8 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [**The program does not start and Windows shows an error message**](#no-start)
 1. [How can I create a flight plan](#flightplan)
 1. [The map is jumping around randomly while flying](#aircraft-center)
-1. [How to backup userdata or the logbook](#userdata-backup)
+1. [How to backup userpoints or the logbook](#userdata-backup)
+1. [I get an exception importing userpoints](#userdata-exception)
 1. [Navaids or airways are marked red in the flight plan table](#red-navaids)
 1. [The elevation profile is a flat line at cruise altitude](#profile-flat)
 1. [Search result is empty](#search-empty)
@@ -645,6 +646,25 @@ You have to close _Little Navmap_ before creating a backup or replacing the data
 
 Little Navmap also creates three rolling backups (`little_navmap_userdata.sqlite.1`, etc.) on startup which you can use
 if you deleted something accidentally.
+
+
+#### I get an exception importing userpoints [**▲**](#top) [🔗](#userdata-exception) {#userdata-exception}
+
+Older versions of *Little Navmap* have a bug that can leave the user point database in an inconsistent state.
+The problem often occurs later.
+
+Do the following if you get an exception when importing userpoints from a CSV or another file:
+
+1. Go to the *Little Navmap* menu `Userpoint` and select `Export CSV`.
+   Deselect `Export selected entries only` if enabled (i.e. not grayed out) and click `OK`.
+2. Quit *Little Navmap*.
+3. Delete the database file `C:\Users\YOURUSERNAME\AppData\Roaming\ABarthel\little_navmap_db\little_navmap_userdata.sqlite`.
+   See [User Manual - Files](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/FILES.html) for file locations
+   in other operating systems.
+4. Start *Little Navmap* again.
+5. Import the backed up CSV file from 1. again.
+
+This should solve the problem and allow you to import files again.
 
 #### Navaids or airways are marked red in the flight plan table [**▲**](#top) [🔗](#red-navaids) {#red-navaids}
 
