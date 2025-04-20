@@ -1,12 +1,12 @@
 ---
 layout: subpage
 title:  "User Manuals"
-date:   2024-03-11 14:00 +0100
+date:   2025-04-20 13:00 +0200
 release-version: 3.0
 release-version-beta: 3.0
 ---
 
-<!-- VERSION_NUMBER_TODO -->
+<!-- VERSION_NUMBER_TODO update branch -->
 
 [Alex’ Projects](index.html) ► User Manuals
 

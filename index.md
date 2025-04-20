@@ -1,8 +1,8 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2025-03-25 13:00 +0100
-release-version: 3.0.16
+date:   2025-04-20 13:00 +0200
+release-version: 3.0.17
 ---
 
 <!-- VERSION_NUMBER_TODO -->

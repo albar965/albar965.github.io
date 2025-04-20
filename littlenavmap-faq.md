@@ -1,8 +1,8 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2025-03-31 21:00 +0200
-release-version: 3.0.16
+date:   2025-04-20 13:00 +0200
+release-version: 3.0.17
 ---
 
 <!-- VERSION_NUMBER_TODO -->
@@ -1299,6 +1299,11 @@ The files contain one line for each X-Plane installation pointing to the base pa
 
 *Little Navmap* will disable the simulator in the load scenery library dialog window if the files are missing or contain invalid paths.
 The first path found is used as the base path.
+
+**Delete the file and start X-Plane to rebuild it if Little Navmap cannot find your X-Plane installation.**
+
+In any case you can change the path manually in the *Little Navmap* dialog window from menu `Scenery Library` -> [Load Scenery Library](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MENUS.html#load-scenery-library-load-scenery-library) to point to the
+base folder of the X-Plane installation.
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
