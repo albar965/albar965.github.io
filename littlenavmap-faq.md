@@ -1,8 +1,8 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-date:   2025-04-20 13:00 +0200
 release-version: 3.0.17
+date:   2025-06-16 11:00 +0200
 ---
 
 <!-- VERSION_NUMBER_TODO -->
@@ -541,6 +541,8 @@ compiler implementation.
   You will see an orange warning message about runway mismatches in the procedure search tab of Little Navmap.
 - A workaround has to be used to detect if an airport has lighted runways or not. This information
   is missing in the SimConnect interface. This is not 100 percent reliable.
+- The MSFS 2024 SimConnect interface does not provide ICAO airport information for terminal waypoints,
+  even though this is required for flight plans. Consequently, this type of waypoints is omitted when loading into the MSFS EFB.
 - MSFS 2020 provides around 42000 airports while MSFS 2024 has almost 84000 airports. Half of these
   are heliports.
 - Airspaces are not available through SimConnect. You can use other sources for airspaces. See
