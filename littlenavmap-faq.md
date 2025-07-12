@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.17
-date:   2025-06-16 11:00 +0200
+date:   2025-07-12 12:00 +0200
 ---
 
 <!-- VERSION_NUMBER_TODO -->
@@ -96,6 +96,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 ### User Interface {#ui}
 
 1. [Is there a night or dark mode for the user interface](#night)
+1. [Some colors like procedure text is hard to read when using system dark mode](#dark-mode)
 1. [Text and/or icons appear very small on a 4k or other high resolution monitor](#highdpi)
 1. [How can I make the map window bigger](#map-window)
 1. [How can I make the map window larger](#resize-map)
@@ -1064,6 +1065,10 @@ Look for the section `AI or Multiplayer Aircraft` and deselect `Hide Aircraft on
 If you'd like to use a dark mode or night mode when flying: Enable this in menu `Window` -> `Styles` -> `Dark`
 
 The darkness of the map window can be adjusted in options on page `Map` -> `Map dimming in dark style`.
+
+#### Some colors like procedure text is hard to read when using system dark mode [**▲**](#top) [🔗](#dark-mode) {#dark-mode}
+
+*Little Navmap* does not adapt to the dark mode of operating systems. If some texts are hard to read or have too low a contrast, use the integrated dark mode in Little Navmap instead. Enable this mode in menu `Window` -> `Styles` -> `Dark`
 
 #### Text and/or icons appear very small on a 4k or other high resolution monitor [**▲**](#top) [🔗](#highdpi) {#highdpi}
 
