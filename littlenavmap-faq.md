@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.17
-date:   2025-07-12 12:00 +0200
+date:   2025-07-24 13:00 +0200
 ---
 
 <!-- VERSION_NUMBER_TODO -->
@@ -1209,6 +1209,9 @@ Alternatively, you can download the tool [Mac OS - CleanUp Quarantine Flags](htt
 
 You can also use the tool [Sentinel](https://github.com/alienator88/Sentinel) to clear the quarantine flag of *Little Navmap* or
 the plugin by drag and dropping *Little Navmap* on the tool's window.
+
+Another tool is [Drop Quarantine for MacOS (Big Sur+)](https://forums.x-plane.org/files/file/77523-drop-quarantine-for-macos-big-sur/)
+.
 
 #### To open _Little Navmap_ you need to install Rosetta [**▲**](#top) [🔗](#rosetta) {#rosetta}
 
