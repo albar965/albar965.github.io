@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2025-04-20 13:00 +0200
+date:   2025-08-27 13:00 +0200
 release-version: 3.0.17
 ---
 
@@ -83,7 +83,9 @@ Zipped Windows releases without installer are available in the alternative downl
 
 [**► Frequently asked Questions**](littlenavmap-faq.html) Solutions for known problems and more.
 
-[**► Install Navigraph Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
+[**► Install Navigraph Navigation Data Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
+
+[**► Install SIMDATA Navigation Data Updates by KEYVAN**](littlenavmap_simdata.html) Update the X-Plane navigation database with SIMDATA and use it in _Little Navmap_.
 
 [**► Downloads**](https://www.littlenavmap.org/downloads) Aircraft performance profiles and more.
 
@@ -108,6 +110,11 @@ _Little Navmap_ comes with a **detailed user manual including several tutorials*
 A cycle 1801 database courtesy of Navigraph is included in the download and includes navaids,
 airways, airspaces, procedures and more. The **navigation data can be updated using the [Navigraph
 FMS Data Manager](https://navigraph.com/apps/navigation-data/fms-data-manager)** (subscription required).
+
+The navigation database also supports navigation data updates **SIMDATA by [KEYVAN](https://www.keyvan.aero)** for X-Plane 11 and X-Plane 12.
+
+[Using SIMDATA with X-Plane 11 and X-Plane 12](littlenavmap_simdata.html) explains the installation.
+
 
 | ---- | ---- |
 | [![Little Navmap 2.2.2 spherical map projection and elevation profile with flight plan](assets/images/spherical_small.jpg)](assets/images/spherical.jpg) | [![Little Navmap 2.2.2 sun shadow on globe](assets/images/sunshadow_small.jpg)](assets/images/sunshadow.jpg) |
