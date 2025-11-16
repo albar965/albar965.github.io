@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.17
-date:   2025-07-24 13:00 +0200
+date:   2025-11-16 14:00 +0200
 ---
 
 <!-- VERSION_NUMBER_TODO -->
@@ -523,6 +523,11 @@ SimConnect interface and cannot rely on files anymore. All files used by Little 
 2020 were dropped due to the streaming only approach of MSFS 2024. This required a full new data
 compiler implementation.
 
+- **Detection of add-on airports is not possible.** Right click on an airport icon on the map, the
+  airport search result table or the flight plan table and use the function `Mark Airport as add-on`
+  which will add a userpoint on top of an airport marking it as an add-on.
+- **Some airports have an unknown runway surface.** Therefore, it cannot be determined if an airport has
+  hard or soft runways which can affect map display filters and the search function.
 - The simulator has to run to load the scenery library.
 - The simulator connection in Little Navmap has to be paused during loading. You will not see
   aircraft updates in Little Navmap but you can use Little Navmap normally while loading.
@@ -531,12 +536,9 @@ compiler implementation.
 - A workaround is used to load all navaids which are not connected to procedures or airways until
   the SimConnect interface is fixed. Note that this workaround
   does not ensure that really all available navaids are loaded.
-- Detection of add-on airports is not possible. Right click on an airport icon on the map, the
-  airport search result table or the flight plan table and use the function `Mark Airport as add-on`
-  which will add a userpoint on top of an airport marking it as an add-on.
-- Airports have no city, country or state/province names.
+- **Airports have no city, country or state/province names.**
 - Airport names or parts of the names are always in your local language as set in MSFS 2024.
-- Neither closed runways nor closed airports can be recognized.
+- **Neither closed runways nor closed airports can be recognized.**
 - Runways used by procedures at an airport where runways have been renamed recently in the real world
   do not always match. Example: EDDK, LSZR, LSZN, ENSB, EKRN, LFLO, LOWK and more .
   You will see an orange warning message about runway mismatches in the procedure search tab of Little Navmap.
@@ -546,11 +548,11 @@ compiler implementation.
   even though this is required for flight plans. Consequently, this type of waypoints is omitted when loading into the MSFS EFB.
 - MSFS 2020 provides around 42000 airports while MSFS 2024 has almost 84000 airports. Half of these
   are heliports.
-- Airspaces are not available through SimConnect. You can use other sources for airspaces. See
+- **Airspaces are not available** through SimConnect. You can use other sources for airspaces. See
   chapter
   [Little Navmap User Manual - Loading  Airspaces](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/AIRSPACELOAD.html)
   for more information and links to public airspace sources.
-- Airport aprons are not available, only taxiways.
+- **Airport aprons are not available**, only taxiways.
 - Airline codes for parking are missing.
 - Different NDBs with the same name and region cannot be loaded due to the limitations of SimConnect.
   Example BM/UH. This can break airways or procedures in some cases.
