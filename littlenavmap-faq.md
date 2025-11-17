@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.17
-date:   2025-11-16 14:00 +0200
+date:   2025-11-17 12:00 +0200
 ---
 
 <!-- VERSION_NUMBER_TODO -->
@@ -15,6 +15,8 @@ date:   2025-11-16 14:00 +0200
 
 **Always update to the latest version if you have issues. The latest can be found here:**<br/>
 [► **Alex’ Projects - Little Navmap Downloads**](https://albar965.github.io/index.html)
+
+**It is advisable not to downgrade to an earlier version, as it can corrupt the user settings.**
 
 **Use your browser search function (usually `Ctrl+F` for Windows and Linux or `⌘+F` for macOS) to find topics or keywords.**
 
@@ -238,6 +240,8 @@ You might either:
 In either case do not merge the two old and new directories. Remains of previous versions might cause issues.
 
 Always update all related programs like *Little Navconnect* and *Little Xpconnect*.
+
+**It is advisable not to downgrade to an earlier version, as it can corrupt the user settings.**
 
 #### Where are the log and configuration files? [**▲**](#top) [🔗](#log-and-config-files) {#log-and-config-files}
 
