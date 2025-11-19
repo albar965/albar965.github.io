@@ -1,11 +1,11 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2025-08-27 13:00 +0200
-release-version: 3.0.17
+date:   2025-11-19 14:00 +0100
+release-version: 3.0.18
 ---
 
-<!-- VERSION_NUMBER_TODO -->
+<!-- VERSION_NUMBER_TODO Change release-version above. -->
 
 **Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Findex.html). <small>Note that this can break download links.</small>
 
@@ -49,14 +49,14 @@ release-version: 3.0.17
 
 [**► Windows 64-bit Installer \(*MSFS 2020, MSFS 2024 and X-Plane*\)** - LittleNavmap-win64-{{ page.release-version }}-Install.exe](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-win64-{{ page.release-version }}-Install.exe)<br/>
 [**► macOS** - LittleNavmap-macOS-{{ page.release-version }}.zip](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-macOS-{{ page.release-version }}.zip)<br/>
-[**► Linux \(64 bit, based on Ubuntu 22.04\)** - LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}.tar.xz)<br/>
-[**► Linux Debian Installation Package \(64 bit, based on Ubuntu 22.04\)** - LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}-1_amd64.deb](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}-1_amd64.deb)
+[**► Linux \(64 bit, based on Ubuntu 24.04\)** - LittleNavmap-linux-ubuntu-24.04-{{ page.release-version }}.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-24.04-{{ page.release-version }}.tar.xz)<br/>
+[**► Linux Debian Installation Package \(64 bit, based on Ubuntu 24.04\)** - LittleNavmap-linux-ubuntu-24.04-{{ page.release-version }}-1_amd64.deb](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-24.04-{{ page.release-version }}-1_amd64.deb)
 
 **Other Versions:**
 
 [► Windows 32-bit Installer \(*only for FSX and P3D*\) - LittleNavmap-win32-{{ page.release-version }}-Install.exe](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-win32-{{ page.release-version }}-Install.exe)<br/>
-[► Linux \(64 bit, based on Ubuntu 20.04 for Debian or older systems\) - LittleNavmap-linux-ubuntu-20.04-{{ page.release-version }}.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-20.04-{{ page.release-version }}.tar.xz)<br/>
-[► Linux Debian Installation Package \(64 bit, based on Ubuntu 20.04\) - LittleNavmap-linux-ubuntu-20.04-{{ page.release-version }}-1_amd64.deb](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-20.04-{{ page.release-version }}-1_amd64.deb)
+[► Linux \(64 bit, based on Ubuntu 22.04 for Debian or older systems\) - LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}.tar.xz)<br/>
+[► Linux Debian Installation Package \(64 bit, based on Ubuntu 22.04\) - LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}-1_amd64.deb](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}-1_amd64.deb)
 
 Zipped Windows releases without installer are available in the alternative download locations below or from the release assets at [GitHub - Little Navmap Releases - Version {{ page.release-version }}](https://github.com/albar965/littlenavmap/releases/v{{ page.release-version }}) \(scroll down to `Assets`\).
 

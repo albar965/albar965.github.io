@@ -1,11 +1,11 @@
 ---
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
-release-version: 3.0.17
-date:   2025-11-17 12:00 +0200
+release-version: 3.0.18
+date:   2025-11-19 14:00 +0100
 ---
 
-<!-- VERSION_NUMBER_TODO -->
+<!-- VERSION_NUMBER_TODO Change release-version above. -->
 
 **Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flittlenavmap-faq.html). <small>Note that this can break download links.</small>
 
