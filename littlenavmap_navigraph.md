@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Install Navigraph Updates"
-date:   2024-10-07 15:00 +0200
+date:   2025-11-29 20:00 +0100
 ---
 
 **Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flittlenavmap_navigraph.html).
@@ -20,6 +20,8 @@ You will see the webpage below where you can select the `Navigation Data subscri
 ![Select navdata option](assets/images/navdata_only.jpg)
 
 This will allow you to download navdata and update *Little Navmap*, simulators and add-ons to the latest AIRAC cycle on a monthly basis.
+
+**Please note that you must use the Navigraph FMS Data Manager to update the Little Navmap database. The Navigraph Hub does not support this.**
 
 ## Scenery Library Menu
 

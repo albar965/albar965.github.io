@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.18
-date:   2025-11-19 14:00 +0100
+date:   2025-11-29 20:00 +0100
 ---
 
 <!-- VERSION_NUMBER_TODO Change release-version above. -->
@@ -840,8 +840,11 @@ The following features are not provided by the MSFS scenery library:
 See also [Load Scenery Library](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/SCENERY.html) and
 [Navigation Databases](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NAVDATA.html) for more information.
 
-You can avoid these limitations by updating the MSFS and *Little Navmap* navdata with a Navigraph subscription and the Navigraph FMS Data Manager
-[Install Navigraph Updates](https://albar965.github.io/littlenavmap_navigraph.html).
+**You can avoid these limitations by updating the MSFS and *Little Navmap* navdata with a Navigraph subscription and the Navigraph FMS Data Manager
+[Install Navigraph Updates](https://albar965.github.io/littlenavmap_navigraph.html).**
+
+**Please note that you must use the Navigraph FMS Data Manager to update the Little Navmap database. The Navigraph Hub does not support this.**
+
 
 #### Little Navmap crashes with an SQL error `unknown table fence` or similar [**▲**](#top) [🔗](#crash-fence) {#crash-fence}
 
