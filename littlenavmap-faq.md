@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.18
-date:   2025-11-29 20:00 +0100
+date:   2025-12-01 13:00 +0100
 ---
 
 <!-- VERSION_NUMBER_TODO Change release-version above. -->
@@ -420,8 +420,8 @@ You see an error about a missing GLIBC version on the terminal when running *Lit
 ./littlenavmap: /lib/x86_64-linux-gnu/libc.so.6: version GLIBC_2.34' not found (required by ./littlenavmap)
 ```
 
-Use the *Little Navmap* build based on Ubuntu 20.04. You can find it in the assets of every release on GitHub.
-For example [LittleNavmap-linux-ubuntu-20.04-{{ page.release-version }}.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-20.04-{{ page.release-version }}.tar.xz).
+Use the *Little Navmap* build based on Ubuntu 22.04. You can find it in the assets of every release on GitHub.
+For example [LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}.tar.xz).
 
 The functionality of this build is identical to the 22.04 builds ad they use the same settings folder and files.
 
