@@ -109,11 +109,6 @@ A cycle 1801 database courtesy of Navigraph is included in the download and incl
 airways, airspaces, procedures and more. The **navigation data can be updated using the [Navigraph
 FMS Data Manager](https://navigraph.com/apps/navigation-data/fms-data-manager)** (subscription required).
 
-The navigation database also supports navigation data updates **SIMDATA by [KEYVAN](https://www.keyvan.aero)** for X-Plane 11 and X-Plane 12.
-
-[Using SIMDATA with X-Plane 11 and X-Plane 12](littlenavmap_simdata.html) explains the installation.
-
-
 | ---- | ---- |
 | [![Little Navmap 2.2.2 spherical map projection and elevation profile with flight plan](assets/images/spherical_small.jpg)](assets/images/spherical.jpg) | [![Little Navmap 2.2.2 sun shadow on globe](assets/images/sunshadow_small.jpg)](assets/images/sunshadow.jpg) |
 
