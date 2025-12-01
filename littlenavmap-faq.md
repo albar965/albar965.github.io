@@ -368,7 +368,7 @@ You're probably missing common libraries on your computer if the file exists but
 You need to get the download links in chapter `Visual Studio 2015, 2017, 2019 and 2022` for `X86` and `X64`.
 
 You can also download the files directly from the _Little Navmap_ download page:<br/>
-_Little Navmap Downloads - Windows Redistributable Packages -_ [vcredist_2015-2022.x64.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_2015-2022.x64.exe) and [vcredist_2015-2022.x86.exe](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/vcredist_2015-2022.x86.exe).
+[Little Navmap Downloads - Windows Redistributable Packages](https://www.littlenavmap.org/downloads/Windows%20Redistributable%20Packages/).
 
 Restart _Little Navmap_ after installing the packages. The error message should be gone.
 
@@ -888,17 +888,11 @@ It's neither a _Little Navmap_ nor Navigraph issue. It is an unavoidable real wo
 
 See the [Little Navmap User Manual - Navdata](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/NAVDATA.html) chapter in the manual for more information.
 
-For **FSX or Prepar3D** you can use the [Airport Design Editor](https://www.scruffyducksoftware.com/airport-design-editor) to change the runway numbers.
-
 Use [WED](https://developer.x-plane.com/tools/worldeditor/) to change an airport for X-Plane or download the latest airport from the [The X-Plane Scenery Gateway](https://gateway.x-plane.com/).
 
 #### How to add procedures to airports? [**▲**](#top) [🔗](#add-procedures) {#add-procedures}
 
 This is a very complex task.
-
-For **FSX or Prepar3D** you can use the [Airport Design Editor](https://www.scruffyducksoftware.com/airport-design-editor),
-add procedures to the airport and then switch off Navigraph in the scenery library menu. _Little Navmap_ will
-read the procedures from your add-on airport and you can use them like the others.
 
 **X-Plane**: You can try to create a CIFP file but this is very complex and not recommended as stated on the page [here](https://developer.x-plane.com/?article=navdata-in-x-plane-11#How_do_I_make_my_own_approach_No_hand_editing_please).
 

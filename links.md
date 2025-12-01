@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Little Navmap - Links"
-date:   2025-03-25 13:00 +0100
+date:   2025-12-01 13:00 +0100
 ---
 
 **Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Flinks.html). <small>Note that this can break download links.</small>
@@ -71,17 +71,11 @@ Additional icons for marking your favorite places and things in *Little NavMap*.
 
 CSV database of all default POIs in MSFS for import into *Little Navmap*. 2120 POIs in total sorted in separate files.
 
-[**► Twitch-bot**](https://github.com/Matt-Cummins/Twitch-Flight-Simulation-Bot)
-
-gpt4o-mini driven Twitch bot for flight simmers. Connects to LittleNavMap for sim independent positional info.
-
-Your_AI_Overlord is a Twitch bot designed to enhance the streaming experience for a flight simulation streamer. The bot provides a variety of commands for both the streamer and their viewers, integrates with Twitch chat for seamless interaction, and delivers an engaging, humorous personality to make the content more entertaining. The bot embodies an authoritative, sarcastic AI persona practicing "world domination" through managing a Twitch channel.
-
 ## Software used to create Little Navmap {#software}
 
 All used software is open source. Most used programs run on Windows, Linux and macOS.
 
-[**► Qt**](https://https://www.qt.io/)
+[**► Qt**](https://www.qt.io/)
 
 Qt is a cross-platform software for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms.
 
