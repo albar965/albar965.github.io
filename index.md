@@ -85,8 +85,6 @@ Zipped Windows releases without installer are available in the alternative downl
 
 [**► Install Navigraph Navigation Data Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
-[**► Install SIMDATA Navigation Data Updates by KEYVAN**](littlenavmap_simdata.html) Update the X-Plane navigation database with SIMDATA and use it in _Little Navmap_.
-
 [**► Downloads**](https://www.littlenavmap.org/downloads) Aircraft performance profiles and more.
 
 [**► Useful Software**](links.html) A link collection of helpful tools as well as open source tools used to create *Little Navmap*.
