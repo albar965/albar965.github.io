@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2025-11-19 14:00 +0100
+date:   2026-03-10 13:00 +0100
 release-version: 3.0.18
 ---
 
@@ -79,7 +79,7 @@ Zipped Windows releases without installer are available in the alternative downl
 
 [**► Contact and Support**](contact.html) Links, support forum and email.
 
-[**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Support and help for users.
+[**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Support and help for users. An ad-blocker like [uBlock Origin (uBO)](https://github.com/gorhill/uBlock) or [AdGuard](https://adguard.com) is recommended.
 
 [**► Frequently asked Questions**](littlenavmap-faq.html) Solutions for known problems and more.
 

@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2025-03-25 13:00 +0100
+date:   2026-03-10 13:00 +0100
 ---
 
 **Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Fcontact.html).
@@ -22,7 +22,7 @@ You can also find all releases on [GitHub](https://github.com/albar965/littlenav
 
 [**► Frequently asked Questions**](littlenavmap-faq.html) Solutions for known problems and more.
 
-[**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Support and help for users.
+[**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Support and help for users. An ad-blocker like [uBlock Origin (uBO)](https://github.com/gorhill/uBlock) or [AdGuard](https://adguard.com) is recommended.
 
 [**► GitHub Issues**](https://github.com/albar965/littlenavmap/issues) Tasks and bug reports.
 

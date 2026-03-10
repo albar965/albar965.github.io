@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.18
-date:   2025-12-01 13:00 +0100
+date:   2026-03-10 13:00 +0100
 ---
 
 <!-- VERSION_NUMBER_TODO Change release-version above. -->
@@ -75,6 +75,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 1. [**How can I update the navdata to the latest cycle**](#update-navdata)
 1. [**Encrypted add-on found. Add-on might not show up correctly.**](#msfs-notes-encrypted)
+1. [**A MSFS 2020 add-on does not show up after reloading the scenery library in _Little Navmap_**](#no-airport-msfs)
 1. [**Found 10 notes in 12 scenery entries when loading the scenery database**](#msfs-notes)
 1. [Buttons for en-route holdings, MSA sectors, MORA grid and others are disabled](#msfs-features-missing)
 1. [Little Navmap crashes with an SQL error `unknown table fence` or similar](#crash-fence)
@@ -83,7 +84,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Search for airport by country, state or city does not work](#airport-admin-search)
 1. [Airport runway numbers don't match the runway numbers for procedures](#runway-mismatch)
 1. [How to add procedures to airports?](#add-procedures)
-1. [A MSFS 2020 add-on does not show up after reloading the scenery library in _Little Navmap_](#no-airport-msfs)
 1. [I updated the navdata but it does not show up](#update-navdata-noshow)
 1. [I cannot see aprons and taxiways on the map](#no-aprons-taxi)
 1. [I cannot select a start position](#no-start-pos)
@@ -799,11 +799,8 @@ This disables all network connections in _Little Navmap_.
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
-
+#### A MSFS 2020 add-on does not show up after reloading the scenery library in _Little Navmap_ [**▲**](#top) [🔗](#no-airport-msfs) {#no-airport-msfs}
 #### Encrypted add-on found. Add-on might not show up correctly [**▲**](#top) [🔗](#msfs-notes-encrypted) {#msfs-notes-encrypted}
-
-See next topic below.
-
 #### Found 10 notes in 12 scenery entries when loading the scenery database [**▲**](#top) [🔗](#msfs-notes) {#msfs-notes}
 
 This message appears after loading the MSFS 2020 scenery library. Numbers will differ.
@@ -817,10 +814,13 @@ Scenery Title: OneStore
 Encrypted add-on "asobo-airport-eddf-frankfurt" found. Add-on might not show up correctly.
 ```
 
-This is not an error message but merely a reminder that the layout of encrypted payware airports in _Little Navmap_ might not match what you see in the simulator.
-You can still use the airport for flight planning but taxiways, parking spots and aprons might probably differ.
+This is not an error message but merely a reminder that the layout of encrypted payware airports in _Little Navmap_ might not match what you see in the simulator. You can still use the stock airport shown in Little Navmap for flight planning but keep in mind that parking, taxiways or aprons might probably look different in the simulator.
 
-This is related to [A MSFS add-on does not show up after reloading the scenery library in _Little Navmap_](#no-airport-msfs). See there for more information.
+**Encrypted, locked down add-on airports in MSFS cannot be read by Little Navmap.**
+
+The add-on is locked down with a DRM ([Digital _Restriction_ Management](https://en.wikipedia.org/wiki/Digital_rights_management)) scheme if you find a file `BGL.fsarchive` in the add-on folders. _Little Navmap_ will not show a new airport or only the stock airport if an add-on replaces a stock one.
+
+Buy add-ons directly from developers instead of the Microsoft market which enforces encryption. Alternatively you can also use and support freeware scenery.
 
 #### Buttons for en-route holdings, MSA sectors, MORA grid and others are disabled when using MSFS[**▲**](#top) [🔗](#msfs-features-missing) {#msfs-features-missing}
 
@@ -897,16 +897,6 @@ This is a very complex task.
 **X-Plane**: You can try to create a CIFP file but this is very complex and not recommended as stated on the page [here](https://developer.x-plane.com/?article=navdata-in-x-plane-11#How_do_I_make_my_own_approach_No_hand_editing_please).
 
 See [Navdata in X-Plane 11](https://developer.x-plane.com/?article=navdata-in-x-plane-11) and [XP-CIFP1101-Spec.pdf](https://developer.x-plane.com/wp-content/uploads/2016/10/XP-CIFP1101-Spec.pdf).
-
-#### A MSFS 2020 add-on does not show up after reloading the scenery library in _Little Navmap_ [**▲**](#top) [🔗](#no-airport-msfs) {#no-airport-msfs}
-
-Encrypted add-on airports in MSFS cannot be read by *Little Navmap*.
-
-The add-on is locked down with a DRM ([Digital _Restriction_ Management](https://en.wikipedia.org/wiki/Digital_rights_management)) scheme if you find a file `BGL.fsarchive` in the add-on folders. *Little Navmap* will not show a new airport or only the stock airport if an add-on replaces a stock one.
-
-You can still use the stock airport shown in _Little Navmap_ for flight planning but keep in mind that parking, taxiways or aprons might probably look different in the simulator.
-
-Buy add-ons directly from developers instead of the Microsoft market which enforces encryption. Alternatively you can also use and support freeware scenery.
 
 #### How can I update the navdata to the latest cycle [**▲**](#top) [🔗](#update-navdata) {#update-navdata}
 
