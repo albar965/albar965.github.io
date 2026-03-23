@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2026-03-10 13:00 +0100
+date:   2026-03-26 22:00 +0100
 release-version: 3.0.18
 ---
 
@@ -73,6 +73,8 @@ Zipped Windows releases without installer are available in the alternative downl
 
 [**► User Manuals**](/manuals.html)
 
+[**► Flying Low: The Little Navmap Handbook**](https://store.x-plane.org/Flying-Low-The-Little-Navmap-Handbook_p_2179.html) **The Comprehensive Illustrated Guide to Little Navmap: 400+ Pages**
+
 [**► Screenshots**](littlenavmapscreens.html)
 
 -----
@@ -82,6 +84,7 @@ Zipped Windows releases without installer are available in the alternative downl
 [**► Support Forum at _Avsim_**](https://www.avsim.com/forum/780-little-navmap-little-navconnect-little-logbook-support-forum) Support and help for users. An ad-blocker like [uBlock Origin (uBO)](https://github.com/gorhill/uBlock) or [AdGuard](https://adguard.com) is recommended.
 
 [**► Frequently asked Questions**](littlenavmap-faq.html) Solutions for known problems and more.
+
 
 [**► Install Navigraph Navigation Data Updates**](littlenavmap_navigraph.html) Shows how to update the included Navigraph database to the latest cycle.
 
@@ -119,7 +122,7 @@ airways, en-route holdings, airspaces, oceanic tracks, high altitude winds, AI o
 aircraft and ships as well as airport weather and winds aloft. A seamlessly integrated **airport
 diagram** displays taxiways, displaced thresholds, overrun areas, aprons, parking spots and more.
 
-Users can place **airport traffic patterns**, **holdings** or **minimum sector altitude diagrams** for visual guidance on the map.
+Users can place **range rings**, **airport traffic patterns**, **holdings** or **minimum sector altitude diagrams** for visual guidance on the map.
 
 Unlike static charts, *Little Navmap* allows you to customize the way the map is displayed.
 
