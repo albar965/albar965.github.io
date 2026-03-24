@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2026-03-26 22:00 +0100
+date:   2026-03-24 16:00 +0100
 release-version: 3.0.18
 ---
 
@@ -73,7 +73,7 @@ Zipped Windows releases without installer are available in the alternative downl
 
 [**► User Manuals**](/manuals.html)
 
-[**► Flying Low: The Little Navmap Handbook**](https://store.x-plane.org/Flying-Low-The-Little-Navmap-Handbook_p_2179.html) **The Comprehensive Illustrated Guide to Little Navmap: 400+ Pages**
+[**► Flying Low: The Little Navmap Handbook**](https://secure.simmarket.com/dave-britzius-flight-simulator-cockpits-flying-low-little-navmap-handbook-pdf.phtmll) **The Comprehensive Illustrated Guide to Little Navmap: 400+ Pages**
 
 [**► Screenshots**](littlenavmapscreens.html)
 
