@@ -73,7 +73,7 @@ Zipped Windows releases without installer are available in the alternative downl
 
 [**► User Manuals**](/manuals.html)
 
-[**► Flying Low: The Little Navmap Handbook**](https://secure.simmarket.com/dave-britzius-flight-simulator-cockpits-flying-low-little-navmap-handbook-pdf.phtmll) **The Comprehensive Illustrated Guide to Little Navmap: 400+ Pages**
+[**► Flying Low: The Little Navmap Handbook**](https://secure.simmarket.com/dave-britzius-flight-simulator-cockpits-flying-low-little-navmap-handbook-pdf.phtml) **The Comprehensive Illustrated Guide to Little Navmap: 400+ Pages**
 
 [**► Screenshots**](littlenavmapscreens.html)
 
