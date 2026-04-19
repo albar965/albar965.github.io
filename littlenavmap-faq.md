@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.18
-date:   2026-03-10 13:00 +0100
+date:   2026-04-19 13:00 +0200
 ---
 
 <!-- VERSION_NUMBER_TODO Change release-version above. -->
@@ -476,7 +476,7 @@ Have a look at the [Little Navmap User Manual - Tutorials](https://www.littlenav
   or one of the other options on page `Map Navigation` in `Options` if you think it is unusable.
 - X-Plane airport administrative data like city or country are not accurate and use many wrong variations.
 
-#### MSFS 2024 Common Problems [**▲**](#top) [🔗](#problems-msfs) {#problems-msfs24}
+#### MSFS 2024 Common Problems [**▲**](#top) [🔗](#problems-msfs24) {#problems-msfs24}
 
 See also [MSFS 2024 Scenery Library Limitations](#problems-scenery-msfs24) below.
 
