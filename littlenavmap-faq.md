@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.18
-date:   2026-04-19 13:00 +0200
+date:   2026-07-26 12:00 +0200
 ---
 
 <!-- VERSION_NUMBER_TODO Change release-version above. -->
@@ -34,6 +34,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### General {#general}
 
+1. [**OpenStreetMap map blocked with error 403**](#osmblock)
 1. [**Troubleshooting**](#troubleshooting)
 1. [**Common Problems**](#problems-general)
 1. [**MSFS 2020 Common Problems**](#problems-msfs)
@@ -142,7 +143,28 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ## Frequently asked Questions and Issues {#contents}
 
-### Troubleshooting {#troubleshooting}
+### OpenStreetMap map blocked with error 403 [**▲**](#top) [🔗](#osmblock) {#osmblock}
+
+You see images containing an error message instead of map tiles. **This is not a user or installation problem.**
+
+![Error message on the map](assets/images/osmblock.jpg)
+
+OpenStreetMap administrators blocked access for *Little Navmap* for no apparent reason based on the [user agent](https://en.wikipedia.org/wiki/User-Agent_header). This was done intentionally without contacting me before. *Little Navmap* does not violate their policies.
+
+The best solution is to use another map like the [OpenTopoMap](https://opentopomap.org/) or one of the other maps which require an account but are still free. You can select a map theme from the *Little Navmap* menu `View` -> `Theme`. Note that themes suffixed with a `*` require a user account.
+
+I recommend to register at [Thunderforest](https://www.thunderforest.com) or [Maptiler](https://www.maptiler.com) and add the key in *Little Navmap* since they have quite good maps including hill-shading. See [Little Navmap User Manual - Map Web Service Configuration](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/OPTIONS.html#map-web-service-configuration) for information about installation.
+
+Another option is to install the [OpenStreetMap German.zip](https://www.littlenavmap.org/downloads/Map%20Themes/OpenStreetMap%20German.zip) or [OpenStreetMap French.zip](https://www.littlenavmap.org/downloads/Map%20Themes/OpenStreetMap%20French.zip). The big plus over the plain OpenStreetMap is that you can see readable names in Asia, for example.
+More map themes can be found a [Little Navmap Downloads - Map Themes](https://www.littlenavmap.org/downloads/Map%20Themes/).
+
+The next version of *Little Navmap* will fix this.
+
+The image below shows the map theme selection toolbar button:
+
+![Error message on the map](assets/images/osmblockmaptheme.jpg)
+
+### Troubleshooting [**▲**](#top) [🔗](#troubleshooting) {#troubleshooting}
 
 #### How to fix issues
 
