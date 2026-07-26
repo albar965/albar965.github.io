@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title:  "Contact and Support"
-date:   2026-03-10 13:00 +0100
+date:   2026-07-26 12:00 +0200
 ---
 
 **Translate this page on the fly into your language using** [Google Translate](https://translate.google.com/translate?sl=en&u=https%3A%2F%2Falbar965.github.io%2Fcontact.html).
@@ -9,6 +9,11 @@ date:   2026-03-10 13:00 +0100
 [Alex’ Projects](index.html) ► Contact and Support
 
 # ![Little Navmap](assets/images/navroute.png) Contact and Support
+
+## OpenStreetMap Error 403
+
+See the [**Frequently asked Questions - OpenStreetMap map blocked with error 403**](littlenavmap-faq.html#osmblock) if you see error messages on the map.
+
 
 ## Notes
 
