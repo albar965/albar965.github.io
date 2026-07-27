@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.18
-date:   2026-07-26 12:00 +0200
+date:   2026-07-27 22:00 +0200
 ---
 
 <!-- VERSION_NUMBER_TODO Change release-version above. -->
@@ -157,6 +157,8 @@ I recommend to register at [Thunderforest](https://www.thunderforest.com) or [Ma
 
 Another option is to install the [OpenStreetMap German.zip](https://www.littlenavmap.org/downloads/Map%20Themes/OpenStreetMap%20German.zip) or [OpenStreetMap French.zip](https://www.littlenavmap.org/downloads/Map%20Themes/OpenStreetMap%20French.zip). The big plus over the plain OpenStreetMap is that you can see readable names in Asia, for example.
 More map themes can be found a [Little Navmap Downloads - Map Themes](https://www.littlenavmap.org/downloads/Map%20Themes/).
+
+The installation instructions are here: [Little Navmap - Map Themes](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MAPTHEMES.html)
 
 The next version of *Little Navmap* will fix this.
 
