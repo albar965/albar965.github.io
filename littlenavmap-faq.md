@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.18
-date:   2026-07-27 22:00 +0200
+date:   2026-07-28 19:00 +0200
 ---
 
 <!-- VERSION_NUMBER_TODO Change release-version above. -->
@@ -34,7 +34,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 
 ### General {#general}
 
-1. [**OpenStreetMap map blocked with error 403**](#osmblock)
 1. [**Troubleshooting**](#troubleshooting)
 1. [**Common Problems**](#problems-general)
 1. [**MSFS 2020 Common Problems**](#problems-msfs)
@@ -71,6 +70,7 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 1. [Too many errors when trying to connect to FSX](#no-fsx-connect)
 1. [I see strange texts with question marks in curly brackets like `{2020.?}` in the program windows and dialogs](#strange-texts)
 1. [Error version `GLIBCXX_3.4.29' not found` or smilar on Linux](#glibc-linux)
+1. [**OpenStreetMap map blocked with error 403** SOLVED](#osmblock)
 
 ### Airports, scenery library, userpoint and navigation data {#scenery}
 
@@ -142,29 +142,6 @@ Read below if you plan to use *Little Navmap* on a remote computer across a netw
 <!-- ================================================================================================ -->
 
 ## Frequently asked Questions and Issues {#contents}
-
-### OpenStreetMap map blocked with error 403 [**▲**](#top) [🔗](#osmblock) {#osmblock}
-
-You see images containing an error message instead of map tiles. **This is not a user or installation problem.**
-
-![Error message on the map](assets/images/osmblock.jpg)
-
-OpenStreetMap administrators blocked access for *Little Navmap* for no apparent reason based on the [user agent](https://en.wikipedia.org/wiki/User-Agent_header). This was done intentionally without contacting me before. *Little Navmap* does not violate their policies.
-
-The best solution is to use another map like the [OpenTopoMap](https://opentopomap.org/) or one of the other maps which require an account but are still free. You can select a map theme from the *Little Navmap* menu `View` -> `Theme`. Note that themes suffixed with a `*` require a user account.
-
-I recommend to register at [Thunderforest](https://www.thunderforest.com) or [Maptiler](https://www.maptiler.com) and add the key in *Little Navmap* since they have quite good maps including hill-shading. See [Little Navmap User Manual - Map Web Service Configuration](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/OPTIONS.html#map-web-service-configuration) for information about installation.
-
-Another option is to install the [OpenStreetMap German.zip](https://www.littlenavmap.org/downloads/Map%20Themes/OpenStreetMap%20German.zip) or [OpenStreetMap French.zip](https://www.littlenavmap.org/downloads/Map%20Themes/OpenStreetMap%20French.zip). The big plus over the plain OpenStreetMap is that you can see readable names in Asia, for example.
-More map themes can be found a [Little Navmap Downloads - Map Themes](https://www.littlenavmap.org/downloads/Map%20Themes/).
-
-The installation instructions are here: [Little Navmap - Map Themes](https://www.littlenavmap.org/manuals/littlenavmap/release/latest/en/MAPTHEMES.html)
-
-The next version of *Little Navmap* will fix this.
-
-The image below shows the map theme selection toolbar button:
-
-![Error message on the map](assets/images/osmblockmaptheme.jpg)
 
 ### Troubleshooting [**▲**](#top) [🔗](#troubleshooting) {#troubleshooting}
 
@@ -448,6 +425,11 @@ Use the *Little Navmap* build based on Ubuntu 22.04. You can find it in the asse
 For example [LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v{{ page.release-version }}/LittleNavmap-linux-ubuntu-22.04-{{ page.release-version }}.tar.xz).
 
 The functionality of this build is identical to the 22.04 builds ad they use the same settings folder and files.
+
+### OpenStreetMap map blocked with error 403 [**▲**](#top) [🔗](#osmblock) {#osmblock}
+
+The problem was solved on July 26, 2026.
+See this Avsim post for information how to clear the cache: [OpenStreetMap Blocks Map with 403 \[SOLVED\]](https://www.avsim.com/forums/topic/698993-openstreetmap-blocks-map-with-403/).
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
