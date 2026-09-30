@@ -1,7 +1,7 @@
 ---
 layout: index
 title:  "Alex' Projects"
-date:   2026-03-24 16:00 +0100
+date:   2026-09-30 17:00 +0200
 release-version: 3.0.18
 ---
 
@@ -100,8 +100,8 @@ Zipped Windows releases without installer are available in the alternative downl
 
 ## Little Navmap {#littlenavmap}
 
-![Little Navmap](assets/images/navroute.png) **_Little Navmap_** is a free open source flight planner, navigation tool, moving map,
-airport search and airport information system for **Microsoft Flight Simulator 2020, Microsoft Flight Simulator 2024, X-Plane 11, X-Plane 12, Flight Simulator X and Prepar3D** is available for **Windows, Apple macOS and Linux**.
+![Little Navmap](assets/images/navroute.png) **_Little Navmap_ is a power tool**, a free open source flight planner, navigation tool, moving map,
+airport search and airport information system for **Microsoft Flight Simulator 2020, Microsoft Flight Simulator 2024, X-Plane 11, X-Plane 12, Flight Simulator X and Prepar3D** and is available for **Windows, Apple macOS and Linux**.
 
 **_Little Navmap_ does not track its users and does not display advertisements.**
 
@@ -111,6 +111,8 @@ _Little Navmap_ comes with a **detailed user manual including several tutorials*
 A cycle 1801 database courtesy of Navigraph is included in the download and includes navaids,
 airways, airspaces, procedures and more. The **navigation data can be updated using the [Navigraph
 FMS Data Manager](https://navigraph.com/apps/navigation-data/fms-data-manager)** (subscription required).
+
+**The navigaton data of _Little Navmap_ can be updated with Navigraph and it is also compatible with XPNavData.**
 
 | ---- | ---- |
 | [![Little Navmap 2.2.2 spherical map projection and elevation profile with flight plan](assets/images/spherical_small.jpg)](assets/images/spherical.jpg) | [![Little Navmap 2.2.2 sun shadow on globe](assets/images/sunshadow_small.jpg)](assets/images/sunshadow.jpg) |
