@@ -17,7 +17,6 @@ release-version: 3.2.1.beta
 
 **Other Versions:**
 
-[► Windows 32-bit Installer \(*only for FSX and P3D*\) - LittleNavmap-win32-3.2.1.beta-Install.exe](https://github.com/albar965/littlenavmap/releases/download/v3.2.1.beta/LittleNavmap-win32-3.2.1.beta-Install.exe)<br/>
 [► Linux \(64 bit, based on Ubuntu 22\.04 for Debian or older systems\) - LittleNavmap-linux-ubuntu-22\.04-3.2.1.beta.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v3.2.1.beta/LittleNavmap-linux-ubuntu-22\.04-3.2.1.beta.tar.xz)<br/>
 [► Linux Debian Installation Package \(64 bit, based on Ubuntu 22\.04\) - LittleNavmap-linux-ubuntu-22\.04-3.2.1.beta-1_amd64.deb](https://github.com/albar965/littlenavmap/releases/download/v3.2.1.beta/LittleNavmap-linux-ubuntu-22\.04-3.2.1.beta-1_amd64.deb)
 
