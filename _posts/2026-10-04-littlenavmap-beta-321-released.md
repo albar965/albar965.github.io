@@ -17,8 +17,8 @@ release-version: 3.2.1.beta
 
 **Other Versions:**
 
-[► Linux \(64 bit, based on Ubuntu 22\.04 for Debian or older systems\) - LittleNavmap-linux-ubuntu-22\.04-3.2.1.beta.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v3.2.1.beta/LittleNavmap-linux-ubuntu-22\.04-3.2.1.beta.tar.xz)<br/>
-[► Linux Debian Installation Package \(64 bit, based on Ubuntu 22\.04\) - LittleNavmap-linux-ubuntu-22\.04-3.2.1.beta-1_amd64.deb](https://github.com/albar965/littlenavmap/releases/download/v3.2.1.beta/LittleNavmap-linux-ubuntu-22\.04-3.2.1.beta-1_amd64.deb)
+[► Linux \(64 bit, based on Ubuntu 22.04 for Debian or older systems\) - LittleNavmap-linux-ubuntu-22.04-3.2.1.beta.tar.xz](https://github.com/albar965/littlenavmap/releases/download/v3.2.1.beta/LittleNavmap-linux-ubuntu-22.04-3.2.1.beta.tar.xz)<br/>
+[► Linux Debian Installation Package \(64 bit, based on Ubuntu 22.04\) - LittleNavmap-linux-ubuntu-22.04-3.2.1.beta-1_amd64.deb](https://github.com/albar965/littlenavmap/releases/download/v3.2.1.beta/LittleNavmap-linux-ubuntu-22.04-3.2.1.beta-1_amd64.deb)
 
 Zipped Windows releases without installer are available in the alternative download locations below or from the release assets at [GitHub - Little Navmap Releases - Version 3.2.1.beta](https://github.com/albar965/littlenavmap/releases/v3.2.1.beta) \(scroll down to `Assets`\).
 
