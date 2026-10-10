@@ -34,12 +34,11 @@ changelog=
     </p>
   </body>
 
-
-[beta]
-version=3.2.1.beta
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v3.2.1.beta/LittleNavmap-win64-3.2.1.beta-Install.exe
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v3.2.1.beta/LittleNavmap-macOS-3.2.1.beta.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v3.2.1.beta/LittleNavmap-linux-ubuntu-24.04-3.2.1.beta.tar.xz
+  [beta]
+version=3.2.2.beta
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v3.2.2.beta/LittleNavmap-win64-3.2.2.beta-Install.exe
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v3.2.2.beta/LittleNavmap-macOS-3.2.2.beta.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v3.2.2.beta/LittleNavmap-linux-ubuntu-26.04-3.2.2.beta.tar.xz
 changelog=
   <body>
     <head>
@@ -52,17 +51,12 @@ changelog=
       </style>
     </head>
     <p style="font: x-large; font-weight: bold;"><br/><br/>
-      <a href="https://albar965.github.io/release/2026/10/04/littlenavmap-beta-321-released.html">
-      Little Navmap Beta / Test Version 3.2.1.beta released
+      <a href="https://albar965.github.io/release/2026/10/10/littlenavmap-beta-322-released.html">
+      Little Navmap Beta / Test Version 3.2.2.beta released
       </a>
     </p>
     <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
       Click above link for the full announcement,<br/>changelog and download links<br/>for all operating systems.
-    </p>
-    <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
-      Note that you need to download the 32-bit version<br/>
-      from the <a href="https://albar965.github.io/release/2026/10/04/littlenavmap-beta-321-released.html">link above</a>
-      if you use FSX or Prepar3D.
     </p>
   </body>
 
