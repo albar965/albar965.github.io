@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.18
-date:   2026-07-28 19:00 +0200
+date:   2026-11-25 15:00 +0100
 ---
 
 <!-- VERSION_NUMBER_TODO Change release-version above. -->
@@ -1214,7 +1214,9 @@ Another tool is [Drop Quarantine for MacOS (Big Sur+)](https://forums.x-plane.or
 
 #### To open _Little Navmap_ you need to install Rosetta [**▲**](#top) [🔗](#rosetta) {#rosetta}
 
-*Little Navmap* (unlike Little Xpconnect) is not compiled to run natively on Apple Silicon. You need to install Rosetta. The impact on performance is negligible. See [How to install Rosetta](https://support.apple.com/HT211861).
+*Little Navmap* (unlike Little Xpconnect) versions until 3.0.18 are not compiled to run natively on Apple Silicon. You need to install Rosetta. The impact on performance is negligible. See [How to install Rosetta](https://support.apple.com/HT211861).
+
+Note that *Little Navmap* versions Little Navmap 3.2.1.beta and later are now built into a universal binary containing Intel and Arm architectures. Rosetta is not needed anymore to run *Little Navmap* and *Little Navconnect* when using these newer versions.
 
 <!-- ================================================================================================ -->
 <!-- ================================================================================================ -->
