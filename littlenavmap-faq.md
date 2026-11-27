@@ -2,7 +2,7 @@
 layout: subpage
 title:  "Little Navmap - Frequently asked Questions"
 release-version: 3.0.18
-date:   2026-11-25 15:00 +0100
+date:   2026-11-27 17:00 +0100
 ---
 
 <!-- VERSION_NUMBER_TODO Change release-version above. -->
@@ -309,6 +309,8 @@ All files and folders created by _Little Navmap_ are described in the chapter [L
 _Little Navmap_ does not create any registry entries on Windows except when using the installer.
 
 #### _Little Navmap_ does not start on Linux [**▲**](#top) [🔗](#linux-start) {#linux-start}
+
+The latest beta versions 3.2.X require the Ubuntu 24.04 build of _Little Navmap_ to work on **Linux Mint 22.3**. Also run `sudo apt install libxcb-cursor0` to install a missing library.
 
 Commonly missing shared libraries can be installed by entering `sudo apt install libxcb-xinerama0 libxcb-icccm4`.
 
