@@ -35,10 +35,10 @@ changelog=
   </body>
 
 [beta]
-version=3.2.3.beta
-downloadwin=https://github.com/albar965/littlenavmap/releases/download/v3.2.3.beta/LittleNavmap-win64-3.2.3.beta-Install.exe
-downloadmac=https://github.com/albar965/littlenavmap/releases/download/v3.2.3.beta/LittleNavmap-macOS-3.2.3.beta.zip
-downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v3.2.3.beta/LittleNavmap-linux-ubuntu-26.04-3.2.3.beta.tar.xz
+version=3.2.4.beta
+downloadwin=https://github.com/albar965/littlenavmap/releases/download/v3.2.4.beta/LittleNavmap-win64-3.2.4.beta-Install.exe
+downloadmac=https://github.com/albar965/littlenavmap/releases/download/v3.2.4.beta/LittleNavmap-macOS-3.2.4.beta.zip
+downloadlinux=https://github.com/albar965/littlenavmap/releases/download/v3.2.4.beta/LittleNavmap-linux-ubuntu-26.04-3.2.4.beta.tar.xz
 changelog=
   <body>
     <head>
@@ -51,8 +51,8 @@ changelog=
       </style>
     </head>
     <p style="font: x-large; font-weight: bold;"><br/><br/>
-      <a href="https://albar965.github.io/release/2026/10/31/littlenavmap-beta-323-released.html">
-      Little Navmap Beta / Test Version 3.2.3.beta released
+      <a href="https://albar965.github.io/release/2026/11/28/littlenavmap-beta-324-released.html">
+      Little Navmap Beta / Test Version 3.2.4.beta released
       </a>
     </p>
     <p style="font: large; font-weight: bold; vertical-align:middle"><br/><br/>
